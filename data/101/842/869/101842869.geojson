@@ -13,10 +13,13 @@
     "iso:country":"FR",
     "lbl:latitude":45.142032,
     "lbl:longitude":1.443388,
+    "lbl:max_zoom":15.0,
+    "lbl:min_zoom":11.5,
     "mps:latitude":45.142032,
     "mps:longitude":1.443388,
     "mz:hierarchy_label":1,
     "mz:is_current":1,
+    "mz:min_zoom":11.0,
     "name:afr_x_preferred":[
         "Saint-Pantal\u00e9on-de-Larche"
     ],
@@ -266,9 +269,6 @@
     "name:ukr_x_preferred":[
         "\u0421\u0435\u043d-\u041f\u0430\u043d\u0442\u0430\u043b\u0435\u043e\u043d-\u0434\u0435-\u041b\u0430\u0440\u0448"
     ],
-    "name:unk_x_variant":[
-        "Saint-Pantal\u00e9on"
-    ],
     "name:urd_x_preferred":[
         "\u0633\u06cc\u0646\u0679-\u067e\u0646\u062a\u0644\u06cc\u0648\u06ba -\u062f\u06d2-\u0644\u0691\u06a9\u06be"
     ],
@@ -323,7 +323,7 @@
         "quattroshapes_pg",
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl_centroid":"mapshaper",
     "src:population":"geonames",
     "wd:wordcount":20,
     "wof:belongsto":[
@@ -341,10 +341,12 @@
         "fct:id":"0a62431c-8f76-11e1-848f-cfd5bf3ef515",
         "gn:id":2977753,
         "gp:id":626203,
-        "qs:id":902731,
-        "qs_pg:id":930672,
+        "qs_pg:id":902731,
         "wd:id":"Q957452",
         "wk:page":"Sirolo"
+    },
+    "wof:concordances_alt":{
+        "qs_pg:id":930672
     },
     "wof:coterminous":[
         404349773
@@ -368,7 +370,7 @@
     "wof:lang":[
         "fre"
     ],
-    "wof:lastmodified":1561834202,
+    "wof:lastmodified":1566612265,
     "wof:name":"Saint-Pantal\u00e9on-de-Larche",
     "wof:parent_id":404349773,
     "wof:placetype":"locality",
