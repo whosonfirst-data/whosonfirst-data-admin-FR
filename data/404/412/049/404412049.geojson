@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_23207",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-L\u00e9ger-Bridereix",
+    "eurostat:nuts_2021_id":"23207",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI22",
+    "eurostat:nuts_2021_level_lau":"23207",
+    "eurostat:population":198,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067510",
     "frgov:id":"BDCSURCO0000000009603335",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683179,
         102191581,
@@ -58,7 +72,10 @@
         102068959
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_23207",
+        "eurostat:nuts_2021_id":"23207"
+    },
     "wof:coterminous":[
         1125825539
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f2c2739cf1669d6e8183023fbdb996bc",
+    "wof:geomhash":"41731800d8cd44d81b0a6797b3eb8d97",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404412049,
-    "wof:lastmodified":1582324372,
+    "wof:lastmodified":1684353390,
     "wof:name":"Saint-Leger-Bridereix",
     "wof:parent_id":102068959,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":198,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

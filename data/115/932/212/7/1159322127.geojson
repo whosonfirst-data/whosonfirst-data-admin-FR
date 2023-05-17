@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_06123",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Laurent-du-Var",
+    "eurostat:nuts_2021_id":"06123",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL03",
+    "eurostat:nuts_2021_level_lau":"06123",
+    "eurostat:population":28453,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200030195",
     "frgov:id":"BDCSURCO0000000009612602",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.001047,
-    "geom:area_square_m":9364261.835261,
+    "geom:area_square_m":9364261.83526,
     "geom:bbox":"7.163923,43.654833,7.200444,43.718674",
     "geom:latitude":43.686317,
     "geom:longitude":7.182232,
@@ -141,23 +153,29 @@
     "reversegeo:longitude":7.188048,
     "src:geom":"frgov",
     "src:geom_alt":[],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85683323,
         102191581,
         85633147,
-        102065009,
         404227597,
         404227445,
-        85683323
+        102065009
     ],
     "wof:breaches":[],
     "wof:concordance":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_06123",
+        "eurostat:nuts_2021_id":"06123"
+    },
     "wof:coterminous":[
         101750703,
         102065009
     ],
     "wof:country":"FR",
     "wof:created":1526510090,
-    "wof:geomhash":"cf900311152f6085d89a35d3cbdc4994",
+    "wof:geomhash":"e91c7854308418f7c4960f5c6087eba2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -170,11 +188,13 @@
         }
     ],
     "wof:id":1159322127,
-    "wof:lastmodified":1608039581,
+    "wof:lastmodified":1684353597,
     "wof:name":"Saint-Laurent-du-Var",
     "wof:parent_id":102065009,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":28453,
+    "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded":[],
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_57134",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ch\u00e2tel-Saint-Germain",
+    "eurostat:nuts_2021_id":"57134",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF33",
+    "eurostat:nuts_2021_level_lau":"57134",
+    "eurostat:population":1873,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200039865",
     "frgov:id":"BDCSURCO0000000009586531",
     "frgov:insee_arr":"9",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.001593,
-    "geom:area_square_m":12890111.997338,
+    "geom:area_square_m":12890111.997339,
     "geom:bbox":"6.0220036992,49.1079965225,6.10631453946,49.1514549762",
     "geom:latitude":49.131895,
     "geom:longitude":6.06497,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683271,
         102191581,
@@ -58,7 +72,10 @@
         102066771
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_57134",
+        "eurostat:nuts_2021_id":"57134"
+    },
     "wof:coterminous":[
         101750095
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9331ec0957379f20029e10742f70f9b9",
+    "wof:geomhash":"2740c8459fe1097d7eefbb38ae34c48a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404415209,
-    "wof:lastmodified":1582324364,
+    "wof:lastmodified":1684353428,
     "wof:name":"Chatel-Saint-Germain",
     "wof:parent_id":102066771,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1873,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

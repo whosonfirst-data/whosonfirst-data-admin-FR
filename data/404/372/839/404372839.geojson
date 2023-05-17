@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_07228",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-D\u00e9sirat",
+    "eurostat:nuts_2021_id":"07228",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK22",
+    "eurostat:nuts_2021_level_lau":"07228",
+    "eurostat:population":877,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072015",
     "frgov:id":"BDCSURCO0000000009607246",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.00085,
-    "geom:area_square_m":7397537.710275,
+    "geom:area_square_m":7397537.710276,
     "geom:bbox":"4.75660495558,45.2440644101,4.81026026431,45.2695795368",
     "geom:latitude":45.258444,
     "geom:longitude":4.780128,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683421,
         102191581,
@@ -58,7 +72,10 @@
         102068429
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_07228",
+        "eurostat:nuts_2021_id":"07228"
+    },
     "wof:coterminous":[
         101894365
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"98728c01a3dc8bb7be9f6fae2b2b00a5",
+    "wof:geomhash":"06d6524935be96797ee9d1a09a9510fb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404372839,
-    "wof:lastmodified":1582325472,
+    "wof:lastmodified":1684352922,
     "wof:name":"Saint-Desirat",
     "wof:parent_id":102068429,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":877,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

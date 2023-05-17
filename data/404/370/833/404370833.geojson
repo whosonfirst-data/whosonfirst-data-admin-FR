@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_64355",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Louvigny",
+    "eurostat:nuts_2021_id":"64355",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI15",
+    "eurostat:nuts_2021_level_lau":"64355",
+    "eurostat:population":140,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067239",
     "frgov:id":"BDCSURCO0000000009613784",
     "frgov:insee_arr":"3",
@@ -97,6 +109,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683539,
         102191581,
@@ -107,7 +121,10 @@
         102065177
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_64355",
+        "eurostat:nuts_2021_id":"64355"
+    },
     "wof:coterminous":[
         1360674849
     ],
@@ -115,7 +132,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"1b060f5d132175670d992e5aec04e43d",
+    "wof:geomhash":"06c36d7b31a02cbcc04fc47ca121bd70",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -129,11 +146,13 @@
         }
     ],
     "wof:id":404370833,
-    "wof:lastmodified":1582324600,
+    "wof:lastmodified":1684352899,
     "wof:name":"Louvigny",
     "wof:parent_id":102065177,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":140,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

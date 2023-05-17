@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_02175",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Chavigny",
+    "eurostat:nuts_2021_id":"02175",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE21",
+    "eurostat:nuts_2021_level_lau":"02175",
+    "eurostat:population":150,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240200477",
     "frgov:id":"BDCSURCO0000000009584939",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000646,
-    "geom:area_square_m":5195433.303882,
+    "geom:area_square_m":5195433.303883,
     "geom:bbox":"3.28975091111,49.4104430972,3.32820903583,49.4357423346",
     "geom:latitude":49.423029,
     "geom:longitude":3.305529,
@@ -91,6 +103,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683247,
         102191581,
@@ -101,7 +115,10 @@
         102070055
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_02175",
+        "eurostat:nuts_2021_id":"02175"
+    },
     "wof:coterminous":[
         1360677127
     ],
@@ -109,7 +126,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5b4ed5c956060863a9a386b999c49b00",
+    "wof:geomhash":"689f4a45532069ad048a40ec5c3284e4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -123,11 +140,13 @@
         }
     ],
     "wof:id":404393613,
-    "wof:lastmodified":1582325017,
+    "wof:lastmodified":1684353175,
     "wof:name":"Chavigny",
     "wof:parent_id":102070055,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":150,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

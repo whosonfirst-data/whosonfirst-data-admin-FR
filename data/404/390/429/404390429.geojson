@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_61193",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gonfri\u00e8re",
+    "eurostat:nuts_2021_id":"61193",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD13",
+    "eurostat:nuts_2021_level_lau":"61193",
+    "eurostat:population":302,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068468",
     "frgov:id":"BDCSURCO0000000009590280",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683527,
         102191581,
@@ -58,7 +72,10 @@
         102066689
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_61193",
+        "eurostat:nuts_2021_id":"61193"
+    },
     "wof:coterminous":[
         1125984399
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4fccc988d24e9513909f65a1bfa152c2",
+    "wof:geomhash":"8d9b06c39ac9e8a8dbf4632b0139acc5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404390429,
-    "wof:lastmodified":1582324272,
+    "wof:lastmodified":1684353135,
     "wof:name":"La Gonfriere",
     "wof:parent_id":102066689,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":302,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

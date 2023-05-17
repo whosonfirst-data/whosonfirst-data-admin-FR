@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_61233",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lonlay-le-Tesson",
+    "eurostat:nuts_2021_id":"61233",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD13",
+    "eurostat:nuts_2021_level_lau":"61233",
+    "eurostat:population":222,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200035814",
     "frgov:id":"BDCSURCO0000000009591218",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001547,
-    "geom:area_square_m":12638117.388192,
+    "geom:area_square_m":12638117.388191,
     "geom:bbox":"-0.397525107532,48.6287245402,-0.303604269506,48.6761919169",
     "geom:latitude":48.650612,
     "geom:longitude":-0.345291,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683527,
         102191581,
@@ -58,7 +72,10 @@
         102066815
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_61233",
+        "eurostat:nuts_2021_id":"61233"
+    },
     "wof:coterminous":[
         1125780261
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4d923e274bd52f4e4fc17917f0e21040",
+    "wof:geomhash":"8d1381a411b6cc4dcf45445578f7a809",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404352375,
-    "wof:lastmodified":1582324178,
+    "wof:lastmodified":1684352650,
     "wof:name":"Lonlay-Le-Tesson",
     "wof:parent_id":102066815,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":222,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

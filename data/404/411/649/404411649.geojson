@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_61446",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Pierre-des-Loges",
+    "eurostat:nuts_2021_id":"61446",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD13",
+    "eurostat:nuts_2021_level_lau":"61446",
+    "eurostat:population":156,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069458",
     "frgov:id":"BDCSURCO0000000009590746",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683527,
         102191581,
@@ -58,7 +72,10 @@
         102069023
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_61446",
+        "eurostat:nuts_2021_id":"61446"
+    },
     "wof:coterminous":[
         1125817285
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0ec27f4b22ba7b57f45e4892c60eb834",
+    "wof:geomhash":"89f7c3da74f2816bd42133a21d937c7f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404411649,
-    "wof:lastmodified":1582325170,
+    "wof:lastmodified":1684353385,
     "wof:name":"Saint-Pierre-Des-Loges",
     "wof:parent_id":102069023,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":156,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

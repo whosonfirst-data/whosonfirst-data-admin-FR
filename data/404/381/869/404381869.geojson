@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_10115",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Creney-pr\u00e8s-Troyes",
+    "eurostat:nuts_2021_id":"10115",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF22",
+    "eurostat:nuts_2021_level_lau":"10115",
+    "eurostat:population":1845,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069250",
     "frgov:id":"BDCSURCO0000000009593656",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.001917,
-    "geom:area_square_m":15752797.263357,
+    "geom:area_square_m":15752797.263356,
     "geom:bbox":"4.1068535601,48.3081649941,4.18170113738,48.3678266897",
     "geom:latitude":48.342478,
     "geom:longitude":4.138761,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683193,
         102191581,
@@ -58,7 +72,10 @@
         102068627
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_10115",
+        "eurostat:nuts_2021_id":"10115"
+    },
     "wof:coterminous":[
         101760511
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f9e2ea2aeb366a9b46f4428ebdcb9e82",
+    "wof:geomhash":"229d4df60aab5ce0a26016eb9d0f914d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404381869,
-    "wof:lastmodified":1582325431,
+    "wof:lastmodified":1684353032,
     "wof:name":"Creney-Pres-Troyes",
     "wof:parent_id":102068627,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1845,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

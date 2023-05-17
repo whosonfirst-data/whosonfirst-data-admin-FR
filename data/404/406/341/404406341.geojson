@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_77090",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Chapelle-Saint-Sulpice",
+    "eurostat:nuts_2021_id":"77090",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR102",
+    "eurostat:nuts_2021_level_lau":"77090",
+    "eurostat:population":243,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200037133",
     "frgov:id":"BDCSURCO0000000009591977",
     "frgov:insee_arr":"3",
@@ -120,6 +132,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683385,
         102191581,
@@ -129,7 +143,10 @@
         102069033
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_77090",
+        "eurostat:nuts_2021_id":"77090"
+    },
     "wof:coterminous":[
         1126057571
     ],
@@ -137,7 +154,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"bd408691d1af3de8e0637770fc2ad3fd",
+    "wof:geomhash":"40d56ff8e986078707968702a2b90794",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -150,11 +167,13 @@
         }
     ],
     "wof:id":404406341,
-    "wof:lastmodified":1582324442,
+    "wof:lastmodified":1684353325,
     "wof:name":"La Chapelle-Saint-Sulpice",
     "wof:parent_id":102069033,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":243,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

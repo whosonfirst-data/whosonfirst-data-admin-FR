@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_31087",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bragayrac",
+    "eurostat:nuts_2021_id":"31087",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ23",
+    "eurostat:nuts_2021_level_lau":"31087",
+    "eurostat:population":326,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068641",
     "frgov:id":"BDCSURCO0000000009613945",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000927,
-    "geom:area_square_m":8315615.704173,
+    "geom:area_square_m":8315615.704172,
     "geom:bbox":"1.03369527986,43.4731113744,1.10271894535,43.5053900651",
     "geom:latitude":43.489064,
     "geom:longitude":1.070366,
@@ -120,6 +132,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683397,
         102191581,
@@ -130,7 +144,10 @@
         102069773
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_31087",
+        "eurostat:nuts_2021_id":"31087"
+    },
     "wof:coterminous":[
         1126039487
     ],
@@ -138,7 +155,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"461192f4f62060c020ebba60b4b63fa4",
+    "wof:geomhash":"38739911f52f4acd26f4269d6ce34a5f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -152,11 +169,13 @@
         }
     ],
     "wof:id":404382099,
-    "wof:lastmodified":1582324685,
+    "wof:lastmodified":1684353034,
     "wof:name":"Bragayrac",
     "wof:parent_id":102069773,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":326,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

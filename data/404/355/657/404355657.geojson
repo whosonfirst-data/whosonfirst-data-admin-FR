@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_91546",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Cyr-sous-Dourdan",
+    "eurostat:nuts_2021_id":"91546",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR104",
+    "eurostat:nuts_2021_level_lau":"91546",
+    "eurostat:population":978,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"249100595",
     "frgov:id":"BDCSURCO0000000009592030",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"ILE-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001228,
-    "geom:area_square_m":10052129.153644,
+    "geom:area_square_m":10052129.153643,
     "geom:bbox":"2.01574536501,48.5457664364,2.05622369075,48.5891684802",
     "geom:latitude":48.565731,
     "geom:longitude":2.037044,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683371,
         102191581,
@@ -57,7 +71,10 @@
         102068735
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_91546",
+        "eurostat:nuts_2021_id":"91546"
+    },
     "wof:coterminous":[
         101881891
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"36dd329410a662d65211a37d02a182bf",
+    "wof:geomhash":"673baab072838d78e1efbb6b4e938173",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404355657,
-    "wof:lastmodified":1582324187,
+    "wof:lastmodified":1684352694,
     "wof:name":"Saint-Cyr-Sous-Dourdan",
     "wof:parent_id":102068735,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":978,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

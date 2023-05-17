@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_48176",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Pierre-des-Tripiers",
+    "eurostat:nuts_2021_id":"48176",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ14",
+    "eurostat:nuts_2021_level_lau":"48176",
+    "eurostat:population":88,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069151",
     "frgov:id":"BDCSURCO0000000009611226",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003943,
-    "geom:area_square_m":34939877.691631,
+    "geom:area_square_m":34939877.691632,
     "geom:bbox":"3.21921126189,44.1897890381,3.33102900373,44.2587487249",
     "geom:latitude":44.224677,
     "geom:longitude":3.270143,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683453,
         102191581,
@@ -58,7 +72,10 @@
         102067001
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_48176",
+        "eurostat:nuts_2021_id":"48176"
+    },
     "wof:coterminous":[
         1125951947
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"841340cf6e221c0761250680a1ef5b6a",
+    "wof:geomhash":"5feaa558bac130d145717dd2f21c485d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404403999,
-    "wof:lastmodified":1582325288,
+    "wof:lastmodified":1684353295,
     "wof:name":"Saint-Pierre-Des-Tripiers",
     "wof:parent_id":102067001,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":88,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

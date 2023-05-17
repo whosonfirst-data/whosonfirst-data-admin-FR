@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_80717",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Sauflieu",
+    "eurostat:nuts_2021_id":"80717",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE23",
+    "eurostat:nuts_2021_level_lau":"80717",
+    "eurostat:population":995,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248000531",
     "frgov:id":"BDCSURCO0000000009582987",
     "frgov:insee_arr":"2",
@@ -132,6 +144,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683363,
         102191581,
@@ -142,7 +156,10 @@
         102066695
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_80717",
+        "eurostat:nuts_2021_id":"80717"
+    },
     "wof:coterminous":[
         101901007
     ],
@@ -150,7 +167,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"44a81506f56362a7846cacfff3551448",
+    "wof:geomhash":"ca62d7c9df587fcf166aa89853c054af",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -164,11 +181,13 @@
         }
     ],
     "wof:id":404419651,
-    "wof:lastmodified":1582325065,
+    "wof:lastmodified":1684353479,
     "wof:name":"Saint-Sauflieu",
     "wof:parent_id":102066695,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":995,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_21576",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Thibault",
+    "eurostat:nuts_2021_id":"21576",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC11",
+    "eurostat:nuts_2021_level_lau":"21576",
+    "eurostat:population":164,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071017",
     "frgov:id":"BDCSURCO0000000009598903",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001478,
-    "geom:area_square_m":12372009.421142,
+    "geom:area_square_m":12372009.42114,
     "geom:bbox":"4.43346776393,47.357668524,4.50024423069,47.3926844878",
     "geom:latitude":47.377659,
     "geom:longitude":4.466184,
@@ -88,6 +100,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683563,
         102191581,
@@ -98,7 +112,10 @@
         102070769
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_21576",
+        "eurostat:nuts_2021_id":"21576"
+    },
     "wof:coterminous":[
         1360673423
     ],
@@ -106,7 +123,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9d9c4833ce0ab3929d5c9ed484441f1a",
+    "wof:geomhash":"c38fedc978ef04645cbe637204fa5a0b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -120,11 +137,13 @@
         }
     ],
     "wof:id":404356775,
-    "wof:lastmodified":1582324940,
+    "wof:lastmodified":1684352708,
     "wof:name":"Saint-Thibault",
     "wof:parent_id":102070769,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":164,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

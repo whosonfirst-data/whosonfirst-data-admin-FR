@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_16287",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Roullet-Saint-Est\u00e8phe",
+    "eurostat:nuts_2021_id":"16287",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI31",
+    "eurostat:nuts_2021_level_lau":"16287",
+    "eurostat:population":4262,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071827",
     "frgov:id":"BDCSURCO0000000009606170",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.004808,
-    "geom:area_square_m":41612989.167587,
+    "geom:area_square_m":41612989.167586,
     "geom:bbox":"-0.0293595524982,45.5436272437,0.091794314924,45.6115305716",
     "geom:latitude":45.580357,
     "geom:longitude":0.03135,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683437,
         102191581,
@@ -56,7 +70,10 @@
         102069763
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_16287",
+        "eurostat:nuts_2021_id":"16287"
+    },
     "wof:coterminous":[
         1360674245
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b80e2e989aa2c0d5362a00b47d7151fc",
+    "wof:geomhash":"5a855cafe745976fb14feeb47599aca4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404364511,
-    "wof:lastmodified":1582324247,
+    "wof:lastmodified":1684352817,
     "wof:name":"Roullet-Saint-Estephe",
     "wof:parent_id":102069763,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":4262,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

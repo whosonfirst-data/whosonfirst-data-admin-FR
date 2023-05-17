@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_50549",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Sauveur-la-Pommeraye",
+    "eurostat:nuts_2021_id":"50549",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD12",
+    "eurostat:nuts_2021_level_lau":"50549",
+    "eurostat:population":376,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200042604",
     "frgov:id":"BDCSURCO0000000009589409",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683489,
         102191581,
@@ -58,7 +72,10 @@
         102065369
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_50549",
+        "eurostat:nuts_2021_id":"50549"
+    },
     "wof:coterminous":[
         1125819055
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c6bd8c809e1853f8d1ddef3bb5dd3574",
+    "wof:geomhash":"9652efc60ace837ea59c0d4e7d74fe4f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404426539,
-    "wof:lastmodified":1582325086,
+    "wof:lastmodified":1684353563,
     "wof:name":"Saint-Sauveur-La-Pommeraye",
     "wof:parent_id":102065369,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":376,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

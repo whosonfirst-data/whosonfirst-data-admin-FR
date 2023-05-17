@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_05133",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Chaffrey",
+    "eurostat:nuts_2021_id":"05133",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL02",
+    "eurostat:nuts_2021_level_lau":"05133",
+    "eurostat:population":1604,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240500439",
     "frgov:id":"BDCSURCO0000000009608262",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.002928,
-    "geom:area_square_m":25628979.123667,
+    "geom:area_square_m":25628979.123668,
     "geom:bbox":"6.5498442307,44.9028284909,6.64801871788,44.9714139391",
     "geom:latitude":44.934744,
     "geom:longitude":6.601291,
@@ -132,6 +144,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683597,
         102191581,
@@ -141,7 +155,10 @@
         102066593
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_05133",
+        "eurostat:nuts_2021_id":"05133"
+    },
     "wof:coterminous":[
         101771553
     ],
@@ -149,7 +166,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b616aa3a74cc5719e1a8a2fdb7bcfaa1",
+    "wof:geomhash":"dfc5152ba81c86086165d5bec7432880",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -162,11 +179,13 @@
         }
     ],
     "wof:id":404398463,
-    "wof:lastmodified":1582324108,
+    "wof:lastmodified":1684353231,
     "wof:name":"Saint-Chaffrey",
     "wof:parent_id":102066593,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1604,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

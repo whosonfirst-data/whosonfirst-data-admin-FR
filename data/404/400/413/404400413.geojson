@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_58297",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Trois-V\u00e8vres",
+    "eurostat:nuts_2021_id":"58297",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC12",
+    "eurostat:nuts_2021_level_lau":"58297",
+    "eurostat:population":240,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067908",
     "frgov:id":"BDCSURCO0000000009600961",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000894,
-    "geom:area_square_m":7550681.519964,
+    "geom:area_square_m":7550681.519965,
     "geom:bbox":"3.39875792419,46.8917403857,3.44418234773,46.9270690171",
     "geom:latitude":46.911287,
     "geom:longitude":3.422621,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683359,
         102191581,
@@ -58,7 +72,10 @@
         102068281
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_58297",
+        "eurostat:nuts_2021_id":"58297"
+    },
     "wof:coterminous":[
         1126014711
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b9ba4de3605a41b94c62443cd9d221e3",
+    "wof:geomhash":"ad3eea76daa5502036433b539469d874",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404400413,
-    "wof:lastmodified":1582324506,
+    "wof:lastmodified":1684353254,
     "wof:name":"Trois-Vevres",
     "wof:parent_id":102068281,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":240,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

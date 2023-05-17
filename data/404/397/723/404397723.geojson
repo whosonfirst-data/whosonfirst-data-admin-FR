@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_28386",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Thimert-G\u00e2telles",
+    "eurostat:nuts_2021_id":"28386",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB02",
+    "eurostat:nuts_2021_level_lau":"28386",
+    "eurostat:population":1256,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040277",
     "frgov:id":"BDCSURCO0000000009592057",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.005225,
-    "geom:area_square_m":42764891.676004,
+    "geom:area_square_m":42764891.676003,
     "geom:bbox":"1.18218735582,48.5133969312,1.32794848004,48.5904643372",
     "geom:latitude":48.554977,
     "geom:longitude":1.26187,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683189,
         102191581,
@@ -57,7 +71,10 @@
         102066145
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_28386",
+        "eurostat:nuts_2021_id":"28386"
+    },
     "wof:coterminous":[
         101882207
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c92009ac7a823c73aa6daff9518fa39c",
+    "wof:geomhash":"a2e5e7a51532c3479ae18ffaf1ed22ef",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404397723,
-    "wof:lastmodified":1582324207,
+    "wof:lastmodified":1684353221,
     "wof:name":"Thimert-Gatelles",
     "wof:parent_id":102066145,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1256,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_70187",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Crevans-et-la-Chapelle-l\u00e8s-Granges",
+    "eurostat:nuts_2021_id":"70187",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC23",
+    "eurostat:nuts_2021_level_lau":"70187",
+    "eurostat:population":264,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247000714",
     "frgov:id":"BDCSURCO0000000009597658",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000461,
-    "geom:area_square_m":3851440.014087,
+    "geom:area_square_m":3851440.014086,
     "geom:bbox":"6.57679225295,47.5368488537,6.60980444904,47.5600509319",
     "geom:latitude":47.549418,
     "geom:longitude":6.593084,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683559,
         102191581,
@@ -58,7 +72,10 @@
         102069295
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_70187",
+        "eurostat:nuts_2021_id":"70187"
+    },
     "wof:coterminous":[
         101887823
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ba7d3425f8b474a75fc6fbe360c083dc",
+    "wof:geomhash":"9ba49f4f1ae13372e426801d971fd570",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404400775,
-    "wof:lastmodified":1582324518,
+    "wof:lastmodified":1684353258,
     "wof:name":"Crevans-Et-La-Chapelle-Les-Granges",
     "wof:parent_id":102069295,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":264,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

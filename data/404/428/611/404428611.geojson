@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_53242",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Michel-de-la-Ro\u00eb",
+    "eurostat:nuts_2021_id":"53242",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG03",
+    "eurostat:nuts_2021_level_lau":"53242",
+    "eurostat:population":265,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200048551",
     "frgov:id":"BDCSURCO0000000009596214",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683401,
         102191581,
@@ -57,7 +71,10 @@
         102068915
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_53242",
+        "eurostat:nuts_2021_id":"53242"
+    },
     "wof:coterminous":[
         1125937055
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8e742924d1b5c1c4d0752975ee52db8a",
+    "wof:geomhash":"5e82b7170dc14c35d99e414e93c2053d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404428611,
-    "wof:lastmodified":1582325115,
+    "wof:lastmodified":1684353587,
     "wof:name":"Saint-Michel-De-La-Roe",
     "wof:parent_id":102068915,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":265,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

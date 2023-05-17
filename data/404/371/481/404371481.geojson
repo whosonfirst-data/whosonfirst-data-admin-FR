@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_22306",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Judoce",
+    "eurostat:nuts_2021_id":"22306",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH01",
+    "eurostat:nuts_2021_level_lau":"22306",
+    "eurostat:population":565,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068989",
     "frgov:id":"BDCSURCO0000000009593048",
     "frgov:insee_arr":"1",
@@ -135,6 +147,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683515,
         102191581,
@@ -144,7 +158,10 @@
         102066785
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_22306",
+        "eurostat:nuts_2021_id":"22306"
+    },
     "wof:coterminous":[
         1125878201
     ],
@@ -152,7 +169,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0eb5c16e1e9e74fe1a98b241cfb1f6a5",
+    "wof:geomhash":"51980b149961fdcf274f7665aec4bdba",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -165,11 +182,13 @@
         }
     ],
     "wof:id":404371481,
-    "wof:lastmodified":1582324654,
+    "wof:lastmodified":1684352906,
     "wof:name":"Saint-Judoce",
     "wof:parent_id":102066785,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":565,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

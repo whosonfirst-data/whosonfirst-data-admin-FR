@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_19190",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Bonnet-pr\u00e8s-Bort",
+    "eurostat:nuts_2021_id":"19190",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI21",
+    "eurostat:nuts_2021_level_lau":"19190",
+    "eurostat:population":192,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066744",
     "frgov:id":"BDCSURCO0000000009606617",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001952,
-    "geom:area_square_m":16918542.744539,
+    "geom:area_square_m":16918542.744538,
     "geom:bbox":"2.39462890233,45.4761207888,2.45314063232,45.5385089512",
     "geom:latitude":45.506947,
     "geom:longitude":2.426774,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683209,
         102191581,
@@ -58,7 +72,10 @@
         102065161
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_19190",
+        "eurostat:nuts_2021_id":"19190"
+    },
     "wof:coterminous":[
         1125932945
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c61bcc0d9dc82ebbf11accafed038f28",
+    "wof:geomhash":"50d7bbc9d18771698ee3ec336de2f9d6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404427049,
-    "wof:lastmodified":1582325236,
+    "wof:lastmodified":1684353569,
     "wof:name":"Saint-Bonnet-Pres-Bort",
     "wof:parent_id":102065161,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":192,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

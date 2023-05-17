@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_80417",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Harbonni\u00e8res",
+    "eurostat:nuts_2021_id":"80417",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE23",
+    "eurostat:nuts_2021_level_lau":"80417",
+    "eurostat:population":1641,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070928",
     "frgov:id":"BDCSURCO0000000009582691",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001897,
-    "geom:area_square_m":15126027.192687,
+    "geom:area_square_m":15126027.192686,
     "geom:bbox":"2.64496668749,49.8200551781,2.69584678709,49.8779593377",
     "geom:latitude":49.850561,
     "geom:longitude":2.670014,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683363,
         102191581,
@@ -58,7 +72,10 @@
         102070795
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_80417",
+        "eurostat:nuts_2021_id":"80417"
+    },
     "wof:coterminous":[
         101812547
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c91f58882886be747ac0bb1111206646",
+    "wof:geomhash":"233c6e6259db03422f8b58582ae5aeab",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404378681,
-    "wof:lastmodified":1582324734,
+    "wof:lastmodified":1684352995,
     "wof:name":"Harbonnieres",
     "wof:parent_id":102070795,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1641,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_86040",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bussi\u00e8re",
+    "eurostat:nuts_2021_id":"86040",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI34",
+    "eurostat:nuts_2021_level_lau":"86040",
+    "eurostat:population":323,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070043",
     "frgov:id":"BDCSURCO0000000009602050",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003795,
-    "geom:area_square_m":32224582.334619,
+    "geom:area_square_m":32224582.334617,
     "geom:bbox":"0.76968196354,46.6001153047,0.877262586342,46.6563659222",
     "geom:latitude":46.631693,
     "geom:longitude":0.821553,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683185,
         102191581,
@@ -56,7 +70,10 @@
         102068999
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_86040",
+        "eurostat:nuts_2021_id":"86040"
+    },
     "wof:coterminous":[
         1360673665
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"61ee84b71b6321d1b2fbf10af8a16bb0",
+    "wof:geomhash":"eaf4371b6b068b66e2375882461230bd",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404359261,
-    "wof:lastmodified":1582324791,
+    "wof:lastmodified":1684352743,
     "wof:name":"La Bussiere",
     "wof:parent_id":102068999,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":323,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

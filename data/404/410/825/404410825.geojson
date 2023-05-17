@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_03101",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Dom\u00e9rat",
+    "eurostat:nuts_2021_id":"03101",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK11",
+    "eurostat:nuts_2021_level_lau":"03101",
+    "eurostat:population":8780,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071082",
     "frgov:id":"BDCSURCO0000000009602883",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.004133,
-    "geom:area_square_m":35261213.641347,
+    "geom:area_square_m":35261213.641348,
     "geom:bbox":"2.504352,46.332438,2.588103,46.408955",
     "geom:latitude":46.367947,
     "geom:longitude":2.543374,
@@ -48,17 +60,22 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85683293,
         102191581,
         85633147,
-        102070357,
-        136253037,
         404227589,
         1108826389,
-        85683293
+        136253037,
+        102070357
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_03101",
+        "eurostat:nuts_2021_id":"03101"
+    },
     "wof:coterminous":[
         101766507,
         102070357
@@ -67,7 +84,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7ffecd311af93d665a1c10766df7afb2",
+    "wof:geomhash":"50566b2441cd6f0708c78b2cd47e7237",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -81,11 +98,13 @@
         }
     ],
     "wof:id":404410825,
-    "wof:lastmodified":1608038340,
+    "wof:lastmodified":1684353376,
     "wof:name":"Domerat",
     "wof:parent_id":102070357,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":8780,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

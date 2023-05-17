@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_27377",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lyons-la-For\u00eat",
+    "eurostat:nuts_2021_id":"27377",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD21",
+    "eurostat:nuts_2021_level_lau":"27377",
+    "eurostat:population":723,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070142",
     "frgov:id":"BDCSURCO0000000009585374",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003361,
-    "geom:area_square_m":27051360.289373,
+    "geom:area_square_m":27051360.289375,
     "geom:bbox":"1.40684623678,49.3681983545,1.54554375319,49.4252297567",
     "geom:latitude":49.393894,
     "geom:longitude":1.473164,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683283,
         102191581,
@@ -58,7 +72,10 @@
         102068341
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_27377",
+        "eurostat:nuts_2021_id":"27377"
+    },
     "wof:coterminous":[
         101902595
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6c4e27d13c7a48edb5738281b5fd51e6",
+    "wof:geomhash":"3c7e2951711dda5df004124de4726383",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404359401,
-    "wof:lastmodified":1582324790,
+    "wof:lastmodified":1684352745,
     "wof:name":"Lyons-La-Foret",
     "wof:parent_id":102068341,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":723,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

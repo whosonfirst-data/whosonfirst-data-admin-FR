@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_83046",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Cotignac",
+    "eurostat:nuts_2021_id":"83046",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL05",
+    "eurostat:nuts_2021_level_lau":"83046",
+    "eurostat:population":2163,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068104",
     "frgov:id":"BDCSURCO0000000009613344",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.004934,
-    "geom:area_square_m":44240516.734601,
+    "geom:area_square_m":44240516.734598,
     "geom:bbox":"6.09035186139,43.4897433739,6.19632418513,43.5591984995",
     "geom:latitude":43.523351,
     "geom:longitude":6.144608,
@@ -120,6 +132,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683315,
         102191581,
@@ -129,7 +143,10 @@
         102065989
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_83046",
+        "eurostat:nuts_2021_id":"83046"
+    },
     "wof:coterminous":[
         101773447
     ],
@@ -137,7 +154,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"11b3d187324dc2da9f4bf6623ea3f436",
+    "wof:geomhash":"4ffcdc989e7ede08c80934587d2bd81b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -150,11 +167,13 @@
         }
     ],
     "wof:id":404420647,
-    "wof:lastmodified":1582325208,
+    "wof:lastmodified":1684353492,
     "wof:name":"Cotignac",
     "wof:parent_id":102065989,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2163,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

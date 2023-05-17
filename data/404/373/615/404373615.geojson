@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_56085",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"H\u009cdic",
+    "eurostat:nuts_2021_id":"56085",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH04",
+    "eurostat:nuts_2021_level_lau":"56085",
+    "eurostat:population":99,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200043123",
     "frgov:id":"BDCSURCO0000000009598755",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683507,
         102191581,
@@ -57,7 +71,10 @@
         102069787
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_56085",
+        "eurostat:nuts_2021_id":"56085"
+    },
     "wof:coterminous":[
         1125983423
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"09a5fbee8b81ea874213e5ff471f01e2",
+    "wof:geomhash":"3712aa02b1be07a4a246e71ddf58c986",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404373615,
-    "wof:lastmodified":1582325348,
+    "wof:lastmodified":1684352931,
     "wof:name":"Hoedic",
     "wof:parent_id":102069787,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":99,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_33240",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lesparre-M\u00e9doc",
+    "eurostat:nuts_2021_id":"33240",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI12",
+    "eurostat:nuts_2021_level_lau":"33240",
+    "eurostat:population":5801,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069995",
     "frgov:id":"BDCSURCO0000000009607411",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Sous-pr\u00e9fecture",
     "geom:area":0.004219,
-    "geom:area_square_m":36708346.297935,
+    "geom:area_square_m":36708346.297937,
     "geom:bbox":"-0.970936195375,45.2192795245,-0.876170475395,45.3399651378",
     "geom:latitude":45.281619,
     "geom:longitude":-0.934781,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683243,
         102191581,
@@ -58,7 +72,10 @@
         102069743
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_33240",
+        "eurostat:nuts_2021_id":"33240"
+    },
     "wof:coterminous":[
         101767679
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"43bf59105739c991ab4a7bfc30d5c39b",
+    "wof:geomhash":"d3ac44a9444080e23f54a55eb4a1f79b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404357027,
-    "wof:lastmodified":1582324898,
+    "wof:lastmodified":1684352712,
     "wof:name":"Lesparre-Medoc",
     "wof:parent_id":102069743,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Sous-pr\u00e9fecture",
+    "wof:population":5801,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

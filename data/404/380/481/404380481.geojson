@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_72050",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Br\u00fblon",
+    "eurostat:nuts_2021_id":"72050",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG04",
+    "eurostat:nuts_2021_level_lau":"72050",
+    "eurostat:population":1580,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040475",
     "frgov:id":"BDCSURCO0000000009595510",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001949,
-    "geom:area_square_m":16130157.932921,
+    "geom:area_square_m":16130157.932922,
     "geom:bbox":"-0.262817734858,47.9539493129,-0.199855180634,48.0080154973",
     "geom:latitude":47.980488,
     "geom:longitude":-0.230747,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683279,
         102191581,
@@ -57,7 +71,10 @@
         102065057
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_72050",
+        "eurostat:nuts_2021_id":"72050"
+    },
     "wof:coterminous":[
         101764979
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3e2b38a1188878eee9fca677ee76bad3",
+    "wof:geomhash":"358197a4ba2a2571283d08eae27e6c34",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404380481,
-    "wof:lastmodified":1582325381,
+    "wof:lastmodified":1684353016,
     "wof:name":"Brulon",
     "wof:parent_id":102065057,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1580,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

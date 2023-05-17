@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_62498",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lens",
+    "eurostat:nuts_2021_id":"62498",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE1",
+    "eurostat:nuts_2021_level_3":"FRE12",
+    "eurostat:nuts_2021_level_lau":"62498",
+    "eurostat:population":31415,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"246200364",
     "frgov:id":"BDCSURCO0000000009581026",
     "frgov:insee_arr":"7",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Sous-pr\u00e9fecture",
     "geom:area":0.001476,
-    "geom:area_square_m":11620761.476429,
+    "geom:area_square_m":11620761.47643,
     "geom:bbox":"2.787041,50.419782,2.851414,50.459402",
     "geom:latitude":50.437597,
     "geom:longitude":2.821133,
@@ -153,24 +165,30 @@
     "reversegeo:longitude":2.824301,
     "src:geom":"frgov",
     "src:geom_alt":[],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85683255,
         102191581,
         85633147,
-        102072031,
-        136253037,
         404228311,
         1108826399,
-        85683255
+        136253037,
+        102072031
     ],
     "wof:breaches":[],
     "wof:concordance":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_62498",
+        "eurostat:nuts_2021_id":"62498"
+    },
     "wof:coterminous":[
         101840497,
         102072031
     ],
     "wof:country":"FR",
     "wof:created":1526510710,
-    "wof:geomhash":"c3fb18d04a049b9c622a723ad8255257",
+    "wof:geomhash":"a65a703851ceb8f7606e3d728a274070",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -184,11 +202,13 @@
         }
     ],
     "wof:id":1159322347,
-    "wof:lastmodified":1608039573,
+    "wof:lastmodified":1684353600,
     "wof:name":"Lens",
     "wof:parent_id":102072031,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Sous-pr\u00e9fecture",
+    "wof:population":31415,
+    "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded":[],
     "wof:superseded_by":[],

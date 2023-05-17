@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_49012",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Aubign\u00e9-sur-Layon",
+    "eurostat:nuts_2021_id":"49012",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG02",
+    "eurostat:nuts_2021_level_lau":"49012",
+    "eurostat:population":366,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071553",
     "frgov:id":"BDCSURCO0000000009599600",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000635,
-    "geom:area_square_m":5336435.45113,
+    "geom:area_square_m":5336435.451131,
     "geom:bbox":"-0.495549818895,47.1972074288,-0.453396538571,47.2279205874",
     "geom:latitude":47.212716,
     "geom:longitude":-0.472889,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683327,
         102191581,
@@ -57,7 +71,10 @@
         102070443
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_49012",
+        "eurostat:nuts_2021_id":"49012"
+    },
     "wof:coterminous":[
         101888319
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"505d00f928e7fa471e7db7b5e99c65af",
+    "wof:geomhash":"383535dce214d155af982de85a006521",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404424833,
-    "wof:lastmodified":1582324391,
+    "wof:lastmodified":1684353543,
     "wof:name":"Aubigne-Sur-Layon",
     "wof:parent_id":102070443,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":366,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

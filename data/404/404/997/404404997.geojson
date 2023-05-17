@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_14221",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"D\u00e9mouville",
+    "eurostat:nuts_2021_id":"14221",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD11",
+    "eurostat:nuts_2021_level_lau":"14221",
+    "eurostat:population":3189,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200065597",
     "frgov:id":"BDCSURCO0000000009586851",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683579,
         102191581,
@@ -58,7 +72,10 @@
         102070397
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_14221",
+        "eurostat:nuts_2021_id":"14221"
+    },
     "wof:coterminous":[
         101753551
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f0c7a8479d5d2d1922c755ef0d80db86",
+    "wof:geomhash":"c128194ef14f3a3e7a27f0c02b719352",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404404997,
-    "wof:lastmodified":1582325305,
+    "wof:lastmodified":1684353306,
     "wof:name":"Demouville",
     "wof:parent_id":102070397,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3189,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

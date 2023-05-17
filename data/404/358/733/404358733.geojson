@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_36179",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Aoustrille",
+    "eurostat:nuts_2021_id":"36179",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB03",
+    "eurostat:nuts_2021_level_lau":"36179",
+    "eurostat:population":227,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068880",
     "frgov:id":"BDCSURCO0000000009600993",
     "frgov:insee_arr":"4",
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683311,
         102191581,
@@ -138,7 +152,10 @@
         102066567
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_36179",
+        "eurostat:nuts_2021_id":"36179"
+    },
     "wof:coterminous":[
         1125807621
     ],
@@ -146,7 +163,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"82e3abe2c606e4ee2ab00dd7460bc00b",
+    "wof:geomhash":"20712c19496ce29f8f74b690aa62dfc4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -159,11 +176,13 @@
         }
     ],
     "wof:id":404358733,
-    "wof:lastmodified":1582324976,
+    "wof:lastmodified":1684352736,
     "wof:name":"Saint-Aoustrille",
     "wof:parent_id":102066567,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":227,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

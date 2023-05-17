@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_70503",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Traiti\u00e9fontaine",
+    "eurostat:nuts_2021_id":"70503",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC23",
+    "eurostat:nuts_2021_level_lau":"70503",
+    "eurostat:population":162,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247000706",
     "frgov:id":"BDCSURCO0000000009598235",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683559,
         102191581,
@@ -58,7 +72,10 @@
         102068229
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_70503",
+        "eurostat:nuts_2021_id":"70503"
+    },
     "wof:coterminous":[
         1125825861
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f555e30b7e4b0a55b1a58c8baab11fb2",
+    "wof:geomhash":"2babe8bc63ff377d067eca1f04f9e2c1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404401893,
-    "wof:lastmodified":1582324425,
+    "wof:lastmodified":1684353271,
     "wof:name":"Traitiefontaine",
     "wof:parent_id":102068229,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":162,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

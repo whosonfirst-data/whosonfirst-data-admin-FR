@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_83104",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rians",
+    "eurostat:nuts_2021_id":"83104",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL05",
+    "eurostat:nuts_2021_level_lau":"83104",
+    "eurostat:population":4232,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040202",
     "frgov:id":"BDCSURCO0000000009613350",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.010815,
-    "geom:area_square_m":96832582.990807,
+    "geom:area_square_m":96832582.990805,
     "geom:bbox":"5.65596522628,43.5441652896,5.81208206581,43.6610210654",
     "geom:latitude":43.605502,
     "geom:longitude":5.741035,
@@ -93,6 +105,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683315,
         102191581,
@@ -102,7 +116,10 @@
         102067925
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_83104",
+        "eurostat:nuts_2021_id":"83104"
+    },
     "wof:coterminous":[
         101773433
     ],
@@ -110,7 +127,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"80b8f2f878d57b23b02a181d5d962f46",
+    "wof:geomhash":"3c92a47202f1c447e932a477f2fc6a55",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -123,11 +140,13 @@
         }
     ],
     "wof:id":404406899,
-    "wof:lastmodified":1582324450,
+    "wof:lastmodified":1684353331,
     "wof:name":"Rians",
     "wof:parent_id":102067925,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":4232,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

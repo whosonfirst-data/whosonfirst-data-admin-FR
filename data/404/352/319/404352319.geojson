@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_09134",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gesti\u00e8s",
+    "eurostat:nuts_2021_id":"09134",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ21",
+    "eurostat:nuts_2021_level_lau":"09134",
+    "eurostat:population":28,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066363",
     "frgov:id":"BDCSURCO0000000009616541",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002993,
-    "geom:area_square_m":27192403.355628,
+    "geom:area_square_m":27192403.35563,
     "geom:bbox":"1.55280238551,42.6479614842,1.61637289706,42.7824312673",
     "geom:latitude":42.719188,
     "geom:longitude":1.584915,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683335,
         102191581,
@@ -58,7 +72,10 @@
         102067949
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_09134",
+        "eurostat:nuts_2021_id":"09134"
+    },
     "wof:coterminous":[
         1125876895
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"862a75658544cd4948f91a914409bb1a",
+    "wof:geomhash":"0776051d2feb358ac556e6f0474fc4c3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404352319,
-    "wof:lastmodified":1582324178,
+    "wof:lastmodified":1684352649,
     "wof:name":"Gesties",
     "wof:parent_id":102067949,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":28,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

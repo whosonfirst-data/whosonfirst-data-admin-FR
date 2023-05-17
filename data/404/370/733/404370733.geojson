@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_35281",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Jacques-de-la-Lande",
+    "eurostat:nuts_2021_id":"35281",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH03",
+    "eurostat:nuts_2021_level_lau":"35281",
+    "eurostat:population":13087,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243500139",
     "frgov:id":"BDCSURCO0000000009594938",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BRETAGNE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001486,
-    "geom:area_square_m":12280879.981791,
+    "geom:area_square_m":12280879.98179,
     "geom:bbox":"-1.76165381171,48.0585111541,-1.68929580804,48.0970958994",
     "geom:latitude":48.07601,
     "geom:longitude":-1.722592,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683461,
         102191581,
@@ -57,7 +71,10 @@
         102071533
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_35281",
+        "eurostat:nuts_2021_id":"35281"
+    },
     "wof:coterminous":[
         101754955
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b0b4f51e634adabffdbf4bbe3fad8562",
+    "wof:geomhash":"ac227ce54ecd8edfd3b9ede54a0be877",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404370733,
-    "wof:lastmodified":1582324603,
+    "wof:lastmodified":1684352898,
     "wof:name":"Saint-Jacques-De-La-Lande",
     "wof:parent_id":102071533,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":13087,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

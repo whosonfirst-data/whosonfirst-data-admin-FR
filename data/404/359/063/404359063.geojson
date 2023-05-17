@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_17351",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Just-Luzac",
+    "eurostat:nuts_2021_id":"17351",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI32",
+    "eurostat:nuts_2021_level_lau":"17351",
+    "eurostat:population":1993,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"241700699",
     "frgov:id":"BDCSURCO0000000009605175",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.005661,
-    "geom:area_square_m":48806181.048645,
+    "geom:area_square_m":48806181.048643,
     "geom:bbox":"-1.1252633879,45.7612285423,-0.983064975979,45.8309176924",
     "geom:latitude":45.7946,
     "geom:longitude":-1.05408,
@@ -123,6 +135,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683275,
         102191581,
@@ -133,7 +147,10 @@
         102066855
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_17351",
+        "eurostat:nuts_2021_id":"17351"
+    },
     "wof:coterminous":[
         101768311
     ],
@@ -141,7 +158,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"60de9c1bf3d841d69281f14ffc4e1f8f",
+    "wof:geomhash":"74433f108575bb1ff488fd725b1baa18",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -155,11 +172,13 @@
         }
     ],
     "wof:id":404359063,
-    "wof:lastmodified":1582324792,
+    "wof:lastmodified":1684352741,
     "wof:name":"Saint-Just-Luzac",
     "wof:parent_id":102066855,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1993,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

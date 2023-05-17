@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_12202",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rodez",
+    "eurostat:nuts_2021_id":"12202",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ22",
+    "eurostat:nuts_2021_level_lau":"12202",
+    "eurostat:population":24057,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"241200187",
     "frgov:id":"BDCSURCO0000000009610719",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Pr\u00e9fecture",
     "geom:area":0.001273,
-    "geom:area_square_m":11253843.289415,
+    "geom:area_square_m":11253843.289414,
     "geom:bbox":"2.533369,44.340605,2.606283,44.377512",
     "geom:latitude":44.358674,
     "geom:longitude":2.566901,
@@ -183,24 +195,30 @@
     "reversegeo:longitude":2.567445,
     "src:geom":"frgov",
     "src:geom_alt":[],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85683301,
         102191581,
         85633147,
-        102072281,
-        136253037,
         404227821,
         1108826387,
-        85683301
+        136253037,
+        102072281
     ],
     "wof:breaches":[],
     "wof:concordance":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_12202",
+        "eurostat:nuts_2021_id":"12202"
+    },
     "wof:coterminous":[
         101831899,
         102072281
     ],
     "wof:country":"FR",
     "wof:created":1526510942,
-    "wof:geomhash":"28a9be811041f3adbe89b4aa0a25e88d",
+    "wof:geomhash":"aef1c377ab6ef49912ec43e70b34fb33",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -214,11 +232,13 @@
         }
     ],
     "wof:id":1159322389,
-    "wof:lastmodified":1608039588,
+    "wof:lastmodified":1684353601,
     "wof:name":"Rodez",
     "wof:parent_id":102072281,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Pr\u00e9fecture",
+    "wof:population":24057,
+    "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded":[],
     "wof:superseded_by":[],

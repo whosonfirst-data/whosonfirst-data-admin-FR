@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_03252",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Pont",
+    "eurostat:nuts_2021_id":"03252",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK11",
+    "eurostat:nuts_2021_level_lau":"03252",
+    "eurostat:population":656,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071389",
     "frgov:id":"BDCSURCO0000000009603770",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001443,
-    "geom:area_square_m":12357496.187122,
+    "geom:area_square_m":12357496.187121,
     "geom:bbox":"3.26204855761,46.1337779841,3.32496051077,46.1764769062",
     "geom:latitude":46.159363,
     "geom:longitude":3.298288,
@@ -138,6 +150,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683293,
         102191581,
@@ -148,7 +162,10 @@
         102066133
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_03252",
+        "eurostat:nuts_2021_id":"03252"
+    },
     "wof:coterminous":[
         101892851
     ],
@@ -156,7 +173,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d5c82072ef6f7f886e8a7412cab52350",
+    "wof:geomhash":"f5dd1b278ce9bf9f17a8acd6fc42ab73",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -170,11 +187,13 @@
         }
     ],
     "wof:id":404427885,
-    "wof:lastmodified":1582325244,
+    "wof:lastmodified":1684353578,
     "wof:name":"Saint-Pont",
     "wof:parent_id":102066133,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":656,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

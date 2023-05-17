@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_39004",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Abergement-l\u00e8s-Th\u00e9sy",
+    "eurostat:nuts_2021_id":"39004",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC22",
+    "eurostat:nuts_2021_level_lau":"39004",
+    "eurostat:population":60,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071595",
     "frgov:id":"BDCSURCO0000000009600657",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683173,
         102191581,
@@ -58,7 +72,10 @@
         102069663
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_39004",
+        "eurostat:nuts_2021_id":"39004"
+    },
     "wof:coterminous":[
         1126030047
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"475956831345f7c9f773c0d8c33e0056",
+    "wof:geomhash":"01b5c7c3dcac0d59e1e8dc784c96be69",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404423021,
-    "wof:lastmodified":1582324415,
+    "wof:lastmodified":1684353522,
     "wof:name":"Abergement-Les-Thesy",
     "wof:parent_id":102069663,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":60,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_55032",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Baudr\u00e9mont",
+    "eurostat:nuts_2021_id":"55032",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF32",
+    "eurostat:nuts_2021_level_lau":"55032",
+    "eurostat:population":50,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066140",
     "frgov:id":"BDCSURCO0000000009589579",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683297,
         102191581,
@@ -58,7 +72,10 @@
         102067059
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_55032",
+        "eurostat:nuts_2021_id":"55032"
+    },
     "wof:coterminous":[
         1126034967
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7eb3e88a9e6e151c266a9ea0bace525d",
+    "wof:geomhash":"9bedcec838d86368b35b4a1bd14bde2b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404377573,
-    "wof:lastmodified":1582324565,
+    "wof:lastmodified":1684352982,
     "wof:name":"Baudremont",
     "wof:parent_id":102067059,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":50,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

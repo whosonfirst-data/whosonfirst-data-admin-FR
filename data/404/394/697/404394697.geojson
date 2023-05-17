@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_27514",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Aubin-du-Thenney",
+    "eurostat:nuts_2021_id":"27514",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD21",
+    "eurostat:nuts_2021_level_lau":"27514",
+    "eurostat:population":373,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066413",
     "frgov:id":"BDCSURCO0000000009588323",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001727,
-    "geom:area_square_m":14008062.521577,
+    "geom:area_square_m":14008062.521576,
     "geom:bbox":"0.466015527623,48.9911719172,0.519929716864,49.0405014392",
     "geom:latitude":49.015332,
     "geom:longitude":0.493405,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683283,
         102191581,
@@ -58,7 +72,10 @@
         102066091
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_27514",
+        "eurostat:nuts_2021_id":"27514"
+    },
     "wof:coterminous":[
         1125808125
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ac1c33587799fc0936a4479eab8eeb03",
+    "wof:geomhash":"09b471c7c9a4de84ca8f3355bb79f6e3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404394697,
-    "wof:lastmodified":1582325036,
+    "wof:lastmodified":1684353187,
     "wof:name":"Saint-Aubin-Du-Thenney",
     "wof:parent_id":102066091,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":373,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

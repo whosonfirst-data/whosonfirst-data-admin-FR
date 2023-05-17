@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_35363",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Pont-P\u00e9an",
+    "eurostat:nuts_2021_id":"35363",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH03",
+    "eurostat:nuts_2021_level_lau":"35363",
+    "eurostat:population":4463,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243500139",
     "frgov:id":"BDCSURCO0000000009595237",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BRETAGNE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001057,
-    "geom:area_square_m":8742666.710059,
+    "geom:area_square_m":8742666.71006,
     "geom:bbox":"-1.71942321082,47.9922493552,-1.67562517435,48.0306049986",
     "geom:latitude":48.010913,
     "geom:longitude":-1.696361,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683461,
         102191581,
@@ -57,7 +71,10 @@
         102071459
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_35363",
+        "eurostat:nuts_2021_id":"35363"
+    },
     "wof:coterminous":[
         101754951
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f8c9962f48c98f59de210c1687055051",
+    "wof:geomhash":"838c410104ec55bb8a8136add6938e74",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404423855,
-    "wof:lastmodified":1582324416,
+    "wof:lastmodified":1684353531,
     "wof:name":"Pont-Pean",
     "wof:parent_id":102071459,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":4463,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

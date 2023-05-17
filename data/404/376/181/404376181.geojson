@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_78384",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"M\u00e9dan",
+    "eurostat:nuts_2021_id":"78384",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR103",
+    "eurostat:nuts_2021_level_lau":"78384",
+    "eurostat:population":1375,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200059889",
     "frgov:id":"BDCSURCO0000000009588720",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"ILE-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000358,
-    "geom:area_square_m":2905823.849399,
+    "geom:area_square_m":2905823.849398,
     "geom:bbox":"1.969467,48.94468,2.002521,48.967063",
     "geom:latitude":48.954689,
     "geom:longitude":1.987418,
@@ -246,16 +258,21 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85683367,
         102191581,
         85633147,
-        102067327,
         404228161,
         404227465,
-        85683367
+        102067327
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_78384",
+        "eurostat:nuts_2021_id":"78384"
+    },
     "wof:coterminous":[
         101750033
     ],
@@ -263,7 +280,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3292c08e206a4c2e1a266f12b81a4891",
+    "wof:geomhash":"136438afec0106a55532cd8e355e69a2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -276,11 +293,13 @@
         }
     ],
     "wof:id":404376181,
-    "wof:lastmodified":1587163137,
+    "wof:lastmodified":1684352965,
     "wof:name":"Medan",
     "wof:parent_id":102067327,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1375,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

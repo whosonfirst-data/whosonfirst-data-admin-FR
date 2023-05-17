@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_03069",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ch\u00e2tillon",
+    "eurostat:nuts_2021_id":"03069",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK11",
+    "eurostat:nuts_2021_level_lau":"03069",
+    "eurostat:population":314,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071496",
     "frgov:id":"BDCSURCO0000000009602641",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001498,
-    "geom:area_square_m":12758325.247384,
+    "geom:area_square_m":12758325.247383,
     "geom:bbox":"3.08242208118,46.4392303736,3.16330380273,46.4892461343",
     "geom:latitude":46.462174,
     "geom:longitude":3.129376,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683293,
         102191581,
@@ -56,7 +70,10 @@
         102067791
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_03069",
+        "eurostat:nuts_2021_id":"03069"
+    },
     "wof:coterminous":[
         1360672773
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f6c3efca337ce5ffe759b99c461ef049",
+    "wof:geomhash":"a797c502dd347c9ae8084bced1c4dd05",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404350077,
-    "wof:lastmodified":1582324847,
+    "wof:lastmodified":1684352617,
     "wof:name":"Chatillon",
     "wof:parent_id":102067791,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":314,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

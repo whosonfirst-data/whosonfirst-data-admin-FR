@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_73246",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Jean-de-Couz",
+    "eurostat:nuts_2021_id":"73246",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK27",
+    "eurostat:nuts_2021_level_lau":"73246",
+    "eurostat:population":291,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040111",
     "frgov:id":"BDCSURCO0000000009606496",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.000894,
-    "geom:area_square_m":7749638.909459,
+    "geom:area_square_m":7749638.90946,
     "geom:bbox":"5.79086712448,45.4459688031,5.84039353559,45.4851349275",
     "geom:latitude":45.465043,
     "geom:longitude":5.813513,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683265,
         102191581,
@@ -58,7 +72,10 @@
         102066889
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_73246",
+        "eurostat:nuts_2021_id":"73246"
+    },
     "wof:coterminous":[
         1125913445
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d91dbb8857bd575113e59b418dc72f87",
+    "wof:geomhash":"1026b77013b95f3258f99c44a4ae77be",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404422051,
-    "wof:lastmodified":1582324294,
+    "wof:lastmodified":1684353510,
     "wof:name":"Saint-Jean-De-Couz",
     "wof:parent_id":102066889,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":291,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

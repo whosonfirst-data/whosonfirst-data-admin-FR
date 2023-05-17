@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_28035",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Berch\u00e8res-les-Pierres",
+    "eurostat:nuts_2021_id":"28035",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB02",
+    "eurostat:nuts_2021_level_lau":"28035",
+    "eurostat:population":1000,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200033181",
     "frgov:id":"BDCSURCO0000000009593339",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683189,
         102191581,
@@ -57,7 +71,10 @@
         102068903
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_28035",
+        "eurostat:nuts_2021_id":"28035"
+    },
     "wof:coterminous":[
         101883481
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4ac838a34fc486d68b5f82ce4a88b59a",
+    "wof:geomhash":"9e6804fda02df2789d67ea92bd664adf",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404384635,
-    "wof:lastmodified":1582324617,
+    "wof:lastmodified":1684353066,
     "wof:name":"Bercheres-Les-Pierres",
     "wof:parent_id":102068903,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1000,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

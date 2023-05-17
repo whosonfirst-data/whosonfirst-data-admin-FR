@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_35272",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Germain-du-Pinel",
+    "eurostat:nuts_2021_id":"35272",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH03",
+    "eurostat:nuts_2021_level_lau":"35272",
+    "eurostat:population":915,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200039022",
     "frgov:id":"BDCSURCO0000000009595224",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BRETAGNE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001362,
-    "geom:area_square_m":11265127.811729,
+    "geom:area_square_m":11265127.811728,
     "geom:bbox":"-1.20187694281,47.9848732251,-1.14341099953,48.0208350382",
     "geom:latitude":48.004877,
     "geom:longitude":-1.17266,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683461,
         102191581,
@@ -57,7 +71,10 @@
         102064471
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_35272",
+        "eurostat:nuts_2021_id":"35272"
+    },
     "wof:coterminous":[
         101883557
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"98fc5b560f51c9ddb69e3c49c43227dd",
+    "wof:geomhash":"12ce0643f49d95af90bf44875fd4728e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404389893,
-    "wof:lastmodified":1582325325,
+    "wof:lastmodified":1684353128,
     "wof:name":"Saint-Germain-Du-Pinel",
     "wof:parent_id":102064471,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":915,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

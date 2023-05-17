@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_91001",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Abb\u00e9ville-la-Rivi\u00e8re",
+    "eurostat:nuts_2021_id":"91001",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR104",
+    "eurostat:nuts_2021_level_lau":"91001",
+    "eurostat:population":303,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200017846",
     "frgov:id":"BDCSURCO0000000009593730",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"ILE-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001821,
-    "geom:area_square_m":14965330.867992,
+    "geom:area_square_m":14965330.867994,
     "geom:bbox":"2.15603059931,48.3116804303,2.23802830155,48.3624847764",
     "geom:latitude":48.343259,
     "geom:longitude":2.191146,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683371,
         102191581,
@@ -57,7 +71,10 @@
         102067421
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_91001",
+        "eurostat:nuts_2021_id":"91001"
+    },
     "wof:coterminous":[
         1125818945
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"df484ee1c0086d6ac71d2ed0766ab720",
+    "wof:geomhash":"48fc7ff4f94b1e9c89febc62df03d024",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404421455,
-    "wof:lastmodified":1582325100,
+    "wof:lastmodified":1684353503,
     "wof:name":"Abbeville-La-Riviere",
     "wof:parent_id":102067421,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":303,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

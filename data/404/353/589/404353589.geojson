@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_53219",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Georges-Buttavent",
+    "eurostat:nuts_2021_id":"53219",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG03",
+    "eurostat:nuts_2021_level_lau":"53219",
+    "eurostat:population":1443,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200055887",
     "frgov:id":"BDCSURCO0000000009593838",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.0045,
-    "geom:area_square_m":37012577.614274,
+    "geom:area_square_m":37012577.614273,
     "geom:bbox":"-0.772390690191,48.2712778984,-0.660735803269,48.3379715498",
     "geom:latitude":48.300999,
     "geom:longitude":-0.710394,
@@ -120,6 +132,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683401,
         102191581,
@@ -129,7 +143,10 @@
         102068277
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_53219",
+        "eurostat:nuts_2021_id":"53219"
+    },
     "wof:coterminous":[
         101761027
     ],
@@ -137,7 +154,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ac45ea005750f4d7e765add471a544f1",
+    "wof:geomhash":"b20799651957e0651850918952319899",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -150,11 +167,13 @@
         }
     ],
     "wof:id":404353589,
-    "wof:lastmodified":1582324133,
+    "wof:lastmodified":1684352666,
     "wof:name":"Saint-Georges-Buttavent",
     "wof:parent_id":102068277,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1443,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

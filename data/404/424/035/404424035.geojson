@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_07026",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"B\u00e9age",
+    "eurostat:nuts_2021_id":"07026",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK22",
+    "eurostat:nuts_2021_level_lau":"07026",
+    "eurostat:population":255,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072007",
     "frgov:id":"BDCSURCO0000000009608949",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.003783,
-    "geom:area_square_m":33163399.453566,
+    "geom:area_square_m":33163399.453565,
     "geom:bbox":"4.0816921371,44.8223673567,4.18744700561,44.8865139112",
     "geom:latitude":44.855216,
     "geom:longitude":4.13006,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683421,
         102191581,
@@ -58,7 +72,10 @@
         102066407
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_07026",
+        "eurostat:nuts_2021_id":"07026"
+    },
     "wof:coterminous":[
         1125852077
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6758b404e8084194a5a18ca515f7a015",
+    "wof:geomhash":"52d412d3c93c9a26e1a819fc70ddbe22",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404424035,
-    "wof:lastmodified":1582324399,
+    "wof:lastmodified":1684353534,
     "wof:name":"Le Beage",
     "wof:parent_id":102066407,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":255,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

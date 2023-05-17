@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_28347",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Lubin-de-la-Haye",
+    "eurostat:nuts_2021_id":"28347",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB02",
+    "eurostat:nuts_2021_level_lau":"28347",
+    "eurostat:population":956,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247800550",
     "frgov:id":"BDCSURCO0000000009590242",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001757,
-    "geom:area_square_m":14306391.47837,
+    "geom:area_square_m":14306391.478372,
     "geom:bbox":"1.52649101585,48.7952632151,1.59826783182,48.8443607655",
     "geom:latitude":48.818899,
     "geom:longitude":1.560436,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683189,
         102191581,
@@ -57,7 +71,10 @@
         102064381
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_28347",
+        "eurostat:nuts_2021_id":"28347"
+    },
     "wof:coterminous":[
         1125814305
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"86a5097ae253dab00ee6f9426fc2d454",
+    "wof:geomhash":"2ed3e6a84a5ca9c2d870b87e17d7b8f2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404410405,
-    "wof:lastmodified":1582325156,
+    "wof:lastmodified":1684353371,
     "wof:name":"Saint-Lubin-De-La-Haye",
     "wof:parent_id":102064381,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":956,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

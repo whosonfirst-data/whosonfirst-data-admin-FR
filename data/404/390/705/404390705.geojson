@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_71489",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Vincent-en-Bresse",
+    "eurostat:nuts_2021_id":"71489",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC13",
+    "eurostat:nuts_2021_level_lau":"71489",
+    "eurostat:population":573,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071579",
     "frgov:id":"BDCSURCO0000000009601565",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001866,
-    "geom:area_square_m":15836602.151672,
+    "geom:area_square_m":15836602.151673,
     "geom:bbox":"5.02905155885,46.6503610954,5.09959744607,46.6932662944",
     "geom:latitude":46.67104,
     "geom:longitude":5.060398,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683543,
         102191581,
@@ -58,7 +72,10 @@
         102070605
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_71489",
+        "eurostat:nuts_2021_id":"71489"
+    },
     "wof:coterminous":[
         101891279
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6089c5c9bc097c799994524f3671f518",
+    "wof:geomhash":"38c4e4567b61bbd112d268a0cd190fc8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404390705,
-    "wof:lastmodified":1582324268,
+    "wof:lastmodified":1684353139,
     "wof:name":"Saint-Vincent-En-Bresse",
     "wof:parent_id":102070605,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":573,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

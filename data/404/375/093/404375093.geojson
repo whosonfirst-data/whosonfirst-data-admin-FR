@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_40326",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Vielle-Saint-Girons",
+    "eurostat:nuts_2021_id":"40326",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI13",
+    "eurostat:nuts_2021_level_lau":"40326",
+    "eurostat:population":1305,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244000857",
     "frgov:id":"BDCSURCO0000000009612134",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.008306,
-    "geom:area_square_m":73950763.406675,
+    "geom:area_square_m":73950763.406679,
     "geom:bbox":"-1.3836723615,43.8843725633,-1.26008794751,44.0013577199",
     "geom:latitude":43.939671,
     "geom:longitude":-1.32526,
@@ -121,6 +133,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683183,
         102191581,
@@ -131,7 +145,10 @@
         102064657
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_40326",
+        "eurostat:nuts_2021_id":"40326"
+    },
     "wof:coterminous":[
         1360675279
     ],
@@ -139,7 +156,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4b4baa58036d1c2a0c748cc3e788beec",
+    "wof:geomhash":"4ba4d9ac30a19d7f8b4a75769bbf6e20",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -153,11 +170,13 @@
         }
     ],
     "wof:id":404375093,
-    "wof:lastmodified":1582325422,
+    "wof:lastmodified":1684352950,
     "wof:name":"Vielle-Saint-Girons",
     "wof:parent_id":102064657,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1305,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_16241",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Nanclars",
+    "eurostat:nuts_2021_id":"16241",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI31",
+    "eurostat:nuts_2021_level_lau":"16241",
+    "eurostat:population":204,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072023",
     "frgov:id":"BDCSURCO0000000009605125",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00067,
-    "geom:area_square_m":5775367.716455,
+    "geom:area_square_m":5775367.716456,
     "geom:bbox":"0.202220536038,45.8335004808,0.243033276552,45.8557898759",
     "geom:latitude":45.843887,
     "geom:longitude":0.223329,
@@ -117,6 +129,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683437,
         102191581,
@@ -127,7 +141,10 @@
         102068895
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_16241",
+        "eurostat:nuts_2021_id":"16241"
+    },
     "wof:coterminous":[
         101892219
     ],
@@ -135,7 +152,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"07b74a1604010bb4f3d32eff98e9c279",
+    "wof:geomhash":"2b1ba0dc2092c7c845850ad12e0eb2cd",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -149,11 +166,13 @@
         }
     ],
     "wof:id":404377819,
-    "wof:lastmodified":1582324561,
+    "wof:lastmodified":1684352985,
     "wof:name":"Nanclars",
     "wof:parent_id":102068895,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":204,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_70211",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"\u00c9cuelle",
+    "eurostat:nuts_2021_id":"70211",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC23",
+    "eurostat:nuts_2021_level_lau":"70211",
+    "eurostat:population":70,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200036549",
     "frgov:id":"BDCSURCO0000000009597706",
     "frgov:insee_arr":"2",
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683559,
         102191581,
@@ -56,7 +70,10 @@
         102064569
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_70211",
+        "eurostat:nuts_2021_id":"70211"
+    },
     "wof:coterminous":[
         1360679981
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"54e0066f1cdcc926a773ebc16e482d00",
+    "wof:geomhash":"4c51a6c9223e0d9722479e0575d00335",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404423897,
-    "wof:lastmodified":1582324417,
+    "wof:lastmodified":1684353532,
     "wof:name":"Ecuelle",
     "wof:parent_id":102064569,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":70,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

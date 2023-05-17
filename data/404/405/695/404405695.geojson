@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_57623",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Quirin",
+    "eurostat:nuts_2021_id":"57623",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF33",
+    "eurostat:nuts_2021_level_lau":"57623",
+    "eurostat:population":722,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068146",
     "frgov:id":"BDCSURCO0000000009590914",
     "frgov:insee_arr":"5",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.006529,
-    "geom:area_square_m":53406962.969502,
+    "geom:area_square_m":53406962.969506,
     "geom:bbox":"7.04513219525,48.528692797,7.20136071751,48.6367979598",
     "geom:latitude":48.584617,
     "geom:longitude":7.113027,
@@ -135,6 +147,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683271,
         102191581,
@@ -145,7 +159,10 @@
         102067359
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_57623",
+        "eurostat:nuts_2021_id":"57623"
+    },
     "wof:coterminous":[
         101883781
     ],
@@ -153,7 +170,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"791c772b62c1f272469eee1fc4d620b3",
+    "wof:geomhash":"ac82268564a04a9fa609f1b9ba112295",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -167,11 +184,13 @@
         }
     ],
     "wof:id":404405695,
-    "wof:lastmodified":1582325256,
+    "wof:lastmodified":1684353315,
     "wof:name":"Saint-Quirin",
     "wof:parent_id":102067359,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":722,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

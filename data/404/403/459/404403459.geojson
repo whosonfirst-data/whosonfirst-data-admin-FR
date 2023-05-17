@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_59547",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Vaast-en-Cambr\u00e9sis",
+    "eurostat:nuts_2021_id":"59547",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE1",
+    "eurostat:nuts_2021_level_3":"FRE11",
+    "eurostat:nuts_2021_level_lau":"59547",
+    "eurostat:population":888,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200030633",
     "frgov:id":"BDCSURCO0000000009581612",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683445,
         102191581,
@@ -58,7 +72,10 @@
         102071739
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_59547",
+        "eurostat:nuts_2021_id":"59547"
+    },
     "wof:coterminous":[
         1125889183
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7e642f1a4c4e00079f457338251d0cd7",
+    "wof:geomhash":"c7e4c58d9b33e2cb69eb63d6dbeca8ee",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404403459,
-    "wof:lastmodified":1582325300,
+    "wof:lastmodified":1684353289,
     "wof:name":"Saint-Vaast-En-Cambresis",
     "wof:parent_id":102071739,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":888,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

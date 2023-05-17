@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_15170",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Amandin",
+    "eurostat:nuts_2021_id":"15170",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK12",
+    "eurostat:nuts_2021_level_lau":"15170",
+    "eurostat:population":231,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"241500255",
     "frgov:id":"BDCSURCO0000000009607299",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.003673,
-    "geom:area_square_m":31927548.362695,
+    "geom:area_square_m":31927548.362696,
     "geom:bbox":"2.66260014617,45.3011620733,2.76555404556,45.3591069171",
     "geom:latitude":45.328024,
     "geom:longitude":2.708362,
@@ -132,6 +144,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683517,
         102191581,
@@ -142,7 +156,10 @@
         102065363
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_15170",
+        "eurostat:nuts_2021_id":"15170"
+    },
     "wof:coterminous":[
         1126011019
     ],
@@ -150,7 +167,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e70cef48ae13633caecb5964d829d1c4",
+    "wof:geomhash":"9bf9cbed2bb82097feefb52b4169913b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -164,11 +181,13 @@
         }
     ],
     "wof:id":404367851,
-    "wof:lastmodified":1582324993,
+    "wof:lastmodified":1684352863,
     "wof:name":"Saint-Amandin",
     "wof:parent_id":102065363,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":231,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

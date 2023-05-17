@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_91085",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Boissy-sous-Saint-Yon",
+    "eurostat:nuts_2021_id":"91085",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR104",
+    "eurostat:nuts_2021_level_lau":"91085",
+    "eurostat:population":3868,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"249100553",
     "frgov:id":"BDCSURCO0000000009592023",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"ILE-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000993,
-    "geom:area_square_m":8127282.966988,
+    "geom:area_square_m":8127282.966989,
     "geom:bbox":"2.18807864306,48.5317244568,2.23422593065,48.5736732836",
     "geom:latitude":48.550064,
     "geom:longitude":2.212922,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683371,
         102191581,
@@ -57,7 +71,10 @@
         102068735
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_91085",
+        "eurostat:nuts_2021_id":"91085"
+    },
     "wof:coterminous":[
         101762171
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"1f8397ca945f3fca522988bc762cc005",
+    "wof:geomhash":"833f9362a3dee486add21dc32d008ebd",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404361645,
-    "wof:lastmodified":1582324752,
+    "wof:lastmodified":1684352776,
     "wof:name":"Boissy-Sous-Saint-Yon",
     "wof:parent_id":102068735,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3868,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

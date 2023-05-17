@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_17353",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Laurent-de-la-Pr\u00e9e",
+    "eurostat:nuts_2021_id":"17353",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI32",
+    "eurostat:nuts_2021_level_lau":"17353",
+    "eurostat:population":2114,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041762",
     "frgov:id":"BDCSURCO0000000009604380",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003218,
-    "geom:area_square_m":27649118.556064,
+    "geom:area_square_m":27649118.556063,
     "geom:bbox":"-1.06554672118,45.9532161594,-0.992007186388,46.0236098786",
     "geom:latitude":45.988182,
     "geom:longitude":-1.027429,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683275,
         102191581,
@@ -58,7 +72,10 @@
         102068193
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_17353",
+        "eurostat:nuts_2021_id":"17353"
+    },
     "wof:coterminous":[
         101766403
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0fd5ad6fef0c7d8291a6fcbf6e76b7f3",
+    "wof:geomhash":"e21cd75cdf15c01e73fb24c3dc570bbe",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404380947,
-    "wof:lastmodified":1582325378,
+    "wof:lastmodified":1684353021,
     "wof:name":"Saint-Laurent-De-La-Pree",
     "wof:parent_id":102068193,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2114,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_76121",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bosc-\u00c9deline",
+    "eurostat:nuts_2021_id":"76121",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD22",
+    "eurostat:nuts_2021_level_lau":"76121",
+    "eurostat:population":360,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070449",
     "frgov:id":"BDCSURCO0000000009584317",
     "frgov:insee_arr":"3",
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683251,
         102191581,
@@ -56,7 +70,10 @@
         102065777
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_76121",
+        "eurostat:nuts_2021_id":"76121"
+    },
     "wof:coterminous":[
         1360677013
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0908bd2eea7686251b3fc3ebc12c93da",
+    "wof:geomhash":"d42e68bda1accec8789dd03c1b0dcc44",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404392269,
-    "wof:lastmodified":1582324812,
+    "wof:lastmodified":1684353159,
     "wof:name":"Bosc-Edeline",
     "wof:parent_id":102065777,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":360,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_36194",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Genou",
+    "eurostat:nuts_2021_id":"36194",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB03",
+    "eurostat:nuts_2021_level_lau":"36194",
+    "eurostat:population":971,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243600301",
     "frgov:id":"BDCSURCO0000000009601003",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002882,
-    "geom:area_square_m":24340555.883486,
+    "geom:area_square_m":24340555.883485,
     "geom:bbox":"1.31188443755,46.8852450539,1.38279573805,46.9428047536",
     "geom:latitude":46.911452,
     "geom:longitude":1.350966,
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683311,
         102191581,
@@ -138,7 +152,10 @@
         102065293
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_36194",
+        "eurostat:nuts_2021_id":"36194"
+    },
     "wof:coterminous":[
         1126057151
     ],
@@ -146,7 +163,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"882be0f9a10dfd43516aaea1340ce672",
+    "wof:geomhash":"d1b23e730359f3b61456aa9be704651e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -159,11 +176,13 @@
         }
     ],
     "wof:id":404358323,
-    "wof:lastmodified":1582324974,
+    "wof:lastmodified":1684352730,
     "wof:name":"Saint-Genou",
     "wof:parent_id":102065293,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":971,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

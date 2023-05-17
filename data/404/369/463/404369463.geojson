@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_47228",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Antoine-de-Ficalba",
+    "eurostat:nuts_2021_id":"47228",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI14",
+    "eurostat:nuts_2021_level_lau":"47228",
+    "eurostat:population":722,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200023307",
     "frgov:id":"BDCSURCO0000000009610765",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001247,
-    "geom:area_square_m":11025715.883315,
+    "geom:area_square_m":11025715.883314,
     "geom:bbox":"0.685472326704,44.3217284916,0.751237496451,44.3566994856",
     "geom:latitude":44.340309,
     "geom:longitude":0.720458,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683341,
         102191581,
@@ -58,7 +72,10 @@
         102070985
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_47228",
+        "eurostat:nuts_2021_id":"47228"
+    },
     "wof:coterminous":[
         1125933307
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b9e372291d094fcd946602f401f5ffdd",
+    "wof:geomhash":"86f81a224bca80d7aea3a6ba3d5eb5a2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404369463,
-    "wof:lastmodified":1582324910,
+    "wof:lastmodified":1684352884,
     "wof:name":"Saint-Antoine-De-Ficalba",
     "wof:parent_id":102070985,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":722,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

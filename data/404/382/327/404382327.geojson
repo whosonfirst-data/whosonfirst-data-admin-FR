@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_57713",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Vieux-Lixheim",
+    "eurostat:nuts_2021_id":"57713",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF33",
+    "eurostat:nuts_2021_level_lau":"57713",
+    "eurostat:population":256,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068146",
     "frgov:id":"BDCSURCO0000000009589500",
     "frgov:insee_arr":"5",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.000796,
-    "geom:area_square_m":6489572.767568,
+    "geom:area_square_m":6489572.767569,
     "geom:bbox":"7.10562721859,48.7597332154,7.14278560428,48.8011423582",
     "geom:latitude":48.779841,
     "geom:longitude":7.125833,
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683271,
         102191581,
@@ -136,7 +150,10 @@
         102066207
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_57713",
+        "eurostat:nuts_2021_id":"57713"
+    },
     "wof:coterminous":[
         101883763
     ],
@@ -144,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c4e0cd56d948820f1655cf1e527b5ec1",
+    "wof:geomhash":"ea841df8f7929de627ae51c98e199c00",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +175,13 @@
         }
     ],
     "wof:id":404382327,
-    "wof:lastmodified":1582324695,
+    "wof:lastmodified":1684353036,
     "wof:name":"Vieux-Lixheim",
     "wof:parent_id":102066207,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":256,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

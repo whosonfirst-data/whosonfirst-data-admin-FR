@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_77408",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Fiacre",
+    "eurostat:nuts_2021_id":"77408",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR102",
+    "eurostat:nuts_2021_level_lau":"77408",
+    "eurostat:population":402,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247700438",
     "frgov:id":"BDCSURCO0000000009589161",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"ILE-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000343,
-    "geom:area_square_m":2789381.01351,
+    "geom:area_square_m":2789381.013509,
     "geom:bbox":"2.9394196098,48.9131566683,2.96603124086,48.9339220453",
     "geom:latitude":48.924618,
     "geom:longitude":2.953494,
@@ -87,6 +99,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683385,
         102191581,
@@ -96,7 +110,10 @@
         102065653
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_77408",
+        "eurostat:nuts_2021_id":"77408"
+    },
     "wof:coterminous":[
         101880951
     ],
@@ -104,7 +121,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"587176e239a3867fb150ff5bfb22816e",
+    "wof:geomhash":"e341bead99db7b8ba454de66cbac21de",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -117,11 +134,13 @@
         }
     ],
     "wof:id":404407443,
-    "wof:lastmodified":1582324497,
+    "wof:lastmodified":1684353337,
     "wof:name":"Saint-Fiacre",
     "wof:parent_id":102065653,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":402,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

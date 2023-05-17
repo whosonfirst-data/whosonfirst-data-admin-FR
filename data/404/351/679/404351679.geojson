@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_02422",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lesquielles-Saint-Germain",
+    "eurostat:nuts_2021_id":"02422",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE21",
+    "eurostat:nuts_2021_level_lau":"02422",
+    "eurostat:population":810,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071983",
     "frgov:id":"BDCSURCO0000000009582419",
     "frgov:insee_arr":"5",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002069,
-    "geom:area_square_m":16471334.635952,
+    "geom:area_square_m":16471334.635953,
     "geom:bbox":"3.58443008136,49.9098370846,3.67105955035,49.9526191305",
     "geom:latitude":49.931732,
     "geom:longitude":3.628295,
@@ -147,6 +159,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683247,
         102191581,
@@ -157,7 +171,10 @@
         102067355
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_02422",
+        "eurostat:nuts_2021_id":"02422"
+    },
     "wof:coterminous":[
         101899817
     ],
@@ -165,7 +182,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6a0cbf0065088fe327b43a4d65d4d9f1",
+    "wof:geomhash":"d2c4ce13599dccc47453817a8da426aa",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -179,11 +196,13 @@
         }
     ],
     "wof:id":404351679,
-    "wof:lastmodified":1582324959,
+    "wof:lastmodified":1684352641,
     "wof:name":"Lesquielles-Saint-Germain",
     "wof:parent_id":102067355,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":810,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_31583",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Villematier",
+    "eurostat:nuts_2021_id":"31583",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ23",
+    "eurostat:nuts_2021_level_lau":"31583",
+    "eurostat:population":1053,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243100773",
     "frgov:id":"BDCSURCO0000000009612507",
     "frgov:insee_arr":"3",
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683397,
         102191581,
@@ -136,7 +150,10 @@
         102070981
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_31583",
+        "eurostat:nuts_2021_id":"31583"
+    },
     "wof:coterminous":[
         101895289
     ],
@@ -144,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d874ad158f968f4c1d2ab34f84fc7641",
+    "wof:geomhash":"133ff2b0274099b5c68308203d44aaad",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +175,13 @@
         }
     ],
     "wof:id":404427329,
-    "wof:lastmodified":1582325247,
+    "wof:lastmodified":1684353572,
     "wof:name":"Villematier",
     "wof:parent_id":102070981,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1053,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

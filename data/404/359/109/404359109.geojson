@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_85218",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Georges-de-Pointindoux",
+    "eurostat:nuts_2021_id":"85218",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG05",
+    "eurostat:nuts_2021_level_lau":"85218",
+    "eurostat:population":1668,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248500530",
     "frgov:id":"BDCSURCO0000000009601699",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001842,
-    "geom:area_square_m":15635024.567983,
+    "geom:area_square_m":15635024.567985,
     "geom:bbox":"-1.67160005852,46.621629174,-1.58494398671,46.6647439508",
     "geom:latitude":46.642623,
     "geom:longitude":-1.628247,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683409,
         102191581,
@@ -57,7 +71,10 @@
         102067329
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_85218",
+        "eurostat:nuts_2021_id":"85218"
+    },
     "wof:coterminous":[
         101767053
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3a9b69bfd6dc61e8990f91c1d94af6c0",
+    "wof:geomhash":"51a112bf216b41ae60fd4358cfcdcccf",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404359109,
-    "wof:lastmodified":1582324796,
+    "wof:lastmodified":1684352741,
     "wof:name":"Saint-Georges-De-Pointindoux",
     "wof:parent_id":102067329,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1668,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

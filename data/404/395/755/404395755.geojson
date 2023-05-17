@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_65444",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Tibiran-Jaunac",
+    "eurostat:nuts_2021_id":"65444",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ26",
+    "eurostat:nuts_2021_level_lau":"65444",
+    "eurostat:population":312,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070829",
     "frgov:id":"BDCSURCO0000000009615667",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000702,
-    "geom:area_square_m":6345834.458286,
+    "geom:area_square_m":6345834.458287,
     "geom:bbox":"0.529205231618,43.0353705603,0.566899477748,43.0724857083",
     "geom:latitude":43.052747,
     "geom:longitude":0.549099,
@@ -117,6 +129,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683203,
         102191581,
@@ -127,7 +141,10 @@
         102067833
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_65444",
+        "eurostat:nuts_2021_id":"65444"
+    },
     "wof:coterminous":[
         1125941799
     ],
@@ -135,7 +152,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3bde55cc0c1bcd2e738758357de9a26c",
+    "wof:geomhash":"1984bfb0f43b3198ad085c7c5991ac41",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -149,11 +166,13 @@
         }
     ],
     "wof:id":404395755,
-    "wof:lastmodified":1582324769,
+    "wof:lastmodified":1684353200,
     "wof:name":"Tibiran-Jaunac",
     "wof:parent_id":102067833,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":312,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_49306",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Martin-du-Fouilloux",
+    "eurostat:nuts_2021_id":"49306",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG02",
+    "eurostat:nuts_2021_level_lau":"49306",
+    "eurostat:population":1674,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244900015",
     "frgov:id":"BDCSURCO0000000009598429",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001787,
-    "geom:area_square_m":14948768.732842,
+    "geom:area_square_m":14948768.732843,
     "geom:bbox":"-0.759757038478,47.419068849,-0.66330154675,47.4518927553",
     "geom:latitude":47.436956,
     "geom:longitude":-0.708152,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683327,
         102191581,
@@ -57,7 +71,10 @@
         102069089
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_49306",
+        "eurostat:nuts_2021_id":"49306"
+    },
     "wof:coterminous":[
         101843051
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d2996dda6dccd3a5d8f6da01ed3d6ec4",
+    "wof:geomhash":"3e5dbe07e9e441102f7a5f782bef742e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404418613,
-    "wof:lastmodified":1582325225,
+    "wof:lastmodified":1684353467,
     "wof:name":"Saint-Martin-Du-Fouilloux",
     "wof:parent_id":102069089,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1674,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

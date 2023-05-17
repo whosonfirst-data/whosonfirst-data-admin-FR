@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_69074",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Denic\u00e9",
+    "eurostat:nuts_2021_id":"69074",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK26",
+    "eurostat:nuts_2021_level_lau":"69074",
+    "eurostat:population":1513,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040590",
     "frgov:id":"BDCSURCO0000000009604207",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001098,
-    "geom:area_square_m":9432221.369815,
+    "geom:area_square_m":9432221.369816,
     "geom:bbox":"4.6178461054,45.9925725075,4.68273507494,46.0172931974",
     "geom:latitude":46.004654,
     "geom:longitude":4.651727,
@@ -162,6 +174,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683569,
         102191581,
@@ -172,7 +186,10 @@
         102071653
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_69074",
+        "eurostat:nuts_2021_id":"69074"
+    },
     "wof:coterminous":[
         101767727
     ],
@@ -180,7 +197,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"72d81cfc871f208a89a46957c732fc0c",
+    "wof:geomhash":"f070b20ab7e308d7225a28a02b51db73",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -194,11 +211,13 @@
         }
     ],
     "wof:id":404388843,
-    "wof:lastmodified":1582325479,
+    "wof:lastmodified":1684353115,
     "wof:name":"Denice",
     "wof:parent_id":102071653,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1513,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

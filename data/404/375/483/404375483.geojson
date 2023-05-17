@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_72253",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ro\u00e9z\u00e9-sur-Sarthe",
+    "eurostat:nuts_2021_id":"72253",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG04",
+    "eurostat:nuts_2021_level_lau":"72253",
+    "eurostat:population":2626,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247200629",
     "frgov:id":"BDCSURCO0000000009596183",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003233,
-    "geom:area_square_m":26807121.634852,
+    "geom:area_square_m":26807121.634851,
     "geom:bbox":"0.0163226774733,47.8618611578,0.112007660232,47.9258783389",
     "geom:latitude":47.893624,
     "geom:longitude":0.072226,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683279,
         102191581,
@@ -57,7 +71,10 @@
         102069957
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_72253",
+        "eurostat:nuts_2021_id":"72253"
+    },
     "wof:coterminous":[
         101763371
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b537b456f203c680dd3151f6c86626f4",
+    "wof:geomhash":"dd7f1924ee04bf784eb62fcc35903181",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404375483,
-    "wof:lastmodified":1582325409,
+    "wof:lastmodified":1684352955,
     "wof:name":"Roeze-Sur-Sarthe",
     "wof:parent_id":102069957,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2626,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

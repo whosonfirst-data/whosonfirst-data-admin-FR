@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_12008",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Anglars-Saint-F\u00e9lix",
+    "eurostat:nuts_2021_id":"12008",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ22",
+    "eurostat:nuts_2021_level_lau":"12008",
+    "eurostat:population":820,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"241200625",
     "frgov:id":"BDCSURCO0000000009610544",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683301,
         102191581,
@@ -58,7 +72,10 @@
         102069325
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_12008",
+        "eurostat:nuts_2021_id":"12008"
+    },
     "wof:coterminous":[
         1126023431
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5a409c24d81bfed182946a2278bbf428",
+    "wof:geomhash":"a6043696bd3bb209c234ce508f1d7c36",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404354071,
-    "wof:lastmodified":1582324086,
+    "wof:lastmodified":1684352673,
     "wof:name":"Anglars-Saint-Felix",
     "wof:parent_id":102069325,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":820,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

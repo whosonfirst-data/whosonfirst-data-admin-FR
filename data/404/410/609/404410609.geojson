@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_64496",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Pierre-d'Irube",
+    "eurostat:nuts_2021_id":"64496",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI15",
+    "eurostat:nuts_2021_level_lau":"64496",
+    "eurostat:population":4844,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067106",
     "frgov:id":"BDCSURCO0000000009613819",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000859,
-    "geom:area_square_m":7711972.652347,
+    "geom:area_square_m":7711972.652346,
     "geom:bbox":"-1.46758406424,43.4439659481,-1.42151824911,43.4820046708",
     "geom:latitude":43.462258,
     "geom:longitude":-1.44168,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683539,
         102191581,
@@ -58,7 +72,10 @@
         102071627
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_64496",
+        "eurostat:nuts_2021_id":"64496"
+    },
     "wof:coterminous":[
         101874561
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"16d4c10cdb1714316457d782a2025e4d",
+    "wof:geomhash":"382dba35735de36612e19429943b99dc",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404410609,
-    "wof:lastmodified":1582325157,
+    "wof:lastmodified":1684353373,
     "wof:name":"Saint-Pierre-D'Irube",
     "wof:parent_id":102071627,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":4844,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

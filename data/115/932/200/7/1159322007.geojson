@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_11262",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Narbonne",
+    "eurostat:nuts_2021_id":"11262",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ11",
+    "eurostat:nuts_2021_level_lau":"11262",
+    "eurostat:population":54700,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"241100593",
     "frgov:id":"BDCSURCO0000000009615539",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Sous-pr\u00e9fecture",
     "geom:area":0.019335,
-    "geom:area_square_m":174380975.59687,
+    "geom:area_square_m":174380975.596876,
     "geom:bbox":"2.882378,43.060875,3.184954,43.237845",
     "geom:latitude":43.165114,
     "geom:longitude":3.02028,
@@ -231,24 +243,30 @@
     "reversegeo:longitude":3.010059,
     "src:geom":"frgov",
     "src:geom_alt":[],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85683485,
         102191581,
         85633147,
-        102072185,
-        136253037,
         404228023,
         1108826387,
-        85683485
+        136253037,
+        102072185
     ],
     "wof:breaches":[],
     "wof:concordance":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_11262",
+        "eurostat:nuts_2021_id":"11262"
+    },
     "wof:coterminous":[
         101773353,
         102072185
     ],
     "wof:country":"FR",
     "wof:created":1526509573,
-    "wof:geomhash":"b3f913389b761c987e68f12d5af1f93b",
+    "wof:geomhash":"d7710458f177647e31d9b487d384c8f3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -262,11 +280,13 @@
         }
     ],
     "wof:id":1159322007,
-    "wof:lastmodified":1608039587,
+    "wof:lastmodified":1684353596,
     "wof:name":"Narbonne",
     "wof:parent_id":102072185,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Sous-pr\u00e9fecture",
+    "wof:population":54700,
+    "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded":[],
     "wof:superseded_by":[],

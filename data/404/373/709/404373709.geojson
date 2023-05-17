@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_32423",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"S\u00e9ailles",
+    "eurostat:nuts_2021_id":"32423",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ24",
+    "eurostat:nuts_2021_level_lau":"32423",
+    "eurostat:population":45,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243200458",
     "frgov:id":"BDCSURCO0000000009612789",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683467,
         102191581,
@@ -58,7 +72,10 @@
         102065529
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_32423",
+        "eurostat:nuts_2021_id":"32423"
+    },
     "wof:coterminous":[
         1126057089
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"66bfded7f4dbc87ab1fee7e6b5639934",
+    "wof:geomhash":"f1f5e2c5f03650341bf1bef4a6d42340",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404373709,
-    "wof:lastmodified":1582325338,
+    "wof:lastmodified":1684352933,
     "wof:name":"Seailles",
     "wof:parent_id":102065529,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":45,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

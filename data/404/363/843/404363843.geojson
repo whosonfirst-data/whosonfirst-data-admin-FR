@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_11402",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Valmig\u00e8re",
+    "eurostat:nuts_2021_id":"11402",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ11",
+    "eurostat:nuts_2021_level_lau":"11402",
+    "eurostat:population":17,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071926",
     "frgov:id":"BDCSURCO0000000009615768",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683485,
         102191581,
@@ -58,7 +72,10 @@
         102066657
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_11402",
+        "eurostat:nuts_2021_id":"11402"
+    },
     "wof:coterminous":[
         1125828103
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e0c94f40e702d0528ea784a1b52de7e7",
+    "wof:geomhash":"aabb633ba2ad3f2efe9c6b5b459913f8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404363843,
-    "wof:lastmodified":1582324222,
+    "wof:lastmodified":1684352807,
     "wof:name":"Valmigere",
     "wof:parent_id":102066657,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":17,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

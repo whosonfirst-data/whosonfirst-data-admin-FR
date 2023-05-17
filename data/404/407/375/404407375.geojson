@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_24371",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Aquilin",
+    "eurostat:nuts_2021_id":"24371",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI11",
+    "eurostat:nuts_2021_level_lau":"24371",
+    "eurostat:population":479,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040095",
     "frgov:id":"BDCSURCO0000000009607796",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002573,
-    "geom:area_square_m":22424101.082891,
+    "geom:area_square_m":22424101.082892,
     "geom:bbox":"0.449688380328,45.1596584073,0.52681518967,45.2153552544",
     "geom:latitude":45.191015,
     "geom:longitude":0.488249,
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683331,
         102191581,
@@ -139,7 +153,10 @@
         102069003
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_24371",
+        "eurostat:nuts_2021_id":"24371"
+    },
     "wof:coterminous":[
         1125938967
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6e7a4b7b980e722c5bad7b02bdfe68f1",
+    "wof:geomhash":"2bf73b6a21bee3cd3a943ba03383aacd",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404407375,
-    "wof:lastmodified":1582324502,
+    "wof:lastmodified":1684353337,
     "wof:name":"Saint-Aquilin",
     "wof:parent_id":102069003,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":479,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

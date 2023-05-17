@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_28173",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gasville-Ois\u00e8me",
+    "eurostat:nuts_2021_id":"28173",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB02",
+    "eurostat:nuts_2021_level_lau":"28173",
+    "eurostat:population":1448,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200033181",
     "frgov:id":"BDCSURCO0000000009592501",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001111,
-    "geom:area_square_m":9109190.035001,
+    "geom:area_square_m":9109190.035002,
     "geom:bbox":"1.52304015382,48.4570238498,1.5841912981,48.4892772346",
     "geom:latitude":48.472973,
     "geom:longitude":1.55488,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683189,
         102191581,
@@ -55,7 +69,10 @@
         102065425
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_28173",
+        "eurostat:nuts_2021_id":"28173"
+    },
     "wof:coterminous":[
         1360680469
     ],
@@ -63,7 +80,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b35b460362edd519661b1f397b6a8a77",
+    "wof:geomhash":"6ababa019d8e22570664f9444ae1398c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -76,11 +93,13 @@
         }
     ],
     "wof:id":404428771,
-    "wof:lastmodified":1582325117,
+    "wof:lastmodified":1684353588,
     "wof:name":"Gasville-Oiseme",
     "wof:parent_id":102065425,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1448,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

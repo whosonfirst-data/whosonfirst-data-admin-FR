@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_06127",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Martin-V\u00e9subie",
+    "eurostat:nuts_2021_id":"06127",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL03",
+    "eurostat:nuts_2021_level_lau":"06127",
+    "eurostat:population":1411,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200030195",
     "frgov:id":"BDCSURCO0000000009611142",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.010924,
-    "geom:area_square_m":96999173.503345,
+    "geom:area_square_m":96999173.503339,
     "geom:bbox":"7.22466907894,44.0407940346,7.38886090384,44.1480813302",
     "geom:latitude":44.102108,
     "geom:longitude":7.302594,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683323,
         102191581,
@@ -57,7 +71,10 @@
         102068575
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_06127",
+        "eurostat:nuts_2021_id":"06127"
+    },
     "wof:coterminous":[
         101772415
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ccd82e9de91172175ddc447dbb6458b4",
+    "wof:geomhash":"b751eeb87a7af30ef4ab23fd346e9ab6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404398543,
-    "wof:lastmodified":1582324111,
+    "wof:lastmodified":1684353232,
     "wof:name":"Saint-Martin-Vesubie",
     "wof:parent_id":102068575,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1411,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

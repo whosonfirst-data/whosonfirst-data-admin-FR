@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_22287",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Donan",
+    "eurostat:nuts_2021_id":"22287",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH01",
+    "eurostat:nuts_2021_level_lau":"22287",
+    "eurostat:population":1457,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069409",
     "frgov:id":"BDCSURCO0000000009592172",
     "frgov:insee_arr":"4",
@@ -135,6 +147,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683515,
         102191581,
@@ -144,7 +158,10 @@
         102071615
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_22287",
+        "eurostat:nuts_2021_id":"22287"
+    },
     "wof:coterminous":[
         101761505
     ],
@@ -152,7 +169,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e8a6c620c3ae589c9f1700f0c0d94f3e",
+    "wof:geomhash":"b31a057eab8daa11ea8bac96a1285900",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -165,11 +182,13 @@
         }
     ],
     "wof:id":404368333,
-    "wof:lastmodified":1582324877,
+    "wof:lastmodified":1684352870,
     "wof:name":"Saint-Donan",
     "wof:parent_id":102071615,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1457,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

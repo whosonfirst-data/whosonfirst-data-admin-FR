@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_71492",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Ythaire",
+    "eurostat:nuts_2021_id":"71492",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC13",
+    "eurostat:nuts_2021_level_lau":"71492",
+    "eurostat:population":125,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040293",
     "frgov:id":"BDCSURCO0000000009601979",
     "frgov:insee_arr":"5",
@@ -120,6 +132,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683543,
         102191581,
@@ -130,7 +144,10 @@
         102071171
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_71492",
+        "eurostat:nuts_2021_id":"71492"
+    },
     "wof:coterminous":[
         1125821185
     ],
@@ -138,7 +155,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e17a66ac1d1a2344fe46fb6e30b2f6ec",
+    "wof:geomhash":"1794e045a1b053afac137a6bb170c895",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -152,11 +169,13 @@
         }
     ],
     "wof:id":404399307,
-    "wof:lastmodified":1582324143,
+    "wof:lastmodified":1684353242,
     "wof:name":"Saint-Ythaire",
     "wof:parent_id":102071171,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":125,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

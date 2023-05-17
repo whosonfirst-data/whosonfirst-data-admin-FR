@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_23090",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gentioux-Pigerolles",
+    "eurostat:nuts_2021_id":"23090",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI22",
+    "eurostat:nuts_2021_level_lau":"23090",
+    "eurostat:population":405,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200044014",
     "frgov:id":"BDCSURCO0000000009605588",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.009239,
-    "geom:area_square_m":79667652.526579,
+    "geom:area_square_m":79667652.52658,
     "geom:bbox":"1.92139920817,45.736375821,2.11722818971,45.8338055867",
     "geom:latitude":45.784864,
     "geom:longitude":2.008594,
@@ -123,6 +135,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683179,
         102191581,
@@ -133,7 +147,10 @@
         102067379
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_23090",
+        "eurostat:nuts_2021_id":"23090"
+    },
     "wof:coterminous":[
         1125776849
     ],
@@ -141,7 +158,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"354e45510393e3a13593204985e3008c",
+    "wof:geomhash":"41943ddc19e173f382fc6baec6663c37",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -155,11 +172,13 @@
         }
     ],
     "wof:id":404359397,
-    "wof:lastmodified":1582324787,
+    "wof:lastmodified":1684352745,
     "wof:name":"Gentioux-Pigerolles",
     "wof:parent_id":102067379,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":405,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

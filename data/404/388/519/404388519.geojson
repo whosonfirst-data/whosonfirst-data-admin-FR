@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_23243",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Silvain-sous-Toulx",
+    "eurostat:nuts_2021_id":"23243",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI22",
+    "eurostat:nuts_2021_level_lau":"23243",
+    "eurostat:population":165,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067544",
     "frgov:id":"BDCSURCO0000000009603324",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001729,
-    "geom:area_square_m":14777460.553968,
+    "geom:area_square_m":14777460.553967,
     "geom:bbox":"2.15624655376,46.2292794416,2.21608078559,46.2894877051",
     "geom:latitude":46.259365,
     "geom:longitude":2.188401,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683179,
         102191581,
@@ -58,7 +72,10 @@
         102068009
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_23243",
+        "eurostat:nuts_2021_id":"23243"
+    },
     "wof:coterminous":[
         1125819411
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f41eb3517acd4bb7e941e48527c96e0a",
+    "wof:geomhash":"2b842ea69b6b1bb80569e1ec03b49310",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404388519,
-    "wof:lastmodified":1582325482,
+    "wof:lastmodified":1684353110,
     "wof:name":"Saint-Silvain-Sous-Toulx",
     "wof:parent_id":102068009,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":165,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_43183",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sainte-Eug\u00e9nie-de-Villeneuve",
+    "eurostat:nuts_2021_id":"43183",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK13",
+    "eurostat:nuts_2021_level_lau":"43183",
+    "eurostat:population":107,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200073393",
     "frgov:id":"BDCSURCO0000000009607914",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.000729,
-    "geom:area_square_m":6357613.197531,
+    "geom:area_square_m":6357613.19753,
     "geom:bbox":"3.60491866037,45.1300616498,3.65873613899,45.1528817738",
     "geom:latitude":45.141875,
     "geom:longitude":3.630716,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683413,
         102191581,
@@ -58,7 +72,10 @@
         102067199
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_43183",
+        "eurostat:nuts_2021_id":"43183"
+    },
     "wof:coterminous":[
         1125821571
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8e03850d7927051aaf51a34a5c5660b0",
+    "wof:geomhash":"32cc105ab47e1ddc4271f07f5ceb6963",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404352923,
-    "wof:lastmodified":1582324168,
+    "wof:lastmodified":1684352657,
     "wof:name":"Sainte-Eugenie-De-Villeneuve",
     "wof:parent_id":102067199,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":107,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

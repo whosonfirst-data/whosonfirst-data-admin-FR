@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_84025",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Cabri\u00e8res-d'Avignon",
+    "eurostat:nuts_2021_id":"84025",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL06",
+    "eurostat:nuts_2021_level_lau":"84025",
+    "eurostat:population":1816,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040442",
     "frgov:id":"BDCSURCO0000000009612189",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.001636,
-    "geom:area_square_m":14577779.677459,
+    "geom:area_square_m":14577779.677458,
     "geom:bbox":"5.13173341733,43.8643622315,5.1671092283,43.9423951954",
     "geom:latitude":43.895999,
     "geom:longitude":5.153083,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683201,
         102191581,
@@ -57,7 +71,10 @@
         102066701
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_84025",
+        "eurostat:nuts_2021_id":"84025"
+    },
     "wof:coterminous":[
         101772427
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"23a98952025575fc8faccac38e867da2",
+    "wof:geomhash":"ff5ef37edcd815f6aca57b0628b0a13b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404425913,
-    "wof:lastmodified":1582324305,
+    "wof:lastmodified":1684353556,
     "wof:name":"Cabrieres-D'Avignon",
     "wof:parent_id":102066701,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1816,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

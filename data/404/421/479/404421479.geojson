@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_26329",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Sauveur-Gouvernet",
+    "eurostat:nuts_2021_id":"26329",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK23",
+    "eurostat:nuts_2021_level_lau":"26329",
+    "eurostat:population":182,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068229",
     "frgov:id":"BDCSURCO0000000009610661",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.002205,
-    "geom:area_square_m":19503461.720584,
+    "geom:area_square_m":19503461.720585,
     "geom:bbox":"5.3149673605,44.3137192052,5.43413332948,44.347933002",
     "geom:latitude":44.330347,
     "geom:longitude":5.376673,
@@ -124,6 +136,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683523,
         102191581,
@@ -134,7 +148,10 @@
         102064723
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_26329",
+        "eurostat:nuts_2021_id":"26329"
+    },
     "wof:coterminous":[
         1360679759
     ],
@@ -142,7 +159,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"16e56305d872a3db12ca2b086db9e2a3",
+    "wof:geomhash":"7d308d823c17b8dea5502653a48fc813",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -156,11 +173,13 @@
         }
     ],
     "wof:id":404421479,
-    "wof:lastmodified":1582325098,
+    "wof:lastmodified":1684353503,
     "wof:name":"Saint-Sauveur-Gouvernet",
     "wof:parent_id":102064723,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":182,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

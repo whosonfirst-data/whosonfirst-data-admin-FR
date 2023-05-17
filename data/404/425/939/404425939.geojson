@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_22235",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Plouz\u00e9lambre",
+    "eurostat:nuts_2021_id":"22235",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH01",
+    "eurostat:nuts_2021_level_lau":"22235",
+    "eurostat:population":234,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200065928",
     "frgov:id":"BDCSURCO0000000009590411",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683515,
         102191581,
@@ -57,7 +71,10 @@
         102070313
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_22235",
+        "eurostat:nuts_2021_id":"22235"
+    },
     "wof:coterminous":[
         1125924879
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2037917e6c70997bd7492e2f3644d6bb",
+    "wof:geomhash":"9d6aae6093f2e730871dea149d591f14",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404425939,
-    "wof:lastmodified":1582324298,
+    "wof:lastmodified":1684353556,
     "wof:name":"Plouzelambre",
     "wof:parent_id":102070313,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":234,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

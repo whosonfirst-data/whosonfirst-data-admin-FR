@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_30171",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Moli\u00e8res-sur-C\u00e8ze",
+    "eurostat:nuts_2021_id":"30171",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ12",
+    "eurostat:nuts_2021_level_lau":"30171",
+    "eurostat:population":1297,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200035129",
     "frgov:id":"BDCSURCO0000000009611036",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683431,
         102191581,
@@ -58,7 +72,10 @@
         102068715
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_30171",
+        "eurostat:nuts_2021_id":"30171"
+    },
     "wof:coterminous":[
         101772691
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"eb67a2875fa2f2c469a3d078714e77b0",
+    "wof:geomhash":"3f9482a7edd8414e7f31ac6f260b3f57",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404400463,
-    "wof:lastmodified":1582324508,
+    "wof:lastmodified":1684353255,
     "wof:name":"Molieres-Sur-Ceze",
     "wof:parent_id":102068715,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1297,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

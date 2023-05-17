@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_53173",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Pallu",
+    "eurostat:nuts_2021_id":"53173",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG03",
+    "eurostat:nuts_2021_level_lau":"53173",
+    "eurostat:population":193,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200042182",
     "frgov:id":"BDCSURCO0000000009592101",
     "frgov:insee_arr":"3",
@@ -114,6 +126,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683401,
         102191581,
@@ -123,7 +137,10 @@
         102065761
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_53173",
+        "eurostat:nuts_2021_id":"53173"
+    },
     "wof:coterminous":[
         1125765301
     ],
@@ -131,7 +148,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"71823b28c7613a29ad8db6f2fd12aa6f",
+    "wof:geomhash":"4ac7375e59ba5d9fb7f594dbd19e611b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -144,11 +161,13 @@
         }
     ],
     "wof:id":404427597,
-    "wof:lastmodified":1582325241,
+    "wof:lastmodified":1684353575,
     "wof:name":"La Pallu",
     "wof:parent_id":102065761,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":193,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_17359",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Mard",
+    "eurostat:nuts_2021_id":"17359",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI32",
+    "eurostat:nuts_2021_level_lau":"17359",
+    "eurostat:population":1198,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041614",
     "frgov:id":"BDCSURCO0000000009603877",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002441,
-    "geom:area_square_m":20929959.054069,
+    "geom:area_square_m":20929959.054067,
     "geom:bbox":"-0.741464949574,46.0738353671,-0.650449432252,46.1124261887",
     "geom:latitude":46.093125,
     "geom:longitude":-0.696189,
@@ -96,6 +108,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683275,
         102191581,
@@ -106,7 +120,10 @@
         102070741
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_17359",
+        "eurostat:nuts_2021_id":"17359"
+    },
     "wof:coterminous":[
         1125814593
     ],
@@ -114,7 +131,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b35687ab4d07667efe15275d35729dee",
+    "wof:geomhash":"7aaec7e8069b49acc9eec2c06388a4c8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -128,11 +145,13 @@
         }
     ],
     "wof:id":404391647,
-    "wof:lastmodified":1582324018,
+    "wof:lastmodified":1684353152,
     "wof:name":"Saint-Mard",
     "wof:parent_id":102070741,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1198,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

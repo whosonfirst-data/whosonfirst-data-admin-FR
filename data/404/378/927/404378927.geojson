@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_01293",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Peyriat",
+    "eurostat:nuts_2021_id":"01293",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK21",
+    "eurostat:nuts_2021_level_lau":"01293",
+    "eurostat:population":157,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200042935",
     "frgov:id":"BDCSURCO0000000009603455",
     "frgov:insee_arr":"4",
@@ -147,6 +159,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683153,
         102191581,
@@ -157,7 +171,10 @@
         102067337
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_01293",
+        "eurostat:nuts_2021_id":"01293"
+    },
     "wof:coterminous":[
         1125924025
     ],
@@ -165,7 +182,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"29e461235dd936c3e5d9398437f399cb",
+    "wof:geomhash":"3f7b3b70a3bb467c2200b37341ba9b8a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -179,11 +196,13 @@
         }
     ],
     "wof:id":404378927,
-    "wof:lastmodified":1582324746,
+    "wof:lastmodified":1684352998,
     "wof:name":"Peyriat",
     "wof:parent_id":102067337,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":157,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

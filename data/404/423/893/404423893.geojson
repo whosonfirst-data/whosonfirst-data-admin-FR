@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_73312",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Verrens-Arvey",
+    "eurostat:nuts_2021_id":"73312",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK27",
+    "eurostat:nuts_2021_level_lau":"73312",
+    "eurostat:population":900,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068997",
     "frgov:id":"BDCSURCO0000000009605440",
     "frgov:insee_arr":"1",
@@ -120,6 +132,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683265,
         102191581,
@@ -130,7 +144,10 @@
         102067015
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_73312",
+        "eurostat:nuts_2021_id":"73312"
+    },
     "wof:coterminous":[
         1125830657
     ],
@@ -138,7 +155,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"34bb2865e23feff14cec3c9ab84d68b2",
+    "wof:geomhash":"e4c0f1faabc2658915eabcaf48f409cd",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -152,11 +169,13 @@
         }
     ],
     "wof:id":404423893,
-    "wof:lastmodified":1582324408,
+    "wof:lastmodified":1684353532,
     "wof:name":"Verrens-Arvey",
     "wof:parent_id":102067015,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":900,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

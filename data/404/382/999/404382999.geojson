@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_38514",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Tr\u00e9minis",
+    "eurostat:nuts_2021_id":"38514",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK24",
+    "eurostat:nuts_2021_level_lau":"38514",
+    "eurostat:population":178,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200030658",
     "frgov:id":"BDCSURCO0000000009609149",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.005618,
-    "geom:area_square_m":49352053.647957,
+    "geom:area_square_m":49352053.647956,
     "geom:bbox":"5.70405972669,44.6958960828,5.82978989739,44.767265193",
     "geom:latitude":44.732397,
     "geom:longitude":5.77171,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683427,
         102191581,
@@ -56,7 +70,10 @@
         102067193
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_38514",
+        "eurostat:nuts_2021_id":"38514"
+    },
     "wof:coterminous":[
         1360676093
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"caff8a29ef4f2f9175cd727d4564f195",
+    "wof:geomhash":"e3d26f916d1bb86f1ea2921d510636b6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404382999,
-    "wof:lastmodified":1582324681,
+    "wof:lastmodified":1684353046,
     "wof:name":"Treminis",
     "wof:parent_id":102067193,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":178,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

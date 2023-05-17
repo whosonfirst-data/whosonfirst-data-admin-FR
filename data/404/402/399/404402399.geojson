@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_31500",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Mamet",
+    "eurostat:nuts_2021_id":"31500",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ23",
+    "eurostat:nuts_2021_level_lau":"31500",
+    "eurostat:population":557,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072635",
     "frgov:id":"BDCSURCO0000000009616375",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001238,
-    "geom:area_square_m":11241611.528098,
+    "geom:area_square_m":11241611.528097,
     "geom:bbox":"0.59857427247,42.7544507177,0.666932064501,42.7892718798",
     "geom:latitude":42.771462,
     "geom:longitude":0.630381,
@@ -124,6 +136,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683397,
         102191581,
@@ -134,7 +148,10 @@
         102064903
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_31500",
+        "eurostat:nuts_2021_id":"31500"
+    },
     "wof:coterminous":[
         1360677877
     ],
@@ -142,7 +159,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7042244659da263a1b364b2101b51f2f",
+    "wof:geomhash":"0d677e7c00f4c0966e2fbf3eb1241a56",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -156,11 +173,13 @@
         }
     ],
     "wof:id":404402399,
-    "wof:lastmodified":1582325271,
+    "wof:lastmodified":1684353277,
     "wof:name":"Saint-Mamet",
     "wof:parent_id":102064903,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":557,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

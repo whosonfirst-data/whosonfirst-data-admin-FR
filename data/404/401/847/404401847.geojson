@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_86242",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Romain",
+    "eurostat:nuts_2021_id":"86242",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI34",
+    "eurostat:nuts_2021_level_lau":"86242",
+    "eurostat:population":396,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070035",
     "frgov:id":"BDCSURCO0000000009603355",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002403,
-    "geom:area_square_m":20553156.419016,
+    "geom:area_square_m":20553156.419015,
     "geom:bbox":"0.349674970129,46.1950040254,0.417378143582,46.2557150814",
     "geom:latitude":46.227408,
     "geom:longitude":0.38015,
@@ -93,6 +105,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683185,
         102191581,
@@ -103,7 +117,10 @@
         102064577
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_86242",
+        "eurostat:nuts_2021_id":"86242"
+    },
     "wof:coterminous":[
         101891821
     ],
@@ -111,7 +128,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8f47f4f8a196adc93c62a0794114f6d4",
+    "wof:geomhash":"a5b6b92b68b74fd6fdefe99681b075d0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -125,11 +142,13 @@
         }
     ],
     "wof:id":404401847,
-    "wof:lastmodified":1582324430,
+    "wof:lastmodified":1684353270,
     "wof:name":"Saint-Romain",
     "wof:parent_id":102064577,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":396,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

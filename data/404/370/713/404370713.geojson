@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_33193",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Grayan-et-l'H\u00f4pital",
+    "eurostat:nuts_2021_id":"33193",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI12",
+    "eurostat:nuts_2021_level_lau":"33193",
+    "eurostat:population":1371,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070720",
     "frgov:id":"BDCSURCO0000000009606704",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.005233,
-    "geom:area_square_m":45406698.867774,
+    "geom:area_square_m":45406698.867775,
     "geom:bbox":"-1.16059993728,45.3972913499,-1.05120479594,45.4675631251",
     "geom:latitude":45.435043,
     "geom:longitude":-1.108951,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683243,
         102191581,
@@ -58,7 +72,10 @@
         102071429
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_33193",
+        "eurostat:nuts_2021_id":"33193"
+    },
     "wof:coterminous":[
         1125983329
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2eddad7ae1a66ae24b5d57aed6d99c54",
+    "wof:geomhash":"cee2bc57667188c9fa311f64f583d0b9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404370713,
-    "wof:lastmodified":1582324601,
+    "wof:lastmodified":1684352898,
     "wof:name":"Grayan-Et-L'Hopital",
     "wof:parent_id":102071429,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1371,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

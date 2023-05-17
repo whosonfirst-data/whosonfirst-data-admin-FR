@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_05079",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mon\u00eatier-les-Bains",
+    "eurostat:nuts_2021_id":"05079",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL02",
+    "eurostat:nuts_2021_level_lau":"05079",
+    "eurostat:population":1056,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240500439",
     "frgov:id":"BDCSURCO0000000009608264",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.01538,
-    "geom:area_square_m":134487682.857898,
+    "geom:area_square_m":134487682.857905,
     "geom:bbox":"6.3617550556,44.9282975635,6.58006924415,45.0701707969",
     "geom:latitude":44.995677,
     "geom:longitude":6.469868,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683597,
         102191581,
@@ -57,7 +71,10 @@
         102066593
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_05079",
+        "eurostat:nuts_2021_id":"05079"
+    },
     "wof:coterminous":[
         1126004215
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f60507a64c96662c6631e9933c0a05c6",
+    "wof:geomhash":"842c7f70489aa3259f4f9db654cd722d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404363215,
-    "wof:lastmodified":1582324230,
+    "wof:lastmodified":1684352798,
     "wof:name":"Le Monetier-Les-Bains",
     "wof:parent_id":102066593,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1056,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

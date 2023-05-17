@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_17367",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Martin-de-Juillers",
+    "eurostat:nuts_2021_id":"17367",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI32",
+    "eurostat:nuts_2021_level_lau":"17367",
+    "eurostat:population":158,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041689",
     "frgov:id":"BDCSURCO0000000009604625",
     "frgov:insee_arr":"5",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000982,
-    "geom:area_square_m":8442754.886022,
+    "geom:area_square_m":8442754.886023,
     "geom:bbox":"-0.362444701699,45.918838072,-0.324338430212,45.9571195319",
     "geom:latitude":45.938821,
     "geom:longitude":-0.344543,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683275,
         102191581,
@@ -58,7 +72,10 @@
         102065005
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_17367",
+        "eurostat:nuts_2021_id":"17367"
+    },
     "wof:coterminous":[
         1126027815
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f40affcd92dff836bbc24d6508778f26",
+    "wof:geomhash":"014c046ee14d05312a622eaeb955b22a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404403895,
-    "wof:lastmodified":1582325291,
+    "wof:lastmodified":1684353294,
     "wof:name":"Saint-Martin-De-Juillers",
     "wof:parent_id":102065005,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":158,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_64102",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bayonne",
+    "eurostat:nuts_2021_id":"64102",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI15",
+    "eurostat:nuts_2021_level_lau":"64102",
+    "eurostat:population":51228,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067106",
     "frgov:id":"BDCSURCO0000000009613820",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Sous-pr\u00e9fecture",
     "geom:area":0.002873,
-    "geom:area_square_m":25776597.490017,
+    "geom:area_square_m":25776597.490018,
     "geom:bbox":"-1.504816,43.450182,-1.417658,43.51902",
     "geom:latitude":43.4924,
     "geom:longitude":-1.465904,
@@ -213,24 +225,30 @@
     "reversegeo:longitude":-1.472515,
     "src:geom":"frgov",
     "src:geom_alt":[],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85683539,
         102191581,
         85633147,
-        102072047,
-        136253037,
         404227727,
         1108826385,
-        85683539
+        136253037,
+        102072047
     ],
     "wof:breaches":[],
     "wof:concordance":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_64102",
+        "eurostat:nuts_2021_id":"64102"
+    },
     "wof:coterminous":[
         101831755,
         102072047
     ],
     "wof:country":"FR",
     "wof:created":1526509044,
-    "wof:geomhash":"6217fe9bc0895af8f93ff6c151e9a123",
+    "wof:geomhash":"b3f827d9225c771f1c05404d4e82a0ce",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -244,11 +262,13 @@
         }
     ],
     "wof:id":1159321847,
-    "wof:lastmodified":1608039593,
+    "wof:lastmodified":1684353593,
     "wof:name":"Bayonne",
     "wof:parent_id":102072047,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Sous-pr\u00e9fecture",
+    "wof:population":51228,
+    "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded":[],
     "wof:superseded_by":[],

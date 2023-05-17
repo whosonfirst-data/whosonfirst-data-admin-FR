@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_70089",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bourguignon-l\u00e8s-Morey",
+    "eurostat:nuts_2021_id":"70089",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC23",
+    "eurostat:nuts_2021_level_lau":"70089",
+    "eurostat:population":47,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200036150",
     "frgov:id":"BDCSURCO0000000009597055",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683559,
         102191581,
@@ -58,7 +72,10 @@
         102069517
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_70089",
+        "eurostat:nuts_2021_id":"70089"
+    },
     "wof:coterminous":[
         101886419
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f7409590922722cc29ec375af5580a7a",
+    "wof:geomhash":"03251cfdcba48bef872a5e6f15f2aea1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404397245,
-    "wof:lastmodified":1582324202,
+    "wof:lastmodified":1684353216,
     "wof:name":"Bourguignon-Les-Morey",
     "wof:parent_id":102069517,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":47,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

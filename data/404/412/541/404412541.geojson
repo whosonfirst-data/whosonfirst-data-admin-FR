@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_60282",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gouvieux",
+    "eurostat:nuts_2021_id":"60282",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE22",
+    "eurostat:nuts_2021_level_lau":"60282",
+    "eurostat:population":9069,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"246000764",
     "frgov:id":"BDCSURCO0000000009586683",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002878,
-    "geom:area_square_m":23254586.854617,
+    "geom:area_square_m":23254586.854616,
     "geom:bbox":"2.36919472806,49.1661641043,2.46313959458,49.2133559853",
     "geom:latitude":49.18925,
     "geom:longitude":2.420549,
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683289,
         102191581,
@@ -139,7 +153,10 @@
         102070703
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_60282",
+        "eurostat:nuts_2021_id":"60282"
+    },
     "wof:coterminous":[
         101828473
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"83138f6231999cfd0e0caf72bd8d6652",
+    "wof:geomhash":"734a761dddec1c464ab79da70670fe86",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404412541,
-    "wof:lastmodified":1582324384,
+    "wof:lastmodified":1684353395,
     "wof:name":"Gouvieux",
     "wof:parent_id":102070703,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":9069,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

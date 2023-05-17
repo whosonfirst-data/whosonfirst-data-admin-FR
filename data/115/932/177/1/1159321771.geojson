@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_52448",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Dizier",
+    "eurostat:nuts_2021_id":"52448",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF24",
+    "eurostat:nuts_2021_level_lau":"52448",
+    "eurostat:population":24012,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068666",
     "frgov:id":"BDCSURCO0000000053385371",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Sous-pr\u00e9fecture",
     "geom:area":0.005938,
-    "geom:area_square_m":48531997.081487,
+    "geom:area_square_m":48531997.081485,
     "geom:bbox":"4.873387,48.583015,5.006401,48.680698",
     "geom:latitude":48.628167,
     "geom:longitude":4.94932,
@@ -171,24 +183,30 @@
     "reversegeo:longitude":4.959363,
     "src:geom":"frgov",
     "src:geom_alt":[],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85683261,
         102191581,
         85633147,
-        102071893,
-        136253037,
         404228109,
         1108826391,
-        85683261
+        136253037,
+        102071893
     ],
     "wof:breaches":[],
     "wof:concordance":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_52448",
+        "eurostat:nuts_2021_id":"52448"
+    },
     "wof:coterminous":[
         101882939,
         102071893
     ],
     "wof:country":"FR",
     "wof:created":1526508737,
-    "wof:geomhash":"fa3586e8765aaf16141d922400fe41af",
+    "wof:geomhash":"d5bf4ab669373d86612932560d14b307",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -202,11 +220,13 @@
         }
     ],
     "wof:id":1159321771,
-    "wof:lastmodified":1608039593,
+    "wof:lastmodified":1684353592,
     "wof:name":"Saint-Dizier",
     "wof:parent_id":102071893,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Sous-pr\u00e9fecture",
+    "wof:population":24012,
+    "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded":[],
     "wof:superseded_by":[],

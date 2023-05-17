@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_85097",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gaubreti\u00e8re",
+    "eurostat:nuts_2021_id":"85097",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG05",
+    "eurostat:nuts_2021_level_lau":"85097",
+    "eurostat:population":3060,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248500662",
     "frgov:id":"BDCSURCO0000000009600840",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003568,
-    "geom:area_square_m":30125617.481005,
+    "geom:area_square_m":30125617.481004,
     "geom:bbox":"-1.11280942156,46.9088864606,-0.995233891701,46.9609525106",
     "geom:latitude":46.934562,
     "geom:longitude":-1.055526,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683409,
         102191581,
@@ -57,7 +71,10 @@
         102067085
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_85097",
+        "eurostat:nuts_2021_id":"85097"
+    },
     "wof:coterminous":[
         101765513
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b20651c1bbdd170a64b539e208a36b6c",
+    "wof:geomhash":"0d690a3be57d7064f2e6487c0385d0e2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404390779,
-    "wof:lastmodified":1582324268,
+    "wof:lastmodified":1684353140,
     "wof:name":"La Gaubretiere",
     "wof:parent_id":102067085,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3060,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

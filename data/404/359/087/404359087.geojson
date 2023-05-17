@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_69186",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Cl\u00e9ment-de-Vers",
+    "eurostat:nuts_2021_id":"69186",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK26",
+    "eurostat:nuts_2021_level_lau":"69186",
+    "eurostat:population":226,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067817",
     "frgov:id":"BDCSURCO0000000009603261",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.00104,
-    "geom:area_square_m":8892219.211342,
+    "geom:area_square_m":8892219.211341,
     "geom:bbox":"4.38544801227,46.2056232007,4.44572223514,46.2487332098",
     "geom:latitude":46.226752,
     "geom:longitude":4.408339,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683569,
         102191581,
@@ -58,7 +72,10 @@
         102068605
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_69186",
+        "eurostat:nuts_2021_id":"69186"
+    },
     "wof:coterminous":[
         1125809357
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"01e2a5245c5490397598f9d603a0a094",
+    "wof:geomhash":"0cac3ce375b3d761482c48a09fcd3e14",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404359087,
-    "wof:lastmodified":1582324798,
+    "wof:lastmodified":1684352741,
     "wof:name":"Saint-Clement-De-Vers",
     "wof:parent_id":102068605,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":226,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

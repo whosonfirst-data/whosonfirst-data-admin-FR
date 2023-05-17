@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_77517",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Villevaud\u00e9",
+    "eurostat:nuts_2021_id":"77517",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR102",
+    "eurostat:nuts_2021_level_lau":"77517",
+    "eurostat:population":2122,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200033090",
     "frgov:id":"BDCSURCO0000000009589184",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"ILE-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001227,
-    "geom:area_square_m":9974154.696822,
+    "geom:area_square_m":9974154.696821,
     "geom:bbox":"2.63640715276,48.8958984076,2.69299932383,48.9315112148",
     "geom:latitude":48.911995,
     "geom:longitude":2.661928,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683385,
         102191581,
@@ -57,7 +71,10 @@
         102065403
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_77517",
+        "eurostat:nuts_2021_id":"77517"
+    },
     "wof:coterminous":[
         101762503
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f218d12415620985d7067267503c9c5c",
+    "wof:geomhash":"772e890ce109a8a1624667240b28470d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404386077,
-    "wof:lastmodified":1582325445,
+    "wof:lastmodified":1684353082,
     "wof:name":"Villevaude",
     "wof:parent_id":102065403,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2122,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

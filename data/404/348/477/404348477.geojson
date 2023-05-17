@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_77162",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Doue",
+    "eurostat:nuts_2021_id":"77162",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR102",
+    "eurostat:nuts_2021_level_lau":"77162",
+    "eurostat:population":1019,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072544",
     "frgov:id":"BDCSURCO0000000009589659",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"ILE-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002451,
-    "geom:area_square_m":19937345.102054,
+    "geom:area_square_m":19937345.102055,
     "geom:bbox":"3.11968353658,48.8480450231,3.21690581695,48.8947412412",
     "geom:latitude":48.874285,
     "geom:longitude":3.16868,
@@ -117,6 +129,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683385,
         102191581,
@@ -126,7 +140,10 @@
         102069203
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_77162",
+        "eurostat:nuts_2021_id":"77162"
+    },
     "wof:coterminous":[
         1125928405
     ],
@@ -134,7 +151,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c93151b64ce02d80bbd52add5c936208",
+    "wof:geomhash":"438e693f502e7cbeceff7f3181c7c434",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -147,11 +164,13 @@
         }
     ],
     "wof:id":404348477,
-    "wof:lastmodified":1582324578,
+    "wof:lastmodified":1684352595,
     "wof:name":"Doue",
     "wof:parent_id":102069203,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1019,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

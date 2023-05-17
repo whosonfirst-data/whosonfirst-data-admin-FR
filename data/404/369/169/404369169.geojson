@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_45271",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Brisson-sur-Loire",
+    "eurostat:nuts_2021_id":"45271",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB06",
+    "eurostat:nuts_2021_level_lau":"45271",
+    "eurostat:population":981,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244500211",
     "frgov:id":"BDCSURCO0000000009597789",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002646,
-    "geom:area_square_m":22049399.442099,
+    "geom:area_square_m":22049399.442101,
     "geom:bbox":"2.6367383727,47.5937532535,2.7150690193,47.6673603099",
     "geom:latitude":47.632395,
     "geom:longitude":2.676639,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683479,
         102191581,
@@ -57,7 +71,10 @@
         102066801
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_45271",
+        "eurostat:nuts_2021_id":"45271"
+    },
     "wof:coterminous":[
         101885851
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ae4e69e3595562e4d5a2a40d4f77e463",
+    "wof:geomhash":"4b4defcd7ed18bbef8f6871420bf1c0a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404369169,
-    "wof:lastmodified":1582324907,
+    "wof:lastmodified":1684352881,
     "wof:name":"Saint-Brisson-Sur-Loire",
     "wof:parent_id":102066801,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":981,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

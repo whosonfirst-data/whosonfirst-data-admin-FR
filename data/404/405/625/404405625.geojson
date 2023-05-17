@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_28149",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Fert\u00e9-Vidame",
+    "eurostat:nuts_2021_id":"28149",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB02",
+    "eurostat:nuts_2021_level_lau":"28149",
+    "eurostat:population":700,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069912",
     "frgov:id":"BDCSURCO0000000009591613",
     "frgov:insee_arr":"3",
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683189,
         102191581,
@@ -55,7 +69,10 @@
         102066915
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_28149",
+        "eurostat:nuts_2021_id":"28149"
+    },
     "wof:coterminous":[
         1360678199
     ],
@@ -63,7 +80,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f095ba7c6cc1df0ee125b1652214db76",
+    "wof:geomhash":"e11bf937603fd7491d187c3e2b2e52d0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -76,11 +93,13 @@
         }
     ],
     "wof:id":404405625,
-    "wof:lastmodified":1582325262,
+    "wof:lastmodified":1684353314,
     "wof:name":"La Ferte-Vidame",
     "wof:parent_id":102066915,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":700,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

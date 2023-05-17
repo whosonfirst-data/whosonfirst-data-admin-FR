@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_55029",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bar-le-Duc",
+    "eurostat:nuts_2021_id":"55029",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF32",
+    "eurostat:nuts_2021_level_lau":"55029",
+    "eurostat:population":14985,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200033025",
     "frgov:id":"BDCSURCO0000000009590087",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Pr\u00e9fecture",
     "geom:area":0.002899,
-    "geom:area_square_m":23630973.936349,
+    "geom:area_square_m":23630973.936346,
     "geom:bbox":"5.126709,48.725846,5.215256,48.79803",
     "geom:latitude":48.764096,
     "geom:longitude":5.163215,
@@ -180,24 +192,30 @@
     "reversegeo:longitude":5.15284,
     "src:geom":"frgov",
     "src:geom_alt":[],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85683297,
         102191581,
         85633147,
-        102071939,
-        136253037,
         404227707,
         1108826391,
-        85683297
+        136253037,
+        102071939
     ],
     "wof:breaches":[],
     "wof:concordance":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_55029",
+        "eurostat:nuts_2021_id":"55029"
+    },
     "wof:coterminous":[
         101763975,
         102071939
     ],
     "wof:country":"FR",
     "wof:created":1526508636,
-    "wof:geomhash":"d9294b72764b186085b3c379aefe732d",
+    "wof:geomhash":"583f7d29456d304a1291dff5b8f5db51",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -211,11 +229,13 @@
         }
     ],
     "wof:id":1159321735,
-    "wof:lastmodified":1608039575,
+    "wof:lastmodified":1684353592,
     "wof:name":"Bar-le-Duc",
     "wof:parent_id":102071939,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Pr\u00e9fecture",
+    "wof:population":14985,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded":[],
     "wof:superseded_by":[],

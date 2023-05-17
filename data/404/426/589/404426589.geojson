@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_09099",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Cos",
+    "eurostat:nuts_2021_id":"09099",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ21",
+    "eurostat:nuts_2021_level_lau":"09099",
+    "eurostat:population":393,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067791",
     "frgov:id":"BDCSURCO0000000009615979",
     "frgov:insee_arr":"1",
@@ -87,6 +99,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683335,
         102191581,
@@ -97,7 +111,10 @@
         102068143
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_09099",
+        "eurostat:nuts_2021_id":"09099"
+    },
     "wof:coterminous":[
         1126023389
     ],
@@ -105,7 +122,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"19ded5e23ca825ff5f3cafbf3fee9dac",
+    "wof:geomhash":"0c8ac49c5fa3e7a2ffa003aa8464ef0a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -119,11 +136,13 @@
         }
     ],
     "wof:id":404426589,
-    "wof:lastmodified":1582325085,
+    "wof:lastmodified":1684353564,
     "wof:name":"Cos",
     "wof:parent_id":102068143,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":393,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

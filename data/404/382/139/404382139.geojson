@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_51235",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Essarts-l\u00e8s-S\u00e9zanne",
+    "eurostat:nuts_2021_id":"51235",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF23",
+    "eurostat:nuts_2021_level_lau":"51235",
+    "eurostat:population":255,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066835",
     "frgov:id":"BDCSURCO0000000009590139",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683405,
         102191581,
@@ -58,7 +72,10 @@
         102066505
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_51235",
+        "eurostat:nuts_2021_id":"51235"
+    },
     "wof:coterminous":[
         101881277
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9106e0a926811dbf94a951e07ee8e46a",
+    "wof:geomhash":"14b5cbd960a2c58a1182f446e86f1177",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404382139,
-    "wof:lastmodified":1582324690,
+    "wof:lastmodified":1684353034,
     "wof:name":"Les Essarts-Les-Sezanne",
     "wof:parent_id":102066505,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":255,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

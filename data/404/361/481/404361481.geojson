@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_23248",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Victor-en-Marche",
+    "eurostat:nuts_2021_id":"23248",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI22",
+    "eurostat:nuts_2021_level_lau":"23248",
+    "eurostat:population":376,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200034825",
     "frgov:id":"BDCSURCO0000000009603818",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001923,
-    "geom:area_square_m":16480197.739623,
+    "geom:area_square_m":16480197.739624,
     "geom:bbox":"1.76589391853,46.0984059787,1.83656649182,46.146728612",
     "geom:latitude":46.118605,
     "geom:longitude":1.798017,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683179,
         102191581,
@@ -58,7 +72,10 @@
         102069335
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_23248",
+        "eurostat:nuts_2021_id":"23248"
+    },
     "wof:coterminous":[
         1126008447
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ee7b3e3d4c0d636ac5d41ef72e802ef5",
+    "wof:geomhash":"8962f19c4f106be3e55587194d996793",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404361481,
-    "wof:lastmodified":1582324762,
+    "wof:lastmodified":1684352774,
     "wof:name":"Saint-Victor-En-Marche",
     "wof:parent_id":102069335,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":376,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

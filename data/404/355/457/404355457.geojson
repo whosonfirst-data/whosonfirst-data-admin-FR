@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_33248",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Listrac-M\u00e9doc",
+    "eurostat:nuts_2021_id":"33248",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI12",
+    "eurostat:nuts_2021_level_lau":"33248",
+    "eurostat:population":2764,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243301389",
     "frgov:id":"BDCSURCO0000000009608257",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00695,
-    "geom:area_square_m":60693341.190519,
+    "geom:area_square_m":60693341.190518,
     "geom:bbox":"-0.911723509798,45.0260545616,-0.742209819866,45.1134503574",
     "geom:latitude":45.068454,
     "geom:longitude":-0.829326,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683243,
         102191581,
@@ -58,7 +72,10 @@
         102068123
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_33248",
+        "eurostat:nuts_2021_id":"33248"
+    },
     "wof:coterminous":[
         101769463
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"cc2c4bb0f4163b25a738e80c48a6cea6",
+    "wof:geomhash":"a28ead4ea50436efde3bb04b112d95f4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404355457,
-    "wof:lastmodified":1582324195,
+    "wof:lastmodified":1684352692,
     "wof:name":"Listrac-Medoc",
     "wof:parent_id":102068123,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2764,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

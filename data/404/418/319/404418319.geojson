@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_27618",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"S\u00e9b\u00e9court",
+    "eurostat:nuts_2021_id":"27618",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD21",
+    "eurostat:nuts_2021_level_lau":"27618",
+    "eurostat:population":477,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242700276",
     "frgov:id":"BDCSURCO0000000009588794",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683283,
         102191581,
@@ -58,7 +72,10 @@
         102066353
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_27618",
+        "eurostat:nuts_2021_id":"27618"
+    },
     "wof:coterminous":[
         1125930541
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3e376672d81e7febbaf33306873aa5af",
+    "wof:geomhash":"e2ba1fdd2f71b608d3b40c48c501f3a6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404418319,
-    "wof:lastmodified":1582325230,
+    "wof:lastmodified":1684353464,
     "wof:name":"Sebecourt",
     "wof:parent_id":102066353,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":477,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

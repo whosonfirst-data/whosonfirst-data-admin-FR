@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_24091",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"C\u00e9nac-et-Saint-Julien",
+    "eurostat:nuts_2021_id":"24091",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI11",
+    "eurostat:nuts_2021_level_lau":"24091",
+    "eurostat:population":1206,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041440",
     "frgov:id":"BDCSURCO0000000009609261",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002343,
-    "geom:area_square_m":20561559.44309,
+    "geom:area_square_m":20561559.443091,
     "geom:bbox":"1.15882101645,44.7599553151,1.26962709166,44.8264114201",
     "geom:latitude":44.786986,
     "geom:longitude":1.202831,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683331,
         102191581,
@@ -56,7 +70,10 @@
         102066193
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_24091",
+        "eurostat:nuts_2021_id":"24091"
+    },
     "wof:coterminous":[
         1360675319
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6f75d9ab6eff62467924414b0fd7c156",
+    "wof:geomhash":"327f89a65ceb01f6cd58ce55038cefda",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404375529,
-    "wof:lastmodified":1582325414,
+    "wof:lastmodified":1684352956,
     "wof:name":"Cenac-Et-Saint-Julien",
     "wof:parent_id":102066193,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1206,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_83027",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Cadi\u00e8re-d'Azur",
+    "eurostat:nuts_2021_id":"83027",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL05",
+    "eurostat:nuts_2021_level_lau":"83027",
+    "eurostat:population":5550,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248300394",
     "frgov:id":"BDCSURCO0000000009614872",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.004166,
-    "geom:area_square_m":37552912.461819,
+    "geom:area_square_m":37552912.461818,
     "geom:bbox":"5.67591079878,43.1579179697,5.77346785646,43.2417851922",
     "geom:latitude":43.203448,
     "geom:longitude":5.725054,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683315,
         102191581,
@@ -57,7 +71,10 @@
         102064765
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_83027",
+        "eurostat:nuts_2021_id":"83027"
+    },
     "wof:coterminous":[
         101844363
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2220c3a1ded67e9d96378a461f8a9fd0",
+    "wof:geomhash":"d04b4d488232538182d8f8951f97eb04",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404362123,
-    "wof:lastmodified":1582324062,
+    "wof:lastmodified":1684352783,
     "wof:name":"La Cadiere-D'Azur",
     "wof:parent_id":102064765,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":5550,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_81237",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Amancet",
+    "eurostat:nuts_2021_id":"81237",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ27",
+    "eurostat:nuts_2021_level_lau":"81237",
+    "eurostat:population":189,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243100567",
     "frgov:id":"BDCSURCO0000000009613887",
     "frgov:insee_arr":"2",
@@ -114,6 +126,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683603,
         102191581,
@@ -124,7 +138,10 @@
         102066331
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_81237",
+        "eurostat:nuts_2021_id":"81237"
+    },
     "wof:coterminous":[
         1125932087
     ],
@@ -132,7 +149,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"603ecd19c32c62db37d3492b70dea057",
+    "wof:geomhash":"26937115de9fd24b3d39b0fc8e3165a7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -146,11 +163,13 @@
         }
     ],
     "wof:id":404387823,
-    "wof:lastmodified":1582325364,
+    "wof:lastmodified":1684353102,
     "wof:name":"Saint-Amancet",
     "wof:parent_id":102066331,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":189,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

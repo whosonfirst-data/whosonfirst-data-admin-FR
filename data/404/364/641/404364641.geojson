@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_38321",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Pr\u00e9bois",
+    "eurostat:nuts_2021_id":"38321",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK24",
+    "eurostat:nuts_2021_level_lau":"38321",
+    "eurostat:population":164,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200030658",
     "frgov:id":"BDCSURCO0000000009609148",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001826,
-    "geom:area_square_m":16029919.778915,
+    "geom:area_square_m":16029919.778918,
     "geom:bbox":"5.67735426681,44.7386523083,5.75541495258,44.8170860113",
     "geom:latitude":44.777721,
     "geom:longitude":5.710661,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683427,
         102191581,
@@ -58,7 +72,10 @@
         102067193
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_38321",
+        "eurostat:nuts_2021_id":"38321"
+    },
     "wof:coterminous":[
         1125913225
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a6285180b61af25888c1ee75537da7db",
+    "wof:geomhash":"e114d6a8df97820061c75b23460a5795",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404364641,
-    "wof:lastmodified":1582324252,
+    "wof:lastmodified":1684352819,
     "wof:name":"Prebois",
     "wof:parent_id":102067193,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":164,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

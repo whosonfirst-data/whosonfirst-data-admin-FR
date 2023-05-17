@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_03255",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Priest-d'Andelot",
+    "eurostat:nuts_2021_id":"03255",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK11",
+    "eurostat:nuts_2021_level_lau":"03255",
+    "eurostat:population":145,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071389",
     "frgov:id":"BDCSURCO0000000009604008",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.000954,
-    "geom:area_square_m":8183608.648472,
+    "geom:area_square_m":8183608.648471,
     "geom:bbox":"3.11831929475,46.0656321913,3.18011686331,46.0908408978",
     "geom:latitude":46.076939,
     "geom:longitude":3.154847,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683293,
         102191581,
@@ -56,7 +70,10 @@
         102066333
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_03255",
+        "eurostat:nuts_2021_id":"03255"
+    },
     "wof:coterminous":[
         1360675847
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9c1e84a640c5f0255d0a837c68a5bb15",
+    "wof:geomhash":"e26a5aa384bb4a98b4a744d6d20df988",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404380415,
-    "wof:lastmodified":1582325374,
+    "wof:lastmodified":1684353015,
     "wof:name":"Saint-Priest-D'Andelot",
     "wof:parent_id":102066333,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":145,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

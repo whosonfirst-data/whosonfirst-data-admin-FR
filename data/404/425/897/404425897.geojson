@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_59457",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"P\u00e9renchies",
+    "eurostat:nuts_2021_id":"59457",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE1",
+    "eurostat:nuts_2021_level_3":"FRE11",
+    "eurostat:nuts_2021_level_lau":"59457",
+    "eurostat:population":8424,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"245900410",
     "frgov:id":"BDCSURCO0000000009580577",
     "frgov:insee_arr":"5",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000386,
-    "geom:area_square_m":3027363.414408,
+    "geom:area_square_m":3027363.414407,
     "geom:bbox":"2.95225362035,50.6581012011,2.98432723269,50.6837019103",
     "geom:latitude":50.670052,
     "geom:longitude":2.968885,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683445,
         102191581,
@@ -58,7 +72,10 @@
         102071617
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_59457",
+        "eurostat:nuts_2021_id":"59457"
+    },
     "wof:coterminous":[
         101751501
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d9bddbb4f7610f3d8364157bdeb2987a",
+    "wof:geomhash":"e696e1ec5e352ef2f400143d79ac6ca9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404425897,
-    "wof:lastmodified":1582324311,
+    "wof:lastmodified":1684353556,
     "wof:name":"Perenchies",
     "wof:parent_id":102071617,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":8424,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

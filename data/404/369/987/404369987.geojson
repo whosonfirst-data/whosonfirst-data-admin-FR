@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_81261",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Lieux-l\u00e8s-Lavaur",
+    "eurostat:nuts_2021_id":"81261",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ27",
+    "eurostat:nuts_2021_level_lau":"81261",
+    "eurostat:population":1046,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200034023",
     "frgov:id":"BDCSURCO0000000009612728",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001062,
-    "geom:area_square_m":9485760.601701,
+    "geom:area_square_m":9485760.6017,
     "geom:bbox":"1.72471334603,43.7380705775,1.77229150572,43.7714903331",
     "geom:latitude":43.755562,
     "geom:longitude":1.747593,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683603,
         102191581,
@@ -58,7 +72,10 @@
         102067473
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_81261",
+        "eurostat:nuts_2021_id":"81261"
+    },
     "wof:coterminous":[
         101897219
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4e1998afa3d5015229ddd42718bd6d9b",
+    "wof:geomhash":"47d9c2ade4e12bce3aa1f358b68ea350",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404369987,
-    "wof:lastmodified":1582324920,
+    "wof:lastmodified":1684352890,
     "wof:name":"Saint-Lieux-Les-Lavaur",
     "wof:parent_id":102067473,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1046,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

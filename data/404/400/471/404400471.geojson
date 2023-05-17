@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_77141",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Coutevroult",
+    "eurostat:nuts_2021_id":"77141",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR102",
+    "eurostat:nuts_2021_level_lau":"77141",
+    "eurostat:population":1108,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247700438",
     "frgov:id":"BDCSURCO0000000009589672",
     "frgov:insee_arr":"1",
@@ -117,6 +129,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683385,
         102191581,
@@ -126,7 +140,10 @@
         102065653
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_77141",
+        "eurostat:nuts_2021_id":"77141"
+    },
     "wof:coterminous":[
         101879639
     ],
@@ -134,7 +151,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d175feb2213f4a2e18c43d1c5b40b0bf",
+    "wof:geomhash":"021b413bca7b459ba7bedb904824daf8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -147,11 +164,13 @@
         }
     ],
     "wof:id":404400471,
-    "wof:lastmodified":1582324505,
+    "wof:lastmodified":1684353255,
     "wof:name":"Coutevroult",
     "wof:parent_id":102065653,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1108,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

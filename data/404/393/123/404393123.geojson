@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_10246",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Montceaux-l\u00e8s-Vaudes",
+    "eurostat:nuts_2021_id":"10246",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF22",
+    "eurostat:nuts_2021_level_lau":"10246",
+    "eurostat:population":256,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069250",
     "frgov:id":"BDCSURCO0000000009594773",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.001217,
-    "geom:area_square_m":10042427.786552,
+    "geom:area_square_m":10042427.786551,
     "geom:bbox":"4.12276226955,48.12774457,4.18782978652,48.1709475534",
     "geom:latitude":48.149032,
     "geom:longitude":4.158126,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683193,
         102191581,
@@ -58,7 +72,10 @@
         102065151
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_10246",
+        "eurostat:nuts_2021_id":"10246"
+    },
     "wof:coterminous":[
         1126034551
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3e8c72b6a11fb4c925c9efff0aaa217b",
+    "wof:geomhash":"ccff2c7a649bc8ee9f55a107a1669620",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404393123,
-    "wof:lastmodified":1582325021,
+    "wof:lastmodified":1684353169,
     "wof:name":"Montceaux-Les-Vaudes",
     "wof:parent_id":102065151,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":256,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

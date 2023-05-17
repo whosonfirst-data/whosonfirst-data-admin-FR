@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_80798",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Villers-Bocage",
+    "eurostat:nuts_2021_id":"80798",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE23",
+    "eurostat:nuts_2021_level_lau":"80798",
+    "eurostat:population":1422,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070951",
     "frgov:id":"BDCSURCO0000000009582292",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001778,
-    "geom:area_square_m":14129121.284415,
+    "geom:area_square_m":14129121.284416,
     "geom:bbox":"2.28838084699,49.9788019981,2.35736183066,50.0260243857",
     "geom:latitude":50.004814,
     "geom:longitude":2.322736,
@@ -87,6 +99,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683363,
         102191581,
@@ -97,7 +111,10 @@
         102071131
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_80798",
+        "eurostat:nuts_2021_id":"80798"
+    },
     "wof:coterminous":[
         101812537
     ],
@@ -105,7 +122,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"19740019ff912e04fd1e150e6f2bb3aa",
+    "wof:geomhash":"e9c41e33585d0d6eabeca619984005ff",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -119,11 +136,13 @@
         }
     ],
     "wof:id":404402795,
-    "wof:lastmodified":1582325279,
+    "wof:lastmodified":1684353281,
     "wof:name":"Villers-Bocage",
     "wof:parent_id":102071131,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1422,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_21481",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Perrigny-l\u00e8s-Dijon",
+    "eurostat:nuts_2021_id":"21481",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC11",
+    "eurostat:nuts_2021_level_lau":"21481",
+    "eurostat:population":1915,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242100410",
     "frgov:id":"BDCSURCO0000000009599456",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000801,
-    "geom:area_square_m":6718746.157668,
+    "geom:area_square_m":6718746.157669,
     "geom:bbox":"4.99900809328,47.2369019775,5.04019680132,47.2743914674",
     "geom:latitude":47.257885,
     "geom:longitude":5.019735,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683563,
         102191581,
@@ -58,7 +72,10 @@
         102070853
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_21481",
+        "eurostat:nuts_2021_id":"21481"
+    },
     "wof:coterminous":[
         101750901
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c9b3a76723dd5455204e4dd592bbd461",
+    "wof:geomhash":"ad88bf91466ab3752ad00a23e8846091",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404398949,
-    "wof:lastmodified":1582324112,
+    "wof:lastmodified":1684353238,
     "wof:name":"Perrigny-Les-Dijon",
     "wof:parent_id":102070853,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1915,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

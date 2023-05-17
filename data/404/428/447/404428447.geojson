@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_89111",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Cl\u00e9rimois",
+    "eurostat:nuts_2021_id":"89111",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC14",
+    "eurostat:nuts_2021_level_lau":"89111",
+    "eurostat:population":297,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248900664",
     "frgov:id":"BDCSURCO0000000009594441",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683503,
         102191581,
@@ -58,7 +72,10 @@
         102070687
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_89111",
+        "eurostat:nuts_2021_id":"89111"
+    },
     "wof:coterminous":[
         101884313
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"32f827f9bf45f8ae0f0aa8b1ecb1caed",
+    "wof:geomhash":"bdd0045744d59fc0b80752a571fc8732",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404428447,
-    "wof:lastmodified":1582325113,
+    "wof:lastmodified":1684353585,
     "wof:name":"Les Clerimois",
     "wof:parent_id":102070687,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":297,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

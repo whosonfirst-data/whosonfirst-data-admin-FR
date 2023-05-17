@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_33073",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Braud-et-Saint-Louis",
+    "eurostat:nuts_2021_id":"33073",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI12",
+    "eurostat:nuts_2021_level_lau":"33073",
+    "eurostat:population":1605,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243300811",
     "frgov:id":"BDCSURCO0000000009607608",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.007669,
-    "geom:area_square_m":66754734.088309,
+    "geom:area_square_m":66754734.088313,
     "geom:bbox":"-0.737970038639,45.2223460921,-0.578589518105,45.2910908122",
     "geom:latitude":45.25523,
     "geom:longitude":-0.665986,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683243,
         102191581,
@@ -58,7 +72,10 @@
         102071017
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_33073",
+        "eurostat:nuts_2021_id":"33073"
+    },
     "wof:coterminous":[
         101767667
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"be8cd600f697db494b728b6d4a487c30",
+    "wof:geomhash":"f826d26b2fb297dd902bc9c115d2f676",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404386307,
-    "wof:lastmodified":1582325442,
+    "wof:lastmodified":1684353085,
     "wof:name":"Braud-Et-Saint-Louis",
     "wof:parent_id":102071017,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1605,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

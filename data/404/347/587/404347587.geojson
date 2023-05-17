@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_87137",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Bazile",
+    "eurostat:nuts_2021_id":"87137",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI23",
+    "eurostat:nuts_2021_level_lau":"87137",
+    "eurostat:population":112,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066520",
     "frgov:id":"BDCSURCO0000000009605610",
     "frgov:insee_arr":"3",
@@ -135,6 +147,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683531,
         102191581,
@@ -145,7 +159,10 @@
         102068105
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_87137",
+        "eurostat:nuts_2021_id":"87137"
+    },
     "wof:coterminous":[
         1125808507
     ],
@@ -153,7 +170,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5cbe0918ce6e27ac2872dcb276d0249a",
+    "wof:geomhash":"bb1730f033ed971c29412159e40d1807",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -167,11 +184,13 @@
         }
     ],
     "wof:id":404347587,
-    "wof:lastmodified":1582324725,
+    "wof:lastmodified":1684352583,
     "wof:name":"Saint-Bazile",
     "wof:parent_id":102068105,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":112,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

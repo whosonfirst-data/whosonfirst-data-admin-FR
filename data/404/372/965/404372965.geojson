@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_01373",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Martin-du-Fr\u00eane",
+    "eurostat:nuts_2021_id":"01373",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK21",
+    "eurostat:nuts_2021_level_lau":"01373",
+    "eurostat:population":1049,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200042935",
     "frgov:id":"BDCSURCO0000000009603449",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.002272,
-    "geom:area_square_m":19468511.508089,
+    "geom:area_square_m":19468511.508088,
     "geom:bbox":"5.52509343189,46.1091406657,5.61708355843,46.1598457449",
     "geom:latitude":46.136012,
     "geom:longitude":5.571547,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683153,
         102191581,
@@ -58,7 +72,10 @@
         102068489
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_01373",
+        "eurostat:nuts_2021_id":"01373"
+    },
     "wof:coterminous":[
         101768189
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"90b8e64aa834f04e1ffc1f1438712689",
+    "wof:geomhash":"7bd044b70f7b42ceaa305fbf93474629",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404372965,
-    "wof:lastmodified":1582325460,
+    "wof:lastmodified":1684352924,
     "wof:name":"Saint-Martin-Du-Frene",
     "wof:parent_id":102068489,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1049,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

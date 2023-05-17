@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_21224",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Dampierre-en-Montagne",
+    "eurostat:nuts_2021_id":"21224",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC11",
+    "eurostat:nuts_2021_level_lau":"21224",
+    "eurostat:population":73,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071017",
     "frgov:id":"BDCSURCO0000000009598606",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00124,
-    "geom:area_square_m":10369479.777002,
+    "geom:area_square_m":10369479.777001,
     "geom:bbox":"4.52831928156,47.4209611475,4.57907383382,47.4647065022",
     "geom:latitude":47.438808,
     "geom:longitude":4.558929,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683563,
         102191581,
@@ -58,7 +72,10 @@
         102070769
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_21224",
+        "eurostat:nuts_2021_id":"21224"
+    },
     "wof:coterminous":[
         1126022489
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"bad80a41aeb4aefca9975f56f7d4b611",
+    "wof:geomhash":"3ec4f8c933482d3075ff6aa9f9442882",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404403941,
-    "wof:lastmodified":1582325293,
+    "wof:lastmodified":1684353294,
     "wof:name":"Dampierre-En-Montagne",
     "wof:parent_id":102070769,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":73,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

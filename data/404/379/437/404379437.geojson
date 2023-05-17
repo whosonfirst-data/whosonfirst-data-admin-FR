@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_59537",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Martin-sur-\u00c9caillon",
+    "eurostat:nuts_2021_id":"59537",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE1",
+    "eurostat:nuts_2021_level_3":"FRE11",
+    "eurostat:nuts_2021_level_lau":"59537",
+    "eurostat:population":515,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"245901038",
     "frgov:id":"BDCSURCO0000000009581450",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683445,
         102191581,
@@ -58,7 +72,10 @@
         102071739
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_59537",
+        "eurostat:nuts_2021_id":"59537"
+    },
     "wof:coterminous":[
         1125815453
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0f0221b9e436bcb2ccdbb4469f46826c",
+    "wof:geomhash":"4e872ecf8a9577ee94c317fe995fd45a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404379437,
-    "wof:lastmodified":1582324524,
+    "wof:lastmodified":1684353004,
     "wof:name":"Saint-Martin-Sur-Ecaillon",
     "wof:parent_id":102071739,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":515,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

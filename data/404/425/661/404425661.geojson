@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_27210",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"\u00c9cardenville-la-Campagne",
+    "eurostat:nuts_2021_id":"27210",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD21",
+    "eurostat:nuts_2021_level_lau":"27210",
+    "eurostat:population":473,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066413",
     "frgov:id":"BDCSURCO0000000009587267",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000917,
-    "geom:area_square_m":7422340.488653,
+    "geom:area_square_m":7422340.488652,
     "geom:bbox":"0.805881138613,49.1117139574,0.858274329316,49.137853373",
     "geom:latitude":49.124156,
     "geom:longitude":0.834645,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683283,
         102191581,
@@ -58,7 +72,10 @@
         102064899
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_27210",
+        "eurostat:nuts_2021_id":"27210"
+    },
     "wof:coterminous":[
         1126050133
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7816f6a654e705c593ba2c3f86e759e1",
+    "wof:geomhash":"259d438b77d0cebe18ff486ce06b75f6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404425661,
-    "wof:lastmodified":1582324303,
+    "wof:lastmodified":1684353553,
     "wof:name":"Ecardenville-La-Campagne",
     "wof:parent_id":102064899,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":473,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

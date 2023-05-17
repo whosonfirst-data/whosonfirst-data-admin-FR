@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_91038",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Auvers-Saint-Georges",
+    "eurostat:nuts_2021_id":"91038",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR104",
+    "eurostat:nuts_2021_level_lau":"91038",
+    "eurostat:population":1283,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"249100553",
     "frgov:id":"BDCSURCO0000000009592917",
     "frgov:insee_arr":"1",
@@ -123,6 +135,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683371,
         102191581,
@@ -132,7 +146,10 @@
         102065869
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_91038",
+        "eurostat:nuts_2021_id":"91038"
+    },
     "wof:coterminous":[
         101762173
     ],
@@ -140,7 +157,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"72983c5e8c660d0f8d06f684c0191d70",
+    "wof:geomhash":"4c292de28b5f3b3ddae09377e79ad368",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -153,11 +170,13 @@
         }
     ],
     "wof:id":404351189,
-    "wof:lastmodified":1582324952,
+    "wof:lastmodified":1684352634,
     "wof:name":"Auvers-Saint-Georges",
     "wof:parent_id":102065869,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1283,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

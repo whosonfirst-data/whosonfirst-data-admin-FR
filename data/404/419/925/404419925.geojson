@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_70385",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Neuvelle-l\u00e8s-Lure",
+    "eurostat:nuts_2021_id":"70385",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC23",
+    "eurostat:nuts_2021_level_lau":"70385",
+    "eurostat:population":333,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247000664",
     "frgov:id":"BDCSURCO0000000009596664",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683559,
         102191581,
@@ -58,7 +72,10 @@
         102069955
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_70385",
+        "eurostat:nuts_2021_id":"70385"
+    },
     "wof:coterminous":[
         1125765123
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c2ed06dbbed58505fdbb04a0a2724ed8",
+    "wof:geomhash":"d0a5e752257f3acc3e4c4991b6c4edc4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404419925,
-    "wof:lastmodified":1582325068,
+    "wof:lastmodified":1684353482,
     "wof:name":"La Neuvelle-Les-Lure",
     "wof:parent_id":102069955,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":333,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

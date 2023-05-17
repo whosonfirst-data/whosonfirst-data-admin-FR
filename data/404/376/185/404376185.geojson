@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_71472",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Prix",
+    "eurostat:nuts_2021_id":"71472",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC13",
+    "eurostat:nuts_2021_level_lau":"71472",
+    "eurostat:population":217,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070530",
     "frgov:id":"BDCSURCO0000000009600737",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.004057,
-    "geom:area_square_m":34226829.79912,
+    "geom:area_square_m":34226829.799118,
     "geom:bbox":"3.9936584198,46.9351280449,4.1033479828,47.0055432643",
     "geom:latitude":46.971773,
     "geom:longitude":4.060686,
@@ -88,6 +100,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683543,
         102191581,
@@ -98,7 +112,10 @@
         102071315
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_71472",
+        "eurostat:nuts_2021_id":"71472"
+    },
     "wof:coterminous":[
         1360675399
     ],
@@ -106,7 +123,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"07949b9fc42ecf3201f9d4ba62a1f819",
+    "wof:geomhash":"4f5a59588d529f4dc9f86cdc26cb3242",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -120,11 +137,13 @@
         }
     ],
     "wof:id":404376185,
-    "wof:lastmodified":1582324678,
+    "wof:lastmodified":1684352965,
     "wof:name":"Saint-Prix",
     "wof:parent_id":102071315,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":217,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

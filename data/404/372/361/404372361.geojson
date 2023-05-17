@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_17395",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Sauvant",
+    "eurostat:nuts_2021_id":"17395",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI32",
+    "eurostat:nuts_2021_level_lau":"17395",
+    "eurostat:population":485,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200036473",
     "frgov:id":"BDCSURCO0000000009605409",
     "frgov:insee_arr":"4",
@@ -88,6 +100,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683275,
         102191581,
@@ -98,7 +112,10 @@
         102065187
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_17395",
+        "eurostat:nuts_2021_id":"17395"
+    },
     "wof:coterminous":[
         1360674993
     ],
@@ -106,7 +123,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"def4411c5a94ee3d9a0aae78d622bb7f",
+    "wof:geomhash":"9726fec4b661f5dff4823653d8ccdfb8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -120,11 +137,13 @@
         }
     ],
     "wof:id":404372361,
-    "wof:lastmodified":1582325467,
+    "wof:lastmodified":1684352917,
     "wof:name":"Saint-Sauvant",
     "wof:parent_id":102065187,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":485,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

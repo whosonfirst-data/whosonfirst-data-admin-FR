@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_07106",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Issarl\u00e8s",
+    "eurostat:nuts_2021_id":"07106",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK22",
+    "eurostat:nuts_2021_level_lau":"07106",
+    "eurostat:population":145,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072007",
     "frgov:id":"BDCSURCO0000000009608950",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.002149,
-    "geom:area_square_m":18838566.642588,
+    "geom:area_square_m":18838566.642587,
     "geom:bbox":"4.02004729103,44.8243649235,4.09911911515,44.8731620133",
     "geom:latitude":44.852329,
     "geom:longitude":4.053726,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683421,
         102191581,
@@ -58,7 +72,10 @@
         102065615
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_07106",
+        "eurostat:nuts_2021_id":"07106"
+    },
     "wof:coterminous":[
         1126056719
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6fc5afce183c6fa14426ae254b4bf2b6",
+    "wof:geomhash":"b7da0ee48de3f2dbd6a7b4223746dcd4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404368945,
-    "wof:lastmodified":1582324883,
+    "wof:lastmodified":1684352878,
     "wof:name":"Issarles",
     "wof:parent_id":102065615,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":145,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

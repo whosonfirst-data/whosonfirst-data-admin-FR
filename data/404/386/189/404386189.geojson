@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_16263",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Plassac-Rouffiac",
+    "eurostat:nuts_2021_id":"16263",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI31",
+    "eurostat:nuts_2021_level_lau":"16263",
+    "eurostat:population":401,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071827",
     "frgov:id":"BDCSURCO0000000009606422",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001389,
-    "geom:area_square_m":12032487.08382,
+    "geom:area_square_m":12032487.083819,
     "geom:bbox":"0.0403663531295,45.5085354565,0.113179655662,45.5414937869",
     "geom:latitude":45.524732,
     "geom:longitude":0.07679,
@@ -120,6 +132,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683437,
         102191581,
@@ -130,7 +144,10 @@
         102065415
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_16263",
+        "eurostat:nuts_2021_id":"16263"
+    },
     "wof:coterminous":[
         1125924495
     ],
@@ -138,7 +155,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2b8d19118efb1b4eddc8eca43fc84325",
+    "wof:geomhash":"ea26b4a4243487f0bf3fd5f08fea3fd3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -152,11 +169,13 @@
         }
     ],
     "wof:id":404386189,
-    "wof:lastmodified":1582325449,
+    "wof:lastmodified":1684353084,
     "wof:name":"Plassac-Rouffiac",
     "wof:parent_id":102065415,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":401,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

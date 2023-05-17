@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_35056",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Chapelle-aux-Filtzm\u00e9ens",
+    "eurostat:nuts_2021_id":"35056",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH03",
+    "eurostat:nuts_2021_level_lau":"35056",
+    "eurostat:population":815,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243500733",
     "frgov:id":"BDCSURCO0000000009593044",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BRETAGNE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00078,
-    "geom:area_square_m":6405033.609368,
+    "geom:area_square_m":6405033.609369,
     "geom:bbox":"-1.84947537336,48.3707580718,-1.78700758697,48.3947997907",
     "geom:latitude":48.381624,
     "geom:longitude":-1.818231,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683461,
         102191581,
@@ -55,7 +69,10 @@
         102071163
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_35056",
+        "eurostat:nuts_2021_id":"35056"
+    },
     "wof:coterminous":[
         1360676757
     ],
@@ -63,7 +80,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"72c0047fc02e59fe8a337e83a514aee8",
+    "wof:geomhash":"96fe955039750f183b401b5e768b811c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -76,11 +93,13 @@
         }
     ],
     "wof:id":404390443,
-    "wof:lastmodified":1582324271,
+    "wof:lastmodified":1684353135,
     "wof:name":"La Chapelle-Aux-Filtzmeens",
     "wof:parent_id":102071163,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":815,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

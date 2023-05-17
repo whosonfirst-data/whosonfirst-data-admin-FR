@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_72084",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Clermont-Cr\u00e9ans",
+    "eurostat:nuts_2021_id":"72084",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG04",
+    "eurostat:nuts_2021_level_lau":"72084",
+    "eurostat:population":1264,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247200348",
     "frgov:id":"BDCSURCO0000000009597208",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002168,
-    "geom:area_square_m":18028827.977322,
+    "geom:area_square_m":18028827.977321,
     "geom:bbox":"-0.0557728999621,47.6997799747,0.016362269833,47.7586894037",
     "geom:latitude":47.732618,
     "geom:longitude":-0.02454,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683279,
         102191581,
@@ -57,7 +71,10 @@
         102066823
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_72084",
+        "eurostat:nuts_2021_id":"72084"
+    },
     "wof:coterminous":[
         1126004167
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6d1345c7d97fce516a825b454d1f8173",
+    "wof:geomhash":"5b49d4bf98b0ea2f9ea241c7a958a21f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404382723,
-    "wof:lastmodified":1582324688,
+    "wof:lastmodified":1684353042,
     "wof:name":"Clermont-Creans",
     "wof:parent_id":102066823,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1264,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

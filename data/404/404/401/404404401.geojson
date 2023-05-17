@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_39121",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ch\u00e2tenois",
+    "eurostat:nuts_2021_id":"39121",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC22",
+    "eurostat:nuts_2021_level_lau":"39121",
+    "eurostat:population":389,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200010650",
     "frgov:id":"BDCSURCO0000000009599692",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683173,
         102191581,
@@ -58,7 +72,10 @@
         102068717
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_39121",
+        "eurostat:nuts_2021_id":"39121"
+    },
     "wof:coterminous":[
         101889849
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"dc9df84758e06a4a226cb4d3c6617555",
+    "wof:geomhash":"e322fb38aa60cf61036df6746f629feb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404404401,
-    "wof:lastmodified":1582325307,
+    "wof:lastmodified":1684353300,
     "wof:name":"Chatenois",
     "wof:parent_id":102068717,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":389,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

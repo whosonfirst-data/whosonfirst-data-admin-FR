@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_24443",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-L\u00e9on-sur-V\u00e9z\u00e8re",
+    "eurostat:nuts_2021_id":"24443",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI11",
+    "eurostat:nuts_2021_level_lau":"24443",
+    "eurostat:population":425,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041168",
     "frgov:id":"BDCSURCO0000000009608397",
     "frgov:insee_arr":"4",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683331,
         102191581,
@@ -58,7 +72,10 @@
         102068493
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_24443",
+        "eurostat:nuts_2021_id":"24443"
+    },
     "wof:coterminous":[
         1125809979
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"46ef11ed88d45eb3fc0a74043932d2ac",
+    "wof:geomhash":"a792efb59a6f2fa75376b6fedf8cd1a2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404356199,
-    "wof:lastmodified":1582324934,
+    "wof:lastmodified":1684352701,
     "wof:name":"Saint-Leon-Sur-Vezere",
     "wof:parent_id":102068493,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":425,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

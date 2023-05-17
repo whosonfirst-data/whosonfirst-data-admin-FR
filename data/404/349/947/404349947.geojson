@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_61365",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Aubin-d'Appenai",
+    "eurostat:nuts_2021_id":"61365",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD13",
+    "eurostat:nuts_2021_level_lau":"61365",
+    "eurostat:population":403,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200035103",
     "frgov:id":"BDCSURCO0000000009592081",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001383,
-    "geom:area_square_m":11325595.231132,
+    "geom:area_square_m":11325595.231133,
     "geom:bbox":"0.311094557365,48.5142471097,0.371355114628,48.5665829596",
     "geom:latitude":48.541535,
     "geom:longitude":0.338382,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683527,
         102191581,
@@ -56,7 +70,10 @@
         102067969
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_61365",
+        "eurostat:nuts_2021_id":"61365"
+    },
     "wof:coterminous":[
         1360672753
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a5c39a11be1827cf6242b891463be07c",
+    "wof:geomhash":"8a48a937c96a7d7fd297c6cde717c0a8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404349947,
-    "wof:lastmodified":1582324708,
+    "wof:lastmodified":1684352616,
     "wof:name":"Saint-Aubin-D'Appenai",
     "wof:parent_id":102067969,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":403,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

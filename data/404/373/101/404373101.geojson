@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_55434",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rigny-Saint-Martin",
+    "eurostat:nuts_2021_id":"55434",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF32",
+    "eurostat:nuts_2021_level_lau":"55434",
+    "eurostat:population":53,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066157",
     "frgov:id":"BDCSURCO0000000009590980",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.001952,
-    "geom:area_square_m":15954443.437357,
+    "geom:area_square_m":15954443.437359,
     "geom:bbox":"5.70008930737,48.591467058,5.80351884064,48.6288808699",
     "geom:latitude":48.61164,
     "geom:longitude":5.747486,
@@ -123,6 +135,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683297,
         102191581,
@@ -133,7 +147,10 @@
         102068767
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_55434",
+        "eurostat:nuts_2021_id":"55434"
+    },
     "wof:coterminous":[
         1125927761
     ],
@@ -141,7 +158,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"1c85c17e3edb67e0b9c3bf8976a2e6be",
+    "wof:geomhash":"00b104cd54f6a784e6a29edfbe6adb1f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -155,11 +172,13 @@
         }
     ],
     "wof:id":404373101,
-    "wof:lastmodified":1582325346,
+    "wof:lastmodified":1684352925,
     "wof:name":"Rigny-Saint-Martin",
     "wof:parent_id":102068767,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":53,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_77008",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Armenti\u00e8res-en-Brie",
+    "eurostat:nuts_2021_id":"77008",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR102",
+    "eurostat:nuts_2021_level_lau":"77008",
+    "eurostat:population":1242,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247700065",
     "frgov:id":"BDCSURCO0000000009588654",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"ILE-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000892,
-    "geom:area_square_m":7240074.709118,
+    "geom:area_square_m":7240074.709119,
     "geom:bbox":"2.97911178901,48.9591871056,3.04569911631,48.9955000704",
     "geom:latitude":48.980836,
     "geom:longitude":3.016588,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683385,
         102191581,
@@ -57,7 +71,10 @@
         102067019
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_77008",
+        "eurostat:nuts_2021_id":"77008"
+    },
     "wof:coterminous":[
         101759795
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"995b1a70f2fe9ec45dec6707dc00e325",
+    "wof:geomhash":"c54a0901a41ef81c32f79aef6a61d7c1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404409243,
-    "wof:lastmodified":1582324474,
+    "wof:lastmodified":1684353358,
     "wof:name":"Armentieres-En-Brie",
     "wof:parent_id":102067019,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1242,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

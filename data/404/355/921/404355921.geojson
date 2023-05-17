@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_56014",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bern\u00e9",
+    "eurostat:nuts_2021_id":"56014",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH04",
+    "eurostat:nuts_2021_level_lau":"56014",
+    "eurostat:population":1531,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"245614417",
     "frgov:id":"BDCSURCO0000000009595267",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683507,
         102191581,
@@ -57,7 +71,10 @@
         102065541
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_56014",
+        "eurostat:nuts_2021_id":"56014"
+    },
     "wof:coterminous":[
         101762059
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0b56fdcda065394a620363964480c503",
+    "wof:geomhash":"482d1bc7cd0e2bf6a95553c1659c5921",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404355921,
-    "wof:lastmodified":1582324197,
+    "wof:lastmodified":1684352697,
     "wof:name":"Berne",
     "wof:parent_id":102065541,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1531,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

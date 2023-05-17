@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_07176",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Planzolles",
+    "eurostat:nuts_2021_id":"07176",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK22",
+    "eurostat:nuts_2021_level_lau":"07176",
+    "eurostat:population":135,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240700302",
     "frgov:id":"BDCSURCO0000000009610306",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.000606,
-    "geom:area_square_m":5342443.165304,
+    "geom:area_square_m":5342443.165303,
     "geom:bbox":"4.1347553978,44.4715092507,4.18065884474,44.4974317672",
     "geom:latitude":44.48692,
     "geom:longitude":4.157798,
@@ -135,6 +147,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683421,
         102191581,
@@ -145,7 +159,10 @@
         102065809
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_07176",
+        "eurostat:nuts_2021_id":"07176"
+    },
     "wof:coterminous":[
         1125935899
     ],
@@ -153,7 +170,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a13652accb1747b3cc71340754b91651",
+    "wof:geomhash":"229bd8c5b0ba7d383ad8e9f673341dc2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -167,11 +184,13 @@
         }
     ],
     "wof:id":404384629,
-    "wof:lastmodified":1582324615,
+    "wof:lastmodified":1684353066,
     "wof:name":"Planzolles",
     "wof:parent_id":102065809,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":135,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

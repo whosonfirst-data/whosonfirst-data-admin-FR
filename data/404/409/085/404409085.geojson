@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_33370",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Androny",
+    "eurostat:nuts_2021_id":"33370",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI12",
+    "eurostat:nuts_2021_level_lau":"33370",
+    "eurostat:population":551,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243300811",
     "frgov:id":"BDCSURCO0000000009607610",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.004173,
-    "geom:area_square_m":36355272.889784,
+    "geom:area_square_m":36355272.889782,
     "geom:bbox":"-0.737970038639,45.1669968926,-0.624658274508,45.2366436936",
     "geom:latitude":45.201633,
     "geom:longitude":-0.686641,
@@ -135,6 +147,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683243,
         102191581,
@@ -145,7 +159,10 @@
         102065429
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_33370",
+        "eurostat:nuts_2021_id":"33370"
+    },
     "wof:coterminous":[
         1125933285
     ],
@@ -153,7 +170,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c0069dec81a6984aad079416a5b11dee",
+    "wof:geomhash":"47a4775d8b0acc4fa6b6365b6f655a83",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -167,11 +184,13 @@
         }
     ],
     "wof:id":404409085,
-    "wof:lastmodified":1582324474,
+    "wof:lastmodified":1684353356,
     "wof:name":"Saint-Androny",
     "wof:parent_id":102065429,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":551,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

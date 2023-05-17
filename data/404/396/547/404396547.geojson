@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_34256",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Geni\u00e8s-des-Mourgues",
+    "eurostat:nuts_2021_id":"34256",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ13",
+    "eurostat:nuts_2021_level_lau":"34256",
+    "eurostat:population":1876,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243400017",
     "frgov:id":"BDCSURCO0000000009612896",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001223,
-    "geom:area_square_m":10931922.251179,
+    "geom:area_square_m":10931922.25118,
     "geom:bbox":"4.01113799784,43.6784166206,4.06565730434,43.7159065552",
     "geom:latitude":43.697312,
     "geom:longitude":4.037819,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683419,
         102191581,
@@ -58,7 +72,10 @@
         102065573
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_34256",
+        "eurostat:nuts_2021_id":"34256"
+    },
     "wof:coterminous":[
         101773775
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"796151b0795e1d9ddbbf01760998567a",
+    "wof:geomhash":"fe5fca0e187fc6f4e29219db23cfbcb5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404396547,
-    "wof:lastmodified":1582324080,
+    "wof:lastmodified":1684353209,
     "wof:name":"Saint-Genies-Des-Mourgues",
     "wof:parent_id":102065573,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1876,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

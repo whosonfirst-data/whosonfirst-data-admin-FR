@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_30258",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Gilles",
+    "eurostat:nuts_2021_id":"30258",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ12",
+    "eurostat:nuts_2021_level_lau":"30258",
+    "eurostat:population":13607,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243000643",
     "frgov:id":"BDCSURCO0000000009613361",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.016973,
-    "geom:area_square_m":151838011.831597,
+    "geom:area_square_m":151838011.831593,
     "geom:bbox":"4.339721,43.546948,4.486421,43.774316",
     "geom:latitude":43.657872,
     "geom:longitude":4.407457,
@@ -105,17 +117,22 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85683431,
         102191581,
         85633147,
-        102069341,
-        136253037,
         404227861,
         1108826387,
-        85683431
+        136253037,
+        102069341
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_30258",
+        "eurostat:nuts_2021_id":"30258"
+    },
     "wof:coterminous":[
         101774105,
         102069341
@@ -124,7 +141,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"1703929ea4c51340e47fb8ce78be419c",
+    "wof:geomhash":"87874ad4cf5c6ba776a8d54f371fe8cf",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -138,11 +155,13 @@
         }
     ],
     "wof:id":404406069,
-    "wof:lastmodified":1608037536,
+    "wof:lastmodified":1684353321,
     "wof:name":"Saint-Gilles",
     "wof:parent_id":102069341,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":13607,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_43215",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Paul-de-Tartas",
+    "eurostat:nuts_2021_id":"43215",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK13",
+    "eurostat:nuts_2021_level_lau":"43215",
+    "eurostat:population":194,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244301123",
     "frgov:id":"BDCSURCO0000000009609196",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.003157,
-    "geom:area_square_m":27701551.608096,
+    "geom:area_square_m":27701551.608095,
     "geom:bbox":"3.83956849232,44.7650955357,3.94447450486,44.826705058",
     "geom:latitude":44.79926,
     "geom:longitude":3.89367,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683413,
         102191581,
@@ -58,7 +72,10 @@
         102067619
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_43215",
+        "eurostat:nuts_2021_id":"43215"
+    },
     "wof:coterminous":[
         1125855679
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f0f86fd9325eabfca1bf8bd4b1b2b55f",
+    "wof:geomhash":"43e403728f9bfd75f47667bac7c5afaa",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404390541,
-    "wof:lastmodified":1582324277,
+    "wof:lastmodified":1684353137,
     "wof:name":"Saint-Paul-De-Tartas",
     "wof:parent_id":102067619,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":194,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

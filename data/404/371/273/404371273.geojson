@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_03143",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"L\u00e9telon",
+    "eurostat:nuts_2021_id":"03143",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK11",
+    "eurostat:nuts_2021_level_lau":"03143",
+    "eurostat:population":106,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240300558",
     "frgov:id":"BDCSURCO0000000009601812",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683293,
         102191581,
@@ -58,7 +72,10 @@
         102064429
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_03143",
+        "eurostat:nuts_2021_id":"03143"
+    },
     "wof:coterminous":[
         101889665
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2bdd9b6781747646c33e3d6e2b3ec14e",
+    "wof:geomhash":"a2ea6cfd372c2389b529f683b9c77f0f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404371273,
-    "wof:lastmodified":1582324646,
+    "wof:lastmodified":1684352904,
     "wof:name":"Letelon",
     "wof:parent_id":102064429,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":106,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_62427",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"H\u00e9nin-Beaumont",
+    "eurostat:nuts_2021_id":"62427",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE1",
+    "eurostat:nuts_2021_level_3":"FRE12",
+    "eurostat:nuts_2021_level_lau":"62427",
+    "eurostat:population":26022,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"246200299",
     "frgov:id":"BDCSURCO0000000009581139",
     "frgov:insee_arr":"7",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002617,
-    "geom:area_square_m":20621401.649415,
+    "geom:area_square_m":20621401.649414,
     "geom:bbox":"2.921632,50.376536,2.994973,50.461266",
     "geom:latitude":50.409261,
     "geom:longitude":2.959243,
@@ -48,17 +60,22 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85683255,
         102191581,
         85633147,
-        102071915,
-        136253037,
         404228311,
         1108826399,
-        85683255
+        136253037,
+        102071915
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_62427",
+        "eurostat:nuts_2021_id":"62427"
+    },
     "wof:coterminous":[
         101840525,
         102071915
@@ -67,7 +84,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9c58303241315e432aa99ed74adb2ea3",
+    "wof:geomhash":"4a6d44e70e409585b0c9e60db712684f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -81,11 +98,13 @@
         }
     ],
     "wof:id":404355731,
-    "wof:lastmodified":1608037211,
+    "wof:lastmodified":1684352695,
     "wof:name":"Henin-Beaumont",
     "wof:parent_id":102071915,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":26022,
+    "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

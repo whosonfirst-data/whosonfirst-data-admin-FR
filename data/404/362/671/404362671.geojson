@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_41145",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Monthou-sur-Bi\u00e8vre",
+    "eurostat:nuts_2021_id":"41145",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB05",
+    "eurostat:nuts_2021_level_lau":"41145",
+    "eurostat:population":811,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200030385",
     "frgov:id":"BDCSURCO0000000009598676",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001998,
-    "geom:area_square_m":16700554.676858,
+    "geom:area_square_m":16700554.676857,
     "geom:bbox":"1.21830091272,47.4368220816,1.30362369907,47.4934719261",
     "geom:latitude":47.462066,
     "geom:longitude":1.270871,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683349,
         102191581,
@@ -57,7 +71,10 @@
         102064843
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_41145",
+        "eurostat:nuts_2021_id":"41145"
+    },
     "wof:coterminous":[
         1125918853
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"61a6a213e2f793807e347803a7cd9400",
+    "wof:geomhash":"be8e5be60ac0bed3ee1db8ef605542ec",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404362671,
-    "wof:lastmodified":1582324058,
+    "wof:lastmodified":1684352791,
     "wof:name":"Monthou-Sur-Bievre",
     "wof:parent_id":102064843,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":811,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

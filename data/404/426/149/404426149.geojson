@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_24442",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-L\u00e9on-sur-l'Isle",
+    "eurostat:nuts_2021_id":"24442",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI11",
+    "eurostat:nuts_2021_level_lau":"24442",
+    "eurostat:population":2027,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040095",
     "frgov:id":"BDCSURCO0000000009608007",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683331,
         102191581,
@@ -58,7 +72,10 @@
         102069863
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_24442",
+        "eurostat:nuts_2021_id":"24442"
+    },
     "wof:coterminous":[
         101842883
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"520c7f5732861b9302908579347767bd",
+    "wof:geomhash":"80fa5a5a6f96ffb6f50a7d11e179085a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404426149,
-    "wof:lastmodified":1582325094,
+    "wof:lastmodified":1684353558,
     "wof:name":"Saint-Leon-Sur-L'Isle",
     "wof:parent_id":102069863,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2027,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

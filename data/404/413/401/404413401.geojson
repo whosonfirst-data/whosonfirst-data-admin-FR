@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_35253",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Aubin-du-Cormier",
+    "eurostat:nuts_2021_id":"35253",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH03",
+    "eurostat:nuts_2021_level_lau":"35253",
+    "eurostat:population":3837,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243500774",
     "frgov:id":"BDCSURCO0000000009593852",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BRETAGNE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003342,
-    "geom:area_square_m":27511840.876551,
+    "geom:area_square_m":27511840.87655,
     "geom:bbox":"-1.5173808365,48.223575223,-1.33064230984,48.2881098113",
     "geom:latitude":48.258395,
     "geom:longitude":-1.421081,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683461,
         102191581,
@@ -57,7 +71,10 @@
         102070507
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_35253",
+        "eurostat:nuts_2021_id":"35253"
+    },
     "wof:coterminous":[
         101762463
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b23e53de723d357117c8e14c4de4445a",
+    "wof:geomhash":"4db31696b2830043adfa03e230e5e5bf",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404413401,
-    "wof:lastmodified":1582324319,
+    "wof:lastmodified":1684353407,
     "wof:name":"Saint-Aubin-Du-Cormier",
     "wof:parent_id":102070507,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3837,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

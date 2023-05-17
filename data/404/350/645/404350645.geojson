@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_07277",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Michel-de-Boulogne",
+    "eurostat:nuts_2021_id":"07277",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK22",
+    "eurostat:nuts_2021_level_lau":"07277",
+    "eurostat:population":156,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200073245",
     "frgov:id":"BDCSURCO0000000009609410",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683421,
         102191581,
@@ -58,7 +72,10 @@
         102070221
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_07277",
+        "eurostat:nuts_2021_id":"07277"
+    },
     "wof:coterminous":[
         1126040575
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3eeba78e4c6dd65b95ef5b9b8a5d9000",
+    "wof:geomhash":"68ca0d5ead3d5b6c6596f6b0e7a8a09f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404350645,
-    "wof:lastmodified":1582324847,
+    "wof:lastmodified":1684352626,
     "wof:name":"Saint-Michel-De-Boulogne",
     "wof:parent_id":102070221,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":156,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

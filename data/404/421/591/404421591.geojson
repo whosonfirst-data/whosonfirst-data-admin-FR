@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_40035",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"B\u00e9nesse-l\u00e8s-Dax",
+    "eurostat:nuts_2021_id":"40035",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI13",
+    "eurostat:nuts_2021_level_lau":"40035",
+    "eurostat:population":529,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244000675",
     "frgov:id":"BDCSURCO0000000009613071",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683183,
         102191581,
@@ -58,7 +72,10 @@
         102069627
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_40035",
+        "eurostat:nuts_2021_id":"40035"
+    },
     "wof:coterminous":[
         1125892745
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b45f5c1af1c3a36f12d83296b51abb93",
+    "wof:geomhash":"1ea55318f4d9fc39abd79719e20a10dd",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404421591,
-    "wof:lastmodified":1582325105,
+    "wof:lastmodified":1684353504,
     "wof:name":"Benesse-Les-Dax",
     "wof:parent_id":102069627,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":529,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

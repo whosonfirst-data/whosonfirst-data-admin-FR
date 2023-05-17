@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_55186",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Fains-V\u00e9el",
+    "eurostat:nuts_2021_id":"55186",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF32",
+    "eurostat:nuts_2021_level_lau":"55186",
+    "eurostat:population":2140,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200033025",
     "frgov:id":"BDCSURCO0000000009590088",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683297,
         102191581,
@@ -58,7 +72,10 @@
         102064501
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_55186",
+        "eurostat:nuts_2021_id":"55186"
+    },
     "wof:coterminous":[
         101883983
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"00c1fe5fd4a44f0b8be8f41d5b6d2eba",
+    "wof:geomhash":"c755eb4ac716dfcc205cb52e7b96f0d5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404368801,
-    "wof:lastmodified":1582324882,
+    "wof:lastmodified":1684352876,
     "wof:name":"Fains-Veel",
     "wof:parent_id":102064501,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2140,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

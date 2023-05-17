@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_85222",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Gilles-Croix-de-Vie",
+    "eurostat:nuts_2021_id":"85222",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG05",
+    "eurostat:nuts_2021_level_lau":"85222",
+    "eurostat:population":7655,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200023778",
     "frgov:id":"BDCSURCO0000000009601505",
     "frgov:insee_arr":"3",
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683409,
         102191581,
@@ -55,7 +69,10 @@
         102069209
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_85222",
+        "eurostat:nuts_2021_id":"85222"
+    },
     "wof:coterminous":[
         1360677229
     ],
@@ -63,7 +80,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"42ca1ce15bc569cd3316d33cb896fd9e",
+    "wof:geomhash":"64c71041c7e85ccd61af29d5b7f8bf17",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -76,11 +93,13 @@
         }
     ],
     "wof:id":404394685,
-    "wof:lastmodified":1582325034,
+    "wof:lastmodified":1684353187,
     "wof:name":"Saint-Gilles-Croix-De-Vie",
     "wof:parent_id":102069209,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":7655,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

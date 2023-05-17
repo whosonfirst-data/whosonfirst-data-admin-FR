@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_19254",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"S\u00e9gur-le-Ch\u00e2teau",
+    "eurostat:nuts_2021_id":"19254",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI21",
+    "eurostat:nuts_2021_level_lau":"19254",
+    "eurostat:population":174,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248700189",
     "frgov:id":"BDCSURCO0000000009606868",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683209,
         102191581,
@@ -58,7 +72,10 @@
         102066983
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_19254",
+        "eurostat:nuts_2021_id":"19254"
+    },
     "wof:coterminous":[
         1125900051
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"eee4569d0555198f24de131557b5c13f",
+    "wof:geomhash":"92a19fd45a438c59973a44fa69a25a39",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404390361,
-    "wof:lastmodified":1582324268,
+    "wof:lastmodified":1684353134,
     "wof:name":"Segur-Le-Chateau",
     "wof:parent_id":102066983,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":174,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

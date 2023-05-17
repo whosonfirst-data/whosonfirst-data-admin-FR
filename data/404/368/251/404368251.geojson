@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_01350",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-\u00c9tienne-du-Bois",
+    "eurostat:nuts_2021_id":"01350",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK21",
+    "eurostat:nuts_2021_level_lau":"01350",
+    "eurostat:population":2448,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071751",
     "frgov:id":"BDCSURCO0000000009603006",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.003336,
-    "geom:area_square_m":28512863.430655,
+    "geom:area_square_m":28512863.430654,
     "geom:bbox":"5.23681349643,46.236129333,5.32136226307,46.3149456518",
     "geom:latitude":46.274613,
     "geom:longitude":5.283885,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683153,
         102191581,
@@ -58,7 +72,10 @@
         102070257
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_01350",
+        "eurostat:nuts_2021_id":"01350"
+    },
     "wof:coterminous":[
         101768165
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f75d6b040643de41d3c9ecb5eadbf0cb",
+    "wof:geomhash":"f4932b133bbacad46db68ac0eeb090a2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404368251,
-    "wof:lastmodified":1582324872,
+    "wof:lastmodified":1684352869,
     "wof:name":"Saint-Etienne-Du-Bois",
     "wof:parent_id":102070257,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2448,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

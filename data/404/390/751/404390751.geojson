@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_59357",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Longueville",
+    "eurostat:nuts_2021_id":"59357",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE1",
+    "eurostat:nuts_2021_level_3":"FRE11",
+    "eurostat:nuts_2021_level_lau":"59357",
+    "eurostat:population":2097,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200043321",
     "frgov:id":"BDCSURCO0000000009581253",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002225,
-    "geom:area_square_m":17574576.276315,
+    "geom:area_square_m":17574576.276314,
     "geom:bbox":"3.82496877258,50.2652555895,3.92826395374,50.3321854891",
     "geom:latitude":50.296422,
     "geom:longitude":3.87136,
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683445,
         102191581,
@@ -136,7 +150,10 @@
         102065641
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_59357",
+        "eurostat:nuts_2021_id":"59357"
+    },
     "wof:coterminous":[
         101812747
     ],
@@ -144,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"573b3085dda773847328e37942ca8c09",
+    "wof:geomhash":"ba29aa2aaaabdfa1a87a24ef2b8c072a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +175,13 @@
         }
     ],
     "wof:id":404390751,
-    "wof:lastmodified":1582324269,
+    "wof:lastmodified":1684353139,
     "wof:name":"La Longueville",
     "wof:parent_id":102065641,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2097,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

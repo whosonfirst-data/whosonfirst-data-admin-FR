@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_02680",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Gobain",
+    "eurostat:nuts_2021_id":"02680",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE21",
+    "eurostat:nuts_2021_level_lau":"02680",
+    "eurostat:population":2282,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071785",
     "frgov:id":"BDCSURCO0000000009583832",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003713,
-    "geom:area_square_m":29756730.916022,
+    "geom:area_square_m":29756730.91602,
     "geom:bbox":"3.32879229933,49.5652577099,3.45936818896,49.6279421853",
     "geom:latitude":49.595377,
     "geom:longitude":3.392925,
@@ -111,6 +123,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683247,
         102191581,
@@ -121,7 +135,10 @@
         102066839
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_02680",
+        "eurostat:nuts_2021_id":"02680"
+    },
     "wof:coterminous":[
         1125825359
     ],
@@ -129,7 +146,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c7341e3499f277ce1d4ceffe9bf12533",
+    "wof:geomhash":"b3009273296bfd63ec9bebcd8d7adf0d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -143,11 +160,13 @@
         }
     ],
     "wof:id":404364887,
-    "wof:lastmodified":1582324241,
+    "wof:lastmodified":1684352822,
     "wof:name":"Saint-Gobain",
     "wof:parent_id":102066839,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2282,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

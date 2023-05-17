@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_81325",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Viviers-l\u00e8s-Montagnes",
+    "eurostat:nuts_2021_id":"81325",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ27",
+    "eurostat:nuts_2021_level_lau":"81325",
+    "eurostat:population":1930,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248100158",
     "frgov:id":"BDCSURCO0000000009613650",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002014,
-    "geom:area_square_m":18050983.032091,
+    "geom:area_square_m":18050983.032092,
     "geom:bbox":"2.14453879164,43.5216797366,2.21516591256,43.5762388775",
     "geom:latitude":43.549939,
     "geom:longitude":2.175847,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683603,
         102191581,
@@ -58,7 +72,10 @@
         102066893
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_81325",
+        "eurostat:nuts_2021_id":"81325"
+    },
     "wof:coterminous":[
         101774057
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9926866edc657f80eab2d1675a7325f6",
+    "wof:geomhash":"547106c3d3b335ca1c90131b52fdd6fa",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404347897,
-    "wof:lastmodified":1582324729,
+    "wof:lastmodified":1684352587,
     "wof:name":"Viviers-Les-Montagnes",
     "wof:parent_id":102066893,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1930,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_60615",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"S\u00e9r\u00e9villers",
+    "eurostat:nuts_2021_id":"60615",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE22",
+    "eurostat:nuts_2021_level_lau":"60615",
+    "eurostat:population":136,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068005",
     "frgov:id":"BDCSURCO0000000009583904",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683289,
         102191581,
@@ -58,7 +72,10 @@
         102065321
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_60615",
+        "eurostat:nuts_2021_id":"60615"
+    },
     "wof:coterminous":[
         101901387
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3e52c1a04f75e7b6341cb4ed4899bf39",
+    "wof:geomhash":"cdffe87a57a17b338cc0330fd493f291",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404427527,
-    "wof:lastmodified":1582325239,
+    "wof:lastmodified":1684353574,
     "wof:name":"Serevillers",
     "wof:parent_id":102065321,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":136,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

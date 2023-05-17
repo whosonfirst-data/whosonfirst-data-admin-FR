@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_50455",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Clair-sur-l'Elle",
+    "eurostat:nuts_2021_id":"50455",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD12",
+    "eurostat:nuts_2021_level_lau":"50455",
+    "eurostat:population":953,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066389",
     "frgov:id":"BDCSURCO0000000009586424",
     "frgov:insee_arr":"4",
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683489,
         102191581,
@@ -56,7 +70,10 @@
         102070059
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_50455",
+        "eurostat:nuts_2021_id":"50455"
+    },
     "wof:coterminous":[
         1360678639
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"bac818fe0a6c18633772aeb7a941eed6",
+    "wof:geomhash":"a25c7a7cb9a252d8b2d6129ec708064c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404410011,
-    "wof:lastmodified":1582325154,
+    "wof:lastmodified":1684353366,
     "wof:name":"Saint-Clair-Sur-L'Elle",
     "wof:parent_id":102070059,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":953,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

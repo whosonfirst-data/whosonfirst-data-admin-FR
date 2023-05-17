@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_81318",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Villeneuve-l\u00e8s-Lavaur",
+    "eurostat:nuts_2021_id":"81318",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ27",
+    "eurostat:nuts_2021_level_lau":"81318",
+    "eurostat:population":148,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200034023",
     "frgov:id":"BDCSURCO0000000009613434",
     "frgov:insee_arr":"2",
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683603,
         102191581,
@@ -56,7 +70,10 @@
         102067473
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_81318",
+        "eurostat:nuts_2021_id":"81318"
+    },
     "wof:coterminous":[
         1360675597
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c97b7e14440a129a054f80e208d590e4",
+    "wof:geomhash":"03103149fc0ceb0939469ef3207d4c4c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404378233,
-    "wof:lastmodified":1582324738,
+    "wof:lastmodified":1684352990,
     "wof:name":"Villeneuve-Les-Lavaur",
     "wof:parent_id":102067473,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":148,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

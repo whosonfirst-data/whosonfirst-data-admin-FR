@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_52249",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Is\u00f4mes",
+    "eurostat:nuts_2021_id":"52249",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF24",
+    "eurostat:nuts_2021_level_lau":"52249",
+    "eurostat:population":150,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200027308",
     "frgov:id":"BDCSURCO0000000009597422",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683261,
         102191581,
@@ -58,7 +72,10 @@
         102068601
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_52249",
+        "eurostat:nuts_2021_id":"52249"
+    },
     "wof:coterminous":[
         101888529
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0f046ee0a0f34422ac8396b9d007acf9",
+    "wof:geomhash":"4daf4a1a6090e76424b5bf706e10aad3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404380929,
-    "wof:lastmodified":1582325385,
+    "wof:lastmodified":1684353021,
     "wof:name":"Isomes",
     "wof:parent_id":102068601,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":150,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

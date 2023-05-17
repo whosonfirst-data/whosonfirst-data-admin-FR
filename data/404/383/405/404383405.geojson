@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_42254",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Marcel-de-F\u00e9lines",
+    "eurostat:nuts_2021_id":"42254",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK25",
+    "eurostat:nuts_2021_level_lau":"42254",
+    "eurostat:population":809,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200065894",
     "frgov:id":"BDCSURCO0000000009605027",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683377,
         102191581,
@@ -58,7 +72,10 @@
         102066103
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_42254",
+        "eurostat:nuts_2021_id":"42254"
+    },
     "wof:coterminous":[
         1125993857
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7e16b9c9b21397a38cc3c0f76bd4ab91",
+    "wof:geomhash":"157cbe1678cbe7f307ff66df8b8c95ac",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404383405,
-    "wof:lastmodified":1582324553,
+    "wof:lastmodified":1684353051,
     "wof:name":"Saint-Marcel-De-Felines",
     "wof:parent_id":102066103,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":809,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

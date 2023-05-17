@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_11361",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Papoul",
+    "eurostat:nuts_2021_id":"11361",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ11",
+    "eurostat:nuts_2021_level_lau":"11361",
+    "eurostat:population":835,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200035855",
     "frgov:id":"BDCSURCO0000000009614686",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003039,
-    "geom:area_square_m":27329861.655416,
+    "geom:area_square_m":27329861.655415,
     "geom:bbox":"1.99883044238,43.2989147765,2.08835646789,43.3763118289",
     "geom:latitude":43.337606,
     "geom:longitude":2.044719,
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683485,
         102191581,
@@ -139,7 +153,10 @@
         102065813
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_11361",
+        "eurostat:nuts_2021_id":"11361"
+    },
     "wof:coterminous":[
         101896419
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"920ca931a4386d1a4bfec2970bd3a106",
+    "wof:geomhash":"a9a17dc22bf083f849e031c420798eb2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404349027,
-    "wof:lastmodified":1582324712,
+    "wof:lastmodified":1684352603,
     "wof:name":"Saint-Papoul",
     "wof:parent_id":102065813,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":835,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

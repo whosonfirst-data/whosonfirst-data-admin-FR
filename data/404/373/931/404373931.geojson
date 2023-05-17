@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_90042",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"\u00c9vette-Salbert",
+    "eurostat:nuts_2021_id":"90042",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC24",
+    "eurostat:nuts_2021_level_lau":"90042",
+    "eurostat:population":2055,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069052",
     "frgov:id":"BDCSURCO0000000009596997",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001103,
-    "geom:area_square_m":9185431.424147,
+    "geom:area_square_m":9185431.424149,
     "geom:bbox":"6.77609967375,47.6478876253,6.83083313703,47.6906458968",
     "geom:latitude":47.67267,
     "geom:longitude":6.797204,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683353,
         102191581,
@@ -56,7 +70,10 @@
         102064879
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_90042",
+        "eurostat:nuts_2021_id":"90042"
+    },
     "wof:coterminous":[
         1360675165
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"516a9c6f9c438fd44d93a445d07c790a",
+    "wof:geomhash":"c1c0b248bb45c977905cf2cbc6112008",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404373931,
-    "wof:lastmodified":1582325337,
+    "wof:lastmodified":1684352935,
     "wof:name":"Evette-Salbert",
     "wof:parent_id":102064879,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2055,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

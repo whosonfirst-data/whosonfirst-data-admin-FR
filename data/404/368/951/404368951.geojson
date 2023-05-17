@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_42021",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Boisset-Saint-Priest",
+    "eurostat:nuts_2021_id":"42021",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK25",
+    "eurostat:nuts_2021_level_lau":"42021",
+    "eurostat:population":1223,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200065886",
     "frgov:id":"BDCSURCO0000000009606327",
     "frgov:insee_arr":"1",
@@ -123,6 +135,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683377,
         102191581,
@@ -133,7 +147,10 @@
         102069629
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_42021",
+        "eurostat:nuts_2021_id":"42021"
+    },
     "wof:coterminous":[
         1125893453
     ],
@@ -141,7 +158,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0e55979883f3b5bb84d22762a5d0e0e1",
+    "wof:geomhash":"c6f7ecdde8baec0c25aa14bcb85e96e4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -155,11 +172,13 @@
         }
     ],
     "wof:id":404368951,
-    "wof:lastmodified":1582324877,
+    "wof:lastmodified":1684352878,
     "wof:name":"Boisset-Saint-Priest",
     "wof:parent_id":102069629,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1223,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

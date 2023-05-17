@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_30235",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Bonnet-du-Gard",
+    "eurostat:nuts_2021_id":"30235",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ12",
+    "eurostat:nuts_2021_level_lau":"30235",
+    "eurostat:population":835,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243000684",
     "frgov:id":"BDCSURCO0000000009611985",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000765,
-    "geom:area_square_m":6810726.578817,
+    "geom:area_square_m":6810726.578818,
     "geom:bbox":"4.52115060858,43.9114278674,4.55925977881,43.9417286327",
     "geom:latitude":43.927315,
     "geom:longitude":4.538698,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683431,
         102191581,
@@ -58,7 +72,10 @@
         102065285
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_30235",
+        "eurostat:nuts_2021_id":"30235"
+    },
     "wof:coterminous":[
         101897313
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"07a0716ba13af524d382fe1b41879543",
+    "wof:geomhash":"21b1b197ff7c83a956ab0ec8c3821a42",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404371975,
-    "wof:lastmodified":1582324659,
+    "wof:lastmodified":1684352912,
     "wof:name":"Saint-Bonnet-Du-Gard",
     "wof:parent_id":102065285,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":835,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

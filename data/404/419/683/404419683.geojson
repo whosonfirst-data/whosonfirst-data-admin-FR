@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_07268",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Martin-d'Ard\u00e8che",
+    "eurostat:nuts_2021_id":"07268",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK22",
+    "eurostat:nuts_2021_level_lau":"07268",
+    "eurostat:population":979,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240700864",
     "frgov:id":"BDCSURCO0000000009610855",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.000641,
-    "geom:area_square_m":5673408.419576,
+    "geom:area_square_m":5673408.419575,
     "geom:bbox":"4.54446827908,44.291746611,4.59959956407,44.3228653765",
     "geom:latitude":44.306385,
     "geom:longitude":4.573316,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683421,
         102191581,
@@ -58,7 +72,10 @@
         102064893
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_07268",
+        "eurostat:nuts_2021_id":"07268"
+    },
     "wof:coterminous":[
         1125880899
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b20e18c4fbe2723f9d45a282dafa4902",
+    "wof:geomhash":"a38e546bbaf8d6580c02d2a9a3360f76",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404419683,
-    "wof:lastmodified":1582325072,
+    "wof:lastmodified":1684353479,
     "wof:name":"Saint-Martin-D'Ardeche",
     "wof:parent_id":102064893,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":979,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

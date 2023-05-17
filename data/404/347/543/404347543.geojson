@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_84112",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Martin-de-Castillon",
+    "eurostat:nuts_2021_id":"84112",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL06",
+    "eurostat:nuts_2021_level_lau":"84112",
+    "eurostat:population":781,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040624",
     "frgov:id":"BDCSURCO0000000009612179",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.004293,
-    "geom:area_square_m":38279435.292449,
+    "geom:area_square_m":38279435.292448,
     "geom:bbox":"5.46701206078,43.8175867129,5.56132802997,43.8937612493",
     "geom:latitude":43.855109,
     "geom:longitude":5.519346,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683201,
         102191581,
@@ -57,7 +71,10 @@
         102064297
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_84112",
+        "eurostat:nuts_2021_id":"84112"
+    },
     "wof:coterminous":[
         101897201
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d99dc2e060d3e1992747f5e141f3cb51",
+    "wof:geomhash":"a8e677f3edd0e5dd9c2a501a3e608868",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404347543,
-    "wof:lastmodified":1582324724,
+    "wof:lastmodified":1684352582,
     "wof:name":"Saint-Martin-De-Castillon",
     "wof:parent_id":102064297,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":781,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_49311",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Philbert-du-Peuple",
+    "eurostat:nuts_2021_id":"49311",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG02",
+    "eurostat:nuts_2021_level_lau":"49311",
+    "eurostat:population":1309,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071876",
     "frgov:id":"BDCSURCO0000000009598704",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683327,
         102191581,
@@ -57,7 +71,10 @@
         102067519
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_49311",
+        "eurostat:nuts_2021_id":"49311"
+    },
     "wof:coterminous":[
         101765805
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f6fc68bfad678bfd965f6686996abaf4",
+    "wof:geomhash":"3c9cd86972bdee62299b78a9de96bc9d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404390323,
-    "wof:lastmodified":1582324266,
+    "wof:lastmodified":1684353133,
     "wof:name":"Saint-Philbert-Du-Peuple",
     "wof:parent_id":102067519,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1309,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

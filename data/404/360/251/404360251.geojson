@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_63383",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Pierre-Colamine",
+    "eurostat:nuts_2021_id":"63383",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK14",
+    "eurostat:nuts_2021_level_lau":"63383",
+    "eurostat:population":249,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"246300966",
     "frgov:id":"BDCSURCO0000000009606605",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.002016,
-    "geom:area_square_m":17470403.30434,
+    "geom:area_square_m":17470403.304339,
     "geom:bbox":"2.94647632897,45.4790913991,3.00339396505,45.5453161373",
     "geom:latitude":45.51456,
     "geom:longitude":2.974808,
@@ -121,6 +133,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683471,
         102191581,
@@ -131,7 +145,10 @@
         102065173
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_63383",
+        "eurostat:nuts_2021_id":"63383"
+    },
     "wof:coterminous":[
         1360673777
     ],
@@ -139,7 +156,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3741849661c306f4d0973a5f6a1030c7",
+    "wof:geomhash":"b8f4ed781e66d4ba5bdd0f8a2308f6c9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -153,11 +170,13 @@
         }
     ],
     "wof:id":404360251,
-    "wof:lastmodified":1582325047,
+    "wof:lastmodified":1684352757,
     "wof:name":"Saint-Pierre-Colamine",
     "wof:parent_id":102065173,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":249,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

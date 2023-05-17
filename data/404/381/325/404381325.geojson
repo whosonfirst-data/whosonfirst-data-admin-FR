@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_46289",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Pierre-Toirac",
+    "eurostat:nuts_2021_id":"46289",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ25",
+    "eurostat:nuts_2021_level_lau":"46289",
+    "eurostat:population":153,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067361",
     "frgov:id":"BDCSURCO0000000009610153",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000656,
-    "geom:area_square_m":5785806.207889,
+    "geom:area_square_m":5785806.20789,
     "geom:bbox":"1.93692356484,44.5190443805,1.97175347377,44.5528902216",
     "geom:latitude":44.536203,
     "geom:longitude":1.954184,
@@ -114,6 +126,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683389,
         102191581,
@@ -124,7 +138,10 @@
         102064915
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_46289",
+        "eurostat:nuts_2021_id":"46289"
+    },
     "wof:coterminous":[
         1125817661
     ],
@@ -132,7 +149,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"fc0d14806ed26bdcf32ef39a20c23ec9",
+    "wof:geomhash":"76962b1969e3ef63847e8033d647e597",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -146,11 +163,13 @@
         }
     ],
     "wof:id":404381325,
-    "wof:lastmodified":1582325434,
+    "wof:lastmodified":1684353025,
     "wof:name":"Saint-Pierre-Toirac",
     "wof:parent_id":102064915,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":153,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

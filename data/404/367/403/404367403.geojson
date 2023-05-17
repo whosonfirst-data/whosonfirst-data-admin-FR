@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_01337",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-B\u00e9nigne",
+    "eurostat:nuts_2021_id":"01337",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK21",
+    "eurostat:nuts_2021_level_lau":"01337",
+    "eurostat:population":1265,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071371",
     "frgov:id":"BDCSURCO0000000009602358",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001941,
-    "geom:area_square_m":16533784.034576,
+    "geom:area_square_m":16533784.034577,
     "geom:bbox":"4.9144473494,46.4218778639,4.9898850766,46.4813744412",
     "geom:latitude":46.452103,
     "geom:longitude":4.953109,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683153,
         102191581,
@@ -58,7 +72,10 @@
         102069109
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_01337",
+        "eurostat:nuts_2021_id":"01337"
+    },
     "wof:coterminous":[
         101892345
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6bd95d2d7931eb2cfd219c8d1d3efd3c",
+    "wof:geomhash":"dea6246992852533f039e2d0a41abc9b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404367403,
-    "wof:lastmodified":1582325003,
+    "wof:lastmodified":1684352857,
     "wof:name":"Saint-Benigne",
     "wof:parent_id":102069109,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1265,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

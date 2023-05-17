@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_43029",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Besseyre-Saint-Mary",
+    "eurostat:nuts_2021_id":"43029",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK13",
+    "eurostat:nuts_2021_level_lau":"43029",
+    "eurostat:population":100,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200073393",
     "frgov:id":"BDCSURCO0000000009608536",
     "frgov:insee_arr":"1",
@@ -135,6 +147,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683413,
         102191581,
@@ -145,7 +159,10 @@
         102067395
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_43029",
+        "eurostat:nuts_2021_id":"43029"
+    },
     "wof:coterminous":[
         1126057265
     ],
@@ -153,7 +170,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f787901fb04aa65bc65467f9ec379277",
+    "wof:geomhash":"3701ac19355cc8fe8798536f23b282e0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -167,11 +184,13 @@
         }
     ],
     "wof:id":404383795,
-    "wof:lastmodified":1582324549,
+    "wof:lastmodified":1684353057,
     "wof:name":"La Besseyre-Saint-Mary",
     "wof:parent_id":102067395,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":100,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

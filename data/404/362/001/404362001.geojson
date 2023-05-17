@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_06103",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Roquebilli\u00e8re",
+    "eurostat:nuts_2021_id":"06103",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL03",
+    "eurostat:nuts_2021_level_lau":"06103",
+    "eurostat:population":1841,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200030195",
     "frgov:id":"BDCSURCO0000000009611320",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.002878,
-    "geom:area_square_m":25587660.664207,
+    "geom:area_square_m":25587660.664206,
     "geom:bbox":"7.2537491682,43.9928396935,7.32316074993,44.0636258815",
     "geom:latitude":44.027082,
     "geom:longitude":7.292419,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683323,
         102191581,
@@ -57,7 +71,10 @@
         102067795
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_06103",
+        "eurostat:nuts_2021_id":"06103"
+    },
     "wof:coterminous":[
         101851183
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a140b0aafd07a4c25f8f33b61e151212",
+    "wof:geomhash":"f2e501fe480166ff69c2e15f255c354b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404362001,
-    "wof:lastmodified":1582324052,
+    "wof:lastmodified":1684352781,
     "wof:name":"Roquebilliere",
     "wof:parent_id":102067795,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1841,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

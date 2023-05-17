@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_19204",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Fr\u00e9joux",
+    "eurostat:nuts_2021_id":"19204",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI21",
+    "eurostat:nuts_2021_level_lau":"19204",
+    "eurostat:population":291,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066744",
     "frgov:id":"BDCSURCO0000000009606378",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002883,
-    "geom:area_square_m":24964478.232469,
+    "geom:area_square_m":24964478.232468,
     "geom:bbox":"2.33833966715,45.5271258745,2.42500898699,45.5850102416",
     "geom:latitude":45.555986,
     "geom:longitude":2.378231,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683209,
         102191581,
@@ -58,7 +72,10 @@
         102069375
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_19204",
+        "eurostat:nuts_2021_id":"19204"
+    },
     "wof:coterminous":[
         1125911665
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2d035dd574475e1a150cc6bae6bea522",
+    "wof:geomhash":"092b25a537dc6ccc01830b736ebee74e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404390575,
-    "wof:lastmodified":1582324267,
+    "wof:lastmodified":1684353137,
     "wof:name":"Saint-Frejoux",
     "wof:parent_id":102069375,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":291,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

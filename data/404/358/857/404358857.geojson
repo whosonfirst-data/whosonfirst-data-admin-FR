@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_52447",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Ciergues",
+    "eurostat:nuts_2021_id":"52447",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF24",
+    "eurostat:nuts_2021_level_lau":"52447",
+    "eurostat:population":189,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072999",
     "frgov:id":"BDCSURCO0000000009596043",
     "frgov:insee_arr":"2",
@@ -123,6 +135,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683261,
         102191581,
@@ -133,7 +147,10 @@
         102067271
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_52447",
+        "eurostat:nuts_2021_id":"52447"
+    },
     "wof:coterminous":[
         101887271
     ],
@@ -141,7 +158,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6ad4ec78b605049997b32131f5984031",
+    "wof:geomhash":"b4ca326042f701a0618c32be04259734",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -155,11 +172,13 @@
         }
     ],
     "wof:id":404358857,
-    "wof:lastmodified":1582324971,
+    "wof:lastmodified":1684352738,
     "wof:name":"Saint-Ciergues",
     "wof:parent_id":102067271,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":189,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

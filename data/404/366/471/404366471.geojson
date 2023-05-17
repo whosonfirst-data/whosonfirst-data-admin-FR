@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_43088",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Espalem",
+    "eurostat:nuts_2021_id":"43088",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK13",
+    "eurostat:nuts_2021_level_lau":"43088",
+    "eurostat:population":304,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244301032",
     "frgov:id":"BDCSURCO0000000009607290",
     "frgov:insee_arr":"1",
@@ -135,6 +147,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683413,
         102191581,
@@ -145,7 +159,10 @@
         102064845
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_43088",
+        "eurostat:nuts_2021_id":"43088"
+    },
     "wof:coterminous":[
         1126051111
     ],
@@ -153,7 +170,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f189350873c8ea5fe9f320342a745a95",
+    "wof:geomhash":"fbf22a06ebf756433b03073aca1489bd",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -167,11 +184,13 @@
         }
     ],
     "wof:id":404366471,
-    "wof:lastmodified":1582324825,
+    "wof:lastmodified":1684352844,
     "wof:name":"Espalem",
     "wof:parent_id":102064845,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":304,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_53233",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Loup-du-Dorat",
+    "eurostat:nuts_2021_id":"53233",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG03",
+    "eurostat:nuts_2021_level_lau":"53233",
+    "eurostat:population":364,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"245300223",
     "frgov:id":"BDCSURCO0000000009596197",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683401,
         102191581,
@@ -57,7 +71,10 @@
         102066619
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_53233",
+        "eurostat:nuts_2021_id":"53233"
+    },
     "wof:coterminous":[
         101884795
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"75d246e5df6d0ae5be399f48e517240f",
+    "wof:geomhash":"1cd32e3b9664470aaad27708e79103a9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404364643,
-    "wof:lastmodified":1582324241,
+    "wof:lastmodified":1684352819,
     "wof:name":"Saint-Loup-Du-Dorat",
     "wof:parent_id":102066619,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":364,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

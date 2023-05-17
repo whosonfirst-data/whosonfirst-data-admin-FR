@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_80431",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"H\u00e9rissart",
+    "eurostat:nuts_2021_id":"80431",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE23",
+    "eurostat:nuts_2021_level_lau":"80431",
+    "eurostat:population":614,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248000747",
     "frgov:id":"BDCSURCO0000000009582138",
     "frgov:insee_arr":"4",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683363,
         102191581,
@@ -58,7 +72,10 @@
         102064759
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_80431",
+        "eurostat:nuts_2021_id":"80431"
+    },
     "wof:coterminous":[
         101898989
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0c02d1e4642b0b9ec2f351dfcf2a372f",
+    "wof:geomhash":"5c294e3b6f6f996606b3588b71b6dde5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404369205,
-    "wof:lastmodified":1582324911,
+    "wof:lastmodified":1684352881,
     "wof:name":"Herissart",
     "wof:parent_id":102064759,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":614,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

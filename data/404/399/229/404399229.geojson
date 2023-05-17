@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_63099",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ch\u00e2teaugay",
+    "eurostat:nuts_2021_id":"63099",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK14",
+    "eurostat:nuts_2021_level_lau":"63099",
+    "eurostat:population":3135,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"246300701",
     "frgov:id":"BDCSURCO0000000009605061",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001051,
-    "geom:area_square_m":9050775.106334,
+    "geom:area_square_m":9050775.106333,
     "geom:bbox":"3.06075922065,45.8414011657,3.13859714446,45.8673527572",
     "geom:latitude":45.854093,
     "geom:longitude":3.092799,
@@ -66,6 +78,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683471,
         102191581,
@@ -76,7 +90,10 @@
         102070477
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_63099",
+        "eurostat:nuts_2021_id":"63099"
+    },
     "wof:coterminous":[
         101749465
     ],
@@ -84,7 +101,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"178e2fb3193328d052b8c989be501b09",
+    "wof:geomhash":"84c96fe464c9ceb0432d378d423f1e1f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -98,11 +115,13 @@
         }
     ],
     "wof:id":404399229,
-    "wof:lastmodified":1582324145,
+    "wof:lastmodified":1684353241,
     "wof:name":"Chateaugay",
     "wof:parent_id":102070477,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3135,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

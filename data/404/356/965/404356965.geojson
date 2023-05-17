@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_80256",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Dreuil-l\u00e8s-Amiens",
+    "eurostat:nuts_2021_id":"80256",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE23",
+    "eurostat:nuts_2021_level_lau":"80256",
+    "eurostat:population":1653,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248000531",
     "frgov:id":"BDCSURCO0000000009582504",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000406,
-    "geom:area_square_m":3234793.113508,
+    "geom:area_square_m":3234793.113509,
     "geom:bbox":"2.21014973239,49.9042394226,2.25473748826,49.9269450803",
     "geom:latitude":49.915726,
     "geom:longitude":2.226307,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683363,
         102191581,
@@ -58,7 +72,10 @@
         102065555
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_80256",
+        "eurostat:nuts_2021_id":"80256"
+    },
     "wof:coterminous":[
         101753591
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b652c8e24d7e1aeefe5fdf032b305fd5",
+    "wof:geomhash":"e69afbbd01a834cdcfd8227dd1fafde7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404356965,
-    "wof:lastmodified":1582324924,
+    "wof:lastmodified":1684352711,
     "wof:name":"Dreuil-Les-Amiens",
     "wof:parent_id":102065555,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1653,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

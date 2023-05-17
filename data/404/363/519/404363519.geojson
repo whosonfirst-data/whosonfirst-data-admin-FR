@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_21488",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Poin\u00e7on-l\u00e8s-Larrey",
+    "eurostat:nuts_2021_id":"21488",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC11",
+    "eurostat:nuts_2021_level_lau":"21488",
+    "eurostat:population":194,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242101434",
     "frgov:id":"BDCSURCO0000000009596067",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001258,
-    "geom:area_square_m":10437579.153583,
+    "geom:area_square_m":10437579.153581,
     "geom:bbox":"4.44003182656,47.8433221095,4.47540302574,47.9056412706",
     "geom:latitude":47.869499,
     "geom:longitude":4.456666,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683563,
         102191581,
@@ -58,7 +72,10 @@
         102067689
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_21488",
+        "eurostat:nuts_2021_id":"21488"
+    },
     "wof:coterminous":[
         1125797407
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2b477c5f4d7801911e99f3dbaaf12624",
+    "wof:geomhash":"4b649e5eced061cdee14d4a34adb50a0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404363519,
-    "wof:lastmodified":1582324225,
+    "wof:lastmodified":1684352802,
     "wof:name":"Poincon-Les-Larrey",
     "wof:parent_id":102067689,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":194,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

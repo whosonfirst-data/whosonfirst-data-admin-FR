@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_77100",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ch\u00e2telet-en-Brie",
+    "eurostat:nuts_2021_id":"77100",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR102",
+    "eurostat:nuts_2021_level_lau":"77100",
+    "eurostat:population":4454,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070779",
     "frgov:id":"BDCSURCO0000000009592445",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683385,
         102191581,
@@ -57,7 +71,10 @@
         102065127
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_77100",
+        "eurostat:nuts_2021_id":"77100"
+    },
     "wof:coterminous":[
         101762547
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"923a4d418e66f0492d29fda7825022ba",
+    "wof:geomhash":"392ba1db9e0bec4464cb2c0fcd5fde01",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404349557,
-    "wof:lastmodified":1582324700,
+    "wof:lastmodified":1684352610,
     "wof:name":"Le Chatelet-En-Brie",
     "wof:parent_id":102065127,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":4454,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

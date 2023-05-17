@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_66183",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Marsal",
+    "eurostat:nuts_2021_id":"66183",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ15",
+    "eurostat:nuts_2021_level_lau":"66183",
+    "eurostat:population":71,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"246600548",
     "frgov:id":"BDCSURCO0000000009616664",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.0017,
-    "geom:area_square_m":15493746.874738,
+    "geom:area_square_m":15493746.874739,
     "geom:bbox":"2.57604187849,42.5030744234,2.66261673011,42.5472925973",
     "geom:latitude":42.527773,
     "geom:longitude":2.614091,
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683169,
         102191581,
@@ -136,7 +150,10 @@
         102064513
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_66183",
+        "eurostat:nuts_2021_id":"66183"
+    },
     "wof:coterminous":[
         1125960573
     ],
@@ -144,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d3ceeb9812b4408b722fc113e4a55e77",
+    "wof:geomhash":"c4819f0694744ccaac70972f550c6b3b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +175,13 @@
         }
     ],
     "wof:id":404367121,
-    "wof:lastmodified":1582324996,
+    "wof:lastmodified":1684352853,
     "wof:name":"Saint-Marsal",
     "wof:parent_id":102064513,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":71,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

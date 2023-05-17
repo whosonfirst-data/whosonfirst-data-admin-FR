@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_80719",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sainte-Segr\u00e9e",
+    "eurostat:nuts_2021_id":"80719",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE23",
+    "eurostat:nuts_2021_level_lau":"80719",
+    "eurostat:population":57,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071181",
     "frgov:id":"BDCSURCO0000000009583011",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000289,
-    "geom:area_square_m":2311329.212292,
+    "geom:area_square_m":2311329.212291,
     "geom:bbox":"1.90421853809,49.7498689749,1.92349799273,49.7731867596",
     "geom:latitude":49.760593,
     "geom:longitude":1.914061,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683363,
         102191581,
@@ -58,7 +72,10 @@
         102070551
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_80719",
+        "eurostat:nuts_2021_id":"80719"
+    },
     "wof:coterminous":[
         1125822459
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"95542e78096bb674235701bb893df73c",
+    "wof:geomhash":"cb8545bd13618a7ac809b4c75d52a688",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404376913,
-    "wof:lastmodified":1582324669,
+    "wof:lastmodified":1684352974,
     "wof:name":"Sainte-Segree",
     "wof:parent_id":102070551,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":57,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_01354",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Genis-Pouilly",
+    "eurostat:nuts_2021_id":"01354",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK21",
+    "eurostat:nuts_2021_level_lau":"01354",
+    "eurostat:population":12544,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240100750",
     "frgov:id":"BDCSURCO0000000009602987",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001151,
-    "geom:area_square_m":9840011.650005,
+    "geom:area_square_m":9840011.650004,
     "geom:bbox":"6.01195105582,46.2316171274,6.06159172911,46.2796879315",
     "geom:latitude":46.254246,
     "geom:longitude":6.036418,
@@ -150,6 +162,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683153,
         102191581,
@@ -160,7 +174,10 @@
         102066711
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_01354",
+        "eurostat:nuts_2021_id":"01354"
+    },
     "wof:coterminous":[
         101753275
     ],
@@ -168,7 +185,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e2d3223a749f79c56c1d13b1e18f4e68",
+    "wof:geomhash":"a8546af5c68ca15f4825ee3e145aabe6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -182,11 +199,13 @@
         }
     ],
     "wof:id":404355697,
-    "wof:lastmodified":1582324194,
+    "wof:lastmodified":1684352695,
     "wof:name":"Saint-Genis-Pouilly",
     "wof:parent_id":102066711,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":12544,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

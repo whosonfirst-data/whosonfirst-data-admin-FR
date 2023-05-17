@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_42053",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ch\u00e2teauneuf",
+    "eurostat:nuts_2021_id":"42053",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK25",
+    "eurostat:nuts_2021_level_lau":"42053",
+    "eurostat:population":1599,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244200770",
     "frgov:id":"BDCSURCO0000000009606307",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001563,
-    "geom:area_square_m":13546265.64692,
+    "geom:area_square_m":13546265.646921,
     "geom:bbox":"4.60377631767,45.4930720762,4.666272793,45.5440467683",
     "geom:latitude":45.514713,
     "geom:longitude":4.633989,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683377,
         102191581,
@@ -58,7 +72,10 @@
         102067129
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_42053",
+        "eurostat:nuts_2021_id":"42053"
+    },
     "wof:coterminous":[
         101893549
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0f8375f5df2ffdeba4ade5e0594d5e7d",
+    "wof:geomhash":"9f5acf613c7f756b0b1a2e9a31246c02",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404399867,
-    "wof:lastmodified":1582324149,
+    "wof:lastmodified":1684353248,
     "wof:name":"Chateauneuf",
     "wof:parent_id":102067129,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1599,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

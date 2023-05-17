@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_52207",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Fr\u00e9court",
+    "eurostat:nuts_2021_id":"52207",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF24",
+    "eurostat:nuts_2021_level_lau":"52207",
+    "eurostat:population":96,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072999",
     "frgov:id":"BDCSURCO0000000009595676",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.000752,
-    "geom:area_square_m":6225408.277524,
+    "geom:area_square_m":6225408.277523,
     "geom:bbox":"5.4344391293,47.9314690704,5.47461252688,47.9652155624",
     "geom:latitude":47.949111,
     "geom:longitude":5.453798,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683261,
         102191581,
@@ -58,7 +72,10 @@
         102068029
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_52207",
+        "eurostat:nuts_2021_id":"52207"
+    },
     "wof:coterminous":[
         1126054081
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5499c86a029e9c2b98c067e78ae46649",
+    "wof:geomhash":"8b0d1369ebcdf529795008bb317df36f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404387831,
-    "wof:lastmodified":1582325366,
+    "wof:lastmodified":1684353102,
     "wof:name":"Frecourt",
     "wof:parent_id":102068029,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":96,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

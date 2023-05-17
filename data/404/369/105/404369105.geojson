@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_53264",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Thorign\u00e9-en-Charnie",
+    "eurostat:nuts_2021_id":"53264",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG03",
+    "eurostat:nuts_2021_level_lau":"53264",
+    "eurostat:population":195,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200033298",
     "frgov:id":"BDCSURCO0000000009595515",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002087,
-    "geom:area_square_m":17269731.601304,
+    "geom:area_square_m":17269731.601302,
     "geom:bbox":"-0.407843525746,47.9815798795,-0.308989305882,48.0331244632",
     "geom:latitude":48.005661,
     "geom:longitude":-0.359947,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683401,
         102191581,
@@ -57,7 +71,10 @@
         102069145
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_53264",
+        "eurostat:nuts_2021_id":"53264"
+    },
     "wof:coterminous":[
         1125824563
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"fd653ba404b78575ad29ec8a7bef37a9",
+    "wof:geomhash":"a1d775e5bc5c1428e01b2cc2e181e47b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404369105,
-    "wof:lastmodified":1582324906,
+    "wof:lastmodified":1684352880,
     "wof:name":"Thorigne-En-Charnie",
     "wof:parent_id":102069145,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":195,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_85262",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Philbert-de-Bouaine",
+    "eurostat:nuts_2021_id":"85262",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG05",
+    "eurostat:nuts_2021_level_lau":"85262",
+    "eurostat:population":3424,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070233",
     "frgov:id":"BDCSURCO0000000009600632",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00599,
-    "geom:area_square_m":50519390.261533,
+    "geom:area_square_m":50519390.261532,
     "geom:bbox":"-1.55572818151,46.946241063,-1.45758298329,47.0420601677",
     "geom:latitude":46.992727,
     "geom:longitude":-1.507038,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683409,
         102191581,
@@ -57,7 +71,10 @@
         102068425
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_85262",
+        "eurostat:nuts_2021_id":"85262"
+    },
     "wof:coterminous":[
         101765481
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a135a971055bac697e9ba6acee72ba9e",
+    "wof:geomhash":"28ce02b0eb564c09998ba03793a4731f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404350571,
-    "wof:lastmodified":1582324862,
+    "wof:lastmodified":1684352625,
     "wof:name":"Saint-Philbert-De-Bouaine",
     "wof:parent_id":102068425,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3424,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

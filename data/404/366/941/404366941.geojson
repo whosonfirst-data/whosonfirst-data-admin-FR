@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_38365",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Baudille-de-la-Tour",
+    "eurostat:nuts_2021_id":"38365",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK24",
+    "eurostat:nuts_2021_level_lau":"38365",
+    "eurostat:population":814,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068542",
     "frgov:id":"BDCSURCO0000000009605224",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.002545,
-    "geom:area_square_m":21943912.856329,
+    "geom:area_square_m":21943912.856331,
     "geom:bbox":"5.30542209095,45.753777276,5.38879513141,45.8272114772",
     "geom:latitude":45.786924,
     "geom:longitude":5.337229,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683427,
         102191581,
@@ -58,7 +72,10 @@
         102065699
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_38365",
+        "eurostat:nuts_2021_id":"38365"
+    },
     "wof:coterminous":[
         1125808423
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"edea2d4e361cf2dcbfa4d53e69a7ebe5",
+    "wof:geomhash":"fac4ab53fe9095833fa39bc187f952db",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404366941,
-    "wof:lastmodified":1582324831,
+    "wof:lastmodified":1684352851,
     "wof:name":"Saint-Baudille-De-La-Tour",
     "wof:parent_id":102065699,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":814,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

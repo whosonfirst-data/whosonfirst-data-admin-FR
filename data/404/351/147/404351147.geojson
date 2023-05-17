@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_12236",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Laurent-de-L\u00e9v\u00e9zou",
+    "eurostat:nuts_2021_id":"12236",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ22",
+    "eurostat:nuts_2021_level_lau":"12236",
+    "eurostat:population":153,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"241200765",
     "frgov:id":"BDCSURCO0000000009611237",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683301,
         102191581,
@@ -58,7 +72,10 @@
         102071107
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_12236",
+        "eurostat:nuts_2021_id":"12236"
+    },
     "wof:coterminous":[
         1125813759
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"595f0056a1db154b3a63f68493a3169b",
+    "wof:geomhash":"772da3187af1863a35413d784b46160d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404351147,
-    "wof:lastmodified":1582324964,
+    "wof:lastmodified":1684352633,
     "wof:name":"Saint-Laurent-De-Levezou",
     "wof:parent_id":102071107,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":153,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_72011",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ass\u00e9-le-Boisne",
+    "eurostat:nuts_2021_id":"72011",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG04",
+    "eurostat:nuts_2021_level_lau":"72011",
+    "eurostat:population":913,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072700",
     "frgov:id":"BDCSURCO0000000009593820",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003501,
-    "geom:area_square_m":28782728.605098,
+    "geom:area_square_m":28782728.605099,
     "geom:bbox":"-0.0564714693995,48.2741071338,0.0345538561096,48.3637024247",
     "geom:latitude":48.321995,
     "geom:longitude":-0.003206,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683279,
         102191581,
@@ -57,7 +71,10 @@
         102066523
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_72011",
+        "eurostat:nuts_2021_id":"72011"
+    },
     "wof:coterminous":[
         101881807
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"64d92a8d9e9e6635a8ba8c2b00d10217",
+    "wof:geomhash":"263534a23f966f078a8a4c15d18a0351",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404347839,
-    "wof:lastmodified":1582324729,
+    "wof:lastmodified":1684352586,
     "wof:name":"Asse-Le-Boisne",
     "wof:parent_id":102066523,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":913,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

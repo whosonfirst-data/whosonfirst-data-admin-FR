@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_39487",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Laurent-en-Grandvaux",
+    "eurostat:nuts_2021_id":"39487",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC22",
+    "eurostat:nuts_2021_level_lau":"39487",
+    "eurostat:population":1807,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243900610",
     "frgov:id":"BDCSURCO0000000009601911",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002059,
-    "geom:area_square_m":17501566.755908,
+    "geom:area_square_m":17501566.755907,
     "geom:bbox":"5.92535590427,46.5402161739,5.99411587957,46.6000589921",
     "geom:latitude":46.569557,
     "geom:longitude":5.962673,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683173,
         102191581,
@@ -58,7 +72,10 @@
         102069553
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_39487",
+        "eurostat:nuts_2021_id":"39487"
+    },
     "wof:coterminous":[
         101766655
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"97a085867c95d476a4513723b5683363",
+    "wof:geomhash":"77f0e051661c318a57c8c63ea4066ace",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404388623,
-    "wof:lastmodified":1582325486,
+    "wof:lastmodified":1684353112,
     "wof:name":"Saint-Laurent-En-Grandvaux",
     "wof:parent_id":102069553,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1807,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

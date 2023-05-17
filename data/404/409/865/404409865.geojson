@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_74233",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-F\u00e9lix",
+    "eurostat:nuts_2021_id":"74233",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK28",
+    "eurostat:nuts_2021_level_lau":"74233",
+    "eurostat:population":2421,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066793",
     "frgov:id":"BDCSURCO0000000009604948",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.000761,
-    "geom:area_square_m":6560580.946394,
+    "geom:area_square_m":6560580.946393,
     "geom:bbox":"5.9573960928,45.7945183796,5.99730541026,45.8210450652",
     "geom:latitude":45.807637,
     "geom:longitude":5.977363,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683227,
         102191581,
@@ -58,7 +72,10 @@
         102064517
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_74233",
+        "eurostat:nuts_2021_id":"74233"
+    },
     "wof:coterminous":[
         101767989
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a3acc7169fe74b0d842ebac00329f03c",
+    "wof:geomhash":"509d34c9f1087646514607ad4ea14c57",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404409865,
-    "wof:lastmodified":1582324483,
+    "wof:lastmodified":1684353365,
     "wof:name":"Saint-Felix",
     "wof:parent_id":102064517,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2421,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

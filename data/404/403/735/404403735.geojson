@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_59003",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Aibes",
+    "eurostat:nuts_2021_id":"59003",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE1",
+    "eurostat:nuts_2021_level_3":"FRE11",
+    "eurostat:nuts_2021_level_lau":"59003",
+    "eurostat:population":370,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200043396",
     "frgov:id":"BDCSURCO0000000009581420",
     "frgov:insee_arr":"1",
@@ -138,6 +150,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683445,
         102191581,
@@ -148,7 +162,10 @@
         102071747
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_59003",
+        "eurostat:nuts_2021_id":"59003"
+    },
     "wof:coterminous":[
         101899711
     ],
@@ -156,7 +173,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c5ae45b82367e203fde72d0fb12e1e3f",
+    "wof:geomhash":"c93b1d0a202a4639300d0deca065b500",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -170,11 +187,13 @@
         }
     ],
     "wof:id":404403735,
-    "wof:lastmodified":1582325296,
+    "wof:lastmodified":1684353292,
     "wof:name":"Aibes",
     "wof:parent_id":102071747,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":370,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

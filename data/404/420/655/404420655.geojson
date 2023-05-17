@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_29267",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Thois",
+    "eurostat:nuts_2021_id":"29267",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH02",
+    "eurostat:nuts_2021_level_lau":"29267",
+    "eurostat:population":716,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242900561",
     "frgov:id":"BDCSURCO0000000009593905",
     "frgov:insee_arr":"2",
@@ -138,6 +150,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683553,
         102191581,
@@ -147,7 +161,10 @@
         102065907
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_29267",
+        "eurostat:nuts_2021_id":"29267"
+    },
     "wof:coterminous":[
         101881511
     ],
@@ -155,7 +172,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"cc9a7103539ff61d4b39e37780bcd7b5",
+    "wof:geomhash":"02fa1cd281ea449342589db4568c38a1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -168,11 +185,13 @@
         }
     ],
     "wof:id":404420655,
-    "wof:lastmodified":1582325209,
+    "wof:lastmodified":1684353492,
     "wof:name":"Saint-Thois",
     "wof:parent_id":102065907,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":716,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

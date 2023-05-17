@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_79258",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Jacques-de-Thouars",
+    "eurostat:nuts_2021_id":"79258",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI33",
+    "eurostat:nuts_2021_level_lau":"79258",
+    "eurostat:population":438,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247900798",
     "frgov:id":"BDCSURCO0000000009600606",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000654,
-    "geom:area_square_m":5517651.07189,
+    "geom:area_square_m":5517651.071891,
     "geom:bbox":"-0.25391885814,46.9551736345,-0.217527207398,46.9827634033",
     "geom:latitude":46.969464,
     "geom:longitude":-0.234777,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683163,
         102191581,
@@ -58,7 +72,10 @@
         102069965
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_79258",
+        "eurostat:nuts_2021_id":"79258"
+    },
     "wof:coterminous":[
         1126027649
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"cd92d9e84ee1994437d465237aebb7d7",
+    "wof:geomhash":"9ec5aa4caf745156b5aef081486b4d2d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404426391,
-    "wof:lastmodified":1582325078,
+    "wof:lastmodified":1684353561,
     "wof:name":"Saint-Jacques-De-Thouars",
     "wof:parent_id":102069965,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":438,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

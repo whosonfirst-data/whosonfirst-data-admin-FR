@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_17150",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"\u00c9glises-d'Argenteuil",
+    "eurostat:nuts_2021_id":"17150",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI32",
+    "eurostat:nuts_2021_level_lau":"17150",
+    "eurostat:population":519,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041689",
     "frgov:id":"BDCSURCO0000000009604357",
     "frgov:insee_arr":"5",
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683275,
         102191581,
@@ -56,7 +70,10 @@
         102069755
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_17150",
+        "eurostat:nuts_2021_id":"17150"
+    },
     "wof:coterminous":[
         1360678261
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e6523eba3a5098cb250658716f3caa29",
+    "wof:geomhash":"95824d48acdc5a2748d37c604d1c17a5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404406303,
-    "wof:lastmodified":1582324445,
+    "wof:lastmodified":1684353324,
     "wof:name":"Les Eglises-D'Argenteuil",
     "wof:parent_id":102069755,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":519,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

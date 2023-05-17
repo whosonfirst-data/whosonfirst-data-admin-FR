@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_82057",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Fabas",
+    "eurostat:nuts_2021_id":"82057",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ28",
+    "eurostat:nuts_2021_level_lau":"82057",
+    "eurostat:population":621,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066652",
     "frgov:id":"BDCSURCO0000000009612286",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000706,
-    "geom:area_square_m":6298774.994036,
+    "geom:area_square_m":6298774.994037,
     "geom:bbox":"1.31720267962,43.8507277362,1.36462808725,43.8735150923",
     "geom:latitude":43.861516,
     "geom:longitude":1.339502,
@@ -93,6 +105,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683217,
         102191581,
@@ -103,7 +117,10 @@
         102065557
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_82057",
+        "eurostat:nuts_2021_id":"82057"
+    },
     "wof:coterminous":[
         1126051779
     ],
@@ -111,7 +128,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c9e02d3fd169bd0ff4e4f05ae9a3f0e4",
+    "wof:geomhash":"3cf5b0a8ead8dcda66553b2403db6b2c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -125,11 +142,13 @@
         }
     ],
     "wof:id":404397407,
-    "wof:lastmodified":1582324205,
+    "wof:lastmodified":1684353218,
     "wof:name":"Fabas",
     "wof:parent_id":102065557,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":621,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

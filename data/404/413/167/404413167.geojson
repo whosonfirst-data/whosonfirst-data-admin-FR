@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_36141",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Neuvy-Saint-S\u00e9pulchre",
+    "eurostat:nuts_2021_id":"36141",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB03",
+    "eurostat:nuts_2021_level_lau":"36141",
+    "eurostat:population":1653,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200018521",
     "frgov:id":"BDCSURCO0000000009602224",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.004166,
-    "geom:area_square_m":35398292.535114,
+    "geom:area_square_m":35398292.535112,
     "geom:bbox":"1.75987992969,46.5550102077,1.8693709982,46.6259502256",
     "geom:latitude":46.592288,
     "geom:longitude":1.812944,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683311,
         102191581,
@@ -57,7 +71,10 @@
         102067307
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_36141",
+        "eurostat:nuts_2021_id":"36141"
+    },
     "wof:coterminous":[
         101766801
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f536fabd93519efdeaf5dce15f096c78",
+    "wof:geomhash":"7be6155c8451f29b7de0e6b65ab866a5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404413167,
-    "wof:lastmodified":1582324316,
+    "wof:lastmodified":1684353403,
     "wof:name":"Neuvy-Saint-Sepulchre",
     "wof:parent_id":102067307,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1653,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

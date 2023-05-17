@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_78561",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Lambert",
+    "eurostat:nuts_2021_id":"78561",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR103",
+    "eurostat:nuts_2021_level_lau":"78561",
+    "eurostat:population":452,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200033173",
     "frgov:id":"BDCSURCO0000000009590685",
     "frgov:insee_arr":"2",
@@ -91,6 +103,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683367,
         102191581,
@@ -100,7 +114,10 @@
         102065129
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_78561",
+        "eurostat:nuts_2021_id":"78561"
+    },
     "wof:coterminous":[
         1360676387
     ],
@@ -108,7 +125,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"09d3cc0bdf1cdcc32ab3ed7c1a3ea63a",
+    "wof:geomhash":"39490085dff0beb36222a08eef190819",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -121,11 +138,13 @@
         }
     ],
     "wof:id":404386123,
-    "wof:lastmodified":1582325456,
+    "wof:lastmodified":1684353083,
     "wof:name":"Saint-Lambert",
     "wof:parent_id":102065129,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":452,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

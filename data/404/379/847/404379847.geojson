@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_76108",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bois-Guillaume",
+    "eurostat:nuts_2021_id":"76108",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD22",
+    "eurostat:nuts_2021_level_lau":"76108",
+    "eurostat:population":13796,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200023414",
     "frgov:id":"BDCSURCO0000000301102131",
     "frgov:insee_arr":"3",
@@ -120,6 +132,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683251,
         102191581,
@@ -130,7 +144,10 @@
         102071767
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_76108",
+        "eurostat:nuts_2021_id":"76108"
+    },
     "wof:coterminous":[
         101749127
     ],
@@ -138,7 +155,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7c3779b198be0769e85b120626dd07fa",
+    "wof:geomhash":"cff3870fa30de7eec9c3fcb056d59527",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -152,11 +169,13 @@
         }
     ],
     "wof:id":404379847,
-    "wof:lastmodified":1582324532,
+    "wof:lastmodified":1684353009,
     "wof:name":"Bois-Guillaume",
     "wof:parent_id":102071767,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":13796,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

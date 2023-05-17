@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_33441",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Martin-Lacaussade",
+    "eurostat:nuts_2021_id":"33441",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI12",
+    "eurostat:nuts_2021_level_lau":"33441",
+    "eurostat:population":1118,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200023794",
     "frgov:id":"BDCSURCO0000000009607829",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000455,
-    "geom:area_square_m":3967314.282763,
+    "geom:area_square_m":3967314.282764,
     "geom:bbox":"-0.658748161953,45.1270203264,-0.623487466136,45.1524932998",
     "geom:latitude":45.142702,
     "geom:longitude":-0.643433,
@@ -138,6 +150,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683243,
         102191581,
@@ -148,7 +162,10 @@
         102065429
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_33441",
+        "eurostat:nuts_2021_id":"33441"
+    },
     "wof:coterminous":[
         1125774829
     ],
@@ -156,7 +173,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4fcdb4db740578c955abcd239cf23102",
+    "wof:geomhash":"dbb86265df1b50b9d931506eb7cc065a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -170,11 +187,13 @@
         }
     ],
     "wof:id":404402205,
-    "wof:lastmodified":1582325275,
+    "wof:lastmodified":1684353274,
     "wof:name":"Saint-Martin-Lacaussade",
     "wof:parent_id":102065429,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1118,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

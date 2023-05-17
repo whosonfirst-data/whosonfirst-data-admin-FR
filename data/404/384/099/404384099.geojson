@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_51505",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Masmes",
+    "eurostat:nuts_2021_id":"51505",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF23",
+    "eurostat:nuts_2021_level_lau":"51505",
+    "eurostat:population":458,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067213",
     "frgov:id":"BDCSURCO0000000009585635",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.00083,
-    "geom:area_square_m":6693619.91435,
+    "geom:area_square_m":6693619.914351,
     "geom:bbox":"4.2132777474,49.298091121,4.29035145167,49.3211091204",
     "geom:latitude":49.311249,
     "geom:longitude":4.249099,
@@ -114,6 +126,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683405,
         102191581,
@@ -124,7 +138,10 @@
         102064983
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_51505",
+        "eurostat:nuts_2021_id":"51505"
+    },
     "wof:coterminous":[
         101878555
     ],
@@ -132,7 +149,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"552d96def0c59f0bf21ad2e1876528ea",
+    "wof:geomhash":"da2bc94623878dbf82b53e08a4603c10",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -146,11 +163,13 @@
         }
     ],
     "wof:id":404384099,
-    "wof:lastmodified":1582324616,
+    "wof:lastmodified":1684353060,
     "wof:name":"Saint-Masmes",
     "wof:parent_id":102064983,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":458,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

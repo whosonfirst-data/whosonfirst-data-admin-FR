@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_17343",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Gr\u00e9goire-d'Ardennes",
+    "eurostat:nuts_2021_id":"17343",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI32",
+    "eurostat:nuts_2021_level_lau":"17343",
+    "eurostat:population":151,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041523",
     "frgov:id":"BDCSURCO0000000009606454",
     "frgov:insee_arr":"1",
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683275,
         102191581,
@@ -56,7 +70,10 @@
         102069255
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_17343",
+        "eurostat:nuts_2021_id":"17343"
+    },
     "wof:coterminous":[
         1360675659
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"78f85b603a19ea380e3b7d53559ad03a",
+    "wof:geomhash":"5dcc312b06e0e5798bf597adb3eb50b6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404378833,
-    "wof:lastmodified":1582324738,
+    "wof:lastmodified":1684352997,
     "wof:name":"Saint-Gregoire-D'Ardennes",
     "wof:parent_id":102069255,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":151,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

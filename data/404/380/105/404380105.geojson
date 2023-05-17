@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_23183",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Avit-le-Pauvre",
+    "eurostat:nuts_2021_id":"23183",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI22",
+    "eurostat:nuts_2021_level_lau":"23183",
+    "eurostat:population":78,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067189",
     "frgov:id":"BDCSURCO0000000009604290",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683179,
         102191581,
@@ -58,7 +72,10 @@
         102068527
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_23183",
+        "eurostat:nuts_2021_id":"23183"
+    },
     "wof:coterminous":[
         1125939325
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ed46c6b04775e7f4c661e97f78a519ac",
+    "wof:geomhash":"9fc8a50817e7d6d93fe36e0956ab8669",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404380105,
-    "wof:lastmodified":1582325372,
+    "wof:lastmodified":1684353012,
     "wof:name":"Saint-Avit-Le-Pauvre",
     "wof:parent_id":102068527,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":78,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_06124",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-L\u00e9ger",
+    "eurostat:nuts_2021_id":"06124",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL03",
+    "eurostat:nuts_2021_level_lau":"06124",
+    "eurostat:population":51,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200039931",
     "frgov:id":"BDCSURCO0000000009611494",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.000505,
-    "geom:area_square_m":4493166.056387,
+    "geom:area_square_m":4493166.056386,
     "geom:bbox":"6.79556157216,43.9897043144,6.84236144871,44.0126708577",
     "geom:latitude":44.002195,
     "geom:longitude":6.822875,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683323,
         102191581,
@@ -55,7 +69,10 @@
         102067603
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_06124",
+        "eurostat:nuts_2021_id":"06124"
+    },
     "wof:coterminous":[
         1360676045
     ],
@@ -63,7 +80,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"fa3e2cdce7a13bc5e4bff2405aa4c310",
+    "wof:geomhash":"5044c0159c85e61265cc78572e7991dd",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -76,11 +93,13 @@
         }
     ],
     "wof:id":404382315,
-    "wof:lastmodified":1582324687,
+    "wof:lastmodified":1684353036,
     "wof:name":"Saint-Leger",
     "wof:parent_id":102067603,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":51,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

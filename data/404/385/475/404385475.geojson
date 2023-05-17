@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_39314",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Marn\u00e9zia",
+    "eurostat:nuts_2021_id":"39314",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC22",
+    "eurostat:nuts_2021_level_lau":"39314",
+    "eurostat:population":90,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243901071",
     "frgov:id":"BDCSURCO0000000009601926",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000585,
-    "geom:area_square_m":4972969.127551,
+    "geom:area_square_m":4972969.12755,
     "geom:bbox":"5.6115211931,46.561432742,5.65865730117,46.59065477",
     "geom:latitude":46.575743,
     "geom:longitude":5.636138,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683173,
         102191581,
@@ -58,7 +72,10 @@
         102068213
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_39314",
+        "eurostat:nuts_2021_id":"39314"
+    },
     "wof:coterminous":[
         1125773689
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a609dfeb3ac8caa2a6d53ef28c0d28f5",
+    "wof:geomhash":"04f406d67aedb79d22979fc1df034cce",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404385475,
-    "wof:lastmodified":1582324639,
+    "wof:lastmodified":1684353076,
     "wof:name":"Marnezia",
     "wof:parent_id":102068213,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":90,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

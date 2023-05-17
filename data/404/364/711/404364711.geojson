@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_48043",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ch\u00e2teauneuf-de-Randon",
+    "eurostat:nuts_2021_id":"48043",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ14",
+    "eurostat:nuts_2021_level_lau":"48043",
+    "eurostat:population":550,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069102",
     "frgov:id":"BDCSURCO0000000009609895",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002786,
-    "geom:area_square_m":24511180.75704,
+    "geom:area_square_m":24511180.757042,
     "geom:bbox":"3.65862064539,44.6026626741,3.71664062989,44.6928403839",
     "geom:latitude":44.648157,
     "geom:longitude":3.685573,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683453,
         102191581,
@@ -58,7 +72,10 @@
         102065309
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_48043",
+        "eurostat:nuts_2021_id":"48043"
+    },
     "wof:coterminous":[
         1125772061
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"72723098f81357d211d57e020bb7d778",
+    "wof:geomhash":"c8fca0e70d8c4ec233c8ef389e81190f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404364711,
-    "wof:lastmodified":1582324257,
+    "wof:lastmodified":1684352819,
     "wof:name":"Chateauneuf-De-Randon",
     "wof:parent_id":102065309,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":550,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

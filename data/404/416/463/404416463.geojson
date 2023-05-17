@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_71195",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Farges-l\u00e8s-M\u00e2con",
+    "eurostat:nuts_2021_id":"71195",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC13",
+    "eurostat:nuts_2021_level_lau":"71195",
+    "eurostat:population":219,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069698",
     "frgov:id":"BDCSURCO0000000009602154",
     "frgov:insee_arr":"5",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00068,
-    "geom:area_square_m":5783367.276121,
+    "geom:area_square_m":5783367.276122,
     "geom:bbox":"4.88665385301,46.4982103416,4.93359153779,46.5268630672",
     "geom:latitude":46.512249,
     "geom:longitude":4.911593,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683543,
         102191581,
@@ -58,7 +72,10 @@
         102071543
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_71195",
+        "eurostat:nuts_2021_id":"71195"
+    },
     "wof:coterminous":[
         1125926211
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f49903ffeb328a9d438ac7cee85c438d",
+    "wof:geomhash":"1987ccd9086c4f3caf2c051fe8609204",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404416463,
-    "wof:lastmodified":1582325182,
+    "wof:lastmodified":1684353442,
     "wof:name":"Farges-Les-Macon",
     "wof:parent_id":102071543,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":219,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

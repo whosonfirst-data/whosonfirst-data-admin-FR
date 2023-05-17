@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_80429",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"H\u00e9nencourt",
+    "eurostat:nuts_2021_id":"80429",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE23",
+    "eurostat:nuts_2021_level_lau":"80429",
+    "eurostat:population":195,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248000499",
     "frgov:id":"BDCSURCO0000000009582132",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000409,
-    "geom:area_square_m":3249675.130638,
+    "geom:area_square_m":3249675.130637,
     "geom:bbox":"2.54409010783,49.9931402368,2.57781520224,50.0123472476",
     "geom:latitude":50.00417,
     "geom:longitude":2.561642,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683363,
         102191581,
@@ -58,7 +72,10 @@
         102067653
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_80429",
+        "eurostat:nuts_2021_id":"80429"
+    },
     "wof:coterminous":[
         101900651
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d2b6ff2f35554db997464cb6a6d42779",
+    "wof:geomhash":"2b9c361ce6a962ea82e789fee9d3158e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404388239,
-    "wof:lastmodified":1582325489,
+    "wof:lastmodified":1684353107,
     "wof:name":"Henencourt",
     "wof:parent_id":102067653,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":195,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

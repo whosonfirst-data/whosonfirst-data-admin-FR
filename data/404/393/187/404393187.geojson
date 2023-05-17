@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_01339",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Bernard",
+    "eurostat:nuts_2021_id":"01339",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK21",
+    "eurostat:nuts_2021_level_lau":"01339",
+    "eurostat:population":1433,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200042497",
     "frgov:id":"BDCSURCO0000000009604450",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683153,
         102191581,
@@ -58,7 +72,10 @@
         102070391
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_01339",
+        "eurostat:nuts_2021_id":"01339"
+    },
     "wof:coterminous":[
         101753273
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"726e27f2dae3b95fcb512bbe70b2023e",
+    "wof:geomhash":"86b567714fd0e1f2101cd3d6350648f4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404393187,
-    "wof:lastmodified":1582325012,
+    "wof:lastmodified":1684353170,
     "wof:name":"Saint-Bernard",
     "wof:parent_id":102070391,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1433,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_28233",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Marbou\u00e9",
+    "eurostat:nuts_2021_id":"28233",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB02",
+    "eurostat:nuts_2021_level_lau":"28233",
+    "eurostat:population":1147,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069961",
     "frgov:id":"BDCSURCO0000000009594863",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003228,
-    "geom:area_square_m":26644881.460129,
+    "geom:area_square_m":26644881.460128,
     "geom:bbox":"1.25522400824,48.0972152513,1.35593365883,48.1518469523",
     "geom:latitude":48.119491,
     "geom:longitude":1.307354,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683189,
         102191581,
@@ -57,7 +71,10 @@
         102065905
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_28233",
+        "eurostat:nuts_2021_id":"28233"
+    },
     "wof:coterminous":[
         101763817
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8776208b3bce3345bb788413da715ad4",
+    "wof:geomhash":"db3d23f08d2df5c3bb986eabfc273cfc",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404350675,
-    "wof:lastmodified":1582324846,
+    "wof:lastmodified":1684352626,
     "wof:name":"Marboue",
     "wof:parent_id":102065905,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1147,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

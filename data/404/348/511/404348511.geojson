@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_14578",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Gatien-des-Bois",
+    "eurostat:nuts_2021_id":"14578",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD11",
+    "eurostat:nuts_2021_level_lau":"14578",
+    "eurostat:population":1314,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066827",
     "frgov:id":"BDCSURCO0000000009585880",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.006108,
-    "geom:area_square_m":49202751.309641,
+    "geom:area_square_m":49202751.30964,
     "geom:bbox":"0.1278838439,49.3048827493,0.257103082126,49.3973592322",
     "geom:latitude":49.350769,
     "geom:longitude":0.186726,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683579,
         102191581,
@@ -58,7 +72,10 @@
         102067877
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_14578",
+        "eurostat:nuts_2021_id":"14578"
+    },
     "wof:coterminous":[
         101761671
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a3308136c6872515b3fb66b7c5be89c9",
+    "wof:geomhash":"51d63d2eca4f3c4572f94af36ebccc0b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404348511,
-    "wof:lastmodified":1582324584,
+    "wof:lastmodified":1684352596,
     "wof:name":"Saint-Gatien-Des-Bois",
     "wof:parent_id":102067877,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1314,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

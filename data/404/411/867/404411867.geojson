@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_02169",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ch\u00e2tillon-l\u00e8s-Sons",
+    "eurostat:nuts_2021_id":"02169",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE21",
+    "eurostat:nuts_2021_level_lau":"02169",
+    "eurostat:population":83,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240200469",
     "frgov:id":"BDCSURCO0000000009582889",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683247,
         102191581,
@@ -58,7 +72,10 @@
         102067789
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_02169",
+        "eurostat:nuts_2021_id":"02169"
+    },
     "wof:coterminous":[
         1126043895
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0bb46905d3aa96473cd69c17e40c3698",
+    "wof:geomhash":"570760873a7d160c8895d0df9d6e0b6b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404411867,
-    "wof:lastmodified":1582325165,
+    "wof:lastmodified":1684353388,
     "wof:name":"Chatillon-Les-Sons",
     "wof:parent_id":102067789,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":83,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

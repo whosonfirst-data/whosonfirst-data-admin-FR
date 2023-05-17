@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_46251",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-C\u00e9r\u00e9",
+    "eurostat:nuts_2021_id":"46251",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ25",
+    "eurostat:nuts_2021_level_lau":"46251",
+    "eurostat:population":3462,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066371",
     "frgov:id":"BDCSURCO0000000009609001",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683389,
         102191581,
@@ -58,7 +72,10 @@
         102068763
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_46251",
+        "eurostat:nuts_2021_id":"46251"
+    },
     "wof:coterminous":[
         101770359
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f81adc5bb4e8d5947e46d202ec69f0d0",
+    "wof:geomhash":"84378bcaaf0f5a934c68005c19956100",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404382415,
-    "wof:lastmodified":1582324683,
+    "wof:lastmodified":1684353038,
     "wof:name":"Saint-Cere",
     "wof:parent_id":102068763,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3462,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

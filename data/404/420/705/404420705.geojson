@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_21326",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Jours-l\u00e8s-Baigneux",
+    "eurostat:nuts_2021_id":"21326",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC11",
+    "eurostat:nuts_2021_level_lau":"21326",
+    "eurostat:population":76,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242101434",
     "frgov:id":"BDCSURCO0000000009597734",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001356,
-    "geom:area_square_m":11303253.615373,
+    "geom:area_square_m":11303253.615374,
     "geom:bbox":"4.58631741871,47.598075839,4.62605790124,47.6611257183",
     "geom:latitude":47.625089,
     "geom:longitude":4.604121,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683563,
         102191581,
@@ -58,7 +72,10 @@
         102064965
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_21326",
+        "eurostat:nuts_2021_id":"21326"
+    },
     "wof:coterminous":[
         101888005
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"663ff388350c8e92712a0e4647ee800e",
+    "wof:geomhash":"45bb96f5845f16807647da5097c121a4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404420705,
-    "wof:lastmodified":1582325205,
+    "wof:lastmodified":1684353492,
     "wof:name":"Jours-Les-Baigneux",
     "wof:parent_id":102064965,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":76,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

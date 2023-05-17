@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_33003",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ambar\u00e8s-et-Lagrave",
+    "eurostat:nuts_2021_id":"33003",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI12",
+    "eurostat:nuts_2021_level_lau":"33003",
+    "eurostat:population":16344,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243300316",
     "frgov:id":"BDCSURCO0000000009608655",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002816,
-    "geom:area_square_m":24642813.630806,
+    "geom:area_square_m":24642813.630805,
     "geom:bbox":"-0.536140449009,44.915303156,-0.463444613983,44.9881919149",
     "geom:latitude":44.944222,
     "geom:longitude":-0.500749,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683243,
         102191581,
@@ -58,7 +72,10 @@
         102067811
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_33003",
+        "eurostat:nuts_2021_id":"33003"
+    },
     "wof:coterminous":[
         101748975
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4eae747f1154f7e1d20531c254f13e40",
+    "wof:geomhash":"3b77c87b0c5292f221f7e0e4d614b2b4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404365751,
-    "wof:lastmodified":1582324035,
+    "wof:lastmodified":1684352834,
     "wof:name":"Ambares-Et-Lagrave",
     "wof:parent_id":102067811,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":16344,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

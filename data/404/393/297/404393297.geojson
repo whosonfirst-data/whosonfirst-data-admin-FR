@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_70099",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Brotte-l\u00e8s-Ray",
+    "eurostat:nuts_2021_id":"70099",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC23",
+    "eurostat:nuts_2021_level_lau":"70099",
+    "eurostat:population":75,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247000623",
     "frgov:id":"BDCSURCO0000000009597411",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000601,
-    "geom:area_square_m":5006284.320482,
+    "geom:area_square_m":5006284.320483,
     "geom:bbox":"5.70129899579,47.5966304005,5.76745561351,47.6178602434",
     "geom:latitude":47.606914,
     "geom:longitude":5.73648,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683559,
         102191581,
@@ -58,7 +72,10 @@
         102065329
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_70099",
+        "eurostat:nuts_2021_id":"70099"
+    },
     "wof:coterminous":[
         101887791
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"dbe9d9b2da452bb09f1081c2efdb3286",
+    "wof:geomhash":"842092daa904b65cb9ccb891ccf7d72f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404393297,
-    "wof:lastmodified":1582325020,
+    "wof:lastmodified":1684353171,
     "wof:name":"Brotte-Les-Ray",
     "wof:parent_id":102065329,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":75,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

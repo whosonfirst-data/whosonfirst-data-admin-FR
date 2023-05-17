@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_47229",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Astier",
+    "eurostat:nuts_2021_id":"47229",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI14",
+    "eurostat:nuts_2021_level_lau":"47229",
+    "eurostat:population":222,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244700449",
     "frgov:id":"BDCSURCO0000000009609547",
     "frgov:insee_arr":"2",
@@ -85,6 +97,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683341,
         102191581,
@@ -95,7 +109,10 @@
         102066313
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_47229",
+        "eurostat:nuts_2021_id":"47229"
+    },
     "wof:coterminous":[
         1360673281
     ],
@@ -103,7 +120,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3370640118e07fe5dcb085ccf909a73b",
+    "wof:geomhash":"7d97ad28af50054dfdb388257310fc24",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -117,11 +134,13 @@
         }
     ],
     "wof:id":404355409,
-    "wof:lastmodified":1582324186,
+    "wof:lastmodified":1684352691,
     "wof:name":"Saint-Astier",
     "wof:parent_id":102066313,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":222,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

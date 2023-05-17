@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_62366",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gauchin-L\u00e9gal",
+    "eurostat:nuts_2021_id":"62366",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE1",
+    "eurostat:nuts_2021_level_3":"FRE12",
+    "eurostat:nuts_2021_level_lau":"62366",
+    "eurostat:population":321,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072460",
     "frgov:id":"BDCSURCO0000000009581041",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683255,
         102191581,
@@ -58,7 +72,10 @@
         102069507
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_62366",
+        "eurostat:nuts_2021_id":"62366"
+    },
     "wof:coterminous":[
         101898535
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0ee2b904ae1945d4a7f497ee2606697e",
+    "wof:geomhash":"51cfdc89bcf4a0d169fce118ff70f5c5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404428063,
-    "wof:lastmodified":1582325116,
+    "wof:lastmodified":1684353580,
     "wof:name":"Gauchin-Legal",
     "wof:parent_id":102069507,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":321,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

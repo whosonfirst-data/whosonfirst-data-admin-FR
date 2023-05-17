@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_35258",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Brieuc-des-Iffs",
+    "eurostat:nuts_2021_id":"35258",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH03",
+    "eurostat:nuts_2021_level_lau":"35258",
+    "eurostat:population":340,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243500733",
     "frgov:id":"BDCSURCO0000000009593443",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BRETAGNE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000997,
-    "geom:area_square_m":8201752.124179,
+    "geom:area_square_m":8201752.12418,
     "geom:bbox":"-1.86641556498,48.2840546828,-1.82261469257,48.3224216871",
     "geom:latitude":48.303738,
     "geom:longitude":-1.843265,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683461,
         102191581,
@@ -57,7 +71,10 @@
         102064975
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_35258",
+        "eurostat:nuts_2021_id":"35258"
+    },
     "wof:coterminous":[
         1125880433
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"134d488e398b3ca9e4ce00063ba760cc",
+    "wof:geomhash":"256389ba38442b2f70746bfdc41443a4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404400163,
-    "wof:lastmodified":1582324513,
+    "wof:lastmodified":1684353251,
     "wof:name":"Saint-Brieuc-Des-Iffs",
     "wof:parent_id":102064975,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":340,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_89333",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Andr\u00e9-en-Terre-Plaine",
+    "eurostat:nuts_2021_id":"89333",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC14",
+    "eurostat:nuts_2021_level_lau":"89333",
+    "eurostat:population":159,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200039709",
     "frgov:id":"BDCSURCO0000000009598321",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001711,
-    "geom:area_square_m":14298563.924908,
+    "geom:area_square_m":14298563.924909,
     "geom:bbox":"4.01626645628,47.4607369006,4.09976607696,47.5068069429",
     "geom:latitude":47.482042,
     "geom:longitude":4.054042,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683503,
         102191581,
@@ -58,7 +72,10 @@
         102067483
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_89333",
+        "eurostat:nuts_2021_id":"89333"
+    },
     "wof:coterminous":[
         1125932393
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"88baba36de3f5eb83d07232c6a32ca08",
+    "wof:geomhash":"ef12dc5f4623eef605e9a34d349086dd",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404411357,
-    "wof:lastmodified":1582325168,
+    "wof:lastmodified":1684353382,
     "wof:name":"Saint-Andre-En-Terre-Plaine",
     "wof:parent_id":102067483,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":159,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

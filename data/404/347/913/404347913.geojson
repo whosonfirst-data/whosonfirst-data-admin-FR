@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_49021",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Beaufort-en-Anjou",
+    "eurostat:nuts_2021_id":"49021",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG02",
+    "eurostat:nuts_2021_level_lau":"49021",
+    "eurostat:population":7226,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244900882",
     "frgov:id":"BDCSURCO0000000009598707",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.005042,
-    "geom:area_square_m":42171242.349147,
+    "geom:area_square_m":42171242.349146,
     "geom:bbox":"-0.263034323359,47.3937944316,-0.149299958294,47.4806997613",
     "geom:latitude":47.44084,
     "geom:longitude":-0.210292,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683327,
         102191581,
@@ -57,7 +71,10 @@
         102065045
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_49021",
+        "eurostat:nuts_2021_id":"49021"
+    },
     "wof:coterminous":[
         101765861
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4d36040f83ba2e58c03ce26e0f18d571",
+    "wof:geomhash":"b3c0ab20ae61ed375ce06c83ed1f35f7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404347913,
-    "wof:lastmodified":1582324725,
+    "wof:lastmodified":1684352587,
     "wof:name":"Beaufort-En-Vallee",
     "wof:parent_id":102065045,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":7226,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

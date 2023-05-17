@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_24480",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Paul-de-Serre",
+    "eurostat:nuts_2021_id":"24480",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI11",
+    "eurostat:nuts_2021_level_lau":"24480",
+    "eurostat:population":280,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040392",
     "frgov:id":"BDCSURCO0000000009608197",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001235,
-    "geom:area_square_m":10781907.66623,
+    "geom:area_square_m":10781907.666229,
     "geom:bbox":"0.610010033905,45.0554641667,0.656454629403,45.1031597356",
     "geom:latitude":45.081404,
     "geom:longitude":0.634106,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683331,
         102191581,
@@ -58,7 +72,10 @@
         102071273
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_24480",
+        "eurostat:nuts_2021_id":"24480"
+    },
     "wof:coterminous":[
         1126027959
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"fc984c9eda2fc300f2c668b8c1c8e1c3",
+    "wof:geomhash":"2975a677b8a8f86b2be1fa9da685b6c3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404393009,
-    "wof:lastmodified":1582325011,
+    "wof:lastmodified":1684353168,
     "wof:name":"Saint-Paul-De-Serre",
     "wof:parent_id":102071273,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":280,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

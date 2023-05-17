@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_64189",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ciboure",
+    "eurostat:nuts_2021_id":"64189",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI15",
+    "eurostat:nuts_2021_level_lau":"64189",
+    "eurostat:population":6251,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067106",
     "frgov:id":"BDCSURCO0000000009614354",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000861,
-    "geom:area_square_m":7737891.684426,
+    "geom:area_square_m":7737891.684428,
     "geom:bbox":"-1.69218659975,43.3554381765,-1.6397480274,43.3977908404",
     "geom:latitude":43.375218,
     "geom:longitude":-1.661551,
@@ -156,6 +168,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683539,
         102191581,
@@ -166,7 +180,10 @@
         102071357
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_64189",
+        "eurostat:nuts_2021_id":"64189"
+    },
     "wof:coterminous":[
         101831739
     ],
@@ -174,7 +191,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e9676f12efd26ce5418e9f610c2e88b8",
+    "wof:geomhash":"ca14758e976f3499e60f0c467d373b27",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -188,11 +205,13 @@
         }
     ],
     "wof:id":404424671,
-    "wof:lastmodified":1582324397,
+    "wof:lastmodified":1684353541,
     "wof:name":"Ciboure",
     "wof:parent_id":102071357,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":6251,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

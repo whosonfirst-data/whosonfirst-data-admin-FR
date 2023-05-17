@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_86229",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-L\u00e9ger-de-Montbrillais",
+    "eurostat:nuts_2021_id":"86229",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI34",
+    "eurostat:nuts_2021_level_lau":"86229",
+    "eurostat:population":349,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248600447",
     "frgov:id":"BDCSURCO0000000009600364",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001236,
-    "geom:area_square_m":10411442.877739,
+    "geom:area_square_m":10411442.87774,
     "geom:bbox":"-0.0686870255547,47.0579367788,-0.00631375796559,47.0956582708",
     "geom:latitude":47.080529,
     "geom:longitude":-0.038619,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683185,
         102191581,
@@ -58,7 +72,10 @@
         102069307
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_86229",
+        "eurostat:nuts_2021_id":"86229"
+    },
     "wof:coterminous":[
         101887457
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"334f1c4e1e88bab8df7eb93c4cee9f28",
+    "wof:geomhash":"4f3bf332167282e5e3c1af229d0a3e1c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404401853,
-    "wof:lastmodified":1582324432,
+    "wof:lastmodified":1684353270,
     "wof:name":"Saint-Leger-De-Montbrillais",
     "wof:parent_id":102069307,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":349,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

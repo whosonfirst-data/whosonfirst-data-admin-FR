@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_22340",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Tonqu\u00e9dec",
+    "eurostat:nuts_2021_id":"22340",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH01",
+    "eurostat:nuts_2021_level_lau":"22340",
+    "eurostat:population":1180,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200065928",
     "frgov:id":"BDCSURCO0000000009590406",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BRETAGNE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002259,
-    "geom:area_square_m":18442476.334667,
+    "geom:area_square_m":18442476.334666,
     "geom:bbox":"-3.42693606329,48.6460094916,-3.36544924753,48.7101043965",
     "geom:latitude":48.675725,
     "geom:longitude":-3.400284,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683515,
         102191581,
@@ -57,7 +71,10 @@
         102070661
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_22340",
+        "eurostat:nuts_2021_id":"22340"
+    },
     "wof:coterminous":[
         101760063
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5013fb8bcfc6d1e5c32e7f8246ad207f",
+    "wof:geomhash":"e454ae54972e65e8c7c08871f52319bd",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404362927,
-    "wof:lastmodified":1582324063,
+    "wof:lastmodified":1684352794,
     "wof:name":"Tonquedec",
     "wof:parent_id":102070661,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1180,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_84107",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Christol",
+    "eurostat:nuts_2021_id":"84107",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL06",
+    "eurostat:nuts_2021_level_lau":"84107",
+    "eurostat:population":1345,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200035723",
     "frgov:id":"BDCSURCO0000000009611726",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.005207,
-    "geom:area_square_m":46293210.142583,
+    "geom:area_square_m":46293210.142584,
     "geom:bbox":"5.43940498884,43.9730557989,5.54517892286,44.0699316031",
     "geom:latitude":44.031236,
     "geom:longitude":5.503671,
@@ -88,6 +100,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683201,
         102191581,
@@ -97,7 +111,10 @@
         102068103
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_84107",
+        "eurostat:nuts_2021_id":"84107"
+    },
     "wof:coterminous":[
         1360673539
     ],
@@ -105,7 +122,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"385eb2d722c657e0fda6b6bafa5d0429",
+    "wof:geomhash":"11121c266a11554310229050949244bf",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -118,11 +135,13 @@
         }
     ],
     "wof:id":404357899,
-    "wof:lastmodified":1582324902,
+    "wof:lastmodified":1684352724,
     "wof:name":"Saint-Christol",
     "wof:parent_id":102068103,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1345,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

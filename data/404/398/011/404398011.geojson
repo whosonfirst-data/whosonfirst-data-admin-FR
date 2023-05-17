@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_69095",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gr\u00e9zieu-le-March\u00e9",
+    "eurostat:nuts_2021_id":"69095",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK26",
+    "eurostat:nuts_2021_level_lau":"69095",
+    "eurostat:population":815,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066587",
     "frgov:id":"BDCSURCO0000000009605773",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683569,
         102191581,
@@ -58,7 +72,10 @@
         102069461
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_69095",
+        "eurostat:nuts_2021_id":"69095"
+    },
     "wof:coterminous":[
         101893399
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"235bedaccdb49d8854b4e2990c1619ed",
+    "wof:geomhash":"29b00e9f6dae90fb829fe1571d6cac27",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404398011,
-    "wof:lastmodified":1582324116,
+    "wof:lastmodified":1684353225,
     "wof:name":"Grezieu-Le-Marche",
     "wof:parent_id":102069461,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":815,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

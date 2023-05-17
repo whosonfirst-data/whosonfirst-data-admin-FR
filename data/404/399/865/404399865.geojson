@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_38066",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Chalon",
+    "eurostat:nuts_2021_id":"38066",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK24",
+    "eurostat:nuts_2021_level_lau":"38066",
+    "eurostat:population":180,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243800844",
     "frgov:id":"BDCSURCO0000000009606532",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.000603,
-    "geom:area_square_m":5233022.346025,
+    "geom:area_square_m":5233022.346024,
     "geom:bbox":"4.91860585879,45.4370586205,4.96027521835,45.4620015471",
     "geom:latitude":45.451643,
     "geom:longitude":4.936852,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683427,
         102191581,
@@ -56,7 +70,10 @@
         102064591
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_38066",
+        "eurostat:nuts_2021_id":"38066"
+    },
     "wof:coterminous":[
         1360677673
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"40c3270dadcc46e0c8628fa5f7f7cf62",
+    "wof:geomhash":"65b118d3aa9daf235f1fe7bf2c43febd",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404399865,
-    "wof:lastmodified":1582324156,
+    "wof:lastmodified":1684353248,
     "wof:name":"Chalons",
     "wof:parent_id":102064591,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":180,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

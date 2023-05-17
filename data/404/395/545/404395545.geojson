@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_81320",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Vindrac-Alayrac",
+    "eurostat:nuts_2021_id":"81320",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ27",
+    "eurostat:nuts_2021_level_lau":"81320",
+    "eurostat:population":150,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200034064",
     "frgov:id":"BDCSURCO0000000009611620",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001098,
-    "geom:area_square_m":9752989.640212,
+    "geom:area_square_m":9752989.640213,
     "geom:bbox":"1.87234026161,44.0435058739,1.93450590056,44.07432574",
     "geom:latitude":44.059686,
     "geom:longitude":1.901717,
@@ -114,6 +126,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683603,
         102191581,
@@ -124,7 +138,10 @@
         102065861
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_81320",
+        "eurostat:nuts_2021_id":"81320"
+    },
     "wof:coterminous":[
         1125945707
     ],
@@ -132,7 +149,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9b149145efc1f66943a0938cf8f5a7bf",
+    "wof:geomhash":"33a1560d95fae9e4a8abaee0645686a0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -146,11 +163,13 @@
         }
     ],
     "wof:id":404395545,
-    "wof:lastmodified":1582324776,
+    "wof:lastmodified":1684353197,
     "wof:name":"Vindrac-Alayrac",
     "wof:parent_id":102065861,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":150,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

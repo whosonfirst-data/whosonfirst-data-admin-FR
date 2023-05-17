@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_55459",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Joire",
+    "eurostat:nuts_2021_id":"55459",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF32",
+    "eurostat:nuts_2021_level_lau":"55459",
+    "eurostat:population":239,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066108",
     "frgov:id":"BDCSURCO0000000009591451",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.002222,
-    "geom:area_square_m":18172224.099633,
+    "geom:area_square_m":18172224.099634,
     "geom:bbox":"5.37264386046,48.550404317,5.44532991134,48.6138599954",
     "geom:latitude":48.582141,
     "geom:longitude":5.408866,
@@ -120,6 +132,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683297,
         102191581,
@@ -130,7 +144,10 @@
         102066109
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_55459",
+        "eurostat:nuts_2021_id":"55459"
+    },
     "wof:coterminous":[
         1125913461
     ],
@@ -138,7 +155,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d15afbd3b5c6a3c859daf610d59dd626",
+    "wof:geomhash":"aa9149bcc393b82df125e3ebcc11008f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -152,11 +169,13 @@
         }
     ],
     "wof:id":404382669,
-    "wof:lastmodified":1582324684,
+    "wof:lastmodified":1684353041,
     "wof:name":"Saint-Joire",
     "wof:parent_id":102066109,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":239,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

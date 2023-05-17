@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_73109",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"\u00c9pierre",
+    "eurostat:nuts_2021_id":"73109",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK27",
+    "eurostat:nuts_2021_level_lau":"73109",
+    "eurostat:population":759,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247300676",
     "frgov:id":"BDCSURCO0000000009606473",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.002236,
-    "geom:area_square_m":19398345.506571,
+    "geom:area_square_m":19398345.506572,
     "geom:bbox":"6.28728053575,45.4247262053,6.36564539509,45.4715166217",
     "geom:latitude":45.452215,
     "geom:longitude":6.324947,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683265,
         102191581,
@@ -58,7 +72,10 @@
         102064399
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_73109",
+        "eurostat:nuts_2021_id":"73109"
+    },
     "wof:coterminous":[
         1125814841
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8fcec113033d42079465bc72c79fb39e",
+    "wof:geomhash":"a477a6edab75718975b19d6057a21ccf",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404425463,
-    "wof:lastmodified":1582324302,
+    "wof:lastmodified":1684353551,
     "wof:name":"Epierre",
     "wof:parent_id":102064399,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":759,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

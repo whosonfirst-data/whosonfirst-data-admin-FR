@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_59526",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Amand-les-Eaux",
+    "eurostat:nuts_2021_id":"59526",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE1",
+    "eurostat:nuts_2021_level_3":"FRE11",
+    "eurostat:nuts_2021_level_lau":"59526",
+    "eurostat:population":15889,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200042190",
     "frgov:id":"BDCSURCO0000000009580985",
     "frgov:insee_arr":"6",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.004303,
-    "geom:area_square_m":33890227.760979,
+    "geom:area_square_m":33890227.76098,
     "geom:bbox":"3.380026,50.410741,3.508452,50.465546",
     "geom:latitude":50.440328,
     "geom:longitude":3.444188,
@@ -48,17 +60,22 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85683445,
         102191581,
         85633147,
-        102072097,
-        136253037,
         404228303,
         1108826399,
-        85683445
+        136253037,
+        102072097
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_59526",
+        "eurostat:nuts_2021_id":"59526"
+    },
     "wof:coterminous":[
         101840693,
         102072097
@@ -67,7 +84,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"1163bce138cd393100fcd109a3e5e056",
+    "wof:geomhash":"6eaa156ce7688e57f13cfe4dc7d9d55b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -81,11 +98,13 @@
         }
     ],
     "wof:id":404349341,
-    "wof:lastmodified":1608037839,
+    "wof:lastmodified":1684352607,
     "wof:name":"Saint-Amand-Les-Eaux",
     "wof:parent_id":102072097,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":15889,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

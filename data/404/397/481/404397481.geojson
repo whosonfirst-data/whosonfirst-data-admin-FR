@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_54171",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Doncourt-l\u00e8s-Conflans",
+    "eurostat:nuts_2021_id":"54171",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF31",
+    "eurostat:nuts_2021_level_lau":"54171",
+    "eurostat:population":1185,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070845",
     "frgov:id":"BDCSURCO0000000009586539",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683343,
         102191581,
@@ -58,7 +72,10 @@
         102066249
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_54171",
+        "eurostat:nuts_2021_id":"54171"
+    },
     "wof:coterminous":[
         101880265
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"593c4a4d724791e7db17d8675f0a1651",
+    "wof:geomhash":"75e98ae778198c96f0beb37e240c3833",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404397481,
-    "wof:lastmodified":1582324211,
+    "wof:lastmodified":1684353219,
     "wof:name":"Doncourt-Les-Conflans",
     "wof:parent_id":102066249,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1185,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

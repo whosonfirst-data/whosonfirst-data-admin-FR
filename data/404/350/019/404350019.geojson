@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_70236",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Fleurey-l\u00e8s-Faverney",
+    "eurostat:nuts_2021_id":"70236",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC23",
+    "eurostat:nuts_2021_level_lau":"70236",
+    "eurostat:population":466,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041879",
     "frgov:id":"BDCSURCO0000000009596686",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001358,
-    "geom:area_square_m":11289427.200106,
+    "geom:area_square_m":11289427.200105,
     "geom:bbox":"6.0441065991,47.7254408872,6.12837914382,47.7554617406",
     "geom:latitude":47.74144,
     "geom:longitude":6.090097,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683559,
         102191581,
@@ -58,7 +72,10 @@
         102068039
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_70236",
+        "eurostat:nuts_2021_id":"70236"
+    },
     "wof:coterminous":[
         101886331
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"641b813d8e7740c91338903ccc9be854",
+    "wof:geomhash":"64bc2dfc56b479d496655971e5a60ab1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404350019,
-    "wof:lastmodified":1582324859,
+    "wof:lastmodified":1684352617,
     "wof:name":"Fleurey-Les-Faverney",
     "wof:parent_id":102068039,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":466,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

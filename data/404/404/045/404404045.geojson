@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_70140",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ch\u00e2teney",
+    "eurostat:nuts_2021_id":"70140",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC23",
+    "eurostat:nuts_2021_level_lau":"70140",
+    "eurostat:population":64,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041861",
     "frgov:id":"BDCSURCO0000000009596675",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683559,
         102191581,
@@ -58,7 +72,10 @@
         102068551
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_70140",
+        "eurostat:nuts_2021_id":"70140"
+    },
     "wof:coterminous":[
         1126043833
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"66f8b646e766d2df2fb50e342b46c516",
+    "wof:geomhash":"668dfd43afcc80a63fff607f5f872b16",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404404045,
-    "wof:lastmodified":1582325313,
+    "wof:lastmodified":1684353295,
     "wof:name":"Chateney",
     "wof:parent_id":102068551,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":64,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

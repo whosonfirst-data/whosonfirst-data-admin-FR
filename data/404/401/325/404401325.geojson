@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_80149",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Buigny-Saint-Maclou",
+    "eurostat:nuts_2021_id":"80149",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE23",
+    "eurostat:nuts_2021_level_lau":"80149",
+    "eurostat:population":517,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070936",
     "frgov:id":"BDCSURCO0000000009581865",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000918,
-    "geom:area_square_m":7274827.613683,
+    "geom:area_square_m":7274827.613685,
     "geom:bbox":"1.78721273371,50.135023111,1.84853729363,50.1669267493",
     "geom:latitude":50.152783,
     "geom:longitude":1.820173,
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683363,
         102191581,
@@ -136,7 +150,10 @@
         102069967
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_80149",
+        "eurostat:nuts_2021_id":"80149"
+    },
     "wof:coterminous":[
         101898913
     ],
@@ -144,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ebda6523fb56e0a2f3717433fb52908a",
+    "wof:geomhash":"6833f490e89cbf56bbd88648e57f88f1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +175,13 @@
         }
     ],
     "wof:id":404401325,
-    "wof:lastmodified":1582324427,
+    "wof:lastmodified":1684353264,
     "wof:name":"Buigny-Saint-Maclou",
     "wof:parent_id":102069967,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":517,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

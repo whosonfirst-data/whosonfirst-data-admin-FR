@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_88055",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bettegney-Saint-Brice",
+    "eurostat:nuts_2021_id":"88055",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF34",
+    "eurostat:nuts_2021_level_lau":"88055",
+    "eurostat:population":169,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068369",
     "frgov:id":"BDCSURCO0000000009593160",
     "frgov:insee_arr":"1",
@@ -120,6 +132,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683223,
         102191581,
@@ -130,7 +144,10 @@
         102066279
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_88055",
+        "eurostat:nuts_2021_id":"88055"
+    },
     "wof:coterminous":[
         1126037009
     ],
@@ -138,7 +155,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3db7a10b4e7e4533a0dfff0eb96e52b8",
+    "wof:geomhash":"c67a9613c2dccca85e555cbd2d5410f7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -152,11 +169,13 @@
         }
     ],
     "wof:id":404416759,
-    "wof:lastmodified":1582325188,
+    "wof:lastmodified":1684353446,
     "wof:name":"Bettegney-Saint-Brice",
     "wof:parent_id":102066279,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":169,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

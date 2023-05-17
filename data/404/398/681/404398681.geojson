@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_02580",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Oulchy-le-Ch\u00e2teau",
+    "eurostat:nuts_2021_id":"02580",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE21",
+    "eurostat:nuts_2021_level_lau":"02580",
+    "eurostat:population":823,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240200519",
     "frgov:id":"BDCSURCO0000000009586637",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001862,
-    "geom:area_square_m":15046051.910331,
+    "geom:area_square_m":15046051.91033,
     "geom:bbox":"3.34221350139,49.1859798174,3.42355221669,49.2310899893",
     "geom:latitude":49.206814,
     "geom:longitude":3.382269,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683247,
         102191581,
@@ -58,7 +72,10 @@
         102068855
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_02580",
+        "eurostat:nuts_2021_id":"02580"
+    },
     "wof:coterminous":[
         1175611929
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"dd855e6b5c14b67ce05c91b99ee2d0b3",
+    "wof:geomhash":"e94fca9ac56d49c134253d2a8af0d6e7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404398681,
-    "wof:lastmodified":1582324105,
+    "wof:lastmodified":1684353234,
     "wof:name":"Oulchy-Le-Chateau",
     "wof:parent_id":102068855,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":823,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

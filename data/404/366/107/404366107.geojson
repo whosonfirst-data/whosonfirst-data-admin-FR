@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_04174",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Beno\u00eet",
+    "eurostat:nuts_2021_id":"04174",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL01",
+    "eurostat:nuts_2021_level_lau":"04174",
+    "eurostat:population":149,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068625",
     "frgov:id":"BDCSURCO0000000009611706",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.002336,
-    "geom:area_square_m":20793806.139007,
+    "geom:area_square_m":20793806.139006,
     "geom:bbox":"6.69148057065,43.928275826,6.76553234048,43.9916137998",
     "geom:latitude":43.96346,
     "geom:longitude":6.724069,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683509,
         102191581,
@@ -55,7 +69,10 @@
         102064539
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_04174",
+        "eurostat:nuts_2021_id":"04174"
+    },
     "wof:coterminous":[
         1360674427
     ],
@@ -63,7 +80,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"476889b31394890a0c55060e3e8a02cd",
+    "wof:geomhash":"27f33eaf5705187ee1cce07a09d7fd77",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -76,11 +93,13 @@
         }
     ],
     "wof:id":404366107,
-    "wof:lastmodified":1582324833,
+    "wof:lastmodified":1684352839,
     "wof:name":"Saint-Benoit",
     "wof:parent_id":102064539,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":149,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

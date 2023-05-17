@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_27525",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sainte-Colombe-pr\u00e8s-Vernon",
+    "eurostat:nuts_2021_id":"27525",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD21",
+    "eurostat:nuts_2021_level_lau":"27525",
+    "eurostat:population":309,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072312",
     "frgov:id":"BDCSURCO0000000009587777",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000336,
-    "geom:area_square_m":2716986.947102,
+    "geom:area_square_m":2716986.947101,
     "geom:bbox":"1.32098732825,49.0845236087,1.35285707879,49.1041228683",
     "geom:latitude":49.095109,
     "geom:longitude":1.34052,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683283,
         102191581,
@@ -58,7 +72,10 @@
         102070663
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_27525",
+        "eurostat:nuts_2021_id":"27525"
+    },
     "wof:coterminous":[
         101879029
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6cd5133fed75bfa5b2235d6bc28b0324",
+    "wof:geomhash":"29bf7b25ad5bce273c883f86c70dcbb3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404391709,
-    "wof:lastmodified":1582324008,
+    "wof:lastmodified":1684353153,
     "wof:name":"Sainte-Colombe-Pres-Vernon",
     "wof:parent_id":102070663,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":309,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

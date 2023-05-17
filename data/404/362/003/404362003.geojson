@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_50040",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Beauficel",
+    "eurostat:nuts_2021_id":"50040",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD12",
+    "eurostat:nuts_2021_level_lau":"50040",
+    "eurostat:population":135,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069425",
     "frgov:id":"BDCSURCO0000000009590350",
     "frgov:insee_arr":"1",
@@ -132,6 +144,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683489,
         102191581,
@@ -142,7 +156,10 @@
         102071237
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_50040",
+        "eurostat:nuts_2021_id":"50040"
+    },
     "wof:coterminous":[
         1125892335
     ],
@@ -150,7 +167,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6bbb70f52873dffca34ad961b67c9fd7",
+    "wof:geomhash":"283118a4a3090ee7cdf314e4a57ad6bd",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -164,11 +181,13 @@
         }
     ],
     "wof:id":404362003,
-    "wof:lastmodified":1582324060,
+    "wof:lastmodified":1684352781,
     "wof:name":"Beauficel",
     "wof:parent_id":102071237,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":135,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

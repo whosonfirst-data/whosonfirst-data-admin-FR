@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_86207",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Roche-Posay",
+    "eurostat:nuts_2021_id":"86207",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI34",
+    "eurostat:nuts_2021_level_lau":"86207",
+    "eurostat:population":1561,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248600413",
     "frgov:id":"BDCSURCO0000000009601443",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.004141,
-    "geom:area_square_m":35066105.097326,
+    "geom:area_square_m":35066105.097325,
     "geom:bbox":"0.751531651786,46.7374145771,0.859742971615,46.8162123339",
     "geom:latitude":46.775256,
     "geom:longitude":0.802176,
@@ -123,6 +135,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683185,
         102191581,
@@ -133,7 +147,10 @@
         102067981
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_86207",
+        "eurostat:nuts_2021_id":"86207"
+    },
     "wof:coterminous":[
         101767003
     ],
@@ -141,7 +158,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7dedbbc209d623eb4a7100672a1d709c",
+    "wof:geomhash":"236c3f9f115504e5e8ba8051bdf510d3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -155,11 +172,13 @@
         }
     ],
     "wof:id":404357275,
-    "wof:lastmodified":1582324890,
+    "wof:lastmodified":1684352715,
     "wof:name":"La Roche-Posay",
     "wof:parent_id":102067981,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1561,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_12244",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Rome-de-Tarn",
+    "eurostat:nuts_2021_id":"12244",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ22",
+    "eurostat:nuts_2021_level_lau":"12244",
+    "eurostat:population":871,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"241200914",
     "frgov:id":"BDCSURCO0000000009611806",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.005857,
-    "geom:area_square_m":52068660.249803,
+    "geom:area_square_m":52068660.249801,
     "geom:bbox":"2.83107290244,43.9971655009,2.95343949754,44.0749738517",
     "geom:latitude":44.032425,
     "geom:longitude":2.890564,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683301,
         102191581,
@@ -58,7 +72,10 @@
         102070495
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_12244",
+        "eurostat:nuts_2021_id":"12244"
+    },
     "wof:coterminous":[
         101895919
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"140ae1bf81f54ebfa049e49f44fe8109",
+    "wof:geomhash":"0aed5e866e0bf62f7db1f34fa72a07bd",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404351281,
-    "wof:lastmodified":1582324949,
+    "wof:lastmodified":1684352635,
     "wof:name":"Saint-Rome-De-Tarn",
     "wof:parent_id":102070495,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":871,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

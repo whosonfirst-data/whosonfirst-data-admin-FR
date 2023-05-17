@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_2B161",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mo\u00efta",
+    "eurostat:nuts_2021_id":"2B161",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRM",
+    "eurostat:nuts_2021_level_2":"FRM0",
+    "eurostat:nuts_2021_level_3":"FRM02",
+    "eurostat:nuts_2021_level_lau":"2B161",
+    "eurostat:population":75,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200015162",
     "frgov:id":"BDCSURCO0000000009616625",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CORSE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000619,
-    "geom:area_square_m":5664023.804156,
+    "geom:area_square_m":5664023.804157,
     "geom:bbox":"9.3957751866,42.2626890109,9.43149014596,42.2976244421",
     "geom:latitude":42.281891,
     "geom:longitude":9.410674,
@@ -114,6 +126,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683493,
         102191581,
@@ -123,7 +137,10 @@
         102068813
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_2B161",
+        "eurostat:nuts_2021_id":"2B161"
+    },
     "wof:coterminous":[
         1125820749
     ],
@@ -131,7 +148,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d1d3a034069f4649dbc2687714ef92f3",
+    "wof:geomhash":"c88e28062a9a5d4a9b20fda32e6aec1c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -144,11 +161,13 @@
         }
     ],
     "wof:id":404427361,
-    "wof:lastmodified":1582325240,
+    "wof:lastmodified":1684353572,
     "wof:name":"Moita",
     "wof:parent_id":102068813,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":75,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

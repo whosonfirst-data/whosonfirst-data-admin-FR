@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_86248",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Secondin",
+    "eurostat:nuts_2021_id":"86248",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI34",
+    "eurostat:nuts_2021_level_lau":"86248",
+    "eurostat:population":546,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070035",
     "frgov:id":"BDCSURCO0000000009603139",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.004448,
-    "geom:area_square_m":37978640.925734,
+    "geom:area_square_m":37978640.925733,
     "geom:bbox":"0.43733052043,46.2875811368,0.550296958837,46.3591225485",
     "geom:latitude":46.325168,
     "geom:longitude":0.490164,
@@ -117,6 +129,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683185,
         102191581,
@@ -127,7 +141,10 @@
         102065731
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_86248",
+        "eurostat:nuts_2021_id":"86248"
+    },
     "wof:coterminous":[
         101891827
     ],
@@ -135,7 +152,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"951be65178330304681340b320f770be",
+    "wof:geomhash":"fc0f50a96f5397e63cc99d4d54e7dfbc",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -149,11 +166,13 @@
         }
     ],
     "wof:id":404415723,
-    "wof:lastmodified":1582324359,
+    "wof:lastmodified":1684353434,
     "wof:name":"Saint-Secondin",
     "wof:parent_id":102065731,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":546,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

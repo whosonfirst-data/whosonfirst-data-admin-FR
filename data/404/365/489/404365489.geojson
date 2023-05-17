@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_2B121",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gal\u00e9ria",
+    "eurostat:nuts_2021_id":"2B121",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRM",
+    "eurostat:nuts_2021_level_2":"FRM0",
+    "eurostat:nuts_2021_level_3":"FRM02",
+    "eurostat:nuts_2021_level_lau":"2B121",
+    "eurostat:population":338,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242020105",
     "frgov:id":"BDCSURCO0000000009616650",
     "frgov:insee_arr":"5",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CORSE",
     "frgov:statut":"Commune simple",
     "geom:area":0.014882,
-    "geom:area_square_m":135875537.535383,
+    "geom:area_square_m":135875537.535389,
     "geom:bbox":"8.57341106811,42.34217486,8.83877534177,42.4672823219",
     "geom:latitude":42.40791,
     "geom:longitude":8.707089,
@@ -105,6 +117,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683493,
         102191581,
@@ -114,7 +128,10 @@
         102066393
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_2B121",
+        "eurostat:nuts_2021_id":"2B121"
+    },
     "wof:coterminous":[
         101897627
     ],
@@ -122,7 +139,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d4273080c1b0caadf77d36efa7551163",
+    "wof:geomhash":"2dd847aa42b9daa602e08bd713255e4c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -135,11 +152,13 @@
         }
     ],
     "wof:id":404365489,
-    "wof:lastmodified":1582324039,
+    "wof:lastmodified":1684352830,
     "wof:name":"Galeria",
     "wof:parent_id":102066393,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":338,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

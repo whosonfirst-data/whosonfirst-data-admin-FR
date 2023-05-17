@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_28197",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Intr\u00e9ville",
+    "eurostat:nuts_2021_id":"28197",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB02",
+    "eurostat:nuts_2021_level_lau":"28197",
+    "eurostat:population":145,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070159",
     "frgov:id":"BDCSURCO0000000009593745",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001091,
-    "geom:area_square_m":8976066.983309,
+    "geom:area_square_m":8976066.98331,
     "geom:bbox":"1.91063646871,48.2830379404,1.96221606909,48.3140548879",
     "geom:latitude":48.298032,
     "geom:longitude":1.935557,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683189,
         102191581,
@@ -57,7 +71,10 @@
         102067189
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_28197",
+        "eurostat:nuts_2021_id":"28197"
+    },
     "wof:coterminous":[
         1126056683
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"57b84c76214b06d8261a90eb602af68a",
+    "wof:geomhash":"b7309cd282e81d1a4eab8af723581a5a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404356961,
-    "wof:lastmodified":1582324933,
+    "wof:lastmodified":1684352711,
     "wof:name":"Intreville",
     "wof:parent_id":102067189,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":145,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

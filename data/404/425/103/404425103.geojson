@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_05078",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mon\u00eatier-Allemont",
+    "eurostat:nuts_2021_id":"05078",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL02",
+    "eurostat:nuts_2021_level_lau":"05078",
+    "eurostat:population":283,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068765",
     "frgov:id":"BDCSURCO0000000009610460",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.000852,
-    "geom:area_square_m":7530632.824541,
+    "geom:area_square_m":7530632.82454,
     "geom:bbox":"5.91043549248,44.3726617922,5.95354257454,44.4106061394",
     "geom:latitude":44.393265,
     "geom:longitude":5.933586,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683597,
         102191581,
@@ -57,7 +71,10 @@
         102066473
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_05078",
+        "eurostat:nuts_2021_id":"05078"
+    },
     "wof:coterminous":[
         1125941011
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5cea75a840ef6b2130b6391cf3a6dfc4",
+    "wof:geomhash":"9cedc970cf73a40a608024ba154bf9e0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404425103,
-    "wof:lastmodified":1582324297,
+    "wof:lastmodified":1684353547,
     "wof:name":"Monetier-Allemont",
     "wof:parent_id":102066473,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":283,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

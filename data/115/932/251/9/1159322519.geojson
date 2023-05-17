@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_91114",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Brunoy",
+    "eurostat:nuts_2021_id":"91114",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR104",
+    "eurostat:nuts_2021_level_lau":"91114",
+    "eurostat:population":25669,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200058477",
     "frgov:id":"BDCSURCO0000000009591092",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"ILE-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000805,
-    "geom:area_square_m":6571052.035334,
+    "geom:area_square_m":6571052.035333,
     "geom:bbox":"2.482285,48.67668,2.529579,48.713071",
     "geom:latitude":48.696465,
     "geom:longitude":2.503732,
@@ -156,23 +168,29 @@
     "reversegeo:longitude":2.500147,
     "src:geom":"frgov",
     "src:geom_alt":[],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85683371,
         102191581,
         85633147,
-        102065145,
         404227995,
         404227465,
-        85683371
+        102065145
     ],
     "wof:breaches":[],
     "wof:concordance":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_91114",
+        "eurostat:nuts_2021_id":"91114"
+    },
     "wof:coterminous":[
         101749623,
         102065145
     ],
     "wof:country":"FR",
     "wof:created":1526511129,
-    "wof:geomhash":"7dfc3d391b634372c2d60843ed997a96",
+    "wof:geomhash":"b83bb9e87458bade650e2862361d2983",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -185,11 +203,13 @@
         }
     ],
     "wof:id":1159322519,
-    "wof:lastmodified":1608039570,
+    "wof:lastmodified":1684353602,
     "wof:name":"Brunoy",
     "wof:parent_id":102065145,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":25669,
+    "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded":[],
     "wof:superseded_by":[],

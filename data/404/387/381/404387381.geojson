@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_74064",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ch\u00e2tillon-sur-Cluses",
+    "eurostat:nuts_2021_id":"74064",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK28",
+    "eurostat:nuts_2021_level_lau":"74064",
+    "eurostat:population":1245,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200034098",
     "frgov:id":"BDCSURCO0000000009603647",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001056,
-    "geom:area_square_m":9052591.951909,
+    "geom:area_square_m":9052591.95191,
     "geom:bbox":"6.55012810609,46.0673688459,6.60867776334,46.1100990986",
     "geom:latitude":46.089267,
     "geom:longitude":6.578221,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683227,
         102191581,
@@ -58,7 +72,10 @@
         102066117
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_74064",
+        "eurostat:nuts_2021_id":"74064"
+    },
     "wof:coterminous":[
         101767947
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"82a9f5245bdd42e4325fa7dde8bc6164",
+    "wof:geomhash":"241ec5d94cca8910d2a4e28f407afc3f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404387381,
-    "wof:lastmodified":1582325370,
+    "wof:lastmodified":1684353097,
     "wof:name":"Chatillon-Sur-Cluses",
     "wof:parent_id":102066117,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1245,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

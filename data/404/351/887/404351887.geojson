@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_42257",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Martin-d'Estr\u00e9aux",
+    "eurostat:nuts_2021_id":"42257",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK25",
+    "eurostat:nuts_2021_level_lau":"42257",
+    "eurostat:population":839,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200035731",
     "frgov:id":"BDCSURCO0000000009603514",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.003492,
-    "geom:area_square_m":29880391.585816,
+    "geom:area_square_m":29880391.585817,
     "geom:bbox":"3.76820878401,46.1615951595,3.88986779522,46.2440399423",
     "geom:latitude":46.209752,
     "geom:longitude":3.817615,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683377,
         102191581,
@@ -58,7 +72,10 @@
         102066497
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_42257",
+        "eurostat:nuts_2021_id":"42257"
+    },
     "wof:coterminous":[
         101891955
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"315000faee975d723406f14a921bd95f",
+    "wof:geomhash":"bb0f360f389710f1b5ac6a6e194946a9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404351887,
-    "wof:lastmodified":1582324947,
+    "wof:lastmodified":1684352644,
     "wof:name":"Saint-Martin-D'Estreaux",
     "wof:parent_id":102066497,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":839,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

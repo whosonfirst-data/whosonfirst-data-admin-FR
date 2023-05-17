@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_32362",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Aunix-Lengros",
+    "eurostat:nuts_2021_id":"32362",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ24",
+    "eurostat:nuts_2021_level_lau":"32362",
+    "eurostat:population":142,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243200508",
     "frgov:id":"BDCSURCO0000000009613495",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000607,
-    "geom:area_square_m":5438521.84557,
+    "geom:area_square_m":5438521.845569,
     "geom:bbox":"0.0273546659993,43.5614167506,0.0853226579312,43.5845096444",
     "geom:latitude":43.573344,
     "geom:longitude":0.057432,
@@ -120,6 +132,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683467,
         102191581,
@@ -130,7 +144,10 @@
         102068639
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_32362",
+        "eurostat:nuts_2021_id":"32362"
+    },
     "wof:coterminous":[
         1125808237
     ],
@@ -138,7 +155,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2202752f90bdf21de9dd2d969b9f4577",
+    "wof:geomhash":"705acd9d04171e7e438d9196a9686bc1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -152,11 +169,13 @@
         }
     ],
     "wof:id":404379399,
-    "wof:lastmodified":1582324521,
+    "wof:lastmodified":1684353004,
     "wof:name":"Saint-Aunix-Lengros",
     "wof:parent_id":102068639,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":142,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

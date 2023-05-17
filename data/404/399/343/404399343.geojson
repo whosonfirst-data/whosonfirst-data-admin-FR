@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_14659",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Sylvain",
+    "eurostat:nuts_2021_id":"14659",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD11",
+    "eurostat:nuts_2021_level_lau":"14659",
+    "eurostat:population":1435,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066710",
     "frgov:id":"BDCSURCO0000000009587858",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001704,
-    "geom:area_square_m":13809949.903735,
+    "geom:area_square_m":13809949.903734,
     "geom:bbox":"-0.253265745958,49.0324600897,-0.175038394442,49.0735078988",
     "geom:latitude":49.053125,
     "geom:longitude":-0.215146,
@@ -84,6 +96,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683579,
         102191581,
@@ -94,7 +108,10 @@
         102065515
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_14659",
+        "eurostat:nuts_2021_id":"14659"
+    },
     "wof:coterminous":[
         101877835
     ],
@@ -102,7 +119,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5ebb09f0dcc7f5eb82e535759eef6a84",
+    "wof:geomhash":"af219705de112b1c65c79e651bd0d97a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -116,11 +133,13 @@
         }
     ],
     "wof:id":404399343,
-    "wof:lastmodified":1582324159,
+    "wof:lastmodified":1684353242,
     "wof:name":"Saint-Sylvain",
     "wof:parent_id":102065515,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1435,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_24482",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Paul-Lizonne",
+    "eurostat:nuts_2021_id":"24482",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI11",
+    "eurostat:nuts_2021_level_lau":"24482",
+    "eurostat:population":273,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040400",
     "frgov:id":"BDCSURCO0000000009607370",
     "frgov:insee_arr":"3",
@@ -121,6 +133,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683331,
         102191581,
@@ -131,7 +145,10 @@
         102071329
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_24482",
+        "eurostat:nuts_2021_id":"24482"
+    },
     "wof:coterminous":[
         1360676175
     ],
@@ -139,7 +156,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8775fb52b89dac240f41ced550f38951",
+    "wof:geomhash":"c26ca315c672fdc505a1b11bcc752f1f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -153,11 +170,13 @@
         }
     ],
     "wof:id":404383767,
-    "wof:lastmodified":1582324548,
+    "wof:lastmodified":1684353056,
     "wof:name":"Saint-Paul-Lizonne",
     "wof:parent_id":102071329,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":273,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

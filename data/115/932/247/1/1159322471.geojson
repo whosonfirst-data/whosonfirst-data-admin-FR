@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_92040",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Issy-les-Moulineaux",
+    "eurostat:nuts_2021_id":"92040",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR105",
+    "eurostat:nuts_2021_level_lau":"92040",
+    "eurostat:population":68451,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200054781",
     "frgov:id":"BDCSURCO0000000009589732",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"ILE-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00052,
-    "geom:area_square_m":4233903.624593,
+    "geom:area_square_m":4233903.624594,
     "geom:bbox":"2.236114,48.813297,2.289399,48.834658",
     "geom:latitude":48.823146,
     "geom:longitude":2.264805,
@@ -180,23 +192,29 @@
     "reversegeo:longitude":2.264411,
     "src:geom":"frgov",
     "src:geom_alt":[],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85683157,
         102191581,
         85633147,
-        102071993,
         404228185,
         404227465,
-        85683157
+        102071993
     ],
     "wof:breaches":[],
     "wof:concordance":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_92040",
+        "eurostat:nuts_2021_id":"92040"
+    },
     "wof:coterminous":[
         101749789,
         102071993
     ],
     "wof:country":"FR",
     "wof:created":1526511034,
-    "wof:geomhash":"410fec6efff6bb4503fbbb91db4b622e",
+    "wof:geomhash":"ca00e49ea0bd446434ab7a004bd2193e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -209,11 +227,13 @@
         }
     ],
     "wof:id":1159322471,
-    "wof:lastmodified":1608039583,
+    "wof:lastmodified":1684353602,
     "wof:name":"Issy-les-Moulineaux",
     "wof:parent_id":102071993,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":68451,
+    "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded":[],
     "wof:superseded_by":[],

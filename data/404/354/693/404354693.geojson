@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_89349",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-L\u00e9ger-Vauban",
+    "eurostat:nuts_2021_id":"89349",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC14",
+    "eurostat:nuts_2021_level_lau":"89349",
+    "eurostat:population":360,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200039758",
     "frgov:id":"BDCSURCO0000000009598914",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.004044,
-    "geom:area_square_m":33868287.495389,
+    "geom:area_square_m":33868287.49539,
     "geom:bbox":"4.01208061172,47.3368707356,4.10845884591,47.408146491",
     "geom:latitude":47.37295,
     "geom:longitude":4.060195,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683503,
         102191581,
@@ -58,7 +72,10 @@
         102068623
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_89349",
+        "eurostat:nuts_2021_id":"89349"
+    },
     "wof:coterminous":[
         101888489
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ee8dbd9a529dc5724d8d3eb5cb269a8c",
+    "wof:geomhash":"390e4cfc4eddab0eaf76cb7175fa0cd1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404354693,
-    "wof:lastmodified":1582324088,
+    "wof:lastmodified":1684352681,
     "wof:name":"Saint-Leger-Vauban",
     "wof:parent_id":102068623,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":360,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

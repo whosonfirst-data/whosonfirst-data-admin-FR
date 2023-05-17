@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_10355",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Nicolas-la-Chapelle",
+    "eurostat:nuts_2021_id":"10355",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF22",
+    "eurostat:nuts_2021_level_lau":"10355",
+    "eurostat:population":66,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200006716",
     "frgov:id":"BDCSURCO0000000009592415",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.001413,
-    "geom:area_square_m":11571518.639423,
+    "geom:area_square_m":11571518.639422,
     "geom:bbox":"3.45070722737,48.5002673454,3.51085758302,48.541581709",
     "geom:latitude":48.522432,
     "geom:longitude":3.478311,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683193,
         102191581,
@@ -56,7 +70,10 @@
         102067235
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_10355",
+        "eurostat:nuts_2021_id":"10355"
+    },
     "wof:coterminous":[
         1360679351
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"bdfba667da4e77821ecd5dd95b90b997",
+    "wof:geomhash":"c83680804dca5316bdf9fc785868ecee",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404417149,
-    "wof:lastmodified":1582325142,
+    "wof:lastmodified":1684353450,
     "wof:name":"Saint-Nicolas-La-Chapelle",
     "wof:parent_id":102067235,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":66,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

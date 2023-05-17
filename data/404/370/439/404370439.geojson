@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_08225",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Herpy-l'Arl\u00e9sienne",
+    "eurostat:nuts_2021_id":"08225",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF21",
+    "eurostat:nuts_2021_level_lau":"08225",
+    "eurostat:population":199,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200043156",
     "frgov:id":"BDCSURCO0000000009584172",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.001327,
-    "geom:area_square_m":10647884.274529,
+    "geom:area_square_m":10647884.27453,
     "geom:bbox":"4.15297478164,49.5066833173,4.21833281353,49.5419873198",
     "geom:latitude":49.526357,
     "geom:longitude":4.188384,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683309,
         102191581,
@@ -58,7 +72,10 @@
         102065263
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_08225",
+        "eurostat:nuts_2021_id":"08225"
+    },
     "wof:coterminous":[
         101903153
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9d5594dfd68d61c3308abea96fbb7f58",
+    "wof:geomhash":"4d06f1c2b111aaae95e53d72cafb1f76",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404370439,
-    "wof:lastmodified":1582324599,
+    "wof:lastmodified":1684352895,
     "wof:name":"Herpy-L'Arlesienne",
     "wof:parent_id":102065263,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":199,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

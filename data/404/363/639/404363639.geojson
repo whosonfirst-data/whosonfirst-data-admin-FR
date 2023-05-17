@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_52536",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Villiers-l\u00e8s-Aprey",
+    "eurostat:nuts_2021_id":"52536",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF24",
+    "eurostat:nuts_2021_level_lau":"52536",
+    "eurostat:population":45,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200027308",
     "frgov:id":"BDCSURCO0000000009596728",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.000898,
-    "geom:area_square_m":7466812.856652,
+    "geom:area_square_m":7466812.856651,
     "geom:bbox":"5.19341682787,47.7356387914,5.24671055592,47.7771045389",
     "geom:latitude":47.751871,
     "geom:longitude":5.219719,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683261,
         102191581,
@@ -58,7 +72,10 @@
         102067449
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_52536",
+        "eurostat:nuts_2021_id":"52536"
+    },
     "wof:coterminous":[
         1125834221
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"237bfbe3ed80aa0b49386bd7dd39ff8a",
+    "wof:geomhash":"f0571a5b19fcd23dc5c46344d9404dcf",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404363639,
-    "wof:lastmodified":1582324233,
+    "wof:lastmodified":1684352804,
     "wof:name":"Villiers-Les-Aprey",
     "wof:parent_id":102067449,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":45,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

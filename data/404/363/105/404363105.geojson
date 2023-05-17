@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_70107",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bussi\u00e8res",
+    "eurostat:nuts_2021_id":"70107",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC23",
+    "eurostat:nuts_2021_level_lau":"70107",
+    "eurostat:population":425,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247000706",
     "frgov:id":"BDCSURCO0000000009598819",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000731,
-    "geom:area_square_m":6122251.891049,
+    "geom:area_square_m":6122251.89105,
     "geom:bbox":"5.96368930637,47.3258130215,6.00431112609,47.36410441",
     "geom:latitude":47.344392,
     "geom:longitude":5.984423,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683559,
         102191581,
@@ -56,7 +70,10 @@
         102068229
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_70107",
+        "eurostat:nuts_2021_id":"70107"
+    },
     "wof:coterminous":[
         1360674111
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5d5bf261265ab9cc51cf977ddfe36e25",
+    "wof:geomhash":"7194c64769d6b38b342d0a469c09df0f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404363105,
-    "wof:lastmodified":1582324218,
+    "wof:lastmodified":1684352797,
     "wof:name":"Bussieres",
     "wof:parent_id":102068229,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":425,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

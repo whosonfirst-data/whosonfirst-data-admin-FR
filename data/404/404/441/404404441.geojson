@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_45260",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ramoulu",
+    "eurostat:nuts_2021_id":"45260",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB06",
+    "eurostat:nuts_2021_level_lau":"45260",
+    "eurostat:population":251,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066280",
     "frgov:id":"BDCSURCO0000000009594484",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001458,
-    "geom:area_square_m":12009931.723859,
+    "geom:area_square_m":12009931.723858,
     "geom:bbox":"2.26668022527,48.2111459137,2.34191490063,48.2501485458",
     "geom:latitude":48.229075,
     "geom:longitude":2.305569,
@@ -115,6 +127,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683479,
         102191581,
@@ -124,7 +138,10 @@
         102067517
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_45260",
+        "eurostat:nuts_2021_id":"45260"
+    },
     "wof:coterminous":[
         1360678085
     ],
@@ -132,7 +149,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d4436be63d1901cf26de6ff42de20be5",
+    "wof:geomhash":"6f504ed3479db94bfe8a40955398222b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -145,11 +162,13 @@
         }
     ],
     "wof:id":404404441,
-    "wof:lastmodified":1582325307,
+    "wof:lastmodified":1684353300,
     "wof:name":"Ramoulu",
     "wof:parent_id":102067517,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":251,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

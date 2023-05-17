@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_53201",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Berthevin",
+    "eurostat:nuts_2021_id":"53201",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG03",
+    "eurostat:nuts_2021_level_lau":"53201",
+    "eurostat:population":7344,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"245300330",
     "frgov:id":"BDCSURCO0000000009595219",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003875,
-    "geom:area_square_m":32017657.807766,
+    "geom:area_square_m":32017657.807765,
     "geom:bbox":"-0.89587552883,48.03631062,-0.796467747544,48.1112187993",
     "geom:latitude":48.07067,
     "geom:longitude":-0.845158,
@@ -117,6 +129,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683401,
         102191581,
@@ -126,7 +140,10 @@
         102070149
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_53201",
+        "eurostat:nuts_2021_id":"53201"
+    },
     "wof:coterminous":[
         101753405
     ],
@@ -134,7 +151,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"91958f5ace58fc49716972c70b25e571",
+    "wof:geomhash":"811f55a7f4b5d278bf2f00ea88ff5e72",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -147,11 +164,13 @@
         }
     ],
     "wof:id":404413257,
-    "wof:lastmodified":1582324319,
+    "wof:lastmodified":1684353405,
     "wof:name":"Saint-Berthevin",
     "wof:parent_id":102070149,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":7344,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

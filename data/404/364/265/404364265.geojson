@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_43090",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Esplantas-Vazeilles",
+    "eurostat:nuts_2021_id":"43090",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK13",
+    "eurostat:nuts_2021_level_lau":"43090",
+    "eurostat:population":126,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200073393",
     "frgov:id":"BDCSURCO0000000009608744",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001958,
-    "geom:area_square_m":17152368.658312,
+    "geom:area_square_m":17152368.658311,
     "geom:bbox":"3.50911878911,44.8841196715,3.60814038917,44.9233801336",
     "geom:latitude":44.901972,
     "geom:longitude":3.560435,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683413,
         102191581,
@@ -58,7 +72,10 @@
         102068913
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_43090",
+        "eurostat:nuts_2021_id":"43090"
+    },
     "wof:coterminous":[
         1125942989
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f2f1282e7ac63c2d2091ebff1356b30d",
+    "wof:geomhash":"46dbb7ace0e89cb874a86c668fe25ac8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404364265,
-    "wof:lastmodified":1582324253,
+    "wof:lastmodified":1684352813,
     "wof:name":"Vazeilles-Pres-Saugues",
     "wof:parent_id":102068913,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":126,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

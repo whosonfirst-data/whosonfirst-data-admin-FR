@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_49050",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Brissac Loire Aubance",
+    "eurostat:nuts_2021_id":"49050",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG02",
+    "eurostat:nuts_2021_level_lau":"49050",
+    "eurostat:population":10807,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071553",
     "frgov:id":"BDCSURCO0000000009599021",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.014546,
-    "geom:area_square_m":121874105.188689,
+    "geom:area_square_m":121874105.188688,
     "geom:bbox":"-0.528015186976,47.2632383128,-0.289650628969,47.4149907923",
     "geom:latitude":47.345878,
     "geom:longitude":-0.403237,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683327,
         102191581,
@@ -57,7 +71,10 @@
         102068545
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_49050",
+        "eurostat:nuts_2021_id":"49050"
+    },
     "wof:coterminous":[
         101886815
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9cc54cd4c3b8402eaeebde67fac29ce3",
+    "wof:geomhash":"eccdd6ae43ce8912f4bc979cc126dab4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404418619,
-    "wof:lastmodified":1582325218,
+    "wof:lastmodified":1684353467,
     "wof:name":"Saint-Remy-La-Varenne",
     "wof:parent_id":102068545,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":10807,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

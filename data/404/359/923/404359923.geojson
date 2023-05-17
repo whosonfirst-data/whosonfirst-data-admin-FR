@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_09204",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Montesquieu-Avant\u00e8s",
+    "eurostat:nuts_2021_id":"09204",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ21",
+    "eurostat:nuts_2021_level_lau":"09204",
+    "eurostat:population":245,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067940",
     "frgov:id":"BDCSURCO0000000009615827",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001831,
-    "geom:area_square_m":16552237.467709,
+    "geom:area_square_m":16552237.46771,
     "geom:bbox":"1.18666569401,43.009419039,1.24975439636,43.0619893643",
     "geom:latitude":43.034755,
     "geom:longitude":1.216308,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683335,
         102191581,
@@ -58,7 +72,10 @@
         102067295
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_09204",
+        "eurostat:nuts_2021_id":"09204"
+    },
     "wof:coterminous":[
         1125918399
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e5e6ce3db479ed117a3bd11737d1f899",
+    "wof:geomhash":"fc0d95caec6e15de53423143247f3f37",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404359923,
-    "wof:lastmodified":1582324794,
+    "wof:lastmodified":1684352752,
     "wof:name":"Montesquieu-Avantes",
     "wof:parent_id":102067295,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":245,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_30257",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Gervasy",
+    "eurostat:nuts_2021_id":"30257",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ12",
+    "eurostat:nuts_2021_level_lau":"30257",
+    "eurostat:population":1899,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243000643",
     "frgov:id":"BDCSURCO0000000009612210",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000796,
-    "geom:area_square_m":7096316.246262,
+    "geom:area_square_m":7096316.246263,
     "geom:bbox":"4.4506892275,43.8525566153,4.48502639918,43.8903191729",
     "geom:latitude":43.874286,
     "geom:longitude":4.469545,
@@ -132,6 +144,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683431,
         102191581,
@@ -142,7 +156,10 @@
         102067253
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_30257",
+        "eurostat:nuts_2021_id":"30257"
+    },
     "wof:coterminous":[
         101842777
     ],
@@ -150,7 +167,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"049d32cf1dc1a97c13b9f98f1c1d4694",
+    "wof:geomhash":"acb5f96e30b4e007c2d8bc2883b18bb5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -164,11 +181,13 @@
         }
     ],
     "wof:id":404396071,
-    "wof:lastmodified":1582324069,
+    "wof:lastmodified":1684353203,
     "wof:name":"Saint-Gervasy",
     "wof:parent_id":102067253,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1899,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

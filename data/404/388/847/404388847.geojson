@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_40277",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Pandelon",
+    "eurostat:nuts_2021_id":"40277",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI13",
+    "eurostat:nuts_2021_level_lau":"40277",
+    "eurostat:population":715,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244000675",
     "frgov:id":"BDCSURCO0000000009613069",
     "frgov:insee_arr":"1",
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683183,
         102191581,
@@ -139,7 +153,10 @@
         102069627
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_40277",
+        "eurostat:nuts_2021_id":"40277"
+    },
     "wof:coterminous":[
         1125816553
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"59d8a9dbc740bd1f4170495d19f2683d",
+    "wof:geomhash":"a5f782ebade1ba5e72c4746625bc461d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404388847,
-    "wof:lastmodified":1582325487,
+    "wof:lastmodified":1684353115,
     "wof:name":"Saint-Pandelon",
     "wof:parent_id":102069627,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":715,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

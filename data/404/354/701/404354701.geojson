@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_43268",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Yssingeaux",
+    "eurostat:nuts_2021_id":"43268",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK13",
+    "eurostat:nuts_2021_level_lau":"43268",
+    "eurostat:population":7202,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244301016",
     "frgov:id":"BDCSURCO0000000009608104",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Sous-pr\u00e9fecture",
     "geom:area":0.009297,
-    "geom:area_square_m":81093152.923667,
+    "geom:area_square_m":81093152.92367,
     "geom:bbox":"4.0543121294,45.0723775192,4.19506059409,45.1958466385",
     "geom:latitude":45.139392,
     "geom:longitude":4.131182,
@@ -165,6 +177,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683413,
         102191581,
@@ -175,7 +189,10 @@
         102069705
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_43268",
+        "eurostat:nuts_2021_id":"43268"
+    },
     "wof:coterminous":[
         101770457
     ],
@@ -183,7 +200,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"1ff27119fdb5273a30a4cb5c596b1a4a",
+    "wof:geomhash":"25b2a2cb0dfed8bfc3dfc0b938025382",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -197,11 +214,13 @@
         }
     ],
     "wof:id":404354701,
-    "wof:lastmodified":1582324083,
+    "wof:lastmodified":1684352681,
     "wof:name":"Yssingeaux",
     "wof:parent_id":102069705,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Sous-pr\u00e9fecture",
+    "wof:population":7202,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

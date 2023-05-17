@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_30298",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-S\u00e9bastien-d'Aigrefeuille",
+    "eurostat:nuts_2021_id":"30298",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ12",
+    "eurostat:nuts_2021_level_lau":"30298",
+    "eurostat:population":500,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066918",
     "frgov:id":"BDCSURCO0000000009611392",
     "frgov:insee_arr":"1",
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683431,
         102191581,
@@ -56,7 +70,10 @@
         102065027
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_30298",
+        "eurostat:nuts_2021_id":"30298"
+    },
     "wof:coterminous":[
         1360679961
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a36eeb5d49522af015ed993ba5d07ff5",
+    "wof:geomhash":"75bf9f703771adfa9193193ade5b8cc3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404423789,
-    "wof:lastmodified":1582324418,
+    "wof:lastmodified":1684353531,
     "wof:name":"Saint-Sebastien-D'Aigrefeuille",
     "wof:parent_id":102065027,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":500,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

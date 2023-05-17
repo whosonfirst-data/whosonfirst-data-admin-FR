@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_69255",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Vaugneray",
+    "eurostat:nuts_2021_id":"69255",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK26",
+    "eurostat:nuts_2021_level_lau":"69255",
+    "eurostat:population":5734,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"246900724",
     "frgov:id":"BDCSURCO0000000343255162",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.002908,
-    "geom:area_square_m":25099289.581529,
+    "geom:area_square_m":25099289.581528,
     "geom:bbox":"4.6019954154,45.7038155417,4.69848771856,45.7559453332",
     "geom:latitude":45.729774,
     "geom:longitude":4.642746,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683569,
         102191581,
@@ -56,7 +70,10 @@
         102069953
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_69255",
+        "eurostat:nuts_2021_id":"69255"
+    },
     "wof:coterminous":[
         1360676005
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"cfc64992e2a85aab9da208856c67bfa3",
+    "wof:geomhash":"f6aa385a180886ad67c7ed203e8202ab",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404381989,
-    "wof:lastmodified":1582325441,
+    "wof:lastmodified":1684353033,
     "wof:name":"Saint-Laurent-De-Vaux",
     "wof:parent_id":102069953,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":5734,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

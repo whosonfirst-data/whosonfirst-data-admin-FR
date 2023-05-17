@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_39232",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Fort-du-Plasne",
+    "eurostat:nuts_2021_id":"39232",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC22",
+    "eurostat:nuts_2021_level_lau":"39232",
+    "eurostat:population":443,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243900610",
     "frgov:id":"BDCSURCO0000000009601708",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001538,
-    "geom:area_square_m":13064762.365375,
+    "geom:area_square_m":13064762.365374,
     "geom:bbox":"5.94808978137,46.5989063348,6.02062834625,46.6417164019",
     "geom:latitude":46.622847,
     "geom:longitude":5.981458,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683173,
         102191581,
@@ -58,7 +72,10 @@
         102069553
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_39232",
+        "eurostat:nuts_2021_id":"39232"
+    },
     "wof:coterminous":[
         101891497
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c8fad9ec65b5f8d3499292af9b547b22",
+    "wof:geomhash":"087147307e337736aedcfe83d6ff66b5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404403801,
-    "wof:lastmodified":1582325300,
+    "wof:lastmodified":1684353293,
     "wof:name":"Fort-Du-Plasne",
     "wof:parent_id":102069553,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":443,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

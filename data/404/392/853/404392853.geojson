@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_70254",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Fr\u00e9d\u00e9ric-Fontaine",
+    "eurostat:nuts_2021_id":"70254",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC23",
+    "eurostat:nuts_2021_level_lau":"70254",
+    "eurostat:population":258,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247000821",
     "frgov:id":"BDCSURCO0000000009597007",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683559,
         102191581,
@@ -58,7 +72,10 @@
         102064683
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_70254",
+        "eurostat:nuts_2021_id":"70254"
+    },
     "wof:coterminous":[
         1126054095
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e226f2c1be54020bc5d1e6e3ae21cf95",
+    "wof:geomhash":"3a5192d65a87be301811499fa81c589b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404392853,
-    "wof:lastmodified":1582324819,
+    "wof:lastmodified":1684353166,
     "wof:name":"Frederic-Fontaine",
     "wof:parent_id":102064683,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":258,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

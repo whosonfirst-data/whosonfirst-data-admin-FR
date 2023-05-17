@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_66185",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Michel-de-Llotes",
+    "eurostat:nuts_2021_id":"66185",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ15",
+    "eurostat:nuts_2021_level_lau":"66185",
+    "eurostat:population":348,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"246600415",
     "frgov:id":"BDCSURCO0000000009616508",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000971,
-    "geom:area_square_m":8830697.963585,
+    "geom:area_square_m":8830697.963584,
     "geom:bbox":"2.60492961336,42.6293926554,2.64816647469,42.663709085",
     "geom:latitude":42.644384,
     "geom:longitude":2.6246,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683169,
         102191581,
@@ -58,7 +72,10 @@
         102067723
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_66185",
+        "eurostat:nuts_2021_id":"66185"
+    },
     "wof:coterminous":[
         1125815983
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"64611c9a4c3674c8783061eb32ad31c8",
+    "wof:geomhash":"0d901f871131870426d6aa75a05f724c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404423133,
-    "wof:lastmodified":1582324404,
+    "wof:lastmodified":1684353523,
     "wof:name":"Saint-Michel-De-Llotes",
     "wof:parent_id":102067723,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":348,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

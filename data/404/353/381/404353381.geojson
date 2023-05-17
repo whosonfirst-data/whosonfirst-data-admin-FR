@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_40285",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Yaguen",
+    "eurostat:nuts_2021_id":"40285",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI13",
+    "eurostat:nuts_2021_level_lau":"40285",
+    "eurostat:population":629,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244000766",
     "frgov:id":"BDCSURCO0000000009612128",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.004246,
-    "geom:area_square_m":37828412.166998,
+    "geom:area_square_m":37828412.166999,
     "geom:bbox":"-0.796303790011,43.8710644445,-0.685751506099,43.933126349",
     "geom:latitude":43.902133,
     "geom:longitude":-0.741861,
@@ -123,6 +135,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683183,
         102191581,
@@ -133,7 +147,10 @@
         102069267
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_40285",
+        "eurostat:nuts_2021_id":"40285"
+    },
     "wof:coterminous":[
         101895635
     ],
@@ -141,7 +158,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"bbbef91639efcfe903e30eba9068486b",
+    "wof:geomhash":"c4b918838567e52820b2045e08c520cb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -155,11 +172,13 @@
         }
     ],
     "wof:id":404353381,
-    "wof:lastmodified":1582324142,
+    "wof:lastmodified":1684352663,
     "wof:name":"Saint-Yaguen",
     "wof:parent_id":102069267,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":629,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

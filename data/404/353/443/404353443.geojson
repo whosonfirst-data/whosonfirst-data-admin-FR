@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_45298",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Pryv\u00e9-Saint-Mesmin",
+    "eurostat:nuts_2021_id":"45298",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB06",
+    "eurostat:nuts_2021_level_lau":"45298",
+    "eurostat:population":5803,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244500468",
     "frgov:id":"BDCSURCO0000000009596145",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683479,
         102191581,
@@ -57,7 +71,10 @@
         102070541
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_45298",
+        "eurostat:nuts_2021_id":"45298"
+    },
     "wof:coterminous":[
         101750961
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5b3d1ec78d09f723a68d9c61aa58a388",
+    "wof:geomhash":"2e2edfcb5824ad22ba39215e535ee5e2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404353443,
-    "wof:lastmodified":1582324136,
+    "wof:lastmodified":1684352664,
     "wof:name":"Saint-Pryve-Saint-Mesmin",
     "wof:parent_id":102070541,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":5803,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

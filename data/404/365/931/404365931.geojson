@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_09339",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Villeneuve-du-Par\u00e9age",
+    "eurostat:nuts_2021_id":"09339",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ21",
+    "eurostat:nuts_2021_level_lau":"09339",
+    "eurostat:population":765,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066231",
     "frgov:id":"BDCSURCO0000000009615174",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001272,
-    "geom:area_square_m":11473214.864036,
+    "geom:area_square_m":11473214.864035,
     "geom:bbox":"1.61610360821,43.1424527905,1.67079962507,43.1774080935",
     "geom:latitude":43.158727,
     "geom:longitude":1.64261,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683335,
         102191581,
@@ -58,7 +72,10 @@
         102068381
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_09339",
+        "eurostat:nuts_2021_id":"09339"
+    },
     "wof:coterminous":[
         101893045
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"13b23e2670c1e65e8cec6224415c6e33",
+    "wof:geomhash":"6c43b1dd29ab277b7c1de764f39d2514",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404365931,
-    "wof:lastmodified":1582324025,
+    "wof:lastmodified":1684352837,
     "wof:name":"Villeneuve-Du-Pareage",
     "wof:parent_id":102068381,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":765,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_66068",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Escaro",
+    "eurostat:nuts_2021_id":"66068",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ15",
+    "eurostat:nuts_2021_level_lau":"66068",
+    "eurostat:population":106,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200049211",
     "frgov:id":"BDCSURCO0000000009616675",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001654,
-    "geom:area_square_m":15070589.824715,
+    "geom:area_square_m":15070589.824716,
     "geom:bbox":"2.29472529177,42.5086222444,2.34341687115,42.5585267346",
     "geom:latitude":42.534869,
     "geom:longitude":2.31933,
@@ -120,6 +132,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683169,
         102191581,
@@ -130,7 +144,10 @@
         102065585
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_66068",
+        "eurostat:nuts_2021_id":"66068"
+    },
     "wof:coterminous":[
         1126050929
     ],
@@ -138,7 +155,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ab00301e63e6ab9e4ec8a1fcdccc0c14",
+    "wof:geomhash":"52a809decc01eb2c9474ceb848125529",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -152,11 +169,13 @@
         }
     ],
     "wof:id":404381901,
-    "wof:lastmodified":1582325427,
+    "wof:lastmodified":1684353032,
     "wof:name":"Escaro",
     "wof:parent_id":102065585,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":106,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

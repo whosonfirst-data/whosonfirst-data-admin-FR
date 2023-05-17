@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_87132",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Amand-le-Petit",
+    "eurostat:nuts_2021_id":"87132",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI23",
+    "eurostat:nuts_2021_level_lau":"87132",
+    "eurostat:population":108,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248719353",
     "frgov:id":"BDCSURCO0000000009605345",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001784,
-    "geom:area_square_m":15388051.075225,
+    "geom:area_square_m":15388051.075224,
     "geom:bbox":"1.72244780955,45.7439873516,1.81919573426,45.7872282147",
     "geom:latitude":45.769484,
     "geom:longitude":1.768217,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683531,
         102191581,
@@ -58,7 +72,10 @@
         102065951
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_87132",
+        "eurostat:nuts_2021_id":"87132"
+    },
     "wof:coterminous":[
         1125938855
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"643eaea07fda20068b5a4aa84d317051",
+    "wof:geomhash":"2f751d58deddbe248d80d1fcdc944d3e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404396377,
-    "wof:lastmodified":1582324072,
+    "wof:lastmodified":1684353207,
     "wof:name":"Saint-Amand-Le-Petit",
     "wof:parent_id":102065951,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":108,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

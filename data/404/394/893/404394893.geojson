@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_47249",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Laurent",
+    "eurostat:nuts_2021_id":"47249",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI14",
+    "eurostat:nuts_2021_level_lau":"47249",
+    "eurostat:population":525,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068948",
     "frgov:id":"BDCSURCO0000000009611116",
     "frgov:insee_arr":"4",
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683341,
         102191581,
@@ -56,7 +70,10 @@
         102067741
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_47249",
+        "eurostat:nuts_2021_id":"47249"
+    },
     "wof:coterminous":[
         1360677257
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"1612df0deb7b2088e1dde378858c3de1",
+    "wof:geomhash":"5712af5c49803509f9f2ca26e4b8dc28",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404394893,
-    "wof:lastmodified":1582325029,
+    "wof:lastmodified":1684353190,
     "wof:name":"Saint-Laurent",
     "wof:parent_id":102067741,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":525,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

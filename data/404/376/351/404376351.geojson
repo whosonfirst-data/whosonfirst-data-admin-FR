@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_44078",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Juign\u00e9-des-Moutiers",
+    "eurostat:nuts_2021_id":"44078",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG01",
+    "eurostat:nuts_2021_level_lau":"44078",
+    "eurostat:population":345,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072726",
     "frgov:id":"BDCSURCO0000000009597238",
     "frgov:insee_arr":"5",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002945,
-    "geom:area_square_m":24513109.496095,
+    "geom:area_square_m":24513109.496096,
     "geom:bbox":"-1.29035792613,47.6543353179,-1.1629477195,47.7217239986",
     "geom:latitude":47.689296,
     "geom:longitude":-1.212245,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683233,
         102191581,
@@ -57,7 +71,10 @@
         102070723
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_44078",
+        "eurostat:nuts_2021_id":"44078"
+    },
     "wof:coterminous":[
         101885441
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"809de8cc4879bb9b33eea0f19e5f2a4c",
+    "wof:geomhash":"3f178409285bf429cd7ac73daa303da5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404376351,
-    "wof:lastmodified":1582324670,
+    "wof:lastmodified":1684352968,
     "wof:name":"Juigne-Des-Moutiers",
     "wof:parent_id":102070723,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":345,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

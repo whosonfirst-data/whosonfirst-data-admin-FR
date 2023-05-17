@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_57620",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sainte-Marie-aux-Ch\u00eanes",
+    "eurostat:nuts_2021_id":"57620",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF33",
+    "eurostat:nuts_2021_level_lau":"57620",
+    "eurostat:population":4216,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"245701271",
     "frgov:id":"BDCSURCO0000000009586051",
     "frgov:insee_arr":"9",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683271,
         102191581,
@@ -58,7 +72,10 @@
         102071505
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_57620",
+        "eurostat:nuts_2021_id":"57620"
+    },
     "wof:coterminous":[
         1125834875
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"1fd5963aeb2517a4470932f763fd62a4",
+    "wof:geomhash":"72446f56d697e582490f9500b8050089",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404403559,
-    "wof:lastmodified":1582325288,
+    "wof:lastmodified":1684353290,
     "wof:name":"Sainte-Marie-Aux-Chenes",
     "wof:parent_id":102071505,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":4216,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

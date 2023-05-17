@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_07348",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Vog\u00fc\u00e9",
+    "eurostat:nuts_2021_id":"07348",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK22",
+    "eurostat:nuts_2021_level_lau":"07348",
+    "eurostat:population":1087,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200039808",
     "frgov:id":"BDCSURCO0000000009610091",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001353,
-    "geom:area_square_m":11918588.306267,
+    "geom:area_square_m":11918588.306269,
     "geom:bbox":"4.38072360636,44.5291071255,4.44103500406,44.5831046991",
     "geom:latitude":44.557309,
     "geom:longitude":4.411198,
@@ -99,6 +111,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683421,
         102191581,
@@ -109,7 +123,10 @@
         102069599
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_07348",
+        "eurostat:nuts_2021_id":"07348"
+    },
     "wof:coterminous":[
         1125982713
     ],
@@ -117,7 +134,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b6dac60cf4037cb198b82987caa0c8fb",
+    "wof:geomhash":"94521ec92068423f25c742c99949a911",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -131,11 +148,13 @@
         }
     ],
     "wof:id":404392997,
-    "wof:lastmodified":1582324808,
+    "wof:lastmodified":1684353168,
     "wof:name":"Vogue",
     "wof:parent_id":102069599,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1087,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

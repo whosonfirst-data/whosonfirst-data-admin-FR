@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_51546",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Somme-Suippe",
+    "eurostat:nuts_2021_id":"51546",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF23",
+    "eurostat:nuts_2021_level_lau":"51546",
+    "eurostat:population":475,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200042620",
     "frgov:id":"BDCSURCO0000000009587076",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.003888,
-    "geom:area_square_m":31468485.894899,
+    "geom:area_square_m":31468485.894898,
     "geom:bbox":"4.54073601418,49.085684376,4.62854082174,49.1594690821",
     "geom:latitude":49.118932,
     "geom:longitude":4.588226,
@@ -111,6 +123,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683405,
         102191581,
@@ -121,7 +135,10 @@
         102069275
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_51546",
+        "eurostat:nuts_2021_id":"51546"
+    },
     "wof:coterminous":[
         1125806439
     ],
@@ -129,7 +146,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ac7e504d25b466b1206d822e3508cfd8",
+    "wof:geomhash":"0f2dec43267ee5c8c6d531fb9eb0d844",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -143,11 +160,13 @@
         }
     ],
     "wof:id":404410513,
-    "wof:lastmodified":1582325158,
+    "wof:lastmodified":1684353372,
     "wof:name":"Somme-Suippe",
     "wof:parent_id":102069275,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":475,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_73249",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Jeoire-Prieur\u00e9",
+    "eurostat:nuts_2021_id":"73249",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK27",
+    "eurostat:nuts_2021_level_lau":"73249",
+    "eurostat:population":1704,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069110",
     "frgov:id":"BDCSURCO0000000009605971",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.000621,
-    "geom:area_square_m":5382629.300979,
+    "geom:area_square_m":5382629.300978,
     "geom:bbox":"5.96969757179,45.5180932057,6.01691735094,45.55044262",
     "geom:latitude":45.533043,
     "geom:longitude":5.98963,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683265,
         102191581,
@@ -58,7 +72,10 @@
         102070293
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_73249",
+        "eurostat:nuts_2021_id":"73249"
+    },
     "wof:coterminous":[
         1125944637
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2646d59e7420f331c57dd2a17d0ce3e3",
+    "wof:geomhash":"231c2c9a884c2ef8fc415d3e3a2db596",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404387103,
-    "wof:lastmodified":1582325354,
+    "wof:lastmodified":1684353094,
     "wof:name":"Saint-Jeoire-Prieure",
     "wof:parent_id":102070293,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1704,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_50562",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Vaast-la-Hougue",
+    "eurostat:nuts_2021_id":"50562",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD12",
+    "eurostat:nuts_2021_level_lau":"50562",
+    "eurostat:population":1730,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067205",
     "frgov:id":"BDCSURCO0000000009584050",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683489,
         102191581,
@@ -58,7 +72,10 @@
         102069841
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_50562",
+        "eurostat:nuts_2021_id":"50562"
+    },
     "wof:coterminous":[
         101812441
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3ac99ebe3a13b130a27aa232d982c3ac",
+    "wof:geomhash":"7a50fbf36d72d7002e85553d9554568f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404361467,
-    "wof:lastmodified":1582324763,
+    "wof:lastmodified":1684352774,
     "wof:name":"Saint-Vaast-La-Hougue",
     "wof:parent_id":102069841,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1730,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

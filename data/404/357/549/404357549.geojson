@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_15013",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Auriac-l'\u00c9glise",
+    "eurostat:nuts_2021_id":"15013",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK12",
+    "eurostat:nuts_2021_level_lau":"15013",
+    "eurostat:population":153,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066637",
     "frgov:id":"BDCSURCO0000000009607507",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.002302,
-    "geom:area_square_m":20036522.160235,
+    "geom:area_square_m":20036522.160234,
     "geom:bbox":"3.06188318788,45.2372307704,3.16991761871,45.2954166308",
     "geom:latitude":45.264077,
     "geom:longitude":3.126104,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683517,
         102191581,
@@ -56,7 +70,10 @@
         102065745
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_15013",
+        "eurostat:nuts_2021_id":"15013"
+    },
     "wof:coterminous":[
         1360673501
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c9f498858ae820d9f93a210bdc6c9462",
+    "wof:geomhash":"45f3274cde7f353f70ecd091087e49eb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404357549,
-    "wof:lastmodified":1582324902,
+    "wof:lastmodified":1684352719,
     "wof:name":"Auriac-L'Eglise",
     "wof:parent_id":102065745,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":153,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

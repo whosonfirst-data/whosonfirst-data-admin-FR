@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_10030",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Barberey-Saint-Sulpice",
+    "eurostat:nuts_2021_id":"10030",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF22",
+    "eurostat:nuts_2021_level_lau":"10030",
+    "eurostat:population":1449,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069250",
     "frgov:id":"BDCSURCO0000000009593663",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.001161,
-    "geom:area_square_m":9541601.098963,
+    "geom:area_square_m":9541601.098964,
     "geom:bbox":"3.97295649322,48.3057236035,4.05415841645,48.3489983625",
     "geom:latitude":48.32698,
     "geom:longitude":4.016392,
@@ -123,6 +135,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683193,
         102191581,
@@ -133,7 +147,10 @@
         102069689
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_10030",
+        "eurostat:nuts_2021_id":"10030"
+    },
     "wof:coterminous":[
         1125938081
     ],
@@ -141,7 +158,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c040d734c0ae679d4048c5482cd25300",
+    "wof:geomhash":"0c94acaf415f40cf2182e62d1dac1a88",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -155,11 +172,13 @@
         }
     ],
     "wof:id":404426309,
-    "wof:lastmodified":1582325078,
+    "wof:lastmodified":1684353560,
     "wof:name":"Barberey-Saint-Sulpice",
     "wof:parent_id":102069689,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1449,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

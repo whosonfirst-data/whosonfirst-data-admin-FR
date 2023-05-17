@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_80721",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Valery-sur-Somme",
+    "eurostat:nuts_2021_id":"80721",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE23",
+    "eurostat:nuts_2021_level_lau":"80721",
+    "eurostat:population":2510,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070993",
     "frgov:id":"BDCSURCO0000000009581729",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683363,
         102191581,
@@ -58,7 +72,10 @@
         102071035
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_80721",
+        "eurostat:nuts_2021_id":"80721"
+    },
     "wof:coterminous":[
         101812501
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5d71b21303f88c603fc9a20b6d98aba5",
+    "wof:geomhash":"8e3f3aceccd723601db68676ce48ce04",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404379383,
-    "wof:lastmodified":1582324526,
+    "wof:lastmodified":1684353003,
     "wof:name":"Saint-Valery-Sur-Somme",
     "wof:parent_id":102071035,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2510,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

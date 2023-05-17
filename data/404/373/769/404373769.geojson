@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_54432",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Pont-Saint-Vincent",
+    "eurostat:nuts_2021_id":"54432",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF31",
+    "eurostat:nuts_2021_level_lau":"54432",
+    "eurostat:population":1903,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"245400171",
     "frgov:id":"BDCSURCO0000000009590964",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.000806,
-    "geom:area_square_m":6587918.799967,
+    "geom:area_square_m":6587918.799968,
     "geom:bbox":"6.02167914628,48.5959267591,6.11120738104,48.6210007172",
     "geom:latitude":48.609189,
     "geom:longitude":6.07534,
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683343,
         102191581,
@@ -136,7 +150,10 @@
         102070321
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_54432",
+        "eurostat:nuts_2021_id":"54432"
+    },
     "wof:coterminous":[
         101828243
     ],
@@ -144,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4ffe58aa1ba939cd4b7225e819bb3742",
+    "wof:geomhash":"d9e9e965d2609ed9ce36a3ed939bfa3a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +175,13 @@
         }
     ],
     "wof:id":404373769,
-    "wof:lastmodified":1582325346,
+    "wof:lastmodified":1684352933,
     "wof:name":"Pont-Saint-Vincent",
     "wof:parent_id":102070321,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1903,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

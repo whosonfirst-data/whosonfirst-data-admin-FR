@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_02201",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"C\u009cuvres-et-Valsery",
+    "eurostat:nuts_2021_id":"02201",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE21",
+    "eurostat:nuts_2021_level_lau":"02201",
+    "eurostat:population":438,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071991",
     "frgov:id":"BDCSURCO0000000009585703",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001523,
-    "geom:area_square_m":12276112.290007,
+    "geom:area_square_m":12276112.290009,
     "geom:bbox":"3.11710294143,49.2989721196,3.18237147778,49.3489875768",
     "geom:latitude":49.329725,
     "geom:longitude":3.152959,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683247,
         102191581,
@@ -58,7 +72,10 @@
         102070595
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_02201",
+        "eurostat:nuts_2021_id":"02201"
+    },
     "wof:coterminous":[
         1125775263
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8856c039ff4c87b04f1adf6147fba0b2",
+    "wof:geomhash":"a588f4ed98b02d9afef6bcfb98088678",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404408639,
-    "wof:lastmodified":1582324466,
+    "wof:lastmodified":1684353351,
     "wof:name":"Coeuvres-Et-Valsery",
     "wof:parent_id":102070595,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":438,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

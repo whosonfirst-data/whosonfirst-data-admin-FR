@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_53193",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ruill\u00e9-Froid-Fonds",
+    "eurostat:nuts_2021_id":"53193",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG03",
+    "eurostat:nuts_2021_level_lau":"53193",
+    "eurostat:population":569,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"245300223",
     "frgov:id":"BDCSURCO0000000009596200",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683401,
         102191581,
@@ -57,7 +71,10 @@
         102066619
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_53193",
+        "eurostat:nuts_2021_id":"53193"
+    },
     "wof:coterminous":[
         1126006351
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f9889273d8cb444c83c97ac0438dc7d1",
+    "wof:geomhash":"d79d3cb55f007b9e7ff726d159cf96fe",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404375853,
-    "wof:lastmodified":1582325421,
+    "wof:lastmodified":1684352961,
     "wof:name":"Ruille-Froid-Fonds",
     "wof:parent_id":102066619,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":569,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

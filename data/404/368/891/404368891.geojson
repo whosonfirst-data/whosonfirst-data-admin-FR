@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_19210",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Hilaire-Luc",
+    "eurostat:nuts_2021_id":"19210",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI21",
+    "eurostat:nuts_2021_level_lau":"19210",
+    "eurostat:population":70,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066744",
     "frgov:id":"BDCSURCO0000000009607082",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001241,
-    "geom:area_square_m":10781563.668461,
+    "geom:area_square_m":10781563.66846,
     "geom:bbox":"2.18052519973,45.3276951975,2.2475662568,45.3718204381",
     "geom:latitude":45.345428,
     "geom:longitude":2.207883,
@@ -127,6 +139,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683209,
         102191581,
@@ -137,7 +151,10 @@
         102067883
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_19210",
+        "eurostat:nuts_2021_id":"19210"
+    },
     "wof:coterminous":[
         1360674689
     ],
@@ -145,7 +162,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"dd14239edc4020558fe130965b7e6ba6",
+    "wof:geomhash":"136728c7ad5567a9d4cbccf14bfa68b6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -159,11 +176,13 @@
         }
     ],
     "wof:id":404368891,
-    "wof:lastmodified":1582324881,
+    "wof:lastmodified":1684352877,
     "wof:name":"Saint-Hilaire-Luc",
     "wof:parent_id":102067883,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":70,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

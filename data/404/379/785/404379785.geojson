@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_77412",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Germain-sur-\u00c9cole",
+    "eurostat:nuts_2021_id":"77412",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR102",
+    "eurostat:nuts_2021_level_lau":"77412",
+    "eurostat:population":366,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072346",
     "frgov:id":"BDCSURCO0000000009592460",
     "frgov:insee_arr":"4",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683385,
         102191581,
@@ -57,7 +71,10 @@
         102070159
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_77412",
+        "eurostat:nuts_2021_id":"77412"
+    },
     "wof:coterminous":[
         101885035
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7be0fdfdfec66f51d06d3b9bcab7c7f1",
+    "wof:geomhash":"d982582fa583d9c11599d9f4ff5ed477",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404379785,
-    "wof:lastmodified":1582324527,
+    "wof:lastmodified":1684353008,
     "wof:name":"Saint-Germain-Sur-Ecole",
     "wof:parent_id":102070159,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":366,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

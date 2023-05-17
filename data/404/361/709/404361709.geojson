@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_53206",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Charles-la-For\u00eat",
+    "eurostat:nuts_2021_id":"53206",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG03",
+    "eurostat:nuts_2021_level_lau":"53206",
+    "eurostat:population":203,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"245300223",
     "frgov:id":"BDCSURCO0000000009595863",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001281,
-    "geom:area_square_m":10612240.412584,
+    "geom:area_square_m":10612240.412585,
     "geom:bbox":"-0.616992050835,47.9037776389,-0.530948661221,47.9367728896",
     "geom:latitude":47.919567,
     "geom:longitude":-0.569056,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683401,
         102191581,
@@ -57,7 +71,10 @@
         102066619
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_53206",
+        "eurostat:nuts_2021_id":"53206"
+    },
     "wof:coterminous":[
         1125933099
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5427455b9cc8a54b8d0afb2ad13c35d9",
+    "wof:geomhash":"2f1e91c4b2edadb2ac3b07345a9cf2c1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404361709,
-    "wof:lastmodified":1582324750,
+    "wof:lastmodified":1684352777,
     "wof:name":"Saint-Charles-La-Foret",
     "wof:parent_id":102066619,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":203,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

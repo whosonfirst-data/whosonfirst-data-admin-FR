@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_60134",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Cauffry",
+    "eurostat:nuts_2021_id":"60134",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE22",
+    "eurostat:nuts_2021_level_lau":"60134",
+    "eurostat:population":2540,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"246000129",
     "frgov:id":"BDCSURCO0000000009585746",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000582,
-    "geom:area_square_m":4692068.643083,
+    "geom:area_square_m":4692068.643084,
     "geom:bbox":"2.39676203696,49.3032057551,2.45907980166,49.3240783515",
     "geom:latitude":49.313487,
     "geom:longitude":2.42981,
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683289,
         102191581,
@@ -136,7 +150,10 @@
         102068031
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_60134",
+        "eurostat:nuts_2021_id":"60134"
+    },
     "wof:coterminous":[
         101828483
     ],
@@ -144,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"dd0e2750ad5c155930ddbd8e92682319",
+    "wof:geomhash":"3b9d986d53a855a1c0a92188909d37a4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +175,13 @@
         }
     ],
     "wof:id":404378447,
-    "wof:lastmodified":1582324734,
+    "wof:lastmodified":1684352992,
     "wof:name":"Cauffry",
     "wof:parent_id":102068031,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2540,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

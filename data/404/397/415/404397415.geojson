@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_79159",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Luch\u00e9-Thouarsais",
+    "eurostat:nuts_2021_id":"79159",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI33",
+    "eurostat:nuts_2021_level_lau":"79159",
+    "eurostat:population":509,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247900798",
     "frgov:id":"BDCSURCO0000000009600827",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001611,
-    "geom:area_square_m":13611272.582418,
+    "geom:area_square_m":13611272.582419,
     "geom:bbox":"-0.352783410021,46.8917269417,-0.257167938109,46.9347996471",
     "geom:latitude":46.912561,
     "geom:longitude":-0.304941,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683163,
         102191581,
@@ -58,7 +72,10 @@
         102069303
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_79159",
+        "eurostat:nuts_2021_id":"79159"
+    },
     "wof:coterminous":[
         1125932093
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"37b8c989c6742daa7bb370571aec731a",
+    "wof:geomhash":"1645cb5c10c85d022399cd88e46681b0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404397415,
-    "wof:lastmodified":1582324203,
+    "wof:lastmodified":1684353218,
     "wof:name":"Luche-Thouarsais",
     "wof:parent_id":102069303,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":509,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

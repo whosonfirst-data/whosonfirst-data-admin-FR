@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_89344",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Fargeau",
+    "eurostat:nuts_2021_id":"89344",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC14",
+    "eurostat:nuts_2021_level_lau":"89344",
+    "eurostat:population":1589,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067130",
     "frgov:id":"BDCSURCO0000000009597782",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00827,
-    "geom:area_square_m":68894606.593169,
+    "geom:area_square_m":68894606.593167,
     "geom:bbox":"3.01944235263,47.5795623969,3.14332855017,47.7163772279",
     "geom:latitude":47.642403,
     "geom:longitude":3.085039,
@@ -144,6 +156,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683503,
         102191581,
@@ -154,7 +168,10 @@
         102068733
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_89344",
+        "eurostat:nuts_2021_id":"89344"
+    },
     "wof:coterminous":[
         101766183
     ],
@@ -162,7 +179,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0ee4ff7c1a3e4bb42963e0716ddb01f7",
+    "wof:geomhash":"56126a7692b161b29f49dd9401970be6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -176,11 +193,13 @@
         }
     ],
     "wof:id":404417437,
-    "wof:lastmodified":1582325130,
+    "wof:lastmodified":1684353454,
     "wof:name":"Saint-Fargeau",
     "wof:parent_id":102068733,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1589,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_80541",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mesnil-Saint-Georges",
+    "eurostat:nuts_2021_id":"80541",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE23",
+    "eurostat:nuts_2021_level_lau":"80541",
+    "eurostat:population":188,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070977",
     "frgov:id":"BDCSURCO0000000009583583",
     "frgov:insee_arr":"3",
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683363,
         102191581,
@@ -136,7 +150,10 @@
         102069403
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_80541",
+        "eurostat:nuts_2021_id":"80541"
+    },
     "wof:coterminous":[
         1125894665
     ],
@@ -144,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"078a2780a819aa49d7e271162f1f18ca",
+    "wof:geomhash":"ccc39c2f8b0069f2a2bc791316749e4b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +175,13 @@
         }
     ],
     "wof:id":404386147,
-    "wof:lastmodified":1582325458,
+    "wof:lastmodified":1684353083,
     "wof:name":"Mesnil-Saint-Georges",
     "wof:parent_id":102069403,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":188,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

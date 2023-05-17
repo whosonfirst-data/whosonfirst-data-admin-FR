@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_19010",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Argentat-sur-Dordogne",
+    "eurostat:nuts_2021_id":"19010",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI21",
+    "eurostat:nuts_2021_level_lau":"19010",
+    "eurostat:population":3016,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066751",
     "frgov:id":"BDCSURCO0000000009608159",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003351,
-    "geom:area_square_m":29241708.869128,
+    "geom:area_square_m":29241708.869127,
     "geom:bbox":"1.88812897055,45.0592175502,1.97615737679,45.1738102135",
     "geom:latitude":45.113353,
     "geom:longitude":1.939376,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683209,
         102191581,
@@ -56,7 +70,10 @@
         102068005
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_19010",
+        "eurostat:nuts_2021_id":"19010"
+    },
     "wof:coterminous":[
         1360674317
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4fd31f32adc7f9411c7bf5d02b266124",
+    "wof:geomhash":"e47f24e0cb62b7fc873a52c6eb45943a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404365099,
-    "wof:lastmodified":1582324031,
+    "wof:lastmodified":1684352825,
     "wof:name":"Saint-Bazile-De-La-Roche",
     "wof:parent_id":102068005,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3016,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_55515",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Tr\u00e9sauvaux",
+    "eurostat:nuts_2021_id":"55515",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF32",
+    "eurostat:nuts_2021_level_lau":"55515",
+    "eurostat:population":70,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"245501176",
     "frgov:id":"BDCSURCO0000000009587042",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683297,
         102191581,
@@ -58,7 +72,10 @@
         102065975
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_55515",
+        "eurostat:nuts_2021_id":"55515"
+    },
     "wof:coterminous":[
         1125946595
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5be26358c7d563479a4fae6715d7f699",
+    "wof:geomhash":"8f599f99b839e2f4bc08fc0b9f0a0f4f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404399429,
-    "wof:lastmodified":1582324155,
+    "wof:lastmodified":1684353243,
     "wof:name":"Tresauvaux",
     "wof:parent_id":102065975,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":70,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

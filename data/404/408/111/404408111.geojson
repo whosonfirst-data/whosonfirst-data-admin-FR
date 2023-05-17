@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_23252",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Tercillat",
+    "eurostat:nuts_2021_id":"23252",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI22",
+    "eurostat:nuts_2021_level_lau":"23252",
+    "eurostat:population":158,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041556",
     "frgov:id":"BDCSURCO0000000009602892",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001631,
-    "geom:area_square_m":13908984.557496,
+    "geom:area_square_m":13908984.557495,
     "geom:bbox":"2.02665339153,46.378314949,2.08874854697,46.4245860739",
     "geom:latitude":46.403756,
     "geom:longitude":2.054475,
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683179,
         102191581,
@@ -139,7 +153,10 @@
         102066085
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_23252",
+        "eurostat:nuts_2021_id":"23252"
+    },
     "wof:coterminous":[
         1125826717
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4491e772b49bb11af385cf00c220c765",
+    "wof:geomhash":"344cfc7a591ed7da5db0698f75c413ad",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404408111,
-    "wof:lastmodified":1582324460,
+    "wof:lastmodified":1684353345,
     "wof:name":"Tercillat",
     "wof:parent_id":102066085,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":158,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

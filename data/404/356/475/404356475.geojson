@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_32207",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Leboulin",
+    "eurostat:nuts_2021_id":"32207",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ24",
+    "eurostat:nuts_2021_level_lau":"32207",
+    "eurostat:population":346,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066926",
     "frgov:id":"BDCSURCO0000000009613248",
     "frgov:insee_arr":"1",
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683467,
         102191581,
@@ -136,7 +150,10 @@
         102064469
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_32207",
+        "eurostat:nuts_2021_id":"32207"
+    },
     "wof:coterminous":[
         1125775201
     ],
@@ -144,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7199f9eb9e41a26ae84ab80ac121dcf7",
+    "wof:geomhash":"5fac42d30d42856c4df9adf94bf5bbf6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +175,13 @@
         }
     ],
     "wof:id":404356475,
-    "wof:lastmodified":1582324936,
+    "wof:lastmodified":1684352704,
     "wof:name":"Leboulin",
     "wof:parent_id":102064469,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":346,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

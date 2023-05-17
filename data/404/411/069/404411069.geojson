@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_62270",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Divion",
+    "eurostat:nuts_2021_id":"62270",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE1",
+    "eurostat:nuts_2021_level_3":"FRE12",
+    "eurostat:nuts_2021_level_lau":"62270",
+    "eurostat:population":6978,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072460",
     "frgov:id":"BDCSURCO0000000009580911",
     "frgov:insee_arr":"2",
@@ -138,6 +150,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683255,
         102191581,
@@ -148,7 +162,10 @@
         102071849
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_62270",
+        "eurostat:nuts_2021_id":"62270"
+    },
     "wof:coterminous":[
         1175611933
     ],
@@ -156,7 +173,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c58d8c421c59ed030cc45afdc3686d01",
+    "wof:geomhash":"e7154939c5487b3d003c6587074d20c2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -170,11 +187,13 @@
         }
     ],
     "wof:id":404411069,
-    "wof:lastmodified":1582325174,
+    "wof:lastmodified":1684353378,
     "wof:name":"Divion",
     "wof:parent_id":102071849,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":6978,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

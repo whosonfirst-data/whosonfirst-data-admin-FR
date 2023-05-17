@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_24463",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-M\u00e9dard-d'Excideuil",
+    "eurostat:nuts_2021_id":"24463",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI11",
+    "eurostat:nuts_2021_level_lau":"24463",
+    "eurostat:population":546,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242401024",
     "frgov:id":"BDCSURCO0000000009607344",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002177,
-    "geom:area_square_m":18918311.582195,
+    "geom:area_square_m":18918311.582194,
     "geom:bbox":"1.05068426014,45.312862559,1.12103840481,45.3751736415",
     "geom:latitude":45.347566,
     "geom:longitude":1.08629,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683331,
         102191581,
@@ -56,7 +70,10 @@
         102066347
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_24463",
+        "eurostat:nuts_2021_id":"24463"
+    },
     "wof:coterminous":[
         1360674323
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"55b9dbfd78bfaf40e478d5063f289eda",
+    "wof:geomhash":"ca4783fbea6c84cb7e287ceb815d9b38",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404365233,
-    "wof:lastmodified":1582324032,
+    "wof:lastmodified":1684352827,
     "wof:name":"Saint-Medard-D'Excideuil",
     "wof:parent_id":102066347,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":546,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

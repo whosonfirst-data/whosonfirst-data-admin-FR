@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_69143",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Neuville-sur-Sa\u00f4ne",
+    "eurostat:nuts_2021_id":"69143",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK26",
+    "eurostat:nuts_2021_level_lau":"69143",
+    "eurostat:population":7514,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200046977",
     "frgov:id":"BDCSURCO0000000009604727",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.00063,
-    "geom:area_square_m":5424547.658632,
+    "geom:area_square_m":5424547.658631,
     "geom:bbox":"4.81481981593,45.8654144907,4.86610450736,45.8984374553",
     "geom:latitude":45.883332,
     "geom:longitude":4.84419,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683569,
         102191581,
@@ -58,7 +72,10 @@
         102068923
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_69143",
+        "eurostat:nuts_2021_id":"69143"
+    },
     "wof:coterminous":[
         101749445
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c521f75fc68a57ef159eeae12e8ed3ad",
+    "wof:geomhash":"9e820481b9ba99fb2a62ae2d47e65674",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404424839,
-    "wof:lastmodified":1582324399,
+    "wof:lastmodified":1684353544,
     "wof:name":"Neuville-Sur-Saone",
     "wof:parent_id":102068923,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":7514,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

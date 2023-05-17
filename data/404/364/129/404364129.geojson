@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_64488",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Laurent-Bretagne",
+    "eurostat:nuts_2021_id":"64488",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI15",
+    "eurostat:nuts_2021_level_lau":"64488",
+    "eurostat:population":434,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067296",
     "frgov:id":"BDCSURCO0000000009614280",
     "frgov:insee_arr":"3",
@@ -120,6 +132,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683539,
         102191581,
@@ -130,7 +144,10 @@
         102068661
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_64488",
+        "eurostat:nuts_2021_id":"64488"
+    },
     "wof:coterminous":[
         101896903
     ],
@@ -138,7 +155,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"39213095a7edf8c319e82b6913f99bf9",
+    "wof:geomhash":"442efb33833aea0d7b27dd49bd026575",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -152,11 +169,13 @@
         }
     ],
     "wof:id":404364129,
-    "wof:lastmodified":1582324246,
+    "wof:lastmodified":1684352811,
     "wof:name":"Saint-Laurent-Bretagne",
     "wof:parent_id":102068661,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":434,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_10128",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Donnement",
+    "eurostat:nuts_2021_id":"10128",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF22",
+    "eurostat:nuts_2021_level_lau":"10128",
+    "eurostat:population":77,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040137",
     "frgov:id":"BDCSURCO0000000009591931",
     "frgov:insee_arr":"1",
@@ -123,6 +135,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683193,
         102191581,
@@ -133,7 +147,10 @@
         102065617
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_10128",
+        "eurostat:nuts_2021_id":"10128"
+    },
     "wof:coterminous":[
         1125926643
     ],
@@ -141,7 +158,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8401d8284845ce16721e59bf4da36c17",
+    "wof:geomhash":"11cc8f6ff617748a0649f794dbfc7cf2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -155,11 +172,13 @@
         }
     ],
     "wof:id":404411767,
-    "wof:lastmodified":1582325168,
+    "wof:lastmodified":1684353387,
     "wof:name":"Donnement",
     "wof:parent_id":102065617,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":77,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

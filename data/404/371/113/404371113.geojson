@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_62222",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ch\u00e9riennes",
+    "eurostat:nuts_2021_id":"62222",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE1",
+    "eurostat:nuts_2021_level_3":"FRE12",
+    "eurostat:nuts_2021_level_lau":"62222",
+    "eurostat:population":155,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200044030",
     "frgov:id":"BDCSURCO0000000009581393",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000602,
-    "geom:area_square_m":4752696.439883,
+    "geom:area_square_m":4752696.439882,
     "geom:bbox":"2.01314147599,50.3008789223,2.05623624499,50.3222600197",
     "geom:latitude":50.311238,
     "geom:longitude":2.034132,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683255,
         102191581,
@@ -58,7 +72,10 @@
         102069233
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_62222",
+        "eurostat:nuts_2021_id":"62222"
+    },
     "wof:coterminous":[
         101898215
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4f2fa2836cffca7140f15da7dc4300bb",
+    "wof:geomhash":"363ffdc831a7d9cec08cda5c091569bb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404371113,
-    "wof:lastmodified":1582324659,
+    "wof:lastmodified":1684352902,
     "wof:name":"Cheriennes",
     "wof:parent_id":102069233,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":155,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

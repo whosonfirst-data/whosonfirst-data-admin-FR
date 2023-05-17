@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_63119",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Condat-l\u00e8s-Montboissier",
+    "eurostat:nuts_2021_id":"63119",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK14",
+    "eurostat:nuts_2021_level_lau":"63119",
+    "eurostat:population":226,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070761",
     "frgov:id":"BDCSURCO0000000009606343",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.002379,
-    "geom:area_square_m":20599801.048073,
+    "geom:area_square_m":20599801.048072,
     "geom:bbox":"3.4423034274,45.5348811941,3.51711761208,45.5797031373",
     "geom:latitude":45.557232,
     "geom:longitude":3.47834,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683471,
         102191581,
@@ -56,7 +70,10 @@
         102071117
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_63119",
+        "eurostat:nuts_2021_id":"63119"
+    },
     "wof:coterminous":[
         1360675265
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d7e84ea2f4f32f5c835f305da3b7e54b",
+    "wof:geomhash":"9f0d57bb443d0b24ab580b107929754b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404374917,
-    "wof:lastmodified":1582325404,
+    "wof:lastmodified":1684352947,
     "wof:name":"Condat-Les-Montboissier",
     "wof:parent_id":102071117,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":226,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

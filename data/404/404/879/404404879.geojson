@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_77409",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Germain-Laval",
+    "eurostat:nuts_2021_id":"77409",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR102",
+    "eurostat:nuts_2021_level_lau":"77409",
+    "eurostat:population":2762,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247700107",
     "frgov:id":"BDCSURCO0000000009592893",
     "frgov:insee_arr":"3",
@@ -144,6 +156,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683385,
         102191581,
@@ -153,7 +167,10 @@
         102068097
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_77409",
+        "eurostat:nuts_2021_id":"77409"
+    },
     "wof:coterminous":[
         101827975
     ],
@@ -161,7 +178,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"66d39f3fef62b4c126e399fafac69e1d",
+    "wof:geomhash":"d19e4090a8e838a3b87307b2414791ca",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -174,11 +191,13 @@
         }
     ],
     "wof:id":404404879,
-    "wof:lastmodified":1582325313,
+    "wof:lastmodified":1684353305,
     "wof:name":"Saint-Germain-Laval",
     "wof:parent_id":102068097,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2762,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_65264",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lascaz\u00e8res",
+    "eurostat:nuts_2021_id":"65264",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ26",
+    "eurostat:nuts_2021_level_lau":"65264",
+    "eurostat:population":311,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072106",
     "frgov:id":"BDCSURCO0000000009613748",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001023,
-    "geom:area_square_m":9174821.895555,
+    "geom:area_square_m":9174821.895554,
     "geom:bbox":"-0.04958347126,43.4733010404,-0.00988296860178,43.5174762834",
     "geom:latitude":43.498234,
     "geom:longitude":-0.028402,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683203,
         102191581,
@@ -58,7 +72,10 @@
         102065979
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_65264",
+        "eurostat:nuts_2021_id":"65264"
+    },
     "wof:coterminous":[
         101896685
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"90c4db5686fd97291d08704e1e1cb4f1",
+    "wof:geomhash":"6341e6b005db34c741d03ce4593dbaac",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404421427,
-    "wof:lastmodified":1582325106,
+    "wof:lastmodified":1684353502,
     "wof:name":"Lascazeres",
     "wof:parent_id":102065979,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":311,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

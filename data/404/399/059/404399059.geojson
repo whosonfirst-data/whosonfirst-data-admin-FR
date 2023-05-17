@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_07234",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-\u00c9tienne-de-Valoux",
+    "eurostat:nuts_2021_id":"07234",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK22",
+    "eurostat:nuts_2021_level_lau":"07234",
+    "eurostat:population":294,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040491",
     "frgov:id":"BDCSURCO0000000009607468",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.00027,
-    "geom:area_square_m":2348970.356358,
+    "geom:area_square_m":2348970.356357,
     "geom:bbox":"4.75660495558,45.2319576871,4.79372321707,45.24951824",
     "geom:latitude":45.243297,
     "geom:longitude":4.777313,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683421,
         102191581,
@@ -58,7 +72,10 @@
         102068429
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_07234",
+        "eurostat:nuts_2021_id":"07234"
+    },
     "wof:coterminous":[
         1125926905
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a9422c67f683481ccd843ea7d6f0bbaa",
+    "wof:geomhash":"2abaad9db016e97be6d75226f9a8a5f4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404399059,
-    "wof:lastmodified":1582324156,
+    "wof:lastmodified":1684353239,
     "wof:name":"Saint-Etienne-De-Valoux",
     "wof:parent_id":102068429,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":294,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

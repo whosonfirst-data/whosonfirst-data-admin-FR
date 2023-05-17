@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_60382",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Margny-l\u00e8s-Compi\u00e8gne",
+    "eurostat:nuts_2021_id":"60382",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE22",
+    "eurostat:nuts_2021_level_lau":"60382",
+    "eurostat:population":8370,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067965",
     "frgov:id":"BDCSURCO0000000009584966",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000824,
-    "geom:area_square_m":6625878.520405,
+    "geom:area_square_m":6625878.520406,
     "geom:bbox":"2.77344079634,49.415493792,2.83594886222,49.4473802069",
     "geom:latitude":49.432667,
     "geom:longitude":2.805628,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683289,
         102191581,
@@ -58,7 +72,10 @@
         102065977
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_60382",
+        "eurostat:nuts_2021_id":"60382"
+    },
     "wof:coterminous":[
         101842431
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"140c523c7e883247cf5c7a0b2aacef1f",
+    "wof:geomhash":"18209c1f7752d8a73da060b9ff558022",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404401069,
-    "wof:lastmodified":1582324433,
+    "wof:lastmodified":1684353262,
     "wof:name":"Margny-Les-Compiegne",
     "wof:parent_id":102065977,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":8370,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

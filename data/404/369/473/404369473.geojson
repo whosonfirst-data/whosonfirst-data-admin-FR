@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_70342",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mercey-sur-Sa\u00f4ne",
+    "eurostat:nuts_2021_id":"70342",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC23",
+    "eurostat:nuts_2021_level_lau":"70342",
+    "eurostat:population":133,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247000623",
     "frgov:id":"BDCSURCO0000000009597983",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000919,
-    "geom:area_square_m":7675881.356642,
+    "geom:area_square_m":7675881.356641,
     "geom:bbox":"5.70736658165,47.5006603633,5.75611171191,47.5430665271",
     "geom:latitude":47.524469,
     "geom:longitude":5.727734,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683559,
         102191581,
@@ -58,7 +72,10 @@
         102065717
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_70342",
+        "eurostat:nuts_2021_id":"70342"
+    },
     "wof:coterminous":[
         101887743
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a2a5559c9be51a97e3933e90cf132352",
+    "wof:geomhash":"2e28b9d21bb39f0e7825f1f09a5ba73a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404369473,
-    "wof:lastmodified":1582324917,
+    "wof:lastmodified":1684352884,
     "wof:name":"Mercey-Sur-Saone",
     "wof:parent_id":102065717,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":133,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

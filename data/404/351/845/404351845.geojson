@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_32025",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ayzieu",
+    "eurostat:nuts_2021_id":"32025",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ24",
+    "eurostat:nuts_2021_level_lau":"32025",
+    "eurostat:population":159,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243200458",
     "frgov:id":"BDCSURCO0000000009612333",
     "frgov:insee_arr":"2",
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683467,
         102191581,
@@ -139,7 +153,10 @@
         102064907
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_32025",
+        "eurostat:nuts_2021_id":"32025"
+    },
     "wof:coterminous":[
         1125825341
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d741c3feb5bc7858c8d18341accea3d6",
+    "wof:geomhash":"4f2c30110314561b6a64cf4a18fb52ad",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404351845,
-    "wof:lastmodified":1582324947,
+    "wof:lastmodified":1684352643,
     "wof:name":"Ayzieu",
     "wof:parent_id":102064907,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":159,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

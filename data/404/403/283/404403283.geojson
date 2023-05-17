@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_32372",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Cricq",
+    "eurostat:nuts_2021_id":"32372",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ24",
+    "eurostat:nuts_2021_level_lau":"32372",
+    "eurostat:population":293,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200034726",
     "frgov:id":"BDCSURCO0000000009612997",
     "frgov:insee_arr":"2",
@@ -124,6 +136,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683467,
         102191581,
@@ -134,7 +148,10 @@
         102065029
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_32372",
+        "eurostat:nuts_2021_id":"32372"
+    },
     "wof:coterminous":[
         1360677979
     ],
@@ -142,7 +159,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b692aab7f64ca5872337fb2783dba6de",
+    "wof:geomhash":"3e939ddfa2001e18e341a3a8bebfcce2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -156,11 +173,13 @@
         }
     ],
     "wof:id":404403283,
-    "wof:lastmodified":1582325297,
+    "wof:lastmodified":1684353287,
     "wof:name":"Saint-Cricq",
     "wof:parent_id":102065029,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":293,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_57405",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lindre-Haute",
+    "eurostat:nuts_2021_id":"57405",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF33",
+    "eurostat:nuts_2021_level_lau":"57405",
+    "eurostat:population":50,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"245701206",
     "frgov:id":"BDCSURCO0000000009589000",
     "frgov:insee_arr":"5",
@@ -132,6 +144,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683271,
         102191581,
@@ -142,7 +156,10 @@
         102065711
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_57405",
+        "eurostat:nuts_2021_id":"57405"
+    },
     "wof:coterminous":[
         1125912991
     ],
@@ -150,7 +167,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d5327222784508bd06f7cdc4281d0478",
+    "wof:geomhash":"976ce6543930bc3721b46af3d40484e4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -164,11 +181,13 @@
         }
     ],
     "wof:id":404365947,
-    "wof:lastmodified":1582324033,
+    "wof:lastmodified":1684352837,
     "wof:name":"Lindre-Haute",
     "wof:parent_id":102065711,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":50,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

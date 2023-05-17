@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_02307",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Fert\u00e9-Milon",
+    "eurostat:nuts_2021_id":"02307",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE21",
+    "eurostat:nuts_2021_level_lau":"02307",
+    "eurostat:population":2085,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071991",
     "frgov:id":"BDCSURCO0000000009587141",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00234,
-    "geom:area_square_m":18914749.914093,
+    "geom:area_square_m":18914749.914092,
     "geom:bbox":"3.10203974389,49.1426218272,3.18572833111,49.2031889519",
     "geom:latitude":49.175953,
     "geom:longitude":3.142541,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683247,
         102191581,
@@ -58,7 +72,10 @@
         102068323
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_02307",
+        "eurostat:nuts_2021_id":"02307"
+    },
     "wof:coterminous":[
         101761699
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"21acc52ea79c92982b89b80b0b75dd59",
+    "wof:geomhash":"f12211fd61ab8d10dbb50cf1ee22fed5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404357403,
-    "wof:lastmodified":1582324902,
+    "wof:lastmodified":1684352717,
     "wof:name":"La Ferte-Milon",
     "wof:parent_id":102068323,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2085,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

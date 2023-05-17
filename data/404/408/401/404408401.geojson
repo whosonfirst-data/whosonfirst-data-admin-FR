@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_55210",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gim\u00e9court",
+    "eurostat:nuts_2021_id":"55210",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF32",
+    "eurostat:nuts_2021_level_lau":"55210",
+    "eurostat:population":39,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066140",
     "frgov:id":"BDCSURCO0000000009589076",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.001255,
-    "geom:area_square_m":10210191.02293,
+    "geom:area_square_m":10210191.022932,
     "geom:bbox":"5.34152104847,48.8296935514,5.41511606292,48.8652562937",
     "geom:latitude":48.84955,
     "geom:longitude":5.375471,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683297,
         102191581,
@@ -58,7 +72,10 @@
         102067059
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_55210",
+        "eurostat:nuts_2021_id":"55210"
+    },
     "wof:coterminous":[
         1126055085
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f80c07a884b5dd73cb343013caa0e2a4",
+    "wof:geomhash":"44b28a47cf9eb8818d0f95a47fac0e30",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404408401,
-    "wof:lastmodified":1582324458,
+    "wof:lastmodified":1684353348,
     "wof:name":"Gimecourt",
     "wof:parent_id":102067059,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":39,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

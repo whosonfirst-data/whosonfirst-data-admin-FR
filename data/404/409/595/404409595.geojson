@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_17480",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Virson",
+    "eurostat:nuts_2021_id":"17480",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI32",
+    "eurostat:nuts_2021_level_lau":"17480",
+    "eurostat:population":760,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041614",
     "frgov:id":"BDCSURCO0000000009603632",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001162,
-    "geom:area_square_m":9959205.955287,
+    "geom:area_square_m":9959205.955286,
     "geom:bbox":"-0.913510153447,46.1205140578,-0.8535307591,46.160574376",
     "geom:latitude":46.138367,
     "geom:longitude":-0.884221,
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683275,
         102191581,
@@ -136,7 +150,10 @@
         102064313
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_17480",
+        "eurostat:nuts_2021_id":"17480"
+    },
     "wof:coterminous":[
         1125945841
     ],
@@ -144,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"dc6d2225dc2701fddafa7923ad9b644c",
+    "wof:geomhash":"cb2e21f0a9217db90af1e05b2bccd23e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +175,13 @@
         }
     ],
     "wof:id":404409595,
-    "wof:lastmodified":1582324471,
+    "wof:lastmodified":1684353362,
     "wof:name":"Virson",
     "wof:parent_id":102064313,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":760,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

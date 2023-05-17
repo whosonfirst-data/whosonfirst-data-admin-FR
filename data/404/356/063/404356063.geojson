@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_95308",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"H\u00e9rouville-en-Vexin",
+    "eurostat:nuts_2021_id":"95308",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR108",
+    "eurostat:nuts_2021_level_lau":"95308",
+    "eurostat:population":605,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"249500430",
     "frgov:id":"BDCSURCO0000000009587723",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"ILE-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001047,
-    "geom:area_square_m":8473211.423737,
+    "geom:area_square_m":8473211.423736,
     "geom:bbox":"2.10513443722,49.0858238178,2.15118921517,49.1237234654",
     "geom:latitude":49.104645,
     "geom:longitude":2.127323,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683451,
         102191581,
@@ -57,7 +71,10 @@
         102070459
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_95308",
+        "eurostat:nuts_2021_id":"95308"
+    },
     "wof:coterminous":[
         101878499
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f570861a92c9aeead9b760ddf794ea0a",
+    "wof:geomhash":"0cf49c1691e658bdf0bd145caa3b2dd9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404356063,
-    "wof:lastmodified":1582324929,
+    "wof:lastmodified":1684352699,
     "wof:name":"Herouville",
     "wof:parent_id":102070459,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":605,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

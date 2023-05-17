@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_85108",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Herbergement",
+    "eurostat:nuts_2021_id":"85108",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG05",
+    "eurostat:nuts_2021_level_lau":"85108",
+    "eurostat:population":3175,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070233",
     "frgov:id":"BDCSURCO0000000009600845",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002003,
-    "geom:area_square_m":16915117.90235,
+    "geom:area_square_m":16915117.902349,
     "geom:bbox":"-1.40911507152,46.8853879434,-1.33940022319,46.9450462135",
     "geom:latitude":46.9168,
     "geom:longitude":-1.370746,
@@ -117,6 +129,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683409,
         102191581,
@@ -126,7 +140,10 @@
         102068425
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_85108",
+        "eurostat:nuts_2021_id":"85108"
+    },
     "wof:coterminous":[
         101765491
     ],
@@ -134,7 +151,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ffe838a763512da18a27ab3371d588aa",
+    "wof:geomhash":"ab0de654a7a1e005d533edef6aae8214",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -147,11 +164,13 @@
         }
     ],
     "wof:id":404398157,
-    "wof:lastmodified":1582324103,
+    "wof:lastmodified":1684353227,
     "wof:name":"L'Herbergement",
     "wof:parent_id":102068425,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3175,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

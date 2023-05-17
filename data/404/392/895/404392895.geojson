@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_30250",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-\u00c9tienne-de-l'Olm",
+    "eurostat:nuts_2021_id":"30250",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ12",
+    "eurostat:nuts_2021_level_lau":"30250",
+    "eurostat:population":388,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066918",
     "frgov:id":"BDCSURCO0000000009611556",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00048,
-    "geom:area_square_m":4261995.8638,
+    "geom:area_square_m":4261995.863801,
     "geom:bbox":"4.16797389494,44.0460886095,4.19840893386,44.0783026966",
     "geom:latitude":44.063269,
     "geom:longitude":4.183014,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683431,
         102191581,
@@ -58,7 +72,10 @@
         102070825
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_30250",
+        "eurostat:nuts_2021_id":"30250"
+    },
     "wof:coterminous":[
         101895463
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"295ad74b0b85bc40c01a911d6f249c33",
+    "wof:geomhash":"b5c8e648dd57a272c6eeb29878f22d66",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404392895,
-    "wof:lastmodified":1582324810,
+    "wof:lastmodified":1684353167,
     "wof:name":"Saint-Etienne-De-L'Olm",
     "wof:parent_id":102070825,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":388,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_30308",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sanilhac-Sagri\u00e8s",
+    "eurostat:nuts_2021_id":"30308",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ12",
+    "eurostat:nuts_2021_level_lau":"30308",
+    "eurostat:population":780,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200034379",
     "frgov:id":"BDCSURCO0000000009611989",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002485,
-    "geom:area_square_m":22119177.307377,
+    "geom:area_square_m":22119177.307374,
     "geom:bbox":"4.38339475388,43.9294847307,4.45496115476,43.987205407",
     "geom:latitude":43.954971,
     "geom:longitude":4.419698,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683431,
         102191581,
@@ -58,7 +72,10 @@
         102070535
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_30308",
+        "eurostat:nuts_2021_id":"30308"
+    },
     "wof:coterminous":[
         1125806253
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f30c58c7bc654ce41987be682c508cde",
+    "wof:geomhash":"0565404c3f83be7bd80c842631b610af",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404389523,
-    "wof:lastmodified":1582325336,
+    "wof:lastmodified":1684353123,
     "wof:name":"Sanilhac-Sagries",
     "wof:parent_id":102070535,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":780,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

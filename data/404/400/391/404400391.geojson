@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_21553",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Jean-de-B\u009cuf",
+    "eurostat:nuts_2021_id":"21553",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC11",
+    "eurostat:nuts_2021_level_lau":"21553",
+    "eurostat:population":112,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200039055",
     "frgov:id":"BDCSURCO0000000009599474",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001457,
-    "geom:area_square_m":12234922.73102,
+    "geom:area_square_m":12234922.731021,
     "geom:bbox":"4.73353431072,47.1942868918,4.79600526266,47.2293738426",
     "geom:latitude":47.211552,
     "geom:longitude":4.763547,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683563,
         102191581,
@@ -58,7 +72,10 @@
         102070529
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_21553",
+        "eurostat:nuts_2021_id":"21553"
+    },
     "wof:coterminous":[
         1125776015
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c5105e79557820c0fe5c4d021ecc34ce",
+    "wof:geomhash":"b88e205361f788e0a55771cdb3e9dbd2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404400391,
-    "wof:lastmodified":1582324504,
+    "wof:lastmodified":1684353254,
     "wof:name":"Saint-Jean-De-Boeuf",
     "wof:parent_id":102070529,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":112,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

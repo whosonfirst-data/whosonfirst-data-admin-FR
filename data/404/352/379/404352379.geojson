@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_71093",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Chapelle-Saint-Sauveur",
+    "eurostat:nuts_2021_id":"71093",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC13",
+    "eurostat:nuts_2021_level_lau":"71093",
+    "eurostat:population":681,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247100647",
     "frgov:id":"BDCSURCO0000000009601136",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003249,
-    "geom:area_square_m":27476983.001533,
+    "geom:area_square_m":27476983.001532,
     "geom:bbox":"5.20712918328,46.8166004744,5.31854159412,46.869703866",
     "geom:latitude":46.847035,
     "geom:longitude":5.264595,
@@ -85,6 +97,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683543,
         102191581,
@@ -95,7 +109,10 @@
         102071009
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_71093",
+        "eurostat:nuts_2021_id":"71093"
+    },
     "wof:coterminous":[
         1360672993
     ],
@@ -103,7 +120,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2bac4a3ad3792562c3e53a9c7af89826",
+    "wof:geomhash":"56635f90288d7e914e96911041b0095a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -117,11 +134,13 @@
         }
     ],
     "wof:id":404352379,
-    "wof:lastmodified":1582324167,
+    "wof:lastmodified":1684352650,
     "wof:name":"La Chapelle-Saint-Sauveur",
     "wof:parent_id":102071009,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":681,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

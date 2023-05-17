@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_81247",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Cirgue",
+    "eurostat:nuts_2021_id":"81247",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ27",
+    "eurostat:nuts_2021_level_lau":"81247",
+    "eurostat:population":210,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248100497",
     "frgov:id":"BDCSURCO0000000009612045",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002107,
-    "geom:area_square_m":18752175.398969,
+    "geom:area_square_m":18752175.39897,
     "geom:bbox":"2.33065366848,43.9316601006,2.40399804552,44.0077095377",
     "geom:latitude":43.970497,
     "geom:longitude":2.37119,
@@ -112,6 +124,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683603,
         102191581,
@@ -122,7 +136,10 @@
         102070253
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_81247",
+        "eurostat:nuts_2021_id":"81247"
+    },
     "wof:coterminous":[
         1360673737
     ],
@@ -130,7 +147,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ad58973a1e426a4656a30ef20a3f8352",
+    "wof:geomhash":"88e334b741df979c526d1f18f4e9fc7b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -144,11 +161,13 @@
         }
     ],
     "wof:id":404359949,
-    "wof:lastmodified":1582324794,
+    "wof:lastmodified":1684352753,
     "wof:name":"Saint-Cirgue",
     "wof:parent_id":102070253,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":210,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

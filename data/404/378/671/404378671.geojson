@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_03218",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Aubin-le-Monial",
+    "eurostat:nuts_2021_id":"03218",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK11",
+    "eurostat:nuts_2021_level_lau":"03218",
+    "eurostat:population":266,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071496",
     "frgov:id":"BDCSURCO0000000009602201",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.002581,
-    "geom:area_square_m":21956594.801613,
+    "geom:area_square_m":21956594.801614,
     "geom:bbox":"2.95948691953,46.5060304606,3.05337636852,46.5616504088",
     "geom:latitude":46.535575,
     "geom:longitude":3.001024,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683293,
         102191581,
@@ -58,7 +72,10 @@
         102064305
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_03218",
+        "eurostat:nuts_2021_id":"03218"
+    },
     "wof:coterminous":[
         1125808197
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"56c5cf9c93803b7e5d1bb7919fde5c6a",
+    "wof:geomhash":"5cf0cca1b1deb4cfca5f759efee2c4be",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404378671,
-    "wof:lastmodified":1582324743,
+    "wof:lastmodified":1684352995,
     "wof:name":"Saint-Aubin-Le-Monial",
     "wof:parent_id":102064305,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":266,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

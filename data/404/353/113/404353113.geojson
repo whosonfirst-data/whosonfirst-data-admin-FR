@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_28344",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-L\u00e9ger-des-Aub\u00e9es",
+    "eurostat:nuts_2021_id":"28344",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB02",
+    "eurostat:nuts_2021_level_lau":"28344",
+    "eurostat:population":266,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069953",
     "frgov:id":"BDCSURCO0000000009592934",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001623,
-    "geom:area_square_m":13323197.464224,
+    "geom:area_square_m":13323197.464223,
     "geom:bbox":"1.72352802185,48.3922768245,1.77727648973,48.4415016154",
     "geom:latitude":48.414321,
     "geom:longitude":1.750065,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683189,
         102191581,
@@ -57,7 +71,10 @@
         102064463
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_28344",
+        "eurostat:nuts_2021_id":"28344"
+    },
     "wof:coterminous":[
         1126011127
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4f6d202400fc77250b6385c4bf2ee40a",
+    "wof:geomhash":"db4952f1e41f2a9ad317f56e343cf025",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404353113,
-    "wof:lastmodified":1582324142,
+    "wof:lastmodified":1684352660,
     "wof:name":"Saint-Leger-Des-Aubees",
     "wof:parent_id":102064463,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":266,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

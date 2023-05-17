@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_82066",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"G\u00e9n\u00e9bri\u00e8res",
+    "eurostat:nuts_2021_id":"82066",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ28",
+    "eurostat:nuts_2021_level_lau":"82066",
+    "eurostat:population":633,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066884",
     "frgov:id":"BDCSURCO0000000009611850",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002075,
-    "geom:area_square_m":18456620.337233,
+    "geom:area_square_m":18456620.337231,
     "geom:bbox":"1.45493186712,43.9781417227,1.52785860545,44.0281210521",
     "geom:latitude":44.000925,
     "geom:longitude":1.490272,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683217,
         102191581,
@@ -58,7 +72,10 @@
         102066699
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_82066",
+        "eurostat:nuts_2021_id":"82066"
+    },
     "wof:coterminous":[
         1125928159
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b3a6bb2072fc6038ec7297e0577f10bd",
+    "wof:geomhash":"dd02dea2d10f10212936f2c1fdaf1115",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404365805,
-    "wof:lastmodified":1582324032,
+    "wof:lastmodified":1684352835,
     "wof:name":"Genebrieres",
     "wof:parent_id":102066699,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":633,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

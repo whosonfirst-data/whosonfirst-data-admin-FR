@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_46286",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Paul-de-Vern",
+    "eurostat:nuts_2021_id":"46286",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ25",
+    "eurostat:nuts_2021_level_lau":"46286",
+    "eurostat:population":181,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066371",
     "frgov:id":"BDCSURCO0000000009609000",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683389,
         102191581,
@@ -58,7 +72,10 @@
         102068763
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_46286",
+        "eurostat:nuts_2021_id":"46286"
+    },
     "wof:coterminous":[
         1125843567
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"446e98fe04b5e74ba383d11b0486a86b",
+    "wof:geomhash":"47b20e05e8c0ef2cae51d4c7c6e0dcba",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404413787,
-    "wof:lastmodified":1582324332,
+    "wof:lastmodified":1684353412,
     "wof:name":"Saint-Paul-De-Vern",
     "wof:parent_id":102068763,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":181,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_44166",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Jean-de-Boiseau",
+    "eurostat:nuts_2021_id":"44166",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG01",
+    "eurostat:nuts_2021_level_lau":"44166",
+    "eurostat:population":5827,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244400404",
     "frgov:id":"BDCSURCO0000000009599623",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683233,
         102191581,
@@ -57,7 +71,10 @@
         102069835
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_44166",
+        "eurostat:nuts_2021_id":"44166"
+    },
     "wof:coterminous":[
         101758665
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b60606a623a5bf3be1c33a1871b1e2dd",
+    "wof:geomhash":"0d5789561146bd7b47f4da0f3ad8bb38",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404381955,
-    "wof:lastmodified":1582325428,
+    "wof:lastmodified":1684353033,
     "wof:name":"Saint-Jean-De-Boiseau",
     "wof:parent_id":102069835,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":5827,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

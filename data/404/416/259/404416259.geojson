@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_58250",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-L\u00e9ger-des-Vignes",
+    "eurostat:nuts_2021_id":"58250",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC12",
+    "eurostat:nuts_2021_level_lau":"58250",
+    "eurostat:population":1886,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067700",
     "frgov:id":"BDCSURCO0000000009601194",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00108,
-    "geom:area_square_m":9131823.897337,
+    "geom:area_square_m":9131823.897336,
     "geom:bbox":"3.41931226526,46.8337269261,3.48791055282,46.8690864219",
     "geom:latitude":46.848944,
     "geom:longitude":3.45338,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683359,
         102191581,
@@ -58,7 +72,10 @@
         102069399
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_58250",
+        "eurostat:nuts_2021_id":"58250"
+    },
     "wof:coterminous":[
         101829433
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c3adc374a59de800874df75cb6b2c0d7",
+    "wof:geomhash":"37fb84fdef606a41f6b9fab1329ae950",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404416259,
-    "wof:lastmodified":1582325182,
+    "wof:lastmodified":1684353440,
     "wof:name":"Saint-Leger-Des-Vignes",
     "wof:parent_id":102069399,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1886,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

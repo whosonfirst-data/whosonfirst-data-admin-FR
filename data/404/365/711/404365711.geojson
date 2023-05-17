@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_24424",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Jean-d'Ataux",
+    "eurostat:nuts_2021_id":"24424",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI11",
+    "eurostat:nuts_2021_level_lau":"24424",
+    "eurostat:population":128,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040095",
     "frgov:id":"BDCSURCO0000000009608008",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001381,
-    "geom:area_square_m":12048427.692456,
+    "geom:area_square_m":12048427.692457,
     "geom:bbox":"0.361428120239,45.1137116536,0.427078919925,45.1534529881",
     "geom:latitude":45.134148,
     "geom:longitude":0.394048,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683331,
         102191581,
@@ -56,7 +70,10 @@
         102069003
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_24424",
+        "eurostat:nuts_2021_id":"24424"
+    },
     "wof:coterminous":[
         1360674395
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"06f56537504bda1be7dc63444c9f9708",
+    "wof:geomhash":"c43241b327584c47fc24f3336f3d1802",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404365711,
-    "wof:lastmodified":1582324044,
+    "wof:lastmodified":1684352834,
     "wof:name":"Saint-Jean-D'Ataux",
     "wof:parent_id":102069003,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":128,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

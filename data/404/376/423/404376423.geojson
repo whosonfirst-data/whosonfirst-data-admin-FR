@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_36181",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Aubin",
+    "eurostat:nuts_2021_id":"36181",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB03",
+    "eurostat:nuts_2021_level_lau":"36181",
+    "eurostat:population":180,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068880",
     "frgov:id":"BDCSURCO0000000009601226",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003384,
-    "geom:area_square_m":28611256.008843,
+    "geom:area_square_m":28611256.008842,
     "geom:bbox":"1.99831413177,46.824983098,2.07282346944,46.9102050798",
     "geom:latitude":46.861434,
     "geom:longitude":2.031967,
@@ -103,6 +115,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683311,
         102191581,
@@ -112,7 +126,10 @@
         102066769
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_36181",
+        "eurostat:nuts_2021_id":"36181"
+    },
     "wof:coterminous":[
         1360675427
     ],
@@ -120,7 +137,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"57aa592823271310c234661373fc2c49",
+    "wof:geomhash":"c6d38494ae690cbc2cbaf61b108b40a0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -133,11 +150,13 @@
         }
     ],
     "wof:id":404376423,
-    "wof:lastmodified":1582324665,
+    "wof:lastmodified":1684352969,
     "wof:name":"Saint-Aubin",
     "wof:parent_id":102066769,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":180,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

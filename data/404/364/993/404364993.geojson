@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_37211",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Branchs",
+    "eurostat:nuts_2021_id":"37211",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB04",
+    "eurostat:nuts_2021_level_lau":"37211",
+    "eurostat:population":2607,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072650",
     "frgov:id":"BDCSURCO0000000009599844",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.006172,
-    "geom:area_square_m":51829592.594041,
+    "geom:area_square_m":51829592.594043,
     "geom:bbox":"0.679932778868,47.1706996663,0.834663955486,47.2621237729",
     "geom:latitude":47.224506,
     "geom:longitude":0.758428,
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683575,
         102191581,
@@ -135,7 +149,10 @@
         102070403
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_37211",
+        "eurostat:nuts_2021_id":"37211"
+    },
     "wof:coterminous":[
         101765669
     ],
@@ -143,7 +160,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"37281d2991c529fe56d1a12029b1c9ce",
+    "wof:geomhash":"3852616a9042f55fd8c4547e0cddadd9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -156,11 +173,13 @@
         }
     ],
     "wof:id":404364993,
-    "wof:lastmodified":1582324249,
+    "wof:lastmodified":1684352824,
     "wof:name":"Saint-Branchs",
     "wof:parent_id":102070403,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2607,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

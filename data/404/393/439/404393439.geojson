@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_14342",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Isigny-sur-Mer",
+    "eurostat:nuts_2021_id":"14342",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD11",
+    "eurostat:nuts_2021_level_lau":"14342",
+    "eurostat:population":3639,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066801",
     "frgov:id":"BDCSURCO0000000009585483",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.007683,
-    "geom:area_square_m":61968496.051959,
+    "geom:area_square_m":61968496.051956,
     "geom:bbox":"-1.14074145514,49.2439954485,-0.973113021704,49.326691479",
     "geom:latitude":49.285081,
     "geom:longitude":-1.069844,
@@ -135,6 +147,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683579,
         102191581,
@@ -145,7 +159,10 @@
         102067951
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_14342",
+        "eurostat:nuts_2021_id":"14342"
+    },
     "wof:coterminous":[
         1125946103
     ],
@@ -153,7 +170,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7a2331de93afaa2e13bf73bb5b98b86c",
+    "wof:geomhash":"e1bfbee8727234b76e8b5bdde4855a96",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -167,11 +184,13 @@
         }
     ],
     "wof:id":404393439,
-    "wof:lastmodified":1582325011,
+    "wof:lastmodified":1684353173,
     "wof:name":"Vouilly",
     "wof:parent_id":102067951,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3639,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

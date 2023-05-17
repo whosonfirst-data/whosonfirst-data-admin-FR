@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_58266",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-R\u00e9v\u00e9rien",
+    "eurostat:nuts_2021_id":"58266",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC12",
+    "eurostat:nuts_2021_level_lau":"58266",
+    "eurostat:population":160,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067692",
     "frgov:id":"BDCSURCO0000000009599782",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002224,
-    "geom:area_square_m":18680242.910451,
+    "geom:area_square_m":18680242.91045,
     "geom:bbox":"3.47294262511,47.1756911221,3.55647430368,47.2303236204",
     "geom:latitude":47.203607,
     "geom:longitude":3.507803,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683359,
         102191581,
@@ -58,7 +72,10 @@
         102064355
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_58266",
+        "eurostat:nuts_2021_id":"58266"
+    },
     "wof:coterminous":[
         101889035
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e0e8c5b1758e4971760125cda23762d9",
+    "wof:geomhash":"97546db46140dceb8500a8def919f5bc",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404376179,
-    "wof:lastmodified":1582324677,
+    "wof:lastmodified":1684352965,
     "wof:name":"Saint-Reverien",
     "wof:parent_id":102064355,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":160,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

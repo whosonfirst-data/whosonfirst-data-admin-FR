@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_01054",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bourg-Saint-Christophe",
+    "eurostat:nuts_2021_id":"01054",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK21",
+    "eurostat:nuts_2021_level_lau":"01054",
+    "eurostat:population":1366,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240100883",
     "frgov:id":"BDCSURCO0000000009604714",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001035,
-    "geom:area_square_m":8905186.635582,
+    "geom:area_square_m":8905186.635581,
     "geom:bbox":"5.11225120247,45.865669007,5.16669134038,45.9032180057",
     "geom:latitude":45.886314,
     "geom:longitude":5.143547,
@@ -162,6 +174,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683153,
         102191581,
@@ -172,7 +186,10 @@
         102067787
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_01054",
+        "eurostat:nuts_2021_id":"01054"
+    },
     "wof:coterminous":[
         101893975
     ],
@@ -180,7 +197,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4a6b4f3f0c50da3cf99e24ca3a884091",
+    "wof:geomhash":"c1be46bcf9d71908f05db2ff915aa28d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -194,11 +211,13 @@
         }
     ],
     "wof:id":404396405,
-    "wof:lastmodified":1582324078,
+    "wof:lastmodified":1684353207,
     "wof:name":"Bourg-Saint-Christophe",
     "wof:parent_id":102067787,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1366,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

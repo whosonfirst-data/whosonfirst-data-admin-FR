@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_24419",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Germain-et-Mons",
+    "eurostat:nuts_2021_id":"24419",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI11",
+    "eurostat:nuts_2021_level_lau":"24419",
+    "eurostat:population":829,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070647",
     "frgov:id":"BDCSURCO0000000009609057",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001619,
-    "geom:area_square_m":14198439.240145,
+    "geom:area_square_m":14198439.240144,
     "geom:bbox":"0.563361912968,44.7958210768,0.617864470785,44.8539396783",
     "geom:latitude":44.828608,
     "geom:longitude":0.590943,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683331,
         102191581,
@@ -56,7 +70,10 @@
         102071471
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_24419",
+        "eurostat:nuts_2021_id":"24419"
+    },
     "wof:coterminous":[
         1360678711
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"60ba4f37fcb2aa9943aff6b820a06492",
+    "wof:geomhash":"ade4be9b7b4a26c3ee750cad638d2256",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404410485,
-    "wof:lastmodified":1582325146,
+    "wof:lastmodified":1684353372,
     "wof:name":"Saint-Germain-Et-Mons",
     "wof:parent_id":102071471,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":829,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

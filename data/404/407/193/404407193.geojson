@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_59544",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Saulve",
+    "eurostat:nuts_2021_id":"59544",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE1",
+    "eurostat:nuts_2021_level_3":"FRE11",
+    "eurostat:nuts_2021_level_lau":"59544",
+    "eurostat:population":11207,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"245901160",
     "frgov:id":"BDCSURCO0000000009581108",
     "frgov:insee_arr":"6",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001523,
-    "geom:area_square_m":12013457.444242,
+    "geom:area_square_m":12013457.444243,
     "geom:bbox":"3.54121904933,50.3530030836,3.59664656841,50.4063967382",
     "geom:latitude":50.375542,
     "geom:longitude":3.566359,
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683445,
         102191581,
@@ -136,7 +150,10 @@
         102071847
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_59544",
+        "eurostat:nuts_2021_id":"59544"
+    },
     "wof:coterminous":[
         101840761
     ],
@@ -144,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"de2f09180616aed4f082ad37d6c1827b",
+    "wof:geomhash":"a999f6b1b5669731e7c47329caaa9a4c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +175,13 @@
         }
     ],
     "wof:id":404407193,
-    "wof:lastmodified":1582324488,
+    "wof:lastmodified":1684353334,
     "wof:name":"Saint-Saulve",
     "wof:parent_id":102071847,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":11207,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

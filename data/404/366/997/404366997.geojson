@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_26198",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mont\u00e9limar",
+    "eurostat:nuts_2021_id":"26198",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK23",
+    "eurostat:nuts_2021_level_lau":"26198",
+    "eurostat:population":39097,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040459",
     "frgov:id":"BDCSURCO0000000009610085",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.00526,
-    "geom:area_square_m":46345547.323194,
+    "geom:area_square_m":46345547.323198,
     "geom:bbox":"4.692052,44.519945,4.798734,44.589228",
     "geom:latitude":44.553743,
     "geom:longitude":4.74843,
@@ -48,17 +60,22 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85683523,
         102191581,
         85633147,
-        102072061,
-        136253037,
         404227851,
         1108826389,
-        85683523
+        136253037,
+        102072061
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_26198",
+        "eurostat:nuts_2021_id":"26198"
+    },
     "wof:coterminous":[
         101771759,
         102072061
@@ -67,7 +84,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9801b03e9101ed792668691335c7af75",
+    "wof:geomhash":"87ec54c5ae48501cbd44833b16ebaaa6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -81,11 +98,13 @@
         }
     ],
     "wof:id":404366997,
-    "wof:lastmodified":1608037972,
+    "wof:lastmodified":1684352852,
     "wof:name":"Montelimar",
     "wof:parent_id":102072061,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":39097,
+    "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

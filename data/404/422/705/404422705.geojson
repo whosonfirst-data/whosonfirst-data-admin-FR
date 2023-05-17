@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_44129",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Pontch\u00e2teau",
+    "eurostat:nuts_2021_id":"44129",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG01",
+    "eurostat:nuts_2021_level_lau":"44129",
+    "eurostat:population":10684,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200000438",
     "frgov:id":"BDCSURCO0000000009598447",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.006644,
-    "geom:area_square_m":55573349.109154,
+    "geom:area_square_m":55573349.109153,
     "geom:bbox":"-2.15601475922,47.3790957473,-2.0282017274,47.4935004395",
     "geom:latitude":47.433598,
     "geom:longitude":-2.095289,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683233,
         102191581,
@@ -57,7 +71,10 @@
         102070031
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_44129",
+        "eurostat:nuts_2021_id":"44129"
+    },
     "wof:coterminous":[
         101764687
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"32ec32588b713f298f80bf7c11509ca8",
+    "wof:geomhash":"b2992bbece3369574189a343702004e5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404422705,
-    "wof:lastmodified":1582324288,
+    "wof:lastmodified":1684353518,
     "wof:name":"Pontchateau",
     "wof:parent_id":102070031,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":10684,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

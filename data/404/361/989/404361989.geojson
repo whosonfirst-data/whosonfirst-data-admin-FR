@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_85268",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-R\u00e9v\u00e9rend",
+    "eurostat:nuts_2021_id":"85268",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG05",
+    "eurostat:nuts_2021_level_lau":"85268",
+    "eurostat:population":1430,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200023778",
     "frgov:id":"BDCSURCO0000000009601503",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001855,
-    "geom:area_square_m":15730313.202045,
+    "geom:area_square_m":15730313.202046,
     "geom:bbox":"-1.87509718257,46.6848389592,-1.79555749453,46.727781075",
     "geom:latitude":46.705894,
     "geom:longitude":-1.831596,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683409,
         102191581,
@@ -57,7 +71,10 @@
         102069209
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_85268",
+        "eurostat:nuts_2021_id":"85268"
+    },
     "wof:coterminous":[
         101888963
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"95881bddf9a08ea84020286ba03c286a",
+    "wof:geomhash":"f7a0ddfac39f51243f8aa18534947b46",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404361989,
-    "wof:lastmodified":1582324767,
+    "wof:lastmodified":1684352781,
     "wof:name":"Saint-Reverend",
     "wof:parent_id":102069209,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1430,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

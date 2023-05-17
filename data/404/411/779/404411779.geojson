@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_57090",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Blanche-\u00c9glise",
+    "eurostat:nuts_2021_id":"57090",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF33",
+    "eurostat:nuts_2021_level_lau":"57090",
+    "eurostat:population":113,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"245701206",
     "frgov:id":"BDCSURCO0000000009589518",
     "frgov:insee_arr":"5",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.000836,
-    "geom:area_square_m":6810667.981959,
+    "geom:area_square_m":6810667.98196,
     "geom:bbox":"6.64995202193,48.77488194,6.70056602629,48.8064830927",
     "geom:latitude":48.789485,
     "geom:longitude":6.676547,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683271,
         102191581,
@@ -58,7 +72,10 @@
         102065711
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_57090",
+        "eurostat:nuts_2021_id":"57090"
+    },
     "wof:coterminous":[
         101882689
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4599641e3bdaac072dbefbc02b99e40a",
+    "wof:geomhash":"628f1f7a054f1145526a8438be156921",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404411779,
-    "wof:lastmodified":1582325168,
+    "wof:lastmodified":1684353387,
     "wof:name":"Blanche-Eglise",
     "wof:parent_id":102065711,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":113,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

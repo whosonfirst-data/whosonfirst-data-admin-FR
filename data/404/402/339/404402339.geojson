@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_28036",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Berch\u00e8res-sur-Vesgre",
+    "eurostat:nuts_2021_id":"28036",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB02",
+    "eurostat:nuts_2021_level_lau":"28036",
+    "eurostat:population":849,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040277",
     "frgov:id":"BDCSURCO0000000009589783",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001499,
-    "geom:area_square_m":12197740.429654,
+    "geom:area_square_m":12197740.429653,
     "geom:bbox":"1.51818037537,48.8208981722,1.5840515024,48.8678070658",
     "geom:latitude":48.844078,
     "geom:longitude":1.553189,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683189,
         102191581,
@@ -57,7 +71,10 @@
         102064381
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_28036",
+        "eurostat:nuts_2021_id":"28036"
+    },
     "wof:coterminous":[
         1126003927
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"bfc7ccf10ddd03537886dae1c238c1a4",
+    "wof:geomhash":"a7a1017a47ddac9577fa772eeabfc603",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404402339,
-    "wof:lastmodified":1582325270,
+    "wof:lastmodified":1684353276,
     "wof:name":"Bercheres-Sur-Vesgre",
     "wof:parent_id":102064381,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":849,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

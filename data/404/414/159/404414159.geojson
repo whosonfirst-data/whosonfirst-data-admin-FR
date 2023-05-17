@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_74229",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Cergues",
+    "eurostat:nuts_2021_id":"74229",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK28",
+    "eurostat:nuts_2021_level_lau":"74229",
+    "eurostat:population":3613,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200011773",
     "frgov:id":"BDCSURCO0000000009602979",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001461,
-    "geom:area_square_m":12500304.524175,
+    "geom:area_square_m":12500304.524174,
     "geom:bbox":"6.2944704694,46.2116018828,6.35471735576,46.2550123556",
     "geom:latitude":46.230898,
     "geom:longitude":6.325358,
@@ -112,6 +124,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683227,
         102191581,
@@ -122,7 +136,10 @@
         102065179
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_74229",
+        "eurostat:nuts_2021_id":"74229"
+    },
     "wof:coterminous":[
         1360679101
     ],
@@ -130,7 +147,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"252693a96bbe2c892469bee8e4698bca",
+    "wof:geomhash":"ae3920a2643a20648142092c8b46279d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -144,11 +161,13 @@
         }
     ],
     "wof:id":404414159,
-    "wof:lastmodified":1582324334,
+    "wof:lastmodified":1684353416,
     "wof:name":"Saint-Cergues",
     "wof:parent_id":102065179,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3613,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

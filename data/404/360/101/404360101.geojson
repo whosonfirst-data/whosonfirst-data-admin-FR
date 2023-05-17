@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_85265",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Pierre-le-Vieux",
+    "eurostat:nuts_2021_id":"85265",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG05",
+    "eurostat:nuts_2021_level_lau":"85265",
+    "eurostat:population":961,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248500563",
     "frgov:id":"BDCSURCO0000000009602723",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002734,
-    "geom:area_square_m":23310668.440121,
+    "geom:area_square_m":23310668.44012,
     "geom:bbox":"-0.792975515684,46.3790742647,-0.69040014077,46.4218235392",
     "geom:latitude":46.400639,
     "geom:longitude":-0.743351,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683409,
         102191581,
@@ -57,7 +71,10 @@
         102066459
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_85265",
+        "eurostat:nuts_2021_id":"85265"
+    },
     "wof:coterminous":[
         101891861
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"dd2ebc9b3a060f305f11aa853e6ac232",
+    "wof:geomhash":"d5ac912627ebef06e8b14eefbf1159d4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404360101,
-    "wof:lastmodified":1582325052,
+    "wof:lastmodified":1684352755,
     "wof:name":"Saint-Pierre-Le-Vieux",
     "wof:parent_id":102066459,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":961,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

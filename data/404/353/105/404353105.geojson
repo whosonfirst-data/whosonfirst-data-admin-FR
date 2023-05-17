@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_11351",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Laurent-de-la-Cabrerisse",
+    "eurostat:nuts_2021_id":"11351",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ11",
+    "eurostat:nuts_2021_level_lau":"11351",
+    "eurostat:population":736,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200035863",
     "frgov:id":"BDCSURCO0000000009615545",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683485,
         102191581,
@@ -58,7 +72,10 @@
         102067109
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_11351",
+        "eurostat:nuts_2021_id":"11351"
+    },
     "wof:coterminous":[
         101897845
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"757ccf742eb7dff41d78a59ff0bbee03",
+    "wof:geomhash":"f72701b95a2448c5ac5d28c01bf9cc34",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404353105,
-    "wof:lastmodified":1582324125,
+    "wof:lastmodified":1684352659,
     "wof:name":"Saint-Laurent-De-La-Cabrerisse",
     "wof:parent_id":102067109,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":736,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

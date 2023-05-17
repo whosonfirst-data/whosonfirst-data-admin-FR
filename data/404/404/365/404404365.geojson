@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_27222",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"\u00c9preville-en-Lieuvin",
+    "eurostat:nuts_2021_id":"27222",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD21",
+    "eurostat:nuts_2021_level_lau":"27222",
+    "eurostat:population":195,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066017",
     "frgov:id":"BDCSURCO0000000009586798",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000832,
-    "geom:area_square_m":6720688.275504,
+    "geom:area_square_m":6720688.275503,
     "geom:bbox":"0.51595890471,49.18862281,0.557139185053,49.223568531",
     "geom:latitude":49.205081,
     "geom:longitude":0.537577,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683283,
         102191581,
@@ -58,7 +72,10 @@
         102070273
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_27222",
+        "eurostat:nuts_2021_id":"27222"
+    },
     "wof:coterminous":[
         1125820333
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4354522db2459c9089eb298e2da3b4d7",
+    "wof:geomhash":"780bebf9bc6858a2c6fbf19bf7828397",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404404365,
-    "wof:lastmodified":1582325304,
+    "wof:lastmodified":1684353299,
     "wof:name":"Epreville-En-Lieuvin",
     "wof:parent_id":102070273,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":195,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_17366",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Martin-de-Coux",
+    "eurostat:nuts_2021_id":"17366",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI32",
+    "eurostat:nuts_2021_level_lau":"17366",
+    "eurostat:population":461,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041523",
     "frgov:id":"BDCSURCO0000000009608018",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001795,
-    "geom:area_square_m":15653816.752342,
+    "geom:area_square_m":15653816.752343,
     "geom:bbox":"-0.142403036936,45.1153787321,-0.0870905193535,45.175071096",
     "geom:latitude":45.146242,
     "geom:longitude":-0.110853,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683275,
         102191581,
@@ -58,7 +72,10 @@
         102067563
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_17366",
+        "eurostat:nuts_2021_id":"17366"
+    },
     "wof:coterminous":[
         1125815037
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"239ddb27c0f850a505e492c393735867",
+    "wof:geomhash":"818dbf220ccc740bcefd851241ab7257",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404373687,
-    "wof:lastmodified":1582325340,
+    "wof:lastmodified":1684352932,
     "wof:name":"Saint-Martin-De-Coux",
     "wof:parent_id":102067563,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":461,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_08472",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Viel-Saint-Remy",
+    "eurostat:nuts_2021_id":"08472",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF21",
+    "eurostat:nuts_2021_level_lau":"08472",
+    "eurostat:population":301,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240800862",
     "frgov:id":"BDCSURCO0000000009583791",
     "frgov:insee_arr":"2",
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683309,
         102191581,
@@ -136,7 +150,10 @@
         102067797
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_08472",
+        "eurostat:nuts_2021_id":"08472"
+    },
     "wof:coterminous":[
         1125893409
     ],
@@ -144,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a1785cc4aa4119a9ef69574bfd15731d",
+    "wof:geomhash":"5b3c00dc44123ff1d5a58acc70e36f1c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +175,13 @@
         }
     ],
     "wof:id":404382713,
-    "wof:lastmodified":1582324686,
+    "wof:lastmodified":1684353042,
     "wof:name":"Viel-Saint-Remy",
     "wof:parent_id":102067797,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":301,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

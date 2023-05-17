@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_31234",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gr\u00e8s",
+    "eurostat:nuts_2021_id":"31234",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ23",
+    "eurostat:nuts_2021_level_lau":"31234",
+    "eurostat:population":433,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071314",
     "frgov:id":"BDCSURCO0000000009612988",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000913,
-    "geom:area_square_m":8158517.078624,
+    "geom:area_square_m":8158517.078625,
     "geom:bbox":"1.0770053662,43.6996161539,1.11890066159,43.7381232057",
     "geom:latitude":43.719231,
     "geom:longitude":1.099627,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683397,
         102191581,
@@ -58,7 +72,10 @@
         102065569
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_31234",
+        "eurostat:nuts_2021_id":"31234"
+    },
     "wof:coterminous":[
         1125911045
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"77834744e2be0593b7b8e5ad89bdfa7b",
+    "wof:geomhash":"fb22a021807e0ab179263b1bc1d2065e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404416393,
-    "wof:lastmodified":1582325187,
+    "wof:lastmodified":1684353442,
     "wof:name":"Le Gres",
     "wof:parent_id":102065569,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":433,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_88318",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Moyemont",
+    "eurostat:nuts_2021_id":"88318",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF34",
+    "eurostat:nuts_2021_level_lau":"88318",
+    "eurostat:population":223,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200005957",
     "frgov:id":"BDCSURCO0000000009592737",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.001497,
-    "geom:area_square_m":12305551.235115,
+    "geom:area_square_m":12305551.235116,
     "geom:bbox":"6.52067352674,48.3177545369,6.57044214121,48.3697328757",
     "geom:latitude":48.344288,
     "geom:longitude":6.544453,
@@ -123,6 +135,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683223,
         102191581,
@@ -133,7 +147,10 @@
         102068185
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_88318",
+        "eurostat:nuts_2021_id":"88318"
+    },
     "wof:coterminous":[
         101884151
     ],
@@ -141,7 +158,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c81fb3fe84337edd04a8508f09827613",
+    "wof:geomhash":"52bc42a94d6bf5eba85935c54a5a40b0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -155,11 +172,13 @@
         }
     ],
     "wof:id":404396129,
-    "wof:lastmodified":1582324072,
+    "wof:lastmodified":1684353204,
     "wof:name":"Moyemont",
     "wof:parent_id":102068185,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":223,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_38490",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sillans",
+    "eurostat:nuts_2021_id":"38490",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK24",
+    "eurostat:nuts_2021_level_lau":"38490",
+    "eurostat:population":1909,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200059392",
     "frgov:id":"BDCSURCO0000000009606983",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001486,
-    "geom:area_square_m":12911862.897046,
+    "geom:area_square_m":12911862.897047,
     "geom:bbox":"5.36929020613,45.3245621458,5.41549853067,45.3696436645",
     "geom:latitude":45.347616,
     "geom:longitude":5.391713,
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683427,
         102191581,
@@ -139,7 +153,10 @@
         102069083
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_38490",
+        "eurostat:nuts_2021_id":"38490"
+    },
     "wof:coterminous":[
         101770579
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"37ad98b094e1391038eae30acc4e1554",
+    "wof:geomhash":"b3a18c84945f5acf45b05850664e63d3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404427139,
-    "wof:lastmodified":1582325242,
+    "wof:lastmodified":1684353570,
     "wof:name":"Sillans",
     "wof:parent_id":102069083,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1909,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

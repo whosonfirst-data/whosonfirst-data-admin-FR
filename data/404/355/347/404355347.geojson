@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_29035",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Coat-M\u00e9al",
+    "eurostat:nuts_2021_id":"29035",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH02",
+    "eurostat:nuts_2021_level_lau":"29035",
+    "eurostat:population":1100,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242900553",
     "frgov:id":"BDCSURCO0000000009591326",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683553,
         102191581,
@@ -57,7 +71,10 @@
         102068713
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_29035",
+        "eurostat:nuts_2021_id":"29035"
+    },
     "wof:coterminous":[
         101878763
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3d98eefed3b3ab43c3535cd691be2213",
+    "wof:geomhash":"c7c50d5a0ac50dba665e111f1e056b70",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404355347,
-    "wof:lastmodified":1582324189,
+    "wof:lastmodified":1684352690,
     "wof:name":"Coat-Meal",
     "wof:parent_id":102068713,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1100,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

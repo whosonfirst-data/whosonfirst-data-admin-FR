@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_52083",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Champsevraine",
+    "eurostat:nuts_2021_id":"52083",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF24",
+    "eurostat:nuts_2021_level_lau":"52083",
+    "eurostat:population":734,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070332",
     "frgov:id":"BDCSURCO0000000009596713",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.004915,
-    "geom:area_square_m":40852540.818457,
+    "geom:area_square_m":40852540.818455,
     "geom:bbox":"5.47537148296,47.7276731974,5.58143385009,47.8155720211",
     "geom:latitude":47.764577,
     "geom:longitude":5.527235,
@@ -118,6 +130,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683261,
         102191581,
@@ -128,7 +142,10 @@
         102066509
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_52083",
+        "eurostat:nuts_2021_id":"52083"
+    },
     "wof:coterminous":[
         1360675825
     ],
@@ -136,7 +153,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"996b69942e7c9909b1db5d6bd88116ea",
+    "wof:geomhash":"6f73949aa5d57a0f798f4980198687ef",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -150,11 +167,13 @@
         }
     ],
     "wof:id":404380191,
-    "wof:lastmodified":1582325379,
+    "wof:lastmodified":1684353013,
     "wof:name":"Champsevraine",
     "wof:parent_id":102066509,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":734,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

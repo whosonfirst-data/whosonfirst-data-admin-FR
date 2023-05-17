@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_79263",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Laurs",
+    "eurostat:nuts_2021_id":"79263",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI33",
+    "eurostat:nuts_2021_level_lau":"79263",
+    "eurostat:population":568,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069748",
     "frgov:id":"BDCSURCO0000000009602276",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000975,
-    "geom:area_square_m":8292490.305924,
+    "geom:area_square_m":8292490.305925,
     "geom:bbox":"-0.603097753795,46.5063986195,-0.553798945034,46.5449203682",
     "geom:latitude":46.527633,
     "geom:longitude":-0.581053,
@@ -121,6 +133,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683163,
         102191581,
@@ -131,7 +145,10 @@
         102066329
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_79263",
+        "eurostat:nuts_2021_id":"79263"
+    },
     "wof:coterminous":[
         1360677101
     ],
@@ -139,7 +156,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ead1849fbb9b5ec235113613286ba843",
+    "wof:geomhash":"d168b845afe8f4fa4a2f5d5a2bc75efe",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -153,11 +170,13 @@
         }
     ],
     "wof:id":404393395,
-    "wof:lastmodified":1582325015,
+    "wof:lastmodified":1684353172,
     "wof:name":"Saint-Laurs",
     "wof:parent_id":102066329,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":568,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

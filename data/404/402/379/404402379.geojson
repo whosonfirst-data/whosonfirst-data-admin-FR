@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_50081",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Br\u00e9ville-sur-Mer",
+    "eurostat:nuts_2021_id":"50081",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD12",
+    "eurostat:nuts_2021_level_lau":"50081",
+    "eurostat:population":778,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200042604",
     "frgov:id":"BDCSURCO0000000009589417",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000823,
-    "geom:area_square_m":6690325.322433,
+    "geom:area_square_m":6690325.322434,
     "geom:bbox":"-1.57796213072,48.8546326863,-1.53249000376,48.8848952483",
     "geom:latitude":48.869433,
     "geom:longitude":-1.558389,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683489,
         102191581,
@@ -58,7 +72,10 @@
         102065369
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_50081",
+        "eurostat:nuts_2021_id":"50081"
+    },
     "wof:coterminous":[
         1125772979
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"508b6dcfb180fa75336fcfd2081f44c7",
+    "wof:geomhash":"47f32a40c3e3025c6dcac7e9c1e83709",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404402379,
-    "wof:lastmodified":1582325275,
+    "wof:lastmodified":1684353277,
     "wof:name":"Breville-Sur-Mer",
     "wof:parent_id":102065369,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":778,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

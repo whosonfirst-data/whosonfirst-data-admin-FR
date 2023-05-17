@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_74195",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Musi\u00e8ges",
+    "eurostat:nuts_2021_id":"74195",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK28",
+    "eurostat:nuts_2021_level_lau":"74195",
+    "eurostat:population":416,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070852",
     "frgov:id":"BDCSURCO0000000009603915",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.000344,
-    "geom:area_square_m":2955915.871876,
+    "geom:area_square_m":2955915.871875,
     "geom:bbox":"5.93695470669,46.0031282743,5.96761266615,46.0257095695",
     "geom:latitude":46.014363,
     "geom:longitude":5.956493,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683227,
         102191581,
@@ -58,7 +72,10 @@
         102067141
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_74195",
+        "eurostat:nuts_2021_id":"74195"
+    },
     "wof:coterminous":[
         1125920523
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f2301ef77a6f7fdd6b8ee1b416893e7f",
+    "wof:geomhash":"33b70f79bb7e138ee22c4c92a13b429c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404412449,
-    "wof:lastmodified":1582324371,
+    "wof:lastmodified":1684353394,
     "wof:name":"Musieges",
     "wof:parent_id":102067141,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":416,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

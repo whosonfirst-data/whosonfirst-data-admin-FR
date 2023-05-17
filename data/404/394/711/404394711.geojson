@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_70463",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Gand",
+    "eurostat:nuts_2021_id":"70463",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC23",
+    "eurostat:nuts_2021_level_lau":"70463",
+    "eurostat:population":137,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247000698",
     "frgov:id":"BDCSURCO0000000009597978",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001925,
-    "geom:area_square_m":16079563.895864,
+    "geom:area_square_m":16079563.895865,
     "geom:bbox":"5.79881373542,47.4781942378,5.864553082,47.530299269",
     "geom:latitude":47.507835,
     "geom:longitude":5.833963,
@@ -120,6 +132,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683559,
         102191581,
@@ -130,7 +144,10 @@
         102065717
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_70463",
+        "eurostat:nuts_2021_id":"70463"
+    },
     "wof:coterminous":[
         1125933989
     ],
@@ -138,7 +155,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"823fdfcbdcb5f112ca2e42d3a73959e9",
+    "wof:geomhash":"909bcf5247942522433b35bca18da10f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -152,11 +169,13 @@
         }
     ],
     "wof:id":404394711,
-    "wof:lastmodified":1582325039,
+    "wof:lastmodified":1684353187,
     "wof:name":"Saint-Gand",
     "wof:parent_id":102065717,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":137,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_12221",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-F\u00e9lix-de-Lunel",
+    "eurostat:nuts_2021_id":"12221",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ22",
+    "eurostat:nuts_2021_level_lau":"12221",
+    "eurostat:population":347,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"241200641",
     "frgov:id":"BDCSURCO0000000009610135",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683301,
         102191581,
@@ -58,7 +72,10 @@
         102065673
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_12221",
+        "eurostat:nuts_2021_id":"12221"
+    },
     "wof:coterminous":[
         1125958465
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c37263b3ebb55d03d6148ebf6fec7afb",
+    "wof:geomhash":"5b02d5f8b43c7144c4502e504c9b9d65",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404353769,
-    "wof:lastmodified":1582324134,
+    "wof:lastmodified":1684352668,
     "wof:name":"Saint-Felix-De-Lunel",
     "wof:parent_id":102065673,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":347,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_55545",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Verdun",
+    "eurostat:nuts_2021_id":"55545",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF32",
+    "eurostat:nuts_2021_level_lau":"55545",
+    "eurostat:population":17475,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200049187",
     "frgov:id":"BDCSURCO0000000009587053",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Sous-pr\u00e9fecture",
     "geom:area":0.003921,
-    "geom:area_square_m":31715197.276718,
+    "geom:area_square_m":31715197.276721,
     "geom:bbox":"5.281223,49.112671,5.440997,49.175327",
     "geom:latitude":49.145537,
     "geom:longitude":5.36285,
@@ -207,24 +219,30 @@
     "reversegeo:longitude":5.357436,
     "src:geom":"frgov",
     "src:geom_alt":[],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85683297,
         102191581,
         85633147,
-        102071969,
-        136253037,
         404228117,
         1108826391,
-        85683297
+        136253037,
+        102071969
     ],
     "wof:breaches":[],
     "wof:concordance":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_55545",
+        "eurostat:nuts_2021_id":"55545"
+    },
     "wof:coterminous":[
         101828321,
         102071969
     ],
     "wof:country":"FR",
     "wof:created":1526508613,
-    "wof:geomhash":"1ed39214facc73d8506d908c39343758",
+    "wof:geomhash":"0228a9bdb3943033bc1d5edbb3fc5aea",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -238,11 +256,13 @@
         }
     ],
     "wof:id":1159321727,
-    "wof:lastmodified":1608039576,
+    "wof:lastmodified":1684353591,
     "wof:name":"Verdun",
     "wof:parent_id":102071969,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Sous-pr\u00e9fecture",
+    "wof:population":17475,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded":[],
     "wof:superseded_by":[],

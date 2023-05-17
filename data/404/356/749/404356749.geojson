@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_03256",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Priest-en-Murat",
+    "eurostat:nuts_2021_id":"03256",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK11",
+    "eurostat:nuts_2021_level_lau":"03256",
+    "eurostat:population":223,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071512",
     "frgov:id":"BDCSURCO0000000009602876",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.003016,
-    "geom:area_square_m":25737056.932174,
+    "geom:area_square_m":25737056.932173,
     "geom:bbox":"2.84850501929,46.3302341568,2.96325537273,46.3848172235",
     "geom:latitude":46.355719,
     "geom:longitude":2.902295,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683293,
         102191581,
@@ -58,7 +72,10 @@
         102068327
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_03256",
+        "eurostat:nuts_2021_id":"03256"
+    },
     "wof:coterminous":[
         1125938185
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e94c318b450ab4eb4fbe90348abb8a18",
+    "wof:geomhash":"a4c703009a505bf899a384cc0fa53c34",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404356749,
-    "wof:lastmodified":1582324931,
+    "wof:lastmodified":1684352708,
     "wof:name":"Saint-Priest-En-Murat",
     "wof:parent_id":102068327,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":223,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

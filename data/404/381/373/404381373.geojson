@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_88242",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hou\u00e9ville",
+    "eurostat:nuts_2021_id":"88242",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF34",
+    "eurostat:nuts_2021_level_lau":"88242",
+    "eurostat:population":50,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068559",
     "frgov:id":"BDCSURCO0000000009592791",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683223,
         102191581,
@@ -58,7 +72,10 @@
         102067663
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_88242",
+        "eurostat:nuts_2021_id":"88242"
+    },
     "wof:coterminous":[
         1126056497
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8eb4c2fb126f929463a3634dc68278c1",
+    "wof:geomhash":"0346f742b6a1e350300847b6cb0e4c52",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404381373,
-    "wof:lastmodified":1582325441,
+    "wof:lastmodified":1684353026,
     "wof:name":"Houeville",
     "wof:parent_id":102067663,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":50,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

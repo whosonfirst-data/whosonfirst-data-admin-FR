@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_28046",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Boissy-l\u00e8s-Perche",
+    "eurostat:nuts_2021_id":"28046",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB02",
+    "eurostat:nuts_2021_level_lau":"28046",
+    "eurostat:population":498,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069912",
     "frgov:id":"BDCSURCO0000000009591167",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683189,
         102191581,
@@ -57,7 +71,10 @@
         102066915
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_28046",
+        "eurostat:nuts_2021_id":"28046"
+    },
     "wof:coterminous":[
         101880849
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ba675c10619c942468bb6d692ec99a06",
+    "wof:geomhash":"96bcb4137c7ad5a0022b74742a26147a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404348551,
-    "wof:lastmodified":1582324574,
+    "wof:lastmodified":1684352596,
     "wof:name":"Boissy-Les-Perche",
     "wof:parent_id":102066915,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":498,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

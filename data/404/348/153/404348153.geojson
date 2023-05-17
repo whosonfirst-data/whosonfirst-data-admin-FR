@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_54488",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Sauveur",
+    "eurostat:nuts_2021_id":"54488",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF31",
+    "eurostat:nuts_2021_level_lau":"54488",
+    "eurostat:population":39,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069433",
     "frgov:id":"BDCSURCO0000000009591367",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.002368,
-    "geom:area_square_m":19393188.900481,
+    "geom:area_square_m":19393188.900482,
     "geom:bbox":"6.93750976379,48.5033497698,7.07710528587,48.5452963321",
     "geom:latitude":48.523093,
     "geom:longitude":7.002575,
@@ -94,6 +106,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683343,
         102191581,
@@ -104,7 +118,10 @@
         102065929
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_54488",
+        "eurostat:nuts_2021_id":"54488"
+    },
     "wof:coterminous":[
         1360672613
     ],
@@ -112,7 +129,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"912f696661e3065c82ef4b67e35290c1",
+    "wof:geomhash":"bf90c842f517e7322b24cc9694f00849",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -126,11 +143,13 @@
         }
     ],
     "wof:id":404348153,
-    "wof:lastmodified":1582324584,
+    "wof:lastmodified":1684352591,
     "wof:name":"Saint-Sauveur",
     "wof:parent_id":102065929,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":39,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

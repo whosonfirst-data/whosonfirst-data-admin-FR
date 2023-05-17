@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_74153",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lucinges",
+    "eurostat:nuts_2021_id":"74153",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK28",
+    "eurostat:nuts_2021_level_lau":"74153",
+    "eurostat:population":1625,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200011773",
     "frgov:id":"BDCSURCO0000000009603190",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.000895,
-    "geom:area_square_m":7656450.968187,
+    "geom:area_square_m":7656450.968188,
     "geom:bbox":"6.30294953092,46.1802352662,6.35336685855,46.2114826999",
     "geom:latitude":46.194206,
     "geom:longitude":6.329698,
@@ -120,6 +132,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683227,
         102191581,
@@ -130,7 +144,10 @@
         102065179
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_74153",
+        "eurostat:nuts_2021_id":"74153"
+    },
     "wof:coterminous":[
         101757297
     ],
@@ -138,7 +155,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8821dbdc74556b791ea924c878d16a9e",
+    "wof:geomhash":"360b9b53e3b92d5fb85035ab31cf6b34",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -152,11 +169,13 @@
         }
     ],
     "wof:id":404396553,
-    "wof:lastmodified":1582324075,
+    "wof:lastmodified":1684353209,
     "wof:name":"Lucinges",
     "wof:parent_id":102065179,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1625,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

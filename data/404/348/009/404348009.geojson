@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_42246",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Julien-Molin-Molette",
+    "eurostat:nuts_2021_id":"42246",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK25",
+    "eurostat:nuts_2021_level_lau":"42246",
+    "eurostat:population":1147,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244200622",
     "frgov:id":"BDCSURCO0000000009607250",
     "frgov:insee_arr":"3",
@@ -123,6 +135,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683377,
         102191581,
@@ -133,7 +147,10 @@
         102064775
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_42246",
+        "eurostat:nuts_2021_id":"42246"
+    },
     "wof:coterminous":[
         101769551
     ],
@@ -141,7 +158,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c0fab13e17a3be07a2d166f3962d1a08",
+    "wof:geomhash":"df1ffe2d7ff2a253ed569056c14d9c7e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -155,11 +172,13 @@
         }
     ],
     "wof:id":404348009,
-    "wof:lastmodified":1582324580,
+    "wof:lastmodified":1684352588,
     "wof:name":"Saint-Julien-Molin-Molette",
     "wof:parent_id":102064775,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1147,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

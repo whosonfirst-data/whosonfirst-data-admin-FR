@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_87135",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Auvent",
+    "eurostat:nuts_2021_id":"87135",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI23",
+    "eurostat:nuts_2021_level_lau":"87135",
+    "eurostat:population":962,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066520",
     "frgov:id":"BDCSURCO0000000009605364",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003873,
-    "geom:area_square_m":33383262.470116,
+    "geom:area_square_m":33383262.470115,
     "geom:bbox":"0.871950181719,45.7681226467,0.975608426892,45.8530574947",
     "geom:latitude":45.81054,
     "geom:longitude":0.921352,
@@ -132,6 +144,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683531,
         102191581,
@@ -142,7 +156,10 @@
         102069037
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_87135",
+        "eurostat:nuts_2021_id":"87135"
+    },
     "wof:coterminous":[
         101892553
     ],
@@ -150,7 +167,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"54d693b671815ab03b4fb8a01731d41a",
+    "wof:geomhash":"09efe8099d0a1807216a8e1104fd446b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -164,11 +181,13 @@
         }
     ],
     "wof:id":404368187,
-    "wof:lastmodified":1582324872,
+    "wof:lastmodified":1684352868,
     "wof:name":"Saint-Auvent",
     "wof:parent_id":102069037,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":962,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

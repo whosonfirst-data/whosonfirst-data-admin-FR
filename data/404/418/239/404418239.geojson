@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_27599",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Pierre-la-Garenne",
+    "eurostat:nuts_2021_id":"27599",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD21",
+    "eurostat:nuts_2021_level_lau":"27599",
+    "eurostat:population":912,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242700623",
     "frgov:id":"BDCSURCO0000000009587236",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00096,
-    "geom:area_square_m":7767541.977152,
+    "geom:area_square_m":7767541.977151,
     "geom:bbox":"1.36381589136,49.1298593263,1.41829515238,49.1684819942",
     "geom:latitude":49.147736,
     "geom:longitude":1.391295,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683283,
         102191581,
@@ -58,7 +72,10 @@
         102071175
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_27599",
+        "eurostat:nuts_2021_id":"27599"
+    },
     "wof:coterminous":[
         101877685
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c0a49c3a533451a18f819dfe0599e95d",
+    "wof:geomhash":"ebae0136501eef5dc7f62aae25b3b295",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404418239,
-    "wof:lastmodified":1582325228,
+    "wof:lastmodified":1684353463,
     "wof:name":"Saint-Pierre-La-Garenne",
     "wof:parent_id":102071175,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":912,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

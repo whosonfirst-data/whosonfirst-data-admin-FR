@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_60366",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Litz",
+    "eurostat:nuts_2021_id":"60366",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE22",
+    "eurostat:nuts_2021_level_lau":"60366",
+    "eurostat:population":356,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067999",
     "frgov:id":"BDCSURCO0000000009584990",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001249,
-    "geom:area_square_m":10042107.688532,
+    "geom:area_square_m":10042107.688533,
     "geom:bbox":"2.29963332617,49.4070482206,2.35670983464,49.448458856",
     "geom:latitude":49.426283,
     "geom:longitude":2.323757,
@@ -57,6 +69,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683289,
         102191581,
@@ -67,7 +81,10 @@
         102065713
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_60366",
+        "eurostat:nuts_2021_id":"60366"
+    },
     "wof:coterminous":[
         1125804687
     ],
@@ -75,7 +92,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b1670668fbb94313e0239356bc4ba7a8",
+    "wof:geomhash":"96e23963653a45efc0bce06106ed28ea",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -89,11 +106,13 @@
         }
     ],
     "wof:id":404400295,
-    "wof:lastmodified":1582324508,
+    "wof:lastmodified":1684353253,
     "wof:name":"Litz",
     "wof:parent_id":102065713,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":356,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

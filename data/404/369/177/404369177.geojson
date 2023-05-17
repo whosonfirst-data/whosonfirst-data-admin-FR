@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_18257",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sury-pr\u00e8s-L\u00e9r\u00e9",
+    "eurostat:nuts_2021_id":"18257",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB01",
+    "eurostat:nuts_2021_level_lau":"18257",
+    "eurostat:population":711,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069227",
     "frgov:id":"BDCSURCO0000000009598355",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002148,
-    "geom:area_square_m":17946674.825194,
+    "geom:area_square_m":17946674.825195,
     "geom:bbox":"2.78794743137,47.4622252371,2.8971741788,47.507764057",
     "geom:latitude":47.482976,
     "geom:longitude":2.845086,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683549,
         102191581,
@@ -57,7 +71,10 @@
         102067183
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_18257",
+        "eurostat:nuts_2021_id":"18257"
+    },
     "wof:coterminous":[
         1125822407
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"818055e693dca6109721713d49bc4837",
+    "wof:geomhash":"35dd62ac97013e51dc4ef020dc624d1a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404369177,
-    "wof:lastmodified":1582324921,
+    "wof:lastmodified":1684352881,
     "wof:name":"Sury-Pres-Lere",
     "wof:parent_id":102067183,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":711,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_23208",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-L\u00e9ger-le-Gu\u00e9r\u00e9tois",
+    "eurostat:nuts_2021_id":"23208",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI22",
+    "eurostat:nuts_2021_level_lau":"23208",
+    "eurostat:population":429,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200034825",
     "frgov:id":"BDCSURCO0000000009603816",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00164,
-    "geom:area_square_m":14048115.881452,
+    "geom:area_square_m":14048115.881453,
     "geom:bbox":"1.78153761473,46.1272198177,1.84711025808,46.1738184817",
     "geom:latitude":46.151035,
     "geom:longitude":1.81515,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683179,
         102191581,
@@ -58,7 +72,10 @@
         102068749
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_23208",
+        "eurostat:nuts_2021_id":"23208"
+    },
     "wof:coterminous":[
         101892593
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"fb35337d03b0b97178b90a01723d23fb",
+    "wof:geomhash":"6278dbf64fe240b3f88157f954dfcd57",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404368203,
-    "wof:lastmodified":1582324871,
+    "wof:lastmodified":1684352868,
     "wof:name":"Saint-Leger-Le-Gueretois",
     "wof:parent_id":102068749,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":429,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

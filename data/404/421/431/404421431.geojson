@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_63333",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Denis-Combarnazat",
+    "eurostat:nuts_2021_id":"63333",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK14",
+    "eurostat:nuts_2021_level_lau":"63333",
+    "eurostat:population":223,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071199",
     "frgov:id":"BDCSURCO0000000009604507",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001189,
-    "geom:area_square_m":10220653.599286,
+    "geom:area_square_m":10220653.599285,
     "geom:bbox":"3.32156572311,45.9558634497,3.37918348063,45.9931300552",
     "geom:latitude":45.97565,
     "geom:longitude":3.348339,
@@ -114,6 +126,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683471,
         102191581,
@@ -124,7 +138,10 @@
         102070209
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_63333",
+        "eurostat:nuts_2021_id":"63333"
+    },
     "wof:coterminous":[
         1126049343
     ],
@@ -132,7 +149,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"bf7c5d90662c78d75e21895b43e47ffe",
+    "wof:geomhash":"ac3c9ba02bdbf1b16a318095508975b8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -146,11 +163,13 @@
         }
     ],
     "wof:id":404421431,
-    "wof:lastmodified":1582325100,
+    "wof:lastmodified":1684353502,
     "wof:name":"Saint-Denis-Combarnazat",
     "wof:parent_id":102070209,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":223,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

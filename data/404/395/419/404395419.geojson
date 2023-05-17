@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_25166",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"C\u00f4tebrune",
+    "eurostat:nuts_2021_id":"25166",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC21",
+    "eurostat:nuts_2021_level_lau":"25166",
+    "eurostat:population":80,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242504447",
     "frgov:id":"BDCSURCO0000000009599097",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683239,
         102191581,
@@ -58,7 +72,10 @@
         102064835
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_25166",
+        "eurostat:nuts_2021_id":"25166"
+    },
     "wof:coterminous":[
         1126046857
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7747005b7af3b1fc4ca9710088ceba9c",
+    "wof:geomhash":"26fde189377c249c2640e18359967057",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404395419,
-    "wof:lastmodified":1582324778,
+    "wof:lastmodified":1684353196,
     "wof:name":"Cotebrune",
     "wof:parent_id":102064835,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":80,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

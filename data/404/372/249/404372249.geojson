@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_45278",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sainte-Genevi\u00e8ve-des-Bois",
+    "eurostat:nuts_2021_id":"45278",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB06",
+    "eurostat:nuts_2021_level_lau":"45278",
+    "eurostat:population":1083,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067676",
     "frgov:id":"BDCSURCO0000000009596788",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.004915,
-    "geom:area_square_m":40815045.522234,
+    "geom:area_square_m":40815045.522232,
     "geom:bbox":"2.73972848999,47.7800388025,2.84654753376,47.8412082306",
     "geom:latitude":47.81153,
     "geom:longitude":2.793032,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683479,
         102191581,
@@ -57,7 +71,10 @@
         102065635
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_45278",
+        "eurostat:nuts_2021_id":"45278"
+    },
     "wof:coterminous":[
         101887167
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c075e61e01143c51f87daf10af29aaef",
+    "wof:geomhash":"b3b88cb21057b7432ce52f0c045f8ab5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404372249,
-    "wof:lastmodified":1582325470,
+    "wof:lastmodified":1684352915,
     "wof:name":"Sainte-Genevieve-Des-Bois",
     "wof:parent_id":102065635,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1083,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_14461",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mutr\u00e9cy",
+    "eurostat:nuts_2021_id":"14461",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD11",
+    "eurostat:nuts_2021_level_lau":"14461",
+    "eurostat:population":359,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066710",
     "frgov:id":"BDCSURCO0000000009587872",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000832,
-    "geom:area_square_m":6739687.290819,
+    "geom:area_square_m":6739687.29082,
     "geom:bbox":"-0.444537838541,49.0486089188,-0.40352481661,49.0853162749",
     "geom:latitude":49.064192,
     "geom:longitude":-0.422981,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683579,
         102191581,
@@ -58,7 +72,10 @@
         102065515
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_14461",
+        "eurostat:nuts_2021_id":"14461"
+    },
     "wof:coterminous":[
         101877807
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"fbe3631dc8f5fa00681fb0aba21e6614",
+    "wof:geomhash":"b298e51c61e02241c2af43cd92ef5181",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404391347,
-    "wof:lastmodified":1582324015,
+    "wof:lastmodified":1684353148,
     "wof:name":"Mutrecy",
     "wof:parent_id":102065515,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":359,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_66091",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Laman\u00e8re",
+    "eurostat:nuts_2021_id":"66091",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ15",
+    "eurostat:nuts_2021_level_lau":"66091",
+    "eurostat:population":46,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"246600548",
     "frgov:id":"BDCSURCO0000000009616791",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002592,
-    "geom:area_square_m":23687614.281803,
+    "geom:area_square_m":23687614.281804,
     "geom:bbox":"2.47599643828,42.3330548299,2.56225380151,42.3923909023",
     "geom:latitude":42.357624,
     "geom:longitude":2.519755,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683169,
         102191581,
@@ -58,7 +72,10 @@
         102066261
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_66091",
+        "eurostat:nuts_2021_id":"66091"
+    },
     "wof:coterminous":[
         1125886241
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4a1a412c8af0fe4d9cf8eb1184b81c20",
+    "wof:geomhash":"e020cb6680092020e4056aeb6eb54d65",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404398621,
-    "wof:lastmodified":1582324106,
+    "wof:lastmodified":1684353234,
     "wof:name":"Lamanere",
     "wof:parent_id":102066261,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":46,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

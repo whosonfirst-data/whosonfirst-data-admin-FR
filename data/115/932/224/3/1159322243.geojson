@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_93027",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Courneuve",
+    "eurostat:nuts_2021_id":"93027",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR106",
+    "eurostat:nuts_2021_level_lau":"93027",
+    "eurostat:population":43054,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200054781",
     "frgov:id":"BDCSURCO0000000009589201",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"ILE-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000921,
-    "geom:area_square_m":7483827.279048,
+    "geom:area_square_m":7483827.279049,
     "geom:bbox":"2.37467,48.916693,2.42203,48.951323",
     "geom:latitude":48.932209,
     "geom:longitude":2.399333,
@@ -159,23 +171,29 @@
     "reversegeo:longitude":2.399693,
     "src:geom":"frgov",
     "src:geom_alt":[],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85683475,
         102191581,
         85633147,
-        102066185,
         404228189,
         404227465,
-        85683475
+        102066185
     ],
     "wof:breaches":[],
     "wof:concordance":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_93027",
+        "eurostat:nuts_2021_id":"93027"
+    },
     "wof:coterminous":[
         101749825,
         102066185
     ],
     "wof:country":"FR",
     "wof:created":1526510342,
-    "wof:geomhash":"77a48610ec2b8cdf5639de2c3537e392",
+    "wof:geomhash":"9d411ca1c3710cb63552b355c4227165",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -188,11 +206,13 @@
         }
     ],
     "wof:id":1159322243,
-    "wof:lastmodified":1608039583,
+    "wof:lastmodified":1684353599,
     "wof:name":"La Courneuve",
     "wof:parent_id":102066185,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":43054,
+    "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded":[],
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_76281",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Fr\u00e9naye",
+    "eurostat:nuts_2021_id":"76281",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD22",
+    "eurostat:nuts_2021_level_lau":"76281",
+    "eurostat:population":2134,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200010700",
     "frgov:id":"BDCSURCO0000000009584361",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001248,
-    "geom:area_square_m":10019421.698,
+    "geom:area_square_m":10019421.698002,
     "geom:bbox":"0.54488350414,49.5016752319,0.606284458724,49.5397222193",
     "geom:latitude":49.521045,
     "geom:longitude":0.572921,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683251,
         102191581,
@@ -58,7 +72,10 @@
         102070295
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_76281",
+        "eurostat:nuts_2021_id":"76281"
+    },
     "wof:coterminous":[
         101813779
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e606f3ba0e22d512743deefcbe1409c1",
+    "wof:geomhash":"050a705e3161929a4fd24c6e4b191fea",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404407617,
-    "wof:lastmodified":1582324489,
+    "wof:lastmodified":1684353339,
     "wof:name":"La Frenaye",
     "wof:parent_id":102070295,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2134,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

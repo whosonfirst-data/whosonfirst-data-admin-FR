@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_21560",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Martin-de-la-Mer",
+    "eurostat:nuts_2021_id":"21560",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC11",
+    "eurostat:nuts_2021_level_lau":"21560",
+    "eurostat:population":296,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071173",
     "frgov:id":"BDCSURCO0000000009599489",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00279,
-    "geom:area_square_m":23424864.682759,
+    "geom:area_square_m":23424864.68276,
     "geom:bbox":"4.18674513486,47.2021875428,4.26897727729,47.2617215923",
     "geom:latitude":47.237557,
     "geom:longitude":4.229594,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683563,
         102191581,
@@ -58,7 +72,10 @@
         102067753
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_21560",
+        "eurostat:nuts_2021_id":"21560"
+    },
     "wof:coterminous":[
         1125815045
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ea07ecfbd94118de8d0397cc92887388",
+    "wof:geomhash":"f336d390417359a2b6f86f7100d8be64",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404354737,
-    "wof:lastmodified":1582324083,
+    "wof:lastmodified":1684352681,
     "wof:name":"Saint-Martin-De-La-Mer",
     "wof:parent_id":102067753,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":296,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

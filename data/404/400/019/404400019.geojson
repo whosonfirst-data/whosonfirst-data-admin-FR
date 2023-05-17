@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_27611",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Vigor",
+    "eurostat:nuts_2021_id":"27611",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD21",
+    "eurostat:nuts_2021_level_lau":"27611",
+    "eurostat:population":330,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071454",
     "frgov:id":"BDCSURCO0000000009587782",
     "frgov:insee_arr":"3",
@@ -124,6 +136,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683283,
         102191581,
@@ -134,7 +148,10 @@
         102070775
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_27611",
+        "eurostat:nuts_2021_id":"27611"
+    },
     "wof:coterminous":[
         1360677687
     ],
@@ -142,7 +159,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"48ca4de64caa58f61261c6425ff4cad0",
+    "wof:geomhash":"3c6230f10d1e0bf97bdb3198b0f3aab7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -156,11 +173,13 @@
         }
     ],
     "wof:id":404400019,
-    "wof:lastmodified":1582324515,
+    "wof:lastmodified":1684353250,
     "wof:name":"Saint-Vigor",
     "wof:parent_id":102070775,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":330,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

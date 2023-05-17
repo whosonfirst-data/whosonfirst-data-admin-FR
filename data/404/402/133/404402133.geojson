@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_29083",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"\u00cele-de-Sein",
+    "eurostat:nuts_2021_id":"29083",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH02",
+    "eurostat:nuts_2021_level_lau":"29083",
+    "eurostat:population":249,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"ZZZZZZZZZ",
     "frgov:id":"BDCSURCO0000000009594290",
     "frgov:insee_arr":"4",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683553,
         102191581,
@@ -57,7 +71,10 @@
         102070335
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_29083",
+        "eurostat:nuts_2021_id":"29083"
+    },
     "wof:coterminous":[
         1125783789
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"cb98566deee0c58a1884f80f6d8da71c",
+    "wof:geomhash":"d35131b90c89c0811363c7037cd65df1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404402133,
-    "wof:lastmodified":1582325270,
+    "wof:lastmodified":1684353274,
     "wof:name":"Ile-De-Sein",
     "wof:parent_id":102070335,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":249,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_58226",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Agnan",
+    "eurostat:nuts_2021_id":"58226",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC12",
+    "eurostat:nuts_2021_level_lau":"58226",
+    "eurostat:population":137,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067890",
     "frgov:id":"BDCSURCO0000000009599205",
     "frgov:insee_arr":"1",
@@ -102,6 +114,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683359,
         102191581,
@@ -112,7 +126,10 @@
         102066811
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_58226",
+        "eurostat:nuts_2021_id":"58226"
+    },
     "wof:coterminous":[
         1125941493
     ],
@@ -120,7 +137,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0bf5659fce39dab0feb7215708d11448",
+    "wof:geomhash":"48260bc9ac4d38670198f31e90623c16",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -134,11 +151,13 @@
         }
     ],
     "wof:id":404379673,
-    "wof:lastmodified":1582324523,
+    "wof:lastmodified":1684353007,
     "wof:name":"Saint-Agnan",
     "wof:parent_id":102066811,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":137,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

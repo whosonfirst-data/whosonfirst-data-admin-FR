@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_02808",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Villeret",
+    "eurostat:nuts_2021_id":"02808",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE21",
+    "eurostat:nuts_2021_level_lau":"02808",
+    "eurostat:population":300,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240200493",
     "frgov:id":"BDCSURCO0000000009582245",
     "frgov:insee_arr":"3",
@@ -99,6 +111,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683247,
         102191581,
@@ -109,7 +123,10 @@
         102065353
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_02808",
+        "eurostat:nuts_2021_id":"02808"
+    },
     "wof:coterminous":[
         101899853
     ],
@@ -117,7 +134,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5d86c75f2defc0fa2fd17ef397de643b",
+    "wof:geomhash":"a0823f9511c7b5c81706f0f4be52a6d3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -131,11 +148,13 @@
         }
     ],
     "wof:id":404375687,
-    "wof:lastmodified":1582325410,
+    "wof:lastmodified":1684352958,
     "wof:name":"Villeret",
     "wof:parent_id":102065353,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":300,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

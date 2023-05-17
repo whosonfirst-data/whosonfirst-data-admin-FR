@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_39286",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lavans-l\u00e8s-Saint-Claude",
+    "eurostat:nuts_2021_id":"39286",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC22",
+    "eurostat:nuts_2021_level_lau":"39286",
+    "eurostat:population":2437,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200026573",
     "frgov:id":"BDCSURCO0000000009602546",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001636,
-    "geom:area_square_m":13953045.329604,
+    "geom:area_square_m":13953045.329603,
     "geom:bbox":"5.75077942609,46.3657198573,5.82528262194,46.4237462839",
     "geom:latitude":46.391161,
     "geom:longitude":5.782942,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683173,
         102191581,
@@ -58,7 +72,10 @@
         102069183
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_39286",
+        "eurostat:nuts_2021_id":"39286"
+    },
     "wof:coterminous":[
         1175612639
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"bb999ecf7cead34b861f5928cc5331ab",
+    "wof:geomhash":"2dab1183571c72aa6fe6daa807ecff97",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404360133,
-    "wof:lastmodified":1582325042,
+    "wof:lastmodified":1684352755,
     "wof:name":"Lavans-Les-Saint-Claude",
     "wof:parent_id":102069183,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2437,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

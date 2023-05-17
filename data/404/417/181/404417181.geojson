@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_34099",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ferri\u00e8res-les-Verreries",
+    "eurostat:nuts_2021_id":"34099",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ13",
+    "eurostat:nuts_2021_level_lau":"34099",
+    "eurostat:population":50,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200022986",
     "frgov:id":"BDCSURCO0000000009612454",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001942,
-    "geom:area_square_m":17311871.796878,
+    "geom:area_square_m":17311871.796877,
     "geom:bbox":"3.76085604679,43.8395788781,3.84454874162,43.8908127435",
     "geom:latitude":43.867558,
     "geom:longitude":3.799947,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683419,
         102191581,
@@ -58,7 +72,10 @@
         102065963
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_34099",
+        "eurostat:nuts_2021_id":"34099"
+    },
     "wof:coterminous":[
         1126052245
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ee65d5b8e4478ffa7d56668a0b02ca2c",
+    "wof:geomhash":"088bbe8171f6bb554abfdf8fa26abb01",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404417181,
-    "wof:lastmodified":1582325133,
+    "wof:lastmodified":1684353451,
     "wof:name":"Ferrieres-Les-Verreries",
     "wof:parent_id":102065963,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":50,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

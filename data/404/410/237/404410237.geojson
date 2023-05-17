@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_22337",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"S\u00e9vignac",
+    "eurostat:nuts_2021_id":"22337",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH01",
+    "eurostat:nuts_2021_level_lau":"22337",
+    "eurostat:population":1088,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069391",
     "frgov:id":"BDCSURCO0000000009593459",
     "frgov:insee_arr":"4",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683515,
         102191581,
@@ -57,7 +71,10 @@
         102064829
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_22337",
+        "eurostat:nuts_2021_id":"22337"
+    },
     "wof:coterminous":[
         101881625
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"42353bbe7f9ef9cadd2c0e69928bfb33",
+    "wof:geomhash":"12b1aa1865290b7a962ade4144021b45",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404410237,
-    "wof:lastmodified":1582325157,
+    "wof:lastmodified":1684353369,
     "wof:name":"Sevignac",
     "wof:parent_id":102064829,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1088,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

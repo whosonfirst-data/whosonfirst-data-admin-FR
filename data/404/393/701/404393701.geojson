@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_80696",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sains-en-Ami\u00e9nois",
+    "eurostat:nuts_2021_id":"80696",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE23",
+    "eurostat:nuts_2021_level_lau":"80696",
+    "eurostat:population":1205,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248000531",
     "frgov:id":"BDCSURCO0000000009582978",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001238,
-    "geom:area_square_m":9876820.011677,
+    "geom:area_square_m":9876820.011676,
     "geom:bbox":"2.29988178863,49.7947433906,2.35194002304,49.8320114568",
     "geom:latitude":49.814393,
     "geom:longitude":2.323971,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683363,
         102191581,
@@ -58,7 +72,10 @@
         102066695
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_80696",
+        "eurostat:nuts_2021_id":"80696"
+    },
     "wof:coterminous":[
         101813861
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7afdb74d06906a0b404d3187827445da",
+    "wof:geomhash":"40a8312f0c7a69605115d411b87f39f8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404393701,
-    "wof:lastmodified":1582325007,
+    "wof:lastmodified":1684353176,
     "wof:name":"Sains-En-Amienois",
     "wof:parent_id":102066695,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1205,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

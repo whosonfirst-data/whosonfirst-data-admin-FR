@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_35285",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Just",
+    "eurostat:nuts_2021_id":"35285",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH03",
+    "eurostat:nuts_2021_level_lau":"35285",
+    "eurostat:population":1065,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243500741",
     "frgov:id":"BDCSURCO0000000009596557",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BRETAGNE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003364,
-    "geom:area_square_m":27960757.406751,
+    "geom:area_square_m":27960757.406753,
     "geom:bbox":"-2.02109220915,47.7415268231,-1.90905317162,47.7927070942",
     "geom:latitude":47.764381,
     "geom:longitude":-1.969137,
@@ -120,6 +132,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683461,
         102191581,
@@ -129,7 +143,10 @@
         102068967
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_35285",
+        "eurostat:nuts_2021_id":"35285"
+    },
     "wof:coterminous":[
         101885003
     ],
@@ -137,7 +154,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"47f6ff65633bc8b258d87cff14481344",
+    "wof:geomhash":"deb023145a9bf548c0b4b1f4a9b8244c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -150,11 +167,13 @@
         }
     ],
     "wof:id":404376553,
-    "wof:lastmodified":1582324671,
+    "wof:lastmodified":1684352970,
     "wof:name":"Saint-Just",
     "wof:parent_id":102068967,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1065,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

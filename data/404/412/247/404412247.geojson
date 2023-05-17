@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_89063",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Celle-Saint-Cyr",
+    "eurostat:nuts_2021_id":"89063",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC14",
+    "eurostat:nuts_2021_level_lau":"89063",
+    "eurostat:population":810,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248900938",
     "frgov:id":"BDCSURCO0000000009595754",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002258,
-    "geom:area_square_m":18690585.884594,
+    "geom:area_square_m":18690585.884595,
     "geom:bbox":"3.24127230607,47.9468799158,3.31630334785,48.0122655408",
     "geom:latitude":47.979555,
     "geom:longitude":3.283596,
@@ -135,6 +147,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683503,
         102191581,
@@ -145,7 +159,10 @@
         102069213
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_89063",
+        "eurostat:nuts_2021_id":"89063"
+    },
     "wof:coterminous":[
         1125907553
     ],
@@ -153,7 +170,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"48c7b22ecd7c11d18f22799fa4f93c31",
+    "wof:geomhash":"4268924f81a23397633a42c9b5bf9c66",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -167,11 +184,13 @@
         }
     ],
     "wof:id":404412247,
-    "wof:lastmodified":1582324380,
+    "wof:lastmodified":1684353392,
     "wof:name":"La Celle-Saint-Cyr",
     "wof:parent_id":102069213,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":810,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_04224",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ubraye",
+    "eurostat:nuts_2021_id":"04224",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL01",
+    "eurostat:nuts_2021_level_lau":"04224",
+    "eurostat:population":92,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068625",
     "frgov:id":"BDCSURCO0000000009611942",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.004001,
-    "geom:area_square_m":35643960.783749,
+    "geom:area_square_m":35643960.783747,
     "geom:bbox":"6.63509469496,43.8792969986,6.73771195708,43.9389039177",
     "geom:latitude":43.907228,
     "geom:longitude":6.686943,
@@ -144,6 +156,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683509,
         102191581,
@@ -153,7 +167,10 @@
         102064539
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_04224",
+        "eurostat:nuts_2021_id":"04224"
+    },
     "wof:coterminous":[
         1125827133
     ],
@@ -161,7 +178,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"dd5fb4cba9a4334921ef8f5c9040b17d",
+    "wof:geomhash":"5a75e58deff63b8e514526f4bfc621be",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -174,11 +191,13 @@
         }
     ],
     "wof:id":404362619,
-    "wof:lastmodified":1582324048,
+    "wof:lastmodified":1684352790,
     "wof:name":"Ubraye",
     "wof:parent_id":102064539,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":92,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

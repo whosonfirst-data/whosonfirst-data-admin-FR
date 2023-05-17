@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_72239",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Poill\u00e9-sur-V\u00e8gre",
+    "eurostat:nuts_2021_id":"72239",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG04",
+    "eurostat:nuts_2021_level_lau":"72239",
+    "eurostat:population":617,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040475",
     "frgov:id":"BDCSURCO0000000009595853",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002116,
-    "geom:area_square_m":17539513.154922,
+    "geom:area_square_m":17539513.154921,
     "geom:bbox":"-0.319993476518,47.8934242287,-0.235330018512,47.9403079451",
     "geom:latitude":47.91632,
     "geom:longitude":-0.271416,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683279,
         102191581,
@@ -57,7 +71,10 @@
         102065057
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_72239",
+        "eurostat:nuts_2021_id":"72239"
+    },
     "wof:coterminous":[
         101884657
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"458e76960188841ab3e3bd8324218966",
+    "wof:geomhash":"9d27339a7e2cea9d0bb0eab039906916",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404349235,
-    "wof:lastmodified":1582324704,
+    "wof:lastmodified":1684352606,
     "wof:name":"Poille-Sur-Vegre",
     "wof:parent_id":102065057,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":617,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

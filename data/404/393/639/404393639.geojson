@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_30270",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Jean-du-Pin",
+    "eurostat:nuts_2021_id":"30270",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ12",
+    "eurostat:nuts_2021_level_lau":"30270",
+    "eurostat:population":1511,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066918",
     "frgov:id":"BDCSURCO0000000009611390",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001568,
-    "geom:area_square_m":13920599.405186,
+    "geom:area_square_m":13920599.405188,
     "geom:bbox":"4.00758530137,44.0897924625,4.06303093001,44.1355691619",
     "geom:latitude":44.116478,
     "geom:longitude":4.03307,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683431,
         102191581,
@@ -58,7 +72,10 @@
         102064645
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_30270",
+        "eurostat:nuts_2021_id":"30270"
+    },
     "wof:coterminous":[
         101850295
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7a5e5eb7f01bf7d62a5a3d63ddb71019",
+    "wof:geomhash":"6df477659b043aa80f79198ba410ad6e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404393639,
-    "wof:lastmodified":1582325019,
+    "wof:lastmodified":1684353175,
     "wof:name":"Saint-Jean-Du-Pin",
     "wof:parent_id":102064645,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1511,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

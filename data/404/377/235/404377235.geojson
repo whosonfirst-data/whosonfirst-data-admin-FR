@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_42132",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Malleval",
+    "eurostat:nuts_2021_id":"42132",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK25",
+    "eurostat:nuts_2021_level_lau":"42132",
+    "eurostat:population":578,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244200895",
     "frgov:id":"BDCSURCO0000000009606764",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.000591,
-    "geom:area_square_m":5134144.356211,
+    "geom:area_square_m":5134144.35621,
     "geom:bbox":"4.70698964962,45.3714773857,4.74568670934,45.3968361399",
     "geom:latitude":45.385629,
     "geom:longitude":4.726269,
@@ -66,6 +78,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683377,
         102191581,
@@ -76,7 +90,10 @@
         102066733
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_42132",
+        "eurostat:nuts_2021_id":"42132"
+    },
     "wof:coterminous":[
         1125819991
     ],
@@ -84,7 +101,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8fdc8d3ba7b8565b4e13e2e2e3920936",
+    "wof:geomhash":"04b1a92363c546e0f720c98d05d87b2f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -98,11 +115,13 @@
         }
     ],
     "wof:id":404377235,
-    "wof:lastmodified":1582324562,
+    "wof:lastmodified":1684352978,
     "wof:name":"Malleval",
     "wof:parent_id":102066733,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":578,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

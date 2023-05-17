@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_25004",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Abb\u00e9villers",
+    "eurostat:nuts_2021_id":"25004",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC21",
+    "eurostat:nuts_2021_level_lau":"25004",
+    "eurostat:population":1040,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200065647",
     "frgov:id":"BDCSURCO0000000009598175",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001336,
-    "geom:area_square_m":11173322.475728,
+    "geom:area_square_m":11173322.475727,
     "geom:bbox":"6.89760585846,47.4051881749,6.9416737462,47.4473090029",
     "geom:latitude":47.427099,
     "geom:longitude":6.922129,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683239,
         102191581,
@@ -58,7 +72,10 @@
         102065901
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_25004",
+        "eurostat:nuts_2021_id":"25004"
+    },
     "wof:coterminous":[
         101888689
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"bfb215dee643ee9e78721c8ff0e4b991",
+    "wof:geomhash":"3cf71054bc5c0dc89b7bcea14e0aa186",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404388785,
-    "wof:lastmodified":1582325482,
+    "wof:lastmodified":1684353114,
     "wof:name":"Abbevillers",
     "wof:parent_id":102065901,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1040,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

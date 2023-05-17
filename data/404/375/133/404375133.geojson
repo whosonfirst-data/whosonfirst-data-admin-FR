@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_15208",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Projet-de-Salers",
+    "eurostat:nuts_2021_id":"15208",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK12",
+    "eurostat:nuts_2021_level_lau":"15208",
+    "eurostat:population":138,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"241501139",
     "frgov:id":"BDCSURCO0000000009608147",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683517,
         102191581,
@@ -58,7 +72,10 @@
         102068385
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_15208",
+        "eurostat:nuts_2021_id":"15208"
+    },
     "wof:coterminous":[
         1125817881
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"96f5cb21b59da8807eb58b3fac4b2c79",
+    "wof:geomhash":"cce8c61437e5e7d76442ecb464b18098",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404375133,
-    "wof:lastmodified":1582325407,
+    "wof:lastmodified":1684352950,
     "wof:name":"Saint-Projet-De-Salers",
     "wof:parent_id":102068385,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":138,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

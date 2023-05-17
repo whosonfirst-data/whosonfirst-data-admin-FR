@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_28257",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mondonville-Saint-Jean",
+    "eurostat:nuts_2021_id":"28257",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB02",
+    "eurostat:nuts_2021_level_lau":"28257",
+    "eurostat:population":87,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069953",
     "frgov:id":"BDCSURCO0000000009593329",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000669,
-    "geom:area_square_m":5496954.527404,
+    "geom:area_square_m":5496954.527405,
     "geom:bbox":"1.80422329966,48.3478984242,1.84571006512,48.3767841946",
     "geom:latitude":48.363332,
     "geom:longitude":1.823947,
@@ -123,6 +135,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683189,
         102191581,
@@ -132,7 +146,10 @@
         102064463
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_28257",
+        "eurostat:nuts_2021_id":"28257"
+    },
     "wof:coterminous":[
         1125786139
     ],
@@ -140,7 +157,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3dbfb9e993e7a7f4593d5d3f2bba0b3d",
+    "wof:geomhash":"c6ccab09c4ba1db9df52c239e6e26565",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -153,11 +170,13 @@
         }
     ],
     "wof:id":404368009,
-    "wof:lastmodified":1582324871,
+    "wof:lastmodified":1684352865,
     "wof:name":"Mondonville-Saint-Jean",
     "wof:parent_id":102064463,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":87,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_21033",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Aubigny-l\u00e8s-Sombernon",
+    "eurostat:nuts_2021_id":"21033",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC11",
+    "eurostat:nuts_2021_level_lau":"21033",
+    "eurostat:population":150,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200039055",
     "frgov:id":"BDCSURCO0000000009599188",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000949,
-    "geom:area_square_m":7958226.640049,
+    "geom:area_square_m":7958226.640048,
     "geom:bbox":"4.61928888103,47.2825862008,4.66578621525,47.3155370328",
     "geom:latitude":47.300593,
     "geom:longitude":4.642234,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683563,
         102191581,
@@ -58,7 +72,10 @@
         102070529
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_21033",
+        "eurostat:nuts_2021_id":"21033"
+    },
     "wof:coterminous":[
         101889365
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ce2c2c018f024bcd9056854cab36b07b",
+    "wof:geomhash":"c934f951be4349194e09870e01c1c1d2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404374071,
-    "wof:lastmodified":1582325391,
+    "wof:lastmodified":1684352937,
     "wof:name":"Aubigny-Les-Sombernon",
     "wof:parent_id":102070529,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":150,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

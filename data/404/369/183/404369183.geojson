@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_69200",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Forgeux",
+    "eurostat:nuts_2021_id":"69200",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK26",
+    "eurostat:nuts_2021_level_lau":"69200",
+    "eurostat:population":1486,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040566",
     "frgov:id":"BDCSURCO0000000009605019",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.002578,
-    "geom:area_square_m":22202450.770515,
+    "geom:area_square_m":22202450.770514,
     "geom:bbox":"4.41899348978,45.8178430705,4.49850299717,45.8860616097",
     "geom:latitude":45.85391,
     "geom:longitude":4.463098,
@@ -120,6 +132,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683569,
         102191581,
@@ -130,7 +144,10 @@
         102069669
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_69200",
+        "eurostat:nuts_2021_id":"69200"
+    },
     "wof:coterminous":[
         101767719
     ],
@@ -138,7 +155,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"503f6abb6aa0a7975c0338fc16a4bb00",
+    "wof:geomhash":"83d6c100d7f58eee68e3fc76356e92c9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -152,11 +169,13 @@
         }
     ],
     "wof:id":404369183,
-    "wof:lastmodified":1582324921,
+    "wof:lastmodified":1684352881,
     "wof:name":"Saint-Forgeux",
     "wof:parent_id":102069669,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1486,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

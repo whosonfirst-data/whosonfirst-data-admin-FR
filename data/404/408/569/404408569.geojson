@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_22286",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Denoual",
+    "eurostat:nuts_2021_id":"22286",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH01",
+    "eurostat:nuts_2021_level_lau":"22286",
+    "eurostat:population":464,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069391",
     "frgov:id":"BDCSURCO0000000009591727",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BRETAGNE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001054,
-    "geom:area_square_m":8634045.36833,
+    "geom:area_square_m":8634045.368329,
     "geom:bbox":"-2.41311894866,48.5034018329,-2.34895863706,48.5352491408",
     "geom:latitude":48.518745,
     "geom:longitude":-2.383676,
@@ -141,6 +153,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683515,
         102191581,
@@ -150,7 +164,10 @@
         102068707
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_22286",
+        "eurostat:nuts_2021_id":"22286"
+    },
     "wof:coterminous":[
         101880313
     ],
@@ -158,7 +175,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0c58a342bd1d4ced71e1219222fb6e4c",
+    "wof:geomhash":"63c1816db7b7c70f697aeced8fda816a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -171,11 +188,13 @@
         }
     ],
     "wof:id":404408569,
-    "wof:lastmodified":1582324454,
+    "wof:lastmodified":1684353350,
     "wof:name":"Saint-Denoual",
     "wof:parent_id":102068707,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":464,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

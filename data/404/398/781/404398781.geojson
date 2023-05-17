@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_12228",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Izaire",
+    "eurostat:nuts_2021_id":"12228",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ22",
+    "eurostat:nuts_2021_level_lau":"12228",
+    "eurostat:population":303,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067155",
     "frgov:id":"BDCSURCO0000000009612036",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003858,
-    "geom:area_square_m":34331237.432196,
+    "geom:area_square_m":34331237.432197,
     "geom:bbox":"2.64243271839,43.9347654368,2.75881333505,44.0051439432",
     "geom:latitude":43.970785,
     "geom:longitude":2.703301,
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683301,
         102191581,
@@ -136,7 +150,10 @@
         102069607
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_12228",
+        "eurostat:nuts_2021_id":"12228"
+    },
     "wof:coterminous":[
         1125934823
     ],
@@ -144,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"40148429579904c954890a9e51736035",
+    "wof:geomhash":"541903f381f7238dfab9211a7d005d83",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +175,13 @@
         }
     ],
     "wof:id":404398781,
-    "wof:lastmodified":1582324121,
+    "wof:lastmodified":1684353236,
     "wof:name":"Saint-Izaire",
     "wof:parent_id":102069607,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":303,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

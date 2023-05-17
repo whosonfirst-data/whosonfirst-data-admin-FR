@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_06064",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gatti\u00e8res",
+    "eurostat:nuts_2021_id":"06064",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL03",
+    "eurostat:nuts_2021_level_lau":"06064",
+    "eurostat:population":4117,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200030195",
     "frgov:id":"BDCSURCO0000000009612154",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.001133,
-    "geom:area_square_m":10119339.92507,
+    "geom:area_square_m":10119339.925072,
     "geom:bbox":"7.13106834727,43.7466868683,7.20379465514,43.7908342589",
     "geom:latitude":43.764945,
     "geom:longitude":7.169423,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683323,
         102191581,
@@ -57,7 +71,10 @@
         102071551
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_06064",
+        "eurostat:nuts_2021_id":"06064"
+    },
     "wof:coterminous":[
         101757275
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f429a9d29e0a3f375491a629608371ab",
+    "wof:geomhash":"9d8e6e1c304588b07b450a2329a7a2f6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404349481,
-    "wof:lastmodified":1582324712,
+    "wof:lastmodified":1684352609,
     "wof:name":"Gattieres",
     "wof:parent_id":102071551,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":4117,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

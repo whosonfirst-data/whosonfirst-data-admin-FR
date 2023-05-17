@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_56231",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Nolff",
+    "eurostat:nuts_2021_id":"56231",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH04",
+    "eurostat:nuts_2021_level_lau":"56231",
+    "eurostat:population":3779,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067932",
     "frgov:id":"BDCSURCO0000000009596918",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BRETAGNE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003117,
-    "geom:area_square_m":25936040.898874,
+    "geom:area_square_m":25936040.898875,
     "geom:bbox":"-2.71970146999,47.6682014426,-2.61641877012,47.7448616821",
     "geom:latitude":47.698577,
     "geom:longitude":-2.665912,
@@ -135,6 +147,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683507,
         102191581,
@@ -144,7 +158,10 @@
         102065375
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_56231",
+        "eurostat:nuts_2021_id":"56231"
+    },
     "wof:coterminous":[
         101763605
     ],
@@ -152,7 +169,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5cb33223500c1fad3dab3cf0f5640040",
+    "wof:geomhash":"c0377ffad01b417e17cca3772a9e81cc",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -165,11 +182,13 @@
         }
     ],
     "wof:id":404353877,
-    "wof:lastmodified":1582324136,
+    "wof:lastmodified":1684352670,
     "wof:name":"Saint-Nolff",
     "wof:parent_id":102065375,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3779,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

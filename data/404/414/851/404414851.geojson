@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_50541",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Planchers",
+    "eurostat:nuts_2021_id":"50541",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD12",
+    "eurostat:nuts_2021_level_lau":"50541",
+    "eurostat:population":1350,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200042604",
     "frgov:id":"BDCSURCO0000000009589415",
     "frgov:insee_arr":"1",
@@ -132,6 +144,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683489,
         102191581,
@@ -142,7 +156,10 @@
         102067003
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_50541",
+        "eurostat:nuts_2021_id":"50541"
+    },
     "wof:coterminous":[
         101760395
     ],
@@ -150,7 +167,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6db3d469fad3bf539bbe5dd0443e5a92",
+    "wof:geomhash":"306c6d1e74cecf1b28726214e882a434",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -164,11 +181,13 @@
         }
     ],
     "wof:id":404414851,
-    "wof:lastmodified":1582324339,
+    "wof:lastmodified":1684353424,
     "wof:name":"Saint-Planchers",
     "wof:parent_id":102067003,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1350,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

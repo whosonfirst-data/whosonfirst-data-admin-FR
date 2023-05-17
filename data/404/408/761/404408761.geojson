@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_21342",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Laperri\u00e8re-sur-Sa\u00f4ne",
+    "eurostat:nuts_2021_id":"21342",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC11",
+    "eurostat:nuts_2021_level_lau":"21342",
+    "eurostat:population":436,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242101509",
     "frgov:id":"BDCSURCO0000000009599973",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001309,
-    "geom:area_square_m":11017818.248563,
+    "geom:area_square_m":11017818.248564,
     "geom:bbox":"5.31267526985,47.0880106921,5.39018404741,47.1260676794",
     "geom:latitude":47.106797,
     "geom:longitude":5.346054,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683563,
         102191581,
@@ -58,7 +72,10 @@
         102069611
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_21342",
+        "eurostat:nuts_2021_id":"21342"
+    },
     "wof:coterminous":[
         101890743
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"63c8f4ecd4f66a5abb1fa248ab17a1d3",
+    "wof:geomhash":"2c1ae3ca4ee9927f8c9e02384ca1979e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404408761,
-    "wof:lastmodified":1582324463,
+    "wof:lastmodified":1684353352,
     "wof:name":"Laperriere-Sur-Saone",
     "wof:parent_id":102069611,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":436,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

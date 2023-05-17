@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_81245",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Christophe",
+    "eurostat:nuts_2021_id":"81245",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ27",
+    "eurostat:nuts_2021_level_lau":"81245",
+    "eurostat:population":125,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040905",
     "frgov:id":"BDCSURCO0000000009611419",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001619,
-    "geom:area_square_m":14359493.973258,
+    "geom:area_square_m":14359493.973259,
     "geom:bbox":"2.00331303003,44.133214532,2.07585081915,44.1722773021",
     "geom:latitude":44.152624,
     "geom:longitude":2.043945,
@@ -121,6 +133,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683603,
         102191581,
@@ -131,7 +145,10 @@
         102067979
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_81245",
+        "eurostat:nuts_2021_id":"81245"
+    },
     "wof:coterminous":[
         1360678215
     ],
@@ -139,7 +156,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c0f1752f1c2b0d5cb5e932026342364f",
+    "wof:geomhash":"e975e58a35316ac4d7026cc74d945ef1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -153,11 +170,13 @@
         }
     ],
     "wof:id":404405679,
-    "wof:lastmodified":1582325263,
+    "wof:lastmodified":1684353315,
     "wof:name":"Saint-Christophe",
     "wof:parent_id":102067979,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":125,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

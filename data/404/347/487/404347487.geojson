@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_37218",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Flovier",
+    "eurostat:nuts_2021_id":"37218",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB04",
+    "eurostat:nuts_2021_level_lau":"37218",
+    "eurostat:population":566,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071587",
     "frgov:id":"BDCSURCO0000000009600792",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003493,
-    "geom:area_square_m":29469356.070244,
+    "geom:area_square_m":29469356.070243,
     "geom:bbox":"0.955052848647,46.9415421415,1.06437406625,47.0002194044",
     "geom:latitude":46.971569,
     "geom:longitude":1.021164,
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683575,
         102191581,
@@ -135,7 +149,10 @@
         102065755
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_37218",
+        "eurostat:nuts_2021_id":"37218"
+    },
     "wof:coterminous":[
         101889309
     ],
@@ -143,7 +160,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7fd7c63a54c78ad17272be190173a98c",
+    "wof:geomhash":"3045b208901636209b07738116671efe",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -156,11 +173,13 @@
         }
     ],
     "wof:id":404347487,
-    "wof:lastmodified":1582324727,
+    "wof:lastmodified":1684352581,
     "wof:name":"Saint-Flovier",
     "wof:parent_id":102065755,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":566,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_60227",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"\u00c9vricourt",
+    "eurostat:nuts_2021_id":"60227",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE22",
+    "eurostat:nuts_2021_level_lau":"60227",
+    "eurostat:population":224,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"246000855",
     "frgov:id":"BDCSURCO0000000009584233",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683289,
         102191581,
@@ -58,7 +72,10 @@
         102067915
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_60227",
+        "eurostat:nuts_2021_id":"60227"
+    },
     "wof:coterminous":[
         1126051665
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"456b6dd37bae7fec5e6e2e5f4b8aba38",
+    "wof:geomhash":"fc70978eac77cd89633346f6ca4364d8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404386651,
-    "wof:lastmodified":1582325447,
+    "wof:lastmodified":1684353089,
     "wof:name":"Evricourt",
     "wof:parent_id":102067915,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":224,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

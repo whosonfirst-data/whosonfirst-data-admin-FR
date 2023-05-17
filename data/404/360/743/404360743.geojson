@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_83102",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"R\u00e9gusse",
+    "eurostat:nuts_2021_id":"83102",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL05",
+    "eurostat:nuts_2021_level_lau":"83102",
+    "eurostat:population":2613,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040210",
     "frgov:id":"BDCSURCO0000000009612860",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.00397,
-    "geom:area_square_m":35507254.458614,
+    "geom:area_square_m":35507254.458612,
     "geom:bbox":"6.05071693564,43.6211314333,6.1934707709,43.7049348702",
     "geom:latitude":43.6676,
     "geom:longitude":6.11743,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683315,
         102191581,
@@ -57,7 +71,10 @@
         102069205
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_83102",
+        "eurostat:nuts_2021_id":"83102"
+    },
     "wof:coterminous":[
         101773401
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c3f9141eb425c8b051377b25a996e332",
+    "wof:geomhash":"58c37c87875fded572a92dd25839c799",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404360743,
-    "wof:lastmodified":1582325058,
+    "wof:lastmodified":1684352764,
     "wof:name":"Regusse",
     "wof:parent_id":102069205,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2613,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_16242",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Nanteuil-en-Vall\u00e9e",
+    "eurostat:nuts_2021_id":"16242",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI31",
+    "eurostat:nuts_2021_level_lau":"16242",
+    "eurostat:population":1359,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200043016",
     "frgov:id":"BDCSURCO0000000009604588",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.007968,
-    "geom:area_square_m":68432493.052756,
+    "geom:area_square_m":68432493.052755,
     "geom:bbox":"0.255711967839,45.9514061699,0.386586312536,46.0666142144",
     "geom:latitude":46.00605,
     "geom:longitude":0.323629,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683437,
         102191581,
@@ -58,7 +72,10 @@
         102068803
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_16242",
+        "eurostat:nuts_2021_id":"16242"
+    },
     "wof:coterminous":[
         101766281
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"66d1c95eaeed81a184508f76451e1902",
+    "wof:geomhash":"f035418fd9821e230f2d0cf73d9f78de",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404348547,
-    "wof:lastmodified":1582324592,
+    "wof:lastmodified":1684352596,
     "wof:name":"Nanteuil-En-Vallee",
     "wof:parent_id":102068803,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1359,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

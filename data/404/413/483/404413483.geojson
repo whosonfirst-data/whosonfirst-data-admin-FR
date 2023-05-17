@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_64556",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Vielles\u00e9gure",
+    "eurostat:nuts_2021_id":"64556",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI15",
+    "eurostat:nuts_2021_level_lau":"64556",
+    "eurostat:population":375,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200039204",
     "frgov:id":"BDCSURCO0000000009614580",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001584,
-    "geom:area_square_m":14242577.636376,
+    "geom:area_square_m":14242577.636377,
     "geom:bbox":"-0.733413627108,43.3268099141,-0.673974259559,43.3828084912",
     "geom:latitude":43.355675,
     "geom:longitude":-0.702627,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683539,
         102191581,
@@ -58,7 +72,10 @@
         102067139
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_64556",
+        "eurostat:nuts_2021_id":"64556"
+    },
     "wof:coterminous":[
         1125831237
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"582b5a91dc06409d54d8a3ad6a3388f0",
+    "wof:geomhash":"721026e68bf81b017d889afe5b28a2ba",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404413483,
-    "wof:lastmodified":1582324318,
+    "wof:lastmodified":1684353408,
     "wof:name":"Viellesegure",
     "wof:parent_id":102067139,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":375,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

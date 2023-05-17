@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_30071",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Cassagnoles",
+    "eurostat:nuts_2021_id":"30071",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ12",
+    "eurostat:nuts_2021_level_lau":"30071",
+    "eurostat:population":403,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200034411",
     "frgov:id":"BDCSURCO0000000009611767",
     "frgov:insee_arr":"3",
@@ -90,6 +102,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683431,
         102191581,
@@ -100,7 +114,10 @@
         102066793
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_30071",
+        "eurostat:nuts_2021_id":"30071"
+    },
     "wof:coterminous":[
         1125895485
     ],
@@ -108,7 +125,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f2ebd9552ef13e654bc887d6c644df83",
+    "wof:geomhash":"ea3ecdc6d19b36891bc68be5bfba71d4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -122,11 +139,13 @@
         }
     ],
     "wof:id":404424453,
-    "wof:lastmodified":1582324391,
+    "wof:lastmodified":1684353539,
     "wof:name":"Cassagnoles",
     "wof:parent_id":102066793,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":403,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

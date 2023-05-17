@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_30147",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"L\u00e9zan",
+    "eurostat:nuts_2021_id":"30147",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ12",
+    "eurostat:nuts_2021_level_lau":"30147",
+    "eurostat:population":1537,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066918",
     "frgov:id":"BDCSURCO0000000009611777",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001053,
-    "geom:area_square_m":9367560.382839,
+    "geom:area_square_m":9367560.38284,
     "geom:bbox":"4.03061031758,43.9948987844,4.0736874077,44.0289705204",
     "geom:latitude":44.012463,
     "geom:longitude":4.051421,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683431,
         102191581,
@@ -58,7 +72,10 @@
         102066793
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_30147",
+        "eurostat:nuts_2021_id":"30147"
+    },
     "wof:coterminous":[
         101895509
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6d080962f9e59e108f1d6f6cbd42aaa5",
+    "wof:geomhash":"220c06526c37b2659e18266769d7cd5d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404423627,
-    "wof:lastmodified":1582324406,
+    "wof:lastmodified":1684353529,
     "wof:name":"Lezan",
     "wof:parent_id":102066793,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1537,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

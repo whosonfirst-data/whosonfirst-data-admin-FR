@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_60601",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Vaast-l\u00e8s-Mello",
+    "eurostat:nuts_2021_id":"60601",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE22",
+    "eurostat:nuts_2021_level_lau":"60601",
+    "eurostat:population":1074,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068047",
     "frgov:id":"BDCSURCO0000000009586203",
     "frgov:insee_arr":"4",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683289,
         102191581,
@@ -58,7 +72,10 @@
         102071003
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_60601",
+        "eurostat:nuts_2021_id":"60601"
+    },
     "wof:coterminous":[
         101877967
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6c2b55f4bd85eec7b9854e6757bf3e58",
+    "wof:geomhash":"bc2da2bfa4167af2be1b94d29ae9800e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404365067,
-    "wof:lastmodified":1582324041,
+    "wof:lastmodified":1684352825,
     "wof:name":"Saint-Vaast-Les-Mello",
     "wof:parent_id":102071003,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1074,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

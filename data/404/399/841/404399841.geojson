@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_30229",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Andr\u00e9-de-Majencoules",
+    "eurostat:nuts_2021_id":"30229",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ12",
+    "eurostat:nuts_2021_level_lau":"30229",
+    "eurostat:population":592,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200034601",
     "frgov:id":"BDCSURCO0000000009611791",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002473,
-    "geom:area_square_m":21982215.851674,
+    "geom:area_square_m":21982215.851673,
     "geom:bbox":"3.6443502608,43.9947439802,3.72486089735,44.0543054498",
     "geom:latitude":44.027561,
     "geom:longitude":3.676493,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683431,
         102191581,
@@ -58,7 +72,10 @@
         102070667
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_30229",
+        "eurostat:nuts_2021_id":"30229"
+    },
     "wof:coterminous":[
         1126023025
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9acb62a03349b4cd84da5e0a19dca0b9",
+    "wof:geomhash":"05ad5590f3de2d300f9025102593f80e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404399841,
-    "wof:lastmodified":1582324154,
+    "wof:lastmodified":1684353247,
     "wof:name":"Saint-Andre-De-Majencoules",
     "wof:parent_id":102070667,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":592,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

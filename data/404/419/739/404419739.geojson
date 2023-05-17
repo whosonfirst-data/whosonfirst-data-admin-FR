@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_59230",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ferri\u00e8re-la-Grande",
+    "eurostat:nuts_2021_id":"59230",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE1",
+    "eurostat:nuts_2021_level_3":"FRE11",
+    "eurostat:nuts_2021_level_lau":"59230",
+    "eurostat:population":5301,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200043396",
     "frgov:id":"BDCSURCO0000000009581422",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683445,
         102191581,
@@ -58,7 +72,10 @@
         102071353
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_59230",
+        "eurostat:nuts_2021_id":"59230"
+    },
     "wof:coterminous":[
         101840641
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3fd078b1af63e9a21379cfb9552d8ed3",
+    "wof:geomhash":"62ccd31796aaa22e94848e6849dbd45e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404419739,
-    "wof:lastmodified":1582325061,
+    "wof:lastmodified":1684353480,
     "wof:name":"Ferriere-La-Grande",
     "wof:parent_id":102071353,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":5301,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

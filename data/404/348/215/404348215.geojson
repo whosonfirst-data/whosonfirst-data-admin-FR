@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_70041",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Autrey-l\u00e8s-Gray",
+    "eurostat:nuts_2021_id":"70041",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC23",
+    "eurostat:nuts_2021_level_lau":"70041",
+    "eurostat:population":374,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200036549",
     "frgov:id":"BDCSURCO0000000009598262",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003847,
-    "geom:area_square_m":32162155.03533,
+    "geom:area_square_m":32162155.035329,
     "geom:bbox":"5.42941863243,47.4058710444,5.52063447156,47.506715279",
     "geom:latitude":47.464312,
     "geom:longitude":5.465392,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683559,
         102191581,
@@ -58,7 +72,10 @@
         102064569
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_70041",
+        "eurostat:nuts_2021_id":"70041"
+    },
     "wof:coterminous":[
         101887703
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"32523fcff9ccdfc3fb3efe347fe59d05",
+    "wof:geomhash":"9e4b46859aeb747be7952b35fafd372b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404348215,
-    "wof:lastmodified":1582324588,
+    "wof:lastmodified":1684352591,
     "wof:name":"Autrey-Les-Gray",
     "wof:parent_id":102064569,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":374,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

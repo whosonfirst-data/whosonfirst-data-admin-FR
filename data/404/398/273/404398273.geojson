@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_58230",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Aubin-des-Chaumes",
+    "eurostat:nuts_2021_id":"58230",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC12",
+    "eurostat:nuts_2021_level_lau":"58230",
+    "eurostat:population":68,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067692",
     "frgov:id":"BDCSURCO0000000009598921",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683359,
         102191581,
@@ -58,7 +72,10 @@
         102068769
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_58230",
+        "eurostat:nuts_2021_id":"58230"
+    },
     "wof:coterminous":[
         1125775499
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3a3a9531a72ee6fe624b44fbaf974c1a",
+    "wof:geomhash":"b04ce2379a4ecbd5b9c3e1a1f995053c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404398273,
-    "wof:lastmodified":1582324106,
+    "wof:lastmodified":1684353229,
     "wof:name":"Saint-Aubin-Des-Chaumes",
     "wof:parent_id":102068769,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":68,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_31497",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Loup-Cammas",
+    "eurostat:nuts_2021_id":"31497",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ23",
+    "eurostat:nuts_2021_level_lau":"31497",
+    "eurostat:population":2164,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243100815",
     "frgov:id":"BDCSURCO0000000009612970",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000408,
-    "geom:area_square_m":3647660.307195,
+    "geom:area_square_m":3647660.307194,
     "geom:bbox":"1.4592132271,43.6839758869,1.49764508135,43.7097127387",
     "geom:latitude":43.697781,
     "geom:longitude":1.480032,
@@ -114,6 +126,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683397,
         102191581,
@@ -124,7 +138,10 @@
         102071573
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_31497",
+        "eurostat:nuts_2021_id":"31497"
+    },
     "wof:coterminous":[
         101757259
     ],
@@ -132,7 +149,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"09790b004b920b86762c5c5b1dc06536",
+    "wof:geomhash":"b0ede3530d5c7f84125beaa7faae6f94",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -146,11 +163,13 @@
         }
     ],
     "wof:id":404421333,
-    "wof:lastmodified":1582325105,
+    "wof:lastmodified":1684353501,
     "wof:name":"Saint-Loup-Cammas",
     "wof:parent_id":102071573,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2164,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

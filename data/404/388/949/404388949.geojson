@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_31043",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Balesta",
+    "eurostat:nuts_2021_id":"31043",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ23",
+    "eurostat:nuts_2021_level_lau":"31043",
+    "eurostat:population":148,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072643",
     "frgov:id":"BDCSURCO0000000009614994",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000787,
-    "geom:area_square_m":7089623.87367,
+    "geom:area_square_m":7089623.873669,
     "geom:bbox":"0.539921503297,43.1883597394,0.588818182352,43.2173553662",
     "geom:latitude":43.202023,
     "geom:longitude":0.563121,
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683397,
         102191581,
@@ -136,7 +150,10 @@
         102068393
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_31043",
+        "eurostat:nuts_2021_id":"31043"
+    },
     "wof:coterminous":[
         1125811259
     ],
@@ -144,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b06e551e26e8b77b34e6b4fd533a2ed7",
+    "wof:geomhash":"5d5992b71c0543bc799fe5c2351c581f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +175,13 @@
         }
     ],
     "wof:id":404388949,
-    "wof:lastmodified":1582325483,
+    "wof:lastmodified":1684353116,
     "wof:name":"Balesta",
     "wof:parent_id":102068393,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":148,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_40186",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Misson",
+    "eurostat:nuts_2021_id":"40186",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI13",
+    "eurostat:nuts_2021_level_lau":"40186",
+    "eurostat:population":781,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069417",
     "frgov:id":"BDCSURCO0000000009613547",
     "frgov:insee_arr":"1",
@@ -63,6 +75,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683183,
         102191581,
@@ -73,7 +87,10 @@
         102067579
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_40186",
+        "eurostat:nuts_2021_id":"40186"
+    },
     "wof:coterminous":[
         1125795315
     ],
@@ -81,7 +98,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"663bdaaf3547f0ac43e00ae2fd8e10c0",
+    "wof:geomhash":"cbe5cde03ecdb57b60a3d2a4dd464e0f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -95,11 +112,13 @@
         }
     ],
     "wof:id":404413061,
-    "wof:lastmodified":1582324329,
+    "wof:lastmodified":1684353402,
     "wof:name":"Misson",
     "wof:parent_id":102067579,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":781,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

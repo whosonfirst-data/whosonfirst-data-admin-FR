@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_25308",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"H\u00f4pitaux-Vieux",
+    "eurostat:nuts_2021_id":"25308",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC21",
+    "eurostat:nuts_2021_level_lau":"25308",
+    "eurostat:population":450,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069565",
     "frgov:id":"BDCSURCO0000000009601075",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683239,
         102191581,
@@ -58,7 +72,10 @@
         102068065
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_25308",
+        "eurostat:nuts_2021_id":"25308"
+    },
     "wof:coterminous":[
         101891757
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7fa4b3884ad6886a91c9df392db45e91",
+    "wof:geomhash":"d56653fc9e831da5c2c237f8bbbc3e1c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404376535,
-    "wof:lastmodified":1582324662,
+    "wof:lastmodified":1684352970,
     "wof:name":"Les Hopitaux-Vieux",
     "wof:parent_id":102068065,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":450,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

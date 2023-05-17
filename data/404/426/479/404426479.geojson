@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_64481",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Goin",
+    "eurostat:nuts_2021_id":"64481",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI15",
+    "eurostat:nuts_2021_level_lau":"64481",
+    "eurostat:population":230,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067262",
     "frgov:id":"BDCSURCO0000000009615073",
     "frgov:insee_arr":"2",
@@ -135,6 +147,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683539,
         102191581,
@@ -145,7 +159,10 @@
         102069509
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_64481",
+        "eurostat:nuts_2021_id":"64481"
+    },
     "wof:coterminous":[
         1125811937
     ],
@@ -153,7 +170,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4c9f4039be11a2ecfe4862c5fc0db9a4",
+    "wof:geomhash":"1360f5ed05aa3d36e12265cadbb13a3d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -167,11 +184,13 @@
         }
     ],
     "wof:id":404426479,
-    "wof:lastmodified":1582325081,
+    "wof:lastmodified":1684353562,
     "wof:name":"Saint-Goin",
     "wof:parent_id":102069509,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":230,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

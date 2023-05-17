@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_88411",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Baslemont",
+    "eurostat:nuts_2021_id":"88411",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF34",
+    "eurostat:nuts_2021_level_lau":"88411",
+    "eurostat:population":80,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068773",
     "frgov:id":"BDCSURCO0000000009594346",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.001535,
-    "geom:area_square_m":12667263.003879,
+    "geom:area_square_m":12667263.003878,
     "geom:bbox":"5.96313259062,48.1144056899,6.02529725467,48.1689023231",
     "geom:latitude":48.140202,
     "geom:longitude":5.993736,
@@ -120,6 +132,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683223,
         102191581,
@@ -130,7 +144,10 @@
         102066065
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_88411",
+        "eurostat:nuts_2021_id":"88411"
+    },
     "wof:coterminous":[
         1125808403
     ],
@@ -138,7 +155,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6114cddc19453c5c0c2803845036cded",
+    "wof:geomhash":"be5b3a1d8aa61687d0d5a0c8b329eddf",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -152,11 +169,13 @@
         }
     ],
     "wof:id":404361103,
-    "wof:lastmodified":1582324749,
+    "wof:lastmodified":1684352769,
     "wof:name":"Saint-Baslemont",
     "wof:parent_id":102066065,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":80,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

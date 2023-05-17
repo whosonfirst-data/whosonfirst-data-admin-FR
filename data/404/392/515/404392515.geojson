@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_31036",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Auzielle",
+    "eurostat:nuts_2021_id":"31036",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ23",
+    "eurostat:nuts_2021_level_lau":"31036",
+    "eurostat:population":1500,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243100633",
     "frgov:id":"BDCSURCO0000000009613677",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000517,
-    "geom:area_square_m":4630063.866626,
+    "geom:area_square_m":4630063.866627,
     "geom:bbox":"1.55079378116,43.5288510904,1.58693751627,43.5536353926",
     "geom:latitude":43.540088,
     "geom:longitude":1.56818,
@@ -123,6 +135,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683397,
         102191581,
@@ -133,7 +147,10 @@
         102066151
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_31036",
+        "eurostat:nuts_2021_id":"31036"
+    },
     "wof:coterminous":[
         101773951
     ],
@@ -141,7 +158,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"eab79087a6343c534192b2ac11acde1d",
+    "wof:geomhash":"50e77cf36a2af3dd341350223ed48668",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -155,11 +172,13 @@
         }
     ],
     "wof:id":404392515,
-    "wof:lastmodified":1582324822,
+    "wof:lastmodified":1684353162,
     "wof:name":"Auzielle",
     "wof:parent_id":102066151,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1500,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

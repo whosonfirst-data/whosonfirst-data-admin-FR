@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_84077",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mod\u00e8ne",
+    "eurostat:nuts_2021_id":"84077",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL06",
+    "eurostat:nuts_2021_level_lau":"84077",
+    "eurostat:population":453,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248400053",
     "frgov:id":"BDCSURCO0000000009611356",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.000535,
-    "geom:area_square_m":4752248.086546,
+    "geom:area_square_m":4752248.086545,
     "geom:bbox":"5.11717989004,44.0824479474,5.13989401605,44.1356420125",
     "geom:latitude":44.105893,
     "geom:longitude":5.128037,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683201,
         102191581,
@@ -57,7 +71,10 @@
         102067147
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_84077",
+        "eurostat:nuts_2021_id":"84077"
+    },
     "wof:coterminous":[
         1125785533
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d1fcc7fc786f435be41b5b85b9393cbd",
+    "wof:geomhash":"1d73ca3257fb4e884df566d6fe28134d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404399563,
-    "wof:lastmodified":1582324152,
+    "wof:lastmodified":1684353245,
     "wof:name":"Modene",
     "wof:parent_id":102067147,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":453,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

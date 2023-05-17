@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_29205",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ploun\u00e9v\u00e9zel",
+    "eurostat:nuts_2021_id":"29205",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH02",
+    "eurostat:nuts_2021_level_lau":"29205",
+    "eurostat:population":1227,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242900744",
     "frgov:id":"BDCSURCO0000000009593084",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683553,
         102191581,
@@ -57,7 +71,10 @@
         102065525
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_29205",
+        "eurostat:nuts_2021_id":"29205"
+    },
     "wof:coterminous":[
         101880223
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e8dafa40923b1c452a05c1707858a607",
+    "wof:geomhash":"98af4dd6206e799b369c3e091ae19ac0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404351133,
-    "wof:lastmodified":1582324945,
+    "wof:lastmodified":1684352633,
     "wof:name":"Plounevezel",
     "wof:parent_id":102065525,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1227,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

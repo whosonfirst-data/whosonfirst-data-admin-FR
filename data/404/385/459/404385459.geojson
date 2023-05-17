@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_59531",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Benin",
+    "eurostat:nuts_2021_id":"59531",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE1",
+    "eurostat:nuts_2021_level_3":"FRE11",
+    "eurostat:nuts_2021_level_lau":"59531",
+    "eurostat:population":340,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200030633",
     "frgov:id":"BDCSURCO0000000009581910",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000587,
-    "geom:area_square_m":4654305.160327,
+    "geom:area_square_m":4654305.160326,
     "geom:bbox":"3.50801375499,50.0660508328,3.55522111939,50.0865666909",
     "geom:latitude":50.076369,
     "geom:longitude":3.532467,
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683445,
         102191581,
@@ -136,7 +150,10 @@
         102067457
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_59531",
+        "eurostat:nuts_2021_id":"59531"
+    },
     "wof:coterminous":[
         101899677
     ],
@@ -144,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8dc5515b3b006e2af2f2a95c6cb82cb7",
+    "wof:geomhash":"bdadb6dc917ca07fc6565d428f07e1dd",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +175,13 @@
         }
     ],
     "wof:id":404385459,
-    "wof:lastmodified":1582324641,
+    "wof:lastmodified":1684353075,
     "wof:name":"Saint-Benin",
     "wof:parent_id":102067457,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":340,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

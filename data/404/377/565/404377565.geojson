@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_10408",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Vi\u00e2pres-le-Petit",
+    "eurostat:nuts_2021_id":"10408",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF22",
+    "eurostat:nuts_2021_level_lau":"10408",
+    "eurostat:population":126,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070126",
     "frgov:id":"BDCSURCO0000000009591946",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.001383,
-    "geom:area_square_m":11316858.085791,
+    "geom:area_square_m":11316858.08579,
     "geom:bbox":"4.02110934653,48.5532764834,4.08593516103,48.6128507295",
     "geom:latitude":48.581985,
     "geom:longitude":4.053143,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683193,
         102191581,
@@ -58,7 +72,10 @@
         102066845
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_10408",
+        "eurostat:nuts_2021_id":"10408"
+    },
     "wof:coterminous":[
         101881789
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"717e2338ed59b1997de55b302b7cbccc",
+    "wof:geomhash":"9c91678debbd4d7afdc9bcc17277534c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404377565,
-    "wof:lastmodified":1582324567,
+    "wof:lastmodified":1684352982,
     "wof:name":"Viapres-Le-Petit",
     "wof:parent_id":102066845,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":126,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

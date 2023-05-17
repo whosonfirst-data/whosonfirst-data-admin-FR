@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_77376",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Pr\u00e9cy-sur-Marne",
+    "eurostat:nuts_2021_id":"77376",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR102",
+    "eurostat:nuts_2021_level_lau":"77376",
+    "eurostat:population":803,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200033090",
     "frgov:id":"BDCSURCO0000000009588668",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"ILE-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000592,
-    "geom:area_square_m":4810465.221472,
+    "geom:area_square_m":4810465.221471,
     "geom:bbox":"2.75066714567,48.9202770075,2.78669465019,48.9499590061",
     "geom:latitude":48.932195,
     "geom:longitude":2.768172,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683385,
         102191581,
@@ -57,7 +71,10 @@
         102070731
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_77376",
+        "eurostat:nuts_2021_id":"77376"
+    },
     "wof:coterminous":[
         101879617
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7f428f9e09afea8506533e9ac0a58364",
+    "wof:geomhash":"eb6231384955d0a1c711a989be8f8db5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404371947,
-    "wof:lastmodified":1582324651,
+    "wof:lastmodified":1684352912,
     "wof:name":"Precy-Sur-Marne",
     "wof:parent_id":102070731,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":803,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

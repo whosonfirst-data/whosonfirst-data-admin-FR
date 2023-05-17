@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_27019",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Armenti\u00e8res-sur-Avre",
+    "eurostat:nuts_2021_id":"27019",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD21",
+    "eurostat:nuts_2021_level_lau":"27019",
+    "eurostat:population":170,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066462",
     "frgov:id":"BDCSURCO0000000009591169",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000745,
-    "geom:area_square_m":6085171.646335,
+    "geom:area_square_m":6085171.646334,
     "geom:bbox":"0.764002305808,48.6664629195,0.839275756945,48.701827853",
     "geom:latitude":48.6809,
     "geom:longitude":0.8069,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683283,
         102191581,
@@ -58,7 +72,10 @@
         102070571
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_27019",
+        "eurostat:nuts_2021_id":"27019"
+    },
     "wof:coterminous":[
         1125793943
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4b4b86eba504dd464ad73719edcacfcb",
+    "wof:geomhash":"3d298adec7ef3318a3f0f3f939890069",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404416479,
-    "wof:lastmodified":1582325181,
+    "wof:lastmodified":1684353442,
     "wof:name":"Armentieres-Sur-Avre",
     "wof:parent_id":102070571,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":170,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

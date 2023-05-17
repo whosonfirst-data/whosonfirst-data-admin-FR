@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_62203",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Campagne-l\u00e8s-Guines",
+    "eurostat:nuts_2021_id":"62203",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE1",
+    "eurostat:nuts_2021_level_3":"FRE12",
+    "eurostat:nuts_2021_level_lau":"62203",
+    "eurostat:population":445,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072478",
     "frgov:id":"BDCSURCO0000000009580412",
     "frgov:insee_arr":"6",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000734,
-    "geom:area_square_m":5732153.49263,
+    "geom:area_square_m":5732153.492631,
     "geom:bbox":"1.87739849273,50.8176526054,1.92207816669,50.8563845195",
     "geom:latitude":50.841126,
     "geom:longitude":1.898754,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683255,
         102191581,
@@ -58,7 +72,10 @@
         102069059
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_62203",
+        "eurostat:nuts_2021_id":"62203"
+    },
     "wof:coterminous":[
         1126041037
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"99f02bacfa3f0e7fee8c8ff84377c0bd",
+    "wof:geomhash":"ed3fc250cbbeba54a293f496fb448796",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404393883,
-    "wof:lastmodified":1582325017,
+    "wof:lastmodified":1684353178,
     "wof:name":"Campagne-Les-Guines",
     "wof:parent_id":102069059,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":445,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

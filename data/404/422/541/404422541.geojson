@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_91552",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Germain-l\u00e8s-Arpajon",
+    "eurostat:nuts_2021_id":"91552",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR104",
+    "eurostat:nuts_2021_level_lau":"91552",
+    "eurostat:population":10707,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200057859",
     "frgov:id":"BDCSURCO0000000009591560",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683371,
         102191581,
@@ -57,7 +71,10 @@
         102064411
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_91552",
+        "eurostat:nuts_2021_id":"91552"
+    },
     "wof:coterminous":[
         101751011
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"bdcdcc950d43d81e16f480040b361ee9",
+    "wof:geomhash":"da4d8b3582c222fc8e572de65eb021e4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404422541,
-    "wof:lastmodified":1582324295,
+    "wof:lastmodified":1684353516,
     "wof:name":"Saint-Germain-Les-Arpajon",
     "wof:parent_id":102064411,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":10707,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

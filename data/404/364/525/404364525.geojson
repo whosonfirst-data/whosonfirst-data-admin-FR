@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_77433",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Beautheil-Saints",
+    "eurostat:nuts_2021_id":"77433",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR102",
+    "eurostat:nuts_2021_level_lau":"77433",
+    "eurostat:population":2015,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072122",
     "frgov:id":"BDCSURCO0000000009590628",
     "frgov:insee_arr":"1",
@@ -120,6 +132,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683385,
         102191581,
@@ -129,7 +143,10 @@
         102065469
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_77433",
+        "eurostat:nuts_2021_id":"77433"
+    },
     "wof:coterminous":[
         101880955
     ],
@@ -137,7 +154,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2b893fbe92072af893a987123185854d",
+    "wof:geomhash":"f8da2f206a72092f21695cfe8f2355e4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -150,11 +167,13 @@
         }
     ],
     "wof:id":404364525,
-    "wof:lastmodified":1582324256,
+    "wof:lastmodified":1684352817,
     "wof:name":"Beautheil",
     "wof:parent_id":102065469,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2015,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

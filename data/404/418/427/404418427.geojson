@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_79267",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Lin",
+    "eurostat:nuts_2021_id":"79267",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI33",
+    "eurostat:nuts_2021_level_lau":"79267",
+    "eurostat:population":331,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069748",
     "frgov:id":"BDCSURCO0000000009602266",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001324,
-    "geom:area_square_m":11266609.22524,
+    "geom:area_square_m":11266609.225241,
     "geom:bbox":"-0.254704320628,46.505598732,-0.198745946331,46.5546833678",
     "geom:latitude":46.532545,
     "geom:longitude":-0.229381,
@@ -123,6 +135,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683163,
         102191581,
@@ -133,7 +147,10 @@
         102067145
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_79267",
+        "eurostat:nuts_2021_id":"79267"
+    },
     "wof:coterminous":[
         1125814051
     ],
@@ -141,7 +158,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"be0cfcc3c6e0a85904559ab6062cc734",
+    "wof:geomhash":"7e551d906525fb36be47acf96e8cee14",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -155,11 +172,13 @@
         }
     ],
     "wof:id":404418427,
-    "wof:lastmodified":1582325227,
+    "wof:lastmodified":1684353465,
     "wof:name":"Saint-Lin",
     "wof:parent_id":102067145,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":331,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

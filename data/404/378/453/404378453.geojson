@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_02760",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Vall\u00e9e-Mul\u00e2tre",
+    "eurostat:nuts_2021_id":"02760",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE21",
+    "eurostat:nuts_2021_level_lau":"02760",
+    "eurostat:population":148,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071983",
     "frgov:id":"BDCSURCO0000000009582072",
     "frgov:insee_arr":"5",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683247,
         102191581,
@@ -58,7 +72,10 @@
         102070817
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_02760",
+        "eurostat:nuts_2021_id":"02760"
+    },
     "wof:coterminous":[
         1125766645
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5d6db3d0b9225c74690b1a128efcebd3",
+    "wof:geomhash":"11e87918320365a86dcf23f55a152dad",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404378453,
-    "wof:lastmodified":1582324738,
+    "wof:lastmodified":1684352992,
     "wof:name":"La Vallee-Mulatre",
     "wof:parent_id":102070817,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":148,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

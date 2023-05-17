@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_35232",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Princ\u00e9",
+    "eurostat:nuts_2021_id":"35232",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH03",
+    "eurostat:nuts_2021_level_lau":"35232",
+    "eurostat:population":380,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200039022",
     "frgov:id":"BDCSURCO0000000009594221",
     "frgov:insee_arr":"1",
@@ -213,6 +225,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683461,
         102191581,
@@ -222,7 +236,10 @@
         102071177
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_35232",
+        "eurostat:nuts_2021_id":"35232"
+    },
     "wof:coterminous":[
         1125926095
     ],
@@ -230,7 +247,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"470f9a1617589b47e2494f2484f21efa",
+    "wof:geomhash":"0c50f2b4eb3c6606c377a22c96c17f96",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -243,11 +260,13 @@
         }
     ],
     "wof:id":404367229,
-    "wof:lastmodified":1582324989,
+    "wof:lastmodified":1684352855,
     "wof:name":"Prince",
     "wof:parent_id":102071177,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":380,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

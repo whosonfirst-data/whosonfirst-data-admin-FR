@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_51499",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Mard-l\u00e8s-Rouffy",
+    "eurostat:nuts_2021_id":"51499",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF23",
+    "eurostat:nuts_2021_level_lau":"51499",
+    "eurostat:population":163,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067684",
     "frgov:id":"BDCSURCO0000000009588604",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683405,
         102191581,
@@ -58,7 +72,10 @@
         102069635
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_51499",
+        "eurostat:nuts_2021_id":"51499"
+    },
     "wof:coterminous":[
         1125814611
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b5a1d847dc43ebbee8319e53ffe7908a",
+    "wof:geomhash":"061bc38ad1d2d0b31d4883036ab18c66",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404381573,
-    "wof:lastmodified":1582325434,
+    "wof:lastmodified":1684353028,
     "wof:name":"Saint-Mard-Les-Rouffy",
     "wof:parent_id":102069635,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":163,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

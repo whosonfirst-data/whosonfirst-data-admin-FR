@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_06125",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Martin-d'Entraunes",
+    "eurostat:nuts_2021_id":"06125",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL03",
+    "eurostat:nuts_2021_level_lau":"06125",
+    "eurostat:population":142,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200039931",
     "frgov:id":"BDCSURCO0000000009611152",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.004471,
-    "geom:area_square_m":39667486.269175,
+    "geom:area_square_m":39667486.269173,
     "geom:bbox":"6.68653642707,44.1109638955,6.81199665867,44.1796743498",
     "geom:latitude":44.149312,
     "geom:longitude":6.746006,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683323,
         102191581,
@@ -55,7 +69,10 @@
         102066289
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_06125",
+        "eurostat:nuts_2021_id":"06125"
+    },
     "wof:coterminous":[
         1360674553
     ],
@@ -63,7 +80,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"84657640ee2eb2655a2f58bd04feaece",
+    "wof:geomhash":"439b1e0655da4edd3ee2b445aca8b588",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -76,11 +93,13 @@
         }
     ],
     "wof:id":404367533,
-    "wof:lastmodified":1582324987,
+    "wof:lastmodified":1684352859,
     "wof:name":"Saint-Martin-D'Entraunes",
     "wof:parent_id":102066289,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":142,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

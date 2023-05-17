@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_08031",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Aure",
+    "eurostat:nuts_2021_id":"08031",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF21",
+    "eurostat:nuts_2021_level_lau":"08031",
+    "eurostat:population":48,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240800920",
     "frgov:id":"BDCSURCO0000000009585626",
     "frgov:insee_arr":"4",
@@ -87,6 +99,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683309,
         102191581,
@@ -97,7 +111,10 @@
         102067541
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_08031",
+        "eurostat:nuts_2021_id":"08031"
+    },
     "wof:coterminous":[
         101879465
     ],
@@ -105,7 +122,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"424ec9a700595dbe6e2b0e6f4c68caeb",
+    "wof:geomhash":"9727ff7abfe989e67640dd779812a40a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -119,11 +136,13 @@
         }
     ],
     "wof:id":404357543,
-    "wof:lastmodified":1582324894,
+    "wof:lastmodified":1684352719,
     "wof:name":"Aure",
     "wof:parent_id":102067541,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":48,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

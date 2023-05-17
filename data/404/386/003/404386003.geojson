@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_49009",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Antoign\u00e9",
+    "eurostat:nuts_2021_id":"49009",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG02",
+    "eurostat:nuts_2021_level_lau":"49009",
+    "eurostat:population":465,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071876",
     "frgov:id":"BDCSURCO0000000009600368",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002106,
-    "geom:area_square_m":17736419.663359,
+    "geom:area_square_m":17736419.663358,
     "geom:bbox":"-0.179082369758,47.0542357171,-0.0980474897917,47.1036550128",
     "geom:latitude":47.078486,
     "geom:longitude":-0.132062,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683327,
         102191581,
@@ -57,7 +71,10 @@
         102068081
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_49009",
+        "eurostat:nuts_2021_id":"49009"
+    },
     "wof:coterminous":[
         1126031699
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e4d1e508a1c16e5570d520022ff57043",
+    "wof:geomhash":"f70f39464e845ad961028ad23fca6057",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404386003,
-    "wof:lastmodified":1582325454,
+    "wof:lastmodified":1684353082,
     "wof:name":"Antoigne",
     "wof:parent_id":102068081,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":465,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

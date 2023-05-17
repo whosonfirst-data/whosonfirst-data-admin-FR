@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_45299",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Sigismond",
+    "eurostat:nuts_2021_id":"45299",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB06",
+    "eurostat:nuts_2021_level_lau":"45299",
+    "eurostat:population":262,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200035764",
     "frgov:id":"BDCSURCO0000000009595801",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001759,
-    "geom:area_square_m":14555179.203263,
+    "geom:area_square_m":14555179.203264,
     "geom:bbox":"1.63301652159,47.9603768065,1.70355500632,48.0065437854",
     "geom:latitude":47.982917,
     "geom:longitude":1.666523,
@@ -85,6 +97,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683479,
         102191581,
@@ -94,7 +108,10 @@
         102069499
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_45299",
+        "eurostat:nuts_2021_id":"45299"
+    },
     "wof:coterminous":[
         1360676003
     ],
@@ -102,7 +119,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e1079075e1e574713022586d85e77e14",
+    "wof:geomhash":"5e1dff249f96c9e84dfd2a2597b6a253",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -115,11 +132,13 @@
         }
     ],
     "wof:id":404381957,
-    "wof:lastmodified":1582325434,
+    "wof:lastmodified":1684353033,
     "wof:name":"Saint-Sigismond",
     "wof:parent_id":102069499,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":262,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

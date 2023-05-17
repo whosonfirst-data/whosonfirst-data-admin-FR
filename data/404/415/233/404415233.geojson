@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_27582",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Ouen-du-Tilleul",
+    "eurostat:nuts_2021_id":"27582",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD21",
+    "eurostat:nuts_2021_level_lau":"27582",
+    "eurostat:population":1653,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066405",
     "frgov:id":"BDCSURCO0000000009585833",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000497,
-    "geom:area_square_m":4005776.885668,
+    "geom:area_square_m":4005776.885667,
     "geom:bbox":"0.925701717064,49.2796740325,0.971472502915,49.3230631287",
     "geom:latitude":49.300849,
     "geom:longitude":0.944901,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683283,
         102191581,
@@ -58,7 +72,10 @@
         102065523
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_27582",
+        "eurostat:nuts_2021_id":"27582"
+    },
     "wof:coterminous":[
         101753535
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a904aec792649da5009039246538c072",
+    "wof:geomhash":"8af65b85fc250d053ae0b851b83e754d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404415233,
-    "wof:lastmodified":1582324357,
+    "wof:lastmodified":1684353428,
     "wof:name":"Saint-Ouen-Du-Tilleul",
     "wof:parent_id":102065523,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1653,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

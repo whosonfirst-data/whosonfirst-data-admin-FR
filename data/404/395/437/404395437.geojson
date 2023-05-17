@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_73181",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mo\u00fbtiers",
+    "eurostat:nuts_2021_id":"73181",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK27",
+    "eurostat:nuts_2021_level_lau":"73181",
+    "eurostat:population":3501,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200023299",
     "frgov:id":"BDCSURCO0000000009606214",
     "frgov:insee_arr":"1",
@@ -96,6 +108,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683265,
         102191581,
@@ -106,7 +120,10 @@
         102067975
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_73181",
+        "eurostat:nuts_2021_id":"73181"
+    },
     "wof:coterminous":[
         101769253
     ],
@@ -114,7 +131,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"adb74be5be60bf16eac3e5f8e661c0f9",
+    "wof:geomhash":"3f6121381f8a367a275f2833f2bc3806",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -128,11 +145,13 @@
         }
     ],
     "wof:id":404395437,
-    "wof:lastmodified":1582324773,
+    "wof:lastmodified":1684353196,
     "wof:name":"Moutiers",
     "wof:parent_id":102067975,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3501,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_03007",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Arpheuilles-Saint-Priest",
+    "eurostat:nuts_2021_id":"03007",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK11",
+    "eurostat:nuts_2021_level_lau":"03007",
+    "eurostat:population":356,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071082",
     "frgov:id":"BDCSURCO0000000009603549",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.002235,
-    "geom:area_square_m":19114825.239084,
+    "geom:area_square_m":19114825.239083,
     "geom:bbox":"2.62384643917,46.1957364878,2.71619624793,46.2590812155",
     "geom:latitude":46.22665,
     "geom:longitude":2.665233,
@@ -132,6 +144,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683293,
         102191581,
@@ -142,7 +156,10 @@
         102067367
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_03007",
+        "eurostat:nuts_2021_id":"03007"
+    },
     "wof:coterminous":[
         1126032353
     ],
@@ -150,7 +167,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"cffaba440adbbb9c4553b34d36ae3a52",
+    "wof:geomhash":"7cfc67aa8d58d1ec5c4dd14d0f302d3e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -164,11 +181,13 @@
         }
     ],
     "wof:id":404382829,
-    "wof:lastmodified":1582324681,
+    "wof:lastmodified":1684353043,
     "wof:name":"Arpheuilles-Saint-Priest",
     "wof:parent_id":102067367,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":356,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

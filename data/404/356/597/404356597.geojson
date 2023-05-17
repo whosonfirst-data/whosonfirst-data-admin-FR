@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_23189",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Dizier-Masbaraud",
+    "eurostat:nuts_2021_id":"23189",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI22",
+    "eurostat:nuts_2021_level_lau":"23189",
+    "eurostat:population":1126,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067189",
     "frgov:id":"BDCSURCO0000000009604300",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.005445,
-    "geom:area_square_m":46746869.551343,
+    "geom:area_square_m":46746869.551344,
     "geom:bbox":"1.64450051964,45.9875751149,1.78514410844,46.0701634639",
     "geom:latitude":46.027387,
     "geom:longitude":1.704609,
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683179,
         102191581,
@@ -139,7 +153,10 @@
         102065521
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_23189",
+        "eurostat:nuts_2021_id":"23189"
+    },
     "wof:coterminous":[
         101892575
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"343004d27aa4b5a7c3b04dd562737b99",
+    "wof:geomhash":"88e9f7d3d97f5a64eb921de31f518ca6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404356597,
-    "wof:lastmodified":1582324934,
+    "wof:lastmodified":1684352706,
     "wof:name":"Saint-Dizier-Leyrenne",
     "wof:parent_id":102065521,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1126,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

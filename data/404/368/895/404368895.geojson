@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_19245",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Sylvain",
+    "eurostat:nuts_2021_id":"19245",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI21",
+    "eurostat:nuts_2021_level_lau":"19245",
+    "eurostat:population":135,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066751",
     "frgov:id":"BDCSURCO0000000009607750",
     "frgov:insee_arr":"2",
@@ -84,6 +96,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683209,
         102191581,
@@ -94,7 +108,10 @@
         102064315
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_19245",
+        "eurostat:nuts_2021_id":"19245"
+    },
     "wof:coterminous":[
         1125896579
     ],
@@ -102,7 +119,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f8ecbffbfd3461e7db94e8a5678d2e15",
+    "wof:geomhash":"1c811491ddef975bbc552bd7b931bbde",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -116,11 +133,13 @@
         }
     ],
     "wof:id":404368895,
-    "wof:lastmodified":1582324870,
+    "wof:lastmodified":1684352877,
     "wof:name":"Saint-Sylvain",
     "wof:parent_id":102064315,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":135,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

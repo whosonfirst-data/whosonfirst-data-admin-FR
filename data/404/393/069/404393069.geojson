@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_10044",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"B\u00e9tignicourt",
+    "eurostat:nuts_2021_id":"10044",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF22",
+    "eurostat:nuts_2021_level_lau":"10044",
+    "eurostat:population":33,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040137",
     "frgov:id":"BDCSURCO0000000009592376",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.000396,
-    "geom:area_square_m":3246084.603011,
+    "geom:area_square_m":3246084.603012,
     "geom:bbox":"4.44009219105,48.4391556262,4.47120634418,48.4591307116",
     "geom:latitude":48.449422,
     "geom:longitude":4.454823,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683193,
         102191581,
@@ -58,7 +72,10 @@
         102065213
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_10044",
+        "eurostat:nuts_2021_id":"10044"
+    },
     "wof:coterminous":[
         1126036927
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"26de16c2ad1b72090c95d322c9f028a4",
+    "wof:geomhash":"9cf158559cb90a79ac5d520c0a84a794",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404393069,
-    "wof:lastmodified":1582325020,
+    "wof:lastmodified":1684353169,
     "wof:name":"Betignicourt",
     "wof:parent_id":102065213,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":33,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

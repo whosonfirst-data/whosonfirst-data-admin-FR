@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_18202",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-C\u00e9ols",
+    "eurostat:nuts_2021_id":"18202",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB01",
+    "eurostat:nuts_2021_level_lau":"18202",
+    "eurostat:population":14,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066330",
     "frgov:id":"BDCSURCO0000000009599803",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683549,
         102191581,
@@ -57,7 +71,10 @@
         102064249
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_18202",
+        "eurostat:nuts_2021_id":"18202"
+    },
     "wof:coterminous":[
         1126047639
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8c41efe79e36fab3d4bb0efddbab7a09",
+    "wof:geomhash":"c7ba54897ad6b0c2c246c1e7e8747b58",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404386145,
-    "wof:lastmodified":1582325449,
+    "wof:lastmodified":1684353083,
     "wof:name":"Saint-Ceols",
     "wof:parent_id":102064249,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":14,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

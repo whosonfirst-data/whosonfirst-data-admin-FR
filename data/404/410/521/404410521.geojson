@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_39139",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ch\u00eane-Bernard",
+    "eurostat:nuts_2021_id":"39139",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC22",
+    "eurostat:nuts_2021_level_lau":"39139",
+    "eurostat:population":64,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243901089",
     "frgov:id":"BDCSURCO0000000009600687",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000432,
-    "geom:area_square_m":3648833.799177,
+    "geom:area_square_m":3648833.799176,
     "geom:bbox":"5.43262742909,46.8966930881,5.49769817969,46.9322777102",
     "geom:latitude":46.918051,
     "geom:longitude":5.470238,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683173,
         102191581,
@@ -58,7 +72,10 @@
         102065629
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_39139",
+        "eurostat:nuts_2021_id":"39139"
+    },
     "wof:coterminous":[
         1126044587
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5f4c52d2f657fbc5d1c529f4db49dd03",
+    "wof:geomhash":"804f01f13a2a5521e50df9340aee96cc",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404410521,
-    "wof:lastmodified":1582325150,
+    "wof:lastmodified":1684353372,
     "wof:name":"Chene-Bernard",
     "wof:parent_id":102065629,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":64,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

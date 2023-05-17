@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_26281",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Romans-sur-Is\u00e8re",
+    "eurostat:nuts_2021_id":"26281",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK23",
+    "eurostat:nuts_2021_level_lau":"26281",
+    "eurostat:population":33160,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068781",
     "frgov:id":"BDCSURCO0000000009608078",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.003822,
-    "geom:area_square_m":33387409.984298,
+    "geom:area_square_m":33387409.984296,
     "geom:bbox":"4.98634317503,45.0267321489,5.10973969756,45.095382312",
     "geom:latitude":45.054778,
     "geom:longitude":5.038158,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683523,
         102191581,
@@ -58,7 +72,10 @@
         102072191
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_26281",
+        "eurostat:nuts_2021_id":"26281"
+    },
     "wof:coterminous":[
         101830433
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"cc91c6d2fbbbb890079de849d8182d6b",
+    "wof:geomhash":"04bba1ae3d7faeea53386623ee518ec6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404351275,
-    "wof:lastmodified":1582324949,
+    "wof:lastmodified":1684352635,
     "wof:name":"Romans-Sur-Isere",
     "wof:parent_id":102072191,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":33160,
+    "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

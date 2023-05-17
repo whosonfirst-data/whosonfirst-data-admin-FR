@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_89336",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Brancher",
+    "eurostat:nuts_2021_id":"89336",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC14",
+    "eurostat:nuts_2021_level_lau":"89336",
+    "eurostat:population":290,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200039758",
     "frgov:id":"BDCSURCO0000000009598630",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002657,
-    "geom:area_square_m":22227639.68555,
+    "geom:area_square_m":22227639.685551,
     "geom:bbox":"3.95362487528,47.4002380988,4.02761960118,47.4652991041",
     "geom:latitude":47.429444,
     "geom:longitude":3.990211,
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683503,
         102191581,
@@ -139,7 +153,10 @@
         102068623
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_89336",
+        "eurostat:nuts_2021_id":"89336"
+    },
     "wof:coterminous":[
         1125933347
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d2bcd7f9c6214e1d55d3771b652deb7b",
+    "wof:geomhash":"4996e5cc5e802634e41109b162fe94ff",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404383147,
-    "wof:lastmodified":1582324556,
+    "wof:lastmodified":1684353048,
     "wof:name":"Saint-Brancher",
     "wof:parent_id":102068623,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":290,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

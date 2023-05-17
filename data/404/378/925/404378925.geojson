@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_01090",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ch\u00e2tenay",
+    "eurostat:nuts_2021_id":"01090",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK21",
+    "eurostat:nuts_2021_level_lau":"01090",
+    "eurostat:population":341,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069193",
     "frgov:id":"BDCSURCO0000000009603946",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.00177,
-    "geom:area_square_m":15196999.748693,
+    "geom:area_square_m":15196999.748694,
     "geom:bbox":"5.17925758381,46.0023592765,5.23802988889,46.0530359496",
     "geom:latitude":46.025933,
     "geom:longitude":5.204558,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683153,
         102191581,
@@ -56,7 +70,10 @@
         102065667
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_01090",
+        "eurostat:nuts_2021_id":"01090"
+    },
     "wof:coterminous":[
         1360675669
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9d562b8b18587b4387ca359d8252dcfe",
+    "wof:geomhash":"ffa6a7e34b32c6f3c562d5310786a9c7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404378925,
-    "wof:lastmodified":1582324740,
+    "wof:lastmodified":1684352998,
     "wof:name":"Chatenay",
     "wof:parent_id":102065667,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":341,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

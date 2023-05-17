@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_56222",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Jean-Br\u00e9velay",
+    "eurostat:nuts_2021_id":"56222",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH04",
+    "eurostat:nuts_2021_level_lau":"56222",
+    "eurostat:population":2789,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067221",
     "frgov:id":"BDCSURCO0000000009596243",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BRETAGNE",
     "frgov:statut":"Commune simple",
     "geom:area":0.005017,
-    "geom:area_square_m":41644231.455478,
+    "geom:area_square_m":41644231.455477,
     "geom:bbox":"-2.77843521805,47.795628533,-2.67012906595,47.8671486307",
     "geom:latitude":47.831272,
     "geom:longitude":-2.727201,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683507,
         102191581,
@@ -57,7 +71,10 @@
         102070411
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_56222",
+        "eurostat:nuts_2021_id":"56222"
+    },
     "wof:coterminous":[
         101763597
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"bb96c27a4b6e4f417db6f22f80f33004",
+    "wof:geomhash":"b80709217feab371475f279c21262faf",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404361897,
-    "wof:lastmodified":1582324766,
+    "wof:lastmodified":1684352780,
     "wof:name":"Saint-Jean-Brevelay",
     "wof:parent_id":102070411,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2789,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_12197",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"R\u00e9quista",
+    "eurostat:nuts_2021_id":"12197",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ22",
+    "eurostat:nuts_2021_level_lau":"12197",
+    "eurostat:population":2005,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"241200542",
     "frgov:id":"BDCSURCO0000000009611814",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.006674,
-    "geom:area_square_m":59332484.56427,
+    "geom:area_square_m":59332484.564268,
     "geom:bbox":"2.49176240756,43.9732281162,2.61283532252,44.0849916494",
     "geom:latitude":44.031874,
     "geom:longitude":2.549095,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683301,
         102191581,
@@ -58,7 +72,10 @@
         102068949
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_12197",
+        "eurostat:nuts_2021_id":"12197"
+    },
     "wof:coterminous":[
         101772939
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3f657c1122fb85897d258b359e33d3de",
+    "wof:geomhash":"ece78d3dce1a7c2116ad9352831a281c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404351727,
-    "wof:lastmodified":1582324964,
+    "wof:lastmodified":1684352642,
     "wof:name":"Requista",
     "wof:parent_id":102068949,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2005,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

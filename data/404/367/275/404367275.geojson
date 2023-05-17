@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_58269",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Sulpice",
+    "eurostat:nuts_2021_id":"58269",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC12",
+    "eurostat:nuts_2021_level_lau":"58269",
+    "eurostat:population":399,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067908",
     "frgov:id":"BDCSURCO0000000009600519",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003058,
-    "geom:area_square_m":25759494.097651,
+    "geom:area_square_m":25759494.097649,
     "geom:bbox":"3.32229119766,47.0278218156,3.39693975794,47.0938264963",
     "geom:latitude":47.062624,
     "geom:longitude":3.360047,
@@ -120,6 +132,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683359,
         102191581,
@@ -130,7 +144,10 @@
         102068281
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_58269",
+        "eurostat:nuts_2021_id":"58269"
+    },
     "wof:coterminous":[
         1125827821
     ],
@@ -138,7 +155,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"95c43fdd16aabf9ad6277d1123b5c447",
+    "wof:geomhash":"63e990fda1a95789ca3766fa4f3950db",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -152,11 +169,13 @@
         }
     ],
     "wof:id":404367275,
-    "wof:lastmodified":1582324991,
+    "wof:lastmodified":1684352855,
     "wof:name":"Saint-Sulpice",
     "wof:parent_id":102068281,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":399,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

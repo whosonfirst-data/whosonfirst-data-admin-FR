@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_77495",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Vert-Saint-Denis",
+    "eurostat:nuts_2021_id":"77495",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR102",
+    "eurostat:nuts_2021_level_lau":"77495",
+    "eurostat:population":7610,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200059228",
     "frgov:id":"BDCSURCO0000000009591999",
     "frgov:insee_arr":"2",
@@ -114,6 +126,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683385,
         102191581,
@@ -123,7 +137,10 @@
         102071197
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_77495",
+        "eurostat:nuts_2021_id":"77495"
+    },
     "wof:coterminous":[
         101883587
     ],
@@ -131,7 +148,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6f9b4d68dd4c76af705d46a88a3d4486",
+    "wof:geomhash":"32f9a0d51cf035c101ae1f874d29d4be",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -144,11 +161,13 @@
         }
     ],
     "wof:id":404400221,
-    "wof:lastmodified":1582324506,
+    "wof:lastmodified":1684353252,
     "wof:name":"Vert-Saint-Denis",
     "wof:parent_id":102071197,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":7610,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_72290",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Jean-d'Ass\u00e9",
+    "eurostat:nuts_2021_id":"72290",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG04",
+    "eurostat:nuts_2021_level_lau":"72290",
+    "eurostat:population":1759,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068963",
     "frgov:id":"BDCSURCO0000000009594889",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683279,
         102191581,
@@ -57,7 +71,10 @@
         102064397
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_72290",
+        "eurostat:nuts_2021_id":"72290"
+    },
     "wof:coterminous":[
         101883179
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f6f17b472dfc25e6de41d6b9d0f84f32",
+    "wof:geomhash":"0bc78789e0f523d78cd63b4695d87ed9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404359469,
-    "wof:lastmodified":1582324801,
+    "wof:lastmodified":1684352746,
     "wof:name":"Saint-Jean-D'Asse",
     "wof:parent_id":102064397,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1759,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

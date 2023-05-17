@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_36165",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Pouligny-Saint-Pierre",
+    "eurostat:nuts_2021_id":"36165",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB03",
+    "eurostat:nuts_2021_level_lau":"36165",
+    "eurostat:population":1069,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243600319",
     "frgov:id":"BDCSURCO0000000009601839",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.005576,
-    "geom:area_square_m":47301766.611899,
+    "geom:area_square_m":47301766.611897,
     "geom:bbox":"0.991568386962,46.6442345512,1.11415661227,46.7285519981",
     "geom:latitude":46.684141,
     "geom:longitude":1.046452,
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683311,
         102191581,
@@ -135,7 +149,10 @@
         102065035
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_36165",
+        "eurostat:nuts_2021_id":"36165"
+    },
     "wof:coterminous":[
         1126012739
     ],
@@ -143,7 +160,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"bd67189681d9f922fe0e17b88657c514",
+    "wof:geomhash":"61f74011a56fcdfe201c4b52a5ca61ed",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -156,11 +173,13 @@
         }
     ],
     "wof:id":404363949,
-    "wof:lastmodified":1582324226,
+    "wof:lastmodified":1684352809,
     "wof:name":"Pouligny-Saint-Pierre",
     "wof:parent_id":102065035,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1069,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

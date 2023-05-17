@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_17382",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Pierre-d'Amilly",
+    "eurostat:nuts_2021_id":"17382",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI32",
+    "eurostat:nuts_2021_level_lau":"17382",
+    "eurostat:population":529,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041614",
     "frgov:id":"BDCSURCO0000000009603624",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.0023,
-    "geom:area_square_m":19690755.485478,
+    "geom:area_square_m":19690755.485477,
     "geom:bbox":"-0.741260939635,46.1441290161,-0.655390146242,46.2016868232",
     "geom:latitude":46.175522,
     "geom:longitude":-0.698225,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683275,
         102191581,
@@ -56,7 +70,10 @@
         102070741
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_17382",
+        "eurostat:nuts_2021_id":"17382"
+    },
     "wof:coterminous":[
         1360672927
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"86695daf82d8383fa1fb17fa8a6c368b",
+    "wof:geomhash":"d26bec64cbbc9a09284a97b0c541a247",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404351627,
-    "wof:lastmodified":1582324948,
+    "wof:lastmodified":1684352640,
     "wof:name":"Saint-Pierre-D'Amilly",
     "wof:parent_id":102070741,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":529,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

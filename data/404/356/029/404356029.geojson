@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_16117",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Curac",
+    "eurostat:nuts_2021_id":"16117",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI31",
+    "eurostat:nuts_2021_level_lau":"16117",
+    "eurostat:population":125,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070282",
     "frgov:id":"BDCSURCO0000000009607385",
     "frgov:insee_arr":"1",
@@ -123,6 +135,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683437,
         102191581,
@@ -133,7 +147,10 @@
         102066025
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_16117",
+        "eurostat:nuts_2021_id":"16117"
+    },
     "wof:coterminous":[
         1125825701
     ],
@@ -141,7 +158,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6b25715a3bae60f4713922b78ac2154b",
+    "wof:geomhash":"b13c1d3187b3e7b5ec936dd12213acab",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -155,11 +172,13 @@
         }
     ],
     "wof:id":404356029,
-    "wof:lastmodified":1582324936,
+    "wof:lastmodified":1684352699,
     "wof:name":"Curac",
     "wof:parent_id":102066025,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":125,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_61099",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Chapelle-Sou\u00ebf",
+    "eurostat:nuts_2021_id":"61099",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD13",
+    "eurostat:nuts_2021_level_lau":"61099",
+    "eurostat:population":255,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071504",
     "frgov:id":"BDCSURCO0000000009593790",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001366,
-    "geom:area_square_m":11232944.541629,
+    "geom:area_square_m":11232944.541628,
     "geom:bbox":"0.560690667591,48.2967405534,0.617655928512,48.3382519612",
     "geom:latitude":48.31793,
     "geom:longitude":0.58897,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683527,
         102191581,
@@ -58,7 +72,10 @@
         102065377
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_61099",
+        "eurostat:nuts_2021_id":"61099"
+    },
     "wof:coterminous":[
         1126057517
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7316e2f90475eafdda854a2ec7978b95",
+    "wof:geomhash":"50f63c507d8306156bd49628b807030e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404371493,
-    "wof:lastmodified":1582324656,
+    "wof:lastmodified":1684352907,
     "wof:name":"La Chapelle-Souef",
     "wof:parent_id":102065377,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":255,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

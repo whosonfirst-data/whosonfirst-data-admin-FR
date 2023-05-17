@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_85198",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Aubin-des-Ormeaux",
+    "eurostat:nuts_2021_id":"85198",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG05",
+    "eurostat:nuts_2021_level_lau":"85198",
+    "eurostat:population":1335,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248500662",
     "frgov:id":"BDCSURCO0000000009600620",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683409,
         102191581,
@@ -57,7 +71,10 @@
         102067085
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_85198",
+        "eurostat:nuts_2021_id":"85198"
+    },
     "wof:coterminous":[
         101765473
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c9c983a1b27ee2784e5da1d9eb594f5d",
+    "wof:geomhash":"fb456d8a66fd080ccd9272463c77140d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404398777,
-    "wof:lastmodified":1582324112,
+    "wof:lastmodified":1684353236,
     "wof:name":"Saint-Aubin-Des-Ormeaux",
     "wof:parent_id":102067085,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1335,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

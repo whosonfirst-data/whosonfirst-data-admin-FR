@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_74298",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"V\u00e9traz-Monthoux",
+    "eurostat:nuts_2021_id":"74298",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK28",
+    "eurostat:nuts_2021_level_lau":"74298",
+    "eurostat:population":8900,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200011773",
     "frgov:id":"BDCSURCO0000000009603193",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683227,
         102191581,
@@ -58,7 +72,10 @@
         102070047
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_74298",
+        "eurostat:nuts_2021_id":"74298"
+    },
     "wof:coterminous":[
         101851325
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f90747fe1a0fe9965e512ac30b264c9c",
+    "wof:geomhash":"677ad6fb78373c5801422c6dbec9c549",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404419285,
-    "wof:lastmodified":1582325072,
+    "wof:lastmodified":1684353475,
     "wof:name":"Vetraz-Monthoux",
     "wof:parent_id":102070047,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":8900,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

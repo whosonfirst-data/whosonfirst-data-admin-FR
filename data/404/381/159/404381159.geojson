@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_03231",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Fargeol",
+    "eurostat:nuts_2021_id":"03231",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK11",
+    "eurostat:nuts_2021_level_lau":"03231",
+    "eurostat:population":190,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071082",
     "frgov:id":"BDCSURCO0000000009603793",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001216,
-    "geom:area_square_m":10416522.262302,
+    "geom:area_square_m":10416522.262303,
     "geom:bbox":"2.59734394589,46.1184770469,2.6621617582,46.1473243872",
     "geom:latitude":46.134317,
     "geom:longitude":2.630845,
@@ -141,6 +153,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683293,
         102191581,
@@ -151,7 +165,10 @@
         102067367
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_03231",
+        "eurostat:nuts_2021_id":"03231"
+    },
     "wof:coterminous":[
         101892815
     ],
@@ -159,7 +176,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4cbe71a7386a853d6267b50b2c96ce06",
+    "wof:geomhash":"ff70571f67375176931dba6942f46800",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -173,11 +190,13 @@
         }
     ],
     "wof:id":404381159,
-    "wof:lastmodified":1582325427,
+    "wof:lastmodified":1684353024,
     "wof:name":"Saint-Fargeol",
     "wof:parent_id":102067367,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":190,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

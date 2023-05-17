@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_01353",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sainte-Euph\u00e9mie",
+    "eurostat:nuts_2021_id":"01353",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK21",
+    "eurostat:nuts_2021_level_lau":"01353",
+    "eurostat:population":1667,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200042497",
     "frgov:id":"BDCSURCO0000000009604197",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683153,
         102191581,
@@ -58,7 +72,10 @@
         102071189
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_01353",
+        "eurostat:nuts_2021_id":"01353"
+    },
     "wof:coterminous":[
         101829097
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"81eef8c87687a1aac0e5cdd4941cea1d",
+    "wof:geomhash":"e06b794261c77a0abe46e0970d6f7fae",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404380461,
-    "wof:lastmodified":1582325384,
+    "wof:lastmodified":1684353016,
     "wof:name":"Sainte-Euphemie",
     "wof:parent_id":102071189,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1667,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

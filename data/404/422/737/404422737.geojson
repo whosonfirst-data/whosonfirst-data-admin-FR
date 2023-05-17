@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_22327",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Samson-sur-Rance",
+    "eurostat:nuts_2021_id":"22327",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH01",
+    "eurostat:nuts_2021_level_lau":"22327",
+    "eurostat:population":1607,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068989",
     "frgov:id":"BDCSURCO0000000009592150",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BRETAGNE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000779,
-    "geom:area_square_m":6381059.482426,
+    "geom:area_square_m":6381059.482427,
     "geom:bbox":"-2.04483904713,48.4777360782,-1.98921889746,48.5019800506",
     "geom:latitude":48.49144,
     "geom:longitude":-2.018685,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683515,
         102191581,
@@ -57,7 +71,10 @@
         102066415
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_22327",
+        "eurostat:nuts_2021_id":"22327"
+    },
     "wof:coterminous":[
         101761553
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e3278326d00d62f784d5c2f796269f63",
+    "wof:geomhash":"7a498e2392ca6a064996ec6bba5bb33f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404422737,
-    "wof:lastmodified":1582324281,
+    "wof:lastmodified":1684353518,
     "wof:name":"Saint-Samson-Sur-Rance",
     "wof:parent_id":102066415,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1607,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

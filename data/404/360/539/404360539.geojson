@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_79241",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Christophe-sur-Roc",
+    "eurostat:nuts_2021_id":"79241",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI33",
+    "eurostat:nuts_2021_level_lau":"79241",
+    "eurostat:population":558,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069748",
     "frgov:id":"BDCSURCO0000000009602480",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001279,
-    "geom:area_square_m":10892441.899702,
+    "geom:area_square_m":10892441.899703,
     "geom:bbox":"-0.38655949033,46.4323154813,-0.335651922039,46.482899738",
     "geom:latitude":46.453762,
     "geom:longitude":-0.359824,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683163,
         102191581,
@@ -58,7 +72,10 @@
         102065723
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_79241",
+        "eurostat:nuts_2021_id":"79241"
+    },
     "wof:coterminous":[
         101889987
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"44343bb41000b02d24081ede55a6204b",
+    "wof:geomhash":"42d11e903081034c1be2ae930a55451b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404360539,
-    "wof:lastmodified":1582325051,
+    "wof:lastmodified":1684352761,
     "wof:name":"Saint-Christophe-Sur-Roc",
     "wof:parent_id":102065723,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":558,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

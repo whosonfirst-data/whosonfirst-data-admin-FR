@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_42088",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"\u00c9percieux-Saint-Paul",
+    "eurostat:nuts_2021_id":"42088",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK25",
+    "eurostat:nuts_2021_level_lau":"42088",
+    "eurostat:population":738,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200065894",
     "frgov:id":"BDCSURCO0000000009605271",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.000944,
-    "geom:area_square_m":8142734.570973,
+    "geom:area_square_m":8142734.570974,
     "geom:bbox":"4.18213652732,45.7735806021,4.22083769874,45.8124955165",
     "geom:latitude":45.789964,
     "geom:longitude":4.201721,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683377,
         102191581,
@@ -58,7 +72,10 @@
         102065433
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_42088",
+        "eurostat:nuts_2021_id":"42088"
+    },
     "wof:coterminous":[
         101893543
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3fb56cb6127874416a3bb4f1e5146248",
+    "wof:geomhash":"f4e1c6dae9fd0657c647b56420fa6f5c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404404761,
-    "wof:lastmodified":1582325313,
+    "wof:lastmodified":1684353304,
     "wof:name":"Epercieux-Saint-Paul",
     "wof:parent_id":102065433,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":738,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

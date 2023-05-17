@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_03253",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Pour\u00e7ain-sur-Besbre",
+    "eurostat:nuts_2021_id":"03253",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK11",
+    "eurostat:nuts_2021_level_lau":"03253",
+    "eurostat:population":418,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071470",
     "frgov:id":"BDCSURCO0000000009602400",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.003911,
-    "geom:area_square_m":33297568.822494,
+    "geom:area_square_m":33297568.822496,
     "geom:bbox":"3.58727868164,46.4547131883,3.72040973779,46.5162112617",
     "geom:latitude":46.481969,
     "geom:longitude":3.64938,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683293,
         102191581,
@@ -58,7 +72,10 @@
         102065497
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_03253",
+        "eurostat:nuts_2021_id":"03253"
+    },
     "wof:coterminous":[
         101891017
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8bda5f89c74e4639ad6a8f208d0cd633",
+    "wof:geomhash":"f53a6ce185ba642e41b84352c462faa9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404363113,
-    "wof:lastmodified":1582324236,
+    "wof:lastmodified":1684352797,
     "wof:name":"Saint-Pourcain-Sur-Besbre",
     "wof:parent_id":102065497,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":418,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

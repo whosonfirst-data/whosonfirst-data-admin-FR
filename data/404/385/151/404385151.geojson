@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_60485",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Oursel-Maison",
+    "eurostat:nuts_2021_id":"60485",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE22",
+    "eurostat:nuts_2021_level_lau":"60485",
+    "eurostat:population":240,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068005",
     "frgov:id":"BDCSURCO0000000009583921",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000872,
-    "geom:area_square_m":6988487.796122,
+    "geom:area_square_m":6988487.796121,
     "geom:bbox":"2.1521970719,49.5887906892,2.20269311658,49.6137416749",
     "geom:latitude":49.601871,
     "geom:longitude":2.177177,
@@ -123,6 +135,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683289,
         102191581,
@@ -133,7 +147,10 @@
         102067275
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_60485",
+        "eurostat:nuts_2021_id":"60485"
+    },
     "wof:coterminous":[
         1125895273
     ],
@@ -141,7 +158,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4b26382511feb7efd3063657eb45b1b4",
+    "wof:geomhash":"95ac0d560dbc9b314e090bc3a9eeb19d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -155,11 +172,13 @@
         }
     ],
     "wof:id":404385151,
-    "wof:lastmodified":1582324630,
+    "wof:lastmodified":1684353072,
     "wof:name":"Oursel-Maison",
     "wof:parent_id":102067275,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":240,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_30028",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bagnols-sur-C\u00e8ze",
+    "eurostat:nuts_2021_id":"30028",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ12",
+    "eurostat:nuts_2021_level_lau":"30028",
+    "eurostat:population":18258,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200034692",
     "frgov:id":"BDCSURCO0000000009611195",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003514,
-    "geom:area_square_m":31171559.376449,
+    "geom:area_square_m":31171559.37645,
     "geom:bbox":"4.58096037539,44.127148587,4.66747563984,44.1974314113",
     "geom:latitude":44.162832,
     "geom:longitude":4.624549,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683431,
         102191581,
@@ -58,7 +72,10 @@
         102065527
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_30028",
+        "eurostat:nuts_2021_id":"30028"
+    },
     "wof:coterminous":[
         101772703
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b2436bb1db91a8117d7759fbe3aa50f9",
+    "wof:geomhash":"bc0224ed8c868b73dd11c2a4fb275fb3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404405779,
-    "wof:lastmodified":1582325259,
+    "wof:lastmodified":1684353317,
     "wof:name":"Bagnols-Sur-Ceze",
     "wof:parent_id":102065527,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":18258,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

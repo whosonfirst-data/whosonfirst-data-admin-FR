@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_38393",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Hilaire-de-la-C\u00f4te",
+    "eurostat:nuts_2021_id":"38393",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK24",
+    "eurostat:nuts_2021_level_lau":"38393",
+    "eurostat:population":1504,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200059392",
     "frgov:id":"BDCSURCO0000000009606745",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001571,
-    "geom:area_square_m":13641982.553814,
+    "geom:area_square_m":13641982.553813,
     "geom:bbox":"5.3108876999,45.3599311056,5.3556587119,45.41501189",
     "geom:latitude":45.389497,
     "geom:longitude":5.329548,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683427,
         102191581,
@@ -58,7 +72,10 @@
         102065577
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_38393",
+        "eurostat:nuts_2021_id":"38393"
+    },
     "wof:coterminous":[
         101769225
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"04c31efff4df30b0e8a9d49a66a9ee95",
+    "wof:geomhash":"a8a76e05bc08c470dd42a40de5c5d591",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404406457,
-    "wof:lastmodified":1582324450,
+    "wof:lastmodified":1684353326,
     "wof:name":"Saint-Hilaire-De-La-Cote",
     "wof:parent_id":102065577,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1504,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

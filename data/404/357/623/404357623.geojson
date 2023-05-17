@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_19240",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Salvadour",
+    "eurostat:nuts_2021_id":"19240",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI21",
+    "eurostat:nuts_2021_level_lau":"19240",
+    "eurostat:population":300,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"241927201",
     "frgov:id":"BDCSURCO0000000009607090",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002284,
-    "geom:area_square_m":19831830.594118,
+    "geom:area_square_m":19831830.594117,
     "geom:bbox":"1.73440109525,45.3561290588,1.79656675536,45.4174687187",
     "geom:latitude":45.391182,
     "geom:longitude":1.766402,
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683209,
         102191581,
@@ -139,7 +153,10 @@
         102068389
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_19240",
+        "eurostat:nuts_2021_id":"19240"
+    },
     "wof:coterminous":[
         101893201
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"35ba669b2a582f2e5ada1f366373e13d",
+    "wof:geomhash":"658aaa33ac52f89d77e283c49f92a800",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404357623,
-    "wof:lastmodified":1582324899,
+    "wof:lastmodified":1684352720,
     "wof:name":"Saint-Salvadour",
     "wof:parent_id":102068389,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":300,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

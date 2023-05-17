@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_47114",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gr\u00e9zet-Cavagnan",
+    "eurostat:nuts_2021_id":"47114",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI14",
+    "eurostat:nuts_2021_level_lau":"47114",
+    "eurostat:population":385,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244701355",
     "frgov:id":"BDCSURCO0000000009610783",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683341,
         102191581,
@@ -58,7 +72,10 @@
         102065099
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_47114",
+        "eurostat:nuts_2021_id":"47114"
+    },
     "wof:coterminous":[
         1125928837
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"398b037fdcf630a67a0414a559dc300a",
+    "wof:geomhash":"04fae6154f6c9bfb1e998308daf5240d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404390287,
-    "wof:lastmodified":1582324261,
+    "wof:lastmodified":1684353133,
     "wof:name":"Grezet-Cavagnan",
     "wof:parent_id":102065099,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":385,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

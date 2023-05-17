@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_42217",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Didier-sur-Rochefort",
+    "eurostat:nuts_2021_id":"42217",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK25",
+    "eurostat:nuts_2021_level_lau":"42217",
+    "eurostat:population":417,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200065886",
     "frgov:id":"BDCSURCO0000000009605288",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.002634,
-    "geom:area_square_m":22712992.496174,
+    "geom:area_square_m":22712992.496172,
     "geom:bbox":"3.8195519052,45.7540175297,3.89829307581,45.8265056622",
     "geom:latitude":45.793192,
     "geom:longitude":3.863801,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683377,
         102191581,
@@ -58,7 +72,10 @@
         102066241
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_42217",
+        "eurostat:nuts_2021_id":"42217"
+    },
     "wof:coterminous":[
         1125984975
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"97531bd8fdf957a46d77e52979a388b3",
+    "wof:geomhash":"8c81fb2fae9a8970e4c33b37fc1c2eff",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404398645,
-    "wof:lastmodified":1582324106,
+    "wof:lastmodified":1684353234,
     "wof:name":"Saint-Didier-Sur-Rochefort",
     "wof:parent_id":102066241,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":417,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

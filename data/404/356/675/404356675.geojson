@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_60334",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lachapelle-Saint-Pierre",
+    "eurostat:nuts_2021_id":"60334",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE22",
+    "eurostat:nuts_2021_level_lau":"60334",
+    "eurostat:population":919,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067973",
     "frgov:id":"BDCSURCO0000000009586213",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000517,
-    "geom:area_square_m":4170370.473758,
+    "geom:area_square_m":4170370.473759,
     "geom:bbox":"2.22057073714,49.2513754881,2.25915161525,49.2824133714",
     "geom:latitude":49.268929,
     "geom:longitude":2.236229,
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683289,
         102191581,
@@ -136,7 +150,10 @@
         102069457
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_60334",
+        "eurostat:nuts_2021_id":"60334"
+    },
     "wof:coterminous":[
         1125930893
     ],
@@ -144,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"40ec0e84676899d3938324e7ebbdee6b",
+    "wof:geomhash":"b69333272abc6419e428f39c53553471",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +175,13 @@
         }
     ],
     "wof:id":404356675,
-    "wof:lastmodified":1582324925,
+    "wof:lastmodified":1684352707,
     "wof:name":"Lachapelle-Saint-Pierre",
     "wof:parent_id":102069457,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":919,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

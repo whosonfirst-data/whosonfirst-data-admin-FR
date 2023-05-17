@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_41199",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Amand-Longpr\u00e9",
+    "eurostat:nuts_2021_id":"41199",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB05",
+    "eurostat:nuts_2021_level_lau":"41199",
+    "eurostat:population":1224,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072072",
     "frgov:id":"BDCSURCO0000000009597518",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002568,
-    "geom:area_square_m":21377207.871964,
+    "geom:area_square_m":21377207.871963,
     "geom:bbox":"0.931959068041,47.6493844294,1.04479786008,47.7113695647",
     "geom:latitude":47.684003,
     "geom:longitude":1.000485,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683349,
         102191581,
@@ -57,7 +71,10 @@
         102067817
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_41199",
+        "eurostat:nuts_2021_id":"41199"
+    },
     "wof:coterminous":[
         101886869
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b46e533e47760adca9133ce2fa63af2b",
+    "wof:geomhash":"61fd0017edb809a845185ffeb4d4f3aa",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404409881,
-    "wof:lastmodified":1582324474,
+    "wof:lastmodified":1684353365,
     "wof:name":"Saint-Amand-Longpre",
     "wof:parent_id":102067817,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1224,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

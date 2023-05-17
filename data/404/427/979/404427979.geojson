@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_10365",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Salon",
+    "eurostat:nuts_2021_id":"10365",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF22",
+    "eurostat:nuts_2021_level_lau":"10365",
+    "eurostat:population":120,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070126",
     "frgov:id":"BDCSURCO0000000009591489",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.002692,
-    "geom:area_square_m":21995044.579717,
+    "geom:area_square_m":21995044.579716,
     "geom:bbox":"3.97668683498,48.5998543246,4.06858508595,48.6638754182",
     "geom:latitude":48.642921,
     "geom:longitude":4.018396,
@@ -111,6 +123,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683193,
         102191581,
@@ -121,7 +135,10 @@
         102066845
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_10365",
+        "eurostat:nuts_2021_id":"10365"
+    },
     "wof:coterminous":[
         101881783
     ],
@@ -129,7 +146,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ff7c9ef76cc863de201fbbb899071102",
+    "wof:geomhash":"f6b8310dce6854dc8576518f0dcd35da",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -143,11 +160,13 @@
         }
     ],
     "wof:id":404427979,
-    "wof:lastmodified":1582325238,
+    "wof:lastmodified":1684353579,
     "wof:name":"Salon",
     "wof:parent_id":102066845,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":120,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

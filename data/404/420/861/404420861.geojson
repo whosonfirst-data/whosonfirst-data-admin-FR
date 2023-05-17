@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_65388",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Lary-Soulan",
+    "eurostat:nuts_2021_id":"65388",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ26",
+    "eurostat:nuts_2021_level_lau":"65388",
+    "eurostat:population":835,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"246500573",
     "frgov:id":"BDCSURCO0000000009616459",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.010046,
-    "geom:area_square_m":91205298.028532,
+    "geom:area_square_m":91205298.028531,
     "geom:bbox":"0.112563511611,42.6731073497,0.360100329076,42.8523901858",
     "geom:latitude":42.758087,
     "geom:longitude":0.287242,
@@ -127,6 +139,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683203,
         102191581,
@@ -137,7 +151,10 @@
         102069149
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_65388",
+        "eurostat:nuts_2021_id":"65388"
+    },
     "wof:coterminous":[
         1360679671
     ],
@@ -145,7 +162,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c9835f52e874c7cfc6a526b092288495",
+    "wof:geomhash":"7869412ed03c4b19690ec8ad1082a74d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -159,11 +176,13 @@
         }
     ],
     "wof:id":404420861,
-    "wof:lastmodified":1582325200,
+    "wof:lastmodified":1684353495,
     "wof:name":"Saint-Lary-Soulan",
     "wof:parent_id":102069149,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":835,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

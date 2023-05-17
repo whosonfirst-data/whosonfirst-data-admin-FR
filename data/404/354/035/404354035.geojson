@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_35275",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Gilles",
+    "eurostat:nuts_2021_id":"35275",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH03",
+    "eurostat:nuts_2021_level_lau":"35275",
+    "eurostat:population":4984,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243500139",
     "frgov:id":"BDCSURCO0000000009594604",
     "frgov:insee_arr":"3",
@@ -105,6 +117,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683461,
         102191581,
@@ -114,7 +128,10 @@
         102068819
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_35275",
+        "eurostat:nuts_2021_id":"35275"
+    },
     "wof:coterminous":[
         101762483
     ],
@@ -122,7 +139,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a5f4a8df2df79568f2d9e9acb3a5e923",
+    "wof:geomhash":"8fb11c46cf8f3da659819db954861fab",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -135,11 +152,13 @@
         }
     ],
     "wof:id":404354035,
-    "wof:lastmodified":1582324098,
+    "wof:lastmodified":1684352672,
     "wof:name":"Saint-Gilles",
     "wof:parent_id":102068819,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":4984,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

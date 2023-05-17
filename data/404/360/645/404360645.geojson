@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_80569",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Morcourt",
+    "eurostat:nuts_2021_id":"80569",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE23",
+    "eurostat:nuts_2021_level_lau":"80569",
+    "eurostat:population":312,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248000499",
     "frgov:id":"BDCSURCO0000000009582484",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000953,
-    "geom:area_square_m":7591062.467057,
+    "geom:area_square_m":7591062.467058,
     "geom:bbox":"2.6360851963,49.8722468565,2.68018342631,49.9017668129",
     "geom:latitude":49.885486,
     "geom:longitude":2.65709,
@@ -90,6 +102,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683363,
         102191581,
@@ -100,7 +114,10 @@
         102066967
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_80569",
+        "eurostat:nuts_2021_id":"80569"
+    },
     "wof:coterminous":[
         101900479
     ],
@@ -108,7 +125,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0391db2748933a64a0762000db7e7d6c",
+    "wof:geomhash":"b35a557ec03ceaf6ff977d9ba97c6015",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -122,11 +139,13 @@
         }
     ],
     "wof:id":404360645,
-    "wof:lastmodified":1582325044,
+    "wof:lastmodified":1684352763,
     "wof:name":"Morcourt",
     "wof:parent_id":102066967,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":312,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

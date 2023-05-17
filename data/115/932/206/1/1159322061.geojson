@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_14366",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lisieux",
+    "eurostat:nuts_2021_id":"14366",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD11",
+    "eurostat:nuts_2021_level_lau":"14366",
+    "eurostat:population":20318,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069532",
     "frgov:id":"BDCSURCO0000000230208627",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Sous-pr\u00e9fecture",
     "geom:area":0.001606,
-    "geom:area_square_m":12993863.830798,
+    "geom:area_square_m":12993863.830799,
     "geom:bbox":"0.204637,49.123237,0.28091,49.172252",
     "geom:latitude":49.146959,
     "geom:longitude":0.238227,
@@ -189,24 +201,30 @@
     "reversegeo:longitude":0.23882,
     "src:geom":"frgov",
     "src:geom_alt":[],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85683579,
         102191581,
         85633147,
-        102072503,
-        136253037,
         404228031,
         1108826393,
-        85683579
+        136253037,
+        102072503
     ],
     "wof:breaches":[],
     "wof:concordance":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_14366",
+        "eurostat:nuts_2021_id":"14366"
+    },
     "wof:coterminous":[
         101828435,
         102072503
     ],
     "wof:country":"FR",
     "wof:created":1526509756,
-    "wof:geomhash":"199ca18b87ac95cfc039b7b016bb9a68",
+    "wof:geomhash":"1fb68d8801babafe4a54c84098dfd50a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -220,11 +238,13 @@
         }
     ],
     "wof:id":1159322061,
-    "wof:lastmodified":1608039590,
+    "wof:lastmodified":1684353596,
     "wof:name":"Lisieux",
     "wof:parent_id":102072503,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Sous-pr\u00e9fecture",
+    "wof:population":20318,
+    "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded":[],
     "wof:superseded_by":[],

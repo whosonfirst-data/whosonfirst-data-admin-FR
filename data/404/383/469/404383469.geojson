@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_79342",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Vernoux-en-G\u00e2tine",
+    "eurostat:nuts_2021_id":"79342",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI33",
+    "eurostat:nuts_2021_level_lau":"79342",
+    "eurostat:population":571,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041333",
     "frgov:id":"BDCSURCO0000000009602077",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003706,
-    "geom:area_square_m":31473939.185779,
+    "geom:area_square_m":31473939.185778,
     "geom:bbox":"-0.566072149105,46.577981788,-0.462272239599,46.6536914674",
     "geom:latitude":46.622754,
     "geom:longitude":-0.517496,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683163,
         102191581,
@@ -58,7 +72,10 @@
         102069731
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_79342",
+        "eurostat:nuts_2021_id":"79342"
+    },
     "wof:coterminous":[
         101889961
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d4414c9880c3cc649d4d253ee39fed2a",
+    "wof:geomhash":"7911fceb9441b4a8a751dce9eed2529b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404383469,
-    "wof:lastmodified":1582324552,
+    "wof:lastmodified":1684353052,
     "wof:name":"Vernoux-En-Gatine",
     "wof:parent_id":102069731,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":571,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

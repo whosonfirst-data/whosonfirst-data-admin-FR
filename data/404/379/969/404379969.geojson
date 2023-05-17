@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_28357",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Piat",
+    "eurostat:nuts_2021_id":"28357",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB02",
+    "eurostat:nuts_2021_level_lau":"28357",
+    "eurostat:population":1050,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069953",
     "frgov:id":"BDCSURCO0000000009592051",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001392,
-    "geom:area_square_m":11390506.314074,
+    "geom:area_square_m":11390506.314075,
     "geom:bbox":"1.54978638378,48.5248151556,1.61800921459,48.5708613637",
     "geom:latitude":48.547846,
     "geom:longitude":1.579795,
@@ -132,6 +144,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683189,
         102191581,
@@ -141,7 +155,10 @@
         102067573
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_28357",
+        "eurostat:nuts_2021_id":"28357"
+    },
     "wof:coterminous":[
         101762321
     ],
@@ -149,7 +166,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c071296246e64eabcf79c381d23f8abc",
+    "wof:geomhash":"b191be8e1803bfc689b80e7fedd85c84",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -162,11 +179,13 @@
         }
     ],
     "wof:id":404379969,
-    "wof:lastmodified":1582324529,
+    "wof:lastmodified":1684353010,
     "wof:name":"Saint-Piat",
     "wof:parent_id":102067573,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1050,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

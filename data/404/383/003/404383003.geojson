@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_37221",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Hippolyte",
+    "eurostat:nuts_2021_id":"37221",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB04",
+    "eurostat:nuts_2021_level_lau":"37221",
+    "eurostat:population":646,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071587",
     "frgov:id":"BDCSURCO0000000009600570",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003892,
-    "geom:area_square_m":32784132.165595,
+    "geom:area_square_m":32784132.165594,
     "geom:bbox":"1.07983782433,47.0244384369,1.18164203746,47.0856722811",
     "geom:latitude":47.05728,
     "geom:longitude":1.132886,
@@ -87,6 +99,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683575,
         102191581,
@@ -96,7 +110,10 @@
         102066731
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_37221",
+        "eurostat:nuts_2021_id":"37221"
+    },
     "wof:coterminous":[
         101889295
     ],
@@ -104,7 +121,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"cb9ecafc00a71b6bc2892b62db34262c",
+    "wof:geomhash":"c206a11ce057eb1a6ffdf9fb275d8e9c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -117,11 +134,13 @@
         }
     ],
     "wof:id":404383003,
-    "wof:lastmodified":1582324552,
+    "wof:lastmodified":1684353046,
     "wof:name":"Saint-Hippolyte",
     "wof:parent_id":102066731,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":646,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

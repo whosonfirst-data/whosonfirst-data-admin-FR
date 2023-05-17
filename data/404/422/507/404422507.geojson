@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_34032",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"B\u00e9ziers",
+    "eurostat:nuts_2021_id":"34032",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ13",
+    "eurostat:nuts_2021_level_lau":"34032",
+    "eurostat:population":77177,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243400769",
     "frgov:id":"BDCSURCO0000000009614642",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Sous-pr\u00e9fecture",
     "geom:area":0.01061,
-    "geom:area_square_m":95405638.263883,
+    "geom:area_square_m":95405638.263886,
     "geom:bbox":"3.127818,43.297118,3.340654,43.399631",
     "geom:latitude":43.347498,
     "geom:longitude":3.230757,
@@ -48,17 +60,22 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85683419,
         102191581,
         85633147,
-        102072255,
-        136253037,
         404227659,
         1108826387,
-        85683419
+        136253037,
+        102072255
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_34032",
+        "eurostat:nuts_2021_id":"34032"
+    },
     "wof:coterminous":[
         101749211,
         102072255
@@ -67,7 +84,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"83fc4a68b1e797653a62612ad94f6d55",
+    "wof:geomhash":"1ba636e588d0bd7d5cb8547f735f5b11",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -81,11 +98,13 @@
         }
     ],
     "wof:id":404422507,
-    "wof:lastmodified":1608037336,
+    "wof:lastmodified":1684353516,
     "wof:name":"Beziers",
     "wof:parent_id":102072255,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Sous-pr\u00e9fecture",
+    "wof:population":77177,
+    "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

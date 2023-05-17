@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_60684",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Villers-Saint-Paul",
+    "eurostat:nuts_2021_id":"60684",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE22",
+    "eurostat:nuts_2021_level_lau":"60684",
+    "eurostat:population":6422,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068047",
     "frgov:id":"BDCSURCO0000000009585735",
     "frgov:insee_arr":"4",
@@ -120,6 +132,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683289,
         102191581,
@@ -130,7 +144,10 @@
         102066389
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_60684",
+        "eurostat:nuts_2021_id":"60684"
+    },
     "wof:coterminous":[
         101874685
     ],
@@ -138,7 +155,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"046d071f480f3c87d5bf7a9b537a529f",
+    "wof:geomhash":"c470b234276a3c1af3e9b97719f40e9c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -152,11 +169,13 @@
         }
     ],
     "wof:id":404351981,
-    "wof:lastmodified":1582324964,
+    "wof:lastmodified":1684352645,
     "wof:name":"Villers-Saint-Paul",
     "wof:parent_id":102066389,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":6422,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

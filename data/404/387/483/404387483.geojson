@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_60428",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mont-Saint-Adrien",
+    "eurostat:nuts_2021_id":"60428",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE22",
+    "eurostat:nuts_2021_level_lau":"60428",
+    "eurostat:population":647,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067999",
     "frgov:id":"BDCSURCO0000000009585006",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000965,
-    "geom:area_square_m":7754743.485607,
+    "geom:area_square_m":7754743.485608,
     "geom:bbox":"1.98387414226,49.4338577459,2.04363625417,49.4637676098",
     "geom:latitude":49.449768,
     "geom:longitude":2.013922,
@@ -117,6 +129,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683289,
         102191581,
@@ -127,7 +141,10 @@
         102064505
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_60428",
+        "eurostat:nuts_2021_id":"60428"
+    },
     "wof:coterminous":[
         101902739
     ],
@@ -135,7 +152,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d8b4251097a68b4cbaa418800a830a8e",
+    "wof:geomhash":"5d29f1324441471619ee77612e5669f6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -149,11 +166,13 @@
         }
     ],
     "wof:id":404387483,
-    "wof:lastmodified":1582325357,
+    "wof:lastmodified":1684353098,
     "wof:name":"Le Mont-Saint-Adrien",
     "wof:parent_id":102064505,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":647,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

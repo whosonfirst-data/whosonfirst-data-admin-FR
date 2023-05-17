@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_80542",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mesnil-Saint-Nicaise",
+    "eurostat:nuts_2021_id":"80542",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE23",
+    "eurostat:nuts_2021_level_lau":"80542",
+    "eurostat:population":561,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070985",
     "frgov:id":"BDCSURCO0000000009582937",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000851,
-    "geom:area_square_m":6797975.417222,
+    "geom:area_square_m":6797975.417223,
     "geom:bbox":"2.88859193644,49.7637103309,2.94164642173,49.7900241306",
     "geom:latitude":49.777672,
     "geom:longitude":2.913197,
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683363,
         102191581,
@@ -136,7 +150,10 @@
         102069915
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_80542",
+        "eurostat:nuts_2021_id":"80542"
+    },
     "wof:coterminous":[
         1125894701
     ],
@@ -144,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"72c6c3ef62d9f76c8c8f179bd4b43975",
+    "wof:geomhash":"123b103a2c7ab66e2f9e1abbd42e27fa",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +175,13 @@
         }
     ],
     "wof:id":404409315,
-    "wof:lastmodified":1582324477,
+    "wof:lastmodified":1684353359,
     "wof:name":"Mesnil-Saint-Nicaise",
     "wof:parent_id":102069915,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":561,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

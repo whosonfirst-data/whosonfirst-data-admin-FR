@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_57150",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Cond\u00e9-Northen",
+    "eurostat:nuts_2021_id":"57150",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF33",
+    "eurostat:nuts_2021_level_lau":"57150",
+    "eurostat:population":678,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067650",
     "frgov:id":"BDCSURCO0000000009586499",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.001341,
-    "geom:area_square_m":10848040.891086,
+    "geom:area_square_m":10848040.891087,
     "geom:bbox":"6.39379922898,49.1384751436,6.46265978219,49.1816252197",
     "geom:latitude":49.155544,
     "geom:longitude":6.427717,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683271,
         102191581,
@@ -58,7 +72,10 @@
         102064667
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_57150",
+        "eurostat:nuts_2021_id":"57150"
+    },
     "wof:coterminous":[
         101880031
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"cf4b016910e3942f7c85b40b2b61e4b1",
+    "wof:geomhash":"e27e192a8d6442c645041270e514f05f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404350979,
-    "wof:lastmodified":1582324851,
+    "wof:lastmodified":1684352631,
     "wof:name":"Conde-Northen",
     "wof:parent_id":102064667,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":678,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

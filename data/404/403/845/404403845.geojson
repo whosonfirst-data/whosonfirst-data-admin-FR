@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_38384",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-\u00c9tienne-de-Saint-Geoirs",
+    "eurostat:nuts_2021_id":"38384",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK24",
+    "eurostat:nuts_2021_level_lau":"38384",
+    "eurostat:population":3225,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200059392",
     "frgov:id":"BDCSURCO0000000009606979",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.002158,
-    "geom:area_square_m":18757993.540159,
+    "geom:area_square_m":18757993.540161,
     "geom:bbox":"5.32228398069,45.3217547089,5.37836660443,45.3716349544",
     "geom:latitude":45.34593,
     "geom:longitude":5.348558,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683427,
         102191581,
@@ -58,7 +72,10 @@
         102069083
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_38384",
+        "eurostat:nuts_2021_id":"38384"
+    },
     "wof:coterminous":[
         101770575
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3c0af8a0521fa6f470e33fa987f002da",
+    "wof:geomhash":"054ac5842ddaacfb6bb2ca20189f0c56",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404403845,
-    "wof:lastmodified":1582325289,
+    "wof:lastmodified":1684353293,
     "wof:name":"Saint-Etienne-De-Saint-Geoirs",
     "wof:parent_id":102069083,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3225,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

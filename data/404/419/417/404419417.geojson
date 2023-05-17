@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_08260",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lonny",
+    "eurostat:nuts_2021_id":"08260",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF21",
+    "eurostat:nuts_2021_level_lau":"08260",
+    "eurostat:population":648,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067759",
     "frgov:id":"BDCSURCO0000000009582592",
     "frgov:insee_arr":"1",
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683309,
         102191581,
@@ -139,7 +153,10 @@
         102068329
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_08260",
+        "eurostat:nuts_2021_id":"08260"
+    },
     "wof:coterminous":[
         101901809
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f40ce8e7115adaaab8d9166da9ed26e0",
+    "wof:geomhash":"38cd89c582c2047cdf26f1031751c9a4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404419417,
-    "wof:lastmodified":1582325071,
+    "wof:lastmodified":1684353476,
     "wof:name":"Lonny",
     "wof:parent_id":102068329,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":648,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

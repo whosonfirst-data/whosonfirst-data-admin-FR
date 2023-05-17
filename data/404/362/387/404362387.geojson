@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_55228",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hannonville-sous-les-C\u00f4tes",
+    "eurostat:nuts_2021_id":"55228",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF32",
+    "eurostat:nuts_2021_level_lau":"55228",
+    "eurostat:population":567,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"245501176",
     "frgov:id":"BDCSURCO0000000009587550",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.001945,
-    "geom:area_square_m":15769162.503916,
+    "geom:area_square_m":15769162.503915,
     "geom:bbox":"5.6022982237,49.0026904681,5.70278677436,49.0616354013",
     "geom:latitude":49.032725,
     "geom:longitude":5.653454,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683297,
         102191581,
@@ -58,7 +72,10 @@
         102065975
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_55228",
+        "eurostat:nuts_2021_id":"55228"
+    },
     "wof:coterminous":[
         101880421
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ce49f449060e2385415a612a31a253be",
+    "wof:geomhash":"9984e13d0e2d3fad9daf42b0fb094127",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404362387,
-    "wof:lastmodified":1582324063,
+    "wof:lastmodified":1684352787,
     "wof:name":"Hannonville-Sous-Les-Cotes",
     "wof:parent_id":102065975,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":567,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

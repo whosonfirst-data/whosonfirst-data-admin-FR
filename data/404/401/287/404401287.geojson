@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_95566",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Martin-du-Tertre",
+    "eurostat:nuts_2021_id":"95566",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR108",
+    "eurostat:nuts_2021_level_lau":"95566",
+    "eurostat:population":2778,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200073013",
     "frgov:id":"BDCSURCO0000000009587707",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"ILE-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001445,
-    "geom:area_square_m":11699063.843925,
+    "geom:area_square_m":11699063.843924,
     "geom:bbox":"2.30864417035,49.0769241595,2.36164532843,49.1246724494",
     "geom:latitude":49.103544,
     "geom:longitude":2.335153,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683451,
         102191581,
@@ -57,7 +71,10 @@
         102069165
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_95566",
+        "eurostat:nuts_2021_id":"95566"
+    },
     "wof:coterminous":[
         101759835
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4c67bf92235101ff9f704936e0026c04",
+    "wof:geomhash":"886b05864f6692bb35378857ef3e75eb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404401287,
-    "wof:lastmodified":1582324422,
+    "wof:lastmodified":1684353264,
     "wof:name":"Saint-Martin-Du-Tertre",
     "wof:parent_id":102069165,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2778,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

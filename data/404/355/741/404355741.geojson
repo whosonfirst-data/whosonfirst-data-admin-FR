@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_45277",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Florent",
+    "eurostat:nuts_2021_id":"45277",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB06",
+    "eurostat:nuts_2021_level_lau":"45277",
+    "eurostat:population":457,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070100",
     "frgov:id":"BDCSURCO0000000009597490",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.004507,
-    "geom:area_square_m":37515777.117969,
+    "geom:area_square_m":37515777.117968,
     "geom:bbox":"2.39480299983,47.6542381354,2.52124474539,47.7187985711",
     "geom:latitude":47.684987,
     "geom:longitude":2.452934,
@@ -87,6 +99,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683479,
         102191581,
@@ -96,7 +110,10 @@
         102069993
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_45277",
+        "eurostat:nuts_2021_id":"45277"
+    },
     "wof:coterminous":[
         101887181
     ],
@@ -104,7 +121,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2bbd807e7a1db72ca3d7e23a64db92c5",
+    "wof:geomhash":"527c6f09dbe5471ac81ab3068b47d84e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -117,11 +134,13 @@
         }
     ],
     "wof:id":404355741,
-    "wof:lastmodified":1582324189,
+    "wof:lastmodified":1684352695,
     "wof:name":"Saint-Florent",
     "wof:parent_id":102069993,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":457,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

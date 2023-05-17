@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_61376",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Clair-de-Halouze",
+    "eurostat:nuts_2021_id":"61376",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD13",
+    "eurostat:nuts_2021_level_lau":"61376",
+    "eurostat:population":863,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200035814",
     "frgov:id":"BDCSURCO0000000009590792",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001448,
-    "geom:area_square_m":11821473.201983,
+    "geom:area_square_m":11821473.201981,
     "geom:bbox":"-0.659227419966,48.6682361963,-0.586544192929,48.7065204105",
     "geom:latitude":48.689074,
     "geom:longitude":-0.62611,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683527,
         102191581,
@@ -58,7 +72,10 @@
         102066047
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_61376",
+        "eurostat:nuts_2021_id":"61376"
+    },
     "wof:coterminous":[
         1126008277
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"63971af6cb389c1867edcd0558ad8e45",
+    "wof:geomhash":"7e9338cc21e4231ea41e31ba46a6427d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404372779,
-    "wof:lastmodified":1582325466,
+    "wof:lastmodified":1684352921,
     "wof:name":"Saint-Clair-De-Halouze",
     "wof:parent_id":102066047,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":863,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

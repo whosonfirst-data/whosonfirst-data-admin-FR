@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_74243",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Julien-en-Genevois",
+    "eurostat:nuts_2021_id":"74243",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK28",
+    "eurostat:nuts_2021_level_lau":"74243",
+    "eurostat:population":14258,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247400690",
     "frgov:id":"BDCSURCO0000000009603433",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Sous-pr\u00e9fecture",
     "geom:area":0.001239,
-    "geom:area_square_m":10612059.127409,
+    "geom:area_square_m":10612059.12741,
     "geom:bbox":"6.04737448303,46.122512114,6.12832572474,46.1517599144",
     "geom:latitude":46.139253,
     "geom:longitude":6.078672,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683227,
         102191581,
@@ -58,7 +72,10 @@
         102068295
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_74243",
+        "eurostat:nuts_2021_id":"74243"
+    },
     "wof:coterminous":[
         101767999
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"347565cd5e250ba1955fc55b826ed78f",
+    "wof:geomhash":"be22d4f5f3fb78b4f8fee3e8c5665346",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404391665,
-    "wof:lastmodified":1582324021,
+    "wof:lastmodified":1684353152,
     "wof:name":"Saint-Julien-En-Genevois",
     "wof:parent_id":102068295,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Sous-pr\u00e9fecture",
+    "wof:population":14258,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

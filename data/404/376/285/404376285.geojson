@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_30332",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Tr\u00e8ves",
+    "eurostat:nuts_2021_id":"30332",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ12",
+    "eurostat:nuts_2021_level_lau":"30332",
+    "eurostat:population":128,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200034601",
     "frgov:id":"BDCSURCO0000000009611584",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003055,
-    "geom:area_square_m":27137221.352349,
+    "geom:area_square_m":27137221.352351,
     "geom:bbox":"3.32891041862,44.0247178314,3.44495900544,44.0997623661",
     "geom:latitude":44.070537,
     "geom:longitude":3.391535,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683431,
         102191581,
@@ -56,7 +70,10 @@
         102070435
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_30332",
+        "eurostat:nuts_2021_id":"30332"
+    },
     "wof:coterminous":[
         1360675419
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3151043fc0e48cd1660e3dcc74eaf3a1",
+    "wof:geomhash":"07d8a6687be7f4d361bce0fdfbd389d0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404376285,
-    "wof:lastmodified":1582324673,
+    "wof:lastmodified":1684352967,
     "wof:name":"Treves",
     "wof:parent_id":102070435,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":128,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

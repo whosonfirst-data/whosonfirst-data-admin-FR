@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_06030",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Cannet",
+    "eurostat:nuts_2021_id":"06030",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL03",
+    "eurostat:nuts_2021_level_lau":"06030",
+    "eurostat:population":41471,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200039915",
     "frgov:id":"BDCSURCO0000000009613088",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.000855,
-    "geom:area_square_m":7663596.352519,
+    "geom:area_square_m":7663596.352518,
     "geom:bbox":"6.96453,43.560616,7.037693,43.588346",
     "geom:latitude":43.572874,
     "geom:longitude":7.005099,
@@ -165,23 +177,29 @@
     "reversegeo:longitude":7.010624,
     "src:geom":"frgov",
     "src:geom_alt":[],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85683323,
         102191581,
         85633147,
-        102071995,
         404227597,
         404227445,
-        85683323
+        102071995
     ],
     "wof:breaches":[],
     "wof:concordance":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_06030",
+        "eurostat:nuts_2021_id":"06030"
+    },
     "wof:coterminous":[
         101749265,
         102071995
     ],
     "wof:country":"FR",
     "wof:created":1526509148,
-    "wof:geomhash":"0f2c4b03ee1ebc3c930e5547056896d8",
+    "wof:geomhash":"96610684422131568890703cefa1a605",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -194,11 +212,13 @@
         }
     ],
     "wof:id":1159321875,
-    "wof:lastmodified":1608039574,
+    "wof:lastmodified":1684353594,
     "wof:name":"Le Cannet",
     "wof:parent_id":102071995,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":41471,
+    "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded":[],
     "wof:superseded_by":[],

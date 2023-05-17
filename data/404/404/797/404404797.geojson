@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_73265",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Ours",
+    "eurostat:nuts_2021_id":"73265",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK27",
+    "eurostat:nuts_2021_level_lau":"73265",
+    "eurostat:population":677,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068674",
     "frgov:id":"BDCSURCO0000000009604949",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.000537,
-    "geom:area_square_m":4633941.102641,
+    "geom:area_square_m":4633941.10264,
     "geom:bbox":"5.96790458353,45.7430926237,5.99672738558,45.7690559752",
     "geom:latitude":45.756078,
     "geom:longitude":5.981301,
@@ -85,6 +97,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683265,
         102191581,
@@ -95,7 +109,10 @@
         102064945
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_73265",
+        "eurostat:nuts_2021_id":"73265"
+    },
     "wof:coterminous":[
         1360678115
     ],
@@ -103,7 +120,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d2b85fee47dacbdea97bb1a49bbef5f8",
+    "wof:geomhash":"b97e8f26539a1fe0fe1da1a8ebdd6a4e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -117,11 +134,13 @@
         }
     ],
     "wof:id":404404797,
-    "wof:lastmodified":1582325303,
+    "wof:lastmodified":1684353304,
     "wof:name":"Saint-Ours",
     "wof:parent_id":102064945,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":677,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

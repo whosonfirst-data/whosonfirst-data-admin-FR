@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_27539",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-\u00c9tienne-sous-Bailleul",
+    "eurostat:nuts_2021_id":"27539",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD21",
+    "eurostat:nuts_2021_level_lau":"27539",
+    "eurostat:population":388,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242700623",
     "frgov:id":"BDCSURCO0000000009587232",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000533,
-    "geom:area_square_m":4311256.159273,
+    "geom:area_square_m":4311256.159272,
     "geom:bbox":"1.39017584737,49.1006936104,1.41823887171,49.1315983014",
     "geom:latitude":49.115725,
     "geom:longitude":1.405151,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683283,
         102191581,
@@ -58,7 +72,10 @@
         102071175
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_27539",
+        "eurostat:nuts_2021_id":"27539"
+    },
     "wof:coterminous":[
         101879009
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f66caeebbb83446a7b1b8c924a36dc06",
+    "wof:geomhash":"2276fdd58e8f3a036e6f6ae3d468a97d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404373925,
-    "wof:lastmodified":1582325345,
+    "wof:lastmodified":1684352935,
     "wof:name":"Saint-Etienne-Sous-Bailleul",
     "wof:parent_id":102071175,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":388,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

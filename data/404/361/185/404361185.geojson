@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_49193",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"May-sur-\u00c8vre",
+    "eurostat:nuts_2021_id":"49193",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG02",
+    "eurostat:nuts_2021_level_lau":"49193",
+    "eurostat:population":3805,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071678",
     "frgov:id":"BDCSURCO0000000009600126",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003784,
-    "geom:area_square_m":31828843.975125,
+    "geom:area_square_m":31828843.975124,
     "geom:bbox":"-0.92485714336,47.0960627495,-0.826830489664,47.1648101065",
     "geom:latitude":47.132705,
     "geom:longitude":-0.875399,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683327,
         102191581,
@@ -57,7 +71,10 @@
         102065311
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_49193",
+        "eurostat:nuts_2021_id":"49193"
+    },
     "wof:coterminous":[
         101765777
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8425c7e17e0704f9450b2006acae3a9f",
+    "wof:geomhash":"c7c8a32d8c4634cac0d2aed7bc278e81",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404361185,
-    "wof:lastmodified":1582324768,
+    "wof:lastmodified":1684352770,
     "wof:name":"Le May-Sur-Evre",
     "wof:parent_id":102065311,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3805,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

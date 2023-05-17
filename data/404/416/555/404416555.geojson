@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_24452",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Martial-Viveyrol",
+    "eurostat:nuts_2021_id":"24452",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI11",
+    "eurostat:nuts_2021_level_lau":"24452",
+    "eurostat:population":195,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040400",
     "frgov:id":"BDCSURCO0000000009607129",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001467,
-    "geom:area_square_m":12743830.047286,
+    "geom:area_square_m":12743830.047287,
     "geom:bbox":"0.309361943421,45.3323383785,0.367630067279,45.379009945",
     "geom:latitude":45.361012,
     "geom:longitude":0.336303,
@@ -123,6 +135,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683331,
         102191581,
@@ -133,7 +147,10 @@
         102071329
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_24452",
+        "eurostat:nuts_2021_id":"24452"
+    },
     "wof:coterminous":[
         1125944681
     ],
@@ -141,7 +158,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"74f6bc085e9f90fd9e16996358a0426f",
+    "wof:geomhash":"b22cbe426b476e29ced308b3d4a33302",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -155,11 +172,13 @@
         }
     ],
     "wof:id":404416555,
-    "wof:lastmodified":1582325187,
+    "wof:lastmodified":1684353443,
     "wof:name":"Saint-Martial-Viveyrol",
     "wof:parent_id":102071329,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":195,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

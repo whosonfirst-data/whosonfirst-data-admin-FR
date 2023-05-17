@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_48050",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"B\u00e9dou\u00e8s-Cocur\u00e8s",
+    "eurostat:nuts_2021_id":"48050",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ14",
+    "eurostat:nuts_2021_level_lau":"48050",
+    "eurostat:population":471,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069151",
     "frgov:id":"BDCSURCO0000000009610699",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003312,
-    "geom:area_square_m":29284509.169838,
+    "geom:area_square_m":29284509.169837,
     "geom:bbox":"3.57632799998,44.3214712635,3.70651627411,44.374485175",
     "geom:latitude":44.348578,
     "geom:longitude":3.639189,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683453,
         102191581,
@@ -58,7 +72,10 @@
         102065441
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_48050",
+        "eurostat:nuts_2021_id":"48050"
+    },
     "wof:coterminous":[
         1126007431
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3371c249dbe7b66f05bb451ef4439bfa",
+    "wof:geomhash":"80eafe54e19d6992d1b81414eaf5e664",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404368201,
-    "wof:lastmodified":1582324881,
+    "wof:lastmodified":1684352868,
     "wof:name":"Cocures",
     "wof:parent_id":102065441,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":471,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

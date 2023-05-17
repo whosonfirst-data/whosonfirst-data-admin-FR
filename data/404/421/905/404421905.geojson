@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_40066",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Carcar\u00e8s-Sainte-Croix",
+    "eurostat:nuts_2021_id":"40066",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI13",
+    "eurostat:nuts_2021_level_lau":"40066",
+    "eurostat:population":519,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244000766",
     "frgov:id":"BDCSURCO0000000009612358",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001775,
-    "geom:area_square_m":15830112.104215,
+    "geom:area_square_m":15830112.104216,
     "geom:bbox":"-0.802941506109,43.8344008372,-0.71781028225,43.8786540309",
     "geom:latitude":43.854908,
     "geom:longitude":-0.756005,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683183,
         102191581,
@@ -58,7 +72,10 @@
         102069085
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_40066",
+        "eurostat:nuts_2021_id":"40066"
+    },
     "wof:coterminous":[
         1125905801
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3b9aa596f58736a679d47024ac94169c",
+    "wof:geomhash":"e0c26726380c350d33df3c7362e4c937",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404421905,
-    "wof:lastmodified":1582325104,
+    "wof:lastmodified":1684353508,
     "wof:name":"Carcares-Sainte-Croix",
     "wof:parent_id":102069085,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":519,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

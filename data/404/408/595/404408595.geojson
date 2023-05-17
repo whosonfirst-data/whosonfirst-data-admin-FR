@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_62249",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Courcelles-l\u00e8s-Lens",
+    "eurostat:nuts_2021_id":"62249",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE1",
+    "eurostat:nuts_2021_level_3":"FRE12",
+    "eurostat:nuts_2021_level_lau":"62249",
+    "eurostat:population":7774,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"246200299",
     "frgov:id":"BDCSURCO0000000009581012",
     "frgov:insee_arr":"7",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683255,
         102191581,
@@ -58,7 +72,10 @@
         102071719
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_62249",
+        "eurostat:nuts_2021_id":"62249"
+    },
     "wof:coterminous":[
         101840407
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"798b329cd9cc7e83c4d0aa86a9501c8e",
+    "wof:geomhash":"51ac0de948e1135e6d7a30fde202e9ec",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404408595,
-    "wof:lastmodified":1582324454,
+    "wof:lastmodified":1684353350,
     "wof:name":"Courcelles-Les-Lens",
     "wof:parent_id":102071719,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":7774,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_53248",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Pierre-sur-Erve",
+    "eurostat:nuts_2021_id":"53248",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG03",
+    "eurostat:nuts_2021_level_lau":"53248",
+    "eurostat:population":142,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200033298",
     "frgov:id":"BDCSURCO0000000009595514",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683401,
         102191581,
@@ -57,7 +71,10 @@
         102069145
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_53248",
+        "eurostat:nuts_2021_id":"53248"
+    },
     "wof:coterminous":[
         1125975547
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2764731ad7ef716500e1a0a4837d3f3d",
+    "wof:geomhash":"b7eaac796e265fb3f6da7eda4182cb0d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404427147,
-    "wof:lastmodified":1582325248,
+    "wof:lastmodified":1684353570,
     "wof:name":"Saint-Pierre-Sur-Erve",
     "wof:parent_id":102069145,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":142,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

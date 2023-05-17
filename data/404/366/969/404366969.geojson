@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_77436",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Sim\u00e9on",
+    "eurostat:nuts_2021_id":"77436",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR102",
+    "eurostat:nuts_2021_level_lau":"77436",
+    "eurostat:population":896,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072544",
     "frgov:id":"BDCSURCO0000000009590154",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"ILE-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001588,
-    "geom:area_square_m":12934204.226075,
+    "geom:area_square_m":12934204.226074,
     "geom:bbox":"3.16168350722,48.7880103611,3.22507963276,48.8311405734",
     "geom:latitude":48.804634,
     "geom:longitude":3.194496,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683385,
         102191581,
@@ -57,7 +71,10 @@
         102066373
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_77436",
+        "eurostat:nuts_2021_id":"77436"
+    },
     "wof:coterminous":[
         101880959
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4eec84f496cd608f6a9228171ee37bd0",
+    "wof:geomhash":"b96ff5b0e201d1262a1e54781fb8ad5d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404366969,
-    "wof:lastmodified":1582324834,
+    "wof:lastmodified":1684352851,
     "wof:name":"Saint-Simeon",
     "wof:parent_id":102066373,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":896,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

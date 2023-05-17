@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_21431",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Montigny-sur-Arman\u00e7on",
+    "eurostat:nuts_2021_id":"21431",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC11",
+    "eurostat:nuts_2021_level_lau":"21431",
+    "eurostat:population":152,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071017",
     "frgov:id":"BDCSURCO0000000009598614",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000985,
-    "geom:area_square_m":8237246.766126,
+    "geom:area_square_m":8237246.766125,
     "geom:bbox":"4.34916498539,47.4211410426,4.39504349918,47.4586220944",
     "geom:latitude":47.439731,
     "geom:longitude":4.373566,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683563,
         102191581,
@@ -58,7 +72,10 @@
         102070311
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_21431",
+        "eurostat:nuts_2021_id":"21431"
+    },
     "wof:coterminous":[
         101888061
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"23ba75c297bc55e2f43d3d173f2f82aa",
+    "wof:geomhash":"62c0d2483cb7a121bf8e1c6026a0ad06",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404369977,
-    "wof:lastmodified":1582324912,
+    "wof:lastmodified":1684352889,
     "wof:name":"Montigny-Sur-Armancon",
     "wof:parent_id":102070311,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":152,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

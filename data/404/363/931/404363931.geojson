@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_63101",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ch\u00e2teau-sur-Cher",
+    "eurostat:nuts_2021_id":"63101",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK14",
+    "eurostat:nuts_2021_level_lau":"63101",
+    "eurostat:population":74,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072080",
     "frgov:id":"BDCSURCO0000000009604028",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001403,
-    "geom:area_square_m":12027557.777303,
+    "geom:area_square_m":12027557.777302,
     "geom:bbox":"2.54728277096,46.0878349565,2.59758414134,46.1430839794",
     "geom:latitude":46.116474,
     "geom:longitude":2.569006,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683471,
         102191581,
@@ -56,7 +70,10 @@
         102069589
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_63101",
+        "eurostat:nuts_2021_id":"63101"
+    },
     "wof:coterminous":[
         1360674179
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"59fe3cedd9bbae27b42a378330b372ea",
+    "wof:geomhash":"57317e642b65ec9d801a90df9b06267d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404363931,
-    "wof:lastmodified":1582324217,
+    "wof:lastmodified":1684352808,
     "wof:name":"Chateau-Sur-Cher",
     "wof:parent_id":102069589,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":74,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

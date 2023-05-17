@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_89218",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Laroche-Saint-Cydroine",
+    "eurostat:nuts_2021_id":"89218",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC14",
+    "eurostat:nuts_2021_level_lau":"89218",
+    "eurostat:population":1252,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248900383",
     "frgov:id":"BDCSURCO0000000009595748",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001095,
-    "geom:area_square_m":9060848.677176,
+    "geom:area_square_m":9060848.677178,
     "geom:bbox":"3.43515871076,47.9613486169,3.50127785732,47.9868245871",
     "geom:latitude":47.97276,
     "geom:longitude":3.469619,
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683503,
         102191581,
@@ -136,7 +150,10 @@
         102070949
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_89218",
+        "eurostat:nuts_2021_id":"89218"
+    },
     "wof:coterminous":[
         101827697
     ],
@@ -144,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"abfd0a5b8174e14f262d0d1a0559213b",
+    "wof:geomhash":"b422cf6d206349383cf7de22fd180747",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +175,13 @@
         }
     ],
     "wof:id":404424593,
-    "wof:lastmodified":1582324386,
+    "wof:lastmodified":1684353541,
     "wof:name":"Laroche-Saint-Cydroine",
     "wof:parent_id":102070949,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1252,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

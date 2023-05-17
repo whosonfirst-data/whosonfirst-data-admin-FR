@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_05182",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Villar-Loubi\u00e8re",
+    "eurostat:nuts_2021_id":"05182",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL02",
+    "eurostat:nuts_2021_level_lau":"05182",
+    "eurostat:population":41,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068096",
     "frgov:id":"BDCSURCO0000000009608675",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.002503,
-    "geom:area_square_m":21949219.532515,
+    "geom:area_square_m":21949219.532517,
     "geom:bbox":"6.09732108787,44.8083908272,6.16965902888,44.8644999843",
     "geom:latitude":44.836861,
     "geom:longitude":6.135685,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683597,
         102191581,
@@ -57,7 +71,10 @@
         102067993
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_05182",
+        "eurostat:nuts_2021_id":"05182"
+    },
     "wof:coterminous":[
         1125979849
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3feb82b7fa1853c1817e13186705692b",
+    "wof:geomhash":"94a9c16ff233fe84f10741cf831687c6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404362405,
-    "wof:lastmodified":1582324060,
+    "wof:lastmodified":1684352787,
     "wof:name":"Villar-Loubiere",
     "wof:parent_id":102067993,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":41,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

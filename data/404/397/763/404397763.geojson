@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_29264",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Servais",
+    "eurostat:nuts_2021_id":"29264",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH02",
+    "eurostat:nuts_2021_level_lau":"29264",
+    "eurostat:population":782,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242900751",
     "frgov:id":"BDCSURCO0000000009591314",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BRETAGNE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001269,
-    "geom:area_square_m":10393412.392363,
+    "geom:area_square_m":10393412.392362,
     "geom:bbox":"-4.18396419048,48.4852971025,-4.13798903445,48.5460489236",
     "geom:latitude":48.515312,
     "geom:longitude":-4.158179,
@@ -87,6 +99,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683553,
         102191581,
@@ -96,7 +110,10 @@
         102067691
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_29264",
+        "eurostat:nuts_2021_id":"29264"
+    },
     "wof:coterminous":[
         101878795
     ],
@@ -104,7 +121,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"188a7d6123672c428fb73d7995e20046",
+    "wof:geomhash":"7a0a86168dc76518cac90860afd5d578",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -117,11 +134,13 @@
         }
     ],
     "wof:id":404397763,
-    "wof:lastmodified":1582324199,
+    "wof:lastmodified":1684353222,
     "wof:name":"Saint-Servais",
     "wof:parent_id":102067691,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":782,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

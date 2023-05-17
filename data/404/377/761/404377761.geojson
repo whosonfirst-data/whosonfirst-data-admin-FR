@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_76212",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Darn\u00e9tal",
+    "eurostat:nuts_2021_id":"76212",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD22",
+    "eurostat:nuts_2021_level_lau":"76212",
+    "eurostat:population":9707,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200023414",
     "frgov:id":"BDCSURCO0000000009585043",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000605,
-    "geom:area_square_m":4860546.315163,
+    "geom:area_square_m":4860546.315162,
     "geom:bbox":"1.12996425049,49.4336942268,1.17695416894,49.4601635849",
     "geom:latitude":49.444213,
     "geom:longitude":1.155531,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683251,
         102191581,
@@ -58,7 +72,10 @@
         102066751
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_76212",
+        "eurostat:nuts_2021_id":"76212"
+    },
     "wof:coterminous":[
         101750189
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"10f663d3ec4428db8c6f46237093491a",
+    "wof:geomhash":"283ae0095271ecad80743d743ea7e950",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404377761,
-    "wof:lastmodified":1582324567,
+    "wof:lastmodified":1684352984,
     "wof:name":"Darnetal",
     "wof:parent_id":102066751,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":9707,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

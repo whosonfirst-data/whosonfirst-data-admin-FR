@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_88202",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gircourt-l\u00e8s-Vi\u00e9ville",
+    "eurostat:nuts_2021_id":"88202",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF34",
+    "eurostat:nuts_2021_level_lau":"88202",
+    "eurostat:population":184,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068369",
     "frgov:id":"BDCSURCO0000000009593163",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.001061,
-    "geom:area_square_m":8717376.657003,
+    "geom:area_square_m":8717376.657005,
     "geom:bbox":"6.17270718979,48.3223967018,6.21803083536,48.3605215122",
     "geom:latitude":48.340399,
     "geom:longitude":6.192485,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683223,
         102191581,
@@ -58,7 +72,10 @@
         102065069
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_88202",
+        "eurostat:nuts_2021_id":"88202"
+    },
     "wof:coterminous":[
         101884135
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"448141bb94840df14f37f17b2ec24786",
+    "wof:geomhash":"4929f186063935635daf0171c558aaf2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404392669,
-    "wof:lastmodified":1582324811,
+    "wof:lastmodified":1684353164,
     "wof:name":"Gircourt-Les-Vieville",
     "wof:parent_id":102065069,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":184,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

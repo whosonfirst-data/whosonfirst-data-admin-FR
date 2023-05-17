@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_45274",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Denis-en-Val",
+    "eurostat:nuts_2021_id":"45274",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB06",
+    "eurostat:nuts_2021_level_lau":"45274",
+    "eurostat:population":7517,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244500468",
     "frgov:id":"BDCSURCO0000000009596460",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683479,
         102191581,
@@ -57,7 +71,10 @@
         102071051
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_45274",
+        "eurostat:nuts_2021_id":"45274"
+    },
     "wof:coterminous":[
         101750953
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b99f69f7d7dc74dd13970571a39fa598",
+    "wof:geomhash":"cde291d8838b45c46c168feda43180a0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404423633,
-    "wof:lastmodified":1582324407,
+    "wof:lastmodified":1684353529,
     "wof:name":"Saint-Denis-En-Val",
     "wof:parent_id":102071051,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":7517,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

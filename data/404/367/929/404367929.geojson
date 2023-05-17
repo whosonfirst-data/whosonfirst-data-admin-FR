@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_85178",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Poir\u00e9-sur-Vie",
+    "eurostat:nuts_2021_id":"85178",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG05",
+    "eurostat:nuts_2021_level_lau":"85178",
+    "eurostat:population":8509,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072882",
     "frgov:id":"BDCSURCO0000000009601498",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683409,
         102191581,
@@ -57,7 +71,10 @@
         102068051
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_85178",
+        "eurostat:nuts_2021_id":"85178"
+    },
     "wof:coterminous":[
         101765485
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"97f2769f8ade8d74e4cec183f7f2e021",
+    "wof:geomhash":"ef8efeab2df167055538dd29073cf8fa",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404367929,
-    "wof:lastmodified":1582325004,
+    "wof:lastmodified":1684352864,
     "wof:name":"Le Poire-Sur-Vie",
     "wof:parent_id":102068051,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":8509,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

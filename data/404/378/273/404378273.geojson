@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_27291",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gournay-le-Gu\u00e9rin",
+    "eurostat:nuts_2021_id":"27291",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD21",
+    "eurostat:nuts_2021_level_lau":"27291",
+    "eurostat:population":132,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066462",
     "frgov:id":"BDCSURCO0000000009590737",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001505,
-    "geom:area_square_m":12280144.682,
+    "geom:area_square_m":12280144.682001,
     "geom:bbox":"0.728763647549,48.6958229059,0.800059711565,48.7403585353",
     "geom:latitude":48.716383,
     "geom:longitude":0.769108,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683283,
         102191581,
@@ -56,7 +70,10 @@
         102070571
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_27291",
+        "eurostat:nuts_2021_id":"27291"
+    },
     "wof:coterminous":[
         1360675601
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"10dfae38edfb003eead11a5bb29d3702",
+    "wof:geomhash":"9746b71bd045b4f9d66f2cd2d5758de6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404378273,
-    "wof:lastmodified":1582324734,
+    "wof:lastmodified":1684352990,
     "wof:name":"Gournay-Le-Guerin",
     "wof:parent_id":102070571,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":132,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

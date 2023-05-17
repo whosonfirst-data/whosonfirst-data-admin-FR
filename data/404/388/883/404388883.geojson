@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_72197",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"M\u00e9zi\u00e8res-sous-Lavardin",
+    "eurostat:nuts_2021_id":"72197",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG04",
+    "eurostat:nuts_2021_level_lau":"72197",
+    "eurostat:population":695,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072718",
     "frgov:id":"BDCSURCO0000000009594892",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683279,
         102191581,
@@ -57,7 +71,10 @@
         102065719
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_72197",
+        "eurostat:nuts_2021_id":"72197"
+    },
     "wof:coterminous":[
         101883211
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"76bbe4cedf15c3b767e18c4968cf179a",
+    "wof:geomhash":"4326d52c1ee73b65fe11842f02a8aa02",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404388883,
-    "wof:lastmodified":1582325486,
+    "wof:lastmodified":1684353115,
     "wof:name":"Mezieres-Sous-Lavardin",
     "wof:parent_id":102065719,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":695,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

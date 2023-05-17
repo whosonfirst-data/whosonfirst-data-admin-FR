@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_49121",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"D\u00e9nez\u00e9-sous-Dou\u00e9",
+    "eurostat:nuts_2021_id":"49121",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG02",
+    "eurostat:nuts_2021_level_lau":"49121",
+    "eurostat:population":470,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071876",
     "frgov:id":"BDCSURCO0000000009599592",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683327,
         102191581,
@@ -57,7 +71,10 @@
         102066739
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_49121",
+        "eurostat:nuts_2021_id":"49121"
+    },
     "wof:coterminous":[
         101888315
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"fcef2596f45165ebe20bdec1afcb9a43",
+    "wof:geomhash":"d1d488d6cde14bede65f976ed9ecc36a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404356045,
-    "wof:lastmodified":1582324935,
+    "wof:lastmodified":1684352699,
     "wof:name":"Deneze-Sous-Doue",
     "wof:parent_id":102066739,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":470,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

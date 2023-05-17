@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_39174",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Coyri\u00e8re",
+    "eurostat:nuts_2021_id":"39174",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC22",
+    "eurostat:nuts_2021_level_lau":"39174",
+    "eurostat:population":65,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200026573",
     "frgov:id":"BDCSURCO0000000009602771",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000479,
-    "geom:area_square_m":4087699.719043,
+    "geom:area_square_m":4087699.719042,
     "geom:bbox":"5.82734441965,46.3256308851,5.86318064552,46.3539203646",
     "geom:latitude":46.340288,
     "geom:longitude":5.844991,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683173,
         102191581,
@@ -58,7 +72,10 @@
         102065165
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_39174",
+        "eurostat:nuts_2021_id":"39174"
+    },
     "wof:coterminous":[
         1125899207
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"72684863ee076ffa4744d69a5faf4f57",
+    "wof:geomhash":"241526ebdd3254d89cbb83a73d033128",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404388043,
-    "wof:lastmodified":1582325487,
+    "wof:lastmodified":1684353105,
     "wof:name":"Coyriere",
     "wof:parent_id":102065165,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":65,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

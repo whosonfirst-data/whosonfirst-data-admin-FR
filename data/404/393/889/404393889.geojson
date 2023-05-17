@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_40297",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sen",
+    "eurostat:nuts_2021_id":"40297",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI13",
+    "eurostat:nuts_2021_level_lau":"40297",
+    "eurostat:population":227,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069656",
     "frgov:id":"BDCSURCO0000000009611476",
     "frgov:insee_arr":"2",
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683183,
         102191581,
@@ -139,7 +153,10 @@
         102065915
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_40297",
+        "eurostat:nuts_2021_id":"40297"
+    },
     "wof:coterminous":[
         1125857231
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"480889f3cc7a73b8fd80ef9fe5dd3c97",
+    "wof:geomhash":"2b619036c0a5b7914061a6483a1d3fd4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404393889,
-    "wof:lastmodified":1582325009,
+    "wof:lastmodified":1684353178,
     "wof:name":"Le Sen",
     "wof:parent_id":102065915,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":227,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

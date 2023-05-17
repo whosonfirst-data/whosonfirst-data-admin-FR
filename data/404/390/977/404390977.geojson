@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_88143",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Dom\u00e8vre-sur-Durbion",
+    "eurostat:nuts_2021_id":"88143",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF34",
+    "eurostat:nuts_2021_level_lau":"88143",
+    "eurostat:population":267,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068757",
     "frgov:id":"BDCSURCO0000000009593148",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.001541,
-    "geom:area_square_m":12681895.735742,
+    "geom:area_square_m":12681895.735743,
     "geom:bbox":"6.45648781481,48.2637355388,6.52054364783,48.3102546109",
     "geom:latitude":48.290296,
     "geom:longitude":6.482787,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683223,
         102191581,
@@ -58,7 +72,10 @@
         102065255
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_88143",
+        "eurostat:nuts_2021_id":"88143"
+    },
     "wof:coterminous":[
         101884129
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e19ef29740e0ca348071220f8c21c922",
+    "wof:geomhash":"4dd2be3a94544e985eb66998bc11276d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404390977,
-    "wof:lastmodified":1582324266,
+    "wof:lastmodified":1684353143,
     "wof:name":"Domevre-Sur-Durbion",
     "wof:parent_id":102065255,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":267,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

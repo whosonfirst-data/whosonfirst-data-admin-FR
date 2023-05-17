@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_47248",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Jean-de-Thurac",
+    "eurostat:nuts_2021_id":"47248",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI14",
+    "eurostat:nuts_2021_level_lau":"47248",
+    "eurostat:population":560,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200036572",
     "frgov:id":"BDCSURCO0000000009611290",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000576,
-    "geom:area_square_m":5113931.994424,
+    "geom:area_square_m":5113931.994425,
     "geom:bbox":"0.716029010937,44.1443187418,0.765151431034,44.1661773491",
     "geom:latitude":44.157306,
     "geom:longitude":0.740333,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683341,
         102191581,
@@ -58,7 +72,10 @@
         102069631
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_47248",
+        "eurostat:nuts_2021_id":"47248"
+    },
     "wof:coterminous":[
         101896097
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4abbf0d1b2c253a098c391830167a114",
+    "wof:geomhash":"58ec0ab67a3055baebdb6ff2cbc65df1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404392835,
-    "wof:lastmodified":1582324811,
+    "wof:lastmodified":1684353166,
     "wof:name":"Saint-Jean-De-Thurac",
     "wof:parent_id":102069631,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":560,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

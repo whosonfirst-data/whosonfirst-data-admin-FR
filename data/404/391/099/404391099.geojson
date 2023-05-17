@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_19100",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lagrauli\u00e8re",
+    "eurostat:nuts_2021_id":"19100",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI21",
+    "eurostat:nuts_2021_level_lau":"19100",
+    "eurostat:population":1100,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"241927201",
     "frgov:id":"BDCSURCO0000000009607094",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683209,
         102191581,
@@ -58,7 +72,10 @@
         102068389
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_19100",
+        "eurostat:nuts_2021_id":"19100"
+    },
     "wof:coterminous":[
         101894925
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"daee4797f119d0b9ca408dfd56f2a451",
+    "wof:geomhash":"805a72d9db4e3e7e6e4db76caca2a4a3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404391099,
-    "wof:lastmodified":1582324012,
+    "wof:lastmodified":1684353145,
     "wof:name":"Lagrauliere",
     "wof:parent_id":102068389,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1100,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

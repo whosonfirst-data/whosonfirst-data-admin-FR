@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_06012",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Beausoleil",
+    "eurostat:nuts_2021_id":"06012",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL03",
+    "eurostat:nuts_2021_level_lau":"06012",
+    "eurostat:population":13607,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240600551",
     "frgov:id":"BDCSURCO0000000009612138",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.00031,
-    "geom:area_square_m":2771893.484069,
+    "geom:area_square_m":2771893.48407,
     "geom:bbox":"7.407516,43.734655,7.437353,43.759285",
     "geom:latitude":43.747617,
     "geom:longitude":7.421592,
@@ -48,23 +60,29 @@
     "reversegeo:longitude":7.425335,
     "src:geom":"frgov",
     "src:geom_alt":[],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85683323,
         102191581,
         85633147,
-        102064709,
         404227807,
         404227445,
-        85683323
+        102064709
     ],
     "wof:breaches":[],
     "wof:concordance":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_06012",
+        "eurostat:nuts_2021_id":"06012"
+    },
     "wof:coterminous":[
         101831915,
         102064709
     ],
     "wof:country":"FR",
     "wof:created":1526509571,
-    "wof:geomhash":"837b5fbfc685299a9a81307a2e1bacec",
+    "wof:geomhash":"2a21906c458023d288eadcc5991b63cf",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -77,11 +95,13 @@
         }
     ],
     "wof:id":1159322003,
-    "wof:lastmodified":1608039587,
+    "wof:lastmodified":1684353595,
     "wof:name":"Beausoleil",
     "wof:parent_id":102064709,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":13607,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded":[],
     "wof:superseded_by":[],

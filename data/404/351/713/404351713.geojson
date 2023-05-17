@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_03195",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"N\u00e9ris-les-Bains",
+    "eurostat:nuts_2021_id":"03195",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK11",
+    "eurostat:nuts_2021_level_lau":"03195",
+    "eurostat:population":2553,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071512",
     "frgov:id":"BDCSURCO0000000009603094",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.003866,
-    "geom:area_square_m":33031103.491006,
+    "geom:area_square_m":33031103.491005,
     "geom:bbox":"2.62904274279,46.2710134325,2.73270576459,46.334394585",
     "geom:latitude":46.299405,
     "geom:longitude":2.675838,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683293,
         102191581,
@@ -58,7 +72,10 @@
         102070081
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_03195",
+        "eurostat:nuts_2021_id":"03195"
+    },
     "wof:coterminous":[
         101766487
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0d62be96cc841d4bbe7881644df0f59c",
+    "wof:geomhash":"f39aec0945ac0859ddc0a6010f04c3fb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404351713,
-    "wof:lastmodified":1582324952,
+    "wof:lastmodified":1684352641,
     "wof:name":"Neris-Les-Bains",
     "wof:parent_id":102070081,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2553,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

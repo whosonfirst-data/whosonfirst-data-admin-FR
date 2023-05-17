@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_30233",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Bauz\u00e9ly",
+    "eurostat:nuts_2021_id":"30233",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ12",
+    "eurostat:nuts_2021_level_lau":"30233",
+    "eurostat:population":649,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243000643",
     "frgov:id":"BDCSURCO0000000009611997",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000557,
-    "geom:area_square_m":4958239.103748,
+    "geom:area_square_m":4958239.103749,
     "geom:bbox":"4.16522408637,43.9117670902,4.22216151212,43.9314044703",
     "geom:latitude":43.921727,
     "geom:longitude":4.192308,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683431,
         102191581,
@@ -58,7 +72,10 @@
         102069825
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_30233",
+        "eurostat:nuts_2021_id":"30233"
+    },
     "wof:coterminous":[
         101897321
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d6a678110b2cb772507f231b8ce75580",
+    "wof:geomhash":"c36b73c1f1f6f085b97358c5b558b20c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404381249,
-    "wof:lastmodified":1582325437,
+    "wof:lastmodified":1684353025,
     "wof:name":"Saint-Bauzely",
     "wof:parent_id":102069825,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":649,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

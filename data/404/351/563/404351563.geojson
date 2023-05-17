@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_07286",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Pierreville",
+    "eurostat:nuts_2021_id":"07286",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK22",
+    "eurostat:nuts_2021_level_lau":"07286",
+    "eurostat:population":544,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041465",
     "frgov:id":"BDCSURCO0000000009608939",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.002337,
-    "geom:area_square_m":20498204.232606,
+    "geom:area_square_m":20498204.232607,
     "geom:bbox":"4.44279180704,44.7976769772,4.5256377829,44.850597653",
     "geom:latitude":44.818821,
     "geom:longitude":4.481361,
@@ -135,6 +147,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683421,
         102191581,
@@ -145,7 +159,10 @@
         102067997
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_07286",
+        "eurostat:nuts_2021_id":"07286"
+    },
     "wof:coterminous":[
         1125985191
     ],
@@ -153,7 +170,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a7ba921c33399f2477baa60e89a0b3ce",
+    "wof:geomhash":"d65c68c29f25f96af4800f280965d010",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -167,11 +184,13 @@
         }
     ],
     "wof:id":404351563,
-    "wof:lastmodified":1582324955,
+    "wof:lastmodified":1684352639,
     "wof:name":"Saint-Pierreville",
     "wof:parent_id":102067997,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":544,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

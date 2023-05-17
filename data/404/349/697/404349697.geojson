@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_12274",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sylvan\u00e8s",
+    "eurostat:nuts_2021_id":"12274",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ22",
+    "eurostat:nuts_2021_level_lau":"12274",
+    "eurostat:population":111,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067163",
     "frgov:id":"BDCSURCO0000000009612474",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001906,
-    "geom:area_square_m":17003116.436127,
+    "geom:area_square_m":17003116.436125,
     "geom:bbox":"2.91300246484,43.8001000851,2.99013080882,43.8510162798",
     "geom:latitude":43.824907,
     "geom:longitude":2.952527,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683301,
         102191581,
@@ -58,7 +72,10 @@
         102064821
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_12274",
+        "eurostat:nuts_2021_id":"12274"
+    },
     "wof:coterminous":[
         1126005081
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"42b09043c758141d9f6fa0761ec8df0c",
+    "wof:geomhash":"700f87c5622025472488a4286d604898",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404349697,
-    "wof:lastmodified":1582324714,
+    "wof:lastmodified":1684352612,
     "wof:name":"Sylvanes",
     "wof:parent_id":102064821,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":111,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

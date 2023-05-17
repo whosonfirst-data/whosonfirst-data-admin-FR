@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_37217",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-\u00c9tienne-de-Chigny",
+    "eurostat:nuts_2021_id":"37217",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB04",
+    "eurostat:nuts_2021_level_lau":"37217",
+    "eurostat:population":1606,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243700754",
     "frgov:id":"BDCSURCO0000000009598998",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002547,
-    "geom:area_square_m":21317287.336602,
+    "geom:area_square_m":21317287.336601,
     "geom:bbox":"0.463215702633,47.3587140772,0.537612349126,47.4276797563",
     "geom:latitude":47.393188,
     "geom:longitude":0.4989,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683575,
         102191581,
@@ -55,7 +69,10 @@
         102070641
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_37217",
+        "eurostat:nuts_2021_id":"37217"
+    },
     "wof:coterminous":[
         1360677729
     ],
@@ -63,7 +80,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d00af104ba383103fc407100757ce17a",
+    "wof:geomhash":"b3a5f37195f38815aa1298161baee634",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -76,11 +93,13 @@
         }
     ],
     "wof:id":404400507,
-    "wof:lastmodified":1582324513,
+    "wof:lastmodified":1684353255,
     "wof:name":"Saint-Etienne-De-Chigny",
     "wof:parent_id":102070641,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1606,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

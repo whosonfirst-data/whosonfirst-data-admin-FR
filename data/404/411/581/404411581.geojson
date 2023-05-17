@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_35170",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mec\u00e9",
+    "eurostat:nuts_2021_id":"35170",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH03",
+    "eurostat:nuts_2021_level_lau":"35170",
+    "eurostat:population":608,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200039022",
     "frgov:id":"BDCSURCO0000000009594226",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BRETAGNE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001966,
-    "geom:area_square_m":16190003.529489,
+    "geom:area_square_m":16190003.52949,
     "geom:bbox":"-1.33064230984,48.2137439361,-1.25085644291,48.2600992604",
     "geom:latitude":48.241169,
     "geom:longitude":-1.286548,
@@ -72,6 +84,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683461,
         102191581,
@@ -81,7 +95,10 @@
         102071235
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_35170",
+        "eurostat:nuts_2021_id":"35170"
+    },
     "wof:coterminous":[
         1126010375
     ],
@@ -89,7 +106,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"76f9fb30bdf62c6bc56037a92c65bc05",
+    "wof:geomhash":"67ee32893587e1c669cb4b337757fdf2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -102,11 +119,13 @@
         }
     ],
     "wof:id":404411581,
-    "wof:lastmodified":1582325167,
+    "wof:lastmodified":1684353384,
     "wof:name":"Mece",
     "wof:parent_id":102071235,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":608,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

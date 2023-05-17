@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_06074",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lantosque",
+    "eurostat:nuts_2021_id":"06074",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL03",
+    "eurostat:nuts_2021_level_lau":"06074",
+    "eurostat:population":1312,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200030195",
     "frgov:id":"BDCSURCO0000000009611484",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.005007,
-    "geom:area_square_m":44556147.67449,
+    "geom:area_square_m":44556147.674491,
     "geom:bbox":"7.24421306469,43.9395733031,7.3800947099,44.0176115922",
     "geom:latitude":43.970745,
     "geom:longitude":7.304782,
@@ -141,6 +153,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683323,
         102191581,
@@ -150,7 +164,10 @@
         102069321
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_06074",
+        "eurostat:nuts_2021_id":"06074"
+    },
     "wof:coterminous":[
         1125958489
     ],
@@ -158,7 +175,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f60d670e7931d892d36583d29cfab922",
+    "wof:geomhash":"9ab911d81aa7f6ac18c798f510920d77",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -171,11 +188,13 @@
         }
     ],
     "wof:id":404353813,
-    "wof:lastmodified":1582324137,
+    "wof:lastmodified":1684352669,
     "wof:name":"Lantosque",
     "wof:parent_id":102069321,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1312,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

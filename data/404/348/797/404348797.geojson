@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_58267",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Saulge",
+    "eurostat:nuts_2021_id":"58267",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC12",
+    "eurostat:nuts_2021_level_lau":"58267",
+    "eurostat:population":738,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067908",
     "frgov:id":"BDCSURCO0000000009600278",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003109,
-    "geom:area_square_m":26166939.275276,
+    "geom:area_square_m":26166939.275275,
     "geom:bbox":"3.47278030123,47.0640480752,3.55595391416,47.1308109478",
     "geom:latitude":47.101739,
     "geom:longitude":3.519057,
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683359,
         102191581,
@@ -136,7 +150,10 @@
         102068655
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_58267",
+        "eurostat:nuts_2021_id":"58267"
+    },
     "wof:coterminous":[
         101889015
     ],
@@ -144,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"00e2f1435039aee27ee1b22f881b6eb3",
+    "wof:geomhash":"83133bb66ab7b91c6016eb255b79d4af",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +175,13 @@
         }
     ],
     "wof:id":404348797,
-    "wof:lastmodified":1582324574,
+    "wof:lastmodified":1684352599,
     "wof:name":"Saint-Saulge",
     "wof:parent_id":102068655,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":738,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

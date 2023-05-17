@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_70531",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Velleclaire",
+    "eurostat:nuts_2021_id":"70531",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC23",
+    "eurostat:nuts_2021_level_lau":"70531",
+    "eurostat:population":109,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247000698",
     "frgov:id":"BDCSURCO0000000009598247",
     "frgov:insee_arr":"2",
@@ -120,6 +132,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683559,
         102191581,
@@ -130,7 +144,10 @@
         102066113
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_70531",
+        "eurostat:nuts_2021_id":"70531"
+    },
     "wof:coterminous":[
         1125829913
     ],
@@ -138,7 +155,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4c2c5d748450244d051730e8a34dfd4d",
+    "wof:geomhash":"aa95ce826ab3694b940d28d0c9ec6f75",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -152,11 +169,13 @@
         }
     ],
     "wof:id":404399265,
-    "wof:lastmodified":1582324156,
+    "wof:lastmodified":1684353241,
     "wof:name":"Velleclaire",
     "wof:parent_id":102066113,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":109,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

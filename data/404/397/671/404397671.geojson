@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_36221",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Thevet-Saint-Julien",
+    "eurostat:nuts_2021_id":"36221",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB03",
+    "eurostat:nuts_2021_level_lau":"36221",
+    "eurostat:population":389,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243600350",
     "frgov:id":"BDCSURCO0000000009602026",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003663,
-    "geom:area_square_m":31103533.282772,
+    "geom:area_square_m":31103533.282773,
     "geom:bbox":"2.02336857198,46.6012251407,2.11245509214,46.6655267008",
     "geom:latitude":46.634194,
     "geom:longitude":2.070081,
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683311,
         102191581,
@@ -135,7 +149,10 @@
         102065965
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_36221",
+        "eurostat:nuts_2021_id":"36221"
+    },
     "wof:coterminous":[
         101890061
     ],
@@ -143,7 +160,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"da27315ae9128130ec715c99c8747e29",
+    "wof:geomhash":"c8fefc5d19196b1a73ad503de4e73ce1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -156,11 +173,13 @@
         }
     ],
     "wof:id":404397671,
-    "wof:lastmodified":1582324211,
+    "wof:lastmodified":1684353221,
     "wof:name":"Thevet-Saint-Julien",
     "wof:parent_id":102065965,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":389,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

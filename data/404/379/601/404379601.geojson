@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_25422",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Neuch\u00e2tel-Urti\u00e8re",
+    "eurostat:nuts_2021_id":"25422",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC21",
+    "eurostat:nuts_2021_level_lau":"25422",
+    "eurostat:population":195,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200065647",
     "frgov:id":"BDCSURCO0000000009598467",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000733,
-    "geom:area_square_m":6140431.529534,
+    "geom:area_square_m":6140431.529532,
     "geom:bbox":"6.70860653006,47.3586366954,6.7482856341,47.401158981",
     "geom:latitude":47.375574,
     "geom:longitude":6.730709,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683239,
         102191581,
@@ -58,7 +72,10 @@
         102068203
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_25422",
+        "eurostat:nuts_2021_id":"25422"
+    },
     "wof:coterminous":[
         1125921063
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"49f7a1b5df436129b221e5ec237d2f3a",
+    "wof:geomhash":"408904cff62c8f1f992c3892c0730e0d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404379601,
-    "wof:lastmodified":1582324533,
+    "wof:lastmodified":1684353006,
     "wof:name":"Neuchatel-Urtiere",
     "wof:parent_id":102068203,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":195,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

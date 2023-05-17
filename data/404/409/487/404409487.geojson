@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_08073",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bossus-l\u00e8s-Rumigny",
+    "eurostat:nuts_2021_id":"08073",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF21",
+    "eurostat:nuts_2021_level_lau":"08073",
+    "eurostat:population":103,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041622",
     "frgov:id":"BDCSURCO0000000009582612",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.001026,
-    "geom:area_square_m":8179944.869808,
+    "geom:area_square_m":8179944.869809,
     "geom:bbox":"4.22952489065,49.8251860247,4.28239216295,49.8569578223",
     "geom:latitude":49.839402,
     "geom:longitude":4.256233,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683309,
         102191581,
@@ -58,7 +72,10 @@
         102068887
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_08073",
+        "eurostat:nuts_2021_id":"08073"
+    },
     "wof:coterminous":[
         101901787
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"db978af3808e207ddddf00b9c5db537a",
+    "wof:geomhash":"d19474179cd52faa190a1a2ede872dba",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404409487,
-    "wof:lastmodified":1582324482,
+    "wof:lastmodified":1684353361,
     "wof:name":"Bossus-Les-Rumigny",
     "wof:parent_id":102068887,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":103,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

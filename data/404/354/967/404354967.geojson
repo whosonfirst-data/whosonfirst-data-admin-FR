@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_03254",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Pour\u00e7ain-sur-Sioule",
+    "eurostat:nuts_2021_id":"03254",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK11",
+    "eurostat:nuts_2021_level_lau":"03254",
+    "eurostat:population":5160,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071389",
     "frgov:id":"BDCSURCO0000000009603077",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683293,
         102191581,
@@ -58,7 +72,10 @@
         102069113
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_03254",
+        "eurostat:nuts_2021_id":"03254"
+    },
     "wof:coterminous":[
         101766499
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"959c375c410a5d13a540200c035b65bd",
+    "wof:geomhash":"95a779012c28bbd39a5204b26f60d7de",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404354967,
-    "wof:lastmodified":1582324094,
+    "wof:lastmodified":1684352685,
     "wof:name":"Saint-Pourcain-Sur-Sioule",
     "wof:parent_id":102069113,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":5160,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_37172",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Notre-Dame-d'O\u00e9",
+    "eurostat:nuts_2021_id":"37172",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB04",
+    "eurostat:nuts_2021_level_lau":"37172",
+    "eurostat:population":4125,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243700754",
     "frgov:id":"BDCSURCO0000000009598395",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683575,
         102191581,
@@ -57,7 +71,10 @@
         102068753
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_37172",
+        "eurostat:nuts_2021_id":"37172"
+    },
     "wof:coterminous":[
         101765667
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"42a90605c69e2183cdfbd8fe96ac7ec4",
+    "wof:geomhash":"3fb8a72900c67d3e2f483b7e8b577425",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404356739,
-    "wof:lastmodified":1582324924,
+    "wof:lastmodified":1684352708,
     "wof:name":"Notre-Dame-D'Oe",
     "wof:parent_id":102068753,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":4125,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

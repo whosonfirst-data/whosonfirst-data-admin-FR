@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_55123",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hauts-de-Ch\u00e9e",
+    "eurostat:nuts_2021_id":"55123",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF32",
+    "eurostat:nuts_2021_level_lau":"55123",
+    "eurostat:population":728,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066140",
     "frgov:id":"BDCSURCO0000000009589086",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.006166,
-    "geom:area_square_m":50153036.847142,
+    "geom:area_square_m":50153036.84714,
     "geom:bbox":"5.10185083814,48.8308640048,5.24017543568,48.9136293208",
     "geom:latitude":48.868437,
     "geom:longitude":5.1658,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683297,
         102191581,
@@ -56,7 +70,10 @@
         102068547
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_55123",
+        "eurostat:nuts_2021_id":"55123"
+    },
     "wof:coterminous":[
         1360674355
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0ee7032c3972d3ef0dda5941f5683fe5",
+    "wof:geomhash":"9fed9d83f918aec8e69c9b8ec6ad3c2f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404365409,
-    "wof:lastmodified":1582324031,
+    "wof:lastmodified":1684352829,
     "wof:name":"Les Hauts-De-Chee",
     "wof:parent_id":102068547,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":728,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

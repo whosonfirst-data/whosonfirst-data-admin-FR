@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_21366",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Magny-l\u00e8s-Aubigny",
+    "eurostat:nuts_2021_id":"21366",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC11",
+    "eurostat:nuts_2021_level_lau":"21366",
+    "eurostat:population":207,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242101509",
     "frgov:id":"BDCSURCO0000000009599981",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000832,
-    "geom:area_square_m":6998996.362001,
+    "geom:area_square_m":6998996.361999,
     "geom:bbox":"5.13146962673,47.0953416042,5.19778799774,47.12617859",
     "geom:latitude":47.111891,
     "geom:longitude":5.168945,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683563,
         102191581,
@@ -58,7 +72,10 @@
         102069611
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_21366",
+        "eurostat:nuts_2021_id":"21366"
+    },
     "wof:coterminous":[
         101890749
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"1ea3dd43d19f85286784c604643d1a5b",
+    "wof:geomhash":"b40ec63b3ca19c801b86d05839eb07f1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404417957,
-    "wof:lastmodified":1582325134,
+    "wof:lastmodified":1684353460,
     "wof:name":"Magny-Les-Aubigny",
     "wof:parent_id":102069611,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":207,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

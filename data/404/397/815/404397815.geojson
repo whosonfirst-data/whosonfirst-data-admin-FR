@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_18204",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Denis-de-Palin",
+    "eurostat:nuts_2021_id":"18204",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB01",
+    "eurostat:nuts_2021_level_lau":"18204",
+    "eurostat:population":302,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"241800424",
     "frgov:id":"BDCSURCO0000000009600981",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003653,
-    "geom:area_square_m":30840261.331156,
+    "geom:area_square_m":30840261.331155,
     "geom:bbox":"2.47180891523,46.9005978191,2.5711057044,46.9782153269",
     "geom:latitude":46.933216,
     "geom:longitude":2.519487,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683549,
         102191581,
@@ -57,7 +71,10 @@
         102066483
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_18204",
+        "eurostat:nuts_2021_id":"18204"
+    },
     "wof:coterminous":[
         101890551
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"83ac3ec076ca8b5210bd3e3f5cc1de31",
+    "wof:geomhash":"224444adf3a5548a20b5ea3a70d644cb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404397815,
-    "wof:lastmodified":1582324211,
+    "wof:lastmodified":1684353222,
     "wof:name":"Saint-Denis-De-Palin",
     "wof:parent_id":102066483,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":302,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

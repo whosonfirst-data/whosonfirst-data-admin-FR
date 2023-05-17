@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_74139",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hab\u00e8re-Lullin",
+    "eurostat:nuts_2021_id":"74139",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK28",
+    "eurostat:nuts_2021_level_lau":"74139",
+    "eurostat:population":1010,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247400047",
     "frgov:id":"BDCSURCO0000000009602973",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001032,
-    "geom:area_square_m":8826093.68487,
+    "geom:area_square_m":8826093.684871,
     "geom:bbox":"6.43630851531,46.2117429949,6.48926466841,46.2573083968",
     "geom:latitude":46.232935,
     "geom:longitude":6.462199,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683227,
         102191581,
@@ -58,7 +72,10 @@
         102065603
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_74139",
+        "eurostat:nuts_2021_id":"74139"
+    },
     "wof:coterminous":[
         1126055881
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5abf5d84ab2f0e55d6262244cc02a9ac",
+    "wof:geomhash":"8d30b184cb0435e76351098cc36f61d8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404414871,
-    "wof:lastmodified":1582324345,
+    "wof:lastmodified":1684353424,
     "wof:name":"Habere-Lullin",
     "wof:parent_id":102065603,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1010,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

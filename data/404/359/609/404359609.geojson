@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_04179",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Geniez",
+    "eurostat:nuts_2021_id":"04179",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL01",
+    "eurostat:nuts_2021_level_lau":"04179",
+    "eurostat:population":96,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068765",
     "frgov:id":"BDCSURCO0000000009610985",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.004372,
-    "geom:area_square_m":38733305.295262,
+    "geom:area_square_m":38733305.295263,
     "geom:bbox":"5.98512049774,44.1989643435,6.1197406311,44.2743740663",
     "geom:latitude":44.232916,
     "geom:longitude":6.06201,
@@ -142,6 +154,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683509,
         102191581,
@@ -151,7 +165,10 @@
         102069411
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_04179",
+        "eurostat:nuts_2021_id":"04179"
+    },
     "wof:coterminous":[
         1360673707
     ],
@@ -159,7 +176,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"fd5b4482f4e2d935648ce502f1fb4f64",
+    "wof:geomhash":"9670e73d001eab7dd98789c8ddfa7851",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -172,11 +189,13 @@
         }
     ],
     "wof:id":404359609,
-    "wof:lastmodified":1582324803,
+    "wof:lastmodified":1684352748,
     "wof:name":"Saint-Geniez",
     "wof:parent_id":102069411,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":96,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_59428",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Neuville-Saint-R\u00e9my",
+    "eurostat:nuts_2021_id":"59428",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE1",
+    "eurostat:nuts_2021_level_3":"FRE11",
+    "eurostat:nuts_2021_level_lau":"59428",
+    "eurostat:population":3803,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068500",
     "frgov:id":"BDCSURCO0000000009581622",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000298,
-    "geom:area_square_m":2355887.235597,
+    "geom:area_square_m":2355887.235599,
     "geom:bbox":"3.20457443109,50.1786379596,3.23583111349,50.1952478076",
     "geom:latitude":50.187232,
     "geom:longitude":3.2184,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683445,
         102191581,
@@ -58,7 +72,10 @@
         102066883
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_59428",
+        "eurostat:nuts_2021_id":"59428"
+    },
     "wof:coterminous":[
         101840729
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"44d7923d992990cc2a1829b474aaf3b2",
+    "wof:geomhash":"91cf3f267ca9f91c5da0f1751f684eab",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404411071,
-    "wof:lastmodified":1582325163,
+    "wof:lastmodified":1684353378,
     "wof:name":"Neuville-Saint-Remy",
     "wof:parent_id":102066883,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3803,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

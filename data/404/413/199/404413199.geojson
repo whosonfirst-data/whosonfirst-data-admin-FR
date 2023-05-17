@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_22291",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Gildas",
+    "eurostat:nuts_2021_id":"22291",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH01",
+    "eurostat:nuts_2021_level_lau":"22291",
+    "eurostat:population":269,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069409",
     "frgov:id":"BDCSURCO0000000009592175",
     "frgov:insee_arr":"4",
@@ -133,6 +145,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683515,
         102191581,
@@ -142,7 +156,10 @@
         102071159
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_22291",
+        "eurostat:nuts_2021_id":"22291"
+    },
     "wof:coterminous":[
         1360679003
     ],
@@ -150,7 +167,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d8a4267b9ab7ad3254d28d5412a8f861",
+    "wof:geomhash":"1f3db572761787ac7c34066bf3d04ca9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -163,11 +180,13 @@
         }
     ],
     "wof:id":404413199,
-    "wof:lastmodified":1582324325,
+    "wof:lastmodified":1684353404,
     "wof:name":"Saint-Gildas",
     "wof:parent_id":102071159,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":269,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

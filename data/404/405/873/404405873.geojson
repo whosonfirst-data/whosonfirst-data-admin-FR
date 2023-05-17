@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_44081",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Leg\u00e9",
+    "eurostat:nuts_2021_id":"44081",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG01",
+    "eurostat:nuts_2021_level_lau":"44081",
+    "eurostat:population":4514,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071546",
     "frgov:id":"BDCSURCO0000000009600850",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.007297,
-    "geom:area_square_m":61647027.980251,
+    "geom:area_square_m":61647027.98025,
     "geom:bbox":"-1.64189304697,46.8600798344,-1.50076685779,46.9449581141",
     "geom:latitude":46.900707,
     "geom:longitude":-1.578992,
@@ -66,6 +78,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683233,
         102191581,
@@ -75,7 +89,10 @@
         102067051
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_44081",
+        "eurostat:nuts_2021_id":"44081"
+    },
     "wof:coterminous":[
         101766025
     ],
@@ -83,7 +100,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2d39b891b41f5edf399711a8db56ff96",
+    "wof:geomhash":"8dc9a1ebb069208b53063dbcd7b02083",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -96,11 +113,13 @@
         }
     ],
     "wof:id":404405873,
-    "wof:lastmodified":1582325253,
+    "wof:lastmodified":1684353318,
     "wof:name":"Lege",
     "wof:parent_id":102067051,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":4514,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_23026",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bord-Saint-Georges",
+    "eurostat:nuts_2021_id":"23026",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI22",
+    "eurostat:nuts_2021_level_lau":"23026",
+    "eurostat:population":353,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067544",
     "frgov:id":"BDCSURCO0000000009603321",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003782,
-    "geom:area_square_m":32339456.175842,
+    "geom:area_square_m":32339456.175843,
     "geom:bbox":"2.23866451088,46.2097424441,2.33218045481,46.2865258549",
     "geom:latitude":46.25176,
     "geom:longitude":2.287022,
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683179,
         102191581,
@@ -136,7 +150,10 @@
         102065683
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_23026",
+        "eurostat:nuts_2021_id":"23026"
+    },
     "wof:coterminous":[
         101890891
     ],
@@ -144,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"38da9d41cd5d9554bb28e46a6a157378",
+    "wof:geomhash":"722f6562cb3e6dc35562c166cf894b68",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +175,13 @@
         }
     ],
     "wof:id":404365885,
-    "wof:lastmodified":1582324038,
+    "wof:lastmodified":1684352836,
     "wof:name":"Bord-Saint-Georges",
     "wof:parent_id":102065683,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":353,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

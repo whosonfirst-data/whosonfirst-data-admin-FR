@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_62859",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Villers-l'H\u00f4pital",
+    "eurostat:nuts_2021_id":"62859",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE1",
+    "eurostat:nuts_2021_level_3":"FRE12",
+    "eurostat:nuts_2021_level_lau":"62859",
+    "eurostat:population":265,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069672",
     "frgov:id":"BDCSURCO0000000009581695",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683255,
         102191581,
@@ -58,7 +72,10 @@
         102065453
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_62859",
+        "eurostat:nuts_2021_id":"62859"
+    },
     "wof:coterminous":[
         101899259
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"82f4dff046f33e8c2014e6a33afe7c03",
+    "wof:geomhash":"5139827e245c9e5b362a64e54b081f7a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404369931,
-    "wof:lastmodified":1582324906,
+    "wof:lastmodified":1684352889,
     "wof:name":"Villers-L'Hopital",
     "wof:parent_id":102065453,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":265,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_95379",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Maud\u00e9tour-en-Vexin",
+    "eurostat:nuts_2021_id":"95379",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR108",
+    "eurostat:nuts_2021_level_lau":"95379",
+    "eurostat:population":189,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"249500513",
     "frgov:id":"BDCSURCO0000000009587743",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683451,
         102191581,
@@ -57,7 +71,10 @@
         102067333
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_95379",
+        "eurostat:nuts_2021_id":"95379"
+    },
     "wof:coterminous":[
         1125783303
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"89a3048bde6ff6a1ff491eefff8843c1",
+    "wof:geomhash":"2c1a7f9d4ef227e15c7d473e67db41ed",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404407309,
-    "wof:lastmodified":1582324487,
+    "wof:lastmodified":1684353336,
     "wof:name":"Maudetour-En-Vexin",
     "wof:parent_id":102067333,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":189,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

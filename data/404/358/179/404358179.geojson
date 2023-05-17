@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_85264",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Pierre-du-Chemin",
+    "eurostat:nuts_2021_id":"85264",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG05",
+    "eurostat:nuts_2021_level_lau":"85264",
+    "eurostat:population":1336,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248500415",
     "frgov:id":"BDCSURCO0000000009601688",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003515,
-    "geom:area_square_m":29812905.811245,
+    "geom:area_square_m":29812905.811247,
     "geom:bbox":"-0.761715674826,46.6641571182,-0.656157834811,46.7298080928",
     "geom:latitude":46.696044,
     "geom:longitude":-0.701844,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683409,
         102191581,
@@ -57,7 +71,10 @@
         102065065
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_85264",
+        "eurostat:nuts_2021_id":"85264"
+    },
     "wof:coterminous":[
         101767159
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"919017522ae39105875590641ae3d3b8",
+    "wof:geomhash":"e4a1f7dc89655793a175dfd916c653c5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404358179,
-    "wof:lastmodified":1582324984,
+    "wof:lastmodified":1684352728,
     "wof:name":"Saint-Pierre-Du-Chemin",
     "wof:parent_id":102065065,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1336,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

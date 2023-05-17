@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_25306",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"H\u00f4pital-Saint-Lieffroy",
+    "eurostat:nuts_2021_id":"25306",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC21",
+    "eurostat:nuts_2021_level_lau":"25306",
+    "eurostat:population":114,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068294",
     "frgov:id":"BDCSURCO0000000009598204",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000415,
-    "geom:area_square_m":3470990.893183,
+    "geom:area_square_m":3470990.893184,
     "geom:bbox":"6.44015932901,47.3916059692,6.47081700132,47.4093780457",
     "geom:latitude":47.399542,
     "geom:longitude":6.456039,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683239,
         102191581,
@@ -56,7 +70,10 @@
         102065685
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_25306",
+        "eurostat:nuts_2021_id":"25306"
+    },
     "wof:coterminous":[
         1360674645
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"057384127758090efca67fc6bb9d3bd1",
+    "wof:geomhash":"10d2a72d5cd4a6cefc9ba4cc2808aee8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404368453,
-    "wof:lastmodified":1582324872,
+    "wof:lastmodified":1684352871,
     "wof:name":"L'Hopital-Saint-Lieffroy",
     "wof:parent_id":102065685,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":114,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_51549",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Somme-Y\u00e8vre",
+    "eurostat:nuts_2021_id":"51549",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF23",
+    "eurostat:nuts_2021_level_lau":"51549",
+    "eurostat:population":117,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200042703",
     "frgov:id":"BDCSURCO0000000009588590",
     "frgov:insee_arr":"5",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.002648,
-    "geom:area_square_m":21508470.847258,
+    "geom:area_square_m":21508470.847259,
     "geom:bbox":"4.69526657105,48.9201371274,4.79360349303,48.9676822911",
     "geom:latitude":48.944469,
     "geom:longitude":4.740395,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683405,
         102191581,
@@ -58,7 +72,10 @@
         102065797
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_51549",
+        "eurostat:nuts_2021_id":"51549"
+    },
     "wof:coterminous":[
         101881229
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"bb0fce6f57fe980a463a57a09a9e7af9",
+    "wof:geomhash":"4b1edb47352ec883bb34e78c8e73b185",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404416339,
-    "wof:lastmodified":1582325179,
+    "wof:lastmodified":1684353441,
     "wof:name":"Somme-Yevre",
     "wof:parent_id":102065797,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":117,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_28287",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Org\u00e8res-en-Beauce",
+    "eurostat:nuts_2021_id":"28287",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB02",
+    "eurostat:nuts_2021_level_lau":"28287",
+    "eurostat:population":1061,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070159",
     "frgov:id":"BDCSURCO0000000009594853",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001859,
-    "geom:area_square_m":15343727.466024,
+    "geom:area_square_m":15343727.466025,
     "geom:bbox":"1.65087826358,48.1155405934,1.72224169989,48.15969263",
     "geom:latitude":48.138796,
     "geom:longitude":1.684412,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683189,
         102191581,
@@ -57,7 +71,10 @@
         102068205
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_28287",
+        "eurostat:nuts_2021_id":"28287"
+    },
     "wof:coterminous":[
         101884961
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ec9fb40e4681525d9331b7ce76069786",
+    "wof:geomhash":"a8919c5b479f280a282d019677641ca1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404412369,
-    "wof:lastmodified":1582324378,
+    "wof:lastmodified":1684353393,
     "wof:name":"Orgeres-En-Beauce",
     "wof:parent_id":102068205,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1061,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_02647",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ribeauville",
+    "eurostat:nuts_2021_id":"02647",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE21",
+    "eurostat:nuts_2021_level_lau":"02647",
+    "eurostat:population":63,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071983",
     "frgov:id":"BDCSURCO0000000009582065",
     "frgov:insee_arr":"5",
@@ -142,6 +154,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683247,
         102191581,
@@ -152,7 +166,10 @@
         102070817
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_02647",
+        "eurostat:nuts_2021_id":"02647"
+    },
     "wof:coterminous":[
         1360679939
     ],
@@ -160,7 +177,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"147af480fc122391e34f230f2fd72638",
+    "wof:geomhash":"5ce9278eebfadebc224d4b064eb8e828",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -174,11 +191,13 @@
         }
     ],
     "wof:id":404423445,
-    "wof:lastmodified":1582324415,
+    "wof:lastmodified":1684353527,
     "wof:name":"Ribeauville",
     "wof:parent_id":102070817,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":63,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

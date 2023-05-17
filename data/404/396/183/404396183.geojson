@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_77407",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Fargeau-Ponthierry",
+    "eurostat:nuts_2021_id":"77407",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR102",
+    "eurostat:nuts_2021_level_lau":"77407",
+    "eurostat:population":14206,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247700057",
     "frgov:id":"BDCSURCO0000000009592005",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"ILE-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002022,
-    "geom:area_square_m":16552627.850696,
+    "geom:area_square_m":16552627.850695,
     "geom:bbox":"2.49707676445,48.5081401837,2.56118929907,48.5736587699",
     "geom:latitude":48.538845,
     "geom:longitude":2.524706,
@@ -123,6 +135,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683385,
         102191581,
@@ -132,7 +146,10 @@
         102070159
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_77407",
+        "eurostat:nuts_2021_id":"77407"
+    },
     "wof:coterminous":[
         1126038117
     ],
@@ -140,7 +157,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"1b8aad6a5203f85bbe74d176343bf970",
+    "wof:geomhash":"52ab0c3f4c784887772873399a9e8484",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -153,11 +170,13 @@
         }
     ],
     "wof:id":404396183,
-    "wof:lastmodified":1582324080,
+    "wof:lastmodified":1684353204,
     "wof:name":"Saint-Fargeau-Ponthierry",
     "wof:parent_id":102070159,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":14206,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

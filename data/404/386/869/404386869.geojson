@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_30035",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Belv\u00e9zet",
+    "eurostat:nuts_2021_id":"30035",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ12",
+    "eurostat:nuts_2021_level_lau":"30035",
+    "eurostat:population":245,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200034379",
     "frgov:id":"BDCSURCO0000000009611548",
     "frgov:insee_arr":"2",
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683431,
         102191581,
@@ -139,7 +153,10 @@
         102067041
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_30035",
+        "eurostat:nuts_2021_id":"30035"
+    },
     "wof:coterminous":[
         1125993517
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"52e6f7cd3b78a0fc8afcc83e2e51bc26",
+    "wof:geomhash":"a7ef60aeee959c690c2a5d778faf4278",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404386869,
-    "wof:lastmodified":1582325447,
+    "wof:lastmodified":1684353091,
     "wof:name":"Belvezet",
     "wof:parent_id":102067041,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":245,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

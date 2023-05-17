@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_27350",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Illiers-l'\u00c9v\u00eaque",
+    "eurostat:nuts_2021_id":"27350",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD21",
+    "eurostat:nuts_2021_level_lau":"27350",
+    "eurostat:population":999,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066462",
     "frgov:id":"BDCSURCO0000000009589796",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002562,
-    "geom:area_square_m":20853177.39969,
+    "geom:area_square_m":20853177.399689,
     "geom:bbox":"1.21650269406,48.7987686619,1.31153561491,48.8519077547",
     "geom:latitude":48.824993,
     "geom:longitude":1.259116,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683283,
         102191581,
@@ -58,7 +72,10 @@
         102069007
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_27350",
+        "eurostat:nuts_2021_id":"27350"
+    },
     "wof:coterminous":[
         1175612413
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"25e894e9be920d20433433829a1e6faa",
+    "wof:geomhash":"fc9be7873e62202449fb5fb456b9d20c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404407349,
-    "wof:lastmodified":1582324494,
+    "wof:lastmodified":1684353336,
     "wof:name":"Illiers-L'Eveque",
     "wof:parent_id":102069007,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":999,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

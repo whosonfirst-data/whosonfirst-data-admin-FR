@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_65100",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bord\u00e8res-sur-l'\u00c9chez",
+    "eurostat:nuts_2021_id":"65100",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ26",
+    "eurostat:nuts_2021_level_lau":"65100",
+    "eurostat:population":5227,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069300",
     "frgov:id":"BDCSURCO0000000009614799",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00178,
-    "geom:area_square_m":16028968.542051,
+    "geom:area_square_m":16028968.54205,
     "geom:bbox":"-0.00220411784578,43.2465842297,0.0799488300213,43.2835510632",
     "geom:latitude":43.265199,
     "geom:longitude":0.042511,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683203,
         102191581,
@@ -58,7 +72,10 @@
         102070325
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_65100",
+        "eurostat:nuts_2021_id":"65100"
+    },
     "wof:coterminous":[
         101831653
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8c1ccc3748c833c899d987b105e39c75",
+    "wof:geomhash":"2a911ed87834184e5d236a16c9fbee6c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404421097,
-    "wof:lastmodified":1582325100,
+    "wof:lastmodified":1684353498,
     "wof:name":"Borderes-Sur-L'Echez",
     "wof:parent_id":102070325,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":5227,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

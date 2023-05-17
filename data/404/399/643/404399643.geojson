@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_27533",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Denis-le-Ferment",
+    "eurostat:nuts_2021_id":"27533",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD21",
+    "eurostat:nuts_2021_level_lau":"27533",
+    "eurostat:population":488,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071843",
     "frgov:id":"BDCSURCO0000000009585790",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002225,
-    "geom:area_square_m":17930015.16821,
+    "geom:area_square_m":17930015.168209,
     "geom:bbox":"1.68632159851,49.2933621026,1.74709349453,49.3447853192",
     "geom:latitude":49.322341,
     "geom:longitude":1.718015,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683283,
         102191581,
@@ -58,7 +72,10 @@
         102067955
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_27533",
+        "eurostat:nuts_2021_id":"27533"
+    },
     "wof:coterminous":[
         101877619
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a02a7d5bb0f9bcc5c049360e174644a1",
+    "wof:geomhash":"70c0694bdbd4799215bd3b0d7390303f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404399643,
-    "wof:lastmodified":1582324146,
+    "wof:lastmodified":1684353245,
     "wof:name":"Saint-Denis-Le-Ferment",
     "wof:parent_id":102067955,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":488,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

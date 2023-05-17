@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_23233",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Pierre-le-Bost",
+    "eurostat:nuts_2021_id":"23233",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI22",
+    "eurostat:nuts_2021_level_lau":"23233",
+    "eurostat:population":129,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067544",
     "frgov:id":"BDCSURCO0000000009602888",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002008,
-    "geom:area_square_m":17125465.01753,
+    "geom:area_square_m":17125465.017531,
     "geom:bbox":"2.23270418578,46.3657338229,2.28581906562,46.4256506316",
     "geom:latitude":46.396743,
     "geom:longitude":2.262449,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683179,
         102191581,
@@ -58,7 +72,10 @@
         102065683
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_23233",
+        "eurostat:nuts_2021_id":"23233"
+    },
     "wof:coterminous":[
         1125817471
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"056cec4f0106a4524aabb58faaddb1a5",
+    "wof:geomhash":"d17d486b6b662fc6f465a713d7377ed3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404407407,
-    "wof:lastmodified":1582324492,
+    "wof:lastmodified":1684353337,
     "wof:name":"Saint-Pierre-Le-Bost",
     "wof:parent_id":102065683,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":129,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_80777",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Vauchelles-l\u00e8s-Authie",
+    "eurostat:nuts_2021_id":"80777",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE23",
+    "eurostat:nuts_2021_level_lau":"80777",
+    "eurostat:population":151,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248000747",
     "frgov:id":"BDCSURCO0000000009581979",
     "frgov:insee_arr":"4",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683363,
         102191581,
@@ -58,7 +72,10 @@
         102064759
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_80777",
+        "eurostat:nuts_2021_id":"80777"
+    },
     "wof:coterminous":[
         1125829313
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"cdbde112b1a768c163b7b23488ddf7fb",
+    "wof:geomhash":"99c532df1c7045cb967fbd6e7a9085af",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404403415,
-    "wof:lastmodified":1582325290,
+    "wof:lastmodified":1684353288,
     "wof:name":"Vauchelles-Les-Authie",
     "wof:parent_id":102064759,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":151,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

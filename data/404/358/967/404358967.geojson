@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_40280",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Perdon",
+    "eurostat:nuts_2021_id":"40280",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI13",
+    "eurostat:nuts_2021_level_lau":"40280",
+    "eurostat:population":1726,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244000808",
     "frgov:id":"BDCSURCO0000000009612355",
     "frgov:insee_arr":"2",
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683183,
         102191581,
@@ -136,7 +150,10 @@
         102069831
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_40280",
+        "eurostat:nuts_2021_id":"40280"
+    },
     "wof:coterminous":[
         101895659
     ],
@@ -144,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b50b8338bd76c111137249519543669f",
+    "wof:geomhash":"89570537331b91aa1c930858c4e2ef07",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +175,13 @@
         }
     ],
     "wof:id":404358967,
-    "wof:lastmodified":1582324977,
+    "wof:lastmodified":1684352739,
     "wof:name":"Saint-Perdon",
     "wof:parent_id":102069831,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1726,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

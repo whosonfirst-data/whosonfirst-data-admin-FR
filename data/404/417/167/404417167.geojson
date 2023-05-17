@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_19263",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Soudeilles",
+    "eurostat:nuts_2021_id":"19263",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI21",
+    "eurostat:nuts_2021_level_lau":"19263",
+    "eurostat:population":301,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"241900133",
     "frgov:id":"BDCSURCO0000000009606846",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002347,
-    "geom:area_square_m":20357911.974995,
+    "geom:area_square_m":20357911.974996,
     "geom:bbox":"2.03147239068,45.4159870814,2.10662276419,45.4732395091",
     "geom:latitude":45.445192,
     "geom:longitude":2.063237,
@@ -132,6 +144,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683209,
         102191581,
@@ -142,7 +156,10 @@
         102067493
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_19263",
+        "eurostat:nuts_2021_id":"19263"
+    },
     "wof:coterminous":[
         1125806867
     ],
@@ -150,7 +167,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"177274622158f85a0a958744ae0ba983",
+    "wof:geomhash":"65b975e2087cb961da27f05315072e79",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -164,11 +181,13 @@
         }
     ],
     "wof:id":404417167,
-    "wof:lastmodified":1582325128,
+    "wof:lastmodified":1684353450,
     "wof:name":"Soudeilles",
     "wof:parent_id":102067493,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":301,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_19143",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Montaignac-Saint-Hippolyte",
+    "eurostat:nuts_2021_id":"19143",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI21",
+    "eurostat:nuts_2021_level_lau":"19143",
+    "eurostat:population":581,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"241900133",
     "frgov:id":"BDCSURCO0000000009607085",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00234,
-    "geom:area_square_m":20338945.054807,
+    "geom:area_square_m":20338945.054808,
     "geom:bbox":"1.96493086026,45.3242694242,2.06346080015,45.3675212847",
     "geom:latitude":45.346381,
     "geom:longitude":2.015517,
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683209,
         102191581,
@@ -136,7 +150,10 @@
         102066081
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_19143",
+        "eurostat:nuts_2021_id":"19143"
+    },
     "wof:coterminous":[
         101894929
     ],
@@ -144,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"870035729cc359bec8991fc40bc90bbc",
+    "wof:geomhash":"c632d90949179c6cae29a81d02ada50b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +175,13 @@
         }
     ],
     "wof:id":404418029,
-    "wof:lastmodified":1582325226,
+    "wof:lastmodified":1684353460,
     "wof:name":"Montaignac-Saint-Hippolyte",
     "wof:parent_id":102066081,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":581,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_30302",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Victor-la-Coste",
+    "eurostat:nuts_2021_id":"30302",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ12",
+    "eurostat:nuts_2021_level_lau":"30302",
+    "eurostat:population":2073,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200034692",
     "frgov:id":"BDCSURCO0000000009611538",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003,
-    "geom:area_square_m":26663491.997535,
+    "geom:area_square_m":26663491.997536,
     "geom:bbox":"4.60734380502,44.0175041987,4.67967769061,44.0861611286",
     "geom:latitude":44.055178,
     "geom:longitude":4.641783,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683431,
         102191581,
@@ -58,7 +72,10 @@
         102068587
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_30302",
+        "eurostat:nuts_2021_id":"30302"
+    },
     "wof:coterminous":[
         101772667
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0905582d0cabb51f9b3e93f25d5e4528",
+    "wof:geomhash":"e2b110677074a0afa34763544cde181b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404382369,
-    "wof:lastmodified":1582324690,
+    "wof:lastmodified":1684353037,
     "wof:name":"Saint-Victor-La-Coste",
     "wof:parent_id":102068587,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2073,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_16320",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Genis-d'Hiersac",
+    "eurostat:nuts_2021_id":"16320",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI31",
+    "eurostat:nuts_2021_level_lau":"16320",
+    "eurostat:population":907,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"241600303",
     "frgov:id":"BDCSURCO0000000009605392",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002236,
-    "geom:area_square_m":19287738.852966,
+    "geom:area_square_m":19287738.852965,
     "geom:bbox":"-0.00256037368642,45.7209953879,0.0898014340083,45.7773236632",
     "geom:latitude":45.754056,
     "geom:longitude":0.036911,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683437,
         102191581,
@@ -58,7 +72,10 @@
         102067179
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_16320",
+        "eurostat:nuts_2021_id":"16320"
+    },
     "wof:coterminous":[
         101892309
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3ddbe064a2722f2ffb177fb7fef509cc",
+    "wof:geomhash":"34d01851416ea5119423cb91d54f8f61",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404355205,
-    "wof:lastmodified":1582324186,
+    "wof:lastmodified":1684352688,
     "wof:name":"Saint-Genis-D'Hiersac",
     "wof:parent_id":102067179,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":907,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

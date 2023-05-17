@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_18001",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ach\u00e8res",
+    "eurostat:nuts_2021_id":"18001",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB01",
+    "eurostat:nuts_2021_level_lau":"18001",
+    "eurostat:population":380,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066330",
     "frgov:id":"BDCSURCO0000000009599531",
     "frgov:insee_arr":"1",
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683549,
         102191581,
@@ -55,7 +69,10 @@
         102066981
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_18001",
+        "eurostat:nuts_2021_id":"18001"
+    },
     "wof:coterminous":[
         1360680415
     ],
@@ -63,7 +80,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2d1aaa0958f1a9f9f589fe9cdf64f2c1",
+    "wof:geomhash":"b75300a88cd27adfe8d642c4e2bfcdda",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -76,11 +93,13 @@
         }
     ],
     "wof:id":404428359,
-    "wof:lastmodified":1582325118,
+    "wof:lastmodified":1684353584,
     "wof:name":"Acheres",
     "wof:parent_id":102066981,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":380,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_62199",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Camblain-l'Abb\u00e9",
+    "eurostat:nuts_2021_id":"62199",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE1",
+    "eurostat:nuts_2021_level_3":"FRE12",
+    "eurostat:nuts_2021_level_lau":"62199",
+    "eurostat:population":650,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069482",
     "frgov:id":"BDCSURCO0000000009581170",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000714,
-    "geom:area_square_m":5628337.793056,
+    "geom:area_square_m":5628337.793057,
     "geom:bbox":"2.61641166768,50.3602182897,2.65697892154,50.3910981819",
     "geom:latitude":50.373581,
     "geom:longitude":2.636448,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683255,
         102191581,
@@ -58,7 +72,10 @@
         102065053
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_62199",
+        "eurostat:nuts_2021_id":"62199"
+    },
     "wof:coterminous":[
         101898349
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d48bfeea110f4b85f218a1cbf2e1c45f",
+    "wof:geomhash":"96520193f77bb256a3205955361196c5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404394295,
-    "wof:lastmodified":1582325028,
+    "wof:lastmodified":1684353183,
     "wof:name":"Camblain-L'Abbe",
     "wof:parent_id":102065053,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":650,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

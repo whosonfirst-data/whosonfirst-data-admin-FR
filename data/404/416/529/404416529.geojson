@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_14300",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gerrots",
+    "eurostat:nuts_2021_id":"14300",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD11",
+    "eurostat:nuts_2021_level_lau":"14300",
+    "eurostat:population":53,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"241400761",
     "frgov:id":"BDCSURCO0000000009586836",
     "frgov:insee_arr":"3",
@@ -135,6 +147,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683579,
         102191581,
@@ -145,7 +159,10 @@
         102066141
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_14300",
+        "eurostat:nuts_2021_id":"14300"
+    },
     "wof:coterminous":[
         1126054997
     ],
@@ -153,7 +170,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b97db660b6a6c3bee87c78fe3cd27418",
+    "wof:geomhash":"4fd2a7a5230332678f1cf5b6f5eb30d9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -167,11 +184,13 @@
         }
     ],
     "wof:id":404416529,
-    "wof:lastmodified":1582325185,
+    "wof:lastmodified":1684353443,
     "wof:name":"Gerrots",
     "wof:parent_id":102066141,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":53,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_27202",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Daubeuf-pr\u00e8s-Vatteville",
+    "eurostat:nuts_2021_id":"27202",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD21",
+    "eurostat:nuts_2021_level_lau":"27202",
+    "eurostat:population":468,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072312",
     "frgov:id":"BDCSURCO0000000009586266",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001392,
-    "geom:area_square_m":11231272.71287,
+    "geom:area_square_m":11231272.712871,
     "geom:bbox":"1.28011929663,49.240549332,1.33728559567,49.2787171794",
     "geom:latitude":49.260143,
     "geom:longitude":1.311259,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683283,
         102191581,
@@ -58,7 +72,10 @@
         102064461
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_27202",
+        "eurostat:nuts_2021_id":"27202"
+    },
     "wof:coterminous":[
         101877607
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e3f4fc0e88c104169565d8f9df09f034",
+    "wof:geomhash":"2689fecfee872436ebeda4f59e0629f0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404396005,
-    "wof:lastmodified":1582324079,
+    "wof:lastmodified":1684353202,
     "wof:name":"Daubeuf-Pres-Vatteville",
     "wof:parent_id":102064461,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":468,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

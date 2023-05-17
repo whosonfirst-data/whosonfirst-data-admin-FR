@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_45060",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bussi\u00e8re",
+    "eurostat:nuts_2021_id":"45060",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB06",
+    "eurostat:nuts_2021_level_lau":"45060",
+    "eurostat:population":805,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068278",
     "frgov:id":"BDCSURCO0000000009597144",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.004203,
-    "geom:area_square_m":34953763.775705,
+    "geom:area_square_m":34953763.775708,
     "geom:bbox":"2.69331675348,47.7062715602,2.80299353865,47.7679192551",
     "geom:latitude":47.734452,
     "geom:longitude":2.746284,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683479,
         102191581,
@@ -57,7 +71,10 @@
         102065041
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_45060",
+        "eurostat:nuts_2021_id":"45060"
+    },
     "wof:coterminous":[
         101887197
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a91da427fd4b81f5d2ad3ac1490c50ac",
+    "wof:geomhash":"ca0aabd47b624743e4a1cb826f298184",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404373985,
-    "wof:lastmodified":1582325344,
+    "wof:lastmodified":1684352936,
     "wof:name":"La Bussiere",
     "wof:parent_id":102065041,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":805,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

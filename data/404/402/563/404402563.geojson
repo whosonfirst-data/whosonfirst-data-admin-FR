@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_60223",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Estr\u00e9es-Saint-Denis",
+    "eurostat:nuts_2021_id":"60223",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE22",
+    "eurostat:nuts_2021_level_lau":"60223",
+    "eurostat:population":3752,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"246000897",
     "frgov:id":"BDCSURCO0000000009584970",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683289,
         102191581,
@@ -58,7 +72,10 @@
         102066943
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_60223",
+        "eurostat:nuts_2021_id":"60223"
+    },
     "wof:coterminous":[
         101814933
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"78b179f93e726bc77b0dfdaf3858df5a",
+    "wof:geomhash":"05ceeeda4adba7f169a7aa2359659019",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404402563,
-    "wof:lastmodified":1582325278,
+    "wof:lastmodified":1684353279,
     "wof:name":"Estrees-Saint-Denis",
     "wof:parent_id":102066943,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3752,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

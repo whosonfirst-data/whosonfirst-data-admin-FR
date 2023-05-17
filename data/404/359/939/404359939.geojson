@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_02128",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bruy\u00e8res-et-Montb\u00e9rault",
+    "eurostat:nuts_2021_id":"02128",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE21",
+    "eurostat:nuts_2021_level_lau":"02128",
+    "eurostat:population":1532,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200043495",
     "frgov:id":"BDCSURCO0000000009584537",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00144,
-    "geom:area_square_m":11556009.983006,
+    "geom:area_square_m":11556009.983005,
     "geom:bbox":"3.64461610884,49.4815863637,3.69487545684,49.5549989865",
     "geom:latitude":49.52471,
     "geom:longitude":3.669465,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683247,
         102191581,
@@ -58,7 +72,10 @@
         102070849
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_02128",
+        "eurostat:nuts_2021_id":"02128"
+    },
     "wof:coterminous":[
         1175612017
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6fb78c09c4abbdd0fb9b36b309b3d309",
+    "wof:geomhash":"d41b65d24b45e1a47e7f302f0402ab88",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404359939,
-    "wof:lastmodified":1582324787,
+    "wof:lastmodified":1684352753,
     "wof:name":"Bruyeres-Et-Montberault",
     "wof:parent_id":102070849,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1532,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

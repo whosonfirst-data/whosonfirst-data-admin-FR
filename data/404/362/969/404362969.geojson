@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_77183",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Fert\u00e9-sous-Jouarre",
+    "eurostat:nuts_2021_id":"77183",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR102",
+    "eurostat:nuts_2021_level_lau":"77183",
+    "eurostat:population":9619,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247700024",
     "frgov:id":"BDCSURCO0000000009588648",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"ILE-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001229,
-    "geom:area_square_m":9982576.765853,
+    "geom:area_square_m":9982576.765855,
     "geom:bbox":"3.10278271149,48.9352112231,3.16758397744,48.9772925336",
     "geom:latitude":48.954034,
     "geom:longitude":3.12842,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683385,
         102191581,
@@ -57,7 +71,10 @@
         102066447
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_77183",
+        "eurostat:nuts_2021_id":"77183"
+    },
     "wof:coterminous":[
         101762519
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6bcbcd2e604e12b560cda7c2038b1fa4",
+    "wof:geomhash":"6f346c83798d8e7a28fb69523b3bc484",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404362969,
-    "wof:lastmodified":1582324056,
+    "wof:lastmodified":1684352795,
     "wof:name":"La Ferte-Sous-Jouarre",
     "wof:parent_id":102066447,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":9619,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

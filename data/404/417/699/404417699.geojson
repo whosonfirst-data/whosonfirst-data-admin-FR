@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_80187",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Chauss\u00e9e-Tirancourt",
+    "eurostat:nuts_2021_id":"80187",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE23",
+    "eurostat:nuts_2021_level_lau":"80187",
+    "eurostat:population":659,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071223",
     "frgov:id":"BDCSURCO0000000009582304",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001562,
-    "geom:area_square_m":12422312.696863,
+    "geom:area_square_m":12422312.696862,
     "geom:bbox":"2.12733747033,49.9387693654,2.20233813723,49.9877141818",
     "geom:latitude":49.961235,
     "geom:longitude":2.167593,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683363,
         102191581,
@@ -58,7 +72,10 @@
         102070423
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_80187",
+        "eurostat:nuts_2021_id":"80187"
+    },
     "wof:coterminous":[
         1125833289
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a7d28b6ffe0c7bc5a47345884e20317c",
+    "wof:geomhash":"f5556dd03fa64d697a6dc82307fdbd5f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404417699,
-    "wof:lastmodified":1582325138,
+    "wof:lastmodified":1684353457,
     "wof:name":"La Chaussee-Tirancourt",
     "wof:parent_id":102070423,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":659,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

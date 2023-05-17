@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_76595",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Jouin-Bruneval",
+    "eurostat:nuts_2021_id":"76595",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD22",
+    "eurostat:nuts_2021_level_lau":"76595",
+    "eurostat:population":1869,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247600497",
     "frgov:id":"BDCSURCO0000000009584043",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002476,
-    "geom:area_square_m":19830512.118629,
+    "geom:area_square_m":19830512.11863,
     "geom:bbox":"0.143252290347,49.604409036,0.219974646381,49.6699129287",
     "geom:latitude":49.639023,
     "geom:longitude":0.178032,
@@ -117,6 +129,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683251,
         102191581,
@@ -127,7 +141,10 @@
         102066529
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_76595",
+        "eurostat:nuts_2021_id":"76595"
+    },
     "wof:coterminous":[
         101812445
     ],
@@ -135,7 +152,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0b9dc09f6c88ae985442ad612ab8f7ac",
+    "wof:geomhash":"3660d4147fb0c356e8a2d050a74256c9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -149,11 +166,13 @@
         }
     ],
     "wof:id":404377225,
-    "wof:lastmodified":1582324569,
+    "wof:lastmodified":1684352978,
     "wof:name":"Saint-Jouin-Bruneval",
     "wof:parent_id":102066529,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1869,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

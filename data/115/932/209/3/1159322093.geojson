@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_39300",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lons-le-Saunier",
+    "eurostat:nuts_2021_id":"39300",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC22",
+    "eurostat:nuts_2021_level_lau":"39300",
+    "eurostat:population":17291,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071116",
     "frgov:id":"BDCSURCO0000000009601540",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Pr\u00e9fecture",
     "geom:area":0.000897,
-    "geom:area_square_m":7614506.834479,
+    "geom:area_square_m":7614506.83448,
     "geom:bbox":"5.532416,46.656531,5.582355,46.694966",
     "geom:latitude":46.67473,
     "geom:longitude":5.557712,
@@ -159,24 +171,30 @@
     "reversegeo:longitude":5.560166,
     "src:geom":"frgov",
     "src:geom_alt":[],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85683173,
         102191581,
         85633147,
-        102072151,
-        136253037,
         404227883,
         1108826395,
-        85683173
+        136253037,
+        102072151
     ],
     "wof:breaches":[],
     "wof:concordance":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_39300",
+        "eurostat:nuts_2021_id":"39300"
+    },
     "wof:coterminous":[
         101829255,
         102072151
     ],
     "wof:country":"FR",
     "wof:created":1526509930,
-    "wof:geomhash":"8bb7aab63e4985da68f13904ce01e953",
+    "wof:geomhash":"a874cbf1a4d389377a0c28a8765e4285",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -190,11 +208,13 @@
         }
     ],
     "wof:id":1159322093,
-    "wof:lastmodified":1608039587,
+    "wof:lastmodified":1684353597,
     "wof:name":"Lons-le-Saunier",
     "wof:parent_id":102072151,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Pr\u00e9fecture",
+    "wof:population":17291,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded":[],
     "wof:superseded_by":[],

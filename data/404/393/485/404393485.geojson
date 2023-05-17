@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_55323",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Martincourt-sur-Meuse",
+    "eurostat:nuts_2021_id":"55323",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF32",
+    "eurostat:nuts_2021_level_lau":"55323",
+    "eurostat:population":66,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066132",
     "frgov:id":"BDCSURCO0000000009584124",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683297,
         102191581,
@@ -58,7 +72,10 @@
         102068087
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_55323",
+        "eurostat:nuts_2021_id":"55323"
+    },
     "wof:coterminous":[
         1125782999
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"1943adf02cfd0c315e6fa23ade1f76e2",
+    "wof:geomhash":"a3d4fb59053ac9ed6532e6ba33561a91",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404393485,
-    "wof:lastmodified":1582325009,
+    "wof:lastmodified":1684353173,
     "wof:name":"Martincourt-Sur-Meuse",
     "wof:parent_id":102068087,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":66,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

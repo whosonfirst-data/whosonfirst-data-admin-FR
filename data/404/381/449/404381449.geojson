@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_02619",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Pr\u00e9montr\u00e9",
+    "eurostat:nuts_2021_id":"02619",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE21",
+    "eurostat:nuts_2021_level_lau":"02619",
+    "eurostat:population":661,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071769",
     "frgov:id":"BDCSURCO0000000009584204",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683247,
         102191581,
@@ -58,7 +72,10 @@
         102064303
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_02619",
+        "eurostat:nuts_2021_id":"02619"
+    },
     "wof:coterminous":[
         101902933
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3d12554d2084fa9f505eed977fd88221",
+    "wof:geomhash":"a9b84b6e5f61b3e624c3939676ba4794",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404381449,
-    "wof:lastmodified":1582325428,
+    "wof:lastmodified":1684353027,
     "wof:name":"Premontre",
     "wof:parent_id":102064303,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":661,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_72273",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Christophe-du-Jambet",
+    "eurostat:nuts_2021_id":"72273",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG04",
+    "eurostat:nuts_2021_level_lau":"72273",
+    "eurostat:population":233,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072700",
     "frgov:id":"BDCSURCO0000000009594197",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001356,
-    "geom:area_square_m":11164898.445507,
+    "geom:area_square_m":11164898.445506,
     "geom:bbox":"0.00222802307451,48.2202211537,0.114094558384,48.2542649094",
     "geom:latitude":48.23426,
     "geom:longitude":0.059894,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683279,
         102191581,
@@ -57,7 +71,10 @@
         102064571
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_72273",
+        "eurostat:nuts_2021_id":"72273"
+    },
     "wof:coterminous":[
         101883173
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"70ac07fa833190a2b79aefaa002853e5",
+    "wof:geomhash":"f42cabaf0fa0bcc8afe14516c0d22c8a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404357959,
-    "wof:lastmodified":1582324896,
+    "wof:lastmodified":1684352725,
     "wof:name":"Saint-Christophe-Du-Jambet",
     "wof:parent_id":102064571,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":233,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

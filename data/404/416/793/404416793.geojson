@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_76547",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rue-Saint-Pierre",
+    "eurostat:nuts_2021_id":"76547",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD22",
+    "eurostat:nuts_2021_level_lau":"76547",
+    "eurostat:population":785,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070449",
     "frgov:id":"BDCSURCO0000000009584327",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000959,
-    "geom:area_square_m":7693277.658139,
+    "geom:area_square_m":7693277.658138,
     "geom:bbox":"1.23034081591,49.5480954133,1.27565631158,49.5818449539",
     "geom:latitude":49.566711,
     "geom:longitude":1.254082,
@@ -87,6 +99,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683251,
         102191581,
@@ -97,7 +111,10 @@
         102066371
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_76547",
+        "eurostat:nuts_2021_id":"76547"
+    },
     "wof:coterminous":[
         101902017
     ],
@@ -105,7 +122,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e2647a67e8fd634be31bed4a422aa9bb",
+    "wof:geomhash":"25c5939474179e067b918897b3bf6c2a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -119,11 +136,13 @@
         }
     ],
     "wof:id":404416793,
-    "wof:lastmodified":1582325187,
+    "wof:lastmodified":1684353446,
     "wof:name":"La Rue-Saint-Pierre",
     "wof:parent_id":102066371,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":785,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

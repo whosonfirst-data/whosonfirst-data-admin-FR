@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_24526",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Savignac-L\u00e9drier",
+    "eurostat:nuts_2021_id":"24526",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI11",
+    "eurostat:nuts_2021_level_lau":"24526",
+    "eurostat:population":717,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242401024",
     "frgov:id":"BDCSURCO0000000009607101",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003038,
-    "geom:area_square_m":26387806.100605,
+    "geom:area_square_m":26387806.100604,
     "geom:bbox":"1.14319869008,45.3510584041,1.24750099464,45.4078483652",
     "geom:latitude":45.382071,
     "geom:longitude":1.199214,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683331,
         102191581,
@@ -58,7 +72,10 @@
         102067613
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_24526",
+        "eurostat:nuts_2021_id":"24526"
+    },
     "wof:coterminous":[
         1125804767
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6d70e420311cafdbe4092e92aa76beb9",
+    "wof:geomhash":"3e4cec3752820e76357143ceb192b396",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404375785,
-    "wof:lastmodified":1582325414,
+    "wof:lastmodified":1684352960,
     "wof:name":"Savignac-Ledrier",
     "wof:parent_id":102067613,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":717,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

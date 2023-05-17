@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_77233",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Iverny",
+    "eurostat:nuts_2021_id":"77233",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR102",
+    "eurostat:nuts_2021_level_lau":"77233",
+    "eurostat:population":588,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200033090",
     "frgov:id":"BDCSURCO0000000009588181",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"ILE-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000215,
-    "geom:area_square_m":1742547.629055,
+    "geom:area_square_m":1742547.629056,
     "geom:bbox":"2.77784242507,48.9899832195,2.80656198926,49.0047471818",
     "geom:latitude":48.99665,
     "geom:longitude":2.790707,
@@ -114,6 +126,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683385,
         102191581,
@@ -123,7 +137,10 @@
         102070731
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_77233",
+        "eurostat:nuts_2021_id":"77233"
+    },
     "wof:coterminous":[
         1125906573
     ],
@@ -131,7 +148,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6e46eb9398acba76f11510dd488714b0",
+    "wof:geomhash":"3d91b158a5f45f3e7320d7f8d856046e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -144,11 +161,13 @@
         }
     ],
     "wof:id":404391325,
-    "wof:lastmodified":1582324015,
+    "wof:lastmodified":1684353148,
     "wof:name":"Iverny",
     "wof:parent_id":102070731,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":588,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

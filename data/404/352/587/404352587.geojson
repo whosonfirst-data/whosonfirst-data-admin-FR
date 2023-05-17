@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_43101",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Goudet",
+    "eurostat:nuts_2021_id":"43101",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK13",
+    "eurostat:nuts_2021_level_lau":"43101",
+    "eurostat:population":60,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200073401",
     "frgov:id":"BDCSURCO0000000009608733",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.000511,
-    "geom:area_square_m":4477887.646532,
+    "geom:area_square_m":4477887.646531,
     "geom:bbox":"3.90063828376,44.8772175722,3.94775661445,44.9137929371",
     "geom:latitude":44.894159,
     "geom:longitude":3.921625,
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683413,
         102191581,
@@ -139,7 +153,10 @@
         102066675
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_43101",
+        "eurostat:nuts_2021_id":"43101"
+    },
     "wof:coterminous":[
         1125808689
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"30b24edd1f93862690dd84e1aecf3359",
+    "wof:geomhash":"8300620a75fc6f80084f6d6d5064bf38",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404352587,
-    "wof:lastmodified":1582324169,
+    "wof:lastmodified":1684352653,
     "wof:name":"Goudet",
     "wof:parent_id":102066675,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":60,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

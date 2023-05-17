@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_88437",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Vallier",
+    "eurostat:nuts_2021_id":"88437",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF34",
+    "eurostat:nuts_2021_level_lau":"88437",
+    "eurostat:population":98,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068369",
     "frgov:id":"BDCSURCO0000000009593157",
     "frgov:insee_arr":"1",
@@ -91,6 +103,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683223,
         102191581,
@@ -101,7 +115,10 @@
         102066279
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_88437",
+        "eurostat:nuts_2021_id":"88437"
+    },
     "wof:coterminous":[
         1360673805
     ],
@@ -109,7 +126,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"be75d1399fcfcaa31b6b11f0c68b87e5",
+    "wof:geomhash":"88158f1912a6cfec343d3ac940016b01",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -123,11 +140,13 @@
         }
     ],
     "wof:id":404360563,
-    "wof:lastmodified":1582325051,
+    "wof:lastmodified":1684352761,
     "wof:name":"Saint-Vallier",
     "wof:parent_id":102066279,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":98,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_80288",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Estr\u00e9es-Deni\u00e9court",
+    "eurostat:nuts_2021_id":"80288",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE23",
+    "eurostat:nuts_2021_level_lau":"80288",
+    "eurostat:population":330,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070928",
     "frgov:id":"BDCSURCO0000000009582689",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000805,
-    "geom:area_square_m":6416850.08154,
+    "geom:area_square_m":6416850.081541,
     "geom:bbox":"2.80375039279,49.8527197179,2.84186470862,49.8901943112",
     "geom:latitude":49.872163,
     "geom:longitude":2.82249,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683363,
         102191581,
@@ -58,7 +72,10 @@
         102067159
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_80288",
+        "eurostat:nuts_2021_id":"80288"
+    },
     "wof:coterminous":[
         101900857
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"96d98a0a6747bba82f829511959d1c7b",
+    "wof:geomhash":"0eda11f787ce0f69d51c250149598dbb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404414473,
-    "wof:lastmodified":1582324346,
+    "wof:lastmodified":1684353419,
     "wof:name":"Estrees-Deniecourt",
     "wof:parent_id":102067159,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":330,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

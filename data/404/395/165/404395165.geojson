@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_02632",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Quincy-Basse",
+    "eurostat:nuts_2021_id":"02632",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE21",
+    "eurostat:nuts_2021_level_lau":"02632",
+    "eurostat:population":60,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071769",
     "frgov:id":"BDCSURCO0000000009584562",
     "frgov:insee_arr":"2",
@@ -138,6 +150,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683247,
         102191581,
@@ -148,7 +162,10 @@
         102066287
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_02632",
+        "eurostat:nuts_2021_id":"02632"
+    },
     "wof:coterminous":[
         101902985
     ],
@@ -156,7 +173,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a3afff99b0882e547fad071cf5b26028",
+    "wof:geomhash":"056b801fcf30f611f734eb7e89cf9ed8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -170,11 +187,13 @@
         }
     ],
     "wof:id":404395165,
-    "wof:lastmodified":1582324777,
+    "wof:lastmodified":1684353193,
     "wof:name":"Quincy-Basse",
     "wof:parent_id":102066287,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":60,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

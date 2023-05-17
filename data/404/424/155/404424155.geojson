@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_82155",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Antonin-Noble-Val",
+    "eurostat:nuts_2021_id":"82155",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ28",
+    "eurostat:nuts_2021_level_lau":"82155",
+    "eurostat:population":1852,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248200107",
     "frgov:id":"BDCSURCO0000000009611430",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.011873,
-    "geom:area_square_m":105328277.208561,
+    "geom:area_square_m":105328277.208563,
     "geom:bbox":"1.63490877294,44.0967670366,1.83247373148,44.2048393582",
     "geom:latitude":44.156203,
     "geom:longitude":1.736472,
@@ -111,6 +123,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683217,
         102191581,
@@ -121,7 +135,10 @@
         102068049
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_82155",
+        "eurostat:nuts_2021_id":"82155"
+    },
     "wof:coterminous":[
         101772821
     ],
@@ -129,7 +146,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"51bea2961d9c213a9e2d9d1652c274c7",
+    "wof:geomhash":"5026812385fc73f0afdbc1aad90dedae",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -143,11 +160,13 @@
         }
     ],
     "wof:id":404424155,
-    "wof:lastmodified":1582324395,
+    "wof:lastmodified":1684353535,
     "wof:name":"Saint-Antonin-Noble-Val",
     "wof:parent_id":102068049,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1852,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

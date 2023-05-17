@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_28048",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bourdini\u00e8re-Saint-Loup",
+    "eurostat:nuts_2021_id":"28048",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB02",
+    "eurostat:nuts_2021_level_lau":"28048",
+    "eurostat:population":725,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200033181",
     "frgov:id":"BDCSURCO0000000009593759",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00246,
-    "geom:area_square_m":20224912.582028,
+    "geom:area_square_m":20224912.582029,
     "geom:bbox":"1.39059421833,48.2898324984,1.46370200839,48.346721299",
     "geom:latitude":48.316571,
     "geom:longitude":1.429936,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683189,
         102191581,
@@ -55,7 +69,10 @@
         102066989
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_28048",
+        "eurostat:nuts_2021_id":"28048"
+    },
     "wof:coterminous":[
         1360677751
     ],
@@ -63,7 +80,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8257b3fcdbbc6bbbf41c20cb1730431d",
+    "wof:geomhash":"4e5e0efef455c38b6a254bb95d97c065",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -76,11 +93,13 @@
         }
     ],
     "wof:id":404400809,
-    "wof:lastmodified":1582324516,
+    "wof:lastmodified":1684353259,
     "wof:name":"La Bourdiniere-Saint-Loup",
     "wof:parent_id":102066989,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":725,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

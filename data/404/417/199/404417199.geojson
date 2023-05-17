@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_63431",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Thioli\u00e8res",
+    "eurostat:nuts_2021_id":"63431",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK14",
+    "eurostat:nuts_2021_level_lau":"63431",
+    "eurostat:population":161,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070761",
     "frgov:id":"BDCSURCO0000000009606085",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.000618,
-    "geom:area_square_m":5348820.044067,
+    "geom:area_square_m":5348820.044066,
     "geom:bbox":"3.67381789495,45.5710615086,3.71881053991,45.5923430638",
     "geom:latitude":45.581393,
     "geom:longitude":3.693338,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683471,
         102191581,
@@ -58,7 +72,10 @@
         102064511
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_63431",
+        "eurostat:nuts_2021_id":"63431"
+    },
     "wof:coterminous":[
         1125940339
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7705508ef874e40ada27bfe9e4b3245a",
+    "wof:geomhash":"3c40e7b9370b9e381519d3d657024318",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404417199,
-    "wof:lastmodified":1582325136,
+    "wof:lastmodified":1684353451,
     "wof:name":"Thiolieres",
     "wof:parent_id":102064511,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":161,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

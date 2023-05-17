@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_08394",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Pierremont",
+    "eurostat:nuts_2021_id":"08394",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF21",
+    "eurostat:nuts_2021_level_lau":"08394",
+    "eurostat:population":73,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240800920",
     "frgov:id":"BDCSURCO0000000009584487",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.002473,
-    "geom:area_square_m":19864014.199996,
+    "geom:area_square_m":19864014.199997,
     "geom:bbox":"4.90531467059,49.4583120604,4.99268524187,49.5292549205",
     "geom:latitude":49.488809,
     "geom:longitude":4.945289,
@@ -88,6 +100,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683309,
         102191581,
@@ -98,7 +112,10 @@
         102064807
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_08394",
+        "eurostat:nuts_2021_id":"08394"
+    },
     "wof:coterminous":[
         1360673503
     ],
@@ -106,7 +123,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4fb6071ab975479e6285596b987d4f37",
+    "wof:geomhash":"bf4f10fbe00af3e409634eaa1dc4cc50",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -120,11 +137,13 @@
         }
     ],
     "wof:id":404357563,
-    "wof:lastmodified":1582324896,
+    "wof:lastmodified":1684352719,
     "wof:name":"Saint-Pierremont",
     "wof:parent_id":102064807,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":73,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

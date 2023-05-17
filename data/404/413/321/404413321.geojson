@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_51507",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sainte-Menehould",
+    "eurostat:nuts_2021_id":"51507",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF23",
+    "eurostat:nuts_2021_level_lau":"51507",
+    "eurostat:population":4120,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200042703",
     "frgov:id":"BDCSURCO0000000009587583",
     "frgov:insee_arr":"5",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Sous-pr\u00e9fecture",
     "geom:area":0.007036,
-    "geom:area_square_m":56974648.77444,
+    "geom:area_square_m":56974648.774443,
     "geom:bbox":"4.86614669595,49.0402241015,5.00386069513,49.1284443076",
     "geom:latitude":49.08689,
     "geom:longitude":4.942413,
@@ -147,6 +159,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683405,
         102191581,
@@ -157,7 +171,10 @@
         102068693
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_51507",
+        "eurostat:nuts_2021_id":"51507"
+    },
     "wof:coterminous":[
         101762655
     ],
@@ -165,7 +182,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"33d4badf69bf9b2d5723c5c3c568fc75",
+    "wof:geomhash":"f7e2c37057b113c5379a2580e7779f2f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -179,11 +196,13 @@
         }
     ],
     "wof:id":404413321,
-    "wof:lastmodified":1582324332,
+    "wof:lastmodified":1684353406,
     "wof:name":"Sainte-Menehould",
     "wof:parent_id":102068693,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Sous-pr\u00e9fecture",
+    "wof:population":4120,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_55121",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Combres-sous-les-C\u00f4tes",
+    "eurostat:nuts_2021_id":"55121",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF32",
+    "eurostat:nuts_2021_level_lau":"55121",
+    "eurostat:population":118,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"245501176",
     "frgov:id":"BDCSURCO0000000009587547",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.000627,
-    "geom:area_square_m":5077314.509348,
+    "geom:area_square_m":5077314.509347,
     "geom:bbox":"5.5978494421,49.0489572041,5.64250319873,49.0776399891",
     "geom:latitude":49.059665,
     "geom:longitude":5.622617,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683297,
         102191581,
@@ -58,7 +72,10 @@
         102065975
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_55121",
+        "eurostat:nuts_2021_id":"55121"
+    },
     "wof:coterminous":[
         1126046145
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b0817962d8d5d0d8f47b0e6c5345a4d2",
+    "wof:geomhash":"c003049d8642f0f3405bcef49036913b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404370995,
-    "wof:lastmodified":1582324603,
+    "wof:lastmodified":1684352901,
     "wof:name":"Combres-Sous-Les-Cotes",
     "wof:parent_id":102065975,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":118,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

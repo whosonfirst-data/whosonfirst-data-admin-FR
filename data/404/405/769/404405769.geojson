@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_07265",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Marcel-l\u00e8s-Annonay",
+    "eurostat:nuts_2021_id":"07265",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK22",
+    "eurostat:nuts_2021_level_lau":"07265",
+    "eurostat:population":1422,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072015",
     "frgov:id":"BDCSURCO0000000009607251",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001952,
-    "geom:area_square_m":16983103.388576,
+    "geom:area_square_m":16983103.388575,
     "geom:bbox":"4.59063805565,45.2660000824,4.67718423516,45.3156662397",
     "geom:latitude":45.28862,
     "geom:longitude":4.629331,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683421,
         102191581,
@@ -58,7 +72,10 @@
         102064369
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_07265",
+        "eurostat:nuts_2021_id":"07265"
+    },
     "wof:coterminous":[
         101842831
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e19ad80786e522fc35654b6f86ba9831",
+    "wof:geomhash":"085ea3635c717696cca2e5dab314e3b5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404405769,
-    "wof:lastmodified":1582325260,
+    "wof:lastmodified":1684353317,
     "wof:name":"Saint-Marcel-Les-Annonay",
     "wof:parent_id":102064369,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1422,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

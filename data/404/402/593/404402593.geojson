@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_08201",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gruy\u00e8res",
+    "eurostat:nuts_2021_id":"08201",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF21",
+    "eurostat:nuts_2021_level_lau":"08201",
+    "eurostat:population":99,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240800862",
     "frgov:id":"BDCSURCO0000000009583164",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683309,
         102191581,
@@ -58,7 +72,10 @@
         102069431
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_08201",
+        "eurostat:nuts_2021_id":"08201"
+    },
     "wof:coterminous":[
         1126024057
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9e1697795bef900e9c06bb8136a7872d",
+    "wof:geomhash":"0dbdd10801980ccc2976878c6429c8fe",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404402593,
-    "wof:lastmodified":1582325269,
+    "wof:lastmodified":1684353279,
     "wof:name":"Gruyeres",
     "wof:parent_id":102069431,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":99,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

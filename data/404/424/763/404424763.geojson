@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_23191",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-\u00c9loi",
+    "eurostat:nuts_2021_id":"23191",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI22",
+    "eurostat:nuts_2021_level_lau":"23191",
+    "eurostat:population":225,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200034825",
     "frgov:id":"BDCSURCO0000000009604049",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00182,
-    "geom:area_square_m":15607674.207345,
+    "geom:area_square_m":15607674.207346,
     "geom:bbox":"1.77482054631,46.0563286655,1.86414857745,46.1058757983",
     "geom:latitude":46.07844,
     "geom:longitude":1.817573,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683179,
         102191581,
@@ -56,7 +70,10 @@
         102068201
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_23191",
+        "eurostat:nuts_2021_id":"23191"
+    },
     "wof:coterminous":[
         1360680049
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5e60fdd658bebc085e1da0417612abfa",
+    "wof:geomhash":"55740b65741b2eb760f2b30f8e62fe91",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404424763,
-    "wof:lastmodified":1582324386,
+    "wof:lastmodified":1684353543,
     "wof:name":"Saint-Eloi",
     "wof:parent_id":102068201,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":225,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

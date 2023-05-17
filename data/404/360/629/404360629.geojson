@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_72267",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Aubin-des-Coudrais",
+    "eurostat:nuts_2021_id":"72267",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG04",
+    "eurostat:nuts_2021_level_lau":"72267",
+    "eurostat:population":926,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247200686",
     "frgov:id":"BDCSURCO0000000009594536",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002106,
-    "geom:area_square_m":17363988.134935,
+    "geom:area_square_m":17363988.134934,
     "geom:bbox":"0.546776035409,48.1531323598,0.620741417641,48.2008349282",
     "geom:latitude":48.178739,
     "geom:longitude":0.578952,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683279,
         102191581,
@@ -57,7 +71,10 @@
         102066115
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_72267",
+        "eurostat:nuts_2021_id":"72267"
+    },
     "wof:coterminous":[
         101883181
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2d31bb5f21431f56611ceb06c58057b1",
+    "wof:geomhash":"b16f43e43193547e8f95611ee05ee663",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404360629,
-    "wof:lastmodified":1582325045,
+    "wof:lastmodified":1684352762,
     "wof:name":"Saint-Aubin-Des-Coudrais",
     "wof:parent_id":102066115,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":926,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

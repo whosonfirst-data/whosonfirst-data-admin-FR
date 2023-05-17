@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_10127",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Dommartin-le-Coq",
+    "eurostat:nuts_2021_id":"10127",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF22",
+    "eurostat:nuts_2021_level_lau":"10127",
+    "eurostat:population":62,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071777",
     "frgov:id":"BDCSURCO0000000009592377",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.000783,
-    "geom:area_square_m":6414755.567809,
+    "geom:area_square_m":6414755.567808,
     "geom:bbox":"4.33326477847,48.480991186,4.37534997646,48.5143363206",
     "geom:latitude":48.497786,
     "geom:longitude":4.355984,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683193,
         102191581,
@@ -58,7 +72,10 @@
         102067683
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_10127",
+        "eurostat:nuts_2021_id":"10127"
+    },
     "wof:coterminous":[
         1125900147
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5867166dbe5fa90e9971594a4e6576c8",
+    "wof:geomhash":"3ac11a58ca13fc87bf29a9868855e187",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404409647,
-    "wof:lastmodified":1582324481,
+    "wof:lastmodified":1684353362,
     "wof:name":"Dommartin-Le-Coq",
     "wof:parent_id":102067683,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":62,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

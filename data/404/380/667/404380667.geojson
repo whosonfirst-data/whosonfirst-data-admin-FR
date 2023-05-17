@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_60590",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Omer-en-Chauss\u00e9e",
+    "eurostat:nuts_2021_id":"60590",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE22",
+    "eurostat:nuts_2021_level_lau":"60590",
+    "eurostat:population":1249,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"246000848",
     "frgov:id":"BDCSURCO0000000009584287",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.0013,
-    "geom:area_square_m":10434727.435827,
+    "geom:area_square_m":10434727.435826,
     "geom:bbox":"1.97121869023,49.5147987408,2.03283433354,49.5578225763",
     "geom:latitude":49.532975,
     "geom:longitude":2.003369,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683289,
         102191581,
@@ -58,7 +72,10 @@
         102068351
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_60590",
+        "eurostat:nuts_2021_id":"60590"
+    },
     "wof:coterminous":[
         101846609
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c9d909243ebb762ac7cd73909ac3eb52",
+    "wof:geomhash":"9d64af1268eeccf6721befcc8cdb5039",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404380667,
-    "wof:lastmodified":1582325375,
+    "wof:lastmodified":1684353018,
     "wof:name":"Saint-Omer-En-Chaussee",
     "wof:parent_id":102068351,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1249,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

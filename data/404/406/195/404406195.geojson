@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_80713",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Quentin-en-Tourmont",
+    "eurostat:nuts_2021_id":"80713",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE23",
+    "eurostat:nuts_2021_level_lau":"80713",
+    "eurostat:population":282,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070936",
     "frgov:id":"BDCSURCO0000000009581568",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003309,
-    "geom:area_square_m":26149833.570534,
+    "geom:area_square_m":26149833.570535,
     "geom:bbox":"1.53789869889,50.2548266942,1.62726761916,50.306128013",
     "geom:latitude":50.279969,
     "geom:longitude":1.5772,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683363,
         102191581,
@@ -58,7 +72,10 @@
         102070943
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_80713",
+        "eurostat:nuts_2021_id":"80713"
+    },
     "wof:coterminous":[
         1125916897
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"dd30152a89587a83b5523e37c7220750",
+    "wof:geomhash":"395a779dd0e8f4d0893ef8e71e61f851",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404406195,
-    "wof:lastmodified":1582324437,
+    "wof:lastmodified":1684353323,
     "wof:name":"Saint-Quentin-En-Tourmont",
     "wof:parent_id":102070943,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":282,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

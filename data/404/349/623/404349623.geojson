@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_72317",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-R\u00e9my-du-Val",
+    "eurostat:nuts_2021_id":"72317",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG04",
+    "eurostat:nuts_2021_level_lau":"72317",
+    "eurostat:population":512,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072676",
     "frgov:id":"BDCSURCO0000000009593390",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683279,
         102191581,
@@ -57,7 +71,10 @@
         102067645
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_72317",
+        "eurostat:nuts_2021_id":"72317"
+    },
     "wof:coterminous":[
         101881811
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5f6f8fb3ac52f44c02b828c0aef5667f",
+    "wof:geomhash":"6c19a8ec8309c73753ed159c05bb669f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404349623,
-    "wof:lastmodified":1582324713,
+    "wof:lastmodified":1684352611,
     "wof:name":"Saint-Remy-Du-Val",
     "wof:parent_id":102067645,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":512,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

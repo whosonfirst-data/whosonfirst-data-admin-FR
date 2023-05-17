@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_25074",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bonn\u00e9tage",
+    "eurostat:nuts_2021_id":"25074",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC21",
+    "eurostat:nuts_2021_level_lau":"25074",
+    "eurostat:population":917,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242504355",
     "frgov:id":"BDCSURCO0000000009599355",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002127,
-    "geom:area_square_m":17874998.440448,
+    "geom:area_square_m":17874998.440447,
     "geom:bbox":"6.67983210249,47.1374915518,6.82647566499,47.2085582171",
     "geom:latitude":47.180379,
     "geom:longitude":6.738641,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683239,
         102191581,
@@ -58,7 +72,10 @@
         102069005
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_25074",
+        "eurostat:nuts_2021_id":"25074"
+    },
     "wof:coterminous":[
         1126038373
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f977d4d68e17f06d42595991b67f1405",
+    "wof:geomhash":"0b42b0d81ea8a746825d968f5169d86a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404357241,
-    "wof:lastmodified":1582324898,
+    "wof:lastmodified":1684352715,
     "wof:name":"Bonnetage",
     "wof:parent_id":102069005,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":917,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

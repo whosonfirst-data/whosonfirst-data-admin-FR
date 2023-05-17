@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_85163",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Noirmoutier-en-l'\u00cele",
+    "eurostat:nuts_2021_id":"85163",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG05",
+    "eurostat:nuts_2021_level_lau":"85163",
+    "eurostat:population":4668,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248500191",
     "frgov:id":"BDCSURCO0000000009600401",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002367,
-    "geom:area_square_m":19956093.281999,
+    "geom:area_square_m":19956093.281998,
     "geom:bbox":"-2.36081397064,46.9897427624,-2.21749686923,47.043270176",
     "geom:latitude":47.008881,
     "geom:longitude":-2.262499,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683409,
         102191581,
@@ -57,7 +71,10 @@
         102067733
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_85163",
+        "eurostat:nuts_2021_id":"85163"
+    },
     "wof:coterminous":[
         101765533
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d5a57ed92f76d98b8e9f88cec7c4fbd9",
+    "wof:geomhash":"7035bf975e4143089817f46252401d8a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404352525,
-    "wof:lastmodified":1582324177,
+    "wof:lastmodified":1684352652,
     "wof:name":"Noirmoutier-En-L'Ile",
     "wof:parent_id":102067733,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":4668,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

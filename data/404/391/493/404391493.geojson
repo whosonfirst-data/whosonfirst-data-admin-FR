@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_10124",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Dierrey-Saint-Julien",
+    "eurostat:nuts_2021_id":"10124",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF22",
+    "eurostat:nuts_2021_level_lau":"10124",
+    "eurostat:population":261,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"241000488",
     "frgov:id":"BDCSURCO0000000009593673",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.002586,
-    "geom:area_square_m":21271979.905692,
+    "geom:area_square_m":21271979.905691,
     "geom:bbox":"3.78572165103,48.2775300482,3.89040675048,48.326888287",
     "geom:latitude":48.305041,
     "geom:longitude":3.834718,
@@ -114,6 +126,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683193,
         102191581,
@@ -124,7 +138,10 @@
         102066655
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_10124",
+        "eurostat:nuts_2021_id":"10124"
+    },
     "wof:coterminous":[
         101884569
     ],
@@ -132,7 +149,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"85379c3e86a7aaec32c9e8e9998a28bf",
+    "wof:geomhash":"6758276d8ba1631786944859634feaf3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -146,11 +163,13 @@
         }
     ],
     "wof:id":404391493,
-    "wof:lastmodified":1582324020,
+    "wof:lastmodified":1684353150,
     "wof:name":"Dierrey-Saint-Julien",
     "wof:parent_id":102066655,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":261,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

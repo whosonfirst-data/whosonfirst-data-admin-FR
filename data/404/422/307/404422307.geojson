@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_01384",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Rambert-en-Bugey",
+    "eurostat:nuts_2021_id":"01384",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK21",
+    "eurostat:nuts_2021_level_lau":"01384",
+    "eurostat:population":2269,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240100883",
     "frgov:id":"BDCSURCO0000000009604427",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.003335,
-    "geom:area_square_m":28672279.494988,
+    "geom:area_square_m":28672279.494985,
     "geom:bbox":"5.40808585302,45.9136560189,5.47553229715,45.9918812008",
     "geom:latitude":45.950829,
     "geom:longitude":5.440102,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683153,
         102191581,
@@ -58,7 +72,10 @@
         102069427
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_01384",
+        "eurostat:nuts_2021_id":"01384"
+    },
     "wof:coterminous":[
         101768185
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e0882ebf59ab815a94c3ba24a58d1b81",
+    "wof:geomhash":"96dbde9fbcb31273ae4c24afccffb4ac",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404422307,
-    "wof:lastmodified":1582324280,
+    "wof:lastmodified":1684353513,
     "wof:name":"Saint-Rambert-En-Bugey",
     "wof:parent_id":102069427,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2269,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

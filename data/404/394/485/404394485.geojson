@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_84106",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sainte-C\u00e9cile-les-Vignes",
+    "eurostat:nuts_2021_id":"84106",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL06",
+    "eurostat:nuts_2021_level_lau":"84106",
+    "eurostat:population":2505,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248400160",
     "frgov:id":"BDCSURCO0000000009611009",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.00226,
-    "geom:area_square_m":20020119.64564,
+    "geom:area_square_m":20020119.645641,
     "geom:bbox":"4.85696359511,44.204385753,4.93291042401,44.2644311119",
     "geom:latitude":44.23577,
     "geom:longitude":4.889309,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683201,
         102191581,
@@ -57,7 +71,10 @@
         102065339
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_84106",
+        "eurostat:nuts_2021_id":"84106"
+    },
     "wof:coterminous":[
         101772473
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"bb4e80a3a72902c461674bfef5b044a5",
+    "wof:geomhash":"d27c29c524327ddb3c99bb261598caa1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404394485,
-    "wof:lastmodified":1582325026,
+    "wof:lastmodified":1684353185,
     "wof:name":"Sainte-Cecile-Les-Vignes",
     "wof:parent_id":102065339,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2505,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

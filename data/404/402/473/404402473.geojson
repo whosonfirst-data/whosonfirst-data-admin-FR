@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_02185",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ch\u00e9zy-en-Orxois",
+    "eurostat:nuts_2021_id":"02185",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE21",
+    "eurostat:nuts_2021_level_lau":"02185",
+    "eurostat:population":404,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072031",
     "frgov:id":"BDCSURCO0000000009587143",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002024,
-    "geom:area_square_m":16373759.880156,
+    "geom:area_square_m":16373759.880155,
     "geom:bbox":"3.1051350427,49.1016160513,3.20796231131,49.1480088081",
     "geom:latitude":49.126791,
     "geom:longitude":3.168113,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683247,
         102191581,
@@ -58,7 +72,10 @@
         102068323
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_02185",
+        "eurostat:nuts_2021_id":"02185"
+    },
     "wof:coterminous":[
         101879421
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4e87ca68210f59d64921676b4a6fb3e2",
+    "wof:geomhash":"83cbc03fb3587346469fd9ef6ff7453c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404402473,
-    "wof:lastmodified":1582325281,
+    "wof:lastmodified":1684353278,
     "wof:name":"Chezy-En-Orxois",
     "wof:parent_id":102068323,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":404,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

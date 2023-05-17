@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_37150",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mazi\u00e8res-de-Touraine",
+    "eurostat:nuts_2021_id":"37150",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB04",
+    "eurostat:nuts_2021_level_lau":"37150",
+    "eurostat:population":1331,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072981",
     "frgov:id":"BDCSURCO0000000009599001",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.004092,
-    "geom:area_square_m":34250658.311429,
+    "geom:area_square_m":34250658.31143,
     "geom:bbox":"0.368204135606,47.3674282337,0.488112399419,47.4166344265",
     "geom:latitude":47.391293,
     "geom:longitude":0.429689,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683575,
         102191581,
@@ -57,7 +71,10 @@
         102066239
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_37150",
+        "eurostat:nuts_2021_id":"37150"
+    },
     "wof:coterminous":[
         101886529
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8ebcdd64d716a56707fc87a06133775f",
+    "wof:geomhash":"7c4e77f76fe5e6c837f1e49832146e10",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404407565,
-    "wof:lastmodified":1582324496,
+    "wof:lastmodified":1684353339,
     "wof:name":"Mazieres-De-Touraine",
     "wof:parent_id":102066239,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1331,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

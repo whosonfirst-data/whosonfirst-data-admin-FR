@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_16142",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"For\u00eat-de-Tess\u00e9",
+    "eurostat:nuts_2021_id":"16142",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI31",
+    "eurostat:nuts_2021_level_lau":"16142",
+    "eurostat:population":189,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200043016",
     "frgov:id":"BDCSURCO0000000009604091",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001261,
-    "geom:area_square_m":10817520.665405,
+    "geom:area_square_m":10817520.665404,
     "geom:bbox":"0.0507992036618,46.0564970855,0.103479897653,46.0943738924",
     "geom:latitude":46.076831,
     "geom:longitude":0.07781,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683437,
         102191581,
@@ -58,7 +72,10 @@
         102069697
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_16142",
+        "eurostat:nuts_2021_id":"16142"
+    },
     "wof:coterminous":[
         101890789
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"20042e72fb7965dfd1693a446e87b69a",
+    "wof:geomhash":"1e5b7ace7a57084bef0e5c61cc43e184",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404389489,
-    "wof:lastmodified":1582325332,
+    "wof:lastmodified":1684353123,
     "wof:name":"La Foret-De-Tesse",
     "wof:parent_id":102069697,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":189,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

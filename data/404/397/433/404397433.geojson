@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_51626",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Villeneuve-l\u00e8s-Charleville",
+    "eurostat:nuts_2021_id":"51626",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF23",
+    "eurostat:nuts_2021_level_lau":"51626",
+    "eurostat:population":113,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"245100888",
     "frgov:id":"BDCSURCO0000000009590135",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.001359,
-    "geom:area_square_m":11072750.837184,
+    "geom:area_square_m":11072750.837183,
     "geom:bbox":"3.68092100827,48.7739910501,3.74236420269,48.8210489683",
     "geom:latitude":48.796627,
     "geom:longitude":3.709291,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683405,
         102191581,
@@ -58,7 +72,10 @@
         102067447
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_51626",
+        "eurostat:nuts_2021_id":"51626"
+    },
     "wof:coterminous":[
         1125909087
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d9be60dbd44a83e613402da1068de80f",
+    "wof:geomhash":"5a9b21056fb76b15a8f81a4559c58b76",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404397433,
-    "wof:lastmodified":1582324213,
+    "wof:lastmodified":1684353218,
     "wof:name":"La Villeneuve-Les-Charleville",
     "wof:parent_id":102067447,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":113,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

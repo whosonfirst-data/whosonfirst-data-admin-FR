@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_71449",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Martin-d'Auxy",
+    "eurostat:nuts_2021_id":"71449",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC13",
+    "eurostat:nuts_2021_level_lau":"71449",
+    "eurostat:population":111,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247104094",
     "frgov:id":"BDCSURCO0000000009601583",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000864,
-    "geom:area_square_m":7323979.268338,
+    "geom:area_square_m":7323979.268337,
     "geom:bbox":"4.52870892622,46.7068366368,4.57191274872,46.7380168953",
     "geom:latitude":46.721483,
     "geom:longitude":4.550746,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683543,
         102191581,
@@ -56,7 +70,10 @@
         102064939
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_71449",
+        "eurostat:nuts_2021_id":"71449"
+    },
     "wof:coterminous":[
         1360676191
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0f79f4cc22a143dcd5b944f0c1624488",
+    "wof:geomhash":"7f603c5cec67f388f9fd4bc42f74cd79",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404384051,
-    "wof:lastmodified":1582324625,
+    "wof:lastmodified":1684353060,
     "wof:name":"Saint-Martin-D'Auxy",
     "wof:parent_id":102064939,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":111,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

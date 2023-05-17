@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_50292",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Marigny-Le-Lozon",
+    "eurostat:nuts_2021_id":"50292",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD12",
+    "eurostat:nuts_2021_level_lau":"50292",
+    "eurostat:population":2645,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066389",
     "frgov:id":"BDCSURCO0000000009587398",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002398,
-    "geom:area_square_m":19405671.493505,
+    "geom:area_square_m":19405671.493503,
     "geom:bbox":"-1.30777773487,49.0848084363,-1.21342579993,49.1661234071",
     "geom:latitude":49.123593,
     "geom:longitude":-1.26125,
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683489,
         102191581,
@@ -139,7 +153,10 @@
         102068311
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_50292",
+        "eurostat:nuts_2021_id":"50292"
+    },
     "wof:coterminous":[
         101878149
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"88cdd1e5e1969edf7c26d81208dba92e",
+    "wof:geomhash":"eb7d13ec6bbef724235dd184b9fefb5e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404354857,
-    "wof:lastmodified":1582324087,
+    "wof:lastmodified":1684352683,
     "wof:name":"Lozon",
     "wof:parent_id":102068311,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2645,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

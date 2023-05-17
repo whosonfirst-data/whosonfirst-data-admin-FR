@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_78108",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Br\u00e9viaires",
+    "eurostat:nuts_2021_id":"78108",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR103",
+    "eurostat:nuts_2021_level_lau":"78108",
+    "eurostat:population":1244,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200073344",
     "frgov:id":"BDCSURCO0000000009590690",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"ILE-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00242,
-    "geom:area_square_m":19740129.985902,
+    "geom:area_square_m":19740129.985901,
     "geom:bbox":"1.78006992879,48.6842619955,1.85563386525,48.7498173167",
     "geom:latitude":48.721302,
     "geom:longitude":1.816525,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683367,
         102191581,
@@ -57,7 +71,10 @@
         102067651
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_78108",
+        "eurostat:nuts_2021_id":"78108"
+    },
     "wof:coterminous":[
         101881097
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e847fbc1b2d3b43f7379a43b104796e5",
+    "wof:geomhash":"b2c225fe42d8b7684881dcdfd0b035af",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404351999,
-    "wof:lastmodified":1582324946,
+    "wof:lastmodified":1684352645,
     "wof:name":"Les Breviaires",
     "wof:parent_id":102067651,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1244,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

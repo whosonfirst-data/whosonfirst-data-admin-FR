@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_17332",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Georges-Antignac",
+    "eurostat:nuts_2021_id":"17332",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI32",
+    "eurostat:nuts_2021_level_lau":"17332",
+    "eurostat:population":379,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041523",
     "frgov:id":"BDCSURCO0000000009606451",
     "frgov:insee_arr":"1",
@@ -121,6 +133,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683275,
         102191581,
@@ -131,7 +145,10 @@
         102069255
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_17332",
+        "eurostat:nuts_2021_id":"17332"
+    },
     "wof:coterminous":[
         1360676755
     ],
@@ -139,7 +156,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"180be8e10dbef66dfc5889ce8a9729ee",
+    "wof:geomhash":"5d6d0bd954fba2347e7e6cea97d74819",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -153,11 +170,13 @@
         }
     ],
     "wof:id":404390397,
-    "wof:lastmodified":1582324260,
+    "wof:lastmodified":1684353135,
     "wof:name":"Saint-Georges-Antignac",
     "wof:parent_id":102069255,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":379,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_69201",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sainte-Foy-l'Argenti\u00e8re",
+    "eurostat:nuts_2021_id":"69201",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK26",
+    "eurostat:nuts_2021_level_lau":"69201",
+    "eurostat:population":1281,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066587",
     "frgov:id":"BDCSURCO0000000009605520",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683569,
         102191581,
@@ -58,7 +72,10 @@
         102069293
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_69201",
+        "eurostat:nuts_2021_id":"69201"
+    },
     "wof:coterminous":[
         101767715
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d81d8fe091121b9c828785d277d13bec",
+    "wof:geomhash":"3e3cd240c5cd01639b511f1588abb3f9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404371579,
-    "wof:lastmodified":1582324659,
+    "wof:lastmodified":1684352908,
     "wof:name":"Sainte-Foy-L'Argentiere",
     "wof:parent_id":102069293,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1281,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

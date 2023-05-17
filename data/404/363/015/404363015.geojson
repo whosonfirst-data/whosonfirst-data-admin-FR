@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_19102",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lamazi\u00e8re-Basse",
+    "eurostat:nuts_2021_id":"19102",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI21",
+    "eurostat:nuts_2021_level_lau":"19102",
+    "eurostat:population":299,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066744",
     "frgov:id":"BDCSURCO0000000009607314",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00507,
-    "geom:area_square_m":44042585.637638,
+    "geom:area_square_m":44042585.63764,
     "geom:bbox":"2.12756999436,45.3102631692,2.2177583265,45.4158705649",
     "geom:latitude":45.372959,
     "geom:longitude":2.171378,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683209,
         102191581,
@@ -58,7 +72,10 @@
         102067883
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_19102",
+        "eurostat:nuts_2021_id":"19102"
+    },
     "wof:coterminous":[
         1125768991
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"46380a8be74bb48e7c19c47ee944e34c",
+    "wof:geomhash":"6b0772e4c7e03a97b2b186883f285929",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404363015,
-    "wof:lastmodified":1582324220,
+    "wof:lastmodified":1684352796,
     "wof:name":"Lamaziere-Basse",
     "wof:parent_id":102067883,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":299,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

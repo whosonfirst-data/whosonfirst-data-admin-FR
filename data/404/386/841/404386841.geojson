@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_88199",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gign\u00e9ville",
+    "eurostat:nuts_2021_id":"88199",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF34",
+    "eurostat:nuts_2021_level_lau":"88199",
+    "eurostat:population":79,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068773",
     "frgov:id":"BDCSURCO0000000009594711",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.000679,
-    "geom:area_square_m":5603745.544199,
+    "geom:area_square_m":5603745.5442,
     "geom:bbox":"5.89904097329,48.0943193941,5.93873835746,48.1309801553",
     "geom:latitude":48.111837,
     "geom:longitude":5.918367,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683223,
         102191581,
@@ -58,7 +72,10 @@
         102067419
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_88199",
+        "eurostat:nuts_2021_id":"88199"
+    },
     "wof:coterminous":[
         1125903305
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2e88ac21effb99ac7f5f26bf09ca3b5b",
+    "wof:geomhash":"7193e25d34eb6cff5051142395eaa16b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404386841,
-    "wof:lastmodified":1582325452,
+    "wof:lastmodified":1684353091,
     "wof:name":"Gigneville",
     "wof:parent_id":102067419,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":79,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

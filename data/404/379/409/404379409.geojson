@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_31476",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-\u00c9lix-le-Ch\u00e2teau",
+    "eurostat:nuts_2021_id":"31476",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ23",
+    "eurostat:nuts_2021_level_lau":"31476",
+    "eurostat:population":883,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068815",
     "frgov:id":"BDCSURCO0000000009614719",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001181,
-    "geom:area_square_m":10630257.912677,
+    "geom:area_square_m":10630257.912676,
     "geom:bbox":"1.10949000256,43.2627032277,1.16653636632,43.3025245269",
     "geom:latitude":43.282072,
     "geom:longitude":1.137641,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683397,
         102191581,
@@ -58,7 +72,10 @@
         102066603
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_31476",
+        "eurostat:nuts_2021_id":"31476"
+    },
     "wof:coterminous":[
         101897095
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6799900501d7f91b258fca26ec6ad714",
+    "wof:geomhash":"65acb0225228657174813057ad69763a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404379409,
-    "wof:lastmodified":1582324525,
+    "wof:lastmodified":1684353004,
     "wof:name":"Saint-Elix-Le-Chateau",
     "wof:parent_id":102066603,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":883,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

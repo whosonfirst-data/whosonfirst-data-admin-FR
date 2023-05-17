@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_44164",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Hilaire-de-Chal\u00e9ons",
+    "eurostat:nuts_2021_id":"44164",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG01",
+    "eurostat:nuts_2021_level_lau":"44164",
+    "eurostat:population":2287,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067346",
     "frgov:id":"BDCSURCO0000000009600151",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.004189,
-    "geom:area_square_m":35261459.969893,
+    "geom:area_square_m":35261459.969894,
     "geom:bbox":"-1.93662256914,47.0653076695,-1.81103651704,47.1344341341",
     "geom:latitude":47.095748,
     "geom:longitude":-1.88019,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683233,
         102191581,
@@ -57,7 +71,10 @@
         102065167
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_44164",
+        "eurostat:nuts_2021_id":"44164"
+    },
     "wof:coterminous":[
         101765945
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0a63378e6b0654b0546851c54892259a",
+    "wof:geomhash":"a7f8a6d74a403efe4680248c6351e74b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404382833,
-    "wof:lastmodified":1582324685,
+    "wof:lastmodified":1684353043,
     "wof:name":"Saint-Hilaire-De-Chaleons",
     "wof:parent_id":102065167,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2287,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_57647",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ser\u00e9mange-Erzange",
+    "eurostat:nuts_2021_id":"57647",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF33",
+    "eurostat:nuts_2021_level_lau":"57647",
+    "eurostat:population":4273,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"245701222",
     "frgov:id":"BDCSURCO0000000009585157",
     "frgov:insee_arr":"7",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683271,
         102191581,
@@ -58,7 +72,10 @@
         102067169
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_57647",
+        "eurostat:nuts_2021_id":"57647"
+    },
     "wof:coterminous":[
         101757343
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"94b791bde92aa7d4592ef9af9ceb7f64",
+    "wof:geomhash":"ebba77ed993eaaf414efe0a928d35ec0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404411963,
-    "wof:lastmodified":1582325162,
+    "wof:lastmodified":1684353389,
     "wof:name":"Seremange-Erzange",
     "wof:parent_id":102067169,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":4273,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

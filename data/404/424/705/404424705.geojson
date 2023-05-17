@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_17331",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Genis-de-Saintonge",
+    "eurostat:nuts_2021_id":"17331",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI32",
+    "eurostat:nuts_2021_level_lau":"17331",
+    "eurostat:population":1244,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041523",
     "frgov:id":"BDCSURCO0000000009606694",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001272,
-    "geom:area_square_m":11024827.201263,
+    "geom:area_square_m":11024827.201262,
     "geom:bbox":"-0.601761376363,45.4598216876,-0.527340763992,45.5035238553",
     "geom:latitude":45.480403,
     "geom:longitude":-0.569931,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683275,
         102191581,
@@ -58,7 +72,10 @@
         102069255
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_17331",
+        "eurostat:nuts_2021_id":"17331"
+    },
     "wof:coterminous":[
         1126023151
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"deefd45db9f0675ff0b9fe9c8748d02e",
+    "wof:geomhash":"81ac2163a36d05162869f3bc89412e9c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404424705,
-    "wof:lastmodified":1582324394,
+    "wof:lastmodified":1684353542,
     "wof:name":"Saint-Genis-De-Saintonge",
     "wof:parent_id":102069255,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1244,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

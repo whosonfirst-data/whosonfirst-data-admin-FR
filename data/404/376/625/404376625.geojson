@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_61050",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Cour-Maugis sur Huisne",
+    "eurostat:nuts_2021_id":"61050",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD13",
+    "eurostat:nuts_2021_level_lau":"61050",
+    "eurostat:population":610,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068435",
     "frgov:id":"BDCSURCO0000000009592966",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00576,
-    "geom:area_square_m":47239810.77562,
+    "geom:area_square_m":47239810.775619,
     "geom:bbox":"0.62724005203,48.4142265683,0.765135170741,48.4990061328",
     "geom:latitude":48.452504,
     "geom:longitude":0.700734,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683527,
         102191581,
@@ -56,7 +70,10 @@
         102069195
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_61050",
+        "eurostat:nuts_2021_id":"61050"
+    },
     "wof:coterminous":[
         1360675441
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3c6d65ec69afa936b34841b0be839166",
+    "wof:geomhash":"ea58e46565e4bc33b8fab2f7cc2be863",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404376625,
-    "wof:lastmodified":1582324672,
+    "wof:lastmodified":1684352971,
     "wof:name":"Saint-Maurice-Sur-Huisne",
     "wof:parent_id":102069195,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":610,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

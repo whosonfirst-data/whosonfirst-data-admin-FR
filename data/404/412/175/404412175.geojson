@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_52102",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Champigny-l\u00e8s-Langres",
+    "eurostat:nuts_2021_id":"52102",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF24",
+    "eurostat:nuts_2021_level_lau":"52102",
+    "eurostat:population":426,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072999",
     "frgov:id":"BDCSURCO0000000009595684",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683261,
         102191581,
@@ -58,7 +72,10 @@
         102067271
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_52102",
+        "eurostat:nuts_2021_id":"52102"
+    },
     "wof:coterminous":[
         101887349
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e78f06076537d997c5bf6526bfe2c508",
+    "wof:geomhash":"b6f6ed67bf7e88890e7e0b3b806dd612",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404412175,
-    "wof:lastmodified":1582324376,
+    "wof:lastmodified":1684353391,
     "wof:name":"Champigny-Les-Langres",
     "wof:parent_id":102067271,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":426,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

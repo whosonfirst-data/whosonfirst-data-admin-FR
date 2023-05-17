@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_33448",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-M\u00e9dard-d'Eyrans",
+    "eurostat:nuts_2021_id":"33448",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI12",
+    "eurostat:nuts_2021_level_lau":"33448",
+    "eurostat:population":2971,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243301264",
     "frgov:id":"BDCSURCO0000000009609592",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00145,
-    "geom:area_square_m":12741037.051812,
+    "geom:area_square_m":12741037.051813,
     "geom:bbox":"-0.546542980919,44.6911873435,-0.478187380707,44.7368207744",
     "geom:latitude":44.711217,
     "geom:longitude":-0.509266,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683243,
         102191581,
@@ -56,7 +70,10 @@
         102069343
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_33448",
+        "eurostat:nuts_2021_id":"33448"
+    },
     "wof:coterminous":[
         1360676273
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"562a7bfbac32a707d0a5a69d65b56e92",
+    "wof:geomhash":"cad1ffb23def954e9256319750f1caa0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404384925,
-    "wof:lastmodified":1582324619,
+    "wof:lastmodified":1684353070,
     "wof:name":"Saint-Medard-D'Eyrans",
     "wof:parent_id":102069343,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2971,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_18067",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Cl\u00e9mont",
+    "eurostat:nuts_2021_id":"18067",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB01",
+    "eurostat:nuts_2021_level_lau":"18067",
+    "eurostat:population":719,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200000933",
     "frgov:id":"BDCSURCO0000000009598085",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.005978,
-    "geom:area_square_m":49877102.759005,
+    "geom:area_square_m":49877102.759006,
     "geom:bbox":"2.2878780886,47.520680311,2.39511415206,47.6173237658",
     "geom:latitude":47.562823,
     "geom:longitude":2.330991,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683549,
         102191581,
@@ -57,7 +71,10 @@
         102064587
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_18067",
+        "eurostat:nuts_2021_id":"18067"
+    },
     "wof:coterminous":[
         101886307
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c0a3267e21f91ac017dc90a3c3c4af13",
+    "wof:geomhash":"766ee55d57a85ae9174abb7ef4497f57",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404423173,
-    "wof:lastmodified":1582324409,
+    "wof:lastmodified":1684353524,
     "wof:name":"Clemont",
     "wof:parent_id":102064587,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":719,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

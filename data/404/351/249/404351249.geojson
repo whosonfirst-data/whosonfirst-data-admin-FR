@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_41242",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Selles-sur-Cher",
+    "eurostat:nuts_2021_id":"41242",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB05",
+    "eurostat:nuts_2021_level_lau":"41242",
+    "eurostat:population":4567,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072064",
     "frgov:id":"BDCSURCO0000000009599546",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003039,
-    "geom:area_square_m":25493908.64119,
+    "geom:area_square_m":25493908.641191,
     "geom:bbox":"1.511180005,47.2553412675,1.6145856784,47.3002035799",
     "geom:latitude":47.277644,
     "geom:longitude":1.563907,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683349,
         102191581,
@@ -57,7 +71,10 @@
         102068445
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_41242",
+        "eurostat:nuts_2021_id":"41242"
+    },
     "wof:coterminous":[
         101766091
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"031df7827eff7b0e36795652c6d0af1a",
+    "wof:geomhash":"5d34f7cad68485aa41f850df8cd3e6ec",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404351249,
-    "wof:lastmodified":1582324958,
+    "wof:lastmodified":1684352635,
     "wof:name":"Selles-Sur-Cher",
     "wof:parent_id":102068445,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":4567,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

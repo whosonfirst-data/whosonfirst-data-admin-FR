@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_22180",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Pl\u00e9lan-le-Petit",
+    "eurostat:nuts_2021_id":"22180",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH01",
+    "eurostat:nuts_2021_level_lau":"22180",
+    "eurostat:population":1910,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068989",
     "frgov:id":"BDCSURCO0000000009592637",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BRETAGNE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002661,
-    "geom:area_square_m":21835014.25589,
+    "geom:area_square_m":21835014.255891,
     "geom:bbox":"-2.25913460857,48.3980184042,-2.1920129493,48.4566262296",
     "geom:latitude":48.42691,
     "geom:longitude":-2.224097,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683515,
         102191581,
@@ -57,7 +71,10 @@
         102069931
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_22180",
+        "eurostat:nuts_2021_id":"22180"
+    },
     "wof:coterminous":[
         101761495
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a1f22a2923aa43073a6611e5162ac2b3",
+    "wof:geomhash":"64f1b28dab462a14800259d156500b62",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404420727,
-    "wof:lastmodified":1582325214,
+    "wof:lastmodified":1684353493,
     "wof:name":"Plelan-Le-Petit",
     "wof:parent_id":102069931,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1910,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_72321",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Symphorien",
+    "eurostat:nuts_2021_id":"72321",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG04",
+    "eurostat:nuts_2021_level_lau":"72321",
+    "eurostat:population":562,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072718",
     "frgov:id":"BDCSURCO0000000009595206",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002741,
-    "geom:area_square_m":22642781.135529,
+    "geom:area_square_m":22642781.135528,
     "geom:bbox":"-0.193920041359,48.0585795875,-0.081381977802,48.1025853106",
     "geom:latitude":48.078288,
     "geom:longitude":-0.140316,
@@ -90,6 +102,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683279,
         102191581,
@@ -99,7 +113,10 @@
         102065719
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_72321",
+        "eurostat:nuts_2021_id":"72321"
+    },
     "wof:coterminous":[
         101883247
     ],
@@ -107,7 +124,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c670c834c01b8a046f4a585044adec2a",
+    "wof:geomhash":"64eb9e08f4dac08ec509254138b3f8b5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -120,11 +137,13 @@
         }
     ],
     "wof:id":404418839,
-    "wof:lastmodified":1582325228,
+    "wof:lastmodified":1684353470,
     "wof:name":"Saint-Symphorien",
     "wof:parent_id":102065719,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":562,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

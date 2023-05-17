@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_25397",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Montferrand-le-Ch\u00e2teau",
+    "eurostat:nuts_2021_id":"25397",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC21",
+    "eurostat:nuts_2021_level_lau":"25397",
+    "eurostat:population":2161,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242500361",
     "frgov:id":"BDCSURCO0000000009599396",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000892,
-    "geom:area_square_m":7499550.959251,
+    "geom:area_square_m":7499550.95925,
     "geom:bbox":"5.8932630191,47.1710172288,5.94300733437,47.2109326197",
     "geom:latitude":47.185804,
     "geom:longitude":5.918657,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683239,
         102191581,
@@ -58,7 +72,10 @@
         102065421
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_25397",
+        "eurostat:nuts_2021_id":"25397"
+    },
     "wof:coterminous":[
         101768429
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9183a48f5f68fe40490c02e140e7353c",
+    "wof:geomhash":"e77e95eaa8041e6d4bd0fbdd06ca8409",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404403581,
-    "wof:lastmodified":1582325293,
+    "wof:lastmodified":1684353290,
     "wof:name":"Montferrand-Le-Chateau",
     "wof:parent_id":102065421,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2161,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

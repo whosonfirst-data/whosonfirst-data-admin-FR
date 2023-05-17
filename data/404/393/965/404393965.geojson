@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_01425",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Trancli\u00e8re",
+    "eurostat:nuts_2021_id":"01425",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK21",
+    "eurostat:nuts_2021_level_lau":"01425",
+    "eurostat:population":286,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071751",
     "frgov:id":"BDCSURCO0000000009603704",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001719,
-    "geom:area_square_m":14735571.402946,
+    "geom:area_square_m":14735571.402947,
     "geom:bbox":"5.23548727904,46.0633268975,5.29568527212,46.1197570949",
     "geom:latitude":46.097109,
     "geom:longitude":5.26149,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683153,
         102191581,
@@ -58,7 +72,10 @@
         102068945
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_01425",
+        "eurostat:nuts_2021_id":"01425"
+    },
     "wof:coterminous":[
         1125909043
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2d239af4c6ddd7130bc77f2a8f1fdc0f",
+    "wof:geomhash":"2599b7d6271ad644e5c9a8b31e224691",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404393965,
-    "wof:lastmodified":1582325007,
+    "wof:lastmodified":1684353179,
     "wof:name":"La Trancliere",
     "wof:parent_id":102068945,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":286,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

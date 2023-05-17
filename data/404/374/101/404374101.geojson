@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_51360",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Meix-Saint-Epoing",
+    "eurostat:nuts_2021_id":"51360",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF23",
+    "eurostat:nuts_2021_level_lau":"51360",
+    "eurostat:population":282,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066835",
     "frgov:id":"BDCSURCO0000000009591050",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.001386,
-    "geom:area_square_m":11313545.740609,
+    "geom:area_square_m":11313545.74061,
     "geom:bbox":"3.62543096413,48.66411372,3.68317834222,48.7175720143",
     "geom:latitude":48.69485,
     "geom:longitude":3.654334,
@@ -108,6 +120,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683405,
         102191581,
@@ -118,7 +132,10 @@
         102066505
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_51360",
+        "eurostat:nuts_2021_id":"51360"
+    },
     "wof:coterminous":[
         1125911137
     ],
@@ -126,7 +143,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"503bd5af0532a53f04796337de125f28",
+    "wof:geomhash":"f89707ca9d01b5b93cf7bbbb0996d71d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -140,11 +157,13 @@
         }
     ],
     "wof:id":404374101,
-    "wof:lastmodified":1582325398,
+    "wof:lastmodified":1684352937,
     "wof:name":"Le Meix-Saint-Epoing",
     "wof:parent_id":102066505,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":282,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_62540",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Maisnil-l\u00e8s-Ruitz",
+    "eurostat:nuts_2021_id":"62540",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE1",
+    "eurostat:nuts_2021_level_3":"FRE12",
+    "eurostat:nuts_2021_level_lau":"62540",
+    "eurostat:population":1680,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072460",
     "frgov:id":"BDCSURCO0000000009581033",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683255,
         102191581,
@@ -58,7 +72,10 @@
         102069507
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_62540",
+        "eurostat:nuts_2021_id":"62540"
+    },
     "wof:coterminous":[
         101839645
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"fca78d7b59703ff96218592dbca2ee76",
+    "wof:geomhash":"f8859f5ec24153f13d7e4ccda4f8b1ec",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404395557,
-    "wof:lastmodified":1582324770,
+    "wof:lastmodified":1684353197,
     "wof:name":"Maisnil-Les-Ruitz",
     "wof:parent_id":102069507,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1680,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

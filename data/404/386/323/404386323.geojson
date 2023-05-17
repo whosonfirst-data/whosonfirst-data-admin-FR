@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_16413",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Villiers-le-Roux",
+    "eurostat:nuts_2021_id":"16413",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI31",
+    "eurostat:nuts_2021_level_lau":"16413",
+    "eurostat:population":137,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200043016",
     "frgov:id":"BDCSURCO0000000009604089",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000577,
-    "geom:area_square_m":4949628.838192,
+    "geom:area_square_m":4949628.838193,
     "geom:bbox":"0.091428983672,46.0380086853,0.131131010855,46.0616899362",
     "geom:latitude":46.051271,
     "geom:longitude":0.109869,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683437,
         102191581,
@@ -58,7 +72,10 @@
         102069697
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_16413",
+        "eurostat:nuts_2021_id":"16413"
+    },
     "wof:coterminous":[
         101890787
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"cf88ac19adbd456ed8e06907c208dae6",
+    "wof:geomhash":"db464f455dfa6d0de0ee3f2dfd049b86",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404386323,
-    "wof:lastmodified":1582325449,
+    "wof:lastmodified":1684353085,
     "wof:name":"Villiers-Le-Roux",
     "wof:parent_id":102069697,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":137,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

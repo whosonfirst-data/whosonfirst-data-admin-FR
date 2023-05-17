@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_14621",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Martin-de-Bienfaite-la-Cressonni\u00e8re",
+    "eurostat:nuts_2021_id":"14621",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD11",
+    "eurostat:nuts_2021_level_lau":"14621",
+    "eurostat:population":452,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069532",
     "frgov:id":"BDCSURCO0000000009588328",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00144,
-    "geom:area_square_m":11673999.120769,
+    "geom:area_square_m":11673999.12077,
     "geom:bbox":"0.327323597469,49.0047067017,0.376658968189,49.0577657511",
     "geom:latitude":49.032795,
     "geom:longitude":0.352925,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683579,
         102191581,
@@ -56,7 +70,10 @@
         102069175
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_14621",
+        "eurostat:nuts_2021_id":"14621"
+    },
     "wof:coterminous":[
         1360676861
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a0148294333d4a1192a486a972b6f629",
+    "wof:geomhash":"3e15ea0e224689748804460b64f5f2e8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404391119,
-    "wof:lastmodified":1582324015,
+    "wof:lastmodified":1684353145,
     "wof:name":"Saint-Martin-De-Bienfaite-La-Cressonniere",
     "wof:parent_id":102069175,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":452,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_09265",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Jean-du-Falga",
+    "eurostat:nuts_2021_id":"09265",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ21",
+    "eurostat:nuts_2021_level_lau":"09265",
+    "eurostat:population":2934,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066231",
     "frgov:id":"BDCSURCO0000000009615609",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000448,
-    "geom:area_square_m":4044944.090542,
+    "geom:area_square_m":4044944.090543,
     "geom:bbox":"1.60729715918,43.0683667165,1.63832039418,43.1013185077",
     "geom:latitude":43.086706,
     "geom:longitude":1.624407,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683335,
         102191581,
@@ -58,7 +72,10 @@
         102066477
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_09265",
+        "eurostat:nuts_2021_id":"09265"
+    },
     "wof:coterminous":[
         1126023175
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7a966bc9985a15d4d742cbbb43ede097",
+    "wof:geomhash":"5cf2175d1b93513213bbb0b42e1ca1e2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404402113,
-    "wof:lastmodified":1582325285,
+    "wof:lastmodified":1684353273,
     "wof:name":"Saint-Jean-Du-Falga",
     "wof:parent_id":102066477,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2934,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

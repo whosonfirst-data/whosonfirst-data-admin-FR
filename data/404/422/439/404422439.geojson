@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_17377",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Ouen-la-Th\u00e8ne",
+    "eurostat:nuts_2021_id":"17377",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI32",
+    "eurostat:nuts_2021_level_lau":"17377",
+    "eurostat:population":114,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041689",
     "frgov:id":"BDCSURCO0000000009604888",
     "frgov:insee_arr":"5",
@@ -121,6 +133,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683275,
         102191581,
@@ -131,7 +145,10 @@
         102067161
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_17377",
+        "eurostat:nuts_2021_id":"17377"
+    },
     "wof:coterminous":[
         1360679827
     ],
@@ -139,7 +156,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6e9ba1bfa722c9e68fd448a7470e0bda",
+    "wof:geomhash":"48f309ff1fe6b51ffcbb8c0bbbfb86ed",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -153,11 +170,13 @@
         }
     ],
     "wof:id":404422439,
-    "wof:lastmodified":1582324284,
+    "wof:lastmodified":1684353515,
     "wof:name":"Saint-Ouen",
     "wof:parent_id":102067161,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":114,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

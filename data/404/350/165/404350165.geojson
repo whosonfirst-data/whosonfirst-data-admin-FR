@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_22277",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Brandan",
+    "eurostat:nuts_2021_id":"22277",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH01",
+    "eurostat:nuts_2021_level_lau":"22277",
+    "eurostat:population":2368,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069409",
     "frgov:id":"BDCSURCO0000000009592654",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BRETAGNE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003091,
-    "geom:area_square_m":25378121.006722,
+    "geom:area_square_m":25378121.006721,
     "geom:bbox":"-2.9262776929,48.3569551602,-2.82066629766,48.4237417017",
     "geom:latitude":48.389896,
     "geom:longitude":-2.86293,
@@ -135,6 +147,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683515,
         102191581,
@@ -144,7 +158,10 @@
         102071159
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_22277",
+        "eurostat:nuts_2021_id":"22277"
+    },
     "wof:coterminous":[
         101853181
     ],
@@ -152,7 +169,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a1269d5c6c3bb85067047d7f1c627c10",
+    "wof:geomhash":"8302b3e54ba096bb8e58ae28ae332434",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -165,11 +182,13 @@
         }
     ],
     "wof:id":404350165,
-    "wof:lastmodified":1582324854,
+    "wof:lastmodified":1684352619,
     "wof:name":"Saint-Brandan",
     "wof:parent_id":102071159,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2368,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

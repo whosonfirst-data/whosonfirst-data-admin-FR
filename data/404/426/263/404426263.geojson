@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_89469",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Perceneige",
+    "eurostat:nuts_2021_id":"89469",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC14",
+    "eurostat:nuts_2021_level_lau":"89469",
+    "eurostat:population":950,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248900896",
     "frgov:id":"BDCSURCO0000000009593683",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.007423,
-    "geom:area_square_m":60992666.30865,
+    "geom:area_square_m":60992666.308651,
     "geom:bbox":"3.33011670607,48.2941168676,3.48030124889,48.4000641777",
     "geom:latitude":48.352459,
     "geom:longitude":3.410509,
@@ -127,6 +139,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683503,
         102191581,
@@ -137,7 +151,10 @@
         102070051
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_89469",
+        "eurostat:nuts_2021_id":"89469"
+    },
     "wof:coterminous":[
         1360680205
     ],
@@ -145,7 +162,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2e965817f8a42774f0c984cf78c8c6e1",
+    "wof:geomhash":"1477fde68ac16ef5abbdba73161d2d5d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -159,11 +176,13 @@
         }
     ],
     "wof:id":404426263,
-    "wof:lastmodified":1582325091,
+    "wof:lastmodified":1684353560,
     "wof:name":"Perceneige",
     "wof:parent_id":102070051,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":950,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_31058",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Belb\u00e8ze-de-Lauragais",
+    "eurostat:nuts_2021_id":"31058",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ23",
+    "eurostat:nuts_2021_level_lau":"31058",
+    "eurostat:population":123,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243100633",
     "frgov:id":"BDCSURCO0000000009614188",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000408,
-    "geom:area_square_m":3664612.80524,
+    "geom:area_square_m":3664612.805239,
     "geom:bbox":"1.53822452783,43.4266516728,1.57372761415,43.4487612163",
     "geom:latitude":43.437847,
     "geom:longitude":1.556277,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683397,
         102191581,
@@ -58,7 +72,10 @@
         102068269
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_31058",
+        "eurostat:nuts_2021_id":"31058"
+    },
     "wof:coterminous":[
         1125892589
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7f305de57f6e0658c85a1c3e1181d06b",
+    "wof:geomhash":"4897a74ef2716e89cd23aedd9cfe467e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404377291,
-    "wof:lastmodified":1582324570,
+    "wof:lastmodified":1684352979,
     "wof:name":"Belbeze-De-Lauragais",
     "wof:parent_id":102068269,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":123,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

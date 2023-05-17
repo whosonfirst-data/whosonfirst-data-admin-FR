@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_55018",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Autr\u00e9ville-Saint-Lambert",
+    "eurostat:nuts_2021_id":"55018",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF32",
+    "eurostat:nuts_2021_level_lau":"55018",
+    "eurostat:population":40,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066132",
     "frgov:id":"BDCSURCO0000000009583767",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683297,
         102191581,
@@ -58,7 +72,10 @@
         102068087
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_55018",
+        "eurostat:nuts_2021_id":"55018"
+    },
     "wof:coterminous":[
         1125825365
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"bfe40e101240b1fc607f469f1a18282b",
+    "wof:geomhash":"791737036a9b1bda6e5c37af3249b10d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404400331,
-    "wof:lastmodified":1582324504,
+    "wof:lastmodified":1684353253,
     "wof:name":"Autreville-Saint-Lambert",
     "wof:parent_id":102068087,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":40,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

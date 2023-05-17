@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_17479",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Virollet",
+    "eurostat:nuts_2021_id":"17479",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI32",
+    "eurostat:nuts_2021_level_lau":"17479",
+    "eurostat:population":275,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"241700632",
     "frgov:id":"BDCSURCO0000000009606459",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001164,
-    "geom:area_square_m":10084792.37141,
+    "geom:area_square_m":10084792.371411,
     "geom:bbox":"-0.750373243288,45.5159995365,-0.704015865567,45.5592484476",
     "geom:latitude":45.537775,
     "geom:longitude":-0.728612,
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683275,
         102191581,
@@ -136,7 +150,10 @@
         102065993
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_17479",
+        "eurostat:nuts_2021_id":"17479"
+    },
     "wof:coterminous":[
         1125915011
     ],
@@ -144,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3f7c5a119ca117cdde37db77413a4040",
+    "wof:geomhash":"d6df321bf667a718274bf1581929b6db",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +175,13 @@
         }
     ],
     "wof:id":404415329,
-    "wof:lastmodified":1582324366,
+    "wof:lastmodified":1684353429,
     "wof:name":"Virollet",
     "wof:parent_id":102065993,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":275,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

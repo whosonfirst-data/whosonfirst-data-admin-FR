@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_84120",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Trinit",
+    "eurostat:nuts_2021_id":"84120",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL06",
+    "eurostat:nuts_2021_level_lau":"84120",
+    "eurostat:population":121,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200035723",
     "frgov:id":"BDCSURCO0000000009611350",
     "frgov:insee_arr":"3",
@@ -123,6 +135,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683201,
         102191581,
@@ -132,7 +146,10 @@
         102068103
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_84120",
+        "eurostat:nuts_2021_id":"84120"
+    },
     "wof:coterminous":[
         1126018193
     ],
@@ -140,7 +157,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"da36b5dce570c1abc72cc071fd699312",
+    "wof:geomhash":"a0d29ef07980d0831c4aff9406b687fe",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -153,11 +170,13 @@
         }
     ],
     "wof:id":404365417,
-    "wof:lastmodified":1582324037,
+    "wof:lastmodified":1684352829,
     "wof:name":"Saint-Trinit",
     "wof:parent_id":102068103,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":121,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_81252",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Germier",
+    "eurostat:nuts_2021_id":"81252",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ27",
+    "eurostat:nuts_2021_level_lau":"81252",
+    "eurostat:population":160,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066561",
     "frgov:id":"BDCSURCO0000000009613179",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000469,
-    "geom:area_square_m":4192419.814639,
+    "geom:area_square_m":4192419.81464,
     "geom:bbox":"2.21477081316,43.6642802277,2.25069662309,43.6891192352",
     "geom:latitude":43.676582,
     "geom:longitude":2.230112,
@@ -88,6 +100,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683603,
         102191581,
@@ -98,7 +112,10 @@
         102069363
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_81252",
+        "eurostat:nuts_2021_id":"81252"
+    },
     "wof:coterminous":[
         1360676369
     ],
@@ -106,7 +123,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"bbcbd4178a70c0f3276f679dafcf1eaa",
+    "wof:geomhash":"724e6bf8f60ff714c5bf2adcafaa9ac2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -120,11 +137,13 @@
         }
     ],
     "wof:id":404386199,
-    "wof:lastmodified":1582325452,
+    "wof:lastmodified":1684353084,
     "wof:name":"Saint-Germier",
     "wof:parent_id":102069363,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":160,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

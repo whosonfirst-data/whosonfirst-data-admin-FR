@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_02688",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Pierre-l\u00e8s-Franqueville",
+    "eurostat:nuts_2021_id":"02688",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE21",
+    "eurostat:nuts_2021_level_lau":"02688",
+    "eurostat:population":53,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240200444",
     "frgov:id":"BDCSURCO0000000009582627",
     "frgov:insee_arr":"5",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000896,
-    "geom:area_square_m":7146684.276673,
+    "geom:area_square_m":7146684.276672,
     "geom:bbox":"3.78200864113,49.8108470027,3.85563491833,49.8382112575",
     "geom:latitude":49.824527,
     "geom:longitude":3.814261,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683247,
         102191581,
@@ -58,7 +72,10 @@
         102069421
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_02688",
+        "eurostat:nuts_2021_id":"02688"
+    },
     "wof:coterminous":[
         101901709
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"fb4da3e9e5834e99e9d52d03a729bb96",
+    "wof:geomhash":"4202d1831682dbaa32e688d37db22008",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404424433,
-    "wof:lastmodified":1582324399,
+    "wof:lastmodified":1684353539,
     "wof:name":"Saint-Pierre-Les-Franqueville",
     "wof:parent_id":102069421,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":53,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

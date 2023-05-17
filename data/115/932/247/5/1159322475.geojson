@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_92063",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rueil-Malmaison",
+    "eurostat:nuts_2021_id":"92063",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR105",
+    "eurostat:nuts_2021_level_lau":"92063",
+    "eurostat:population":78152,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200054781",
     "frgov:id":"BDCSURCO0000000009589733",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"ILE-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001782,
-    "geom:area_square_m":14495551.65552,
+    "geom:area_square_m":14495551.655519,
     "geom:bbox":"2.147958,48.847659,2.213213,48.895813",
     "geom:latitude":48.869365,
     "geom:longitude":2.177716,
@@ -195,23 +207,29 @@
     "reversegeo:longitude":2.177222,
     "src:geom":"frgov",
     "src:geom_alt":[],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85683157,
         102191581,
         85633147,
-        102072491,
         404227997,
         404227465,
-        85683157
+        102072491
     ],
     "wof:breaches":[],
     "wof:concordance":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_92063",
+        "eurostat:nuts_2021_id":"92063"
+    },
     "wof:coterminous":[
         101751125,
         102072491
     ],
     "wof:country":"FR",
     "wof:created":1526511036,
-    "wof:geomhash":"1a6889e2cebbd8731c771490c8f80a7d",
+    "wof:geomhash":"cf2d609aebb95e508c45f88d8ccb339b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -224,11 +242,13 @@
         }
     ],
     "wof:id":1159322475,
-    "wof:lastmodified":1608039584,
+    "wof:lastmodified":1684353602,
     "wof:name":"Rueil-Malmaison",
     "wof:parent_id":102072491,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":78152,
+    "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded":[],
     "wof:superseded_by":[],

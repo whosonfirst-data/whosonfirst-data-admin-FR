@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_53228",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Blandouet-Saint Jean",
+    "eurostat:nuts_2021_id":"53228",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG03",
+    "eurostat:nuts_2021_level_lau":"53228",
+    "eurostat:population":605,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200033298",
     "frgov:id":"BDCSURCO0000000009595210",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.004407,
-    "geom:area_square_m":36430015.44369,
+    "geom:area_square_m":36430015.443691,
     "geom:bbox":"-0.442845449776,48.0156070581,-0.27876723568,48.0803167109",
     "geom:latitude":48.046942,
     "geom:longitude":-0.366502,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683401,
         102191581,
@@ -57,7 +71,10 @@
         102069145
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_53228",
+        "eurostat:nuts_2021_id":"53228"
+    },
     "wof:coterminous":[
         101884805
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"76384117e99815f704ca075479990989",
+    "wof:geomhash":"33bacd15a9c18bde7a81c64629f41b16",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404369033,
-    "wof:lastmodified":1582324919,
+    "wof:lastmodified":1684352879,
     "wof:name":"Saint-Jean-Sur-Erve",
     "wof:parent_id":102069145,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":605,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

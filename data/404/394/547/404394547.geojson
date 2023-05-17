@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_07158",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"M\u00e9zilhac",
+    "eurostat:nuts_2021_id":"07158",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK22",
+    "eurostat:nuts_2021_level_lau":"07158",
+    "eurostat:population":95,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200073245",
     "frgov:id":"BDCSURCO0000000009608944",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683421,
         102191581,
@@ -58,7 +72,10 @@
         102064435
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_07158",
+        "eurostat:nuts_2021_id":"07158"
+    },
     "wof:coterminous":[
         1125806423
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a9ce758d5f4c1da20f4adc292833d111",
+    "wof:geomhash":"16b0b8d7e1bc7b032ee5550a1e410555",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404394547,
-    "wof:lastmodified":1582325038,
+    "wof:lastmodified":1684353186,
     "wof:name":"Mezilhac",
     "wof:parent_id":102064435,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":95,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_72266",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Aubin-de-Locquenay",
+    "eurostat:nuts_2021_id":"72266",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG04",
+    "eurostat:nuts_2021_level_lau":"72266",
+    "eurostat:population":690,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072700",
     "frgov:id":"BDCSURCO0000000009594198",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683279,
         102191581,
@@ -57,7 +71,10 @@
         102066523
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_72266",
+        "eurostat:nuts_2021_id":"72266"
+    },
     "wof:coterminous":[
         101881843
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5bef5f0319a052f6f0fa60f9992dc2b9",
+    "wof:geomhash":"0e8c448181ad4ce6d02573e58c473470",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404394243,
-    "wof:lastmodified":1582325027,
+    "wof:lastmodified":1684353182,
     "wof:name":"Saint-Aubin-De-Locquenay",
     "wof:parent_id":102066523,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":690,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

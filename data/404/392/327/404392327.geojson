@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_44208",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Treffieux",
+    "eurostat:nuts_2021_id":"44208",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG01",
+    "eurostat:nuts_2021_level_lau":"44208",
+    "eurostat:population":883,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244400537",
     "frgov:id":"BDCSURCO0000000009597565",
     "frgov:insee_arr":"5",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002276,
-    "geom:area_square_m":18969093.341332,
+    "geom:area_square_m":18969093.341333,
     "geom:bbox":"-1.55959557727,47.5892575295,-1.49694203283,47.6387457804",
     "geom:latitude":47.612887,
     "geom:longitude":-1.528221,
@@ -135,6 +147,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683233,
         102191581,
@@ -144,7 +158,10 @@
         102069451
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_44208",
+        "eurostat:nuts_2021_id":"44208"
+    },
     "wof:coterminous":[
         101885453
     ],
@@ -152,7 +169,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d9de95f24af7689f42ca7e6efe5aa083",
+    "wof:geomhash":"6d8d3bf6562ce9decfef8da616a1fefc",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -165,11 +182,13 @@
         }
     ],
     "wof:id":404392327,
-    "wof:lastmodified":1582324820,
+    "wof:lastmodified":1684353160,
     "wof:name":"Treffieux",
     "wof:parent_id":102069451,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":883,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

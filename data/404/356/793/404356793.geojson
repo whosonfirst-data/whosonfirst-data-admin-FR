@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_39258",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Grande-Rivi\u00e8re Ch\u00e2teau",
+    "eurostat:nuts_2021_id":"39258",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC22",
+    "eurostat:nuts_2021_level_lau":"39258",
+    "eurostat:population":628,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243900610",
     "frgov:id":"BDCSURCO0000000009601914",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003614,
-    "geom:area_square_m":30739247.258199,
+    "geom:area_square_m":30739247.258201,
     "geom:bbox":"5.85179365376,46.5096733484,5.96614889422,46.5641569135",
     "geom:latitude":46.534579,
     "geom:longitude":5.908491,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683173,
         102191581,
@@ -58,7 +72,10 @@
         102069553
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_39258",
+        "eurostat:nuts_2021_id":"39258"
+    },
     "wof:coterminous":[
         101891555
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"49e650d20860ee175a7f5aa225984ed6",
+    "wof:geomhash":"3574bf26df54430b39653ac33e5a5e8c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404356793,
-    "wof:lastmodified":1582324933,
+    "wof:lastmodified":1684352709,
     "wof:name":"Grande-Riviere",
     "wof:parent_id":102069553,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":628,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_01356",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Georges-sur-Renon",
+    "eurostat:nuts_2021_id":"01356",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK21",
+    "eurostat:nuts_2021_level_lau":"01356",
+    "eurostat:population":214,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069193",
     "frgov:id":"BDCSURCO0000000009603709",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683153,
         102191581,
@@ -58,7 +72,10 @@
         102066073
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_01356",
+        "eurostat:nuts_2021_id":"01356"
+    },
     "wof:coterminous":[
         1125934217
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2c571f0d2b8d6822371cb477570b9a66",
+    "wof:geomhash":"3bb2f9f755e90a5adea9c2e5b054b52f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404400801,
-    "wof:lastmodified":1582324517,
+    "wof:lastmodified":1684353259,
     "wof:name":"Saint-Georges-Sur-Renon",
     "wof:parent_id":102066073,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":214,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

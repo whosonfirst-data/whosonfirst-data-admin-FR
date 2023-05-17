@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_02290",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ess\u00f4mes-sur-Marne",
+    "eurostat:nuts_2021_id":"02290",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE21",
+    "eurostat:nuts_2021_level_lau":"02290",
+    "eurostat:population":2776,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072031",
     "frgov:id":"BDCSURCO0000000009588149",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003527,
-    "geom:area_square_m":28588836.175022,
+    "geom:area_square_m":28588836.175021,
     "geom:bbox":"3.2923499549,48.9998405055,3.39283029328,49.066146804",
     "geom:latitude":49.034345,
     "geom:longitude":3.34009,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683247,
         102191581,
@@ -58,7 +72,10 @@
         102065611
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_02290",
+        "eurostat:nuts_2021_id":"02290"
+    },
     "wof:coterminous":[
         101828525
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e1fd765cb3072a5d434264c68ac3cd96",
+    "wof:geomhash":"7427076497a287d971a30473d4031484",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404404977,
-    "wof:lastmodified":1582325309,
+    "wof:lastmodified":1684353306,
     "wof:name":"Essomes-Sur-Marne",
     "wof:parent_id":102065611,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2776,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

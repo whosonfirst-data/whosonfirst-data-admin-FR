@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_83008",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bagnols-en-For\u00eat",
+    "eurostat:nuts_2021_id":"83008",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL05",
+    "eurostat:nuts_2021_level_lau":"83008",
+    "eurostat:population":2788,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200004802",
     "frgov:id":"BDCSURCO0000000009613334",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.004772,
-    "geom:area_square_m":42776628.858184,
+    "geom:area_square_m":42776628.858185,
     "geom:bbox":"6.64036377435,43.507838401,6.7777969765,43.5579752383",
     "geom:latitude":43.533324,
     "geom:longitude":6.709017,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683315,
         102191581,
@@ -57,7 +71,10 @@
         102066639
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_83008",
+        "eurostat:nuts_2021_id":"83008"
+    },
     "wof:coterminous":[
         101773483
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"78df06ea711e3d72c3053f546f1e6c86",
+    "wof:geomhash":"41273abf7167ac7ad61fa1bb8a04ef4e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404367297,
-    "wof:lastmodified":1582325003,
+    "wof:lastmodified":1684352856,
     "wof:name":"Bagnols-En-Foret",
     "wof:parent_id":102066639,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2788,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

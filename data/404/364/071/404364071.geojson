@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_03208",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Pin",
+    "eurostat:nuts_2021_id":"03208",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK11",
+    "eurostat:nuts_2021_level_lau":"03208",
+    "eurostat:population":411,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071470",
     "frgov:id":"BDCSURCO0000000009602629",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.002559,
-    "geom:area_square_m":21813461.814611,
+    "geom:area_square_m":21813461.814612,
     "geom:bbox":"3.85485907571,46.3855421267,3.92218134887,46.4584288344",
     "geom:latitude":46.421563,
     "geom:longitude":3.889259,
@@ -93,6 +105,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683293,
         102191581,
@@ -103,7 +117,10 @@
         102065739
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_03208",
+        "eurostat:nuts_2021_id":"03208"
+    },
     "wof:coterminous":[
         101891091
     ],
@@ -111,7 +128,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7881ab36e65ce4a35ff0da1caf7b66d2",
+    "wof:geomhash":"771c8006471fea6365c890bf829aa249",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -125,11 +142,13 @@
         }
     ],
     "wof:id":404364071,
-    "wof:lastmodified":1582324242,
+    "wof:lastmodified":1684352810,
     "wof:name":"Le Pin",
     "wof:parent_id":102065739,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":411,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

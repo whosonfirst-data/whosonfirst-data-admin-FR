@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_24562",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Vallereuil",
+    "eurostat:nuts_2021_id":"24562",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI11",
+    "eurostat:nuts_2021_level_lau":"24562",
+    "eurostat:population":288,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040095",
     "frgov:id":"BDCSURCO0000000009608200",
     "frgov:insee_arr":"3",
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683331,
         102191581,
@@ -136,7 +150,10 @@
         102069003
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_24562",
+        "eurostat:nuts_2021_id":"24562"
+    },
     "wof:coterminous":[
         1125827975
     ],
@@ -144,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"fb76b7eb0789dff68c4472464883856f",
+    "wof:geomhash":"2e845c6d1b6952aa959b337c242d4ba3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +175,13 @@
         }
     ],
     "wof:id":404421233,
-    "wof:lastmodified":1582325101,
+    "wof:lastmodified":1684353500,
     "wof:name":"Vallereuil",
     "wof:parent_id":102069003,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":288,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

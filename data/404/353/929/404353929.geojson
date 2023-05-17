@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_07349",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Voulte-sur-Rh\u00f4ne",
+    "eurostat:nuts_2021_id":"07349",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK22",
+    "eurostat:nuts_2021_level_lau":"07349",
+    "eurostat:population":4987,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071413",
     "frgov:id":"BDCSURCO0000000009608930",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001132,
-    "geom:area_square_m":9929494.674031,
+    "geom:area_square_m":9929494.674032,
     "geom:bbox":"4.75782291888,44.7787657788,4.80838186869,44.8209843496",
     "geom:latitude":44.801747,
     "geom:longitude":4.78041,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683421,
         102191581,
@@ -58,7 +72,10 @@
         102069975
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_07349",
+        "eurostat:nuts_2021_id":"07349"
+    },
     "wof:coterminous":[
         101771797
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3ac96b9812d27e508e7e217a11a68b77",
+    "wof:geomhash":"c665ab697d078b1110160dc4e16ed39e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404353929,
-    "wof:lastmodified":1582324141,
+    "wof:lastmodified":1684352671,
     "wof:name":"La Voulte-Sur-Rhone",
     "wof:parent_id":102069975,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":4987,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

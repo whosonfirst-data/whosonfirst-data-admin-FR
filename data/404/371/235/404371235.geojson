@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_65181",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Fr\u00e9chou-Fr\u00e9chet",
+    "eurostat:nuts_2021_id":"65181",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ26",
+    "eurostat:nuts_2021_level_lau":"65181",
+    "eurostat:population":163,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070803",
     "frgov:id":"BDCSURCO0000000009615261",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000334,
-    "geom:area_square_m":3008293.457127,
+    "geom:area_square_m":3008293.457126,
     "geom:bbox":"0.147438293957,43.1657738715,0.181525440182,43.1835829575",
     "geom:latitude":43.176436,
     "geom:longitude":0.162414,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683203,
         102191581,
@@ -58,7 +72,10 @@
         102068663
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_65181",
+        "eurostat:nuts_2021_id":"65181"
+    },
     "wof:coterminous":[
         1126054073
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"87ab8107011fc7db865b496ee7ad0e3d",
+    "wof:geomhash":"3da29ea60f2735c657b76f3b5c698a57",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404371235,
-    "wof:lastmodified":1582324648,
+    "wof:lastmodified":1684352904,
     "wof:name":"Frechou-Frechet",
     "wof:parent_id":102068663,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":163,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

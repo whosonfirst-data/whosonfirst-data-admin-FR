@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_95282",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gouzangrez",
+    "eurostat:nuts_2021_id":"95282",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR108",
+    "eurostat:nuts_2021_level_lau":"95282",
+    "eurostat:population":165,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200035970",
     "frgov:id":"BDCSURCO0000000009587211",
     "frgov:insee_arr":"3",
@@ -114,6 +126,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683451,
         102191581,
@@ -123,7 +137,10 @@
         102069409
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_95282",
+        "eurostat:nuts_2021_id":"95282"
+    },
     "wof:coterminous":[
         1126023681
     ],
@@ -131,7 +148,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0a83f7c30e634f5191516be2d4aae9c6",
+    "wof:geomhash":"f3495be8828651c455b9a9e3280ef2cd",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -144,11 +161,13 @@
         }
     ],
     "wof:id":404413915,
-    "wof:lastmodified":1582324322,
+    "wof:lastmodified":1684353413,
     "wof:name":"Gouzangrez",
     "wof:parent_id":102069409,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":165,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

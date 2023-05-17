@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_78246",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Fontenay-Saint-P\u00e8re",
+    "eurostat:nuts_2021_id":"78246",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR103",
+    "eurostat:nuts_2021_level_lau":"78246",
+    "eurostat:population":982,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200059889",
     "frgov:id":"BDCSURCO0000000009588254",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"ILE-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001606,
-    "geom:area_square_m":13020427.155492,
+    "geom:area_square_m":13020427.155493,
     "geom:bbox":"1.73003533788,49.0060222367,1.78523416675,49.0486845383",
     "geom:latitude":49.028241,
     "geom:longitude":1.754066,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683367,
         102191581,
@@ -57,7 +71,10 @@
         102066059
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_78246",
+        "eurostat:nuts_2021_id":"78246"
+    },
     "wof:coterminous":[
         101878441
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ca83ab36cd17543e274c53e143579150",
+    "wof:geomhash":"27cf5573a02003e21cb11418d6678f3b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404376187,
-    "wof:lastmodified":1582324667,
+    "wof:lastmodified":1684352965,
     "wof:name":"Fontenay-Saint-Pere",
     "wof:parent_id":102066059,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":982,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

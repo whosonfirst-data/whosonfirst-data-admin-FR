@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_60529",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"R\u00e9m\u00e9court",
+    "eurostat:nuts_2021_id":"60529",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE22",
+    "eurostat:nuts_2021_level_lau":"60529",
+    "eurostat:population":79,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"246000376",
     "frgov:id":"BDCSURCO0000000009584982",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000344,
-    "geom:area_square_m":2766898.302224,
+    "geom:area_square_m":2766898.302223,
     "geom:bbox":"2.47920310535,49.4196153557,2.50650470239,49.4406563361",
     "geom:latitude":49.429586,
     "geom:longitude":2.492542,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683289,
         102191581,
@@ -58,7 +72,10 @@
         102065713
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_60529",
+        "eurostat:nuts_2021_id":"60529"
+    },
     "wof:coterminous":[
         1126046879
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"131df839f4c879a0d4c2f0ba2734682c",
+    "wof:geomhash":"228efa467784a3bbe435abb8813dbf5e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404417687,
-    "wof:lastmodified":1582325129,
+    "wof:lastmodified":1684353456,
     "wof:name":"Remecourt",
     "wof:parent_id":102065713,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":79,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

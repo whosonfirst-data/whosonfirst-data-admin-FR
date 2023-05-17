@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_07015",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Arras-sur-Rh\u00f4ne",
+    "eurostat:nuts_2021_id":"07015",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK22",
+    "eurostat:nuts_2021_level_lau":"07015",
+    "eurostat:population":520,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040491",
     "frgov:id":"BDCSURCO0000000009607670",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.000643,
-    "geom:area_square_m":5611538.143959,
+    "geom:area_square_m":5611538.14396,
     "geom:bbox":"4.78509540065,45.130168513,4.82857463297,45.1558742322",
     "geom:latitude":45.143591,
     "geom:longitude":4.803796,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683421,
         102191581,
@@ -58,7 +72,10 @@
         102068799
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_07015",
+        "eurostat:nuts_2021_id":"07015"
+    },
     "wof:coterminous":[
         101894289
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8224f389b8a982ad18c6f95a3fbba266",
+    "wof:geomhash":"c17615b45a00bb9338a0774707256aed",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404394559,
-    "wof:lastmodified":1582325024,
+    "wof:lastmodified":1684353186,
     "wof:name":"Arras-Sur-Rhone",
     "wof:parent_id":102068799,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":520,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

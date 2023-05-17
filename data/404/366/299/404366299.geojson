@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_18215",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Hilaire-de-Gondilly",
+    "eurostat:nuts_2021_id":"18215",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB01",
+    "eurostat:nuts_2021_level_lau":"18215",
+    "eurostat:population":179,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200011781",
     "frgov:id":"BDCSURCO0000000009600533",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00222,
-    "geom:area_square_m":18712669.397876,
+    "geom:area_square_m":18712669.397877,
     "geom:bbox":"2.87363865943,46.9921443551,2.93969441466,47.0657021293",
     "geom:latitude":47.023099,
     "geom:longitude":2.902659,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683549,
         102191581,
@@ -57,7 +71,10 @@
         102068195
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_18215",
+        "eurostat:nuts_2021_id":"18215"
+    },
     "wof:coterminous":[
         1125843119
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"188b3910540a94b963363af544d8e121",
+    "wof:geomhash":"0d7b0cb175af8159ad78944627f7293d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404366299,
-    "wof:lastmodified":1582324840,
+    "wof:lastmodified":1684352842,
     "wof:name":"Saint-Hilaire-De-Gondilly",
     "wof:parent_id":102068195,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":179,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

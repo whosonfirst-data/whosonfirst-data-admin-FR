@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_47293",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sauveterre-Saint-Denis",
+    "eurostat:nuts_2021_id":"47293",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI14",
+    "eurostat:nuts_2021_level_lau":"47293",
+    "eurostat:population":387,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200035459",
     "frgov:id":"BDCSURCO0000000009611292",
     "frgov:insee_arr":"1",
@@ -115,6 +127,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683341,
         102191581,
@@ -125,7 +139,10 @@
         102064665
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_47293",
+        "eurostat:nuts_2021_id":"47293"
+    },
     "wof:coterminous":[
         1360674391
     ],
@@ -133,7 +150,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3bcc69c31d2c6de945b180ebfe0271d1",
+    "wof:geomhash":"80b86643fcb40aabc4c56dc038ca1902",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -147,11 +164,13 @@
         }
     ],
     "wof:id":404365695,
-    "wof:lastmodified":1582324032,
+    "wof:lastmodified":1684352833,
     "wof:name":"Sauveterre-Saint-Denis",
     "wof:parent_id":102064665,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":387,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

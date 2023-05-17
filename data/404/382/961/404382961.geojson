@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_83117",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Paul-en-For\u00eat",
+    "eurostat:nuts_2021_id":"83117",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL05",
+    "eurostat:nuts_2021_level_lau":"83117",
+    "eurostat:population":1730,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200004802",
     "frgov:id":"BDCSURCO0000000009613096",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.002262,
-    "geom:area_square_m":20266992.699071,
+    "geom:area_square_m":20266992.699072,
     "geom:bbox":"6.63265487521,43.5446105166,6.73188986445,43.591610013",
     "geom:latitude":43.565254,
     "geom:longitude":6.682975,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683315,
         102191581,
@@ -57,7 +71,10 @@
         102066455
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_83117",
+        "eurostat:nuts_2021_id":"83117"
+    },
     "wof:coterminous":[
         101773481
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"caa1fe14cde13a1400c2fab4d34e7406",
+    "wof:geomhash":"0e3abfaa1ca70630d9b62a063f7c61e2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404382961,
-    "wof:lastmodified":1582324689,
+    "wof:lastmodified":1684353045,
     "wof:name":"Saint-Paul-En-Foret",
     "wof:parent_id":102066455,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1730,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_31251",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Labastide-Paum\u00e8s",
+    "eurostat:nuts_2021_id":"31251",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ23",
+    "eurostat:nuts_2021_level_lau":"31251",
+    "eurostat:population":146,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072643",
     "frgov:id":"BDCSURCO0000000009614481",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000896,
-    "geom:area_square_m":8055443.548041,
+    "geom:area_square_m":8055443.548039,
     "geom:bbox":"0.908366212472,43.3181970494,0.972711542925,43.3456886495",
     "geom:latitude":43.333022,
     "geom:longitude":0.935597,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683397,
         102191581,
@@ -58,7 +72,10 @@
         102067255
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_31251",
+        "eurostat:nuts_2021_id":"31251"
+    },
     "wof:coterminous":[
         1125767419
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"248afd8c359b80f956139afe9117486d",
+    "wof:geomhash":"eb1591e4092979b74e4d6195b902a4cb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404427363,
-    "wof:lastmodified":1582325234,
+    "wof:lastmodified":1684353572,
     "wof:name":"Labastide-Paumes",
     "wof:parent_id":102067255,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":146,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

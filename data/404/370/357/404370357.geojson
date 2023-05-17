@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_54477",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Julien-l\u00e8s-Gorze",
+    "eurostat:nuts_2021_id":"54477",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF31",
+    "eurostat:nuts_2021_level_lau":"54477",
+    "eurostat:population":161,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070738",
     "frgov:id":"BDCSURCO0000000009587538",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.001275,
-    "geom:area_square_m":10341312.553912,
+    "geom:area_square_m":10341312.553911,
     "geom:bbox":"5.87543742825,48.9974915016,5.93203522317,49.0387801701",
     "geom:latitude":49.018439,
     "geom:longitude":5.904977,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683343,
         102191581,
@@ -58,7 +72,10 @@
         102065639
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_54477",
+        "eurostat:nuts_2021_id":"54477"
+    },
     "wof:coterminous":[
         1125878249
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"924bb3975fc9d06301ec37e510693bab",
+    "wof:geomhash":"3af860410723f6e6901d84304b1de425",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404370357,
-    "wof:lastmodified":1582324603,
+    "wof:lastmodified":1684352894,
     "wof:name":"Saint-Julien-Les-Gorze",
     "wof:parent_id":102065639,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":161,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

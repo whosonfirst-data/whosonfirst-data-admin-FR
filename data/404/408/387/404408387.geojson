@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_95116",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bruy\u00e8res-sur-Oise",
+    "eurostat:nuts_2021_id":"95116",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR108",
+    "eurostat:nuts_2021_level_lau":"95116",
+    "eurostat:population":4323,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"249500489",
     "frgov:id":"BDCSURCO0000000009587175",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"ILE-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001099,
-    "geom:area_square_m":8886422.386254,
+    "geom:area_square_m":8886422.386253,
     "geom:bbox":"2.30955779135,49.1418929849,2.3592956968,49.1864992037",
     "geom:latitude":49.160571,
     "geom:longitude":2.329727,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683451,
         102191581,
@@ -57,7 +71,10 @@
         102064801
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_95116",
+        "eurostat:nuts_2021_id":"95116"
+    },
     "wof:coterminous":[
         1175611629
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"27f611bc81c00a5c875160d09338b5e5",
+    "wof:geomhash":"e7271d4b416a8408be237001cac0cd14",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404408387,
-    "wof:lastmodified":1582324469,
+    "wof:lastmodified":1684353348,
     "wof:name":"Bruyeres-Sur-Oise",
     "wof:parent_id":102064801,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":4323,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_80487",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Longavesnes",
+    "eurostat:nuts_2021_id":"80487",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE23",
+    "eurostat:nuts_2021_level_lau":"80487",
+    "eurostat:population":86,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200037059",
     "frgov:id":"BDCSURCO0000000009582252",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00051,
-    "geom:area_square_m":4058333.465134,
+    "geom:area_square_m":4058333.465135,
     "geom:bbox":"3.04513687537,49.9604375892,3.0791852899,49.9850344738",
     "geom:latitude":49.972119,
     "geom:longitude":3.0624,
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683363,
         102191581,
@@ -139,7 +153,10 @@
         102070707
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_80487",
+        "eurostat:nuts_2021_id":"80487"
+    },
     "wof:coterminous":[
         1125842333
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ebc6afc0c61f2c85545548b358c1c794",
+    "wof:geomhash":"9c23c8873d1fed80d8be631d737c4ba9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404406833,
-    "wof:lastmodified":1582324442,
+    "wof:lastmodified":1684353330,
     "wof:name":"Longavesnes",
     "wof:parent_id":102070707,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":86,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

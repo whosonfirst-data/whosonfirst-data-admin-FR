@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_32015",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Aujan-Mourn\u00e8de",
+    "eurostat:nuts_2021_id":"32015",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ24",
+    "eurostat:nuts_2021_level_lau":"32015",
+    "eurostat:population":89,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072320",
     "frgov:id":"BDCSURCO0000000009614504",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683467,
         102191581,
@@ -58,7 +72,10 @@
         102067121
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_32015",
+        "eurostat:nuts_2021_id":"32015"
+    },
     "wof:coterminous":[
         1125803393
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"aa1bba5249518cbd38d5f5e2a81b2cad",
+    "wof:geomhash":"542713ac870e964a35684c3bed897de9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404407909,
-    "wof:lastmodified":1582324487,
+    "wof:lastmodified":1684353342,
     "wof:name":"Aujan-Mournede",
     "wof:parent_id":102067121,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":89,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

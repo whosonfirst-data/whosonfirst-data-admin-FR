@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_89440",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Verlin",
+    "eurostat:nuts_2021_id":"89440",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC14",
+    "eurostat:nuts_2021_level_lau":"89440",
+    "eurostat:population":425,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248900938",
     "frgov:id":"BDCSURCO0000000009595412",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001704,
-    "geom:area_square_m":14091881.816133,
+    "geom:area_square_m":14091881.816131,
     "geom:bbox":"3.19761639941,47.9977870709,3.25674747553,48.0390373165",
     "geom:latitude":48.018813,
     "geom:longitude":3.223466,
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683503,
         102191581,
@@ -139,7 +153,10 @@
         102069213
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_89440",
+        "eurostat:nuts_2021_id":"89440"
+    },
     "wof:coterminous":[
         1125830461
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"393241f1c9226cd5c9f2bffd186ef0a3",
+    "wof:geomhash":"64398ab9cb5717abc8a372a833c0e004",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404412161,
-    "wof:lastmodified":1582324369,
+    "wof:lastmodified":1684353391,
     "wof:name":"Verlin",
     "wof:parent_id":102069213,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":425,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

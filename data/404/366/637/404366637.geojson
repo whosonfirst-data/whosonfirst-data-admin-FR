@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_79253",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Georges-de-Noisn\u00e9",
+    "eurostat:nuts_2021_id":"79253",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI33",
+    "eurostat:nuts_2021_level_lau":"79253",
+    "eurostat:population":700,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069748",
     "frgov:id":"BDCSURCO0000000009602473",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002922,
-    "geom:area_square_m":24882251.160192,
+    "geom:area_square_m":24882251.160193,
     "geom:bbox":"-0.282864218486,46.4503056082,-0.198857875239,46.5104699906",
     "geom:latitude":46.480036,
     "geom:longitude":-0.242162,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683163,
         102191581,
@@ -58,7 +72,10 @@
         102067145
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_79253",
+        "eurostat:nuts_2021_id":"79253"
+    },
     "wof:coterminous":[
         1125811203
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"1ddc91dfbe995449401d74b643467102",
+    "wof:geomhash":"d9bb2825342804a1d9325a21543017b1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404366637,
-    "wof:lastmodified":1582324838,
+    "wof:lastmodified":1684352847,
     "wof:name":"Saint-Georges-De-Noisne",
     "wof:parent_id":102067145,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":700,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

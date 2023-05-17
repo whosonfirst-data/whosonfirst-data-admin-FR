@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_32349",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Roquelaure-Saint-Aubin",
+    "eurostat:nuts_2021_id":"32349",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ24",
+    "eurostat:nuts_2021_level_lau":"32349",
+    "eurostat:population":118,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200034726",
     "frgov:id":"BDCSURCO0000000009613240",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000476,
-    "geom:area_square_m":4260208.619549,
+    "geom:area_square_m":4260208.619548,
     "geom:bbox":"0.968540350916,43.6509206128,0.999612123546,43.676631326",
     "geom:latitude":43.66408,
     "geom:longitude":0.985147,
@@ -111,6 +123,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683467,
         102191581,
@@ -121,7 +135,10 @@
         102065029
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_32349",
+        "eurostat:nuts_2021_id":"32349"
+    },
     "wof:coterminous":[
         1125928469
     ],
@@ -129,7 +146,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5aca034119ae9e6da9bd1c84256f5109",
+    "wof:geomhash":"8cb518f8cfc128542b9b66d18d31b191",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -143,11 +160,13 @@
         }
     ],
     "wof:id":404389447,
-    "wof:lastmodified":1582325322,
+    "wof:lastmodified":1684353122,
     "wof:name":"Roquelaure-Saint-Aubin",
     "wof:parent_id":102065029,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":118,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_72004",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Amn\u00e9",
+    "eurostat:nuts_2021_id":"72004",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG04",
+    "eurostat:nuts_2021_level_lau":"72004",
+    "eurostat:population":566,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040475",
     "frgov:id":"BDCSURCO0000000009595500",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683279,
         102191581,
@@ -57,7 +71,10 @@
         102067013
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_72004",
+        "eurostat:nuts_2021_id":"72004"
+    },
     "wof:coterminous":[
         101884675
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"055c672652b7e15ea724eb279c55cd93",
+    "wof:geomhash":"c6938ade9cd83c2e73e639f5d8f28709",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404365775,
-    "wof:lastmodified":1582324042,
+    "wof:lastmodified":1684352835,
     "wof:name":"Amne",
     "wof:parent_id":102067013,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":566,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

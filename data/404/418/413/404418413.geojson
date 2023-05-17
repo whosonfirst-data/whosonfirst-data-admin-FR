@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_31515",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Rustice",
+    "eurostat:nuts_2021_id":"31515",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ23",
+    "eurostat:nuts_2021_level_lau":"31515",
+    "eurostat:population":460,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200034957",
     "frgov:id":"BDCSURCO0000000009612509",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000273,
-    "geom:area_square_m":2432967.738485,
+    "geom:area_square_m":2432967.738484,
     "geom:bbox":"1.31163716769,43.7937913036,1.3443603669,43.8115339167",
     "geom:latitude":43.803078,
     "geom:longitude":1.327863,
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683397,
         102191581,
@@ -139,7 +153,10 @@
         102066919
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_31515",
+        "eurostat:nuts_2021_id":"31515"
+    },
     "wof:coterminous":[
         1125938463
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a9ca9f61e53120f8b5da59ac7f1a8f36",
+    "wof:geomhash":"85a0f4a59203edf20019d1d4c8768f73",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404418413,
-    "wof:lastmodified":1582325218,
+    "wof:lastmodified":1684353465,
     "wof:name":"Saint-Rustice",
     "wof:parent_id":102066919,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":460,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

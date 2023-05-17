@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_71233",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"H\u00f4pital-le-Mercier",
+    "eurostat:nuts_2021_id":"71233",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC13",
+    "eurostat:nuts_2021_level_lau":"71233",
+    "eurostat:population":303,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071884",
     "frgov:id":"BDCSURCO0000000009602850",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001931,
-    "geom:area_square_m":16466973.442156,
+    "geom:area_square_m":16466973.442155,
     "geom:bbox":"3.97721548015,46.3711716557,4.04271817129,46.4165613584",
     "geom:latitude":46.394629,
     "geom:longitude":4.009422,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683543,
         102191581,
@@ -58,7 +72,10 @@
         102070897
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_71233",
+        "eurostat:nuts_2021_id":"71233"
+    },
     "wof:coterminous":[
         101892863
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4f0cab88739a77a807284a02c61468da",
+    "wof:geomhash":"5409ce9d728bbff04e8e910f0fd53156",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404425933,
-    "wof:lastmodified":1582324307,
+    "wof:lastmodified":1684353556,
     "wof:name":"L'Hopital-Le-Mercier",
     "wof:parent_id":102070897,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":303,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

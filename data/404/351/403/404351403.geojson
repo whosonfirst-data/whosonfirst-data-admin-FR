@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_39493",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Maurice-Crillat",
+    "eurostat:nuts_2021_id":"39493",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC22",
+    "eurostat:nuts_2021_level_lau":"39493",
+    "eurostat:population":242,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243900719",
     "frgov:id":"BDCSURCO0000000009601915",
     "frgov:insee_arr":"2",
@@ -117,6 +129,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683173,
         102191581,
@@ -127,7 +141,10 @@
         102069553
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_39493",
+        "eurostat:nuts_2021_id":"39493"
+    },
     "wof:coterminous":[
         101891549
     ],
@@ -135,7 +152,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ac14267ce2c63e9b9866e1ea8be7c679",
+    "wof:geomhash":"7da3842d1fa9cf1fe4bf259983e2fe27",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -149,11 +166,13 @@
         }
     ],
     "wof:id":404351403,
-    "wof:lastmodified":1582324962,
+    "wof:lastmodified":1684352637,
     "wof:name":"Saint-Maurice-Crillat",
     "wof:parent_id":102069553,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":242,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

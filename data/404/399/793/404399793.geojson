@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_26229",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Penne-sur-l'Ouv\u00e8ze",
+    "eurostat:nuts_2021_id":"26229",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK23",
+    "eurostat:nuts_2021_level_lau":"26229",
+    "eurostat:population":96,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068229",
     "frgov:id":"BDCSURCO0000000009610834",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.000841,
-    "geom:area_square_m":7451567.090156,
+    "geom:area_square_m":7451567.090155,
     "geom:bbox":"5.21849478883,44.2304414113,5.2485354804,44.2754443894",
     "geom:latitude":44.250541,
     "geom:longitude":5.233152,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683523,
         102191581,
@@ -56,7 +70,10 @@
         102064723
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_26229",
+        "eurostat:nuts_2021_id":"26229"
+    },
     "wof:coterminous":[
         1360677667
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"1cd3be301a76827c03b47f4921610faf",
+    "wof:geomhash":"ec55c6d1c692b195fdf9dcc95176ed45",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404399793,
-    "wof:lastmodified":1582324152,
+    "wof:lastmodified":1684353247,
     "wof:name":"La Penne-Sur-L'Ouveze",
     "wof:parent_id":102064723,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":96,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

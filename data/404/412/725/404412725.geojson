@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_76700",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"T\u00f4tes",
+    "eurostat:nuts_2021_id":"76700",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD22",
+    "eurostat:nuts_2021_level_lau":"76700",
+    "eurostat:population":1559,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068534",
     "frgov:id":"BDCSURCO0000000009583660",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000939,
-    "geom:area_square_m":7509341.478798,
+    "geom:area_square_m":7509341.478799,
     "geom:bbox":"1.0178343303,49.6648983393,1.06431309202,49.7088515688",
     "geom:latitude":49.683612,
     "geom:longitude":1.042431,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683251,
         102191581,
@@ -58,7 +72,10 @@
         102071633
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_76700",
+        "eurostat:nuts_2021_id":"76700"
+    },
     "wof:coterminous":[
         101813753
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"bcd57f7db87437c1ed5af3e8fcb8b641",
+    "wof:geomhash":"011f8607402d8a4679679b21aa613dd3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404412725,
-    "wof:lastmodified":1582324375,
+    "wof:lastmodified":1684353397,
     "wof:name":"Totes",
     "wof:parent_id":102071633,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1559,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

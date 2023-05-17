@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_34217",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Prades-le-Lez",
+    "eurostat:nuts_2021_id":"34217",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ13",
+    "eurostat:nuts_2021_level_lau":"34217",
+    "eurostat:population":5467,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243400017",
     "frgov:id":"BDCSURCO0000000009612905",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683419,
         102191581,
@@ -58,7 +72,10 @@
         102067699
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_34217",
+        "eurostat:nuts_2021_id":"34217"
+    },
     "wof:coterminous":[
         101773867
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6240dc373d90844b90a1ced96f10cae2",
+    "wof:geomhash":"bc0d33de0ca06c40e24e19e5ed8f5c62",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404349955,
-    "wof:lastmodified":1582324701,
+    "wof:lastmodified":1684352616,
     "wof:name":"Prades-Le-Lez",
     "wof:parent_id":102067699,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":5467,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

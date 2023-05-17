@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_27603",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Sim\u00e9on",
+    "eurostat:nuts_2021_id":"27603",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD21",
+    "eurostat:nuts_2021_level_lau":"27603",
+    "eurostat:population":317,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066017",
     "frgov:id":"BDCSURCO0000000009586318",
     "frgov:insee_arr":"2",
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683283,
         102191581,
@@ -56,7 +70,10 @@
         102066491
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_27603",
+        "eurostat:nuts_2021_id":"27603"
+    },
     "wof:coterminous":[
         1360675145
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3eb2522d9b3c695055a3ce68bb60940f",
+    "wof:geomhash":"d18d2fc5a62a083f6009a2b29094965c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404373799,
-    "wof:lastmodified":1582325337,
+    "wof:lastmodified":1684352934,
     "wof:name":"Saint-Simeon",
     "wof:parent_id":102066491,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":317,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

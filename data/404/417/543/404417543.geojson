@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_11012",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Argeliers",
+    "eurostat:nuts_2021_id":"11012",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ11",
+    "eurostat:nuts_2021_level_lau":"11012",
+    "eurostat:population":2139,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"241100593",
     "frgov:id":"BDCSURCO0000000009614652",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001213,
-    "geom:area_square_m":10909459.205898,
+    "geom:area_square_m":10909459.205897,
     "geom:bbox":"2.88141638846,43.2918401004,2.94607917828,43.3262603245",
     "geom:latitude":43.311364,
     "geom:longitude":2.910435,
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683485,
         102191581,
@@ -139,7 +153,10 @@
         102067491
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_11012",
+        "eurostat:nuts_2021_id":"11012"
+    },
     "wof:coterminous":[
         101773301
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"719734bcb63fff92eabd8174dbf283fe",
+    "wof:geomhash":"8e3ac8a1c58a422cfc752d7664ec40fd",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404417543,
-    "wof:lastmodified":1582325133,
+    "wof:lastmodified":1684353455,
     "wof:name":"Argeliers",
     "wof:parent_id":102067491,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2139,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

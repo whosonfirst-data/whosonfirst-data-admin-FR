@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_45275",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Firmin-des-Bois",
+    "eurostat:nuts_2021_id":"45275",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB06",
+    "eurostat:nuts_2021_level_lau":"45275",
+    "eurostat:population":462,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067668",
     "frgov:id":"BDCSURCO0000000009595763",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002295,
-    "geom:area_square_m":18998130.142185,
+    "geom:area_square_m":18998130.142186,
     "geom:bbox":"2.87784557691,47.9427903581,2.95462317413,47.9911920007",
     "geom:latitude":47.96963,
     "geom:longitude":2.909367,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683479,
         102191581,
@@ -57,7 +71,10 @@
         102065437
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_45275",
+        "eurostat:nuts_2021_id":"45275"
+    },
     "wof:coterminous":[
         1125810721
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b87ff7ed3bab3940516342c907004187",
+    "wof:geomhash":"b02efd3e68911b77708ea382d8e61e37",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404360567,
-    "wof:lastmodified":1582325041,
+    "wof:lastmodified":1684352761,
     "wof:name":"Saint-Firmin-Des-Bois",
     "wof:parent_id":102065437,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":462,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

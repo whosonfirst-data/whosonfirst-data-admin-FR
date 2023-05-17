@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_62304",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Erny-Saint-Julien",
+    "eurostat:nuts_2021_id":"62304",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE1",
+    "eurostat:nuts_2021_level_3":"FRE12",
+    "eurostat:nuts_2021_level_lau":"62304",
+    "eurostat:population":325,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069037",
     "frgov:id":"BDCSURCO0000000009580710",
     "frgov:insee_arr":"5",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000682,
-    "geom:area_square_m":5356896.419655,
+    "geom:area_square_m":5356896.419656,
     "geom:bbox":"2.22749051214,50.5680804399,2.27108730511,50.5960653387",
     "geom:latitude":50.58399,
     "geom:longitude":2.25186,
@@ -132,6 +144,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683255,
         102191581,
@@ -142,7 +156,10 @@
         102068695
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_62304",
+        "eurostat:nuts_2021_id":"62304"
+    },
     "wof:coterminous":[
         101898529
     ],
@@ -150,7 +167,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a711f3bbd5febcd354c05f6b08c43b79",
+    "wof:geomhash":"4878e49f49d4e6cd8de4ff6b92c691c1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -164,11 +181,13 @@
         }
     ],
     "wof:id":404426771,
-    "wof:lastmodified":1582325084,
+    "wof:lastmodified":1684353566,
     "wof:name":"Erny-Saint-Julien",
     "wof:parent_id":102068695,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":325,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

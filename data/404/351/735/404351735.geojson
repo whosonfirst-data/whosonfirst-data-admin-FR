@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_43170",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Beauzire",
+    "eurostat:nuts_2021_id":"43170",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK13",
+    "eurostat:nuts_2021_level_lau":"43170",
+    "eurostat:population":415,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244301032",
     "frgov:id":"BDCSURCO0000000009607504",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.002722,
-    "geom:area_square_m":23685111.153241,
+    "geom:area_square_m":23685111.153242,
     "geom:bbox":"3.23644972335,45.235629096,3.31868694356,45.3110978701",
     "geom:latitude":45.27696,
     "geom:longitude":3.282935,
@@ -79,6 +91,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683413,
         102191581,
@@ -89,7 +103,10 @@
         102065039
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_43170",
+        "eurostat:nuts_2021_id":"43170"
+    },
     "wof:coterminous":[
         1360672945
     ],
@@ -97,7 +114,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d2cd3dc40f9280f076c1f186bf76023a",
+    "wof:geomhash":"6a86b74f24e0d13c6c5f4c4a3221af4c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -111,11 +128,13 @@
         }
     ],
     "wof:id":404351735,
-    "wof:lastmodified":1582324956,
+    "wof:lastmodified":1684352642,
     "wof:name":"Saint-Beauzire",
     "wof:parent_id":102065039,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":415,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

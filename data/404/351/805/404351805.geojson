@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_15214",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Saury",
+    "eurostat:nuts_2021_id":"15214",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK12",
+    "eurostat:nuts_2021_level_lau":"15214",
+    "eurostat:population":185,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066678",
     "frgov:id":"BDCSURCO0000000009608993",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.003495,
-    "geom:area_square_m":30624951.540266,
+    "geom:area_square_m":30624951.540264,
     "geom:bbox":"2.08351948947,44.8406306588,2.16451892642,44.9133574126",
     "geom:latitude":44.878871,
     "geom:longitude":2.124585,
@@ -135,6 +147,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683517,
         102191581,
@@ -145,7 +159,10 @@
         102068153
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_15214",
+        "eurostat:nuts_2021_id":"15214"
+    },
     "wof:coterminous":[
         1125777781
     ],
@@ -153,7 +170,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"1eb6bfcac37873fefa7f2c8d83a1aa6c",
+    "wof:geomhash":"7f5dc5c5ac983d7f9fe76ce3054d2e7d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -167,11 +184,13 @@
         }
     ],
     "wof:id":404351805,
-    "wof:lastmodified":1582324951,
+    "wof:lastmodified":1684352643,
     "wof:name":"Saint-Saury",
     "wof:parent_id":102068153,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":185,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

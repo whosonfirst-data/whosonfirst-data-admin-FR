@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_64470",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Armou",
+    "eurostat:nuts_2021_id":"64470",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI15",
+    "eurostat:nuts_2021_level_lau":"64470",
+    "eurostat:population":636,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067296",
     "frgov:id":"BDCSURCO0000000009614289",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001394,
-    "geom:area_square_m":12519755.226639,
+    "geom:area_square_m":12519755.226638,
     "geom:bbox":"-0.330183902703,43.382724105,-0.278781534125,43.4309494963",
     "geom:latitude":43.408293,
     "geom:longitude":-0.307074,
@@ -132,6 +144,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683539,
         102191581,
@@ -142,7 +156,10 @@
         102068661
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_64470",
+        "eurostat:nuts_2021_id":"64470"
+    },
     "wof:coterminous":[
         1125938993
     ],
@@ -150,7 +167,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"27f1114a660010e5e3a0ecf0df98648b",
+    "wof:geomhash":"a1603d5f4b7a63cbd874cd61d9a16cde",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -164,11 +181,13 @@
         }
     ],
     "wof:id":404349305,
-    "wof:lastmodified":1582324711,
+    "wof:lastmodified":1684352607,
     "wof:name":"Saint-Armou",
     "wof:parent_id":102068661,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":636,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

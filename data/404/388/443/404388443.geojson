@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_27214",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"\u00c9couis",
+    "eurostat:nuts_2021_id":"27214",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD21",
+    "eurostat:nuts_2021_level_lau":"27214",
+    "eurostat:population":816,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072312",
     "frgov:id":"BDCSURCO0000000009585805",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001626,
-    "geom:area_square_m":13111688.118624,
+    "geom:area_square_m":13111688.118625,
     "geom:bbox":"1.39154673529,49.2835066273,1.47155962455,49.3276543813",
     "geom:latitude":49.306707,
     "geom:longitude":1.430967,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683283,
         102191581,
@@ -58,7 +72,10 @@
         102067571
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_27214",
+        "eurostat:nuts_2021_id":"27214"
+    },
     "wof:coterminous":[
         1126034167
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9fb6b51a4e859d6bfb69b0a02eafd946",
+    "wof:geomhash":"1fa66a83bb56092dd02adabd750cd611",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404388443,
-    "wof:lastmodified":1582325486,
+    "wof:lastmodified":1684353109,
     "wof:name":"Ecouis",
     "wof:parent_id":102067571,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":816,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

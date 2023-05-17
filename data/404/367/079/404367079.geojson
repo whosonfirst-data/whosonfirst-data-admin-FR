@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_15217",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Victor",
+    "eurostat:nuts_2021_id":"15217",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK12",
+    "eurostat:nuts_2021_level_lau":"15217",
+    "eurostat:population":107,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066678",
     "frgov:id":"BDCSURCO0000000009608360",
     "frgov:insee_arr":"1",
@@ -88,6 +100,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683517,
         102191581,
@@ -98,7 +112,10 @@
         102065413
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_15217",
+        "eurostat:nuts_2021_id":"15217"
+    },
     "wof:coterminous":[
         1360674505
     ],
@@ -106,7 +123,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"84e409e053a22cdaf691a658bb92fd5a",
+    "wof:geomhash":"af9ec162a3464e0335592fdde0309ee2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -120,11 +137,13 @@
         }
     ],
     "wof:id":404367079,
-    "wof:lastmodified":1582324989,
+    "wof:lastmodified":1684352853,
     "wof:name":"Saint-Victor",
     "wof:parent_id":102065413,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":107,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

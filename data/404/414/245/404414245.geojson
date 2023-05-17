@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_76475",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Franqueville-Saint-Pierre",
+    "eurostat:nuts_2021_id":"76475",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD22",
+    "eurostat:nuts_2021_level_lau":"76475",
+    "eurostat:population":6123,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200023414",
     "frgov:id":"BDCSURCO0000000009585046",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001066,
-    "geom:area_square_m":8573667.140995,
+    "geom:area_square_m":8573667.140994,
     "geom:bbox":"1.15365224981,49.3905846891,1.21916213046,49.4169238532",
     "geom:latitude":49.403784,
     "geom:longitude":1.183474,
@@ -117,6 +129,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683251,
         102191581,
@@ -127,7 +141,10 @@
         102065587
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_76475",
+        "eurostat:nuts_2021_id":"76475"
+    },
     "wof:coterminous":[
         101750195
     ],
@@ -135,7 +152,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"36b4eeede4d457237917492c2261871f",
+    "wof:geomhash":"ede52bc886d75814ca0c411793c3482c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -149,11 +166,13 @@
         }
     ],
     "wof:id":404414245,
-    "wof:lastmodified":1582324336,
+    "wof:lastmodified":1684353417,
     "wof:name":"Franqueville-Saint-Pierre",
     "wof:parent_id":102065587,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":6123,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

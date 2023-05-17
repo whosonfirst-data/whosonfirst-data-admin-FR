@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_44104",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Montrelais",
+    "eurostat:nuts_2021_id":"44104",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG01",
+    "eurostat:nuts_2021_level_lau":"44104",
+    "eurostat:population":852,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244400552",
     "frgov:id":"BDCSURCO0000000009598730",
     "frgov:insee_arr":"5",
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683233,
         102191581,
@@ -138,7 +152,10 @@
         102071379
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_44104",
+        "eurostat:nuts_2021_id":"44104"
+    },
     "wof:coterminous":[
         101886841
     ],
@@ -146,7 +163,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"164457dfb42f42157678061c268127dc",
+    "wof:geomhash":"301db0bb5b93d8c56879623e8455b8a6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -159,11 +176,13 @@
         }
     ],
     "wof:id":404396291,
-    "wof:lastmodified":1582324078,
+    "wof:lastmodified":1684353206,
     "wof:name":"Montrelais",
     "wof:parent_id":102071379,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":852,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

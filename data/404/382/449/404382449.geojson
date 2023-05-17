@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_52140",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Colombey les Deux \u00c9glises",
+    "eurostat:nuts_2021_id":"52140",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF24",
+    "eurostat:nuts_2021_level_lau":"52140",
+    "eurostat:population":714,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068658",
     "frgov:id":"BDCSURCO0000000009594028",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.010215,
-    "geom:area_square_m":84113243.583704,
+    "geom:area_square_m":84113243.583702,
     "geom:bbox":"4.83525073672,48.1878224971,5.01232645109,48.2956106899",
     "geom:latitude":48.244573,
     "geom:longitude":4.923328,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683261,
         102191581,
@@ -58,7 +72,10 @@
         102066807
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_52140",
+        "eurostat:nuts_2021_id":"52140"
+    },
     "wof:coterminous":[
         101884413
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6a0fb6cea3159a7d5409211d903c20d6",
+    "wof:geomhash":"ec6f74449c5e09423c31a7feab1f933c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404382449,
-    "wof:lastmodified":1582324682,
+    "wof:lastmodified":1684353038,
     "wof:name":"Colombey-Les-Deux-Eglises",
     "wof:parent_id":102066807,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":714,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

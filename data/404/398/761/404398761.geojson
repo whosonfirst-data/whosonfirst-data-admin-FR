@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_66115",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Montesquieu-des-Alb\u00e8res",
+    "eurostat:nuts_2021_id":"66115",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ15",
+    "eurostat:nuts_2021_level_lau":"66115",
+    "eurostat:population":1224,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200043602",
     "frgov:id":"BDCSURCO0000000009616717",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683169,
         102191581,
@@ -58,7 +72,10 @@
         102064279
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_66115",
+        "eurostat:nuts_2021_id":"66115"
+    },
     "wof:coterminous":[
         101897707
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b8e8ad9b525f19cb351738369e649b79",
+    "wof:geomhash":"579a29817dc16c492461e7881f70700c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404398761,
-    "wof:lastmodified":1582324115,
+    "wof:lastmodified":1684353235,
     "wof:name":"Montesquieu-Des-Alberes",
     "wof:parent_id":102064279,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1224,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

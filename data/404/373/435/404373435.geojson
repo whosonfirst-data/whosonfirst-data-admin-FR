@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_89085",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Charmoy",
+    "eurostat:nuts_2021_id":"89085",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC14",
+    "eurostat:nuts_2021_level_lau":"89085",
+    "eurostat:population":1150,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248900383",
     "frgov:id":"BDCSURCO0000000009595746",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000842,
-    "geom:area_square_m":6973390.806563,
+    "geom:area_square_m":6973390.806562,
     "geom:bbox":"3.47518234884,47.9217822428,3.51448693458,47.9629598135",
     "geom:latitude":47.941919,
     "geom:longitude":3.493739,
@@ -84,6 +96,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683503,
         102191581,
@@ -94,7 +108,10 @@
         102070949
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_89085",
+        "eurostat:nuts_2021_id":"89085"
+    },
     "wof:coterminous":[
         101827705
     ],
@@ -102,7 +119,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0a5efcc8cfbc35bf84e6dc929d372060",
+    "wof:geomhash":"81d33b7e78758652aa83d2f3a3f3dc84",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -116,11 +133,13 @@
         }
     ],
     "wof:id":404373435,
-    "wof:lastmodified":1582325350,
+    "wof:lastmodified":1684352929,
     "wof:name":"Charmoy",
     "wof:parent_id":102070949,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1150,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

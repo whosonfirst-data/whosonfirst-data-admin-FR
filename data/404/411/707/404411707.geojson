@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_09328",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Verdun",
+    "eurostat:nuts_2021_id":"09328",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ21",
+    "eurostat:nuts_2021_level_lau":"09328",
+    "eurostat:population":221,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066363",
     "frgov:id":"BDCSURCO0000000009616353",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001287,
-    "geom:area_square_m":11677473.093918,
+    "geom:area_square_m":11677473.093917,
     "geom:bbox":"1.67050025684,42.7823983086,1.71822271904,42.8254373984",
     "geom:latitude":42.806392,
     "geom:longitude":1.692471,
@@ -216,6 +228,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683335,
         102191581,
@@ -226,7 +240,10 @@
         102064629
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_09328",
+        "eurostat:nuts_2021_id":"09328"
+    },
     "wof:coterminous":[
         101898681
     ],
@@ -234,7 +251,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"bcc562e5df43e84ac002551bf5c2cb27",
+    "wof:geomhash":"11a8968fa77f618a84fc2a95c0865070",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -248,11 +265,13 @@
         }
     ],
     "wof:id":404411707,
-    "wof:lastmodified":1582325162,
+    "wof:lastmodified":1684353386,
     "wof:name":"Verdun",
     "wof:parent_id":102064629,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":221,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_71307",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Montceaux-l'\u00c9toile",
+    "eurostat:nuts_2021_id":"71307",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC13",
+    "eurostat:nuts_2021_level_lau":"71307",
+    "eurostat:population":290,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247100639",
     "frgov:id":"BDCSURCO0000000009602847",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001145,
-    "geom:area_square_m":9770601.399978,
+    "geom:area_square_m":9770601.399977,
     "geom:bbox":"4.02556593532,46.3316527616,4.09651501295,46.3853955756",
     "geom:latitude":46.355878,
     "geom:longitude":4.045395,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683543,
         102191581,
@@ -58,7 +72,10 @@
         102069569
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_71307",
+        "eurostat:nuts_2021_id":"71307"
+    },
     "wof:coterminous":[
         101891323
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8bc1bffb7e11b4fd43aa0ea4f8ef5795",
+    "wof:geomhash":"8f9ce89fb20952d041e4c643d45459d0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404358221,
-    "wof:lastmodified":1582324969,
+    "wof:lastmodified":1684352728,
     "wof:name":"Montceaux-L'Etoile",
     "wof:parent_id":102069569,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":290,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

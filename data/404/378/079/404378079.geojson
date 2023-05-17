@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_70103",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bruy\u00e8re",
+    "eurostat:nuts_2021_id":"70103",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC23",
+    "eurostat:nuts_2021_level_lau":"70103",
+    "eurostat:population":218,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247000854",
     "frgov:id":"BDCSURCO0000000009595979",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000751,
-    "geom:area_square_m":6239833.602312,
+    "geom:area_square_m":6239833.602313,
     "geom:bbox":"6.45051359616,47.7876668474,6.49382272479,47.8368846362",
     "geom:latitude":47.812562,
     "geom:longitude":6.469581,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683559,
         102191581,
@@ -56,7 +70,10 @@
         102065461
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_70103",
+        "eurostat:nuts_2021_id":"70103"
+    },
     "wof:coterminous":[
         1360675585
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6395a771ac015aa9a3be2d89d600d758",
+    "wof:geomhash":"144848c6bf11830362f0222000724c8f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404378079,
-    "wof:lastmodified":1582324734,
+    "wof:lastmodified":1684352988,
     "wof:name":"La Bruyere",
     "wof:parent_id":102065461,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":218,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_81250",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Genest-de-Contest",
+    "eurostat:nuts_2021_id":"81250",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ27",
+    "eurostat:nuts_2021_level_lau":"81250",
+    "eurostat:population":289,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200034056",
     "frgov:id":"BDCSURCO0000000009612718",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683603,
         102191581,
@@ -58,7 +72,10 @@
         102067285
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_81250",
+        "eurostat:nuts_2021_id":"81250"
+    },
     "wof:coterminous":[
         1126013161
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e40babf1781991c9f091bd4395656072",
+    "wof:geomhash":"75a83bf0734090efd07bb7e463379a01",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404424039,
-    "wof:lastmodified":1582324392,
+    "wof:lastmodified":1684353534,
     "wof:name":"Saint-Genest-De-Contest",
     "wof:parent_id":102067285,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":289,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

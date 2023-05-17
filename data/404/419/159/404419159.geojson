@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_04186",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Laurent-du-Verdon",
+    "eurostat:nuts_2021_id":"04186",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL01",
+    "eurostat:nuts_2021_level_lau":"04186",
+    "eurostat:population":97,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200034700",
     "frgov:id":"BDCSURCO0000000009612624",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.001065,
-    "geom:area_square_m":9516781.935444,
+    "geom:area_square_m":9516781.935445,
     "geom:bbox":"6.04862816831,43.7000750034,6.09200715887,43.7418472903",
     "geom:latitude":43.721265,
     "geom:longitude":6.068783,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683509,
         102191581,
@@ -57,7 +71,10 @@
         102068249
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_04186",
+        "eurostat:nuts_2021_id":"04186"
+    },
     "wof:coterminous":[
         1125914305
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"77578a62ff2800424f848b3b49ef21a1",
+    "wof:geomhash":"aea2169d75a5b68142b0276f0bcfd25e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404419159,
-    "wof:lastmodified":1582325061,
+    "wof:lastmodified":1684353473,
     "wof:name":"Saint-Laurent-Du-Verdon",
     "wof:parent_id":102068249,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":97,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

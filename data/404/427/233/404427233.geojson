@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_18259",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sury-\u00e8s-Bois",
+    "eurostat:nuts_2021_id":"18259",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB01",
+    "eurostat:nuts_2021_level_lau":"18259",
+    "eurostat:population":270,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069227",
     "frgov:id":"BDCSURCO0000000009598662",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683549,
         102191581,
@@ -57,7 +71,10 @@
         102069439
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_18259",
+        "eurostat:nuts_2021_id":"18259"
+    },
     "wof:coterminous":[
         1125822391
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"01dea98ab053a652c3779baad291f7c7",
+    "wof:geomhash":"be1fe0a0b75d43d9a0ab8d98ef2a4bda",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404427233,
-    "wof:lastmodified":1582325238,
+    "wof:lastmodified":1684353571,
     "wof:name":"Sury-Es-Bois",
     "wof:parent_id":102069439,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":270,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

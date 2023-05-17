@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_91560",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Jean-de-Beauregard",
+    "eurostat:nuts_2021_id":"91560",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR104",
+    "eurostat:nuts_2021_level_lau":"91560",
+    "eurostat:population":441,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"249100074",
     "frgov:id":"BDCSURCO0000000009591120",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"ILE-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00049,
-    "geom:area_square_m":4003971.305582,
+    "geom:area_square_m":4003971.305583,
     "geom:bbox":"2.1527078075,48.6559967914,2.19227523809,48.6771280461",
     "geom:latitude":48.665817,
     "geom:longitude":2.172247,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683371,
         102191581,
@@ -57,7 +71,10 @@
         102068111
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_91560",
+        "eurostat:nuts_2021_id":"91560"
+    },
     "wof:coterminous":[
         1126023179
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"56fc8edadaf78af9269b93ee43c9b8de",
+    "wof:geomhash":"734ac071f4873fe83f3d8c35b1e72857",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404368559,
-    "wof:lastmodified":1582324866,
+    "wof:lastmodified":1684352873,
     "wof:name":"Saint-Jean-De-Beauregard",
     "wof:parent_id":102068111,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":441,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

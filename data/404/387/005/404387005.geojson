@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_21564",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Nicolas-l\u00e8s-C\u00eeteaux",
+    "eurostat:nuts_2021_id":"21564",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC11",
+    "eurostat:nuts_2021_level_lau":"21564",
+    "eurostat:population":427,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070894",
     "frgov:id":"BDCSURCO0000000009599986",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003428,
-    "geom:area_square_m":28841191.623949,
+    "geom:area_square_m":28841191.62395,
     "geom:bbox":"5.02969664737,47.09857811,5.13202501193,47.1715837056",
     "geom:latitude":47.129032,
     "geom:longitude":5.084546,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683563,
         102191581,
@@ -58,7 +72,10 @@
         102068705
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_21564",
+        "eurostat:nuts_2021_id":"21564"
+    },
     "wof:coterminous":[
         101890705
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"134c945b7045db16191de7117c577b5d",
+    "wof:geomhash":"a63cb0b405ec2530972daabc247d770a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404387005,
-    "wof:lastmodified":1582325367,
+    "wof:lastmodified":1684353093,
     "wof:name":"Saint-Nicolas-Les-Citeaux",
     "wof:parent_id":102068705,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":427,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

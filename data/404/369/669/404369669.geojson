@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_67452",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Schnersheim",
+    "eurostat:nuts_2021_id":"67452",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF1",
+    "eurostat:nuts_2021_level_3":"FRF11",
+    "eurostat:nuts_2021_level_lau":"67452",
+    "eurostat:population":1613,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200034635",
     "frgov:id":"BDCSURCO0000000009589957",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.001355,
-    "geom:area_square_m":11066007.555395,
+    "geom:area_square_m":11066007.555397,
     "geom:bbox":"7.53962562996,48.6366502403,7.60165426034,48.6787963608",
     "geom:latitude":48.659983,
     "geom:longitude":7.568753,
@@ -144,6 +156,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683221,
         102191581,
@@ -154,7 +168,10 @@
         102070075
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_67452",
+        "eurostat:nuts_2021_id":"67452"
+    },
     "wof:coterminous":[
         101883385
     ],
@@ -162,7 +179,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5e7e0af1172208d2d3eb84b73e3566cf",
+    "wof:geomhash":"5d0189bb6e1b4b7b243d39d61010ddbf",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -176,11 +193,13 @@
         }
     ],
     "wof:id":404369669,
-    "wof:lastmodified":1582324910,
+    "wof:lastmodified":1684352886,
     "wof:name":"Schnersheim",
     "wof:parent_id":102070075,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1613,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

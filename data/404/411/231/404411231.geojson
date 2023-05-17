@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_30236",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Bonnet-de-Salendrinque",
+    "eurostat:nuts_2021_id":"30236",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ12",
+    "eurostat:nuts_2021_level_lau":"30236",
+    "eurostat:population":120,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066918",
     "frgov:id":"BDCSURCO0000000009611571",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000404,
-    "geom:area_square_m":3594010.158885,
+    "geom:area_square_m":3594010.158886,
     "geom:bbox":"3.86001176616,44.0224063311,3.88691869791,44.0503367835",
     "geom:latitude":44.035816,
     "geom:longitude":3.871607,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683431,
         102191581,
@@ -56,7 +70,10 @@
         102066729
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_30236",
+        "eurostat:nuts_2021_id":"30236"
+    },
     "wof:coterminous":[
         1360678813
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b7ae68653dae1a2e1ec84a7035163998",
+    "wof:geomhash":"a57d437c75f6fdd216fbb79a6f30be50",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404411231,
-    "wof:lastmodified":1582325172,
+    "wof:lastmodified":1684353380,
     "wof:name":"Saint-Bonnet-De-Salendrinque",
     "wof:parent_id":102066729,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":120,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

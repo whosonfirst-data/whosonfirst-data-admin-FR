@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_62512",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ligny-l\u00e8s-Aire",
+    "eurostat:nuts_2021_id":"62512",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE1",
+    "eurostat:nuts_2021_level_3":"FRE12",
+    "eurostat:nuts_2021_level_lau":"62512",
+    "eurostat:population":598,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072460",
     "frgov:id":"BDCSURCO0000000009580797",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001025,
-    "geom:area_square_m":8051045.317639,
+    "geom:area_square_m":8051045.31764,
     "geom:bbox":"2.31632661436,50.5453632929,2.36631830688,50.5809194684",
     "geom:latitude":50.563285,
     "geom:longitude":2.336356,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683255,
         102191581,
@@ -58,7 +72,10 @@
         102070861
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_62512",
+        "eurostat:nuts_2021_id":"62512"
+    },
     "wof:coterminous":[
         1125779063
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"879683e264723521fe3a5d49a9b81531",
+    "wof:geomhash":"f3cf7d02fbdcf79dcc7e1e3d8fdafd1a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404396383,
-    "wof:lastmodified":1582324072,
+    "wof:lastmodified":1684353207,
     "wof:name":"Ligny-Les-Aire",
     "wof:parent_id":102070861,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":598,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

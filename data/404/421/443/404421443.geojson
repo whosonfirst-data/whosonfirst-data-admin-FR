@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_25485",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"R\u00e9mondans-Vaivre",
+    "eurostat:nuts_2021_id":"25485",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC21",
+    "eurostat:nuts_2021_level_lau":"25485",
+    "eurostat:population":234,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200065647",
     "frgov:id":"BDCSURCO0000000009598477",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001089,
-    "geom:area_square_m":9114927.804352,
+    "geom:area_square_m":9114927.804353,
     "geom:bbox":"6.68365457632,47.3584135955,6.73898566998,47.4036472744",
     "geom:latitude":47.379139,
     "geom:longitude":6.708286,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683239,
         102191581,
@@ -58,7 +72,10 @@
         102068203
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_25485",
+        "eurostat:nuts_2021_id":"25485"
+    },
     "wof:coterminous":[
         1125801173
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"cd8f8c0619b30db313e8177a9189b03c",
+    "wof:geomhash":"b4d14a3b0b0fef752de2008f0bc52e57",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404421443,
-    "wof:lastmodified":1582325106,
+    "wof:lastmodified":1684353503,
     "wof:name":"Remondans-Vaivre",
     "wof:parent_id":102068203,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":234,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

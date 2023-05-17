@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_25472",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Puessans",
+    "eurostat:nuts_2021_id":"25472",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC21",
+    "eurostat:nuts_2021_level_lau":"25472",
+    "eurostat:population":31,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068294",
     "frgov:id":"BDCSURCO0000000009598216",
     "frgov:insee_arr":"1",
@@ -114,6 +126,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683239,
         102191581,
@@ -124,7 +138,10 @@
         102068529
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_25472",
+        "eurostat:nuts_2021_id":"25472"
+    },
     "wof:coterminous":[
         1125799387
     ],
@@ -132,7 +149,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"40e857016e97c04998bdece140a7554d",
+    "wof:geomhash":"c8a734c5ad35a944bfa5fae5e2ed57ac",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -146,11 +163,13 @@
         }
     ],
     "wof:id":404421497,
-    "wof:lastmodified":1582325099,
+    "wof:lastmodified":1684353503,
     "wof:name":"Puessans",
     "wof:parent_id":102068529,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":31,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

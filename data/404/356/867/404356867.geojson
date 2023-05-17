@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_61002",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Almen\u00eaches",
+    "eurostat:nuts_2021_id":"61002",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD13",
+    "eurostat:nuts_2021_level_lau":"61002",
+    "eurostat:population":716,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200035111",
     "frgov:id":"BDCSURCO0000000009590760",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002496,
-    "geom:area_square_m":20372756.277229,
+    "geom:area_square_m":20372756.27723,
     "geom:bbox":"0.0741961996497,48.675384667,0.174188342533,48.7194716864",
     "geom:latitude":48.698249,
     "geom:longitude":0.126047,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683527,
         102191581,
@@ -58,7 +72,10 @@
         102068773
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_61002",
+        "eurostat:nuts_2021_id":"61002"
+    },
     "wof:coterminous":[
         101879707
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"1211ab5da6323d7dbfcb8b1102586910",
+    "wof:geomhash":"2c0c6811dda5b0addd9b77219bce3b27",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404356867,
-    "wof:lastmodified":1582324930,
+    "wof:lastmodified":1684352710,
     "wof:name":"Almeneches",
     "wof:parent_id":102068773,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":716,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

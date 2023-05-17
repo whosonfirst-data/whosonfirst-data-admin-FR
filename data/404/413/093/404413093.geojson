@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_12230",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Jean-Delnous",
+    "eurostat:nuts_2021_id":"12230",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ22",
+    "eurostat:nuts_2021_level_lau":"12230",
+    "eurostat:population":418,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"241200542",
     "frgov:id":"BDCSURCO0000000009611815",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002067,
-    "geom:area_square_m":18374430.397612,
+    "geom:area_square_m":18374430.397613,
     "geom:bbox":"2.46035978114,44.0112100462,2.52223149883,44.0666956056",
     "geom:latitude":44.041326,
     "geom:longitude":2.492409,
@@ -117,6 +129,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683301,
         102191581,
@@ -127,7 +141,10 @@
         102068949
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_12230",
+        "eurostat:nuts_2021_id":"12230"
+    },
     "wof:coterminous":[
         1126024639
     ],
@@ -135,7 +152,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8654c90de97920153b3e071ce4446f1f",
+    "wof:geomhash":"a92ef45cd7f57b8dba3e20a51106d549",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -149,11 +166,13 @@
         }
     ],
     "wof:id":404413093,
-    "wof:lastmodified":1582324330,
+    "wof:lastmodified":1684353402,
     "wof:name":"Saint-Jean-Delnous",
     "wof:parent_id":102068949,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":418,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

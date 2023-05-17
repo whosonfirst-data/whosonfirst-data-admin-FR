@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_71325",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Motte-Saint-Jean",
+    "eurostat:nuts_2021_id":"71325",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC13",
+    "eurostat:nuts_2021_level_lau":"71325",
+    "eurostat:population":1217,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071884",
     "frgov:id":"BDCSURCO0000000009602393",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002524,
-    "geom:area_square_m":21474755.53432,
+    "geom:area_square_m":21474755.534319,
     "geom:bbox":"3.91649196892,46.4858681369,3.99334053721,46.5575656587",
     "geom:latitude":46.514595,
     "geom:longitude":3.959887,
@@ -120,6 +132,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683543,
         102191581,
@@ -130,7 +144,10 @@
         102067525
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_71325",
+        "eurostat:nuts_2021_id":"71325"
+    },
     "wof:coterminous":[
         101768385
     ],
@@ -138,7 +155,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3ed16a1d854843995eb64c9b9f2db752",
+    "wof:geomhash":"69c1a93a5580b8488e27c8550cbf8186",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -152,11 +169,13 @@
         }
     ],
     "wof:id":404382661,
-    "wof:lastmodified":1582324685,
+    "wof:lastmodified":1684353041,
     "wof:name":"La Motte-Saint-Jean",
     "wof:parent_id":102067525,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1217,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

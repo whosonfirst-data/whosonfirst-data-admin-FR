@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_87039",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ch\u00e2teau-Chervix",
+    "eurostat:nuts_2021_id":"87039",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI23",
+    "eurostat:nuts_2021_level_lau":"87039",
+    "eurostat:population":799,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040814",
     "frgov:id":"BDCSURCO0000000009606395",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.005933,
-    "geom:area_square_m":51334569.57507,
+    "geom:area_square_m":51334569.575068,
     "geom:bbox":"1.30944182045,45.5336116702,1.4297169472,45.6516174234",
     "geom:latitude":45.590175,
     "geom:longitude":1.356627,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683531,
         102191581,
@@ -58,7 +72,10 @@
         102068621
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_87039",
+        "eurostat:nuts_2021_id":"87039"
+    },
     "wof:coterminous":[
         101894039
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5f0001c8d29594975363777c499667ba",
+    "wof:geomhash":"148dfa50da1f1097bfcfdd82e9731d15",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404357999,
-    "wof:lastmodified":1582324888,
+    "wof:lastmodified":1684352725,
     "wof:name":"Chateau-Chervix",
     "wof:parent_id":102068621,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":799,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

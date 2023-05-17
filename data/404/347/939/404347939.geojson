@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_61427",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Martin-l'Aiguillon",
+    "eurostat:nuts_2021_id":"61427",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD13",
+    "eurostat:nuts_2021_level_lau":"61427",
+    "eurostat:population":195,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071652",
     "frgov:id":"BDCSURCO0000000009591651",
     "frgov:insee_arr":"1",
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683527,
         102191581,
@@ -56,7 +70,10 @@
         102065645
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_61427",
+        "eurostat:nuts_2021_id":"61427"
+    },
     "wof:coterminous":[
         1360672579
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2b48d49fc1eaf1ef5e2cc968f9eae5fc",
+    "wof:geomhash":"a90780aac6afd82408be9c5bbf240e49",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404347939,
-    "wof:lastmodified":1582324720,
+    "wof:lastmodified":1684352587,
     "wof:name":"Saint-Martin-L'Aiguillon",
     "wof:parent_id":102065645,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":195,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

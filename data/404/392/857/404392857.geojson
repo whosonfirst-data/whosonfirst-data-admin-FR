@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_90026",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ch\u00e8vremont",
+    "eurostat:nuts_2021_id":"90026",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC24",
+    "eurostat:nuts_2021_level_lau":"90026",
+    "eurostat:population":1600,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069052",
     "frgov:id":"BDCSURCO0000000009596988",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001043,
-    "geom:area_square_m":8691212.005584,
+    "geom:area_square_m":8691212.005585,
     "geom:bbox":"6.89417638553,47.6149319738,6.96621101346,47.6385886587",
     "geom:latitude":47.628056,
     "geom:longitude":6.929779,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683353,
         102191581,
@@ -58,7 +72,10 @@
         102066281
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_90026",
+        "eurostat:nuts_2021_id":"90026"
+    },
     "wof:coterminous":[
         101765541
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9fb770eaaf65d87ef3d2bb06ffc03ecf",
+    "wof:geomhash":"9c9f9e0201b2a4b4c346532c960097b3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404392857,
-    "wof:lastmodified":1582324811,
+    "wof:lastmodified":1684353166,
     "wof:name":"Chevremont",
     "wof:parent_id":102066281,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1600,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

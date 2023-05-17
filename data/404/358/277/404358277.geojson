@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_82171",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Porquier",
+    "eurostat:nuts_2021_id":"82171",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ28",
+    "eurostat:nuts_2021_level_lau":"82171",
+    "eurostat:population":1404,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066322",
     "frgov:id":"BDCSURCO0000000009611854",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001842,
-    "geom:area_square_m":16384880.566939,
+    "geom:area_square_m":16384880.566938,
     "geom:bbox":"1.13725174473,43.9848455866,1.22132160563,44.0306101759",
     "geom:latitude":44.007909,
     "geom:longitude":1.182354,
@@ -120,6 +132,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683217,
         102191581,
@@ -130,7 +144,10 @@
         102067475
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_82171",
+        "eurostat:nuts_2021_id":"82171"
+    },
     "wof:coterminous":[
         1125997495
     ],
@@ -138,7 +155,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"bce5e21ae4bd7c4fbfc8981cd8834df9",
+    "wof:geomhash":"b9e22b17a58d51c5fbb3a7b833cecc97",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -152,11 +169,13 @@
         }
     ],
     "wof:id":404358277,
-    "wof:lastmodified":1582324978,
+    "wof:lastmodified":1684352729,
     "wof:name":"Saint-Porquier",
     "wof:parent_id":102067475,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1404,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

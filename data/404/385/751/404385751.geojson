@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_77061",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Cannes-\u00c9cluse",
+    "eurostat:nuts_2021_id":"77061",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR102",
+    "eurostat:nuts_2021_level_lau":"77061",
+    "eurostat:population":2466,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247700107",
     "frgov:id":"BDCSURCO0000000009593287",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683385,
         102191581,
@@ -57,7 +71,10 @@
         102068097
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_77061",
+        "eurostat:nuts_2021_id":"77061"
+    },
     "wof:coterminous":[
         101827987
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0297b58963f588d97a55a3399a556a9a",
+    "wof:geomhash":"3a3ac2b9e0b4845251877736d663426f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404385751,
-    "wof:lastmodified":1582324637,
+    "wof:lastmodified":1684353079,
     "wof:name":"Cannes-Ecluse",
     "wof:parent_id":102068097,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2466,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

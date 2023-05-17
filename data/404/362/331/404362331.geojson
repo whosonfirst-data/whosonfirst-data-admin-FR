@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_28335",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-\u00c9liph",
+    "eurostat:nuts_2021_id":"28335",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB02",
+    "eurostat:nuts_2021_level_lau":"28335",
+    "eurostat:population":875,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070167",
     "frgov:id":"BDCSURCO0000000009592959",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002902,
-    "geom:area_square_m":23798180.782755,
+    "geom:area_square_m":23798180.782753,
     "geom:bbox":"0.982433801945,48.427238088,1.09362442039,48.4796519687",
     "geom:latitude":48.449443,
     "geom:longitude":1.034994,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683189,
         102191581,
@@ -57,7 +71,10 @@
         102067543
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_28335",
+        "eurostat:nuts_2021_id":"28335"
+    },
     "wof:coterminous":[
         1125810101
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b89d4de6b15b1a4bed96c9fdf30329cb",
+    "wof:geomhash":"441512b6ed6adc8bf841e3dcfea7a648",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404362331,
-    "wof:lastmodified":1582324046,
+    "wof:lastmodified":1684352786,
     "wof:name":"Saint-Eliph",
     "wof:parent_id":102067543,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":875,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

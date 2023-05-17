@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_26031",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"B\u00e2tie-Rolland",
+    "eurostat:nuts_2021_id":"26031",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK23",
+    "eurostat:nuts_2021_level_lau":"26031",
+    "eurostat:population":1029,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040459",
     "frgov:id":"BDCSURCO0000000009609855",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.000946,
-    "geom:area_square_m":8338584.987799,
+    "geom:area_square_m":8338584.9878,
     "geom:bbox":"4.84065536199,44.5453410815,4.89742328039,44.5711296491",
     "geom:latitude":44.557739,
     "geom:longitude":4.866657,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683523,
         102191581,
@@ -58,7 +72,10 @@
         102067039
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_26031",
+        "eurostat:nuts_2021_id":"26031"
+    },
     "wof:coterminous":[
         101896243
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"1d047047370a1e47ee32253328405a0f",
+    "wof:geomhash":"ebff584a1c8b532e64a4f57b0ec6a28c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404422033,
-    "wof:lastmodified":1582324294,
+    "wof:lastmodified":1684353509,
     "wof:name":"La Batie-Rolland",
     "wof:parent_id":102067039,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1029,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

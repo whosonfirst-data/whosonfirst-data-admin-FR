@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_05111",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Puy-Sani\u00e8res",
+    "eurostat:nuts_2021_id":"05111",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL02",
+    "eurostat:nuts_2021_level_lau":"05111",
+    "eurostat:population":283,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067742",
     "frgov:id":"BDCSURCO0000000009609811",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.001308,
-    "geom:area_square_m":11527252.559342,
+    "geom:area_square_m":11527252.559343,
     "geom:bbox":"6.41287787714,44.5338617351,6.46513078858,44.5854179026",
     "geom:latitude":44.556516,
     "geom:longitude":6.436817,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683597,
         102191581,
@@ -57,7 +71,10 @@
         102068191
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_05111",
+        "eurostat:nuts_2021_id":"05111"
+    },
     "wof:coterminous":[
         1125822803
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"aba2abf64dee5661b84cab6c08d5d781",
+    "wof:geomhash":"a7a13223a8ad8329d8d5e3551792aaa6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404401313,
-    "wof:lastmodified":1582324427,
+    "wof:lastmodified":1684353264,
     "wof:name":"Puy-Sanieres",
     "wof:parent_id":102068191,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":283,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

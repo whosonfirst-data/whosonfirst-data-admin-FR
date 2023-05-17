@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_02812",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Villers-H\u00e9lon",
+    "eurostat:nuts_2021_id":"02812",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE21",
+    "eurostat:nuts_2021_level_lau":"02812",
+    "eurostat:population":217,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071991",
     "frgov:id":"BDCSURCO0000000009586172",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001015,
-    "geom:area_square_m":8189368.925582,
+    "geom:area_square_m":8189368.925581,
     "geom:bbox":"3.24287167577,49.2464070121,3.29332739752,49.2832413175",
     "geom:latitude":49.264926,
     "geom:longitude":3.267816,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683247,
         102191581,
@@ -58,7 +72,10 @@
         102070689
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_02812",
+        "eurostat:nuts_2021_id":"02812"
+    },
     "wof:coterminous":[
         101879385
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b02894fcd8aeb479822f5a65d676e5f6",
+    "wof:geomhash":"63f7c69c06d7144845e23b11fe190406",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404389847,
-    "wof:lastmodified":1582325331,
+    "wof:lastmodified":1684353127,
     "wof:name":"Villers-Helon",
     "wof:parent_id":102070689,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":217,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_62107",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"B\u00e9nifontaine",
+    "eurostat:nuts_2021_id":"62107",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE1",
+    "eurostat:nuts_2021_level_3":"FRE12",
+    "eurostat:nuts_2021_level_lau":"62107",
+    "eurostat:population":356,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"246200364",
     "frgov:id":"BDCSURCO0000000009580887",
     "frgov:insee_arr":"7",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000525,
-    "geom:area_square_m":4131387.67162,
+    "geom:area_square_m":4131387.671621,
     "geom:bbox":"2.81190426336,50.4610226535,2.8449738643,50.4941949491",
     "geom:latitude":50.475513,
     "geom:longitude":2.826902,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683255,
         102191581,
@@ -58,7 +72,10 @@
         102071827
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_62107",
+        "eurostat:nuts_2021_id":"62107"
+    },
     "wof:coterminous":[
         1125931991
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0a102d3c05f79953f711d1ca1f613a15",
+    "wof:geomhash":"719591d8acdd67ef94a620541d3a4226",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404381473,
-    "wof:lastmodified":1582325437,
+    "wof:lastmodified":1684353027,
     "wof:name":"Benifontaine",
     "wof:parent_id":102071827,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":356,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

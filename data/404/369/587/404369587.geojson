@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_34262",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Guiraud",
+    "eurostat:nuts_2021_id":"34262",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ13",
+    "eurostat:nuts_2021_level_lau":"34262",
+    "eurostat:population":221,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243400694",
     "frgov:id":"BDCSURCO0000000009613148",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000679,
-    "geom:area_square_m":6069759.063223,
+    "geom:area_square_m":6069759.063222,
     "geom:bbox":"3.42902095805,43.665255863,3.47216930297,43.6954418625",
     "geom:latitude":43.678682,
     "geom:longitude":3.45077,
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683419,
         102191581,
@@ -139,7 +153,10 @@
         102066869
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_34262",
+        "eurostat:nuts_2021_id":"34262"
+    },
     "wof:coterminous":[
         101896741
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4e8f603f9032b8570bdf005377981bdc",
+    "wof:geomhash":"515c9352b0628c48381800f631cd93f6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404369587,
-    "wof:lastmodified":1582324914,
+    "wof:lastmodified":1684352885,
     "wof:name":"Saint-Guiraud",
     "wof:parent_id":102066869,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":221,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

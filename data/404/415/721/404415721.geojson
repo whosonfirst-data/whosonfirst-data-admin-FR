@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_55146",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Dannevoux",
+    "eurostat:nuts_2021_id":"55146",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF32",
+    "eurostat:nuts_2021_level_lau":"55146",
+    "eurostat:population":228,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066132",
     "frgov:id":"BDCSURCO0000000009585596",
     "frgov:insee_arr":"3",
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683297,
         102191581,
@@ -136,7 +150,10 @@
         102066555
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_55146",
+        "eurostat:nuts_2021_id":"55146"
+    },
     "wof:coterminous":[
         101878943
     ],
@@ -144,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3839cf38905e98992e821c22d3262796",
+    "wof:geomhash":"8dea250d3c769a524550bea04a4ec0f5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +175,13 @@
         }
     ],
     "wof:id":404415721,
-    "wof:lastmodified":1582324366,
+    "wof:lastmodified":1684353434,
     "wof:name":"Dannevoux",
     "wof:parent_id":102066555,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":228,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

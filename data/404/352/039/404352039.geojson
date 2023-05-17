@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_61421",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Mars-d'\u00c9grenne",
+    "eurostat:nuts_2021_id":"61421",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD13",
+    "eurostat:nuts_2021_level_lau":"61421",
+    "eurostat:population":677,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068443",
     "frgov:id":"BDCSURCO0000000009592118",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003106,
-    "geom:area_square_m":25419783.305622,
+    "geom:area_square_m":25419783.305621,
     "geom:bbox":"-0.806005785952,48.5272586847,-0.667286456368,48.5754103622",
     "geom:latitude":48.551079,
     "geom:longitude":-0.733624,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683527,
         102191581,
@@ -56,7 +70,10 @@
         102069285
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_61421",
+        "eurostat:nuts_2021_id":"61421"
+    },
     "wof:coterminous":[
         1360672961
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2d453a49c93bfe911aa65bf78dc49632",
+    "wof:geomhash":"70199c166f3a9fd3a6a8de0abd34051a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404352039,
-    "wof:lastmodified":1582324167,
+    "wof:lastmodified":1684352646,
     "wof:name":"Saint-Mars-D'Egrenne",
     "wof:parent_id":102069285,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":677,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

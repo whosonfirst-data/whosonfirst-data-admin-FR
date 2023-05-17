@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_18008",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ar\u00e7ay",
+    "eurostat:nuts_2021_id":"18008",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB01",
+    "eurostat:nuts_2021_level_lau":"18008",
+    "eurostat:population":510,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"241800507",
     "frgov:id":"BDCSURCO0000000009600772",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002179,
-    "geom:area_square_m":18389336.499825,
+    "geom:area_square_m":18389336.499824,
     "geom:bbox":"2.31162963559,46.9244573428,2.36142167791,47.0028558632",
     "geom:latitude":46.962487,
     "geom:longitude":2.335901,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683549,
         102191581,
@@ -55,7 +69,10 @@
         102067375
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_18008",
+        "eurostat:nuts_2021_id":"18008"
+    },
     "wof:coterminous":[
         1360679053
     ],
@@ -63,7 +80,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2b590fb4f2f6a83c4de058e07fb2f69a",
+    "wof:geomhash":"8cb61dd14b55b856715d2b71836e3771",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -76,11 +93,13 @@
         }
     ],
     "wof:id":404413687,
-    "wof:lastmodified":1582324318,
+    "wof:lastmodified":1684353410,
     "wof:name":"Arcay",
     "wof:parent_id":102067375,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":510,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

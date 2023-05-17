@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_64486",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Jean-Poudge",
+    "eurostat:nuts_2021_id":"64486",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI15",
+    "eurostat:nuts_2021_level_lau":"64486",
+    "eurostat:population":73,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067239",
     "frgov:id":"BDCSURCO0000000009613766",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000448,
-    "geom:area_square_m":4012688.51607,
+    "geom:area_square_m":4012688.516069,
     "geom:bbox":"-0.201355522975,43.5162506266,-0.167657193717,43.5411424225",
     "geom:latitude":43.528189,
     "geom:longitude":-0.185411,
@@ -123,6 +135,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683539,
         102191581,
@@ -133,7 +147,10 @@
         102066361
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_64486",
+        "eurostat:nuts_2021_id":"64486"
+    },
     "wof:coterminous":[
         1125842501
     ],
@@ -141,7 +158,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"59d1062b23433a47e958b2907f559b04",
+    "wof:geomhash":"be3fc06a7b2e1ab4a9b98b6b86686736",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -155,11 +172,13 @@
         }
     ],
     "wof:id":404360783,
-    "wof:lastmodified":1582325050,
+    "wof:lastmodified":1684352764,
     "wof:name":"Saint-Jean-Poudge",
     "wof:parent_id":102066361,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":73,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

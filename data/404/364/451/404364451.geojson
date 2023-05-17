@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_08110",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ch\u00e2telet-sur-Sormonne",
+    "eurostat:nuts_2021_id":"08110",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF21",
+    "eurostat:nuts_2021_level_lau":"08110",
+    "eurostat:population":160,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067759",
     "frgov:id":"BDCSURCO0000000009582596",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683309,
         102191581,
@@ -58,7 +72,10 @@
         102068699
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_08110",
+        "eurostat:nuts_2021_id":"08110"
+    },
     "wof:coterminous":[
         1125923029
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b5b5a0196458ff74f75c1c927ab21d53",
+    "wof:geomhash":"37e238320384215385d6dbb50a9ba77d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404364451,
-    "wof:lastmodified":1582324253,
+    "wof:lastmodified":1684352816,
     "wof:name":"Le Chatelet-Sur-Sormonne",
     "wof:parent_id":102068699,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":160,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

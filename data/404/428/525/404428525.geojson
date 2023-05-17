@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_85231",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Hilaire-la-For\u00eat",
+    "eurostat:nuts_2021_id":"85231",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG05",
+    "eurostat:nuts_2021_level_lau":"85231",
+    "eurostat:population":802,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071900",
     "frgov:id":"BDCSURCO0000000009602512",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683409,
         102191581,
@@ -57,7 +71,10 @@
         102069889
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_85231",
+        "eurostat:nuts_2021_id":"85231"
+    },
     "wof:coterminous":[
         1126024553
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"aa27449fc40019ecc93b69c2c6a04ccb",
+    "wof:geomhash":"df7a285e08f782a32e2c577fc86ba477",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404428525,
-    "wof:lastmodified":1582325124,
+    "wof:lastmodified":1684353586,
     "wof:name":"Saint-Hilaire-La-Foret",
     "wof:parent_id":102069889,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":802,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

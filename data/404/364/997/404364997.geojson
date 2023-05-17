@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_29107",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Landudal",
+    "eurostat:nuts_2021_id":"29107",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH02",
+    "eurostat:nuts_2021_level_lau":"29107",
+    "eurostat:population":877,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068120",
     "frgov:id":"BDCSURCO0000000009594638",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BRETAGNE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00205,
-    "geom:area_square_m":16942468.826077,
+    "geom:area_square_m":16942468.826078,
     "geom:bbox":"-4.02280004711,48.0360836594,-3.94056907583,48.0805650563",
     "geom:latitude":48.056675,
     "geom:longitude":-3.977871,
@@ -138,6 +150,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683553,
         102191581,
@@ -147,7 +161,10 @@
         102065389
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_29107",
+        "eurostat:nuts_2021_id":"29107"
+    },
     "wof:coterminous":[
         101881513
     ],
@@ -155,7 +172,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0ae3b92510ae31e3884995e0aef3988e",
+    "wof:geomhash":"547b629ebf697c213eff5d08bf398d63",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -168,11 +185,13 @@
         }
     ],
     "wof:id":404364997,
-    "wof:lastmodified":1582324239,
+    "wof:lastmodified":1684352824,
     "wof:name":"Landudal",
     "wof:parent_id":102065389,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":877,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

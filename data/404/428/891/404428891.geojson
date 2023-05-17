@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"2018-07-11",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_97603",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bandrele",
+    "eurostat:nuts_2021_id":"97603",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRY",
+    "eurostat:nuts_2021_level_2":"FRY5",
+    "eurostat:nuts_2021_level_3":"FRY50",
+    "eurostat:nuts_2021_level_lau":"97603",
+    "eurostat:population":10282,
+    "eurostat:population_year":2020,
     "geom:area":0.002917,
     "geom:area_square_m":35156786.79516,
     "geom:bbox":"45.1408953684,-12.99107267,45.2218860025,-12.8714381001",
@@ -29,6 +41,8 @@
     "qs:source":"France IGN",
     "qs:type":"Chef-lieu canton",
     "src:geom":"quattroshapes",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         102191581,
         85633147,
@@ -36,12 +50,15 @@
         85671203
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_97603",
+        "eurostat:nuts_2021_id":"97603"
+    },
     "wof:controlled":[
         "wof:hierarchy"
     ],
     "wof:country":"FR",
-    "wof:geomhash":"1dbbe0eff9d1698d00e477288cba4354",
+    "wof:geomhash":"d7baa7577389c2515539fa5cc10b0930",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -52,10 +69,12 @@
         }
     ],
     "wof:id":404428891,
-    "wof:lastmodified":1531422067,
+    "wof:lastmodified":1684353589,
     "wof:name":"Bandrele",
     "wof:parent_id":85671203,
     "wof:placetype":"localadmin",
+    "wof:population":10282,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

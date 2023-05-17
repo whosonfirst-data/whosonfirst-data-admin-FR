@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_35302",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Onen-la-Chapelle",
+    "eurostat:nuts_2021_id":"35302",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH03",
+    "eurostat:nuts_2021_level_lau":"35302",
+    "eurostat:population":1143,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200038990",
     "frgov:id":"BDCSURCO0000000009594249",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683461,
         102191581,
@@ -57,7 +71,10 @@
         102070887
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_35302",
+        "eurostat:nuts_2021_id":"35302"
+    },
     "wof:coterminous":[
         1125816233
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"bdf04581f212aa5688679f55217728d6",
+    "wof:geomhash":"b67c52a84b87a0277e2f67d3c8890903",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404362759,
-    "wof:lastmodified":1582324057,
+    "wof:lastmodified":1684352792,
     "wof:name":"Saint-Onen-La-Chapelle",
     "wof:parent_id":102070887,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1143,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

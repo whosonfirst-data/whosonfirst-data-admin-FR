@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_77430",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Pathus",
+    "eurostat:nuts_2021_id":"77430",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR102",
+    "eurostat:nuts_2021_level_lau":"77430",
+    "eurostat:population":6055,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200033090",
     "frgov:id":"BDCSURCO0000000009587677",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"ILE-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000659,
-    "geom:area_square_m":5334913.127263,
+    "geom:area_square_m":5334913.127264,
     "geom:bbox":"2.76083339417,49.0578389285,2.80869870552,49.0901342365",
     "geom:latitude":49.073756,
     "geom:longitude":2.788651,
@@ -117,6 +129,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683385,
         102191581,
@@ -126,7 +140,10 @@
         102065855
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_77430",
+        "eurostat:nuts_2021_id":"77430"
+    },
     "wof:coterminous":[
         101827965
     ],
@@ -134,7 +151,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"670e5eb64e4512836ec97d4437f7760c",
+    "wof:geomhash":"c1b04ea3b2ce45c4284b161df1ad7d6d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -147,11 +164,13 @@
         }
     ],
     "wof:id":404421895,
-    "wof:lastmodified":1582325099,
+    "wof:lastmodified":1684353508,
     "wof:name":"Saint-Pathus",
     "wof:parent_id":102065855,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":6055,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

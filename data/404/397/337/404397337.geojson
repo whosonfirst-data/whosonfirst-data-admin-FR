@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_22144",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"M\u00e9augon",
+    "eurostat:nuts_2021_id":"22144",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH01",
+    "eurostat:nuts_2021_level_lau":"22144",
+    "eurostat:population":1292,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069409",
     "frgov:id":"BDCSURCO0000000009591738",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BRETAGNE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000822,
-    "geom:area_square_m":6733550.90222,
+    "geom:area_square_m":6733550.902222,
     "geom:bbox":"-2.86906316339,48.488409313,-2.82536489629,48.5188585058",
     "geom:latitude":48.504381,
     "geom:longitude":-2.846774,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683515,
         102191581,
@@ -57,7 +71,10 @@
         102071615
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_22144",
+        "eurostat:nuts_2021_id":"22144"
+    },
     "wof:coterminous":[
         101761583
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"21a5718ac8a376eed24aa02e27e2ef42",
+    "wof:geomhash":"cc799ecb29c5c4d7168937509b5387be",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404397337,
-    "wof:lastmodified":1582324200,
+    "wof:lastmodified":1684353217,
     "wof:name":"La Meaugon",
     "wof:parent_id":102071615,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1292,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

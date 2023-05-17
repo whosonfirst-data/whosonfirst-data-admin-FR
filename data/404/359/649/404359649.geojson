@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_63346",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Gen\u00e8s-Champespe",
+    "eurostat:nuts_2021_id":"63346",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK14",
+    "eurostat:nuts_2021_level_lau":"63346",
+    "eurostat:population":219,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"246300966",
     "frgov:id":"BDCSURCO0000000009607072",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683471,
         102191581,
@@ -58,7 +72,10 @@
         102068285
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_63346",
+        "eurostat:nuts_2021_id":"63346"
+    },
     "wof:coterminous":[
         1125934013
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"66bddbf03367a544fddd5a087c211fcd",
+    "wof:geomhash":"bc1a37c36a2f614abc18354a5bffbfc7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404359649,
-    "wof:lastmodified":1582324799,
+    "wof:lastmodified":1684352749,
     "wof:name":"Saint-Genes-Champespe",
     "wof:parent_id":102068285,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":219,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

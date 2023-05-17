@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_10095",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ch\u00eane",
+    "eurostat:nuts_2021_id":"10095",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF22",
+    "eurostat:nuts_2021_level_lau":"10095",
+    "eurostat:population":293,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071777",
     "frgov:id":"BDCSURCO0000000009591943",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.002565,
-    "geom:area_square_m":20989154.308819,
+    "geom:area_square_m":20989154.30882,
     "geom:bbox":"4.13220758715,48.5391270037,4.2185907355,48.5920568396",
     "geom:latitude":48.562516,
     "geom:longitude":4.175456,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683193,
         102191581,
@@ -58,7 +72,10 @@
         102064585
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_10095",
+        "eurostat:nuts_2021_id":"10095"
+    },
     "wof:coterminous":[
         101882999
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"96e73623e2ce58f3d50bd71219a120a9",
+    "wof:geomhash":"aff809e9abc43cc322c2d17baefd0403",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404359719,
-    "wof:lastmodified":1582324804,
+    "wof:lastmodified":1684352750,
     "wof:name":"Le Chene",
     "wof:parent_id":102064585,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":293,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

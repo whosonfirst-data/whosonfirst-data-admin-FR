@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_76723",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Vassonville",
+    "eurostat:nuts_2021_id":"76723",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD22",
+    "eurostat:nuts_2021_level_lau":"76723",
+    "eurostat:population":455,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068534",
     "frgov:id":"BDCSURCO0000000009583658",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000698,
-    "geom:area_square_m":5580841.809776,
+    "geom:area_square_m":5580841.809778,
     "geom:bbox":"1.05566093385,49.6732083588,1.097707469,49.7023928917",
     "geom:latitude":49.689128,
     "geom:longitude":1.077286,
@@ -117,6 +129,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683251,
         102191581,
@@ -127,7 +141,10 @@
         102071633
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_76723",
+        "eurostat:nuts_2021_id":"76723"
+    },
     "wof:coterminous":[
         1125942707
     ],
@@ -135,7 +152,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d75e03a8bb47ae9a103a76b0b47b1912",
+    "wof:geomhash":"6d74eba4b97cb7bf482c35028d2f1549",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -149,11 +166,13 @@
         }
     ],
     "wof:id":404409403,
-    "wof:lastmodified":1582324484,
+    "wof:lastmodified":1684353360,
     "wof:name":"Vassonville",
     "wof:parent_id":102071633,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":455,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_21237",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"\u00c9chalot",
+    "eurostat:nuts_2021_id":"21237",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC11",
+    "eurostat:nuts_2021_level_lau":"21237",
+    "eurostat:population":95,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242101434",
     "frgov:id":"BDCSURCO0000000009597728",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003326,
-    "geom:area_square_m":27729060.380498,
+    "geom:area_square_m":27729060.380499,
     "geom:bbox":"4.79031478335,47.5708013487,4.87587387794,47.6408610564",
     "geom:latitude":47.607321,
     "geom:longitude":4.834909,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683563,
         102191581,
@@ -58,7 +72,10 @@
         102064379
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_21237",
+        "eurostat:nuts_2021_id":"21237"
+    },
     "wof:coterminous":[
         1125832143
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"054c03d3b6873327ec662ab0533bc0f8",
+    "wof:geomhash":"2cba48cf289cc82cd196c046e7f264db",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404398151,
-    "wof:lastmodified":1582324105,
+    "wof:lastmodified":1684353227,
     "wof:name":"Echalot",
     "wof:parent_id":102064379,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":95,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

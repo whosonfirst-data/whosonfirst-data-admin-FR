@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_43219",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Pr\u00e9jet-Armandon",
+    "eurostat:nuts_2021_id":"43219",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK13",
+    "eurostat:nuts_2021_level_lau":"43219",
+    "eurostat:population":107,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200073393",
     "frgov:id":"BDCSURCO0000000009607499",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.00098,
-    "geom:area_square_m":8529726.070227,
+    "geom:area_square_m":8529726.070228,
     "geom:bbox":"3.5228082841,45.2332732711,3.58148709339,45.2659785651",
     "geom:latitude":45.249527,
     "geom:longitude":3.552231,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683413,
         102191581,
@@ -58,7 +72,10 @@
         102067199
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_43219",
+        "eurostat:nuts_2021_id":"43219"
+    },
     "wof:coterminous":[
         1125938103
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"caf5c30d1bca1795df5f0d5239ad0f45",
+    "wof:geomhash":"62bde58a5239a507d743db83dec3dc9f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404365443,
-    "wof:lastmodified":1582324038,
+    "wof:lastmodified":1684352830,
     "wof:name":"Saint-Prejet-Armandon",
     "wof:parent_id":102067199,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":107,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

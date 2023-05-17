@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_18225",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Maur",
+    "eurostat:nuts_2021_id":"18225",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB01",
+    "eurostat:nuts_2021_level_lau":"18225",
+    "eurostat:population":295,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200049484",
     "frgov:id":"BDCSURCO0000000009602214",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003065,
-    "geom:area_square_m":26055529.654095,
+    "geom:area_square_m":26055529.654096,
     "geom:bbox":"2.24988606699,46.5316539721,2.3230219723,46.6039960098",
     "geom:latitude":46.568646,
     "geom:longitude":2.28796,
@@ -93,6 +105,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683549,
         102191581,
@@ -102,7 +116,10 @@
         102065893
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_18225",
+        "eurostat:nuts_2021_id":"18225"
+    },
     "wof:coterminous":[
         1125815519
     ],
@@ -110,7 +127,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"235b60a123b265c9340d3e8b1f501e17",
+    "wof:geomhash":"d26da8a8c9be2e7c66da1ea4d1abdb67",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -123,11 +140,13 @@
         }
     ],
     "wof:id":404359313,
-    "wof:lastmodified":1582324795,
+    "wof:lastmodified":1684352744,
     "wof:name":"Saint-Maur",
     "wof:parent_id":102065893,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":295,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

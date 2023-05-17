@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_36023",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bouges-le-Ch\u00e2teau",
+    "eurostat:nuts_2021_id":"36023",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB03",
+    "eurostat:nuts_2021_level_lau":"36023",
+    "eurostat:population":266,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243600293",
     "frgov:id":"BDCSURCO0000000009600558",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.004138,
-    "geom:area_square_m":34874307.727951,
+    "geom:area_square_m":34874307.727952,
     "geom:bbox":"1.61020474274,47.0029752554,1.72696467227,47.0607417026",
     "geom:latitude":47.031479,
     "geom:longitude":1.664675,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683311,
         102191581,
@@ -57,7 +71,10 @@
         102066873
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_36023",
+        "eurostat:nuts_2021_id":"36023"
+    },
     "wof:coterminous":[
         1125979711
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"69825402b38869ed23164d5af357537a",
+    "wof:geomhash":"d37e70d79ca0c503336d84b497ae4a03",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404355625,
-    "wof:lastmodified":1582324192,
+    "wof:lastmodified":1684352694,
     "wof:name":"Bouges-Le-Chateau",
     "wof:parent_id":102066873,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":266,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

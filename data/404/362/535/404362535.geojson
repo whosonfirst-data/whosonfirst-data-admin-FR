@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_44067",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gu\u00e9men\u00e9-Penfao",
+    "eurostat:nuts_2021_id":"44067",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG01",
+    "eurostat:nuts_2021_level_lau":"44067",
+    "eurostat:population":5200,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243500741",
     "frgov:id":"BDCSURCO0000000009597570",
     "frgov:insee_arr":"5",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.012662,
-    "geom:area_square_m":105520914.350844,
+    "geom:area_square_m":105520914.350848,
     "geom:bbox":"-1.91345261697,47.5739658088,-1.73151536341,47.7083444323",
     "geom:latitude":47.627716,
     "geom:longitude":-1.830802,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683233,
         102191581,
@@ -57,7 +71,10 @@
         102066439
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_44067",
+        "eurostat:nuts_2021_id":"44067"
+    },
     "wof:coterminous":[
         101763221
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9baecf7ce6e2684bb2dc637f345bbe87",
+    "wof:geomhash":"8528c56c336be50378f58cb6e5c53d50",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404362535,
-    "wof:lastmodified":1582324047,
+    "wof:lastmodified":1684352789,
     "wof:name":"Guemene-Penfao",
     "wof:parent_id":102066439,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":5200,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

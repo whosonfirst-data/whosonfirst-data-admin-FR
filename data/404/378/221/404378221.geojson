@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_29272",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Yvi",
+    "eurostat:nuts_2021_id":"29272",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH02",
+    "eurostat:nuts_2021_level_lau":"29272",
+    "eurostat:population":3155,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242900769",
     "frgov:id":"BDCSURCO0000000009594973",
     "frgov:insee_arr":"4",
@@ -141,6 +153,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683553,
         102191581,
@@ -150,7 +164,10 @@
         102070807
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_29272",
+        "eurostat:nuts_2021_id":"29272"
+    },
     "wof:coterminous":[
         101762741
     ],
@@ -158,7 +175,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6623ed38aae2b4abd0961f923868ee9b",
+    "wof:geomhash":"3c6553c563996552616b753bbf45c6ba",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -171,11 +188,13 @@
         }
     ],
     "wof:id":404378221,
-    "wof:lastmodified":1582324735,
+    "wof:lastmodified":1684352989,
     "wof:name":"Saint-Yvi",
     "wof:parent_id":102070807,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3155,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

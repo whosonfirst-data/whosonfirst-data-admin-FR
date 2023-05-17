@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_22148",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"M\u00e9rillac",
+    "eurostat:nuts_2021_id":"22148",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH01",
+    "eurostat:nuts_2021_level_lau":"22148",
+    "eurostat:population":233,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067460",
     "frgov:id":"BDCSURCO0000000009593876",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BRETAGNE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001699,
-    "geom:area_square_m":13985321.881576,
+    "geom:area_square_m":13985321.881575,
     "geom:bbox":"-2.42487790262,48.2305453822,-2.34947988598,48.2714703084",
     "geom:latitude":48.249901,
     "geom:longitude":-2.390951,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683515,
         102191581,
@@ -57,7 +71,10 @@
         102068899
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_22148",
+        "eurostat:nuts_2021_id":"22148"
+    },
     "wof:coterminous":[
         101881657
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"840e35a059e561953012a42a5d9c1ab2",
+    "wof:geomhash":"2abbbdaf87c5a43ec9ebe876f5bc900e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404362409,
-    "wof:lastmodified":1582324051,
+    "wof:lastmodified":1684352787,
     "wof:name":"Merillac",
     "wof:parent_id":102068899,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":233,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

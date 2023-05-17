@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_55331",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"M\u00e9ligny-le-Petit",
+    "eurostat:nuts_2021_id":"55331",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF32",
+    "eurostat:nuts_2021_level_lau":"55331",
+    "eurostat:population":80,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066157",
     "frgov:id":"BDCSURCO0000000009590987",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683297,
         102191581,
@@ -58,7 +72,10 @@
         102069505
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_55331",
+        "eurostat:nuts_2021_id":"55331"
+    },
     "wof:coterminous":[
         1125783813
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"dd2342103d31704ef84d40d28c51280c",
+    "wof:geomhash":"0163d51389ba60a9cff440dc6f4ac3a8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404373759,
-    "wof:lastmodified":1582325347,
+    "wof:lastmodified":1684352933,
     "wof:name":"Meligny-Le-Petit",
     "wof:parent_id":102069505,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":80,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

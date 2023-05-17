@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_70031",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Athesans-\u00c9troitefontaine",
+    "eurostat:nuts_2021_id":"70031",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC23",
+    "eurostat:nuts_2021_level_lau":"70031",
+    "eurostat:population":654,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247000714",
     "frgov:id":"BDCSURCO0000000009597353",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001542,
-    "geom:area_square_m":12858857.408731,
+    "geom:area_square_m":12858857.40873,
     "geom:bbox":"6.48228380237,47.5717696959,6.55347075092,47.6128793434",
     "geom:latitude":47.594123,
     "geom:longitude":6.515446,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683559,
         102191581,
@@ -58,7 +72,10 @@
         102069295
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_70031",
+        "eurostat:nuts_2021_id":"70031"
+    },
     "wof:coterminous":[
         101887727
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ecadf8ad742ee4b003f823b1c2578b93",
+    "wof:geomhash":"df339b522e6e4b7f8cad17551f75c802",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404360257,
-    "wof:lastmodified":1582325045,
+    "wof:lastmodified":1684352757,
     "wof:name":"Athesans-Etroitefontaine",
     "wof:parent_id":102069295,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":654,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_80157",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bussy-l\u00e8s-Poix",
+    "eurostat:nuts_2021_id":"80157",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE23",
+    "eurostat:nuts_2021_level_lau":"80157",
+    "eurostat:population":101,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071181",
     "frgov:id":"BDCSURCO0000000009583000",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000553,
-    "geom:area_square_m":4413903.267564,
+    "geom:area_square_m":4413903.267565,
     "geom:bbox":"1.99142436449,49.7967338561,2.0326285443,49.8351381326",
     "geom:latitude":49.816916,
     "geom:longitude":2.013344,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683363,
         102191581,
@@ -58,7 +72,10 @@
         102070551
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_80157",
+        "eurostat:nuts_2021_id":"80157"
+    },
     "wof:coterminous":[
         1125894775
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d5e5d497702cf0ec9fa5a34d83511d3c",
+    "wof:geomhash":"61ddd1b663221b492036f5c3321b877e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404400307,
-    "wof:lastmodified":1582324503,
+    "wof:lastmodified":1684353253,
     "wof:name":"Bussy-Les-Poix",
     "wof:parent_id":102070551,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":101,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

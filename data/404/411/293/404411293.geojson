@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_04183",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Julien-du-Verdon",
+    "eurostat:nuts_2021_id":"04183",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL01",
+    "eurostat:nuts_2021_level_lau":"04183",
+    "eurostat:population":144,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068625",
     "frgov:id":"BDCSURCO0000000009611710",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683509,
         102191581,
@@ -57,7 +71,10 @@
         102065261
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_04183",
+        "eurostat:nuts_2021_id":"04183"
+    },
     "wof:coterminous":[
         1125803815
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e9c7f42e8f49e93d096aa84f850b54b9",
+    "wof:geomhash":"d5fb59a68ce7bd1bb531c6ee6cca45af",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404411293,
-    "wof:lastmodified":1582325165,
+    "wof:lastmodified":1684353381,
     "wof:name":"Saint-Julien-Du-Verdon",
     "wof:parent_id":102065261,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":144,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

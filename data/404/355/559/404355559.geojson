@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_48175",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Pierre-de-Nogaret",
+    "eurostat:nuts_2021_id":"48175",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ14",
+    "eurostat:nuts_2021_level_lau":"48175",
+    "eurostat:population":180,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069268",
     "frgov:id":"BDCSURCO0000000009610331",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001849,
-    "geom:area_square_m":16308390.722933,
+    "geom:area_square_m":16308390.72293,
     "geom:bbox":"3.09729651564,44.4397766632,3.15433606405,44.5392433438",
     "geom:latitude":44.487556,
     "geom:longitude":3.126708,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683453,
         102191581,
@@ -58,7 +72,10 @@
         102068599
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_48175",
+        "eurostat:nuts_2021_id":"48175"
+    },
     "wof:coterminous":[
         1125825907
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"bd772c91f9ac9733ae9d80fa59ac3f75",
+    "wof:geomhash":"9cdfc14f8c8447c3d3cd899af706d746",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404355559,
-    "wof:lastmodified":1582324181,
+    "wof:lastmodified":1684352693,
     "wof:name":"Saint-Pierre-De-Nogaret",
     "wof:parent_id":102068599,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":180,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

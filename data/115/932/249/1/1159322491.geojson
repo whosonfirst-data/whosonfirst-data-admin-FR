@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_92023",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Clamart",
+    "eurostat:nuts_2021_id":"92023",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR105",
+    "eurostat:nuts_2021_level_lau":"92023",
+    "eurostat:population":52971,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200054781",
     "frgov:id":"BDCSURCO0000000009590204",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"ILE-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001073,
-    "geom:area_square_m":8737267.394333,
+    "geom:area_square_m":8737267.394334,
     "geom:bbox":"2.223635,48.774462,2.279968,48.817035",
     "geom:latitude":48.796457,
     "geom:longitude":2.254311,
@@ -192,23 +204,29 @@
     "reversegeo:longitude":2.25857,
     "src:geom":"frgov",
     "src:geom_alt":[],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85683157,
         102191581,
         85633147,
-        102071919,
         404227787,
         404227465,
-        85683157
+        102071919
     ],
     "wof:breaches":[],
     "wof:concordance":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_92023",
+        "eurostat:nuts_2021_id":"92023"
+    },
     "wof:coterminous":[
         101749773,
         102071919
     ],
     "wof:country":"FR",
     "wof:created":1526511042,
-    "wof:geomhash":"426434688c39c353020e75b2dc3cb8e4",
+    "wof:geomhash":"fdf9515ea9c3195ff75eb07cb5848bc9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -221,11 +239,13 @@
         }
     ],
     "wof:id":1159322491,
-    "wof:lastmodified":1608039584,
+    "wof:lastmodified":1684353602,
     "wof:name":"Clamart",
     "wof:parent_id":102071919,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":52971,
+    "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded":[],
     "wof:superseded_by":[],

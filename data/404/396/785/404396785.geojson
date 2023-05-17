@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_04150",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Pi\u00e9gut",
+    "eurostat:nuts_2021_id":"04150",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL01",
+    "eurostat:nuts_2021_level_lau":"04150",
+    "eurostat:population":186,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067320",
     "frgov:id":"BDCSURCO0000000009610253",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.001252,
-    "geom:area_square_m":11049672.647758,
+    "geom:area_square_m":11049672.647757,
     "geom:bbox":"6.10774262824,44.4340021192,6.15625478505,44.4755748914",
     "geom:latitude":44.453171,
     "geom:longitude":6.131488,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683509,
         102191581,
@@ -55,7 +69,10 @@
         102069579
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_04150",
+        "eurostat:nuts_2021_id":"04150"
+    },
     "wof:coterminous":[
         1360677403
     ],
@@ -63,7 +80,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"db56af5bc1d7c02f2633832b9aa90b60",
+    "wof:geomhash":"53bbc42dedac23b1f1f3ed3f57487142",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -76,11 +93,13 @@
         }
     ],
     "wof:id":404396785,
-    "wof:lastmodified":1582324072,
+    "wof:lastmodified":1684353211,
     "wof:name":"Piegut",
     "wof:parent_id":102069579,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":186,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

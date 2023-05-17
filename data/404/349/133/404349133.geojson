@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_35107",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Erc\u00e9-pr\u00e8s-Liffr\u00e9",
+    "eurostat:nuts_2021_id":"35107",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH03",
+    "eurostat:nuts_2021_level_lau":"35107",
+    "eurostat:population":1808,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243500774",
     "frgov:id":"BDCSURCO0000000009593855",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BRETAGNE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001924,
-    "geom:area_square_m":15844406.852983,
+    "geom:area_square_m":15844406.852984,
     "geom:bbox":"-1.56049709334,48.234951251,-1.47700454319,48.2738220332",
     "geom:latitude":48.254467,
     "geom:longitude":-1.517011,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683461,
         102191581,
@@ -57,7 +71,10 @@
         102067903
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_35107",
+        "eurostat:nuts_2021_id":"35107"
+    },
     "wof:coterminous":[
         101762391
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0fba076419f16049ddaba39146dcdf25",
+    "wof:geomhash":"72aef0bdfba99eb3abf378aa3f0cee85",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404349133,
-    "wof:lastmodified":1582324700,
+    "wof:lastmodified":1684352604,
     "wof:name":"Erce-Pres-Liffre",
     "wof:parent_id":102067903,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1808,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

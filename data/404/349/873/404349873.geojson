@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_49036",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bouill\u00e9-M\u00e9nard",
+    "eurostat:nuts_2021_id":"49036",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG02",
+    "eurostat:nuts_2021_level_lau":"49036",
+    "eurostat:population":750,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244900809",
     "frgov:id":"BDCSURCO0000000009596881",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001909,
-    "geom:area_square_m":15871869.894071,
+    "geom:area_square_m":15871869.894069,
     "geom:bbox":"-1.0006949725,47.7181270808,-0.931396972327,47.7629260238",
     "geom:latitude":47.738017,
     "geom:longitude":-0.968631,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683327,
         102191581,
@@ -57,7 +71,10 @@
         102068857
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_49036",
+        "eurostat:nuts_2021_id":"49036"
+    },
     "wof:coterminous":[
         101885385
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5b4d6de0945e784ddff517d96c8f2b41",
+    "wof:geomhash":"79427c0126ede1f8014b48068ae1f5b9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404349873,
-    "wof:lastmodified":1582324702,
+    "wof:lastmodified":1684352614,
     "wof:name":"Bouille-Menard",
     "wof:parent_id":102068857,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":750,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

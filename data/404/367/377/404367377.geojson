@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_71238",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Iguerande",
+    "eurostat:nuts_2021_id":"71238",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC13",
+    "eurostat:nuts_2021_level_lau":"71238",
+    "eurostat:population":996,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247103864",
     "frgov:id":"BDCSURCO0000000009603509",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002501,
-    "geom:area_square_m":21397093.849233,
+    "geom:area_square_m":21397093.849232,
     "geom:bbox":"4.0375152086,46.1863729236,4.1123650775,46.2483720822",
     "geom:latitude":46.216626,
     "geom:longitude":4.076896,
@@ -115,6 +127,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683543,
         102191581,
@@ -125,7 +139,10 @@
         102071427
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_71238",
+        "eurostat:nuts_2021_id":"71238"
+    },
     "wof:coterminous":[
         1360674537
     ],
@@ -133,7 +150,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"cd90583abaaf8ecd62192871047756cc",
+    "wof:geomhash":"5ea378be01198379768f81271193bfa0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -147,11 +164,13 @@
         }
     ],
     "wof:id":404367377,
-    "wof:lastmodified":1582324994,
+    "wof:lastmodified":1684352857,
     "wof:name":"Iguerande",
     "wof:parent_id":102071427,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":996,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

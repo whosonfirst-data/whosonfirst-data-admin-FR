@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_41201",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Arnoult",
+    "eurostat:nuts_2021_id":"41201",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB05",
+    "eurostat:nuts_2021_level_lau":"41201",
+    "eurostat:population":321,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072072",
     "frgov:id":"BDCSURCO0000000009597183",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001148,
-    "geom:area_square_m":9556323.325077,
+    "geom:area_square_m":9556323.325078,
     "geom:bbox":"0.84286179238,47.6818755886,0.898369565463,47.7311965149",
     "geom:latitude":47.707239,
     "geom:longitude":0.869918,
@@ -93,6 +105,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683349,
         102191581,
@@ -102,7 +116,10 @@
         102066495
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_41201",
+        "eurostat:nuts_2021_id":"41201"
+    },
     "wof:coterminous":[
         101885495
     ],
@@ -110,7 +127,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2d9a6ef94fc11e8b1853a6d491ff6b97",
+    "wof:geomhash":"31fa89069068404db0d39f748177211c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -123,11 +140,13 @@
         }
     ],
     "wof:id":404369435,
-    "wof:lastmodified":1582324919,
+    "wof:lastmodified":1684352884,
     "wof:name":"Saint-Arnoult",
     "wof:parent_id":102066495,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":321,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

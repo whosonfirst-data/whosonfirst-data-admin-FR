@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_61264",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"M\u00e9nil-Froger",
+    "eurostat:nuts_2021_id":"61264",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD13",
+    "eurostat:nuts_2021_level_lau":"61264",
+    "eurostat:population":55,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069458",
     "frgov:id":"BDCSURCO0000000009590754",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000642,
-    "geom:area_square_m":5236489.908406,
+    "geom:area_square_m":5236489.908407,
     "geom:bbox":"0.249265021872,48.7170350739,0.285156521659,48.7486389596",
     "geom:latitude":48.731122,
     "geom:longitude":0.265222,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683527,
         102191581,
@@ -58,7 +72,10 @@
         102068225
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_61264",
+        "eurostat:nuts_2021_id":"61264"
+    },
     "wof:coterminous":[
         1125784145
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b9125d56d87c1f2ffc5a0775ee25c23a",
+    "wof:geomhash":"26efbb5e2a5f3eb05e2b409bf86d97ab",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404366827,
-    "wof:lastmodified":1582324825,
+    "wof:lastmodified":1684352849,
     "wof:name":"Menil-Froger",
     "wof:parent_id":102068225,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":55,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

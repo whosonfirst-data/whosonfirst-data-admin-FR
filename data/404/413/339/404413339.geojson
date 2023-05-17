@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_63129",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Cros",
+    "eurostat:nuts_2021_id":"63129",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK14",
+    "eurostat:nuts_2021_level_lau":"63129",
+    "eurostat:population":175,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069169",
     "frgov:id":"BDCSURCO0000000009606610",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.002301,
-    "geom:area_square_m":19950575.864349,
+    "geom:area_square_m":19950575.864348,
     "geom:bbox":"2.56589765891,45.4427448979,2.65188563319,45.4924212581",
     "geom:latitude":45.466659,
     "geom:longitude":2.607818,
@@ -88,6 +100,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683471,
         102191581,
@@ -98,7 +112,10 @@
         102068285
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_63129",
+        "eurostat:nuts_2021_id":"63129"
+    },
     "wof:coterminous":[
         1360679017
     ],
@@ -106,7 +123,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"86f9ff037af5e133801706edfcc7ea3e",
+    "wof:geomhash":"e13d17a902ed865fa5e8141b9da74b8f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -120,11 +137,13 @@
         }
     ],
     "wof:id":404413339,
-    "wof:lastmodified":1582324316,
+    "wof:lastmodified":1684353406,
     "wof:name":"Cros",
     "wof:parent_id":102068285,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":175,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

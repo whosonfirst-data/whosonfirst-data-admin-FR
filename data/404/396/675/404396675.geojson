@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_08323",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Neuville-l\u00e8s-Wasigny",
+    "eurostat:nuts_2021_id":"08323",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF21",
+    "eurostat:nuts_2021_level_lau":"08323",
+    "eurostat:population":160,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240800862",
     "frgov:id":"BDCSURCO0000000009583483",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.000654,
-    "geom:area_square_m":5237236.516852,
+    "geom:area_square_m":5237236.516851,
     "geom:bbox":"4.33969742215,49.6344341287,4.38366012806,49.6647513317",
     "geom:latitude":49.647033,
     "geom:longitude":4.360032,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683309,
         102191581,
@@ -58,7 +72,10 @@
         102067797
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_08323",
+        "eurostat:nuts_2021_id":"08323"
+    },
     "wof:coterminous":[
         1125765205
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f1d6a3884304affbb6a830ab3eb57d8e",
+    "wof:geomhash":"d12f48e438e754f6653abe89ff7cc862",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404396675,
-    "wof:lastmodified":1582324067,
+    "wof:lastmodified":1684353210,
     "wof:name":"La Neuville-Les-Wasigny",
     "wof:parent_id":102067797,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":160,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

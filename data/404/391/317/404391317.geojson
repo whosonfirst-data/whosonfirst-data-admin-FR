@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_45098",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Cl\u00e9ry-Saint-Andr\u00e9",
+    "eurostat:nuts_2021_id":"45098",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB06",
+    "eurostat:nuts_2021_level_lau":"45098",
+    "eurostat:population":3443,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070183",
     "frgov:id":"BDCSURCO0000000009596803",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683479,
         102191581,
@@ -57,7 +71,10 @@
         102066105
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_45098",
+        "eurostat:nuts_2021_id":"45098"
+    },
     "wof:coterminous":[
         101764929
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f6ef2e0795d3ed1ecd3478bc1237b58a",
+    "wof:geomhash":"d0d5e9255a8bef0e7b777d7c9a6e2110",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404391317,
-    "wof:lastmodified":1582324023,
+    "wof:lastmodified":1684353148,
     "wof:name":"Clery-Saint-Andre",
     "wof:parent_id":102066105,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3443,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

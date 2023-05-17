@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_81262",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Marcel-Campes",
+    "eurostat:nuts_2021_id":"81262",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ27",
+    "eurostat:nuts_2021_level_lau":"81262",
+    "eurostat:population":210,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200034064",
     "frgov:id":"BDCSURCO0000000009611614",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002537,
-    "geom:area_square_m":22531198.04943,
+    "geom:area_square_m":22531198.049431,
     "geom:bbox":"1.95773936776,44.0589781771,2.04321219553,44.1123190877",
     "geom:latitude":44.084035,
     "geom:longitude":2.001814,
@@ -117,6 +129,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683603,
         102191581,
@@ -127,7 +141,10 @@
         102065861
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_81262",
+        "eurostat:nuts_2021_id":"81262"
+    },
     "wof:coterminous":[
         1125958607
     ],
@@ -135,7 +152,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"25de071c75e4da2dcb738e0b96c44b4c",
+    "wof:geomhash":"249f11b5e3dbc7788b581d0ba67d936f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -149,11 +166,13 @@
         }
     ],
     "wof:id":404369989,
-    "wof:lastmodified":1582324921,
+    "wof:lastmodified":1684352890,
     "wof:name":"Saint-Marcel-Campes",
     "wof:parent_id":102065861,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":210,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_19073",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"\u00c9gletons",
+    "eurostat:nuts_2021_id":"19073",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI21",
+    "eurostat:nuts_2021_level_lau":"19073",
+    "eurostat:population":4298,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"241900133",
     "frgov:id":"BDCSURCO0000000009606848",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001928,
-    "geom:area_square_m":16736041.781833,
+    "geom:area_square_m":16736041.781832,
     "geom:bbox":"1.99785267073,45.3927406868,2.07429967638,45.4556973522",
     "geom:latitude":45.421384,
     "geom:longitude":2.036648,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683209,
         102191581,
@@ -58,7 +72,10 @@
         102066081
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_19073",
+        "eurostat:nuts_2021_id":"19073"
+    },
     "wof:coterminous":[
         101769315
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3e22a92cf252858d12b33a9e710be6d4",
+    "wof:geomhash":"aa1697450173bfdc4cf72a12a3d9aef3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404424613,
-    "wof:lastmodified":1582324396,
+    "wof:lastmodified":1684353541,
     "wof:name":"Egletons",
     "wof:parent_id":102066081,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":4298,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

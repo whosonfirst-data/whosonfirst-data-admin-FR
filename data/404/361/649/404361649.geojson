@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_02093",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bl\u00e9rancourt",
+    "eurostat:nuts_2021_id":"02093",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE21",
+    "eurostat:nuts_2021_level_lau":"02093",
+    "eurostat:population":1290,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071769",
     "frgov:id":"BDCSURCO0000000009584581",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001339,
-    "geom:area_square_m":10753605.243512,
+    "geom:area_square_m":10753605.243511,
     "geom:bbox":"3.10721445531,49.4907470565,3.19204474703,49.5289835416",
     "geom:latitude":49.507823,
     "geom:longitude":3.150974,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683247,
         102191581,
@@ -58,7 +72,10 @@
         102066287
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_02093",
+        "eurostat:nuts_2021_id":"02093"
+    },
     "wof:coterminous":[
         101812377
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f4885ca45a614ee9c6f2eff18586c1b4",
+    "wof:geomhash":"87a12bb79e404137e549409097fa2f77",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404361649,
-    "wof:lastmodified":1582324761,
+    "wof:lastmodified":1684352776,
     "wof:name":"Blerancourt",
     "wof:parent_id":102066287,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1290,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

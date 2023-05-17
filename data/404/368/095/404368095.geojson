@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_24490",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint Privat en P\u00e9rigord",
+    "eurostat:nuts_2021_id":"24490",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI11",
+    "eurostat:nuts_2021_level_lau":"24490",
+    "eurostat:population":1121,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242400935",
     "frgov:id":"BDCSURCO0000000009607587",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.005092,
-    "geom:area_square_m":44347104.689355,
+    "geom:area_square_m":44347104.689356,
     "geom:bbox":"0.144597546377,45.1892505603,0.267086889389,45.2637296239",
     "geom:latitude":45.226016,
     "geom:longitude":0.209212,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683331,
         102191581,
@@ -56,7 +70,10 @@
         102070021
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_24490",
+        "eurostat:nuts_2021_id":"24490"
+    },
     "wof:coterminous":[
         1360674625
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"69b70d7052c5ac932a77e0a558514dd2",
+    "wof:geomhash":"66af2219e01dea204acf59d284a6f0b5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404368095,
-    "wof:lastmodified":1582324880,
+    "wof:lastmodified":1684352866,
     "wof:name":"Saint-Privat-Des-Pres",
     "wof:parent_id":102070021,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1121,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_43211",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Maurice-de-Lignon",
+    "eurostat:nuts_2021_id":"43211",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK13",
+    "eurostat:nuts_2021_level_lau":"43211",
+    "eurostat:population":2597,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244301016",
     "frgov:id":"BDCSURCO0000000009607689",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683413,
         102191581,
@@ -58,7 +72,10 @@
         102066925
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_43211",
+        "eurostat:nuts_2021_id":"43211"
+    },
     "wof:coterminous":[
         101770455
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c06d69871d4a702290c5b24bbefcd244",
+    "wof:geomhash":"00b5a31d4f02ae26d7a8b362240774f4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404365349,
-    "wof:lastmodified":1582324033,
+    "wof:lastmodified":1684352828,
     "wof:name":"Saint-Maurice-De-Lignon",
     "wof:parent_id":102066925,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2597,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

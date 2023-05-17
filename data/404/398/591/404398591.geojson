@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_38438",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Paul-l\u00e8s-Monestier",
+    "eurostat:nuts_2021_id":"38438",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK24",
+    "eurostat:nuts_2021_level_lau":"38438",
+    "eurostat:population":267,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200030658",
     "frgov:id":"BDCSURCO0000000009608487",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001579,
-    "geom:area_square_m":13827570.704172,
+    "geom:area_square_m":13827570.704174,
     "geom:bbox":"5.5893001398,44.8937899614,5.63599299238,44.9669328806",
     "geom:latitude":44.927342,
     "geom:longitude":5.614506,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683427,
         102191581,
@@ -58,7 +72,10 @@
         102067575
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_38438",
+        "eurostat:nuts_2021_id":"38438"
+    },
     "wof:coterminous":[
         1125932369
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f61f280cef9b4288622ca0d189965634",
+    "wof:geomhash":"97c109f08179bebaddecc209df794411",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404398591,
-    "wof:lastmodified":1582324115,
+    "wof:lastmodified":1684353233,
     "wof:name":"Saint-Paul-Les-Monestier",
     "wof:parent_id":102067575,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":267,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

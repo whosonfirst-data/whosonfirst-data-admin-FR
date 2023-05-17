@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_32380",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Gri\u00e8de",
+    "eurostat:nuts_2021_id":"32380",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ24",
+    "eurostat:nuts_2021_level_lau":"32380",
+    "eurostat:population":140,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243200409",
     "frgov:id":"BDCSURCO0000000009612801",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000854,
-    "geom:area_square_m":7632791.59487,
+    "geom:area_square_m":7632791.594871,
     "geom:bbox":"-0.116995217826,43.7084571477,-0.0770200541924,43.7415094189",
     "geom:latitude":43.724638,
     "geom:longitude":-0.096553,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683467,
         102191581,
@@ -58,7 +72,10 @@
         102068395
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_32380",
+        "eurostat:nuts_2021_id":"32380"
+    },
     "wof:coterminous":[
         1125896225
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"bbe54c5929d70d0758842a90472d45fe",
+    "wof:geomhash":"fb1a55a0752c3d28394b2127de7f8166",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404380547,
-    "wof:lastmodified":1582325385,
+    "wof:lastmodified":1684353017,
     "wof:name":"Saint-Griede",
     "wof:parent_id":102068395,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":140,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_95487",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Persan",
+    "eurostat:nuts_2021_id":"95487",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR108",
+    "eurostat:nuts_2021_level_lau":"95487",
+    "eurostat:population":12695,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"249500489",
     "frgov:id":"BDCSURCO0000000009587187",
     "frgov:insee_arr":"3",
@@ -120,6 +132,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683451,
         102191581,
@@ -129,7 +143,10 @@
         102064801
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_95487",
+        "eurostat:nuts_2021_id":"95487"
+    },
     "wof:coterminous":[
         101753499
     ],
@@ -137,7 +154,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3baf7bb774be1ecaf22f19f9d055164a",
+    "wof:geomhash":"7ff535e6d931549be570f603a0510689",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -150,11 +167,13 @@
         }
     ],
     "wof:id":404398913,
-    "wof:lastmodified":1582324112,
+    "wof:lastmodified":1684353237,
     "wof:name":"Persan",
     "wof:parent_id":102064801,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":12695,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

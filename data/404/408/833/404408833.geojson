@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_25503",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rosi\u00e8res-sur-Barb\u00e8che",
+    "eurostat:nuts_2021_id":"25503",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC21",
+    "eurostat:nuts_2021_level_lau":"25503",
+    "eurostat:population":122,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242504371",
     "frgov:id":"BDCSURCO0000000009598781",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000634,
-    "geom:area_square_m":5318971.264778,
+    "geom:area_square_m":5318971.264777,
     "geom:bbox":"6.64249988361,47.299930173,6.67403959672,47.330351258",
     "geom:latitude":47.31543,
     "geom:longitude":6.659549,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683239,
         102191581,
@@ -58,7 +72,10 @@
         102068203
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_25503",
+        "eurostat:nuts_2021_id":"25503"
+    },
     "wof:coterminous":[
         1125802415
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"57ae159cdaf336b5da7f5939039eae9d",
+    "wof:geomhash":"0503ac6b88c237d872ad336e46b0aced",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404408833,
-    "wof:lastmodified":1582324459,
+    "wof:lastmodified":1684353353,
     "wof:name":"Rosieres-Sur-Barbeche",
     "wof:parent_id":102068203,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":122,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

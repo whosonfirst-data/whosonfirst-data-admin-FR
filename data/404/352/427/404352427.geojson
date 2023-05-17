@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_47147",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"L\u00e9vignac-de-Guyenne",
+    "eurostat:nuts_2021_id":"47147",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI14",
+    "eurostat:nuts_2021_level_lau":"47147",
+    "eurostat:population":663,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244700449",
     "frgov:id":"BDCSURCO0000000009609989",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002836,
-    "geom:area_square_m":24963598.246523,
+    "geom:area_square_m":24963598.246522,
     "geom:bbox":"0.165214459117,44.5926558765,0.242847816674,44.6543233485",
     "geom:latitude":44.622094,
     "geom:longitude":0.203921,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683341,
         102191581,
@@ -58,7 +72,10 @@
         102069995
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_47147",
+        "eurostat:nuts_2021_id":"47147"
+    },
     "wof:coterminous":[
         101896043
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e8f69d132b7310e5fdb65ff1883bd384",
+    "wof:geomhash":"ce51bb4da85771e2e72e0e517999a665",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404352427,
-    "wof:lastmodified":1582324174,
+    "wof:lastmodified":1684352651,
     "wof:name":"Levignac-De-Guyenne",
     "wof:parent_id":102069995,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":663,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

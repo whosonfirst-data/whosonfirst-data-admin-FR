@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_24437",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Laurent-des-Vignes",
+    "eurostat:nuts_2021_id":"24437",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI11",
+    "eurostat:nuts_2021_level_lau":"24437",
+    "eurostat:population":886,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070647",
     "frgov:id":"BDCSURCO0000000009609062",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000921,
-    "geom:area_square_m":8081241.977952,
+    "geom:area_square_m":8081241.977951,
     "geom:bbox":"0.415888685475,44.8080693467,0.475556581683,44.8432402047",
     "geom:latitude":44.823652,
     "geom:longitude":0.446102,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683331,
         102191581,
@@ -58,7 +72,10 @@
         102071471
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_24437",
+        "eurostat:nuts_2021_id":"24437"
+    },
     "wof:coterminous":[
         1125813845
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"18991694997ee4ef29261c64e33da7c4",
+    "wof:geomhash":"1fb58b43a605c5b238b8d8d2eb34810e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404404487,
-    "wof:lastmodified":1582325315,
+    "wof:lastmodified":1684353301,
     "wof:name":"Saint-Laurent-Des-Vignes",
     "wof:parent_id":102071471,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":886,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

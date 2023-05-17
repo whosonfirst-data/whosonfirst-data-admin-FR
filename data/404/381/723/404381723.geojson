@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_81235",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Affrique-les-Montagnes",
+    "eurostat:nuts_2021_id":"81235",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ27",
+    "eurostat:nuts_2021_level_lau":"81235",
+    "eurostat:population":729,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248100158",
     "frgov:id":"BDCSURCO0000000009613649",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683603,
         102191581,
@@ -58,7 +72,10 @@
         102066893
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_81235",
+        "eurostat:nuts_2021_id":"81235"
+    },
     "wof:coterminous":[
         101897237
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"145604eac0a2a519bcb53ef4c46b64e3",
+    "wof:geomhash":"2efc0698d4f3951d47eb7a52ca6df3c2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404381723,
-    "wof:lastmodified":1582325433,
+    "wof:lastmodified":1684353030,
     "wof:name":"Saint-Affrique-Les-Montagnes",
     "wof:parent_id":102066893,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":729,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

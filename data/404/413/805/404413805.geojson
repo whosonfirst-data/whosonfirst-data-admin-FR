@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_43164",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Roche-en-R\u00e9gnier",
+    "eurostat:nuts_2021_id":"43164",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK13",
+    "eurostat:nuts_2021_level_lau":"43164",
+    "eurostat:population":500,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200073419",
     "frgov:id":"BDCSURCO0000000009607489",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.003075,
-    "geom:area_square_m":26779203.868133,
+    "geom:area_square_m":26779203.868131,
     "geom:bbox":"3.9019292562,45.1976632535,3.98718716665,45.2635963644",
     "geom:latitude":45.233092,
     "geom:longitude":3.947843,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683413,
         102191581,
@@ -58,7 +72,10 @@
         102069497
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_43164",
+        "eurostat:nuts_2021_id":"43164"
+    },
     "wof:coterminous":[
         1126010841
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"fd832c87751ff79bb3f44e5c1b2cc886",
+    "wof:geomhash":"4b1bdcdf8c147903e237958b04af2c6f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404413805,
-    "wof:lastmodified":1582324321,
+    "wof:lastmodified":1684353412,
     "wof:name":"Roche-En-Regnier",
     "wof:parent_id":102069497,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":500,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

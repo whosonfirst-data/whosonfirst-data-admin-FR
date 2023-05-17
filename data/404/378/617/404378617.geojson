@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_40036",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"B\u00e9nesse-Maremne",
+    "eurostat:nuts_2021_id":"40036",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI13",
+    "eurostat:nuts_2021_level_lau":"40036",
+    "eurostat:population":3234,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244000865",
     "frgov:id":"BDCSURCO0000000009613083",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683183,
         102191581,
@@ -58,7 +72,10 @@
         102068537
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_40036",
+        "eurostat:nuts_2021_id":"40036"
+    },
     "wof:coterminous":[
         101772849
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a5c0e0b97149983db98de4a55ba6dc7e",
+    "wof:geomhash":"e65a424999aa013fd342da13b42e27e2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404378617,
-    "wof:lastmodified":1582324734,
+    "wof:lastmodified":1684352994,
     "wof:name":"Benesse-Maremne",
     "wof:parent_id":102068537,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3234,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

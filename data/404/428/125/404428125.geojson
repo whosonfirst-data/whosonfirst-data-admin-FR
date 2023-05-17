@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_74184",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Minzier",
+    "eurostat:nuts_2021_id":"74184",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK28",
+    "eurostat:nuts_2021_level_lau":"74184",
+    "eurostat:population":1023,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070852",
     "frgov:id":"BDCSURCO0000000009603677",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001019,
-    "geom:area_square_m":8741619.793628,
+    "geom:area_square_m":8741619.793629,
     "geom:bbox":"5.96454282221,46.0358582638,6.01805785898,46.0845766911",
     "geom:latitude":46.055647,
     "geom:longitude":5.991474,
@@ -120,6 +132,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683227,
         102191581,
@@ -130,7 +144,10 @@
         102067141
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_74184",
+        "eurostat:nuts_2021_id":"74184"
+    },
     "wof:coterminous":[
         1125917441
     ],
@@ -138,7 +155,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"34434e20d09d16ca92ebfcfe9ad0b057",
+    "wof:geomhash":"b9d5cc217c3c6b7aa9265f4ae7212d3d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -152,11 +169,13 @@
         }
     ],
     "wof:id":404428125,
-    "wof:lastmodified":1582325125,
+    "wof:lastmodified":1684353581,
     "wof:name":"Minzier",
     "wof:parent_id":102067141,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1023,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_64343",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Limendous",
+    "eurostat:nuts_2021_id":"64343",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI15",
+    "eurostat:nuts_2021_level_lau":"64343",
+    "eurostat:population":706,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067296",
     "frgov:id":"BDCSURCO0000000009614808",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000845,
-    "geom:area_square_m":7606086.991005,
+    "geom:area_square_m":7606086.991006,
     "geom:bbox":"-0.205566796291,43.2606324573,-0.160333101743,43.2963444665",
     "geom:latitude":43.277835,
     "geom:longitude":-0.182614,
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683539,
         102191581,
@@ -139,7 +153,10 @@
         102070191
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_64343",
+        "eurostat:nuts_2021_id":"64343"
+    },
     "wof:coterminous":[
         101896915
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"68bd7d31ec768949b0179b98a7407168",
+    "wof:geomhash":"0234baa161f1f578d6e457a520695155",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404369173,
-    "wof:lastmodified":1582324912,
+    "wof:lastmodified":1684352881,
     "wof:name":"Limendous",
     "wof:parent_id":102070191,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":706,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

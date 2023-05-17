@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_24421",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Geyrac",
+    "eurostat:nuts_2021_id":"24421",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI11",
+    "eurostat:nuts_2021_level_lau":"24421",
+    "eurostat:population":198,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040392",
     "frgov:id":"BDCSURCO0000000009608188",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002044,
-    "geom:area_square_m":17848748.983306,
+    "geom:area_square_m":17848748.983307,
     "geom:bbox":"0.876578581383,45.0366922185,0.93911051624,45.1006329521",
     "geom:latitude":45.074831,
     "geom:longitude":0.907124,
@@ -132,6 +144,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683331,
         102191581,
@@ -142,7 +156,10 @@
         102070429
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_24421",
+        "eurostat:nuts_2021_id":"24421"
+    },
     "wof:coterminous":[
         1125843073
     ],
@@ -150,7 +167,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e9f73efd03219b97451cce868c7033ac",
+    "wof:geomhash":"c4d14c234cd4adaa485ae9fc20141938",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -164,11 +181,13 @@
         }
     ],
     "wof:id":404354409,
-    "wof:lastmodified":1582324088,
+    "wof:lastmodified":1684352677,
     "wof:name":"Saint-Geyrac",
     "wof:parent_id":102070429,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":198,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

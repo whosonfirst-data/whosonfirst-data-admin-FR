@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_33394",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-\u00c9milion",
+    "eurostat:nuts_2021_id":"33394",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI12",
+    "eurostat:nuts_2021_level_lau":"33394",
+    "eurostat:population":1874,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200035533",
     "frgov:id":"BDCSURCO0000000009608859",
     "frgov:insee_arr":"5",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003081,
-    "geom:area_square_m":26985323.026869,
+    "geom:area_square_m":26985323.026868,
     "geom:bbox":"-0.211084254388,44.8578885092,-0.131569985468,44.9313561533",
     "geom:latitude":44.900101,
     "geom:longitude":-0.169948,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683243,
         102191581,
@@ -58,7 +72,10 @@
         102069917
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_33394",
+        "eurostat:nuts_2021_id":"33394"
+    },
     "wof:coterminous":[
         101770643
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a8b300d8ca8a2a88147e47fd3a7c9361",
+    "wof:geomhash":"36859b02f745fae2c0d0ba3fa69207d0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404347399,
-    "wof:lastmodified":1582324720,
+    "wof:lastmodified":1684352580,
     "wof:name":"Saint-Emilion",
     "wof:parent_id":102069917,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1874,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

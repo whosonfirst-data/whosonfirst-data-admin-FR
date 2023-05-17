@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_14334",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"H\u00f4tellerie",
+    "eurostat:nuts_2021_id":"14334",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD11",
+    "eurostat:nuts_2021_level_lau":"14334",
+    "eurostat:population":313,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069532",
     "frgov:id":"BDCSURCO0000000009587295",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000725,
-    "geom:area_square_m":5861091.041013,
+    "geom:area_square_m":5861091.041011,
     "geom:bbox":"0.382464122818,49.1285783922,0.43323793132,49.1531790536",
     "geom:latitude":49.140481,
     "geom:longitude":0.406727,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683579,
         102191581,
@@ -56,7 +70,10 @@
         102068257
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_14334",
+        "eurostat:nuts_2021_id":"14334"
+    },
     "wof:coterminous":[
         1360677755
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d970f5a1045108d65346eedef50ad4a2",
+    "wof:geomhash":"f4ffe39c626b46fa34bce0b6a68211b5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404400883,
-    "wof:lastmodified":1582324514,
+    "wof:lastmodified":1684353259,
     "wof:name":"L'Hotellerie",
     "wof:parent_id":102068257,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":313,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

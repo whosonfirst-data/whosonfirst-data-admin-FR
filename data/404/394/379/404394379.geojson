@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_65290",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Luc",
+    "eurostat:nuts_2021_id":"65290",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ26",
+    "eurostat:nuts_2021_level_lau":"65290",
+    "eurostat:population":213,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070803",
     "frgov:id":"BDCSURCO0000000009615258",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000541,
-    "geom:area_square_m":4877944.622599,
+    "geom:area_square_m":4877944.622598,
     "geom:bbox":"0.165249796047,43.1343461364,0.198623386057,43.1632985335",
     "geom:latitude":43.148929,
     "geom:longitude":0.182005,
@@ -94,6 +106,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683203,
         102191581,
@@ -104,7 +118,10 @@
         102068663
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_65290",
+        "eurostat:nuts_2021_id":"65290"
+    },
     "wof:coterminous":[
         1360677209
     ],
@@ -112,7 +129,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4257a46ffc06cb9554dd005e19d01947",
+    "wof:geomhash":"ea145e5982143e68affc146bc56ff0c0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -126,11 +143,13 @@
         }
     ],
     "wof:id":404394379,
-    "wof:lastmodified":1582325030,
+    "wof:lastmodified":1684353184,
     "wof:name":"Luc",
     "wof:parent_id":102068663,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":213,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

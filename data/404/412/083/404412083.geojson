@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_80545",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"M\u00e9zi\u00e8res-en-Santerre",
+    "eurostat:nuts_2021_id":"80545",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE23",
+    "eurostat:nuts_2021_level_lau":"80545",
+    "eurostat:population":589,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070969",
     "frgov:id":"BDCSURCO0000000009582970",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001344,
-    "geom:area_square_m":10729239.051529,
+    "geom:area_square_m":10729239.05153,
     "geom:bbox":"2.52010420169,49.7596105494,2.58038491398,49.8047574222",
     "geom:latitude":49.78166,
     "geom:longitude":2.552169,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683363,
         102191581,
@@ -58,7 +72,10 @@
         102069571
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_80545",
+        "eurostat:nuts_2021_id":"80545"
+    },
     "wof:coterminous":[
         101900999
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3f0b70976d250c23f6265754e1dfce64",
+    "wof:geomhash":"ddbe2330743d603a974c3fb8ae50747a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404412083,
-    "wof:lastmodified":1582324371,
+    "wof:lastmodified":1684353390,
     "wof:name":"Mezieres-En-Santerre",
     "wof:parent_id":102069571,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":589,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

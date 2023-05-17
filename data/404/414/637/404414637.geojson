@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_26165",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Livron-sur-Dr\u00f4me",
+    "eurostat:nuts_2021_id":"26165",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK23",
+    "eurostat:nuts_2021_level_lau":"26165",
+    "eurostat:population":9104,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242600252",
     "frgov:id":"BDCSURCO0000000009609168",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.004715,
-    "geom:area_square_m":41379750.14245,
+    "geom:area_square_m":41379750.142448,
     "geom:bbox":"4.76094158468,44.7569208928,4.89081314425,44.8254644575",
     "geom:latitude":44.787452,
     "geom:longitude":4.838828,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683523,
         102191581,
@@ -58,7 +72,10 @@
         102066721
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_26165",
+        "eurostat:nuts_2021_id":"26165"
+    },
     "wof:coterminous":[
         101771735
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2e16449b53bbd9ba4844dfda19f506b8",
+    "wof:geomhash":"65633861ddfc91075bf9b6ab3df14c7d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404414637,
-    "wof:lastmodified":1582324347,
+    "wof:lastmodified":1684353422,
     "wof:name":"Livron-Sur-Drome",
     "wof:parent_id":102066721,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":9104,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

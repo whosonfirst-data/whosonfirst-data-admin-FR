@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_53127",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lassay-les-Ch\u00e2teaux",
+    "eurostat:nuts_2021_id":"53127",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG03",
+    "eurostat:nuts_2021_level_lau":"53127",
+    "eurostat:population":2253,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200055887",
     "frgov:id":"BDCSURCO0000000009593010",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.007096,
-    "geom:area_square_m":58210530.360457,
+    "geom:area_square_m":58210530.360459,
     "geom:bbox":"-0.594860001823,48.4050890034,-0.416960630407,48.4869176315",
     "geom:latitude":48.442122,
     "geom:longitude":-0.499563,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683401,
         102191581,
@@ -57,7 +71,10 @@
         102067313
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_53127",
+        "eurostat:nuts_2021_id":"53127"
+    },
     "wof:coterminous":[
         101762201
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b2aab1cfc5876da0ddece54ef30c0665",
+    "wof:geomhash":"683700d019d85cd5645d58d1c05dba48",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404359553,
-    "wof:lastmodified":1582324798,
+    "wof:lastmodified":1684352747,
     "wof:name":"Lassay-Les-Chateaux",
     "wof:parent_id":102067313,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2253,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

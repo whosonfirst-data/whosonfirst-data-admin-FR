@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_80120",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bouillancourt-en-S\u00e9ry",
+    "eurostat:nuts_2021_id":"80120",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE23",
+    "eurostat:nuts_2021_level_lau":"80120",
+    "eurostat:population":550,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069722",
     "frgov:id":"BDCSURCO0000000009582339",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683363,
         102191581,
@@ -58,7 +72,10 @@
         102068363
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_80120",
+        "eurostat:nuts_2021_id":"80120"
+    },
     "wof:coterminous":[
         101899001
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"667b3a18c861ebdffce6da8902458b05",
+    "wof:geomhash":"3e3b6d6b14eadc13c529900a7d4abba1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404373379,
-    "wof:lastmodified":1582325343,
+    "wof:lastmodified":1684352929,
     "wof:name":"Bouillancourt-En-Sery",
     "wof:parent_id":102068363,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":550,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

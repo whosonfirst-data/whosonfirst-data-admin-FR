@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_40282",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Sever",
+    "eurostat:nuts_2021_id":"40282",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI13",
+    "eurostat:nuts_2021_level_lau":"40282",
+    "eurostat:population":4955,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069649",
     "frgov:id":"BDCSURCO0000000009612815",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.005257,
-    "geom:area_square_m":46945875.416696,
+    "geom:area_square_m":46945875.416697,
     "geom:bbox":"-0.643266708657,43.7302998691,-0.479135517668,43.7993086248",
     "geom:latitude":43.761314,
     "geom:longitude":-0.566567,
@@ -132,6 +144,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683183,
         102191581,
@@ -142,7 +156,10 @@
         102068403
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_40282",
+        "eurostat:nuts_2021_id":"40282"
+    },
     "wof:coterminous":[
         101772881
     ],
@@ -150,7 +167,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"12f6f4cdcb3bdc75dd3132ef22ea7660",
+    "wof:geomhash":"9733610722c111d663aa75003bc4276a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -164,11 +181,13 @@
         }
     ],
     "wof:id":404350359,
-    "wof:lastmodified":1582324854,
+    "wof:lastmodified":1684352622,
     "wof:name":"Saint-Sever",
     "wof:parent_id":102068403,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":4955,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

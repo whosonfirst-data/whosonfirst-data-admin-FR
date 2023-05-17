@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_49123",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Distr\u00e9",
+    "eurostat:nuts_2021_id":"49123",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG02",
+    "eurostat:nuts_2021_level_lau":"49123",
+    "eurostat:population":1713,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071876",
     "frgov:id":"BDCSURCO0000000009599589",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001774,
-    "geom:area_square_m":14896659.410681,
+    "geom:area_square_m":14896659.410683,
     "geom:bbox":"-0.163226760395,47.2046602809,-0.0801196819558,47.249740345",
     "geom:latitude":47.223388,
     "geom:longitude":-0.123665,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683327,
         102191581,
@@ -57,7 +71,10 @@
         102069715
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_49123",
+        "eurostat:nuts_2021_id":"49123"
+    },
     "wof:coterminous":[
         101765867
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"602bc9ea451749d61875906be4bc4cb4",
+    "wof:geomhash":"0a5bdbcc80c65a6977866a4510b93a2d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404388833,
-    "wof:lastmodified":1582325481,
+    "wof:lastmodified":1684353115,
     "wof:name":"Distre",
     "wof:parent_id":102069715,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1713,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

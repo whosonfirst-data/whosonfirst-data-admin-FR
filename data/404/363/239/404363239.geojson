@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_19237",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Privat",
+    "eurostat:nuts_2021_id":"19237",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI21",
+    "eurostat:nuts_2021_level_lau":"19237",
+    "eurostat:population":1075,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066751",
     "frgov:id":"BDCSURCO0000000009607958",
     "frgov:insee_arr":"2",
@@ -99,6 +111,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683209,
         102191581,
@@ -109,7 +123,10 @@
         102068197
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_19237",
+        "eurostat:nuts_2021_id":"19237"
+    },
     "wof:coterminous":[
         101770601
     ],
@@ -117,7 +134,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"55e59609c8a8ca9c3bac38e63620b442",
+    "wof:geomhash":"415b1b150ac6796506542b05772c242e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -131,11 +148,13 @@
         }
     ],
     "wof:id":404363239,
-    "wof:lastmodified":1582324233,
+    "wof:lastmodified":1684352799,
     "wof:name":"Saint-Privat",
     "wof:parent_id":102068197,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1075,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

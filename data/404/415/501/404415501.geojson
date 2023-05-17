@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_10342",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Jean-de-Bonneval",
+    "eurostat:nuts_2021_id":"10342",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF22",
+    "eurostat:nuts_2021_level_lau":"10342",
+    "eurostat:population":396,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069250",
     "frgov:id":"BDCSURCO0000000009594425",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.00075,
-    "geom:area_square_m":6184795.508899,
+    "geom:area_square_m":6184795.508898,
     "geom:bbox":"4.02919153776,48.1552954225,4.07357007095,48.1902967109",
     "geom:latitude":48.172151,
     "geom:longitude":4.050506,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683193,
         102191581,
@@ -58,7 +72,10 @@
         102065151
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_10342",
+        "eurostat:nuts_2021_id":"10342"
+    },
     "wof:coterminous":[
         1125848407
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4fac6c571997e363abdf688ff29d7baa",
+    "wof:geomhash":"e1e3907c2ae769a360ba56fd213050b2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404415501,
-    "wof:lastmodified":1582324360,
+    "wof:lastmodified":1684353431,
     "wof:name":"Saint-Jean-De-Bonneval",
     "wof:parent_id":102065151,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":396,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

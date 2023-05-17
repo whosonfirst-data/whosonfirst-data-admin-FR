@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_76581",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Germain-des-Essourts",
+    "eurostat:nuts_2021_id":"76581",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD22",
+    "eurostat:nuts_2021_level_lau":"76581",
+    "eurostat:population":406,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070449",
     "frgov:id":"BDCSURCO0000000009584323",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00115,
-    "geom:area_square_m":9227772.816423,
+    "geom:area_square_m":9227772.816424,
     "geom:bbox":"1.28710997639,49.5154279394,1.34485739042,49.5582077542",
     "geom:latitude":49.533964,
     "geom:longitude":1.315168,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683251,
         102191581,
@@ -58,7 +72,10 @@
         102065777
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_76581",
+        "eurostat:nuts_2021_id":"76581"
+    },
     "wof:coterminous":[
         1125934321
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8e811bae3a4778824a629c7f6c2b6369",
+    "wof:geomhash":"a69e0374dee3467fa9634118a4e1499d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404401051,
-    "wof:lastmodified":1582324433,
+    "wof:lastmodified":1684353261,
     "wof:name":"Saint-Germain-Des-Essourts",
     "wof:parent_id":102065777,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":406,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

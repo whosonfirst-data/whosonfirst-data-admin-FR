@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_36195",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Georges-sur-Arnon",
+    "eurostat:nuts_2021_id":"36195",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB03",
+    "eurostat:nuts_2021_level_lau":"36195",
+    "eurostat:population":575,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243600236",
     "frgov:id":"BDCSURCO0000000009600777",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002859,
-    "geom:area_square_m":24119995.91898,
+    "geom:area_square_m":24119995.918977,
     "geom:bbox":"2.00586519293,46.9586347359,2.10885590927,47.0186344463",
     "geom:latitude":46.986095,
     "geom:longitude":2.065174,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683311,
         102191581,
@@ -57,7 +71,10 @@
         102066567
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_36195",
+        "eurostat:nuts_2021_id":"36195"
+    },
     "wof:coterminous":[
         1126004919
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6b7fbabbbf3aefb336590026a1c9ed89",
+    "wof:geomhash":"267631741c9ce9d6e590499f987754bc",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404407875,
-    "wof:lastmodified":1582324490,
+    "wof:lastmodified":1684353342,
     "wof:name":"Saint-Georges-Sur-Arnon",
     "wof:parent_id":102066567,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":575,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

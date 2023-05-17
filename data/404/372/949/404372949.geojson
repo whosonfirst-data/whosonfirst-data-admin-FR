@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_63273",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"P\u00e9rignat-sur-Allier",
+    "eurostat:nuts_2021_id":"63273",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK14",
+    "eurostat:nuts_2021_level_lau":"63273",
+    "eurostat:population":1509,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067627",
     "frgov:id":"BDCSURCO0000000009605559",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.000561,
-    "geom:area_square_m":4844117.704715,
+    "geom:area_square_m":4844117.704714,
     "geom:bbox":"3.20895305609,45.7192776808,3.25735818639,45.7351479907",
     "geom:latitude":45.727486,
     "geom:longitude":3.234729,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683471,
         102191581,
@@ -58,7 +72,10 @@
         102065323
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_63273",
+        "eurostat:nuts_2021_id":"63273"
+    },
     "wof:coterminous":[
         101767885
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e573a9a3e1e72d6cb64e5133c32c4eef",
+    "wof:geomhash":"e027eec8152f20d7f8f47efdac19f334",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404372949,
-    "wof:lastmodified":1582325466,
+    "wof:lastmodified":1684352924,
     "wof:name":"Perignat-Sur-Allier",
     "wof:parent_id":102065323,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1509,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

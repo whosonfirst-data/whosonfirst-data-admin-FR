@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_73228",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Cassin",
+    "eurostat:nuts_2021_id":"73228",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK27",
+    "eurostat:nuts_2021_level_lau":"73228",
+    "eurostat:population":838,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069110",
     "frgov:id":"BDCSURCO0000000009606249",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001742,
-    "geom:area_square_m":15093864.283743,
+    "geom:area_square_m":15093864.283744,
     "geom:bbox":"5.85440350035,45.4910874178,5.90347356117,45.5519487479",
     "geom:latitude":45.520835,
     "geom:longitude":5.879103,
@@ -120,6 +132,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683265,
         102191581,
@@ -130,7 +144,10 @@
         102070759
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_73228",
+        "eurostat:nuts_2021_id":"73228"
+    },
     "wof:coterminous":[
         1125941837
     ],
@@ -138,7 +155,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"431ce279846b42607cc6177ce4028061",
+    "wof:geomhash":"d472b55ff30275ccdfbadec49c950ca5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -152,11 +169,13 @@
         }
     ],
     "wof:id":404353333,
-    "wof:lastmodified":1582324135,
+    "wof:lastmodified":1684352662,
     "wof:name":"Saint-Cassin",
     "wof:parent_id":102070759,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":838,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

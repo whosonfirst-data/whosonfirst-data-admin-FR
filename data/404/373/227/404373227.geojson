@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_85199",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Aubin-la-Plaine",
+    "eurostat:nuts_2021_id":"85199",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG05",
+    "eurostat:nuts_2021_level_lau":"85199",
+    "eurostat:population":535,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200073260",
     "frgov:id":"BDCSURCO0000000009602290",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001364,
-    "geom:area_square_m":11609622.992661,
+    "geom:area_square_m":11609622.99266,
     "geom:bbox":"-1.09635772074,46.4746655155,-1.03589664128,46.5255807795",
     "geom:latitude":46.50402,
     "geom:longitude":-1.06476,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683409,
         102191581,
@@ -57,7 +71,10 @@
         102069305
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_85199",
+        "eurostat:nuts_2021_id":"85199"
+    },
     "wof:coterminous":[
         101890443
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6beb7e5afdb6d1a12f64d18f07daae20",
+    "wof:geomhash":"4b2e0f842eaa348a0077c8e61a7aff1f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404373227,
-    "wof:lastmodified":1582325339,
+    "wof:lastmodified":1684352927,
     "wof:name":"Saint-Aubin-La-Plaine",
     "wof:parent_id":102069305,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":535,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

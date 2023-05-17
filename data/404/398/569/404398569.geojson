@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_19248",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Ybard",
+    "eurostat:nuts_2021_id":"19248",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI21",
+    "eurostat:nuts_2021_level_lau":"19248",
+    "eurostat:population":685,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"241927243",
     "frgov:id":"BDCSURCO0000000009606862",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003511,
-    "geom:area_square_m":30460686.833692,
+    "geom:area_square_m":30460686.833693,
     "geom:bbox":"1.47160300742,45.4032469363,1.55847025605,45.4879690078",
     "geom:latitude":45.449129,
     "geom:longitude":1.518598,
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683209,
         102191581,
@@ -139,7 +153,10 @@
         102069483
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_19248",
+        "eurostat:nuts_2021_id":"19248"
+    },
     "wof:coterminous":[
         1125927911
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4122364f4d1e3cc7a9a25bb7bad40e2b",
+    "wof:geomhash":"447ead82af40b8d2ae7f79d07143a98d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404398569,
-    "wof:lastmodified":1582324103,
+    "wof:lastmodified":1684353233,
     "wof:name":"Saint-Ybard",
     "wof:parent_id":102069483,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":685,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

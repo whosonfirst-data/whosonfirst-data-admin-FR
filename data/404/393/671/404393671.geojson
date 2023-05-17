@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_32383",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Justin",
+    "eurostat:nuts_2021_id":"32383",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ24",
+    "eurostat:nuts_2021_level_lau":"32383",
+    "eurostat:population":130,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243200508",
     "frgov:id":"BDCSURCO0000000009613989",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001481,
-    "geom:area_square_m":13291577.256942,
+    "geom:area_square_m":13291577.256941,
     "geom:bbox":"0.127140163244,43.4573980562,0.17615479254,43.5114124142",
     "geom:latitude":43.483575,
     "geom:longitude":0.148521,
@@ -90,6 +102,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683467,
         102191581,
@@ -100,7 +114,10 @@
         102066923
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_32383",
+        "eurostat:nuts_2021_id":"32383"
+    },
     "wof:coterminous":[
         1125813651
     ],
@@ -108,7 +125,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b963a3d0b246683bf68729a1418406f1",
+    "wof:geomhash":"f8ff8b6bcddc5596aa27691ef3a25cef",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -122,11 +139,13 @@
         }
     ],
     "wof:id":404393671,
-    "wof:lastmodified":1582325017,
+    "wof:lastmodified":1684353176,
     "wof:name":"Saint-Justin",
     "wof:parent_id":102066923,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":130,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

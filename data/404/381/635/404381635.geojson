@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_38465",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Victor-de-Morestel",
+    "eurostat:nuts_2021_id":"38465",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK24",
+    "eurostat:nuts_2021_level_lau":"38465",
+    "eurostat:population":1092,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068542",
     "frgov:id":"BDCSURCO0000000009605474",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001528,
-    "geom:area_square_m":13193982.712665,
+    "geom:area_square_m":13193982.712664,
     "geom:bbox":"5.46433995416,45.6771155897,5.52727677985,45.7311790479",
     "geom:latitude":45.70263,
     "geom:longitude":5.498245,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683427,
         102191581,
@@ -58,7 +72,10 @@
         102067813
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_38465",
+        "eurostat:nuts_2021_id":"38465"
+    },
     "wof:coterminous":[
         1125820717
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e08bbc2fc8c9745b8163995563cd7f85",
+    "wof:geomhash":"9a58c6cd40e3905f5028ec31761b5076",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404381635,
-    "wof:lastmodified":1582325431,
+    "wof:lastmodified":1684353029,
     "wof:name":"Saint-Victor-De-Morestel",
     "wof:parent_id":102067813,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1092,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

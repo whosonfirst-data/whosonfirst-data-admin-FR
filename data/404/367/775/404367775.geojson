@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_21427",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Montceau-et-\u00c9charnant",
+    "eurostat:nuts_2021_id":"21427",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC11",
+    "eurostat:nuts_2021_level_lau":"21427",
+    "eurostat:population":180,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071207",
     "frgov:id":"BDCSURCO0000000009600242",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002211,
-    "geom:area_square_m":18621779.870375,
+    "geom:area_square_m":18621779.870374,
     "geom:bbox":"4.60934035325,47.040329057,4.71537462179,47.0836809286",
     "geom:latitude":47.061413,
     "geom:longitude":4.666638,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683563,
         102191581,
@@ -58,7 +72,10 @@
         102065417
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_21427",
+        "eurostat:nuts_2021_id":"21427"
+    },
     "wof:coterminous":[
         101890681
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"1d37c9a678447cea521e55bba0345ef9",
+    "wof:geomhash":"aa362e2f0fbab9b8fa7ede4fcdafc064",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404367775,
-    "wof:lastmodified":1582325004,
+    "wof:lastmodified":1684352862,
     "wof:name":"Montceau-Et-Echarnant",
     "wof:parent_id":102065417,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":180,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

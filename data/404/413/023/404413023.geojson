@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_43100",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Frugi\u00e8res-le-Pin",
+    "eurostat:nuts_2021_id":"43100",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK13",
+    "eurostat:nuts_2021_level_lau":"43100",
+    "eurostat:population":159,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200073393",
     "frgov:id":"BDCSURCO0000000009607498",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001331,
-    "geom:area_square_m":11584406.823696,
+    "geom:area_square_m":11584406.823698,
     "geom:bbox":"3.46431596209,45.250829271,3.52777712981,45.2925481201",
     "geom:latitude":45.271154,
     "geom:longitude":3.498834,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683413,
         102191581,
@@ -58,7 +72,10 @@
         102067199
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_43100",
+        "eurostat:nuts_2021_id":"43100"
+    },
     "wof:coterminous":[
         1126054535
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2f47b398f955270f0177e46c0ada038c",
+    "wof:geomhash":"c3a4bb740ba9e27560377bca9ec9c595",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404413023,
-    "wof:lastmodified":1582324317,
+    "wof:lastmodified":1684353401,
     "wof:name":"Frugieres-Le-Pin",
     "wof:parent_id":102067199,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":159,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

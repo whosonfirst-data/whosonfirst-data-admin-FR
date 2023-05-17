@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_80528",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"M\u00e9r\u00e9aucourt",
+    "eurostat:nuts_2021_id":"80528",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE23",
+    "eurostat:nuts_2021_level_lau":"80528",
+    "eurostat:population":6,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071181",
     "frgov:id":"BDCSURCO0000000009583302",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000381,
-    "geom:area_square_m":3044154.18545,
+    "geom:area_square_m":3044154.185451,
     "geom:bbox":"1.91306139343,49.7213418411,1.94691606426,49.7375440904",
     "geom:latitude":49.73014,
     "geom:longitude":1.9316,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683363,
         102191581,
@@ -56,7 +70,10 @@
         102070551
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_80528",
+        "eurostat:nuts_2021_id":"80528"
+    },
     "wof:coterminous":[
         1360676801
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2011927a283e2e33d8187e5eb9d7f8ef",
+    "wof:geomhash":"b464630d6320ff7e0529080f2fd2257b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404390693,
-    "wof:lastmodified":1582324264,
+    "wof:lastmodified":1684353139,
     "wof:name":"Mereaucourt",
     "wof:parent_id":102070551,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":6,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

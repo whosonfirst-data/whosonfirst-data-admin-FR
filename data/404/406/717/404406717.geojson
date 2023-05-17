@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_31247",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Labarthe-Rivi\u00e8re",
+    "eurostat:nuts_2021_id":"31247",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ23",
+    "eurostat:nuts_2021_level_lau":"31247",
+    "eurostat:population":1332,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072643",
     "frgov:id":"BDCSURCO0000000009615660",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001546,
-    "geom:area_square_m":13959910.123496,
+    "geom:area_square_m":13959910.123497,
     "geom:bbox":"0.651068809948,43.0543755201,0.706165076993,43.1126832273",
     "geom:latitude":43.081271,
     "geom:longitude":0.671536,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683397,
         102191581,
@@ -58,7 +72,10 @@
         102069659
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_31247",
+        "eurostat:nuts_2021_id":"31247"
+    },
     "wof:coterminous":[
         101842755
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"743b45f2d0aac9280363e5b1df4a3d53",
+    "wof:geomhash":"aa30990ed9a25b11b248bcf45b825f37",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404406717,
-    "wof:lastmodified":1582324452,
+    "wof:lastmodified":1684353329,
     "wof:name":"Labarthe-Riviere",
     "wof:parent_id":102069659,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1332,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

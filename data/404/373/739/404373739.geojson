@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_78575",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-R\u00e9my-l\u00e8s-Chevreuse",
+    "eurostat:nuts_2021_id":"78575",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR103",
+    "eurostat:nuts_2021_level_lau":"78575",
+    "eurostat:population":7862,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200033173",
     "frgov:id":"BDCSURCO0000000009590679",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683367,
         102191581,
@@ -57,7 +71,10 @@
         102065129
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_78575",
+        "eurostat:nuts_2021_id":"78575"
+    },
     "wof:coterminous":[
         101751227
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"695586dd58984df50e7f234086b35e18",
+    "wof:geomhash":"cde4445ad67918b1db12766634f0e125",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404373739,
-    "wof:lastmodified":1582325338,
+    "wof:lastmodified":1684352933,
     "wof:name":"Saint-Remy-Les-Chevreuse",
     "wof:parent_id":102065129,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":7862,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

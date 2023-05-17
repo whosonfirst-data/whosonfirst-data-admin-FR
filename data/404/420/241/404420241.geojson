@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_08408",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"S\u00e9cheval",
+    "eurostat:nuts_2021_id":"08408",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF21",
+    "eurostat:nuts_2021_level_lau":"08408",
+    "eurostat:population":554,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041630",
     "frgov:id":"BDCSURCO0000000009582588",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.001723,
-    "geom:area_square_m":13737449.129492,
+    "geom:area_square_m":13737449.129491,
     "geom:bbox":"4.63164598836,49.8379274107,4.70912206221,49.884518849",
     "geom:latitude":49.859795,
     "geom:longitude":4.669574,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683309,
         102191581,
@@ -58,7 +72,10 @@
         102068329
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_08408",
+        "eurostat:nuts_2021_id":"08408"
+    },
     "wof:coterminous":[
         101901811
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2c9f952c0eac0b7fc74ec20f8d56b3d7",
+    "wof:geomhash":"e7ec89cf0a6624576d2383f9d7ef04c9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404420241,
-    "wof:lastmodified":1582325207,
+    "wof:lastmodified":1684353486,
     "wof:name":"Secheval",
     "wof:parent_id":102068329,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":554,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

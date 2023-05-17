@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_03243",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Marcel-en-Murat",
+    "eurostat:nuts_2021_id":"03243",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK11",
+    "eurostat:nuts_2021_level_lau":"03243",
+    "eurostat:population":124,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071512",
     "frgov:id":"BDCSURCO0000000009603084",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683293,
         102191581,
@@ -58,7 +72,10 @@
         102068327
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_03243",
+        "eurostat:nuts_2021_id":"03243"
+    },
     "wof:coterminous":[
         1125893291
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"12d8b5b4fe5f19f44e45f75aeb5b36e6",
+    "wof:geomhash":"c172f198cc5723dd2f253fd056e0c053",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404364895,
-    "wof:lastmodified":1582324243,
+    "wof:lastmodified":1684352822,
     "wof:name":"Saint-Marcel-En-Murat",
     "wof:parent_id":102068327,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":124,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

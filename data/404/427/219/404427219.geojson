@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_07260",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Lager-Bressac",
+    "eurostat:nuts_2021_id":"07260",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK22",
+    "eurostat:nuts_2021_level_lau":"07260",
+    "eurostat:population":922,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071405",
     "frgov:id":"BDCSURCO0000000009609398",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001819,
-    "geom:area_square_m":15990212.237529,
+    "geom:area_square_m":15990212.237528,
     "geom:bbox":"4.68776241699,44.6699218074,4.75157597309,44.7129472377",
     "geom:latitude":44.691959,
     "geom:longitude":4.715629,
@@ -132,6 +144,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683421,
         102191581,
@@ -142,7 +156,10 @@
         102065507
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_07260",
+        "eurostat:nuts_2021_id":"07260"
+    },
     "wof:coterminous":[
         1125842923
     ],
@@ -150,7 +167,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e7e53520db88ce14c36f6ccde1b63ff4",
+    "wof:geomhash":"5963c0256fb4cc8d78ee787df9f5dbb1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -164,11 +181,13 @@
         }
     ],
     "wof:id":404427219,
-    "wof:lastmodified":1582325235,
+    "wof:lastmodified":1684353571,
     "wof:name":"Saint-Lager-Bressac",
     "wof:parent_id":102065507,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":922,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

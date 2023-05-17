@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_43186",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Front",
+    "eurostat:nuts_2021_id":"43186",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK13",
+    "eurostat:nuts_2021_level_lau":"43186",
+    "eurostat:population":403,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200073401",
     "frgov:id":"BDCSURCO0000000009608522",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.005935,
-    "geom:area_square_m":51919936.654268,
+    "geom:area_square_m":51919936.654265,
     "geom:bbox":"4.05895919393,44.9165026634,4.19390204318,45.0090479866",
     "geom:latitude":44.973211,
     "geom:longitude":4.139443,
@@ -87,6 +99,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683413,
         102191581,
@@ -97,7 +111,10 @@
         102065917
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_43186",
+        "eurostat:nuts_2021_id":"43186"
+    },
     "wof:coterminous":[
         101894413
     ],
@@ -105,7 +122,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"14ae67708e8fa4a04966f38d3eced215",
+    "wof:geomhash":"5302d3d13ae41cb4074dffde76a5f91f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -119,11 +136,13 @@
         }
     ],
     "wof:id":404360475,
-    "wof:lastmodified":1582325054,
+    "wof:lastmodified":1684352760,
     "wof:name":"Saint-Front",
     "wof:parent_id":102065917,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":403,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

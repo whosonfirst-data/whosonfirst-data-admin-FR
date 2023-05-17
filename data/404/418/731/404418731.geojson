@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_88433",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Prancher",
+    "eurostat:nuts_2021_id":"88433",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF34",
+    "eurostat:nuts_2021_level_lau":"88433",
+    "eurostat:population":83,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068369",
     "frgov:id":"BDCSURCO0000000009593185",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.000539,
-    "geom:area_square_m":4433057.416724,
+    "geom:area_square_m":4433057.416723,
     "geom:bbox":"5.92422635992,48.3333216579,5.96929596329,48.3566251559",
     "geom:latitude":48.345272,
     "geom:longitude":5.948823,
@@ -120,6 +132,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683223,
         102191581,
@@ -130,7 +144,10 @@
         102067289
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_88433",
+        "eurostat:nuts_2021_id":"88433"
+    },
     "wof:coterminous":[
         1125938087
     ],
@@ -138,7 +155,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"081e7c86a0acde646331b1e2aa1db60c",
+    "wof:geomhash":"159ad6f531e6e4c1827e8b79b49a725f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -152,11 +169,13 @@
         }
     ],
     "wof:id":404418731,
-    "wof:lastmodified":1582325217,
+    "wof:lastmodified":1684353468,
     "wof:name":"Saint-Prancher",
     "wof:parent_id":102067289,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":83,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

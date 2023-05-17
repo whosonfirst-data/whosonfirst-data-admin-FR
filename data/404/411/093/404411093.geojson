@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_71458",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Martin-la-Patrouille",
+    "eurostat:nuts_2021_id":"71458",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC13",
+    "eurostat:nuts_2021_level_lau":"71458",
+    "eurostat:population":62,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040293",
     "frgov:id":"BDCSURCO0000000009601980",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000826,
-    "geom:area_square_m":7024033.234666,
+    "geom:area_square_m":7024033.234667,
     "geom:bbox":"4.51944145407,46.5647585174,4.56572896171,46.5997162076",
     "geom:latitude":46.583391,
     "geom:longitude":4.544905,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683543,
         102191581,
@@ -58,7 +72,10 @@
         102068293
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_71458",
+        "eurostat:nuts_2021_id":"71458"
+    },
     "wof:coterminous":[
         1125936645
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0b2b5931976c84725744cf0d93b19b6f",
+    "wof:geomhash":"28d78878cb5e1e56a5c20b517d5df5a8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404411093,
-    "wof:lastmodified":1582325174,
+    "wof:lastmodified":1684353379,
     "wof:name":"Saint-Martin-La-Patrouille",
     "wof:parent_id":102068293,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":62,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_91521",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ris-Orangis",
+    "eurostat:nuts_2021_id":"91521",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR104",
+    "eurostat:nuts_2021_level_lau":"91521",
+    "eurostat:population":29225,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200059228",
     "frgov:id":"BDCSURCO0000000009591547",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"ILE-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001025,
-    "geom:area_square_m":8374518.414628,
+    "geom:area_square_m":8374518.414627,
     "geom:bbox":"2.383529,48.624105,2.437761,48.667419",
     "geom:latitude":48.645669,
     "geom:longitude":2.408316,
@@ -150,23 +162,29 @@
     "reversegeo:longitude":2.407892,
     "src:geom":"frgov",
     "src:geom_alt":[],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85683371,
         102191581,
         85633147,
-        102068625,
         404227995,
         404227465,
-        85683371
+        102068625
     ],
     "wof:breaches":[],
     "wof:concordance":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_91521",
+        "eurostat:nuts_2021_id":"91521"
+    },
     "wof:coterminous":[
         101751009,
         102068625
     ],
     "wof:country":"FR",
     "wof:created":1526511129,
-    "wof:geomhash":"b2435742fec103a00ebe051f65629553",
+    "wof:geomhash":"fa9beb971b4630b969aebbd6d8f4af2f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -179,11 +197,13 @@
         }
     ],
     "wof:id":1159322521,
-    "wof:lastmodified":1608039592,
+    "wof:lastmodified":1684353602,
     "wof:name":"Ris-Orangis",
     "wof:parent_id":102068625,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":29225,
+    "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded":[],
     "wof:superseded_by":[],

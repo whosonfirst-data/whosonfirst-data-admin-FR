@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_34274",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Martin-de-Londres",
+    "eurostat:nuts_2021_id":"34274",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ13",
+    "eurostat:nuts_2021_level_lau":"34274",
+    "eurostat:population":2755,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200022986",
     "frgov:id":"BDCSURCO0000000009612682",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.004311,
-    "geom:area_square_m":38480968.424834,
+    "geom:area_square_m":38480968.424836,
     "geom:bbox":"3.66426238043,43.7579256695,3.75945987335,43.8326776695",
     "geom:latitude":43.792661,
     "geom:longitude":3.707852,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683419,
         102191581,
@@ -58,7 +72,10 @@
         102070135
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_34274",
+        "eurostat:nuts_2021_id":"34274"
+    },
     "wof:coterminous":[
         101842745
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e733a93a0b0d166fe1eea8b8d6d17130",
+    "wof:geomhash":"60fc3c3c87ac3f3724d15162d9b61c25",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404390031,
-    "wof:lastmodified":1582324264,
+    "wof:lastmodified":1684353129,
     "wof:name":"Saint-Martin-De-Londres",
     "wof:parent_id":102070135,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2755,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

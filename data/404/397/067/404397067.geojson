@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_43182",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-\u00c9tienne-sur-Blesle",
+    "eurostat:nuts_2021_id":"43182",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK13",
+    "eurostat:nuts_2021_level_lau":"43182",
+    "eurostat:population":55,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244301032",
     "frgov:id":"BDCSURCO0000000009607295",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.002061,
-    "geom:area_square_m":17920695.828911,
+    "geom:area_square_m":17920695.828912,
     "geom:bbox":"3.08218979409,45.2841487455,3.16632017499,45.3288631862",
     "geom:latitude":45.304526,
     "geom:longitude":3.124878,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683413,
         102191581,
@@ -58,7 +72,10 @@
         102064845
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_43182",
+        "eurostat:nuts_2021_id":"43182"
+    },
     "wof:coterminous":[
         1125810395
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"87ed917594ed97d65c80748e513247d9",
+    "wof:geomhash":"f7b49bc83f6af28f4b7f2f81f116ce48",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404397067,
-    "wof:lastmodified":1582324214,
+    "wof:lastmodified":1684353214,
     "wof:name":"Saint-Etienne-Sur-Blesle",
     "wof:parent_id":102064845,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":55,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

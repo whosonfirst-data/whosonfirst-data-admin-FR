@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_45146",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Fert\u00e9-Saint-Aubin",
+    "eurostat:nuts_2021_id":"45146",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB06",
+    "eurostat:nuts_2021_level_lau":"45146",
+    "eurostat:population":7454,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200005932",
     "frgov:id":"BDCSURCO0000000009597495",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683479,
         102191581,
@@ -57,7 +71,10 @@
         102066677
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_45146",
+        "eurostat:nuts_2021_id":"45146"
+    },
     "wof:coterminous":[
         101764939
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9f412abf53023170aa4edf7c0967377f",
+    "wof:geomhash":"d2998b9ec360e6f04be47743eb3c5aa5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404383747,
-    "wof:lastmodified":1582324545,
+    "wof:lastmodified":1684353056,
     "wof:name":"La Ferte-Saint-Aubin",
     "wof:parent_id":102066677,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":7454,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

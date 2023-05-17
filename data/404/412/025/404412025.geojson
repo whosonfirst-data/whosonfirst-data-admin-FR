@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_65071",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bats\u00e8re",
+    "eurostat:nuts_2021_id":"65071",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ26",
+    "eurostat:nuts_2021_level_lau":"65071",
+    "eurostat:population":36,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070787",
     "frgov:id":"BDCSURCO0000000009615692",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000254,
-    "geom:area_square_m":2293760.001529,
+    "geom:area_square_m":2293760.001528,
     "geom:bbox":"0.273295615191,43.0521462186,0.293215104638,43.0695535864",
     "geom:latitude":43.060037,
     "geom:longitude":0.283676,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683203,
         102191581,
@@ -58,7 +72,10 @@
         102065115
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_65071",
+        "eurostat:nuts_2021_id":"65071"
+    },
     "wof:coterminous":[
         1126034861
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"83543f47dde86c3b733b07827cd7ca77",
+    "wof:geomhash":"0c1ff455bbcadb6c9932cf34b48e0d71",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404412025,
-    "wof:lastmodified":1582324372,
+    "wof:lastmodified":1684353389,
     "wof:name":"Batsere",
     "wof:parent_id":102065115,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":36,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

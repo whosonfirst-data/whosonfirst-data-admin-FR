@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_43095",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Fix-Saint-Geneys",
+    "eurostat:nuts_2021_id":"43095",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK13",
+    "eurostat:nuts_2021_level_lau":"43095",
+    "eurostat:population":123,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200073419",
     "frgov:id":"BDCSURCO0000000009607912",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.000927,
-    "geom:area_square_m":8085267.304593,
+    "geom:area_square_m":8085267.304592,
     "geom:bbox":"3.64413001514,45.1164428384,3.68246044702,45.1640979546",
     "geom:latitude":45.141039,
     "geom:longitude":3.665112,
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683413,
         102191581,
@@ -136,7 +150,10 @@
         102064337
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_43095",
+        "eurostat:nuts_2021_id":"43095"
+    },
     "wof:coterminous":[
         101894431
     ],
@@ -144,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"bca3eb27bb6d756cd69eb28bdf929b39",
+    "wof:geomhash":"5167cf80226630c290ded8df09fbe430",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +175,13 @@
         }
     ],
     "wof:id":404363909,
-    "wof:lastmodified":1582324217,
+    "wof:lastmodified":1684352808,
     "wof:name":"Fix-Saint-Geneys",
     "wof:parent_id":102064337,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":123,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

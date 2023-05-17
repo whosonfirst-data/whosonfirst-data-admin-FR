@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_79024",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Azay-le-Br\u00fbl\u00e9",
+    "eurostat:nuts_2021_id":"79024",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI33",
+    "eurostat:nuts_2021_level_lau":"79024",
+    "eurostat:population":1951,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041994",
     "frgov:id":"BDCSURCO0000000009602712",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002596,
-    "geom:area_square_m":22131260.383888,
+    "geom:area_square_m":22131260.383887,
     "geom:bbox":"-0.316670018063,46.3813474066,-0.215247373955,46.4303253988",
     "geom:latitude":46.404511,
     "geom:longitude":-0.267805,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683163,
         102191581,
@@ -58,7 +72,10 @@
         102068989
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_79024",
+        "eurostat:nuts_2021_id":"79024"
+    },
     "wof:coterminous":[
         1126029277
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8a8b124a3fcf50811f3e1bf7c468e1d4",
+    "wof:geomhash":"c6f72c74724a2bf06acbfe45e6cb1756",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404367115,
-    "wof:lastmodified":1582325004,
+    "wof:lastmodified":1684352853,
     "wof:name":"Azay-Le-Brule",
     "wof:parent_id":102068989,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1951,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

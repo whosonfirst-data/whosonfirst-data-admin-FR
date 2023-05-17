@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_87100",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Montrol-S\u00e9nard",
+    "eurostat:nuts_2021_id":"87100",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI23",
+    "eurostat:nuts_2021_level_lau":"87100",
+    "eurostat:population":278,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071942",
     "frgov:id":"BDCSURCO0000000009604316",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683531,
         102191581,
@@ -58,7 +72,10 @@
         102067229
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_87100",
+        "eurostat:nuts_2021_id":"87100"
+    },
     "wof:coterminous":[
         1125777235
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"385306c05af064630a668aa7471cea42",
+    "wof:geomhash":"00aef22eafc76ceaf18ec7e230c2ccd0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404360283,
-    "wof:lastmodified":1582325053,
+    "wof:lastmodified":1684352757,
     "wof:name":"Montrol-Senard",
     "wof:parent_id":102067229,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":278,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

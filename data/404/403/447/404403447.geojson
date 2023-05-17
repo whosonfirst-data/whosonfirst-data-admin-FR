@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_80697",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Acheul",
+    "eurostat:nuts_2021_id":"80697",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE23",
+    "eurostat:nuts_2021_level_lau":"80697",
+    "eurostat:population":27,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070951",
     "frgov:id":"BDCSURCO0000000009581700",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000384,
-    "geom:area_square_m":3036759.962563,
+    "geom:area_square_m":3036759.962562,
     "geom:bbox":"2.14900203955,50.1725387868,2.17849785493,50.2088979615",
     "geom:latitude":50.190273,
     "geom:longitude":2.162883,
@@ -132,6 +144,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683363,
         102191581,
@@ -142,7 +156,10 @@
         102066533
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_80697",
+        "eurostat:nuts_2021_id":"80697"
+    },
     "wof:coterminous":[
         1125896115
     ],
@@ -150,7 +167,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"efbc97837738ea103593209571e6da3c",
+    "wof:geomhash":"16472fb0cbb9695a1271bd2b2478cee2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -164,11 +181,13 @@
         }
     ],
     "wof:id":404403447,
-    "wof:lastmodified":1582325289,
+    "wof:lastmodified":1684353289,
     "wof:name":"Saint-Acheul",
     "wof:parent_id":102066533,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":27,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

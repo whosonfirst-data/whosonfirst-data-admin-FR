@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_52264",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Laneuvelle",
+    "eurostat:nuts_2021_id":"52264",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF24",
+    "eurostat:nuts_2021_level_lau":"52264",
+    "eurostat:population":65,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070332",
     "frgov:id":"BDCSURCO0000000009595668",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.001346,
-    "geom:area_square_m":11152171.600923,
+    "geom:area_square_m":11152171.600922,
     "geom:bbox":"5.63802035121,47.9181648842,5.70015704416,47.9526976179",
     "geom:latitude":47.933547,
     "geom:longitude":5.668317,
@@ -123,6 +135,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683261,
         102191581,
@@ -133,7 +147,10 @@
         102069143
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_52264",
+        "eurostat:nuts_2021_id":"52264"
+    },
     "wof:coterminous":[
         101887261
     ],
@@ -141,7 +158,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"baac3b03f78fba915ae69dab2898f645",
+    "wof:geomhash":"9b8737c59074d9b52d5bc941259d08eb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -155,11 +172,13 @@
         }
     ],
     "wof:id":404355277,
-    "wof:lastmodified":1582324192,
+    "wof:lastmodified":1684352689,
     "wof:name":"Laneuvelle",
     "wof:parent_id":102069143,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":65,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

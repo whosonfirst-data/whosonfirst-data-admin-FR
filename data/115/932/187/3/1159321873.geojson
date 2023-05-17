@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_52121",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Chaumont",
+    "eurostat:nuts_2021_id":"52121",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF24",
+    "eurostat:nuts_2021_level_lau":"52121",
+    "eurostat:population":21945,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068658",
     "frgov:id":"BDCSURCO0000000009595051",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Pr\u00e9fecture",
     "geom:area":0.00669,
-    "geom:area_square_m":55251421.478052,
+    "geom:area_square_m":55251421.478053,
     "geom:bbox":"5.083236,48.035692,5.261913,48.14051",
     "geom:latitude":48.097933,
     "geom:longitude":5.139904,
@@ -102,24 +114,30 @@
     "reversegeo:longitude":5.126358,
     "src:geom":"frgov",
     "src:geom_alt":[],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85683261,
         102191581,
         85633147,
-        102071879,
-        136253037,
         404227699,
         1108826391,
-        85683261
+        136253037,
+        102071879
     ],
     "wof:breaches":[],
     "wof:concordance":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_52121",
+        "eurostat:nuts_2021_id":"52121"
+    },
     "wof:coterminous":[
         101766225,
         102071879
     ],
     "wof:country":"FR",
     "wof:created":1526509143,
-    "wof:geomhash":"1881ce13d5a97727d9dbd79f5828f22c",
+    "wof:geomhash":"3a98cd56e0a08f91ee86dbaa40831d48",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -133,11 +151,13 @@
         }
     ],
     "wof:id":1159321873,
-    "wof:lastmodified":1608039574,
+    "wof:lastmodified":1684353594,
     "wof:name":"Chaumont",
     "wof:parent_id":102071879,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Pr\u00e9fecture",
+    "wof:population":21945,
+    "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded":[],
     "wof:superseded_by":[],

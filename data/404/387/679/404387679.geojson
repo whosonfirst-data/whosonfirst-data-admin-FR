@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_28176",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gault-Saint-Denis",
+    "eurostat:nuts_2021_id":"28176",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB02",
+    "eurostat:nuts_2021_level_lau":"28176",
+    "eurostat:population":674,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242852465",
     "frgov:id":"BDCSURCO0000000009594509",
     "frgov:insee_arr":"2",
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683189,
         102191581,
@@ -135,7 +149,10 @@
         102064901
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_28176",
+        "eurostat:nuts_2021_id":"28176"
+    },
     "wof:coterminous":[
         1126004133
     ],
@@ -143,7 +160,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b92666e2c462dbec4b39f7f705f1ccc9",
+    "wof:geomhash":"9345b85a8b930f8b66cb10c1f62bab5a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -156,11 +173,13 @@
         }
     ],
     "wof:id":404387679,
-    "wof:lastmodified":1582325365,
+    "wof:lastmodified":1684353100,
     "wof:name":"Le Gault-Saint-Denis",
     "wof:parent_id":102064901,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":674,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

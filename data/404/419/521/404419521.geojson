@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_04034",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Brillanne",
+    "eurostat:nuts_2021_id":"04034",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL01",
+    "eurostat:nuts_2021_level_lau":"04034",
+    "eurostat:population":1149,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200034700",
     "frgov:id":"BDCSURCO0000000009611956",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.000781,
-    "geom:area_square_m":6950624.058944,
+    "geom:area_square_m":6950624.058945,
     "geom:bbox":"5.86545144453,43.9100207916,5.89872185181,43.9499131994",
     "geom:latitude":43.931862,
     "geom:longitude":5.884401,
@@ -144,6 +156,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683509,
         102191581,
@@ -153,7 +167,10 @@
         102067935
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_04034",
+        "eurostat:nuts_2021_id":"04034"
+    },
     "wof:coterminous":[
         101897401
     ],
@@ -161,7 +178,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"86dd842bc2af67ed8b596065f49c3417",
+    "wof:geomhash":"7d6022d53abab0ee540e85c84925a625",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -174,11 +191,13 @@
         }
     ],
     "wof:id":404419521,
-    "wof:lastmodified":1582325067,
+    "wof:lastmodified":1684353477,
     "wof:name":"La Brillanne",
     "wof:parent_id":102067935,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1149,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

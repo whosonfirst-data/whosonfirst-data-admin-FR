@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_46304",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"S\u00e9niergues",
+    "eurostat:nuts_2021_id":"46304",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ25",
+    "eurostat:nuts_2021_level_lau":"46304",
+    "eurostat:population":131,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244600573",
     "frgov:id":"BDCSURCO0000000009609492",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002072,
-    "geom:area_square_m":18205428.090034,
+    "geom:area_square_m":18205428.090033,
     "geom:bbox":"1.51534538386,44.6866989492,1.59460176142,44.7476555221",
     "geom:latitude":44.714145,
     "geom:longitude":1.560334,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683389,
         102191581,
@@ -58,7 +72,10 @@
         102066549
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_46304",
+        "eurostat:nuts_2021_id":"46304"
+    },
     "wof:coterminous":[
         101896127
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9d01f2aae50e93de2a9372e6d131ad71",
+    "wof:geomhash":"26e0679a234a24ff090fa93e949d6fae",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404360189,
-    "wof:lastmodified":1582325048,
+    "wof:lastmodified":1684352756,
     "wof:name":"Seniergues",
     "wof:parent_id":102066549,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":131,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

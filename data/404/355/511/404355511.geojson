@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_85250",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Mathurin",
+    "eurostat:nuts_2021_id":"85250",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG05",
+    "eurostat:nuts_2021_level_lau":"85250",
+    "eurostat:population":2270,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071165",
     "frgov:id":"BDCSURCO0000000009602108",
     "frgov:insee_arr":"3",
@@ -114,6 +126,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683409,
         102191581,
@@ -123,7 +137,10 @@
         102067329
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_85250",
+        "eurostat:nuts_2021_id":"85250"
+    },
     "wof:coterminous":[
         101767051
     ],
@@ -131,7 +148,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b0d4fda2ff912f84b6dbc1e0d2e5dd56",
+    "wof:geomhash":"66e3cbd670ab30e84073539a4fa19dba",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -144,11 +161,13 @@
         }
     ],
     "wof:id":404355511,
-    "wof:lastmodified":1582324189,
+    "wof:lastmodified":1684352692,
     "wof:name":"Saint-Mathurin",
     "wof:parent_id":102067329,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2270,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_80500",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Maisni\u00e8res",
+    "eurostat:nuts_2021_id":"80500",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE23",
+    "eurostat:nuts_2021_level_lau":"80500",
+    "eurostat:population":516,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069722",
     "frgov:id":"BDCSURCO0000000009582179",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001597,
-    "geom:area_square_m":12687325.589014,
+    "geom:area_square_m":12687325.589016,
     "geom:bbox":"1.5721646529,49.9939735129,1.65458824224,50.0341318659",
     "geom:latitude":50.01496,
     "geom:longitude":1.608888,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683363,
         102191581,
@@ -58,7 +72,10 @@
         102068363
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_80500",
+        "eurostat:nuts_2021_id":"80500"
+    },
     "wof:coterminous":[
         101899127
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4ef85f3a8477a3b70ca5105a6e77125d",
+    "wof:geomhash":"e8de401222950178cbaf1946f919f7ce",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404427453,
-    "wof:lastmodified":1582325238,
+    "wof:lastmodified":1684353573,
     "wof:name":"Maisnieres",
     "wof:parent_id":102068363,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":516,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

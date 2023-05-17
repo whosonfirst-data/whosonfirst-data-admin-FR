@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_12222",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-F\u00e9lix-de-Sorgues",
+    "eurostat:nuts_2021_id":"12222",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ22",
+    "eurostat:nuts_2021_level_lau":"12222",
+    "eurostat:population":213,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067155",
     "frgov:id":"BDCSURCO0000000009612472",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003476,
-    "geom:area_square_m":30982209.980142,
+    "geom:area_square_m":30982209.980144,
     "geom:bbox":"2.94993199399,43.842567652,3.02878841429,43.9221498666",
     "geom:latitude":43.882526,
     "geom:longitude":2.986267,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683301,
         102191581,
@@ -58,7 +72,10 @@
         102069607
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_12222",
+        "eurostat:nuts_2021_id":"12222"
+    },
     "wof:coterminous":[
         1126006483
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a4c508b8a3692fe73dab4dee1ccbd9a9",
+    "wof:geomhash":"0f300d00648d03c6d88caa64b426b7d1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404360575,
-    "wof:lastmodified":1582325049,
+    "wof:lastmodified":1684352762,
     "wof:name":"Saint-Felix-De-Sorgues",
     "wof:parent_id":102069607,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":213,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

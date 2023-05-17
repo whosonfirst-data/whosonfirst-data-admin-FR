@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_80133",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Brailly-Cornehotte",
+    "eurostat:nuts_2021_id":"80133",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE23",
+    "eurostat:nuts_2021_level_lau":"80133",
+    "eurostat:population":241,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070936",
     "frgov:id":"BDCSURCO0000000009581714",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001453,
-    "geom:area_square_m":11492383.211258,
+    "geom:area_square_m":11492383.211257,
     "geom:bbox":"1.92573862992,50.1990450251,1.98692667125,50.2535559771",
     "geom:latitude":50.224513,
     "geom:longitude":1.95858,
@@ -135,6 +147,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683363,
         102191581,
@@ -145,7 +159,10 @@
         102067777
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_80133",
+        "eurostat:nuts_2021_id":"80133"
+    },
     "wof:coterminous":[
         101898907
     ],
@@ -153,7 +170,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"629481679e30828ef6d087065e3b7157",
+    "wof:geomhash":"e81dfc0df4d8482d1e18c2b4f307094f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -167,11 +184,13 @@
         }
     ],
     "wof:id":404395045,
-    "wof:lastmodified":1582324779,
+    "wof:lastmodified":1684353191,
     "wof:name":"Brailly-Cornehotte",
     "wof:parent_id":102067777,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":241,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_78385",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"M\u00e9nerville",
+    "eurostat:nuts_2021_id":"78385",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR103",
+    "eurostat:nuts_2021_level_lau":"78385",
+    "eurostat:population":210,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071074",
     "frgov:id":"BDCSURCO0000000009588746",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683367,
         102191581,
@@ -57,7 +71,10 @@
         102064521
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_78385",
+        "eurostat:nuts_2021_id":"78385"
+    },
     "wof:coterminous":[
         1125916583
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6005649e11e98bc09d2d8a5ae1fdeeb8",
+    "wof:geomhash":"b50713439a43a9b9df63fa814cfa5d7a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404389291,
-    "wof:lastmodified":1582325333,
+    "wof:lastmodified":1684353120,
     "wof:name":"Menerville",
     "wof:parent_id":102064521,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":210,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

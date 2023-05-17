@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_35162",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Louvign\u00e9-du-D\u00e9sert",
+    "eurostat:nuts_2021_id":"35162",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH03",
+    "eurostat:nuts_2021_level_lau":"35162",
+    "eurostat:population":3374,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072452",
     "frgov:id":"BDCSURCO0000000009592604",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BRETAGNE",
     "frgov:statut":"Commune simple",
     "geom:area":0.005141,
-    "geom:area_square_m":42137037.858595,
+    "geom:area_square_m":42137037.858596,
     "geom:bbox":"-1.18632444381,48.4475459105,-1.06396184786,48.5242473988",
     "geom:latitude":48.486766,
     "geom:longitude":-1.123504,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683461,
         102191581,
@@ -57,7 +71,10 @@
         102067961
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_35162",
+        "eurostat:nuts_2021_id":"35162"
+    },
     "wof:coterminous":[
         101762357
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"671df25fe2dae68c897f492663ed4c30",
+    "wof:geomhash":"d3edec3efabeb7d844a6c91d3bdb544c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404351587,
-    "wof:lastmodified":1582324954,
+    "wof:lastmodified":1684352640,
     "wof:name":"Louvigne-Du-Desert",
     "wof:parent_id":102067961,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3374,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

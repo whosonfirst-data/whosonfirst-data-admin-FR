@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_77182",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Fert\u00e9-Gaucher",
+    "eurostat:nuts_2021_id":"77182",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR102",
+    "eurostat:nuts_2021_level_lau":"77182",
+    "eurostat:population":4860,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072544",
     "frgov:id":"BDCSURCO0000000009590150",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"ILE-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002129,
-    "geom:area_square_m":17343331.311847,
+    "geom:area_square_m":17343331.311848,
     "geom:bbox":"3.27607748059,48.7541913979,3.3336367186,48.8284473907",
     "geom:latitude":48.787863,
     "geom:longitude":3.304245,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683385,
         102191581,
@@ -57,7 +71,10 @@
         102066373
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_77182",
+        "eurostat:nuts_2021_id":"77182"
+    },
     "wof:coterminous":[
         101761229
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5b553bbaff3565961c3f8065106b744d",
+    "wof:geomhash":"a516320a90d99568c48078ec504286c3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404358739,
-    "wof:lastmodified":1582324966,
+    "wof:lastmodified":1684352736,
     "wof:name":"La Ferte-Gaucher",
     "wof:parent_id":102066373,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":4860,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

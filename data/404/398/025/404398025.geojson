@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_34285",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Pons-de-Mauchiens",
+    "eurostat:nuts_2021_id":"34285",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ13",
+    "eurostat:nuts_2021_level_lau":"34285",
+    "eurostat:population":659,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243400819",
     "frgov:id":"BDCSURCO0000000009613854",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683419,
         102191581,
@@ -58,7 +72,10 @@
         102068161
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_34285",
+        "eurostat:nuts_2021_id":"34285"
+    },
     "wof:coterminous":[
         101896801
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"71371f1f14116c09c80a6f2b84e8c761",
+    "wof:geomhash":"f438133303fa44427a0eb67e156b130b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404398025,
-    "wof:lastmodified":1582324107,
+    "wof:lastmodified":1684353225,
     "wof:name":"Saint-Pons-De-Mauchiens",
     "wof:parent_id":102068161,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":659,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

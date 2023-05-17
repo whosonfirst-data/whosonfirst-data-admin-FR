@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_10099",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Chessy-les-Pr\u00e9s",
+    "eurostat:nuts_2021_id":"10099",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF22",
+    "eurostat:nuts_2021_level_lau":"10099",
+    "eurostat:population":501,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071041",
     "frgov:id":"BDCSURCO0000000009595388",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.003103,
-    "geom:area_square_m":25665009.042128,
+    "geom:area_square_m":25665009.042127,
     "geom:bbox":"3.88525002604,47.9821651632,3.98355637173,48.0434996281",
     "geom:latitude":48.014047,
     "geom:longitude":3.934281,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683193,
         102191581,
@@ -58,7 +72,10 @@
         102065959
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_10099",
+        "eurostat:nuts_2021_id":"10099"
+    },
     "wof:coterminous":[
         1126044791
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"599c539059edcb33e36043f7abd6e08b",
+    "wof:geomhash":"dcf690e7211360882599057b385c76e2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404421217,
-    "wof:lastmodified":1582325098,
+    "wof:lastmodified":1684353500,
     "wof:name":"Chessy-Les-Pres",
     "wof:parent_id":102065959,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":501,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

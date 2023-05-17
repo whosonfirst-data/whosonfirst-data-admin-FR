@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_39018",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Aromas",
+    "eurostat:nuts_2021_id":"39018",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC22",
+    "eurostat:nuts_2021_level_lau":"39018",
+    "eurostat:population":652,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200012060",
     "frgov:id":"BDCSURCO0000000009603001",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003036,
-    "geom:area_square_m":25935149.418184,
+    "geom:area_square_m":25935149.418183,
     "geom:bbox":"5.45679788539,46.2642806828,5.51779517507,46.3626664425",
     "geom:latitude":46.30539,
     "geom:longitude":5.485327,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683173,
         102191581,
@@ -58,7 +72,10 @@
         102069347
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_39018",
+        "eurostat:nuts_2021_id":"39018"
+    },
     "wof:coterminous":[
         1125832955
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b77f71d2c2ad7004bfeba68afa75f7be",
+    "wof:geomhash":"352e188a7af0944bd80c390b2fa00fbb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404388827,
-    "wof:lastmodified":1582325478,
+    "wof:lastmodified":1684353114,
     "wof:name":"Villeneuve-Les-Charnod",
     "wof:parent_id":102069347,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":652,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

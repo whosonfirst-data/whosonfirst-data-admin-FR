@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_19193",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Cirgues-la-Loutre",
+    "eurostat:nuts_2021_id":"19193",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI21",
+    "eurostat:nuts_2021_level_lau":"19193",
+    "eurostat:population":176,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066751",
     "frgov:id":"BDCSURCO0000000009608155",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683209,
         102191581,
@@ -58,7 +72,10 @@
         102068197
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_19193",
+        "eurostat:nuts_2021_id":"19193"
+    },
     "wof:coterminous":[
         1125767827
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"df257600bd0fd9e84f6b232a5ee72f6a",
+    "wof:geomhash":"4d25e7a0448fb8cadb86b290870e2bb2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404356705,
-    "wof:lastmodified":1582324933,
+    "wof:lastmodified":1684352707,
     "wof:name":"Saint-Cirgues-La-Loutre",
     "wof:parent_id":102068197,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":176,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

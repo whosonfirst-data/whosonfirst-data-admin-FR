@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_02033",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Aubigny-en-Laonnois",
+    "eurostat:nuts_2021_id":"02033",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE21",
+    "eurostat:nuts_2021_level_lau":"02033",
+    "eurostat:population":105,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240200592",
     "frgov:id":"BDCSURCO0000000009584534",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000544,
-    "geom:area_square_m":4369312.126366,
+    "geom:area_square_m":4369312.126367,
     "geom:bbox":"3.77423270438,49.4812042122,3.80950788385,49.5082512204",
     "geom:latitude":49.496879,
     "geom:longitude":3.792226,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683247,
         102191581,
@@ -58,7 +72,10 @@
         102066469
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_02033",
+        "eurostat:nuts_2021_id":"02033"
+    },
     "wof:coterminous":[
         1126032847
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d4d4a21062267e894638f2276d5100a3",
+    "wof:geomhash":"b87e1b8bfc78f782dde399fb87acd035",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404373317,
-    "wof:lastmodified":1582325352,
+    "wof:lastmodified":1684352928,
     "wof:name":"Aubigny-En-Laonnois",
     "wof:parent_id":102066469,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":105,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_39114",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ch\u00e2teau-Chalon",
+    "eurostat:nuts_2021_id":"39114",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC22",
+    "eurostat:nuts_2021_level_lau":"39114",
+    "eurostat:population":146,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069615",
     "frgov:id":"BDCSURCO0000000009601326",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683173,
         102191581,
@@ -58,7 +72,10 @@
         102070139
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_39114",
+        "eurostat:nuts_2021_id":"39114"
+    },
     "wof:coterminous":[
         1125791479
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9f4fe77470f547c1872e145377036b1e",
+    "wof:geomhash":"a2e2035f08e8ffded7eef43bc27d2b9b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404384765,
-    "wof:lastmodified":1582324613,
+    "wof:lastmodified":1684353068,
     "wof:name":"Chateau-Chalon",
     "wof:parent_id":102070139,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":146,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

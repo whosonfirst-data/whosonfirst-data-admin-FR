@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_80456",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lafresguimont-Saint-Martin",
+    "eurostat:nuts_2021_id":"80456",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE23",
+    "eurostat:nuts_2021_level_lau":"80456",
+    "eurostat:population":550,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071181",
     "frgov:id":"BDCSURCO0000000009583017",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003332,
-    "geom:area_square_m":26577358.931317,
+    "geom:area_square_m":26577358.931316,
     "geom:bbox":"1.74438513577,49.7803497598,1.86212702972,49.8618662293",
     "geom:latitude":49.823042,
     "geom:longitude":1.81036,
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683363,
         102191581,
@@ -136,7 +150,10 @@
         102068993
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_80456",
+        "eurostat:nuts_2021_id":"80456"
+    },
     "wof:coterminous":[
         101900473
     ],
@@ -144,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"851a0939745c6b93f53d8e9eccda3836",
+    "wof:geomhash":"b232e1306b00935adb66fb19a1584b94",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +175,13 @@
         }
     ],
     "wof:id":404358341,
-    "wof:lastmodified":1582324973,
+    "wof:lastmodified":1684352730,
     "wof:name":"Lafresguimont-Saint-Martin",
     "wof:parent_id":102068993,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":550,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

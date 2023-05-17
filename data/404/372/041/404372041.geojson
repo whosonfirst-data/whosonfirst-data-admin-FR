@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_33198",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gu\u00eetres",
+    "eurostat:nuts_2021_id":"33198",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI12",
+    "eurostat:nuts_2021_level_lau":"33198",
+    "eurostat:population":1589,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070092",
     "frgov:id":"BDCSURCO0000000009608226",
     "frgov:insee_arr":"5",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000568,
-    "geom:area_square_m":4963030.021101,
+    "geom:area_square_m":4963030.0211,
     "geom:bbox":"-0.210171771084,45.0342202897,-0.158560167345,45.0538395852",
     "geom:latitude":45.043112,
     "geom:longitude":-0.186702,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683243,
         102191581,
@@ -58,7 +72,10 @@
         102069239
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_33198",
+        "eurostat:nuts_2021_id":"33198"
+    },
     "wof:coterminous":[
         101769437
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"16086d0e2e382ec3abfbb78c031a77fe",
+    "wof:geomhash":"92c2759eb28c0a2edf395ded1255fd90",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404372041,
-    "wof:lastmodified":1582325461,
+    "wof:lastmodified":1684352913,
     "wof:name":"Guitres",
     "wof:parent_id":102069239,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1589,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_62204",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Campagne-l\u00e8s-Hesdin",
+    "eurostat:nuts_2021_id":"62204",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE1",
+    "eurostat:nuts_2021_level_3":"FRE12",
+    "eurostat:nuts_2021_level_lau":"62204",
+    "eurostat:population":1920,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200044030",
     "frgov:id":"BDCSURCO0000000009581227",
     "frgov:insee_arr":"4",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683255,
         102191581,
@@ -58,7 +72,10 @@
         102067745
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_62204",
+        "eurostat:nuts_2021_id":"62204"
+    },
     "wof:coterminous":[
         101810279
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"92fd229640eae6a29e0b5bdf9ce871e7",
+    "wof:geomhash":"c1e006b38417a4b12ff2991598491df4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404351153,
-    "wof:lastmodified":1582324954,
+    "wof:lastmodified":1684352633,
     "wof:name":"Campagne-Les-Hesdin",
     "wof:parent_id":102067745,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1920,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

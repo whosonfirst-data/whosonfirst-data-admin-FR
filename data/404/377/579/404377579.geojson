@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_52199",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ferri\u00e8re-et-Lafolie",
+    "eurostat:nuts_2021_id":"52199",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF24",
+    "eurostat:nuts_2021_level_lau":"52199",
+    "eurostat:population":50,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200044253",
     "frgov:id":"BDCSURCO0000000009592817",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.000966,
-    "geom:area_square_m":7931785.650231,
+    "geom:area_square_m":7931785.650232,
     "geom:bbox":"5.03726032022,48.3850315075,5.10273367601,48.4115571709",
     "geom:latitude":48.398707,
     "geom:longitude":5.075487,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683261,
         102191581,
@@ -58,7 +72,10 @@
         102066743
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_52199",
+        "eurostat:nuts_2021_id":"52199"
+    },
     "wof:coterminous":[
         1126052191
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8703300963b55ce13e6de01112013fdf",
+    "wof:geomhash":"633fdd26038a31c03b7082ce907c979b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404377579,
-    "wof:lastmodified":1582324572,
+    "wof:lastmodified":1684352982,
     "wof:name":"Ferriere-Et-Lafolie",
     "wof:parent_id":102066743,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":50,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

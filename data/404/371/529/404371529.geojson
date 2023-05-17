@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_85167",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Orbrie",
+    "eurostat:nuts_2021_id":"85167",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG05",
+    "eurostat:nuts_2021_level_lau":"85167",
+    "eurostat:population":797,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071934",
     "frgov:id":"BDCSURCO0000000009602282",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001134,
-    "geom:area_square_m":9650563.345944,
+    "geom:area_square_m":9650563.345943,
     "geom:bbox":"-0.801958466143,46.4756993849,-0.74655167985,46.5213779192",
     "geom:latitude":46.499997,
     "geom:longitude":-0.774548,
@@ -112,6 +124,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683409,
         102191581,
@@ -121,7 +135,10 @@
         102065479
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_85167",
+        "eurostat:nuts_2021_id":"85167"
+    },
     "wof:coterminous":[
         1360674913
     ],
@@ -129,7 +146,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b9fc04bac20e69cc5d19dbec96186fe3",
+    "wof:geomhash":"daeda15487c01ac9ea0bd5dc95e64ef4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -142,11 +159,13 @@
         }
     ],
     "wof:id":404371529,
-    "wof:lastmodified":1582324651,
+    "wof:lastmodified":1684352907,
     "wof:name":"L'Orbrie",
     "wof:parent_id":102065479,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":797,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

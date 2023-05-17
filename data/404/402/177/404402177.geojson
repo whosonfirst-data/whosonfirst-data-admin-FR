@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_73095",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Croix-de-la-Rochette",
+    "eurostat:nuts_2021_id":"73095",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK27",
+    "eurostat:nuts_2021_level_lau":"73095",
+    "eurostat:population":365,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041010",
     "frgov:id":"BDCSURCO0000000009606240",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.000359,
-    "geom:area_square_m":3115612.345788,
+    "geom:area_square_m":3115612.345787,
     "geom:bbox":"6.09966282706,45.4646506364,6.13442847222,45.4858889339",
     "geom:latitude":45.475052,
     "geom:longitude":6.117914,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683265,
         102191581,
@@ -56,7 +70,10 @@
         102068413
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_73095",
+        "eurostat:nuts_2021_id":"73095"
+    },
     "wof:coterminous":[
         1360677863
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8f46bc7134ad6eac5e1cdf0cd209ca90",
+    "wof:geomhash":"7a0f3ff29ab3e707ec637f972a0f877b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404402177,
-    "wof:lastmodified":1582325284,
+    "wof:lastmodified":1684353274,
     "wof:name":"La Croix-De-La-Rochette",
     "wof:parent_id":102068413,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":365,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

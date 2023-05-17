@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_42019",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bo\u00ebn-sur-Lignon",
+    "eurostat:nuts_2021_id":"42019",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK25",
+    "eurostat:nuts_2021_level_lau":"42019",
+    "eurostat:population":3309,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200065886",
     "frgov:id":"BDCSURCO0000000009605278",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.000694,
-    "geom:area_square_m":5986496.593594,
+    "geom:area_square_m":5986496.593595,
     "geom:bbox":"3.9860232934,45.7340546193,4.02888106733,45.7651820564",
     "geom:latitude":45.750911,
     "geom:longitude":4.008403,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683377,
         102191581,
@@ -58,7 +72,10 @@
         102064481
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_42019",
+        "eurostat:nuts_2021_id":"42019"
+    },
     "wof:coterminous":[
         101767777
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ec7db6bfdea6fca975279aaf3288972f",
+    "wof:geomhash":"ec2bf16355910bcd9c1375fe2f074e14",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404353555,
-    "wof:lastmodified":1582324134,
+    "wof:lastmodified":1684352665,
     "wof:name":"Boen",
     "wof:parent_id":102064481,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3309,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

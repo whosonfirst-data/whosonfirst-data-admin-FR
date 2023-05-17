@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_60329",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Laberli\u00e8re",
+    "eurostat:nuts_2021_id":"60329",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE22",
+    "eurostat:nuts_2021_level_lau":"60329",
+    "eurostat:population":197,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"246000855",
     "frgov:id":"BDCSURCO0000000009584235",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000436,
-    "geom:area_square_m":3494368.432102,
+    "geom:area_square_m":3494368.432101,
     "geom:bbox":"2.74515693796,49.5641012654,2.77872704494,49.5863593226",
     "geom:latitude":49.575223,
     "geom:longitude":2.763584,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683289,
         102191581,
@@ -58,7 +72,10 @@
         102067915
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_60329",
+        "eurostat:nuts_2021_id":"60329"
+    },
     "wof:coterminous":[
         1125767561
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d9be933dc9ea2b0c3d9f112eca0627f5",
+    "wof:geomhash":"46d0b72df75b60ec42b8a4e27a814ae8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404420209,
-    "wof:lastmodified":1582325209,
+    "wof:lastmodified":1684353485,
     "wof:name":"Laberliere",
     "wof:parent_id":102067915,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":197,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_64482",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Jammes",
+    "eurostat:nuts_2021_id":"64482",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI15",
+    "eurostat:nuts_2021_level_lau":"64482",
+    "eurostat:population":628,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067296",
     "frgov:id":"BDCSURCO0000000009614281",
     "frgov:insee_arr":"3",
@@ -130,6 +142,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683539,
         102191581,
@@ -140,7 +154,10 @@
         102068661
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_64482",
+        "eurostat:nuts_2021_id":"64482"
+    },
     "wof:coterminous":[
         1360679257
     ],
@@ -148,7 +165,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c952958911277248cd2b9ef2cea5d66c",
+    "wof:geomhash":"b69549220905fc5c77c106dcb246b507",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -162,11 +179,13 @@
         }
     ],
     "wof:id":404415797,
-    "wof:lastmodified":1582324351,
+    "wof:lastmodified":1684353435,
     "wof:name":"Saint-Jammes",
     "wof:parent_id":102068661,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":628,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

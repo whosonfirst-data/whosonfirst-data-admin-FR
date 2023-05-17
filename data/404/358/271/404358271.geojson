@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_38410",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Lattier",
+    "eurostat:nuts_2021_id":"38410",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK24",
+    "eurostat:nuts_2021_level_lau":"38410",
+    "eurostat:population":1338,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070431",
     "frgov:id":"BDCSURCO0000000009607867",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.002073,
-    "geom:area_square_m":18092760.755431,
+    "geom:area_square_m":18092760.75543,
     "geom:bbox":"5.1345430422,45.0655677952,5.22594933205,45.1213769167",
     "geom:latitude":45.093542,
     "geom:longitude":5.185305,
@@ -132,6 +144,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683427,
         102191581,
@@ -142,7 +156,10 @@
         102069779
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_38410",
+        "eurostat:nuts_2021_id":"38410"
+    },
     "wof:coterminous":[
         1125829563
     ],
@@ -150,7 +167,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"dc29059967dd25980d1dcb27ef481ae6",
+    "wof:geomhash":"45c8db413bc893fc5b6f02b5f7b390c5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -164,11 +181,13 @@
         }
     ],
     "wof:id":404358271,
-    "wof:lastmodified":1582324980,
+    "wof:lastmodified":1684352729,
     "wof:name":"Saint-Lattier",
     "wof:parent_id":102069779,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1338,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

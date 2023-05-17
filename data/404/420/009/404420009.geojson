@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_49345",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bellevigne-en-Layon",
+    "eurostat:nuts_2021_id":"49345",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG02",
+    "eurostat:nuts_2021_level_lau":"49345",
+    "eurostat:population":5730,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071553",
     "frgov:id":"BDCSURCO0000000009599598",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683327,
         102191581,
@@ -57,7 +71,10 @@
         102070095
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_49345",
+        "eurostat:nuts_2021_id":"49345"
+    },
     "wof:coterminous":[
         101888305
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"93089e1e106d02cc3ee396cb6b0c2e27",
+    "wof:geomhash":"0ce77c12dbd0dca9ea4e7fca2c14e149",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404420009,
-    "wof:lastmodified":1582325201,
+    "wof:lastmodified":1684353483,
     "wof:name":"Faye-D'Anjou",
     "wof:parent_id":102070095,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":5730,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

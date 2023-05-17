@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_60682",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Villers-Saint-Frambourg-Ognon",
+    "eurostat:nuts_2021_id":"60682",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE22",
+    "eurostat:nuts_2021_level_lau":"60682",
+    "eurostat:population":714,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066975",
     "frgov:id":"BDCSURCO0000000009586199",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001219,
-    "geom:area_square_m":9835809.519456,
+    "geom:area_square_m":9835809.519458,
     "geom:bbox":"2.60695506754,49.2423602434,2.66639347016,49.2782926714",
     "geom:latitude":49.26064,
     "geom:longitude":2.634903,
@@ -123,6 +135,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683289,
         102191581,
@@ -133,7 +147,10 @@
         102070475
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_60682",
+        "eurostat:nuts_2021_id":"60682"
+    },
     "wof:coterminous":[
         1125895753
     ],
@@ -141,7 +158,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8d82f2dbabb48f6a7f2058d71d959da5",
+    "wof:geomhash":"2ce04501856dd84d1962b8febbee68bc",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -155,11 +172,13 @@
         }
     ],
     "wof:id":404419391,
-    "wof:lastmodified":1582325061,
+    "wof:lastmodified":1684353476,
     "wof:name":"Villers-Saint-Frambourg",
     "wof:parent_id":102070475,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":714,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

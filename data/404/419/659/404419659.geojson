@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_80140",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Br\u00e9villers",
+    "eurostat:nuts_2021_id":"80140",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE23",
+    "eurostat:nuts_2021_level_lau":"80140",
+    "eurostat:population":108,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070951",
     "frgov:id":"BDCSURCO0000000009581685",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000228,
-    "geom:area_square_m":1803451.237462,
+    "geom:area_square_m":1803451.237463,
     "geom:bbox":"2.36782000747,50.2074284146,2.39247890254,50.2260672457",
     "geom:latitude":50.215606,
     "geom:longitude":2.381482,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683363,
         102191581,
@@ -58,7 +72,10 @@
         102068239
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_80140",
+        "eurostat:nuts_2021_id":"80140"
+    },
     "wof:coterminous":[
         1126039911
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7386b37ebc507c7db3aef804924050f7",
+    "wof:geomhash":"513b2b0b88ed07ded35dd6edb903fd4b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404419659,
-    "wof:lastmodified":1582325066,
+    "wof:lastmodified":1684353479,
     "wof:name":"Brevillers",
     "wof:parent_id":102068239,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":108,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

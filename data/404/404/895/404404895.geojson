@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_61165",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ferri\u00e8re-Bochard",
+    "eurostat:nuts_2021_id":"61165",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD13",
+    "eurostat:nuts_2021_level_lau":"61165",
+    "eurostat:population":742,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"246100663",
     "frgov:id":"BDCSURCO0000000009592997",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683527,
         102191581,
@@ -58,7 +72,10 @@
         102064507
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_61165",
+        "eurostat:nuts_2021_id":"61165"
+    },
     "wof:coterminous":[
         101882405
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"dc405022f4fd9b8fbe406f6b1f917b29",
+    "wof:geomhash":"4fc60bdaaca6eb7e626f5f0499de8256",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404404895,
-    "wof:lastmodified":1582325307,
+    "wof:lastmodified":1684353305,
     "wof:name":"La Ferriere-Bochard",
     "wof:parent_id":102064507,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":742,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

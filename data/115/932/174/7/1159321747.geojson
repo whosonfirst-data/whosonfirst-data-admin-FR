@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_60057",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Beauvais",
+    "eurostat:nuts_2021_id":"60057",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE22",
+    "eurostat:nuts_2021_level_lau":"60057",
+    "eurostat:population":56254,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067999",
     "frgov:id":"BDCSURCO0000000009585001",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Pr\u00e9fecture",
     "geom:area":0.004096,
-    "geom:area_square_m":32937533.028179,
+    "geom:area_square_m":32937533.02818,
     "geom:bbox":"2.034602,49.402595,2.141581,49.484243",
     "geom:latitude":49.436164,
     "geom:longitude":2.086602,
@@ -198,24 +210,30 @@
     "reversegeo:longitude":2.087415,
     "src:geom":"frgov",
     "src:geom_alt":[],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85683289,
         102191581,
         85633147,
-        102072415,
-        136253037,
         404227717,
         1108826399,
-        85683289
+        136253037,
+        102072415
     ],
     "wof:breaches":[],
     "wof:concordance":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_60057",
+        "eurostat:nuts_2021_id":"60057"
+    },
     "wof:coterminous":[
         101749123,
         102072415
     ],
     "wof:country":"FR",
     "wof:created":1526508671,
-    "wof:geomhash":"df7e6760731b3e2c4c685d2e19826bc2",
+    "wof:geomhash":"b94fbb7dc0cc803ff5421747cddbb3ce",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -229,11 +247,13 @@
         }
     ],
     "wof:id":1159321747,
-    "wof:lastmodified":1608039573,
+    "wof:lastmodified":1684353592,
     "wof:name":"Beauvais",
     "wof:parent_id":102072415,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Pr\u00e9fecture",
+    "wof:population":56254,
+    "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded":[],
     "wof:superseded_by":[],

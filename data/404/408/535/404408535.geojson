@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_59011",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ann\u009cullin",
+    "eurostat:nuts_2021_id":"59011",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE1",
+    "eurostat:nuts_2021_level_3":"FRE11",
+    "eurostat:nuts_2021_level_lau":"59011",
+    "eurostat:population":10428,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"245901061",
     "frgov:id":"BDCSURCO0000000009580881",
     "frgov:insee_arr":"5",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00113,
-    "geom:area_square_m":8886542.602508,
+    "geom:area_square_m":8886542.602509,
     "geom:bbox":"2.89563889398,50.5074229948,2.95293674425,50.5473735845",
     "geom:latitude":50.526034,
     "geom:longitude":2.927409,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683445,
         102191581,
@@ -58,7 +72,10 @@
         102071733
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_59011",
+        "eurostat:nuts_2021_id":"59011"
+    },
     "wof:coterminous":[
         101812639
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2452cba19d3e6feea2d1b1d222ea5f66",
+    "wof:geomhash":"d8de3cf98fef160095fdb01b873cc633",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404408535,
-    "wof:lastmodified":1582324455,
+    "wof:lastmodified":1684353349,
     "wof:name":"Annoeullin",
     "wof:parent_id":102071733,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":10428,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

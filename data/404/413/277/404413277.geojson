@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_36202",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Maur",
+    "eurostat:nuts_2021_id":"36202",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB03",
+    "eurostat:nuts_2021_level_lau":"36202",
+    "eurostat:population":3642,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243600327",
     "frgov:id":"BDCSURCO0000000009601638",
     "frgov:insee_arr":"2",
@@ -93,6 +105,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683311,
         102191581,
@@ -102,7 +116,10 @@
         102068969
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_36202",
+        "eurostat:nuts_2021_id":"36202"
+    },
     "wof:coterminous":[
         101766783
     ],
@@ -110,7 +127,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0bd4e415556db04cde82d82b97b3bbc7",
+    "wof:geomhash":"13bad9f9e1f87ff9dff3cdd68b86756e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -123,11 +140,13 @@
         }
     ],
     "wof:id":404413277,
-    "wof:lastmodified":1582324326,
+    "wof:lastmodified":1684353405,
     "wof:name":"Saint-Maur",
     "wof:parent_id":102068969,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3642,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

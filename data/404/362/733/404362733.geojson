@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_07210",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-And\u00e9ol-de-Vals",
+    "eurostat:nuts_2021_id":"07210",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK22",
+    "eurostat:nuts_2021_level_lau":"07210",
+    "eurostat:population":526,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200073245",
     "frgov:id":"BDCSURCO0000000009609411",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001893,
-    "geom:area_square_m":16639506.876874,
+    "geom:area_square_m":16639506.876875,
     "geom:bbox":"4.36696267022,44.664873221,4.43615839268,44.7300244483",
     "geom:latitude":44.692639,
     "geom:longitude":4.400871,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683421,
         102191581,
@@ -58,7 +72,10 @@
         102064435
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_07210",
+        "eurostat:nuts_2021_id":"07210"
+    },
     "wof:coterminous":[
         1125965639
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"10379e23d1e6c9fc37af1b1c17f20eeb",
+    "wof:geomhash":"da6c72ba4a3d086f68e9cecdbe5710af",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404362733,
-    "wof:lastmodified":1582324055,
+    "wof:lastmodified":1684352792,
     "wof:name":"Saint-Andeol-De-Vals",
     "wof:parent_id":102064435,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":526,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

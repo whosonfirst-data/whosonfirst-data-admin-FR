@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_60027",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Auger-Saint-Vincent",
+    "eurostat:nuts_2021_id":"60027",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE22",
+    "eurostat:nuts_2021_level_lau":"60027",
+    "eurostat:population":518,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"246000871",
     "frgov:id":"BDCSURCO0000000009586667",
     "frgov:insee_arr":"4",
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683289,
         102191581,
@@ -136,7 +150,10 @@
         102066575
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_60027",
+        "eurostat:nuts_2021_id":"60027"
+    },
     "wof:coterminous":[
         101879285
     ],
@@ -144,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5bd2b12d3cf524f427eaedc43fd7d90d",
+    "wof:geomhash":"09d6d8a80743ee10ac72931f85db079b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +175,13 @@
         }
     ],
     "wof:id":404363669,
-    "wof:lastmodified":1582324223,
+    "wof:lastmodified":1684352805,
     "wof:name":"Auger-Saint-Vincent",
     "wof:parent_id":102066575,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":518,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

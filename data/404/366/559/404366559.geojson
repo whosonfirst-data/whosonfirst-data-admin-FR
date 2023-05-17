@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_67270",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lixhausen",
+    "eurostat:nuts_2021_id":"67270",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF1",
+    "eurostat:nuts_2021_level_3":"FRF11",
+    "eurostat:nuts_2021_level_lau":"67270",
+    "eurostat:population":380,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"246700959",
     "frgov:id":"BDCSURCO0000000009588946",
     "frgov:insee_arr":"4",
@@ -147,6 +159,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683221,
         102191581,
@@ -157,7 +171,10 @@
         102066209
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_67270",
+        "eurostat:nuts_2021_id":"67270"
+    },
     "wof:coterminous":[
         1125913101
     ],
@@ -165,7 +182,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"85ecf2e4e30203908b2384db5cb7ecd6",
+    "wof:geomhash":"d3c437392f5a01db837e898b07f3dfbb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -179,11 +196,13 @@
         }
     ],
     "wof:id":404366559,
-    "wof:lastmodified":1582324824,
+    "wof:lastmodified":1684352846,
     "wof:name":"Lixhausen",
     "wof:parent_id":102066209,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":380,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

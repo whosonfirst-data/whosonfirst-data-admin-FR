@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_87182",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Sulpice-les-Feuilles",
+    "eurostat:nuts_2021_id":"87182",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI23",
+    "eurostat:nuts_2021_level_lau":"87182",
+    "eurostat:population":1240,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071942",
     "frgov:id":"BDCSURCO0000000009603126",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.004174,
-    "geom:area_square_m":35644564.687014,
+    "geom:area_square_m":35644564.687013,
     "geom:bbox":"1.33924199263,46.2861276745,1.44668330208,46.3429431489",
     "geom:latitude":46.315747,
     "geom:longitude":1.392227,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683531,
         102191581,
@@ -58,7 +72,10 @@
         102069471
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_87182",
+        "eurostat:nuts_2021_id":"87182"
+    },
     "wof:coterminous":[
         101766341
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"46cdd226e35943dd6c165c7daecbf6e7",
+    "wof:geomhash":"2589b3326716082d75acf802221d761b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404390577,
-    "wof:lastmodified":1582324277,
+    "wof:lastmodified":1684353137,
     "wof:name":"Saint-Sulpice-Les-Feuilles",
     "wof:parent_id":102069471,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1240,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

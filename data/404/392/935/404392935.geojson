@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_78077",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Boissi\u00e8re-\u00c9cole",
+    "eurostat:nuts_2021_id":"78077",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR103",
+    "eurostat:nuts_2021_level_lau":"78077",
+    "eurostat:population":765,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200073344",
     "frgov:id":"BDCSURCO0000000009591138",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"ILE-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003119,
-    "geom:area_square_m":25462080.583247,
+    "geom:area_square_m":25462080.583248,
     "geom:bbox":"1.60620418411,48.6677496692,1.72625975014,48.7143454103",
     "geom:latitude":48.689869,
     "geom:longitude":1.667762,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683367,
         102191581,
@@ -57,7 +71,10 @@
         102067651
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_78077",
+        "eurostat:nuts_2021_id":"78077"
+    },
     "wof:coterminous":[
         1175612313
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"48e2e22ce0e305f6fc0a21fa092785b1",
+    "wof:geomhash":"2a8b08d63e53bb742d767233246c9856",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404392935,
-    "wof:lastmodified":1582324814,
+    "wof:lastmodified":1684353167,
     "wof:name":"La Boissiere-Ecole",
     "wof:parent_id":102067651,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":765,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

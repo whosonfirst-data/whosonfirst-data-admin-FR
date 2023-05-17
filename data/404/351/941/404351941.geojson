@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_63125",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Courpi\u00e8re",
+    "eurostat:nuts_2021_id":"63125",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK14",
+    "eurostat:nuts_2021_level_lau":"63125",
+    "eurostat:population":4050,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070712",
     "frgov:id":"BDCSURCO0000000009605545",
     "frgov:insee_arr":"5",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.003686,
-    "geom:area_square_m":31796054.337524,
+    "geom:area_square_m":31796054.337525,
     "geom:bbox":"3.49496210994,45.7231844372,3.58604327366,45.7919497117",
     "geom:latitude":45.758229,
     "geom:longitude":3.541559,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683471,
         102191581,
@@ -58,7 +72,10 @@
         102067163
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_63125",
+        "eurostat:nuts_2021_id":"63125"
+    },
     "wof:coterminous":[
         101767859
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"95690f376e0e9bd3b9f8725b86752b2d",
+    "wof:geomhash":"338e519f5c04ddd45558bf2f7e7909f4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404351941,
-    "wof:lastmodified":1582324952,
+    "wof:lastmodified":1684352645,
     "wof:name":"Courpiere",
     "wof:parent_id":102067163,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":4050,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

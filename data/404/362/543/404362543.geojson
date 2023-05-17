@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_45082",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ch\u00e2teauneuf-sur-Loire",
+    "eurostat:nuts_2021_id":"45082",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB06",
+    "eurostat:nuts_2021_level_lau":"45082",
+    "eurostat:population":8126,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244500427",
     "frgov:id":"BDCSURCO0000000009596453",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.004813,
-    "geom:area_square_m":39914878.365052,
+    "geom:area_square_m":39914878.365053,
     "geom:bbox":"2.1645595416,47.8475243091,2.31807053135,47.9182499439",
     "geom:latitude":47.88509,
     "geom:longitude":2.231936,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683479,
         102191581,
@@ -57,7 +71,10 @@
         102065307
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_45082",
+        "eurostat:nuts_2021_id":"45082"
+    },
     "wof:coterminous":[
         101764947
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d46f9bf272f1451611bd7d1062b5c007",
+    "wof:geomhash":"b41510254577d5aeba7fae6c35b6a001",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404362543,
-    "wof:lastmodified":1582324053,
+    "wof:lastmodified":1684352789,
     "wof:name":"Chateauneuf-Sur-Loire",
     "wof:parent_id":102065307,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":8126,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

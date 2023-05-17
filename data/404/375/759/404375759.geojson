@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_32290",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Montr\u00e9al",
+    "eurostat:nuts_2021_id":"32290",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ24",
+    "eurostat:nuts_2021_level_lau":"32290",
+    "eurostat:population":1168,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243200417",
     "frgov:id":"BDCSURCO0000000009612114",
     "frgov:insee_arr":"2",
@@ -447,6 +459,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683467,
         102191581,
@@ -457,7 +471,10 @@
         102068207
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_32290",
+        "eurostat:nuts_2021_id":"32290"
+    },
     "wof:coterminous":[
         101772577
     ],
@@ -465,7 +482,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e6ccddfee2dbd9a95f7e0ccafff63acb",
+    "wof:geomhash":"ccf64efb7fe5b013053b50e0ae887c80",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -479,11 +496,13 @@
         }
     ],
     "wof:id":404375759,
-    "wof:lastmodified":1582325418,
+    "wof:lastmodified":1684352959,
     "wof:name":"Montreal",
     "wof:parent_id":102068207,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1168,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

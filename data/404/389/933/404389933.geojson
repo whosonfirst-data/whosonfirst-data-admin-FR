@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_21568",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-R\u00e9my",
+    "eurostat:nuts_2021_id":"21568",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC11",
+    "eurostat:nuts_2021_level_lau":"21568",
+    "eurostat:population":702,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242101491",
     "frgov:id":"BDCSURCO0000000009597452",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683563,
         102191581,
@@ -58,7 +72,10 @@
         102068259
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_21568",
+        "eurostat:nuts_2021_id":"21568"
+    },
     "wof:coterminous":[
         101886609
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a7ad9272c2123541e82016dfd4cc28f5",
+    "wof:geomhash":"65e722f596b85df6d2158148205e1f39",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404389933,
-    "wof:lastmodified":1582325330,
+    "wof:lastmodified":1684353128,
     "wof:name":"Saint-Remy",
     "wof:parent_id":102068259,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":702,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

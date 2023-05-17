@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_80296",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"\u00c9toile",
+    "eurostat:nuts_2021_id":"80296",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE23",
+    "eurostat:nuts_2021_level_lau":"80296",
+    "eurostat:population":1194,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071223",
     "frgov:id":"BDCSURCO0000000009582157",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000983,
-    "geom:area_square_m":7805860.204132,
+    "geom:area_square_m":7805860.204131,
     "geom:bbox":"1.9990967571,50.0080114736,2.06709641718,50.040372407",
     "geom:latitude":50.025864,
     "geom:longitude":2.038277,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683363,
         102191581,
@@ -58,7 +72,10 @@
         102070423
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_80296",
+        "eurostat:nuts_2021_id":"80296"
+    },
     "wof:coterminous":[
         101813837
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9cbc243a2d62fd28d70dcb22b7bdde86",
+    "wof:geomhash":"9bef5ec8d3e3798d22618ed9a89639cb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404371279,
-    "wof:lastmodified":1582324654,
+    "wof:lastmodified":1684352904,
     "wof:name":"L'Etoile",
     "wof:parent_id":102070423,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1194,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

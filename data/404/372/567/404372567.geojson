@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_53220",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Georges-le-Fl\u00e9chard",
+    "eurostat:nuts_2021_id":"53220",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG03",
+    "eurostat:nuts_2021_level_lau":"53220",
+    "eurostat:population":418,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200033298",
     "frgov:id":"BDCSURCO0000000009595213",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683401,
         102191581,
@@ -57,7 +71,10 @@
         102068407
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_53220",
+        "eurostat:nuts_2021_id":"53220"
+    },
     "wof:coterminous":[
         1125795899
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"01d8c068ef79ead88e4208fe0b1259ce",
+    "wof:geomhash":"adcdfea92a868575b9a2697d16da8992",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404372567,
-    "wof:lastmodified":1582325459,
+    "wof:lastmodified":1684352919,
     "wof:name":"Saint-Georges-Le-Flechard",
     "wof:parent_id":102068407,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":418,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_32400",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Orens-Pouy-Petit",
+    "eurostat:nuts_2021_id":"32400",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ24",
+    "eurostat:nuts_2021_level_lau":"32400",
+    "eurostat:population":193,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243200417",
     "frgov:id":"BDCSURCO0000000009612320",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001272,
-    "geom:area_square_m":11327048.298311,
+    "geom:area_square_m":11327048.29831,
     "geom:bbox":"0.407969504476,43.8902905089,0.468427497815,43.9344600288",
     "geom:latitude":43.912252,
     "geom:longitude":0.437922,
@@ -120,6 +132,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683467,
         102191581,
@@ -130,7 +144,10 @@
         102069487
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_32400",
+        "eurostat:nuts_2021_id":"32400"
+    },
     "wof:coterminous":[
         1125798167
     ],
@@ -138,7 +155,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e189552d6f9db2759fff0d73261a997f",
+    "wof:geomhash":"a8139304deac315bf9ab2d5deb6ce2db",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -152,11 +169,13 @@
         }
     ],
     "wof:id":404368287,
-    "wof:lastmodified":1582324868,
+    "wof:lastmodified":1684352869,
     "wof:name":"Saint-Orens-Pouy-Petit",
     "wof:parent_id":102069487,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":193,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

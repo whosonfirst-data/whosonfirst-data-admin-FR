@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_06128",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Paul-de-Vence",
+    "eurostat:nuts_2021_id":"06128",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL03",
+    "eurostat:nuts_2021_level_lau":"06128",
+    "eurostat:population":3477,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240600585",
     "frgov:id":"BDCSURCO0000000009612603",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683323,
         102191581,
@@ -57,7 +71,10 @@
         102071345
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_06128",
+        "eurostat:nuts_2021_id":"06128"
+    },
     "wof:coterminous":[
         101750705
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"fa30adf6b9c0ffceaa8b7d88331c2fd5",
+    "wof:geomhash":"8fc7cb3eefc6d283ba469df69b67c8dc",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404416873,
-    "wof:lastmodified":1582325181,
+    "wof:lastmodified":1684353447,
     "wof:name":"Saint-Paul",
     "wof:parent_id":102071345,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3477,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

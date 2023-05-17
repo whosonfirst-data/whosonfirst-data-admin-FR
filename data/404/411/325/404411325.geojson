@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_54201",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Fontenoy-la-Jo\u00fbte",
+    "eurostat:nuts_2021_id":"54201",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF31",
+    "eurostat:nuts_2021_level_lau":"54201",
+    "eurostat:population":315,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070324",
     "frgov:id":"BDCSURCO0000000009592258",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.001354,
-    "geom:area_square_m":11106433.224388,
+    "geom:area_square_m":11106433.224389,
     "geom:bbox":"6.63466631243,48.4217068417,6.67957167493,48.4760058793",
     "geom:latitude":48.448545,
     "geom:longitude":6.656123,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683343,
         102191581,
@@ -58,7 +72,10 @@
         102064747
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_54201",
+        "eurostat:nuts_2021_id":"54201"
+    },
     "wof:coterminous":[
         101885131
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"98988f726ebd877282a2d0edcc2527f0",
+    "wof:geomhash":"59c01ff15d9308cb0d8a9432815c94f5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404411325,
-    "wof:lastmodified":1582325168,
+    "wof:lastmodified":1684353381,
     "wof:name":"Fontenoy-La-Joute",
     "wof:parent_id":102064747,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":315,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

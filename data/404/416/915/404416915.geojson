@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_78314",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Issou",
+    "eurostat:nuts_2021_id":"78314",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR103",
+    "eurostat:nuts_2021_level_lau":"78314",
+    "eurostat:population":4100,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200059889",
     "frgov:id":"BDCSURCO0000000009588732",
     "frgov:insee_arr":"1",
@@ -120,6 +132,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683367,
         102191581,
@@ -129,7 +143,10 @@
         102066059
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_78314",
+        "eurostat:nuts_2021_id":"78314"
+    },
     "wof:coterminous":[
         101749973
     ],
@@ -137,7 +154,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"44bbca6ed5764de7daac6a9a33fe6adb",
+    "wof:geomhash":"80ad438b304ceedcfd8be22a09dd4ccd",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -150,11 +167,13 @@
         }
     ],
     "wof:id":404416915,
-    "wof:lastmodified":1582325185,
+    "wof:lastmodified":1684353447,
     "wof:name":"Issou",
     "wof:parent_id":102066059,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":4100,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

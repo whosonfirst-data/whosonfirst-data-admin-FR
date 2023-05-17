@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_85196",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Andr\u00e9-Goule-d'Oie",
+    "eurostat:nuts_2021_id":"85196",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG05",
+    "eurostat:nuts_2021_level_lau":"85196",
+    "eurostat:population":1832,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071918",
     "frgov:id":"BDCSURCO0000000009601273",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002408,
-    "geom:area_square_m":20367709.625764,
+    "geom:area_square_m":20367709.625765,
     "geom:bbox":"-1.24317612358,46.8034491282,-1.1522854768,46.8852251966",
     "geom:latitude":46.840655,
     "geom:longitude":-1.196428,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683409,
         102191581,
@@ -57,7 +71,10 @@
         102068997
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_85196",
+        "eurostat:nuts_2021_id":"85196"
+    },
     "wof:coterminous":[
         101765435
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d1fef4afb54756a93f0ef013f448e1f4",
+    "wof:geomhash":"d65a6df4fb6c4a971f74b8a942b5cd21",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404390103,
-    "wof:lastmodified":1582324259,
+    "wof:lastmodified":1684353130,
     "wof:name":"Saint-Andre-Goule-D'Oie",
     "wof:parent_id":102068997,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1832,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

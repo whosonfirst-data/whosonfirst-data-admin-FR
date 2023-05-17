@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_11415",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Villar-Saint-Anselme",
+    "eurostat:nuts_2021_id":"11415",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ11",
+    "eurostat:nuts_2021_level_lau":"11415",
+    "eurostat:population":121,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071926",
     "frgov:id":"BDCSURCO0000000009615563",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000672,
-    "geom:area_square_m":6071414.011626,
+    "geom:area_square_m":6071414.011625,
     "geom:bbox":"2.27620859605,43.0440122983,2.32014456447,43.0701993974",
     "geom:latitude":43.056959,
     "geom:longitude":2.300104,
@@ -120,6 +132,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683485,
         102191581,
@@ -130,7 +144,10 @@
         102069323
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_11415",
+        "eurostat:nuts_2021_id":"11415"
+    },
     "wof:coterminous":[
         1125944841
     ],
@@ -138,7 +155,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"11a44ac73f92e66334a5aeec7382a8b5",
+    "wof:geomhash":"4fbbe3b04d61377a9715490a17fef4f8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -152,11 +169,13 @@
         }
     ],
     "wof:id":404396543,
-    "wof:lastmodified":1582324072,
+    "wof:lastmodified":1684353208,
     "wof:name":"Villar-Saint-Anselme",
     "wof:parent_id":102069323,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":121,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

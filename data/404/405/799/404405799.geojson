@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_32448",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Touget",
+    "eurostat:nuts_2021_id":"32448",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ24",
+    "eurostat:nuts_2021_level_lau":"32448",
+    "eurostat:population":512,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200034726",
     "frgov:id":"BDCSURCO0000000009613241",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001985,
-    "geom:area_square_m":17751018.611111,
+    "geom:area_square_m":17751018.611113,
     "geom:bbox":"0.87958436879,43.6619398185,0.952233333005,43.7073483933",
     "geom:latitude":43.686786,
     "geom:longitude":0.918147,
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683467,
         102191581,
@@ -139,7 +153,10 @@
         102065029
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_32448",
+        "eurostat:nuts_2021_id":"32448"
+    },
     "wof:coterminous":[
         1125825227
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"775bbc3b5a597e726579bb085af78321",
+    "wof:geomhash":"6489196ff61ec0cccd728ab983283aac",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404405799,
-    "wof:lastmodified":1582325250,
+    "wof:lastmodified":1684353317,
     "wof:name":"Touget",
     "wof:parent_id":102065029,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":512,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_81281",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"S\u00e9malens",
+    "eurostat:nuts_2021_id":"81281",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ27",
+    "eurostat:nuts_2021_level_lau":"81281",
+    "eurostat:population":2013,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248100158",
     "frgov:id":"BDCSURCO0000000009613418",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683603,
         102191581,
@@ -58,7 +72,10 @@
         102070553
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_81281",
+        "eurostat:nuts_2021_id":"81281"
+    },
     "wof:coterminous":[
         101774041
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"32d8063a5c85bc94d56b0dbb95910efb",
+    "wof:geomhash":"2055bbf34f7f1c1225a03168b537d93b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404398635,
-    "wof:lastmodified":1582324109,
+    "wof:lastmodified":1684353234,
     "wof:name":"Semalens",
     "wof:parent_id":102070553,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2013,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

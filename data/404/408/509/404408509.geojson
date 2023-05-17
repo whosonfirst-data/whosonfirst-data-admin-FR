@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_02674",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Cl\u00e9ment",
+    "eurostat:nuts_2021_id":"02674",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE21",
+    "eurostat:nuts_2021_level_lau":"02674",
+    "eurostat:population":50,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240200600",
     "frgov:id":"BDCSURCO0000000009582865",
     "frgov:insee_arr":"5",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683247,
         102191581,
@@ -58,7 +72,10 @@
         102064613
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_02674",
+        "eurostat:nuts_2021_id":"02674"
+    },
     "wof:coterminous":[
         101901595
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"1c5c89078652b68b19128ab6b1e59725",
+    "wof:geomhash":"cd3438e3c1adbced564acbf3420c7c6c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404408509,
-    "wof:lastmodified":1582324463,
+    "wof:lastmodified":1684353349,
     "wof:name":"Saint-Clement",
     "wof:parent_id":102064613,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":50,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

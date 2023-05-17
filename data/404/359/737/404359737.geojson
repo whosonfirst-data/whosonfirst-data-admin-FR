@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_63334",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Dier-d'Auvergne",
+    "eurostat:nuts_2021_id":"63334",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK14",
+    "eurostat:nuts_2021_level_lau":"63334",
+    "eurostat:population":519,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067627",
     "frgov:id":"BDCSURCO0000000009605807",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.002348,
-    "geom:area_square_m":20288831.219303,
+    "geom:area_square_m":20288831.219304,
     "geom:bbox":"3.45105434434,45.6338398571,3.50977336287,45.7010250559",
     "geom:latitude":45.670438,
     "geom:longitude":3.48219,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683471,
         102191581,
@@ -58,7 +72,10 @@
         102070967
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_63334",
+        "eurostat:nuts_2021_id":"63334"
+    },
     "wof:coterminous":[
         101893595
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c22729a8cbbda8da89e05efe6b0267a2",
+    "wof:geomhash":"d3b72ce1c1f5547daa998b3b7b6dbc32",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404359737,
-    "wof:lastmodified":1582324786,
+    "wof:lastmodified":1684352750,
     "wof:name":"Saint-Dier-D'Auvergne",
     "wof:parent_id":102070967,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":519,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_59535",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Jans-Cappel",
+    "eurostat:nuts_2021_id":"59535",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE1",
+    "eurostat:nuts_2021_level_3":"FRE11",
+    "eurostat:nuts_2021_level_lau":"59535",
+    "eurostat:population":1722,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040947",
     "frgov:id":"BDCSURCO0000000009580433",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001012,
-    "geom:area_square_m":7913368.540527,
+    "geom:area_square_m":7913368.540528,
     "geom:bbox":"2.69635852708,50.7509835664,2.75430816398,50.7833582537",
     "geom:latitude":50.768647,
     "geom:longitude":2.722674,
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683445,
         102191581,
@@ -136,7 +150,10 @@
         102065195
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_59535",
+        "eurostat:nuts_2021_id":"59535"
+    },
     "wof:coterminous":[
         101811305
     ],
@@ -144,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7cf0f066394043ee4b1ea08480f1bc25",
+    "wof:geomhash":"a7f9d7d91c6522a16897fe684b91682d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +175,13 @@
         }
     ],
     "wof:id":404421995,
-    "wof:lastmodified":1582325103,
+    "wof:lastmodified":1684353509,
     "wof:name":"Saint-Jans-Cappel",
     "wof:parent_id":102065195,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1722,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

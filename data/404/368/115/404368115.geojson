@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_89370",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Val\u00e9rien",
+    "eurostat:nuts_2021_id":"89370",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC14",
+    "eurostat:nuts_2021_level_lau":"89370",
+    "eurostat:population":1681,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248900748",
     "frgov:id":"BDCSURCO0000000009594812",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00268,
-    "geom:area_square_m":22099521.290214,
+    "geom:area_square_m":22099521.290212,
     "geom:bbox":"3.06454920509,48.1515191302,3.1327033681,48.2100028091",
     "geom:latitude":48.181617,
     "geom:longitude":3.099268,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683503,
         102191581,
@@ -58,7 +72,10 @@
         102066377
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_89370",
+        "eurostat:nuts_2021_id":"89370"
+    },
     "wof:coterminous":[
         101763277
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8f9727e27b7bf26f89708c2752e0e916",
+    "wof:geomhash":"c295b5f798bbfaad4adb2d26c4772a86",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404368115,
-    "wof:lastmodified":1582324882,
+    "wof:lastmodified":1684352867,
     "wof:name":"Saint-Valerien",
     "wof:parent_id":102066377,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1681,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

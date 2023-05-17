@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_80073",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"B\u00e9cordel-B\u00e9court",
+    "eurostat:nuts_2021_id":"80073",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE23",
+    "eurostat:nuts_2021_level_lau":"80073",
+    "eurostat:population":160,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248000747",
     "frgov:id":"BDCSURCO0000000009582119",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000459,
-    "geom:area_square_m":3651963.19523,
+    "geom:area_square_m":3651963.195231,
     "geom:bbox":"2.66923277488,49.9811852583,2.7043255902,50.0123010062",
     "geom:latitude":49.996646,
     "geom:longitude":2.687614,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683363,
         102191581,
@@ -58,7 +72,10 @@
         102065399
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_80073",
+        "eurostat:nuts_2021_id":"80073"
+    },
     "wof:coterminous":[
         1125892553
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"dc1129a04b9b4771ed3e9c18a1d6d5e2",
+    "wof:geomhash":"492645e6c527dc46ea97fa766f367fad",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404420195,
-    "wof:lastmodified":1582325196,
+    "wof:lastmodified":1684353485,
     "wof:name":"Becordel-Becourt",
     "wof:parent_id":102065399,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":160,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

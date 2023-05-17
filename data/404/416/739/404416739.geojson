@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_55220",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Grimaucourt-pr\u00e8s-Sampigny",
+    "eurostat:nuts_2021_id":"55220",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF32",
+    "eurostat:nuts_2021_level_lau":"55220",
+    "eurostat:population":85,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066157",
     "frgov:id":"BDCSURCO0000000009590077",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.001136,
-    "geom:area_square_m":9257372.366932,
+    "geom:area_square_m":9257372.366931,
     "geom:bbox":"5.44064152227,48.7560046596,5.49829295897,48.8042693057",
     "geom:latitude":48.783381,
     "geom:longitude":5.465496,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683297,
         102191581,
@@ -58,7 +72,10 @@
         102065109
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_55220",
+        "eurostat:nuts_2021_id":"55220"
+    },
     "wof:coterminous":[
         1125903991
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7b6b1895f5956ad8ce52af86eee9f4c1",
+    "wof:geomhash":"df2b98ef9c0f941ae9d034f99d75ada6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404416739,
-    "wof:lastmodified":1582325179,
+    "wof:lastmodified":1684353446,
     "wof:name":"Grimaucourt-Pres-Sampigny",
     "wof:parent_id":102065109,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":85,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

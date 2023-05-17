@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_83077",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"M\u00e9ounes-l\u00e8s-Montrieux",
+    "eurostat:nuts_2021_id":"83077",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL05",
+    "eurostat:nuts_2021_level_lau":"83077",
+    "eurostat:population":2184,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068104",
     "frgov:id":"BDCSURCO0000000009614626",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.004506,
-    "geom:area_square_m":40565599.413966,
+    "geom:area_square_m":40565599.413967,
     "geom:bbox":"5.92920291202,43.2304443954,6.02858148404,43.3092662013",
     "geom:latitude":43.273697,
     "geom:longitude":5.967033,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683315,
         102191581,
@@ -57,7 +71,10 @@
         102068101
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_83077",
+        "eurostat:nuts_2021_id":"83077"
+    },
     "wof:coterminous":[
         101850249
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b5fc5dc6a37606b7632893e24de70cbc",
+    "wof:geomhash":"edd992a24c7d9eb1be50345692755b1f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404410215,
-    "wof:lastmodified":1582325154,
+    "wof:lastmodified":1684353369,
     "wof:name":"Meounes-Les-Montrieux",
     "wof:parent_id":102068101,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2184,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_72236",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Pinc\u00e9",
+    "eurostat:nuts_2021_id":"72236",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG04",
+    "eurostat:nuts_2021_level_lau":"72236",
+    "eurostat:population":193,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247200090",
     "frgov:id":"BDCSURCO0000000009596521",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000696,
-    "geom:area_square_m":5783088.182341,
+    "geom:area_square_m":5783088.18234,
     "geom:bbox":"-0.387144148607,47.7823384246,-0.341217531154,47.8087389156",
     "geom:latitude":47.797562,
     "geom:longitude":-0.366207,
@@ -81,6 +93,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683279,
         102191581,
@@ -90,7 +104,10 @@
         102069299
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_72236",
+        "eurostat:nuts_2021_id":"72236"
+    },
     "wof:coterminous":[
         1125924211
     ],
@@ -98,7 +115,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c6f233cb25c60777ecac33be52bf301b",
+    "wof:geomhash":"37a09d7648f9f908535d0a22b315e42f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -111,11 +128,13 @@
         }
     ],
     "wof:id":404396723,
-    "wof:lastmodified":1582324073,
+    "wof:lastmodified":1684353210,
     "wof:name":"Pince",
     "wof:parent_id":102069299,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":193,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

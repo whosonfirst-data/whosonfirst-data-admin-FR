@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_38146",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Dizimieu",
+    "eurostat:nuts_2021_id":"38146",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK24",
+    "eurostat:nuts_2021_level_lau":"38146",
+    "eurostat:population":837,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068542",
     "frgov:id":"BDCSURCO0000000009605482",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001115,
-    "geom:area_square_m":9628976.888091,
+    "geom:area_square_m":9628976.88809,
     "geom:bbox":"5.24994665603,45.6938559557,5.31886732571,45.7283860075",
     "geom:latitude":45.713377,
     "geom:longitude":5.28725,
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683427,
         102191581,
@@ -139,7 +153,10 @@
         102065699
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_38146",
+        "eurostat:nuts_2021_id":"38146"
+    },
     "wof:coterminous":[
         1126049359
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ecd1f0cdd2ca9a943ae4ebad70a6e1be",
+    "wof:geomhash":"3f2e919bfd447d6efe92b4d1e5a90d3c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404377385,
-    "wof:lastmodified":1582324564,
+    "wof:lastmodified":1684352980,
     "wof:name":"Dizimieu",
     "wof:parent_id":102065699,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":837,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

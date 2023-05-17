@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_47311",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Tourliac",
+    "eurostat:nuts_2021_id":"47311",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI14",
+    "eurostat:nuts_2021_level_lau":"47311",
+    "eurostat:population":135,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200036523",
     "frgov:id":"BDCSURCO0000000009609525",
     "frgov:insee_arr":"3",
@@ -120,6 +132,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683341,
         102191581,
@@ -130,7 +144,10 @@
         102070577
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_47311",
+        "eurostat:nuts_2021_id":"47311"
+    },
     "wof:coterminous":[
         1125848631
     ],
@@ -138,7 +155,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"76d1ef223f1801725ce1a927471c5bb2",
+    "wof:geomhash":"c1e66a7eb0e2e690906645c6c8feb8bd",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -152,11 +169,13 @@
         }
     ],
     "wof:id":404385321,
-    "wof:lastmodified":1582324643,
+    "wof:lastmodified":1684353074,
     "wof:name":"Tourliac",
     "wof:parent_id":102070577,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":135,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

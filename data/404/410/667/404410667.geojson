@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_79152",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lorign\u00e9",
+    "eurostat:nuts_2021_id":"79152",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI33",
+    "eurostat:nuts_2021_level_lau":"79152",
+    "eurostat:population":300,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069755",
     "frgov:id":"BDCSURCO0000000009603851",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683163,
         102191581,
@@ -58,7 +72,10 @@
         102069523
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_79152",
+        "eurostat:nuts_2021_id":"79152"
+    },
     "wof:coterminous":[
         1125819589
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8f8c2e985c1fb0b212dae1244f7df5a5",
+    "wof:geomhash":"608218be7e2a79c624f64ff396b4c296",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404410667,
-    "wof:lastmodified":1582325148,
+    "wof:lastmodified":1684353374,
     "wof:name":"Lorigne",
     "wof:parent_id":102069523,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":300,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

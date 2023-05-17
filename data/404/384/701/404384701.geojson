@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_26211",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Monts\u00e9gur-sur-Lauzon",
+    "eurostat:nuts_2021_id":"26211",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK23",
+    "eurostat:nuts_2021_level_lau":"26211",
+    "eurostat:population":1312,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040681",
     "frgov:id":"BDCSURCO0000000009610671",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.002081,
-    "geom:area_square_m":18394142.122779,
+    "geom:area_square_m":18394142.12278,
     "geom:bbox":"4.8267307615,44.3404303365,4.89306636901,44.395911112",
     "geom:latitude":44.367692,
     "geom:longitude":4.857601,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683523,
         102191581,
@@ -58,7 +72,10 @@
         102068961
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_26211",
+        "eurostat:nuts_2021_id":"26211"
+    },
     "wof:coterminous":[
         101896217
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3742a609f4f71a5d7e88a7860957f90b",
+    "wof:geomhash":"57d77894e6ce33bcd25bb502cc3c996e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404384701,
-    "wof:lastmodified":1582324612,
+    "wof:lastmodified":1684353067,
     "wof:name":"Montsegur-Sur-Lauzon",
     "wof:parent_id":102068961,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1312,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_45083",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ch\u00e2teau-Renard",
+    "eurostat:nuts_2021_id":"45083",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB06",
+    "eurostat:nuts_2021_level_lau":"45083",
+    "eurostat:population":2187,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067668",
     "frgov:id":"BDCSURCO0000000009596120",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.004867,
-    "geom:area_square_m":40324555.703512,
+    "geom:area_square_m":40324555.703513,
     "geom:bbox":"2.86284711533,47.8880782506,2.97019823159,47.9715746",
     "geom:latitude":47.926604,
     "geom:longitude":2.922388,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683479,
         102191581,
@@ -57,7 +71,10 @@
         102065437
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_45083",
+        "eurostat:nuts_2021_id":"45083"
+    },
     "wof:coterminous":[
         101764913
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4b44b84ceeda45e35d661015906c3fb8",
+    "wof:geomhash":"e58d31259c46cd02646da3ef47812e34",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404421473,
-    "wof:lastmodified":1582325106,
+    "wof:lastmodified":1684353503,
     "wof:name":"Chateau-Renard",
     "wof:parent_id":102065437,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2187,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

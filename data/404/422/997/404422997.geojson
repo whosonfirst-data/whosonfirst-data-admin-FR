@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_43171",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-B\u00e9rain",
+    "eurostat:nuts_2021_id":"43171",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK13",
+    "eurostat:nuts_2021_level_lau":"43171",
+    "eurostat:population":90,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200073393",
     "frgov:id":"BDCSURCO0000000009608329",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001524,
-    "geom:area_square_m":13315098.189956,
+    "geom:area_square_m":13315098.189957,
     "geom:bbox":"3.5935966625,45.0050297656,3.65852756919,45.0493817974",
     "geom:latitude":45.030362,
     "geom:longitude":3.629015,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683413,
         102191581,
@@ -58,7 +72,10 @@
         102066037
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_43171",
+        "eurostat:nuts_2021_id":"43171"
+    },
     "wof:coterminous":[
         1126013091
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"1463ee7651da4dc20ca83ec02cc23b1a",
+    "wof:geomhash":"f0dffd3fc988e687e6d9b7c1d5d28738",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404422997,
-    "wof:lastmodified":1582324281,
+    "wof:lastmodified":1684353522,
     "wof:name":"Saint-Berain",
     "wof:parent_id":102066037,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":90,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

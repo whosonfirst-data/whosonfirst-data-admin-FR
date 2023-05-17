@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_51002",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Martin-d'Ablois",
+    "eurostat:nuts_2021_id":"51002",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF23",
+    "eurostat:nuts_2021_level_lau":"51002",
+    "eurostat:population":1426,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066850",
     "frgov:id":"BDCSURCO0000000009588131",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.002743,
-    "geom:area_square_m":22243850.342484,
+    "geom:area_square_m":22243850.342483,
     "geom:bbox":"3.80424274427,48.9863258965,3.88758517781,49.0390941614",
     "geom:latitude":49.011632,
     "geom:longitude":3.839483,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683405,
         102191581,
@@ -58,7 +72,10 @@
         102070753
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_51002",
+        "eurostat:nuts_2021_id":"51002"
+    },
     "wof:coterminous":[
         101762639
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d4b43bf05890d989136c552ef72477cb",
+    "wof:geomhash":"4cb27102096fe33392a073f670e58c42",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404370111,
-    "wof:lastmodified":1582324602,
+    "wof:lastmodified":1684352891,
     "wof:name":"Saint-Martin-D'Ablois",
     "wof:parent_id":102070753,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1426,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

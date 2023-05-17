@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_08433",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Suzanne",
+    "eurostat:nuts_2021_id":"08433",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF21",
+    "eurostat:nuts_2021_level_lau":"08433",
+    "eurostat:population":64,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240800862",
     "frgov:id":"BDCSURCO0000000009584148",
     "frgov:insee_arr":"4",
@@ -103,6 +115,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683309,
         102191581,
@@ -113,7 +127,10 @@
         102069901
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_08433",
+        "eurostat:nuts_2021_id":"08433"
+    },
     "wof:coterminous":[
         1360679767
     ],
@@ -121,7 +138,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7150ceffe3a7205b5fcfcec2dd234f1f",
+    "wof:geomhash":"d1d93541442c4281be027728f9d747ea",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -135,11 +152,13 @@
         }
     ],
     "wof:id":404421753,
-    "wof:lastmodified":1582325096,
+    "wof:lastmodified":1684353506,
     "wof:name":"Suzanne",
     "wof:parent_id":102069901,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":64,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

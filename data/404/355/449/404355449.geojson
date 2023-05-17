@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_09246",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rimont",
+    "eurostat:nuts_2021_id":"09246",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ21",
+    "eurostat:nuts_2021_level_lau":"09246",
+    "eurostat:population":530,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067940",
     "frgov:id":"BDCSURCO0000000009615989",
     "frgov:insee_arr":"3",
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683335,
         102191581,
@@ -136,7 +150,10 @@
         102067105
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_09246",
+        "eurostat:nuts_2021_id":"09246"
+    },
     "wof:coterminous":[
         101897755
     ],
@@ -144,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"1d0593e0efca47f665d00e3fb2ea0aef",
+    "wof:geomhash":"629795e0d1f3f11c7f803141301cd7d0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +175,13 @@
         }
     ],
     "wof:id":404355449,
-    "wof:lastmodified":1582324182,
+    "wof:lastmodified":1684352691,
     "wof:name":"Rimont",
     "wof:parent_id":102067105,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":530,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

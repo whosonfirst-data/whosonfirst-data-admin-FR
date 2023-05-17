@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_32391",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Martin-de-Goyne",
+    "eurostat:nuts_2021_id":"32391",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ24",
+    "eurostat:nuts_2021_level_lau":"32391",
+    "eurostat:population":126,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243200391",
     "frgov:id":"BDCSURCO0000000009611877",
     "frgov:insee_arr":"2",
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683467,
         102191581,
@@ -56,7 +70,10 @@
         102066493
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_32391",
+        "eurostat:nuts_2021_id":"32391"
+    },
     "wof:coterminous":[
         1360678063
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d7772c99de757d68f9334d388b13e5ac",
+    "wof:geomhash":"660eaf1ccc5fd13aa9fc5a4d08beacd7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404404149,
-    "wof:lastmodified":1582325319,
+    "wof:lastmodified":1684353297,
     "wof:name":"Saint-Martin-De-Goyne",
     "wof:parent_id":102066493,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":126,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

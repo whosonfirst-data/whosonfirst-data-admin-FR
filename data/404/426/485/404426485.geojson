@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_64432",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ossas-Suhare",
+    "eurostat:nuts_2021_id":"64432",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI15",
+    "eurostat:nuts_2021_level_lau":"64432",
+    "eurostat:population":84,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067106",
     "frgov:id":"BDCSURCO0000000009615317",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000793,
-    "geom:area_square_m":7153161.582753,
+    "geom:area_square_m":7153161.582752,
     "geom:bbox":"-0.937517270062,43.1241236771,-0.880107505682,43.1538750628",
     "geom:latitude":43.138955,
     "geom:longitude":-0.906408,
@@ -135,6 +147,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683539,
         102191581,
@@ -145,7 +159,10 @@
         102070969
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_64432",
+        "eurostat:nuts_2021_id":"64432"
+    },
     "wof:coterminous":[
         1125922501
     ],
@@ -153,7 +170,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3e6c6555f271b361b24d25a1d229b07d",
+    "wof:geomhash":"50217721a8d7c238b319bbe91f50d30d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -167,11 +184,13 @@
         }
     ],
     "wof:id":404426485,
-    "wof:lastmodified":1582325080,
+    "wof:lastmodified":1684353562,
     "wof:name":"Ossas-Suhare",
     "wof:parent_id":102070969,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":84,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

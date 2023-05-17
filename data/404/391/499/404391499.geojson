@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_10023",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Avon-la-P\u00e8ze",
+    "eurostat:nuts_2021_id":"10023",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF22",
+    "eurostat:nuts_2021_level_lau":"10023",
+    "eurostat:population":193,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"241000488",
     "frgov:id":"BDCSURCO0000000009593266",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.001558,
-    "geom:area_square_m":12794155.909926,
+    "geom:area_square_m":12794155.909925,
     "geom:bbox":"3.61072772505,48.3650488636,3.7002362631,48.4043296275",
     "geom:latitude":48.38757,
     "geom:longitude":3.65197,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683193,
         102191581,
@@ -58,7 +72,10 @@
         102066655
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_10023",
+        "eurostat:nuts_2021_id":"10023"
+    },
     "wof:coterminous":[
         1126008563
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8020c69733bceca38efbb0575aea3001",
+    "wof:geomhash":"f2cf05f6cec17b1a51385f0180b0ab9a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404391499,
-    "wof:lastmodified":1582324012,
+    "wof:lastmodified":1684353150,
     "wof:name":"Avon-La-Peze",
     "wof:parent_id":102066655,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":193,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

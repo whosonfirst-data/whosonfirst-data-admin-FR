@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_56219",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Guyomard",
+    "eurostat:nuts_2021_id":"56219",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH04",
+    "eurostat:nuts_2021_level_lau":"56219",
+    "eurostat:population":1362,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066785",
     "frgov:id":"BDCSURCO0000000009596566",
     "frgov:insee_arr":"3",
@@ -132,6 +144,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683507,
         102191581,
@@ -141,7 +155,10 @@
         102067913
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_56219",
+        "eurostat:nuts_2021_id":"56219"
+    },
     "wof:coterminous":[
         101884741
     ],
@@ -149,7 +166,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"67c8e26caae841bdaa8a3a2c92ab6f36",
+    "wof:geomhash":"6b55053d88fdcb3dcb0af8c1b4049163",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -162,11 +179,13 @@
         }
     ],
     "wof:id":404364637,
-    "wof:lastmodified":1582324253,
+    "wof:lastmodified":1684352819,
     "wof:name":"Saint-Guyomard",
     "wof:parent_id":102067913,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1362,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

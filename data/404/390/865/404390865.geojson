@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_45272",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Cyr-en-Val",
+    "eurostat:nuts_2021_id":"45272",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB06",
+    "eurostat:nuts_2021_level_lau":"45272",
+    "eurostat:population":3309,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244500468",
     "frgov:id":"BDCSURCO0000000009596801",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.005336,
-    "geom:area_square_m":44306937.275159,
+    "geom:area_square_m":44306937.27516,
     "geom:bbox":"1.90545377896,47.7601523423,2.004711168,47.8677339505",
     "geom:latitude":47.814318,
     "geom:longitude":1.959782,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683479,
         102191581,
@@ -57,7 +71,10 @@
         102071051
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_45272",
+        "eurostat:nuts_2021_id":"45272"
+    },
     "wof:coterminous":[
         101750951
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a7695b1edcb4158fcd47ff3a04f6faa9",
+    "wof:geomhash":"9c605f8fd011fa07441581e090d39944",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404390865,
-    "wof:lastmodified":1582324274,
+    "wof:lastmodified":1684353141,
     "wof:name":"Saint-Cyr-En-Val",
     "wof:parent_id":102071051,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3309,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_55017",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Autr\u00e9court-sur-Aire",
+    "eurostat:nuts_2021_id":"55017",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF32",
+    "eurostat:nuts_2021_level_lau":"55017",
+    "eurostat:population":115,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066140",
     "frgov:id":"BDCSURCO0000000009587573",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.001347,
-    "geom:area_square_m":10920593.414267,
+    "geom:area_square_m":10920593.414268,
     "geom:bbox":"5.10080542954,49.0096239872,5.18720381375,49.0445483354",
     "geom:latitude":49.03114,
     "geom:longitude":5.140223,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683297,
         102191581,
@@ -58,7 +72,10 @@
         102068175
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_55017",
+        "eurostat:nuts_2021_id":"55017"
+    },
     "wof:coterminous":[
         101880451
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"92aa0e99cd118c5384661dfa02f2c924",
+    "wof:geomhash":"55f290a7fbf8b76a8c8e2b73842e9694",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404411763,
-    "wof:lastmodified":1582325160,
+    "wof:lastmodified":1684353386,
     "wof:name":"Autrecourt-Sur-Aire",
     "wof:parent_id":102068175,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":115,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

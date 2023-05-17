@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_02515",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Montigny-l\u00e8s-Cond\u00e9",
+    "eurostat:nuts_2021_id":"02515",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE21",
+    "eurostat:nuts_2021_level_lau":"02515",
+    "eurostat:population":59,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072031",
     "frgov:id":"BDCSURCO0000000009588627",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000591,
-    "geom:area_square_m":4797757.833262,
+    "geom:area_square_m":4797757.833261,
     "geom:bbox":"3.54961817293,48.9672001539,3.58349299853,48.996827594",
     "geom:latitude":48.983213,
     "geom:longitude":3.56652,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683247,
         102191581,
@@ -58,7 +72,10 @@
         102066009
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_02515",
+        "eurostat:nuts_2021_id":"02515"
+    },
     "wof:coterminous":[
         1125877543
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"36a451a5ec4f7ba5e47ef8b77669438d",
+    "wof:geomhash":"4083d6d3fa9fda514810f30ce312ee3c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404356567,
-    "wof:lastmodified":1582324923,
+    "wof:lastmodified":1684352706,
     "wof:name":"Montigny-Les-Conde",
     "wof:parent_id":102066009,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":59,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_35223",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Pl\u00e9lan-le-Grand",
+    "eurostat:nuts_2021_id":"35223",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH03",
+    "eurostat:nuts_2021_level_lau":"35223",
+    "eurostat:population":3949,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243500618",
     "frgov:id":"BDCSURCO0000000009595563",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BRETAGNE",
     "frgov:statut":"Commune simple",
     "geom:area":0.006057,
-    "geom:area_square_m":50119934.011431,
+    "geom:area_square_m":50119934.011432,
     "geom:bbox":"-2.14145277075,47.9519691147,-2.01153521697,48.045481134",
     "geom:latitude":47.996741,
     "geom:longitude":-2.079868,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683461,
         102191581,
@@ -57,7 +71,10 @@
         102069383
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_35223",
+        "eurostat:nuts_2021_id":"35223"
+    },
     "wof:coterminous":[
         101762499
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5f6b05bcfb8e256ace9dec5b9b8e3911",
+    "wof:geomhash":"58c31a8ed5a64d2f9fee4c1d0716f30f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404349407,
-    "wof:lastmodified":1582324705,
+    "wof:lastmodified":1684352608,
     "wof:name":"Plelan-Le-Grand",
     "wof:parent_id":102069383,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3949,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_49020",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Beaucouz\u00e9",
+    "eurostat:nuts_2021_id":"49020",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG02",
+    "eurostat:nuts_2021_level_lau":"49020",
+    "eurostat:population":5156,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244900015",
     "frgov:id":"BDCSURCO0000000009598425",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683327,
         102191581,
@@ -57,7 +71,10 @@
         102070831
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_49020",
+        "eurostat:nuts_2021_id":"49020"
+    },
     "wof:coterminous":[
         1175611543
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"1888b5ae83d8788a6e9faf21a0febebb",
+    "wof:geomhash":"1a9810a5135398f5db134137f7f1d249",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404355963,
-    "wof:lastmodified":1582324181,
+    "wof:lastmodified":1684352698,
     "wof:name":"Beaucouze",
     "wof:parent_id":102070831,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":5156,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_41085",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Fert\u00e9-Saint-Cyr",
+    "eurostat:nuts_2021_id":"41085",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB05",
+    "eurostat:nuts_2021_level_lau":"41085",
+    "eurostat:population":1056,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244100798",
     "frgov:id":"BDCSURCO0000000009597801",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.007109,
-    "geom:area_square_m":59198775.181305,
+    "geom:area_square_m":59198775.181304,
     "geom:bbox":"1.6245802507,47.607043898,1.74672641617,47.7123728493",
     "geom:latitude":47.668475,
     "geom:longitude":1.68643,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683349,
         102191581,
@@ -57,7 +71,10 @@
         102067127
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_41085",
+        "eurostat:nuts_2021_id":"41085"
+    },
     "wof:coterminous":[
         101886877
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d8a236611c5139e299f42750b50c0367",
+    "wof:geomhash":"475e2068860e1589b17ed7db0c27ff16",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404350367,
-    "wof:lastmodified":1582324855,
+    "wof:lastmodified":1684352622,
     "wof:name":"La Ferte-Saint-Cyr",
     "wof:parent_id":102067127,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1056,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_03067",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ch\u00e2telperron",
+    "eurostat:nuts_2021_id":"03067",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK11",
+    "eurostat:nuts_2021_level_lau":"03067",
+    "eurostat:population":146,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071470",
     "frgov:id":"BDCSURCO0000000009602857",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.002418,
-    "geom:area_square_m":20618216.659355,
+    "geom:area_square_m":20618216.659356,
     "geom:bbox":"3.60004615996,46.3679642853,3.66457987625,46.4310152831",
     "geom:latitude":46.397042,
     "geom:longitude":3.633063,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683293,
         102191581,
@@ -58,7 +72,10 @@
         102066905
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_03067",
+        "eurostat:nuts_2021_id":"03067"
+    },
     "wof:coterminous":[
         1126043805
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"854d432f568d5987181451d6f7e23949",
+    "wof:geomhash":"65ca2bbe4ef1fc46f6968ee1422b9f34",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404406029,
-    "wof:lastmodified":1582324448,
+    "wof:lastmodified":1684353320,
     "wof:name":"Chatelperron",
     "wof:parent_id":102066905,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":146,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

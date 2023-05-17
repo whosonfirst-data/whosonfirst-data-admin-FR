@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_44179",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Mars-du-D\u00e9sert",
+    "eurostat:nuts_2021_id":"44179",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG01",
+    "eurostat:nuts_2021_level_lau":"44179",
+    "eurostat:population":4899,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244400503",
     "frgov:id":"BDCSURCO0000000009599049",
     "frgov:insee_arr":"5",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003627,
-    "geom:area_square_m":30385141.532364,
+    "geom:area_square_m":30385141.532363,
     "geom:bbox":"-1.48585803094,47.3214594513,-1.38800922345,47.3858560776",
     "geom:latitude":47.357277,
     "geom:longitude":-1.445468,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683233,
         102191581,
@@ -57,7 +71,10 @@
         102069271
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_44179",
+        "eurostat:nuts_2021_id":"44179"
+    },
     "wof:coterminous":[
         101764673
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"239da85c13bd145a83f3b594a1a3e2ff",
+    "wof:geomhash":"dbdd12851edfe63ed3777591e6e2a9f2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404410605,
-    "wof:lastmodified":1582325148,
+    "wof:lastmodified":1684353373,
     "wof:name":"Saint-Mars-Du-Desert",
     "wof:parent_id":102069271,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":4899,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

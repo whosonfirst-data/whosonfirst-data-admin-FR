@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_32058",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Blousson-S\u00e9rian",
+    "eurostat:nuts_2021_id":"32058",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ24",
+    "eurostat:nuts_2021_level_lau":"32058",
+    "eurostat:population":42,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243200508",
     "frgov:id":"BDCSURCO0000000009613987",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683467,
         102191581,
@@ -58,7 +72,10 @@
         102066923
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_32058",
+        "eurostat:nuts_2021_id":"32058"
+    },
     "wof:coterminous":[
         1125893401
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ba1090e83271c67e5cfc3a401e9c8f0f",
+    "wof:geomhash":"90a444d93dde963382a59d3adee004a1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404385787,
-    "wof:lastmodified":1582324643,
+    "wof:lastmodified":1684353079,
     "wof:name":"Blousson-Serian",
     "wof:parent_id":102066923,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":42,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

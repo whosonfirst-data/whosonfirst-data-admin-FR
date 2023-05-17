@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_24413",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Georges-Blancaneix",
+    "eurostat:nuts_2021_id":"24413",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI11",
+    "eurostat:nuts_2021_level_lau":"24413",
+    "eurostat:population":252,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070647",
     "frgov:id":"BDCSURCO0000000009608838",
     "frgov:insee_arr":"1",
@@ -124,6 +136,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683331,
         102191581,
@@ -134,7 +148,10 @@
         102067187
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_24413",
+        "eurostat:nuts_2021_id":"24413"
+    },
     "wof:coterminous":[
         1360676753
     ],
@@ -142,7 +159,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c9f371837c0ff1c369545f0c6be8849f",
+    "wof:geomhash":"44b6832489fe231ab052b7e0440d9cc6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -156,11 +173,13 @@
         }
     ],
     "wof:id":404390389,
-    "wof:lastmodified":1582324276,
+    "wof:lastmodified":1684353134,
     "wof:name":"Saint-Georges-Blancaneix",
     "wof:parent_id":102067187,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":252,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

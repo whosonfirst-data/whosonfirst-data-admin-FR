@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_56205",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Armel",
+    "eurostat:nuts_2021_id":"56205",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH04",
+    "eurostat:nuts_2021_level_lau":"56205",
+    "eurostat:population":886,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067932",
     "frgov:id":"BDCSURCO0000000009597580",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BRETAGNE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000905,
-    "geom:area_square_m":7548121.976481,
+    "geom:area_square_m":7548121.976482,
     "geom:bbox":"-2.7499259709,47.5427555076,-2.68906498412,47.588448302",
     "geom:latitude":47.56307,
     "geom:longitude":-2.712663,
@@ -79,6 +91,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683507,
         102191581,
@@ -88,7 +102,10 @@
         102070581
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_56205",
+        "eurostat:nuts_2021_id":"56205"
+    },
     "wof:coterminous":[
         1360677677
     ],
@@ -96,7 +113,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"1bd7abade7492ee1f5ca6cd47f6b6160",
+    "wof:geomhash":"0c1a6b21d59ce7ebabf121cde31037fb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -109,11 +126,13 @@
         }
     ],
     "wof:id":404399895,
-    "wof:lastmodified":1582324148,
+    "wof:lastmodified":1684353248,
     "wof:name":"Saint-Armel",
     "wof:parent_id":102070581,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":886,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

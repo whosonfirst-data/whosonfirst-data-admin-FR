@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_85215",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Fulgent",
+    "eurostat:nuts_2021_id":"85215",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG05",
+    "eurostat:nuts_2021_level_lau":"85215",
+    "eurostat:population":3792,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071918",
     "frgov:id":"BDCSURCO0000000009601059",
     "frgov:insee_arr":"2",
@@ -117,6 +129,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683409,
         102191581,
@@ -126,7 +140,10 @@
         102068997
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_85215",
+        "eurostat:nuts_2021_id":"85215"
+    },
     "wof:coterminous":[
         101765433
     ],
@@ -134,7 +151,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5ac5c6bd4cfb8b0630f21928ac99d6f0",
+    "wof:geomhash":"29e333671d4e1d714f39ae320000a16f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -147,11 +164,13 @@
         }
     ],
     "wof:id":404368753,
-    "wof:lastmodified":1582324867,
+    "wof:lastmodified":1684352875,
     "wof:name":"Saint-Fulgent",
     "wof:parent_id":102068997,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3792,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

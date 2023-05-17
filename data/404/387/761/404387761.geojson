@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_18158",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Moulins-sur-Y\u00e8vre",
+    "eurostat:nuts_2021_id":"18158",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB01",
+    "eurostat:nuts_2021_level_lau":"18158",
+    "eurostat:population":852,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066330",
     "frgov:id":"BDCSURCO0000000009600304",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001817,
-    "geom:area_square_m":15298583.307622,
+    "geom:area_square_m":15298583.307621,
     "geom:bbox":"2.49555943299,47.0686395714,2.55633948653,47.1227573096",
     "geom:latitude":47.093408,
     "geom:longitude":2.528361,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683549,
         102191581,
@@ -57,7 +71,10 @@
         102064825
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_18158",
+        "eurostat:nuts_2021_id":"18158"
+    },
     "wof:coterminous":[
         101889107
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9b548e81b05af1350121c04d44d2f464",
+    "wof:geomhash":"3462f6df053dbb4858c9d96af8c2da73",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404387761,
-    "wof:lastmodified":1582325364,
+    "wof:lastmodified":1684353101,
     "wof:name":"Moulins-Sur-Yevre",
     "wof:parent_id":102064825,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":852,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

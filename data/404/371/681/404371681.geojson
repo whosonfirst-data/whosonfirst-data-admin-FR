@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_37053",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Chanceaux-pr\u00e8s-Loches",
+    "eurostat:nuts_2021_id":"37053",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB04",
+    "eurostat:nuts_2021_level_lau":"37053",
+    "eurostat:population":129,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071587",
     "frgov:id":"BDCSURCO0000000009600083",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001743,
-    "geom:area_square_m":14662334.044809,
+    "geom:area_square_m":14662334.044808,
     "geom:bbox":"0.903647391177,47.1204621375,0.990152252254,47.1579581366",
     "geom:latitude":47.141174,
     "geom:longitude":0.939599,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683575,
         102191581,
@@ -57,7 +71,10 @@
         102066731
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_37053",
+        "eurostat:nuts_2021_id":"37053"
+    },
     "wof:coterminous":[
         1126043101
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"282694a8181100ce51ab7e3851c79d94",
+    "wof:geomhash":"03acf9ee8c4a3f3876498919c58611ea",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404371681,
-    "wof:lastmodified":1582324646,
+    "wof:lastmodified":1684352909,
     "wof:name":"Chanceaux-Pres-Loches",
     "wof:parent_id":102066731,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":129,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_42105",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gr\u00e9zieux-le-Fromental",
+    "eurostat:nuts_2021_id":"42105",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK25",
+    "eurostat:nuts_2021_level_lau":"42105",
+    "eurostat:population":233,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200065886",
     "frgov:id":"BDCSURCO0000000009606073",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001204,
-    "geom:area_square_m":10410496.763177,
+    "geom:area_square_m":10410496.763176,
     "geom:bbox":"4.12166360832,45.5987547443,4.18202617165,45.6297318777",
     "geom:latitude":45.614885,
     "geom:longitude":4.154705,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683377,
         102191581,
@@ -58,7 +72,10 @@
         102065835
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_42105",
+        "eurostat:nuts_2021_id":"42105"
+    },
     "wof:coterminous":[
         1125903949
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c082937d0079293a63a5465ae7f7003d",
+    "wof:geomhash":"405cd4b9033b521cfdd59d30b8f55b4e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404393251,
-    "wof:lastmodified":1582325012,
+    "wof:lastmodified":1684353171,
     "wof:name":"Grezieux-Le-Fromental",
     "wof:parent_id":102065835,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":233,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

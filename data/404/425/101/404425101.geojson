@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_84109",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Hippolyte-le-Graveyron",
+    "eurostat:nuts_2021_id":"84109",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL06",
+    "eurostat:nuts_2021_level_lau":"84109",
+    "eurostat:population":178,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248400053",
     "frgov:id":"BDCSURCO0000000009611354",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.000557,
-    "geom:area_square_m":4940577.417599,
+    "geom:area_square_m":4940577.417598,
     "geom:bbox":"5.06244535264,44.1015958031,5.09275918496,44.1331159044",
     "geom:latitude":44.120695,
     "geom:longitude":5.076093,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683201,
         102191581,
@@ -55,7 +69,10 @@
         102065991
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_84109",
+        "eurostat:nuts_2021_id":"84109"
+    },
     "wof:coterminous":[
         1360680091
     ],
@@ -63,7 +80,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"aec45a59363869d6cca670b1d177e670",
+    "wof:geomhash":"021cfbb47d6cca34ed52d897aee4cb35",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -76,11 +93,13 @@
         }
     ],
     "wof:id":404425101,
-    "wof:lastmodified":1582324307,
+    "wof:lastmodified":1684353547,
     "wof:name":"Saint-Hippolyte-Le-Graveyron",
     "wof:parent_id":102065991,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":178,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_03043",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bro\u00fbt-Vernet",
+    "eurostat:nuts_2021_id":"03043",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK11",
+    "eurostat:nuts_2021_level_lau":"03043",
+    "eurostat:population":1169,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071389",
     "frgov:id":"BDCSURCO0000000009603528",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.003729,
-    "geom:area_square_m":31916204.50988,
+    "geom:area_square_m":31916204.509879,
     "geom:bbox":"3.23892832125,46.1640046046,3.34718465036,46.2346729271",
     "geom:latitude":46.196711,
     "geom:longitude":3.288675,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683293,
         102191581,
@@ -58,7 +72,10 @@
         102066133
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_03043",
+        "eurostat:nuts_2021_id":"03043"
+    },
     "wof:coterminous":[
         101766475
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"40b3629c0a414c4c26c4b9411da78809",
+    "wof:geomhash":"99d959b209c53146318f3494456a8554",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404397213,
-    "wof:lastmodified":1582324212,
+    "wof:lastmodified":1684353216,
     "wof:name":"Brout-Vernet",
     "wof:parent_id":102066133,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1169,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

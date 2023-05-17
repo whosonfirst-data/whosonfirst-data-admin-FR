@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_63348",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Gen\u00e8s-la-Tourette",
+    "eurostat:nuts_2021_id":"63348",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK14",
+    "eurostat:nuts_2021_level_lau":"63348",
+    "eurostat:population":180,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070407",
     "frgov:id":"BDCSURCO0000000009606579",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.002132,
-    "geom:area_square_m":18476134.282716,
+    "geom:area_square_m":18476134.282717,
     "geom:bbox":"3.43561890094,45.4838287487,3.51934654731,45.5452444687",
     "geom:latitude":45.517455,
     "geom:longitude":3.480993,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683471,
         102191581,
@@ -58,7 +72,10 @@
         102071339
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_63348",
+        "eurostat:nuts_2021_id":"63348"
+    },
     "wof:coterminous":[
         1125811015
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f526aae7b3bfdc71dabcd944b348aca3",
+    "wof:geomhash":"7ee75392b078a2f7fc0c68cc113d863e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404354213,
-    "wof:lastmodified":1582324097,
+    "wof:lastmodified":1684352674,
     "wof:name":"Saint-Genes-La-Tourette",
     "wof:parent_id":102071339,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":180,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

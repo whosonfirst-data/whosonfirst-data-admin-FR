@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_28080",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Charbonni\u00e8res",
+    "eurostat:nuts_2021_id":"28080",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB02",
+    "eurostat:nuts_2021_level_lau":"28080",
+    "eurostat:population":253,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200006971",
     "frgov:id":"BDCSURCO0000000009594524",
     "frgov:insee_arr":"4",
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683189,
         102191581,
@@ -55,7 +69,10 @@
         102064809
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_28080",
+        "eurostat:nuts_2021_id":"28080"
+    },
     "wof:coterminous":[
         1360675517
     ],
@@ -63,7 +80,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"556634544cbbe3d583ee6a30f5820e89",
+    "wof:geomhash":"b78aa7023f249a34fc6d5476f26cef7f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -76,11 +93,13 @@
         }
     ],
     "wof:id":404377377,
-    "wof:lastmodified":1582324563,
+    "wof:lastmodified":1684352980,
     "wof:name":"Charbonnieres",
     "wof:parent_id":102064809,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":253,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

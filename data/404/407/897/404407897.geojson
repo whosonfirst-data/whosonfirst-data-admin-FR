@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_77026",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Beauchery-Saint-Martin",
+    "eurostat:nuts_2021_id":"77026",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR102",
+    "eurostat:nuts_2021_level_lau":"77026",
+    "eurostat:population":368,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200037133",
     "frgov:id":"BDCSURCO0000000009591510",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"ILE-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003396,
-    "geom:area_square_m":27772428.655308,
+    "geom:area_square_m":27772428.655306,
     "geom:bbox":"3.37470886473,48.5690987172,3.46902269353,48.6319795513",
     "geom:latitude":48.602193,
     "geom:longitude":3.420783,
@@ -120,6 +132,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683385,
         102191581,
@@ -129,7 +143,10 @@
         102069727
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_77026",
+        "eurostat:nuts_2021_id":"77026"
+    },
     "wof:coterminous":[
         1125918237
     ],
@@ -137,7 +154,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6938fa7a8e84e93272ae40cbed84a684",
+    "wof:geomhash":"fa986219f2dc0e745d21fb5dcd080aa4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -150,11 +167,13 @@
         }
     ],
     "wof:id":404407897,
-    "wof:lastmodified":1582324500,
+    "wof:lastmodified":1684353342,
     "wof:name":"Beauchery-Saint-Martin",
     "wof:parent_id":102069727,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":368,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

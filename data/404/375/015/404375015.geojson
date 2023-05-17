@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_31042",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bagn\u00e8res-de-Luchon",
+    "eurostat:nuts_2021_id":"31042",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ23",
+    "eurostat:nuts_2021_level_lau":"31042",
+    "eurostat:population":2312,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072635",
     "frgov:id":"BDCSURCO0000000009616452",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.005727,
-    "geom:area_square_m":52016469.564183,
+    "geom:area_square_m":52016469.564182,
     "geom:bbox":"0.569940554564,42.6894536645,0.682263527618,42.8093195531",
     "geom:latitude":42.735154,
     "geom:longitude":0.626853,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683397,
         102191581,
@@ -58,7 +72,10 @@
         102064903
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_31042",
+        "eurostat:nuts_2021_id":"31042"
+    },
     "wof:coterminous":[
         101775247
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c515f533a18290c270c3880db27d305a",
+    "wof:geomhash":"af73bbd28e88f7a2870650232eaff75c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404375015,
-    "wof:lastmodified":1582325408,
+    "wof:lastmodified":1684352949,
     "wof:name":"Bagneres-De-Luchon",
     "wof:parent_id":102064903,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2312,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

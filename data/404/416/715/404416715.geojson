@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_36192",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Gaultier",
+    "eurostat:nuts_2021_id":"36192",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB03",
+    "eurostat:nuts_2021_level_lau":"36192",
+    "eurostat:population":1833,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068872",
     "frgov:id":"BDCSURCO0000000009601834",
     "frgov:insee_arr":"1",
@@ -135,6 +147,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683311,
         102191581,
@@ -144,7 +158,10 @@
         102067757
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_36192",
+        "eurostat:nuts_2021_id":"36192"
+    },
     "wof:coterminous":[
         101766829
     ],
@@ -152,7 +169,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c02635834d684ec6587bcdb9f628a3a1",
+    "wof:geomhash":"9537ae0452ca816a0a76ae47afca951d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -165,11 +182,13 @@
         }
     ],
     "wof:id":404416715,
-    "wof:lastmodified":1582325185,
+    "wof:lastmodified":1684353445,
     "wof:name":"Saint-Gaultier",
     "wof:parent_id":102067757,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1833,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

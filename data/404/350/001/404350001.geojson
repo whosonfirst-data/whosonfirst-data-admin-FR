@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_22331",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sainte-Tr\u00e9phine",
+    "eurostat:nuts_2021_id":"22331",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH01",
+    "eurostat:nuts_2021_level_lau":"22331",
+    "eurostat:population":186,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242200715",
     "frgov:id":"BDCSURCO0000000009593479",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683515,
         102191581,
@@ -57,7 +71,10 @@
         102071407
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_22331",
+        "eurostat:nuts_2021_id":"22331"
+    },
     "wof:coterminous":[
         1125849757
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"be6a684d0741f4f5cc666147f591ac22",
+    "wof:geomhash":"ca9531f4460e59f6d90b893561c9fba2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404350001,
-    "wof:lastmodified":1582324851,
+    "wof:lastmodified":1684352616,
     "wof:name":"Sainte-Trephine",
     "wof:parent_id":102071407,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":186,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

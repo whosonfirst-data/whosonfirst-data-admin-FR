@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_66041",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Cases-de-P\u00e8ne",
+    "eurostat:nuts_2021_id":"66041",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ15",
+    "eurostat:nuts_2021_level_lau":"66041",
+    "eurostat:population":926,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200027183",
     "frgov:id":"BDCSURCO0000000009616306",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001481,
-    "geom:area_square_m":13435058.560942,
+    "geom:area_square_m":13435058.560941,
     "geom:bbox":"2.74461408203,42.7667767186,2.80899382785,42.8191171815",
     "geom:latitude":42.787335,
     "geom:longitude":2.778155,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683169,
         102191581,
@@ -58,7 +72,10 @@
         102066519
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_66041",
+        "eurostat:nuts_2021_id":"66041"
+    },
     "wof:coterminous":[
         1125767515
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6c128bba9968f214189b1027d0b2f0d0",
+    "wof:geomhash":"7e284394800ccc71042f73074be8bd87",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404389529,
-    "wof:lastmodified":1582325327,
+    "wof:lastmodified":1684353123,
     "wof:name":"Cases-De-Pene",
     "wof:parent_id":102066519,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":926,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

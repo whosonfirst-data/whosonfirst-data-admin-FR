@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_40303",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Solf\u00e9rino",
+    "eurostat:nuts_2021_id":"40303",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI13",
+    "eurostat:nuts_2021_level_lau":"40303",
+    "eurostat:population":324,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069656",
     "frgov:id":"BDCSURCO0000000009611480",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.011116,
-    "geom:area_square_m":98662922.137952,
+    "geom:area_square_m":98662922.13795,
     "geom:bbox":"-0.980405474776,44.0432797622,-0.833641439093,44.1877620769",
     "geom:latitude":44.12631,
     "geom:longitude":-0.900714,
@@ -171,6 +183,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683183,
         102191581,
@@ -181,7 +195,10 @@
         102068017
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_40303",
+        "eurostat:nuts_2021_id":"40303"
+    },
     "wof:coterminous":[
         101895683
     ],
@@ -189,7 +206,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9ad365189c960bb4668baf39f834a179",
+    "wof:geomhash":"fd50ed42311091edb3b0da2ac345d0f2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -203,11 +220,13 @@
         }
     ],
     "wof:id":404373729,
-    "wof:lastmodified":1582325352,
+    "wof:lastmodified":1684352933,
     "wof:name":"Solferino",
     "wof:parent_id":102068017,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":324,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

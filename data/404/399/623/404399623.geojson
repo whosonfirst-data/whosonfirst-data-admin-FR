@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_90083",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Recouvrance",
+    "eurostat:nuts_2021_id":"90083",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC24",
+    "eurostat:nuts_2021_level_lau":"90083",
+    "eurostat:population":108,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"249000241",
     "frgov:id":"BDCSURCO0000000009597322",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683353,
         102191581,
@@ -58,7 +72,10 @@
         102066643
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_90083",
+        "eurostat:nuts_2021_id":"90083"
+    },
     "wof:coterminous":[
         1125800843
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e9b698a6c406bf835d8e1e597d5c5052",
+    "wof:geomhash":"3fca67cfe54cfe7ee92d0a81b4b2449e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404399623,
-    "wof:lastmodified":1582324154,
+    "wof:lastmodified":1684353245,
     "wof:name":"Recouvrance",
     "wof:parent_id":102066643,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":108,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

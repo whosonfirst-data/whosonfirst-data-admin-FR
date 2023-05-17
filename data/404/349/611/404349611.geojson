@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_89151",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"\u00c9griselles-le-Bocage",
+    "eurostat:nuts_2021_id":"89151",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC14",
+    "eurostat:nuts_2021_level_lau":"89151",
+    "eurostat:population":1295,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248900748",
     "frgov:id":"BDCSURCO0000000009595099",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00285,
-    "geom:area_square_m":23532346.618345,
+    "geom:area_square_m":23532346.618346,
     "geom:bbox":"3.13445765345,48.084057967,3.22939398986,48.1373488226",
     "geom:latitude":48.112313,
     "geom:longitude":3.178992,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683503,
         102191581,
@@ -58,7 +72,10 @@
         102069895
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_89151",
+        "eurostat:nuts_2021_id":"89151"
+    },
     "wof:coterminous":[
         1126027001
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"773ceebefe57934261eb057006ac214e",
+    "wof:geomhash":"1202a35d6a69f8ad8a8151b202ace549",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404349611,
-    "wof:lastmodified":1582324703,
+    "wof:lastmodified":1684352611,
     "wof:name":"Egriselles-Le-Bocage",
     "wof:parent_id":102069895,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1295,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

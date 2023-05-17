@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_34027",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Beaulieu",
+    "eurostat:nuts_2021_id":"34027",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ13",
+    "eurostat:nuts_2021_level_lau":"34027",
+    "eurostat:population":1946,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243400017",
     "frgov:id":"BDCSURCO0000000009612895",
     "frgov:insee_arr":"3",
@@ -117,6 +129,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683419,
         102191581,
@@ -127,7 +141,10 @@
         102065573
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_34027",
+        "eurostat:nuts_2021_id":"34027"
+    },
     "wof:coterminous":[
         101831685
     ],
@@ -135,7 +152,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"1a34de2a27ba22ae2c90a5b17da05ffc",
+    "wof:geomhash":"f1b80709d51a8a64fe0973d92a006763",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -149,11 +166,13 @@
         }
     ],
     "wof:id":404385045,
-    "wof:lastmodified":1582324638,
+    "wof:lastmodified":1684353071,
     "wof:name":"Beaulieu",
     "wof:parent_id":102065573,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1946,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

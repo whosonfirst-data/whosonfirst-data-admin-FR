@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_40264",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Jean-de-Marsacq",
+    "eurostat:nuts_2021_id":"40264",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI13",
+    "eurostat:nuts_2021_level_lau":"40264",
+    "eurostat:population":1614,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244000865",
     "frgov:id":"BDCSURCO0000000009613324",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002922,
-    "geom:area_square_m":26159815.082299,
+    "geom:area_square_m":26159815.082298,
     "geom:bbox":"-1.30022090705,43.5831002849,-1.20900751976,43.6491362517",
     "geom:latitude":43.618855,
     "geom:longitude":-1.262845,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683183,
         102191581,
@@ -58,7 +72,10 @@
         102068537
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_40264",
+        "eurostat:nuts_2021_id":"40264"
+    },
     "wof:coterminous":[
         1125787973
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"521f479d3eb4e6c8a0900faad814a2c8",
+    "wof:geomhash":"650679c8ba0d70f56d893e685ff23dd7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404395197,
-    "wof:lastmodified":1582324778,
+    "wof:lastmodified":1684353193,
     "wof:name":"Saint-Jean-De-Marsacq",
     "wof:parent_id":102068537,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1614,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

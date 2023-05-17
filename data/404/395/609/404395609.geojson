@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_41259",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Thor\u00e9-la-Rochette",
+    "eurostat:nuts_2021_id":"41259",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB05",
+    "eurostat:nuts_2021_level_lau":"41259",
+    "eurostat:population":885,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072072",
     "frgov:id":"BDCSURCO0000000009596834",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001294,
-    "geom:area_square_m":10751061.43694,
+    "geom:area_square_m":10751061.436941,
     "geom:bbox":"0.947309050921,47.7615786736,0.996258340022,47.8120739887",
     "geom:latitude":47.786345,
     "geom:longitude":0.97083,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683349,
         102191581,
@@ -57,7 +71,10 @@
         102068759
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_41259",
+        "eurostat:nuts_2021_id":"41259"
+    },
     "wof:coterminous":[
         101885519
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"275d2da91da36e2297c7fd7b1686f662",
+    "wof:geomhash":"ea261ca1766a703cb0e846ce94cd53e3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404395609,
-    "wof:lastmodified":1582324782,
+    "wof:lastmodified":1684353198,
     "wof:name":"Thore-La-Rochette",
     "wof:parent_id":102068759,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":885,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

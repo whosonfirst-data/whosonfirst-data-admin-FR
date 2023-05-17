@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_42283",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Romain-en-Jarez",
+    "eurostat:nuts_2021_id":"42283",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK25",
+    "eurostat:nuts_2021_level_lau":"42283",
+    "eurostat:population":1226,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244200770",
     "frgov:id":"BDCSURCO0000000009606052",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001956,
-    "geom:area_square_m":16936733.890472,
+    "geom:area_square_m":16936733.890473,
     "geom:bbox":"4.49659428063,45.5385733583,4.58712576532,45.5836624058",
     "geom:latitude":45.565156,
     "geom:longitude":4.541646,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683377,
         102191581,
@@ -58,7 +72,10 @@
         102067129
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_42283",
+        "eurostat:nuts_2021_id":"42283"
+    },
     "wof:coterminous":[
         101893441
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"41c8f9bbf104674a2b58ec737b73f499",
+    "wof:geomhash":"c36906a539a57c65fcf5b393aebf7fff",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404348767,
-    "wof:lastmodified":1582324585,
+    "wof:lastmodified":1684352599,
     "wof:name":"Saint-Romain-En-Jarez",
     "wof:parent_id":102067129,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1226,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

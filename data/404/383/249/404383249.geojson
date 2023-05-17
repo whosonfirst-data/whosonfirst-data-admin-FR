@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_32381",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Jean-le-Comtal",
+    "eurostat:nuts_2021_id":"32381",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ24",
+    "eurostat:nuts_2021_level_lau":"32381",
+    "eurostat:population":411,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072320",
     "frgov:id":"BDCSURCO0000000009613481",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001936,
-    "geom:area_square_m":17344506.178168,
+    "geom:area_square_m":17344506.178167,
     "geom:bbox":"0.469194057957,43.5502615202,0.554058036993,43.6021547272",
     "geom:latitude":43.573605,
     "geom:longitude":0.514887,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683467,
         102191581,
@@ -58,7 +72,10 @@
         102069933
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_32381",
+        "eurostat:nuts_2021_id":"32381"
+    },
     "wof:coterminous":[
         1125939779
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f6cc8cb8037da33fec8e7c7821fc267a",
+    "wof:geomhash":"8d9fcbb7ef8765fe755e6efa0395965f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404383249,
-    "wof:lastmodified":1582324551,
+    "wof:lastmodified":1684353049,
     "wof:name":"Saint-Jean-Le-Comtal",
     "wof:parent_id":102069933,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":411,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_53135",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Livr\u00e9-la-Touche",
+    "eurostat:nuts_2021_id":"53135",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG03",
+    "eurostat:nuts_2021_level_lau":"53135",
+    "eurostat:population":745,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200048551",
     "frgov:id":"BDCSURCO0000000009596209",
     "frgov:insee_arr":"1",
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683401,
         102191581,
@@ -55,7 +69,10 @@
         102065843
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_53135",
+        "eurostat:nuts_2021_id":"53135"
+    },
     "wof:coterminous":[
         1360677491
     ],
@@ -63,7 +80,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2c1848cc2282a0d6861ad4c8af5ec51f",
+    "wof:geomhash":"9cc634c1c6bde629a023a9e389c4617c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -76,11 +93,13 @@
         }
     ],
     "wof:id":404397743,
-    "wof:lastmodified":1582324214,
+    "wof:lastmodified":1684353221,
     "wof:name":"Livre-La-Touche",
     "wof:parent_id":102065843,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":745,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

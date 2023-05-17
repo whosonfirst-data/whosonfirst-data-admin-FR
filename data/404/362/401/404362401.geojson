@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_05070",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Laragne-Mont\u00e9glin",
+    "eurostat:nuts_2021_id":"05070",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL02",
+    "eurostat:nuts_2021_level_lau":"05070",
+    "eurostat:population":3511,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068765",
     "frgov:id":"BDCSURCO0000000009610644",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.002563,
-    "geom:area_square_m":22664413.315333,
+    "geom:area_square_m":22664413.315334,
     "geom:bbox":"5.78448253265,44.2975382126,5.85495587558,44.3766006931",
     "geom:latitude":44.334028,
     "geom:longitude":5.816108,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683597,
         102191581,
@@ -57,7 +71,10 @@
         102066473
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_05070",
+        "eurostat:nuts_2021_id":"05070"
+    },
     "wof:coterminous":[
         101772921
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5074b09c39138d3ac2fed2770124ea41",
+    "wof:geomhash":"ec69997a4cf2131e81d0bb50d442d9bf",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404362401,
-    "wof:lastmodified":1582324050,
+    "wof:lastmodified":1684352787,
     "wof:name":"Laragne-Monteglin",
     "wof:parent_id":102066473,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3511,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

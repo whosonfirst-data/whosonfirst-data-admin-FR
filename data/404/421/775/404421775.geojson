@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_49267",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Barth\u00e9lemy-d'Anjou",
+    "eurostat:nuts_2021_id":"49267",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG02",
+    "eurostat:nuts_2021_level_lau":"49267",
+    "eurostat:population":9195,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244900015",
     "frgov:id":"BDCSURCO0000000009598424",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001757,
-    "geom:area_square_m":14680915.508266,
+    "geom:area_square_m":14680915.508265,
     "geom:bbox":"-0.520062220267,47.4555526602,-0.445054076299,47.4926167985",
     "geom:latitude":47.473719,
     "geom:longitude":-0.485681,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683327,
         102191581,
@@ -57,7 +71,10 @@
         102064493
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_49267",
+        "eurostat:nuts_2021_id":"49267"
+    },
     "wof:coterminous":[
         1175612093
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8c07ab734fb2685bab12f6f3059c6a3d",
+    "wof:geomhash":"ea411e625730ebb446b5921ab62b9c04",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404421775,
-    "wof:lastmodified":1582325109,
+    "wof:lastmodified":1684353507,
     "wof:name":"Saint-Barthelemy-D'Anjou",
     "wof:parent_id":102064493,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":9195,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

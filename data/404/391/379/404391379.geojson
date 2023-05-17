@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_45013",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Augerville-la-Rivi\u00e8re",
+    "eurostat:nuts_2021_id":"45013",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB06",
+    "eurostat:nuts_2021_level_lau":"45013",
+    "eurostat:population":232,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071850",
     "frgov:id":"BDCSURCO0000000009594127",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00049,
-    "geom:area_square_m":4032850.277559,
+    "geom:area_square_m":4032850.277558,
     "geom:bbox":"2.39743267671,48.2444383029,2.44074346226,48.2638684442",
     "geom:latitude":48.253264,
     "geom:longitude":2.418896,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683479,
         102191581,
@@ -57,7 +71,10 @@
         102069869
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_45013",
+        "eurostat:nuts_2021_id":"45013"
+    },
     "wof:coterminous":[
         1126015189
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5cf8371d22337153f202c758c29f268c",
+    "wof:geomhash":"30fa5ad464836520cf01da056e10e51b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404391379,
-    "wof:lastmodified":1582324013,
+    "wof:lastmodified":1684353149,
     "wof:name":"Augerville-La-Riviere",
     "wof:parent_id":102069869,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":232,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

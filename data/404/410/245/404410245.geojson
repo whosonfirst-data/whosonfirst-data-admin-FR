@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_76730",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Veauville-l\u00e8s-Quelles",
+    "eurostat:nuts_2021_id":"76730",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD22",
+    "eurostat:nuts_2021_level_lau":"76730",
+    "eurostat:population":130,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069839",
     "frgov:id":"BDCSURCO0000000009583369",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683251,
         102191581,
@@ -58,7 +72,10 @@
         102071057
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_76730",
+        "eurostat:nuts_2021_id":"76730"
+    },
     "wof:coterminous":[
         1125943031
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"62a437d29c6b2650ca554f87e7c0c960",
+    "wof:geomhash":"f32ffafb7a5d096dd3cb1d7a47ee8abc",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404410245,
-    "wof:lastmodified":1582325146,
+    "wof:lastmodified":1684353369,
     "wof:name":"Veauville-Les-Quelles",
     "wof:parent_id":102071057,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":130,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

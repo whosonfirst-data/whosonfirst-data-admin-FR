@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_43212",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Pal-de-Chalencon",
+    "eurostat:nuts_2021_id":"43212",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK13",
+    "eurostat:nuts_2021_level_lau":"43212",
+    "eurostat:population":1016,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200073427",
     "frgov:id":"BDCSURCO0000000009607043",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.003349,
-    "geom:area_square_m":29103641.408959,
+    "geom:area_square_m":29103641.408958,
     "geom:bbox":"3.91372827466,45.3161107179,4.0146056944,45.3764472597",
     "geom:latitude":45.347743,
     "geom:longitude":3.962593,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683413,
         102191581,
@@ -58,7 +72,10 @@
         102064777
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_43212",
+        "eurostat:nuts_2021_id":"43212"
+    },
     "wof:coterminous":[
         101894417
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f45dc87843330224438b76e7c0b898e4",
+    "wof:geomhash":"045771c18fe14aed9949234898e52f79",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404361799,
-    "wof:lastmodified":1582324749,
+    "wof:lastmodified":1684352779,
     "wof:name":"Saint-Pal-De-Chalencon",
     "wof:parent_id":102064777,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1016,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

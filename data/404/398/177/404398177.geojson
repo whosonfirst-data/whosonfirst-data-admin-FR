@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_19227",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Mexant",
+    "eurostat:nuts_2021_id":"19227",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI21",
+    "eurostat:nuts_2021_level_lau":"19227",
+    "eurostat:population":1307,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"241927201",
     "frgov:id":"BDCSURCO0000000009607327",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002178,
-    "geom:area_square_m":18949082.823223,
+    "geom:area_square_m":18949082.823221,
     "geom:bbox":"1.62884362494,45.2664999749,1.72083126511,45.3129901414",
     "geom:latitude":45.289878,
     "geom:longitude":1.67592,
@@ -132,6 +144,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683209,
         102191581,
@@ -142,7 +156,10 @@
         102070527
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_19227",
+        "eurostat:nuts_2021_id":"19227"
+    },
     "wof:coterminous":[
         101894983
     ],
@@ -150,7 +167,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6abe8db16213b676f9e54a40f44637f2",
+    "wof:geomhash":"4aa06019fa651b6b0fafbed58dfd6412",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -164,11 +181,13 @@
         }
     ],
     "wof:id":404398177,
-    "wof:lastmodified":1582324121,
+    "wof:lastmodified":1684353227,
     "wof:name":"Saint-Mexant",
     "wof:parent_id":102070527,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1307,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

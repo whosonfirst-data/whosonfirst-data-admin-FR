@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_80527",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"M\u00e9neslies",
+    "eurostat:nuts_2021_id":"80527",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE23",
+    "eurostat:nuts_2021_level_lau":"80527",
+    "eurostat:population":310,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070944",
     "frgov:id":"BDCSURCO0000000009582036",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683363,
         102191581,
@@ -58,7 +72,10 @@
         102066265
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_80527",
+        "eurostat:nuts_2021_id":"80527"
+    },
     "wof:coterminous":[
         1125916613
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"abcdf61f10c2e3bb3af5b75efcfcbf23",
+    "wof:geomhash":"5c90d9e7e244a6f67588223bf17e761b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404388897,
-    "wof:lastmodified":1582325489,
+    "wof:lastmodified":1684353115,
     "wof:name":"Meneslies",
     "wof:parent_id":102066265,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":310,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

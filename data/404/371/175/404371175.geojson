@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_04175",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sainte-Croix-\u00e0-Lauze",
+    "eurostat:nuts_2021_id":"04175",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL01",
+    "eurostat:nuts_2021_level_lau":"04175",
+    "eurostat:population":88,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071025",
     "frgov:id":"BDCSURCO0000000009611965",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.000963,
-    "geom:area_square_m":8577789.623938,
+    "geom:area_square_m":8577789.623937,
     "geom:bbox":"5.58999529958,43.887232905,5.64027314416,43.9236335114",
     "geom:latitude":43.904204,
     "geom:longitude":5.615993,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683509,
         102191581,
@@ -55,7 +69,10 @@
         102068115
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_04175",
+        "eurostat:nuts_2021_id":"04175"
+    },
     "wof:coterminous":[
         1360674867
     ],
@@ -63,7 +80,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"70791d98547344ed8a6b0f90ce33f359",
+    "wof:geomhash":"e1524c265aa438858edcb4cba96f1a61",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -76,11 +93,13 @@
         }
     ],
     "wof:id":404371175,
-    "wof:lastmodified":1582324651,
+    "wof:lastmodified":1684352903,
     "wof:name":"Sainte-Croix-A-Lauze",
     "wof:parent_id":102068115,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":88,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_51483",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Gibrien",
+    "eurostat:nuts_2021_id":"51483",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF23",
+    "eurostat:nuts_2021_level_lau":"51483",
+    "eurostat:population":538,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066876",
     "frgov:id":"BDCSURCO0000000009588598",
     "frgov:insee_arr":"1",
@@ -114,6 +126,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683405,
         102191581,
@@ -124,7 +138,10 @@
         102070627
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_51483",
+        "eurostat:nuts_2021_id":"51483"
+    },
     "wof:coterminous":[
         1125795955
     ],
@@ -132,7 +149,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"46b7cb9795bde6c7a29e3177fd9c1671",
+    "wof:geomhash":"184fab3864838b61c528013d97c2abcc",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -146,11 +163,13 @@
         }
     ],
     "wof:id":404379569,
-    "wof:lastmodified":1582324520,
+    "wof:lastmodified":1684353006,
     "wof:name":"Saint-Gibrien",
     "wof:parent_id":102070627,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":538,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

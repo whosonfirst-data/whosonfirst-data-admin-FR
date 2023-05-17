@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_51133",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ch\u00e2telier",
+    "eurostat:nuts_2021_id":"51133",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF23",
+    "eurostat:nuts_2021_level_lau":"51133",
+    "eurostat:population":60,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200042703",
     "frgov:id":"BDCSURCO0000000009588584",
     "frgov:insee_arr":"5",
@@ -60,6 +72,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683405,
         102191581,
@@ -70,7 +84,10 @@
         102065797
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_51133",
+        "eurostat:nuts_2021_id":"51133"
+    },
     "wof:coterminous":[
         1125910859
     ],
@@ -78,7 +95,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"da9f62468a61e52da43e3441308b4506",
+    "wof:geomhash":"f37dbe210d161bf63cb9cf501f51b97a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -92,11 +109,13 @@
         }
     ],
     "wof:id":404382965,
-    "wof:lastmodified":1582324680,
+    "wof:lastmodified":1684353045,
     "wof:name":"Le Chatelier",
     "wof:parent_id":102065797,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":60,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

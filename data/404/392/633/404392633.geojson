@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_37219",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Genouph",
+    "eurostat:nuts_2021_id":"37219",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB04",
+    "eurostat:nuts_2021_level_lau":"37219",
+    "eurostat:population":1050,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243700754",
     "frgov:id":"BDCSURCO0000000009598994",
     "frgov:insee_arr":"2",
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683575,
         102191581,
@@ -135,7 +149,10 @@
         102069989
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_37219",
+        "eurostat:nuts_2021_id":"37219"
+    },
     "wof:coterminous":[
         101886517
     ],
@@ -143,7 +160,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"906d63346e65bf82c6d90e23e28def68",
+    "wof:geomhash":"7258e044f171d92b9c18e62c09997489",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -156,11 +173,13 @@
         }
     ],
     "wof:id":404392633,
-    "wof:lastmodified":1582324810,
+    "wof:lastmodified":1684353164,
     "wof:name":"Saint-Genouph",
     "wof:parent_id":102069989,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1050,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

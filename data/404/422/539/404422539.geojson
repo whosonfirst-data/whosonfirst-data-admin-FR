@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_91109",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bri\u00e8res-les-Scell\u00e9s",
+    "eurostat:nuts_2021_id":"91109",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR104",
+    "eurostat:nuts_2021_level_lau":"91109",
+    "eurostat:population":1250,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200017846",
     "frgov:id":"BDCSURCO0000000009592920",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683371,
         102191581,
@@ -57,7 +71,10 @@
         102065665
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_91109",
+        "eurostat:nuts_2021_id":"91109"
+    },
     "wof:coterminous":[
         1126040015
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4cce9e17fd82ba9c47aed96b8f6da946",
+    "wof:geomhash":"74935e06ce41805ec46964f666f9fb74",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404422539,
-    "wof:lastmodified":1582324288,
+    "wof:lastmodified":1684353516,
     "wof:name":"Brieres-Les-Scelles",
     "wof:parent_id":102065665,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1250,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

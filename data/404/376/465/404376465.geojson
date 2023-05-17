@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_24094",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Chalagnac",
+    "eurostat:nuts_2021_id":"24094",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI11",
+    "eurostat:nuts_2021_level_lau":"24094",
+    "eurostat:population":435,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040392",
     "frgov:id":"BDCSURCO0000000009608193",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001665,
-    "geom:area_square_m":14535980.737292,
+    "geom:area_square_m":14535980.73729,
     "geom:bbox":"0.645186039871,45.0692353527,0.7187491325,45.1145110049",
     "geom:latitude":45.092663,
     "geom:longitude":0.681017,
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683331,
         102191581,
@@ -139,7 +153,10 @@
         102071273
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_24094",
+        "eurostat:nuts_2021_id":"24094"
+    },
     "wof:coterminous":[
         1125896431
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"938a97bef6accc9eecdfcfb35f2691db",
+    "wof:geomhash":"764edb1736a50422eb839f5319172067",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404376465,
-    "wof:lastmodified":1582324667,
+    "wof:lastmodified":1684352969,
     "wof:name":"Chalagnac",
     "wof:parent_id":102071273,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":435,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

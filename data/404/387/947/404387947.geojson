@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_88360",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Provench\u00e8res-l\u00e8s-Darney",
+    "eurostat:nuts_2021_id":"88360",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF34",
+    "eurostat:nuts_2021_level_lau":"88360",
+    "eurostat:population":159,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068773",
     "frgov:id":"BDCSURCO0000000009594710",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683223,
         102191581,
@@ -58,7 +72,10 @@
         102066065
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_88360",
+        "eurostat:nuts_2021_id":"88360"
+    },
     "wof:coterminous":[
         101885639
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a3e41e19291e44dccda7569c6846113d",
+    "wof:geomhash":"9e2b2978c202db3f8e733671b9866d62",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404387947,
-    "wof:lastmodified":1582325361,
+    "wof:lastmodified":1684353103,
     "wof:name":"Provencheres-Les-Darney",
     "wof:parent_id":102066065,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":159,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

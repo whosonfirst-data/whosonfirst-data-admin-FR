@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_77223",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gurcy-le-Ch\u00e2tel",
+    "eurostat:nuts_2021_id":"77223",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR102",
+    "eurostat:nuts_2021_level_lau":"77223",
+    "eurostat:population":573,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040251",
     "frgov:id":"BDCSURCO0000000009592435",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"ILE-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001554,
-    "geom:area_square_m":12739801.032904,
+    "geom:area_square_m":12739801.032905,
     "geom:bbox":"3.05516918593,48.4585998729,3.10953929089,48.5153474303",
     "geom:latitude":48.484161,
     "geom:longitude":3.080951,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683385,
         102191581,
@@ -57,7 +71,10 @@
         102066177
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_77223",
+        "eurostat:nuts_2021_id":"77223"
+    },
     "wof:coterminous":[
         101883643
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c707ecde00109f8f0c356b9458ba64ba",
+    "wof:geomhash":"27d4e956262ef0bed5a94892ada848c6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404394125,
-    "wof:lastmodified":1582325039,
+    "wof:lastmodified":1684353181,
     "wof:name":"Gurcy-Le-Chatel",
     "wof:parent_id":102066177,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":573,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

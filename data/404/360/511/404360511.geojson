@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_35261",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Christophe-de-Valains",
+    "eurostat:nuts_2021_id":"35261",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH03",
+    "eurostat:nuts_2021_level_lau":"35261",
+    "eurostat:population":225,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072452",
     "frgov:id":"BDCSURCO0000000009593037",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683461,
         102191581,
@@ -57,7 +71,10 @@
         102070507
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_35261",
+        "eurostat:nuts_2021_id":"35261"
+    },
     "wof:coterminous":[
         1125933139
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c7726b9ae47f7725caf200259a2d1260",
+    "wof:geomhash":"10d6936011a541c4833e0899e88fe87e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404360511,
-    "wof:lastmodified":1582325050,
+    "wof:lastmodified":1684352761,
     "wof:name":"Saint-Christophe-De-Valains",
     "wof:parent_id":102070507,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":225,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

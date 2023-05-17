@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_38408",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Just-Chaleyssin",
+    "eurostat:nuts_2021_id":"38408",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK24",
+    "eurostat:nuts_2021_level_lau":"38408",
+    "eurostat:population":2568,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243801255",
     "frgov:id":"BDCSURCO0000000009606027",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001621,
-    "geom:area_square_m":14027648.102289,
+    "geom:area_square_m":14027648.102288,
     "geom:bbox":"4.97080000788,45.5652697303,5.04477940439,45.6074829945",
     "geom:latitude":45.586848,
     "geom:longitude":5.004588,
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683427,
         102191581,
@@ -139,7 +153,10 @@
         102067125
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_38408",
+        "eurostat:nuts_2021_id":"38408"
+    },
     "wof:coterminous":[
         101769119
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0ae776eae641f1600cf6c0ed88cfd8aa",
+    "wof:geomhash":"e3148d66365aad8060e81f2a5b82f069",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404428299,
-    "wof:lastmodified":1582325124,
+    "wof:lastmodified":1684353583,
     "wof:name":"Saint-Just-Chaleyssin",
     "wof:parent_id":102067125,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2568,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

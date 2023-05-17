@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_21332",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Labergement-l\u00e8s-Seurre",
+    "eurostat:nuts_2021_id":"21332",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC11",
+    "eurostat:nuts_2021_level_lau":"21332",
+    "eurostat:population":995,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242101509",
     "frgov:id":"BDCSURCO0000000009600468",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003438,
-    "geom:area_square_m":28997340.670826,
+    "geom:area_square_m":28997340.670827,
     "geom:bbox":"5.03359810818,46.9672913365,5.14135605425,47.0279580806",
     "geom:latitude":46.995909,
     "geom:longitude":5.088006,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683563,
         102191581,
@@ -58,7 +72,10 @@
         102070367
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_21332",
+        "eurostat:nuts_2021_id":"21332"
+    },
     "wof:coterminous":[
         1126004441
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"220edf143cbc6a485bb180a31cb2ad84",
+    "wof:geomhash":"d381d31ffaff24b09371821778d5e7be",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404358699,
-    "wof:lastmodified":1582324981,
+    "wof:lastmodified":1684352736,
     "wof:name":"Labergement-Les-Seurre",
     "wof:parent_id":102070367,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":995,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

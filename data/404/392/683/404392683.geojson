@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_67422",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saasenheim",
+    "eurostat:nuts_2021_id":"67422",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF1",
+    "eurostat:nuts_2021_level_3":"FRF11",
+    "eurostat:nuts_2021_level_lau":"67422",
+    "eurostat:population":600,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200030526",
     "frgov:id":"BDCSURCO0000000009593102",
     "frgov:insee_arr":"5",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.000943,
-    "geom:area_square_m":7763197.74134,
+    "geom:area_square_m":7763197.741342,
     "geom:bbox":"7.59493925133,48.2239298767,7.66135730057,48.2590289142",
     "geom:latitude":48.240083,
     "geom:longitude":7.628898,
@@ -147,6 +159,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683221,
         102191581,
@@ -157,7 +171,10 @@
         102066585
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_67422",
+        "eurostat:nuts_2021_id":"67422"
+    },
     "wof:coterminous":[
         101886251
     ],
@@ -165,7 +182,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a6c659326143bc6df31c75525176e195",
+    "wof:geomhash":"d1e19e65731eba8b4da621d72f1c32f4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -179,11 +196,13 @@
         }
     ],
     "wof:id":404392683,
-    "wof:lastmodified":1582324818,
+    "wof:lastmodified":1684353164,
     "wof:name":"Saasenheim",
     "wof:parent_id":102066585,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":600,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

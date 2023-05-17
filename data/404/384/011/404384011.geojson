@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_02211",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Cond\u00e9-sur-Suippe",
+    "eurostat:nuts_2021_id":"02211",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE21",
+    "eurostat:nuts_2021_level_lau":"02211",
+    "eurostat:population":285,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240200576",
     "frgov:id":"BDCSURCO0000000009584892",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683247,
         102191581,
@@ -58,7 +72,10 @@
         102068189
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_02211",
+        "eurostat:nuts_2021_id":"02211"
+    },
     "wof:coterminous":[
         1125898431
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"de5e32570101bcf7ce204d91a9f5dd29",
+    "wof:geomhash":"71707a50e9d971ec3721446c76038858",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404384011,
-    "wof:lastmodified":1582324622,
+    "wof:lastmodified":1684353059,
     "wof:name":"Conde-Sur-Suippe",
     "wof:parent_id":102068189,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":285,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

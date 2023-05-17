@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_39481",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Germain-en-Montagne",
+    "eurostat:nuts_2021_id":"39481",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC22",
+    "eurostat:nuts_2021_level_lau":"39481",
+    "eurostat:population":407,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069623",
     "frgov:id":"BDCSURCO0000000009601105",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683173,
         102191581,
@@ -58,7 +72,10 @@
         102065297
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_39481",
+        "eurostat:nuts_2021_id":"39481"
+    },
     "wof:coterminous":[
         101891545
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0ede1f66e03f4fbb29a64b14e457060c",
+    "wof:geomhash":"a3b5d6372f3d86c26c635d4274dc0624",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404428307,
-    "wof:lastmodified":1582325111,
+    "wof:lastmodified":1684353583,
     "wof:name":"Saint-Germain-En-Montagne",
     "wof:parent_id":102065297,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":407,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

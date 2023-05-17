@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_73248",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Jean-de-Maurienne",
+    "eurostat:nuts_2021_id":"73248",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK27",
+    "eurostat:nuts_2021_level_lau":"73248",
+    "eurostat:population":7746,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070464",
     "frgov:id":"BDCSURCO0000000009607191",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Sous-pr\u00e9fecture",
     "geom:area":0.001319,
-    "geom:area_square_m":11481201.525495,
+    "geom:area_square_m":11481201.525496,
     "geom:bbox":"6.31478940819,45.2441400111,6.37779920145,45.3016205766",
     "geom:latitude":45.271884,
     "geom:longitude":6.345782,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683265,
         102191581,
@@ -58,7 +72,10 @@
         102069031
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_73248",
+        "eurostat:nuts_2021_id":"73248"
+    },
     "wof:coterminous":[
         101770583
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9a3f94e9f05e46fd54b8142a746c9c9c",
+    "wof:geomhash":"e449616e8f385e55a57557a0066d5b25",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404388667,
-    "wof:lastmodified":1582325480,
+    "wof:lastmodified":1684353112,
     "wof:name":"Saint-Jean-De-Maurienne",
     "wof:parent_id":102069031,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Sous-pr\u00e9fecture",
+    "wof:population":7746,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

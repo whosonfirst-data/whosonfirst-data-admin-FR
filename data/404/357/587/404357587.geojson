@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_79207",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Petite-Boissi\u00e8re",
+    "eurostat:nuts_2021_id":"79207",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI33",
+    "eurostat:nuts_2021_level_lau":"79207",
+    "eurostat:population":634,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040244",
     "frgov:id":"BDCSURCO0000000009601049",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001562,
-    "geom:area_square_m":13201686.283264,
+    "geom:area_square_m":13201686.283263,
     "geom:bbox":"-0.766907016855,46.8534163525,-0.708470764421,46.9098705849",
     "geom:latitude":46.884617,
     "geom:longitude":-0.735848,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683163,
         102191581,
@@ -58,7 +72,10 @@
         102065857
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_79207",
+        "eurostat:nuts_2021_id":"79207"
+    },
     "wof:coterminous":[
         1125765409
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"86378d93bdffa3479e9c47b8014d8cc1",
+    "wof:geomhash":"aeb244747ab7b3b0becf2b0a7c53fd6f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404357587,
-    "wof:lastmodified":1582324895,
+    "wof:lastmodified":1684352720,
     "wof:name":"La Petite-Boissiere",
     "wof:parent_id":102065857,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":634,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_84090",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Peypin-d'Aigues",
+    "eurostat:nuts_2021_id":"84090",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL06",
+    "eurostat:nuts_2021_level_lau":"84090",
+    "eurostat:population":674,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248400285",
     "frgov:id":"BDCSURCO0000000009612404",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.001932,
-    "geom:area_square_m":17247139.416884,
+    "geom:area_square_m":17247139.416885,
     "geom:bbox":"5.53016165541,43.7736290678,5.59326147153,43.8188301525",
     "geom:latitude":43.796326,
     "geom:longitude":5.559447,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683201,
         102191581,
@@ -55,7 +69,10 @@
         102067779
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_84090",
+        "eurostat:nuts_2021_id":"84090"
+    },
     "wof:coterminous":[
         1360676725
     ],
@@ -63,7 +80,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"35ac21c0f8825df227ccc786ae07a02b",
+    "wof:geomhash":"a5a10897f6e94fd84f7a21f5a5954c76",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -76,11 +93,13 @@
         }
     ],
     "wof:id":404390009,
-    "wof:lastmodified":1582324264,
+    "wof:lastmodified":1684353129,
     "wof:name":"Peypin-D'Aigues",
     "wof:parent_id":102067779,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":674,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

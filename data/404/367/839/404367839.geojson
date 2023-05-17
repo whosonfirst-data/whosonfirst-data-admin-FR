@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_26065",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Chabrillan",
+    "eurostat:nuts_2021_id":"26065",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK23",
+    "eurostat:nuts_2021_level_lau":"26065",
+    "eurostat:population":721,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242600252",
     "frgov:id":"BDCSURCO0000000009609390",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001987,
-    "geom:area_square_m":17458172.525401,
+    "geom:area_square_m":17458172.5254,
     "geom:bbox":"4.93387449741,44.6890611819,4.99023947217,44.7412484076",
     "geom:latitude":44.71316,
     "geom:longitude":4.960516,
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683523,
         102191581,
@@ -136,7 +150,10 @@
         102065623
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_26065",
+        "eurostat:nuts_2021_id":"26065"
+    },
     "wof:coterminous":[
         1125903957
     ],
@@ -144,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"07708263fe95af0f8aa109a142d63d14",
+    "wof:geomhash":"0647cfe1f60208a5a8d9bb4c2b749311",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +175,13 @@
         }
     ],
     "wof:id":404367839,
-    "wof:lastmodified":1582325003,
+    "wof:lastmodified":1684352863,
     "wof:name":"Chabrillan",
     "wof:parent_id":102065623,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":721,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

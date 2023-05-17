@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_69199",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Fons",
+    "eurostat:nuts_2021_id":"69199",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK26",
+    "eurostat:nuts_2021_level_lau":"69199",
+    "eurostat:population":18802,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200046977",
     "frgov:id":"BDCSURCO0000000009605500",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.000702,
-    "geom:area_square_m":6058139.008944,
+    "geom:area_square_m":6058139.008943,
     "geom:bbox":"4.83604970286,45.6805683772,4.86702165939,45.7190551855",
     "geom:latitude":45.701514,
     "geom:longitude":4.850629,
@@ -123,6 +135,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683569,
         102191581,
@@ -133,7 +147,10 @@
         102071515
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_69199",
+        "eurostat:nuts_2021_id":"69199"
+    },
     "wof:coterminous":[
         101750797
     ],
@@ -141,7 +158,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5ff5cec4898999e932d7ba866777cc4d",
+    "wof:geomhash":"2a5febf0fcbb93aa7e6dbeb0a9b0936c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -155,11 +172,13 @@
         }
     ],
     "wof:id":404381123,
-    "wof:lastmodified":1582325440,
+    "wof:lastmodified":1684353023,
     "wof:name":"Saint-Fons",
     "wof:parent_id":102071515,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":18802,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

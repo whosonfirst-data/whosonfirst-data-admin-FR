@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_61391",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Georges-des-Groseillers",
+    "eurostat:nuts_2021_id":"61391",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD13",
+    "eurostat:nuts_2021_level_lau":"61391",
+    "eurostat:population":3196,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200035814",
     "frgov:id":"BDCSURCO0000000009590335",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000892,
-    "geom:area_square_m":7267059.392882,
+    "geom:area_square_m":7267059.392883,
     "geom:bbox":"-0.58760032751,48.7520500269,-0.543499235459,48.788701123",
     "geom:latitude":48.767468,
     "geom:longitude":-0.568471,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683527,
         102191581,
@@ -58,7 +72,10 @@
         102067067
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_61391",
+        "eurostat:nuts_2021_id":"61391"
+    },
     "wof:coterminous":[
         101828049
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5e0a0fe294ca3fab90961ce518e728cd",
+    "wof:geomhash":"ff1aec007395c65cd4d147e92b6266d7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404396167,
-    "wof:lastmodified":1582324067,
+    "wof:lastmodified":1684353204,
     "wof:name":"Saint-Georges-Des-Groseillers",
     "wof:parent_id":102067067,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3196,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

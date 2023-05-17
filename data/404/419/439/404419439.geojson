@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_62795",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sibiville",
+    "eurostat:nuts_2021_id":"62795",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE1",
+    "eurostat:nuts_2021_level_3":"FRE12",
+    "eurostat:nuts_2021_level_lau":"62795",
+    "eurostat:population":111,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069672",
     "frgov:id":"BDCSURCO0000000009581374",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000935,
-    "geom:area_square_m":7383753.460547,
+    "geom:area_square_m":7383753.460546,
     "geom:bbox":"2.30983331888,50.2861172391,2.35905007756,50.3220147952",
     "geom:latitude":50.304748,
     "geom:longitude":2.330959,
@@ -132,6 +144,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683255,
         102191581,
@@ -142,7 +156,10 @@
         102071243
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_62795",
+        "eurostat:nuts_2021_id":"62795"
+    },
     "wof:coterminous":[
         1125805971
     ],
@@ -150,7 +167,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a3433803f5e0869d9b56bbb5d0a3ab62",
+    "wof:geomhash":"668585af422fd94077e6a2c0af1916cd",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -164,11 +181,13 @@
         }
     ],
     "wof:id":404419439,
-    "wof:lastmodified":1582325065,
+    "wof:lastmodified":1684353476,
     "wof:name":"Sibiville",
     "wof:parent_id":102071243,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":111,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

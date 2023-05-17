@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_39498",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Salans",
+    "eurostat:nuts_2021_id":"39498",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC22",
+    "eurostat:nuts_2021_level_lau":"39498",
+    "eurostat:population":591,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243900560",
     "frgov:id":"BDCSURCO0000000009599675",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000784,
-    "geom:area_square_m":6592058.705006,
+    "geom:area_square_m":6592058.705005,
     "geom:bbox":"5.76644302507,47.1468539005,5.81625502106,47.1746830957",
     "geom:latitude":47.160068,
     "geom:longitude":5.794396,
@@ -54,6 +66,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683173,
         102191581,
@@ -64,7 +78,10 @@
         102066433
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_39498",
+        "eurostat:nuts_2021_id":"39498"
+    },
     "wof:coterminous":[
         101889841
     ],
@@ -72,7 +89,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c60ceaaaf48ab4e3cc1f00f79f1a35be",
+    "wof:geomhash":"6e778ecc4736d53956671749b7d3ec65",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -86,11 +103,13 @@
         }
     ],
     "wof:id":404395411,
-    "wof:lastmodified":1582324779,
+    "wof:lastmodified":1684353196,
     "wof:name":"Salans",
     "wof:parent_id":102066433,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":591,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

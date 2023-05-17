@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_42223",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Genest-Lerpt",
+    "eurostat:nuts_2021_id":"42223",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK25",
+    "eurostat:nuts_2021_level_lau":"42223",
+    "eurostat:population":6131,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244200770",
     "frgov:id":"BDCSURCO0000000009606557",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001462,
-    "geom:area_square_m":12680892.239302,
+    "geom:area_square_m":12680892.239303,
     "geom:bbox":"4.29500364988,45.4265720304,4.36641095545,45.4788050788",
     "geom:latitude":45.455564,
     "geom:longitude":4.33098,
@@ -132,6 +144,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683377,
         102191581,
@@ -142,7 +156,10 @@
         102068447
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_42223",
+        "eurostat:nuts_2021_id":"42223"
+    },
     "wof:coterminous":[
         101830781
     ],
@@ -150,7 +167,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"cbc7f409706db5e84c2901636911b6c2",
+    "wof:geomhash":"128ede03451d56b6928bb82d6a9b5fca",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -164,11 +181,13 @@
         }
     ],
     "wof:id":404397979,
-    "wof:lastmodified":1582324206,
+    "wof:lastmodified":1684353225,
     "wof:name":"Saint-Genest-Lerpt",
     "wof:parent_id":102068447,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":6131,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

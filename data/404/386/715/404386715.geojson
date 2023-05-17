@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_06113",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sainte-Agn\u00e8s",
+    "eurostat:nuts_2021_id":"06113",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL03",
+    "eurostat:nuts_2021_level_lau":"06113",
+    "eurostat:population":1328,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240600551",
     "frgov:id":"BDCSURCO0000000009612135",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.001066,
-    "geom:area_square_m":9510403.884348,
+    "geom:area_square_m":9510403.884347,
     "geom:bbox":"7.44033303237,43.7820927302,7.48036028129,43.8273803581",
     "geom:latitude":43.804688,
     "geom:longitude":7.46168,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683323,
         102191581,
@@ -57,7 +71,10 @@
         102071635
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_06113",
+        "eurostat:nuts_2021_id":"06113"
+    },
     "wof:coterminous":[
         101851187
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a245a86fff2f8bd9bbf23bfe750c1cbf",
+    "wof:geomhash":"f30e0b3989066630ae17334ad864fa70",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404386715,
-    "wof:lastmodified":1582325449,
+    "wof:lastmodified":1684353089,
     "wof:name":"Sainte-Agnes",
     "wof:parent_id":102071635,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1328,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_63402",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Victor-Montvianeix",
+    "eurostat:nuts_2021_id":"63402",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK14",
+    "eurostat:nuts_2021_level_lau":"63402",
+    "eurostat:population":249,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070712",
     "frgov:id":"BDCSURCO0000000009604502",
     "frgov:insee_arr":"5",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.00524,
-    "geom:area_square_m":45057819.864828,
+    "geom:area_square_m":45057819.864829,
     "geom:bbox":"3.52384989833,45.9123260291,3.68252446605,45.9666227289",
     "geom:latitude":45.938143,
     "geom:longitude":3.611428,
@@ -112,6 +124,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683471,
         102191581,
@@ -122,7 +136,10 @@
         102071291
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_63402",
+        "eurostat:nuts_2021_id":"63402"
+    },
     "wof:coterminous":[
         1360673967
     ],
@@ -130,7 +147,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"59cbe9da9ab6eb2cd675c8b1eb32fa7e",
+    "wof:geomhash":"41279c79ebf3949bd20df9917c0254a4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -144,11 +161,13 @@
         }
     ],
     "wof:id":404361727,
-    "wof:lastmodified":1582324768,
+    "wof:lastmodified":1684352778,
     "wof:name":"Saint-Victor-Montvianeix",
     "wof:parent_id":102071291,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":249,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

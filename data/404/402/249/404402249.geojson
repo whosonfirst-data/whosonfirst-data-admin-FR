@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_25313",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hy\u00e8vre-Paroisse",
+    "eurostat:nuts_2021_id":"25313",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC21",
+    "eurostat:nuts_2021_level_lau":"25313",
+    "eurostat:population":191,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242504447",
     "frgov:id":"BDCSURCO0000000009598493",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683239,
         102191581,
@@ -58,7 +72,10 @@
         102064835
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_25313",
+        "eurostat:nuts_2021_id":"25313"
+    },
     "wof:coterminous":[
         1126056621
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"30e8e3a2820c02c2eab35aff21032338",
+    "wof:geomhash":"39e0ff1e51a3831212b5b5b1901c68f0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404402249,
-    "wof:lastmodified":1582325281,
+    "wof:lastmodified":1684353275,
     "wof:name":"Hyevre-Paroisse",
     "wof:parent_id":102064835,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":191,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

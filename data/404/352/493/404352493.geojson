@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_94004",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Boissy-Saint-L\u00e9ger",
+    "eurostat:nuts_2021_id":"94004",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR107",
+    "eurostat:nuts_2021_level_lau":"94004",
+    "eurostat:population":16345,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200054781",
     "frgov:id":"BDCSURCO0000000009590650",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"ILE-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001087,
-    "geom:area_square_m":8860649.44584,
+    "geom:area_square_m":8860649.445841,
     "geom:bbox":"2.49317342293,48.7275147613,2.55664716937,48.7631233013",
     "geom:latitude":48.747054,
     "geom:longitude":2.52511,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683459,
         102191581,
@@ -57,7 +71,10 @@
         102064535
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_94004",
+        "eurostat:nuts_2021_id":"94004"
+    },
     "wof:coterminous":[
         101749051
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8cc936eb3d5285ecdc206f0d6560643e",
+    "wof:geomhash":"db878c05ceca63a410f9d0a0d86161e2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404352493,
-    "wof:lastmodified":1582324174,
+    "wof:lastmodified":1684352652,
     "wof:name":"Boissy-Saint-Leger",
     "wof:parent_id":102064535,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":16345,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

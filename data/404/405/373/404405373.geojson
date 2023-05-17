@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_63345",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Gen\u00e8s-Champanelle",
+    "eurostat:nuts_2021_id":"63345",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK14",
+    "eurostat:nuts_2021_level_lau":"63345",
+    "eurostat:population":3612,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"246300701",
     "frgov:id":"BDCSURCO0000000009605570",
     "frgov:insee_arr":"2",
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683471,
         102191581,
@@ -56,7 +70,10 @@
         102071711
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_63345",
+        "eurostat:nuts_2021_id":"63345"
+    },
     "wof:coterminous":[
         1360678165
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6aa5812da16a05e3a65f6ad8aded2778",
+    "wof:geomhash":"e802a9e2a161e3ac7110e6f178024c08",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404405373,
-    "wof:lastmodified":1582325267,
+    "wof:lastmodified":1684353311,
     "wof:name":"Saint-Genes-Champanelle",
     "wof:parent_id":102071711,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3612,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_32051",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"B\u00e9z\u00e9ril",
+    "eurostat:nuts_2021_id":"32051",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ24",
+    "eurostat:nuts_2021_level_lau":"32051",
+    "eurostat:population":128,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243200599",
     "frgov:id":"BDCSURCO0000000009613709",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683467,
         102191581,
@@ -58,7 +72,10 @@
         102069077
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_32051",
+        "eurostat:nuts_2021_id":"32051"
+    },
     "wof:coterminous":[
         1126037219
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"65a08eb75c360e659f7aec91f6386c2e",
+    "wof:geomhash":"d0c0d8dfdfaf57a11d0beb78c2c92d21",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404411721,
-    "wof:lastmodified":1582325175,
+    "wof:lastmodified":1684353386,
     "wof:name":"Bezeril",
     "wof:parent_id":102069077,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":128,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_80245",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Doml\u00e9ger-Longvillers",
+    "eurostat:nuts_2021_id":"80245",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE23",
+    "eurostat:nuts_2021_level_lau":"80245",
+    "eurostat:population":302,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070951",
     "frgov:id":"BDCSURCO0000000009581856",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001121,
-    "geom:area_square_m":8881589.59716,
+    "geom:area_square_m":8881589.597161,
     "geom:bbox":"2.06349891444,50.1324567171,2.10597315872,50.1870030055",
     "geom:latitude":50.155604,
     "geom:longitude":2.087668,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683363,
         102191581,
@@ -56,7 +70,10 @@
         102067777
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_80245",
+        "eurostat:nuts_2021_id":"80245"
+    },
     "wof:coterminous":[
         1360677727
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"19f226a60b203eadab71644d7363c7e8",
+    "wof:geomhash":"957b4a19f382e30ea3a14cd9f580f727",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404400547,
-    "wof:lastmodified":1582324518,
+    "wof:lastmodified":1684353256,
     "wof:name":"Domleger-Longvillers",
     "wof:parent_id":102067777,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":302,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

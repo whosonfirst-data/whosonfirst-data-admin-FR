@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_38129",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Corren\u00e7on-en-Vercors",
+    "eurostat:nuts_2021_id":"38129",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK24",
+    "eurostat:nuts_2021_level_lau":"38129",
+    "eurostat:population":354,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243801024",
     "frgov:id":"BDCSURCO0000000009608282",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.004484,
-    "geom:area_square_m":39199257.882073,
+    "geom:area_square_m":39199257.882072,
     "geom:bbox":"5.48040113435,44.9674294583,5.56393401482,45.0552323037",
     "geom:latitude":45.011696,
     "geom:longitude":5.517545,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683427,
         102191581,
@@ -58,7 +72,10 @@
         102071111
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_38129",
+        "eurostat:nuts_2021_id":"38129"
+    },
     "wof:coterminous":[
         101893097
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"75c02a48148f50ee91d85cf9d939d123",
+    "wof:geomhash":"9006e981a42de8bd11215473f328f381",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404366891,
-    "wof:lastmodified":1582324838,
+    "wof:lastmodified":1684352850,
     "wof:name":"Correncon-En-Vercors",
     "wof:parent_id":102071111,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":354,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

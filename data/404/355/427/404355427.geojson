@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_32159",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Isle-de-No\u00e9",
+    "eurostat:nuts_2021_id":"32159",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ24",
+    "eurostat:nuts_2021_level_lau":"32159",
+    "eurostat:population":543,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243200425",
     "frgov:id":"BDCSURCO0000000009613484",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002884,
-    "geom:area_square_m":25835225.022285,
+    "geom:area_square_m":25835225.022286,
     "geom:bbox":"0.368208080408,43.5596790554,0.488517866695,43.6133180206",
     "geom:latitude":43.584968,
     "geom:longitude":0.414614,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683467,
         102191581,
@@ -56,7 +70,10 @@
         102068067
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_32159",
+        "eurostat:nuts_2021_id":"32159"
+    },
     "wof:coterminous":[
         1360673279
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ecb22162285b123dec69485e7aca94ef",
+    "wof:geomhash":"5e2a86e1aeeaead4f6829e0d2ef693c7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404355427,
-    "wof:lastmodified":1582324193,
+    "wof:lastmodified":1684352691,
     "wof:name":"L'Isle-De-Noe",
     "wof:parent_id":102068067,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":543,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

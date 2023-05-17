@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_46335",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Villes\u00e8que",
+    "eurostat:nuts_2021_id":"46335",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ25",
+    "eurostat:nuts_2021_level_lau":"46335",
+    "eurostat:population":396,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244600433",
     "frgov:id":"BDCSURCO0000000009610749",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683389,
         102191581,
@@ -58,7 +72,10 @@
         102067765
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_46335",
+        "eurostat:nuts_2021_id":"46335"
+    },
     "wof:coterminous":[
         1125828017
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"13bf4b3a304347f05f4a79b0b6f19440",
+    "wof:geomhash":"4017a42683a4e3f4856373870a5d64ae",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404365407,
-    "wof:lastmodified":1582324031,
+    "wof:lastmodified":1684352829,
     "wof:name":"Villeseque",
     "wof:parent_id":102067765,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":396,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

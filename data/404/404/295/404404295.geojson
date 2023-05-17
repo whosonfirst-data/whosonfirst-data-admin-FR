@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_72300",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Mars-la-Bri\u00e8re",
+    "eurostat:nuts_2021_id":"72300",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG04",
+    "eurostat:nuts_2021_level_lau":"72300",
+    "eurostat:population":2688,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072684",
     "frgov:id":"BDCSURCO0000000009595490",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.004177,
-    "geom:area_square_m":34547196.654112,
+    "geom:area_square_m":34547196.654113,
     "geom:bbox":"0.341383016728,47.9763299473,0.423872972842,48.0767702739",
     "geom:latitude":48.017591,
     "geom:longitude":0.379114,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683279,
         102191581,
@@ -57,7 +71,10 @@
         102068783
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_72300",
+        "eurostat:nuts_2021_id":"72300"
+    },
     "wof:coterminous":[
         101763439
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e7428e0c0e76380999cf3878a00eefb1",
+    "wof:geomhash":"98c44a9238e4d17a53ff0e1456bb9fd6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404404295,
-    "wof:lastmodified":1582325308,
+    "wof:lastmodified":1684353298,
     "wof:name":"Saint-Mars-La-Briere",
     "wof:parent_id":102068783,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2688,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

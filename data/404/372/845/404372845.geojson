@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_26058",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bourg-l\u00e8s-Valence",
+    "eurostat:nuts_2021_id":"26058",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK23",
+    "eurostat:nuts_2021_level_lau":"26058",
+    "eurostat:population":19975,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068781",
     "frgov:id":"BDCSURCO0000000009608498",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.002307,
-    "geom:area_square_m":20182760.135183,
+    "geom:area_square_m":20182760.135184,
     "geom:bbox":"4.85317038877,44.9358071827,4.92677523575,44.991315763",
     "geom:latitude":44.965189,
     "geom:longitude":4.894017,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683523,
         102191581,
@@ -58,7 +72,10 @@
         102070171
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_26058",
+        "eurostat:nuts_2021_id":"26058"
+    },
     "wof:coterminous":[
         101748961
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7ac3a26a40da832d1682aa15cd40dd8b",
+    "wof:geomhash":"d65b2e9cf0375277b79fc45338e118bb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404372845,
-    "wof:lastmodified":1582325461,
+    "wof:lastmodified":1684352922,
     "wof:name":"Bourg-Les-Valence",
     "wof:parent_id":102070171,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":19975,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

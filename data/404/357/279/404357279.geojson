@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_58239",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Firmin",
+    "eurostat:nuts_2021_id":"58239",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC12",
+    "eurostat:nuts_2021_level_lau":"58239",
+    "eurostat:population":175,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067908",
     "frgov:id":"BDCSURCO0000000009600518",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001253,
-    "geom:area_square_m":10558073.334508,
+    "geom:area_square_m":10558073.334507,
     "geom:bbox":"3.35347360287,47.0267868963,3.43150877411,47.0556914309",
     "geom:latitude":47.039422,
     "geom:longitude":3.394016,
@@ -94,6 +106,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683359,
         102191581,
@@ -104,7 +118,10 @@
         102068281
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_58239",
+        "eurostat:nuts_2021_id":"58239"
+    },
     "wof:coterminous":[
         1360673481
     ],
@@ -112,7 +129,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5c23143bd20d187c8cca2bd2a0baa042",
+    "wof:geomhash":"d4100c864052fdc9733ab0b77267fc08",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -126,11 +143,13 @@
         }
     ],
     "wof:id":404357279,
-    "wof:lastmodified":1582324898,
+    "wof:lastmodified":1684352715,
     "wof:name":"Saint-Firmin",
     "wof:parent_id":102068281,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":175,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

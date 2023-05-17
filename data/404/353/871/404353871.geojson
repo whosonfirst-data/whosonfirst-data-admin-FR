@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_72279",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Georges-de-la-Cou\u00e9e",
+    "eurostat:nuts_2021_id":"72279",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG04",
+    "eurostat:nuts_2021_level_lau":"72279",
+    "eurostat:population":159,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070373",
     "frgov:id":"BDCSURCO0000000009596498",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001418,
-    "geom:area_square_m":11770660.987657,
+    "geom:area_square_m":11770660.987658,
     "geom:bbox":"0.570553882347,47.7963239373,0.619726935336,47.8501671404",
     "geom:latitude":47.825058,
     "geom:longitude":0.590823,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683279,
         102191581,
@@ -57,7 +71,10 @@
         102066637
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_72279",
+        "eurostat:nuts_2021_id":"72279"
+    },
     "wof:coterminous":[
         1125806617
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"df0944c2a6c8c6986bf11794a791d565",
+    "wof:geomhash":"08fa034337ce6d8d36a2210ef32edf8c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404353871,
-    "wof:lastmodified":1582324137,
+    "wof:lastmodified":1684352670,
     "wof:name":"Saint-Georges-De-La-Couee",
     "wof:parent_id":102066637,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":159,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_18098",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gardefort",
+    "eurostat:nuts_2021_id":"18098",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB01",
+    "eurostat:nuts_2021_level_lau":"18098",
+    "eurostat:population":142,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069227",
     "frgov:id":"BDCSURCO0000000009599526",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001008,
-    "geom:area_square_m":8461480.901379,
+    "geom:area_square_m":8461480.901378,
     "geom:bbox":"2.79582529987,47.2404776763,2.84544094756,47.2763107631",
     "geom:latitude":47.260534,
     "geom:longitude":2.823713,
@@ -118,6 +130,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683549,
         102191581,
@@ -127,7 +141,10 @@
         102068897
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_18098",
+        "eurostat:nuts_2021_id":"18098"
+    },
     "wof:coterminous":[
         1360678847
     ],
@@ -135,7 +152,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f73e44f2886b64c97e6d733e0bc440f7",
+    "wof:geomhash":"9e376c6f1b783ca27734986c0f0dd109",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -148,11 +165,13 @@
         }
     ],
     "wof:id":404411303,
-    "wof:lastmodified":1582325169,
+    "wof:lastmodified":1684353381,
     "wof:name":"Gardefort",
     "wof:parent_id":102068897,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":142,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

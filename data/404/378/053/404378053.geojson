@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_39267",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ivory",
+    "eurostat:nuts_2021_id":"39267",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC22",
+    "eurostat:nuts_2021_level_lau":"39267",
+    "eurostat:population":96,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071595",
     "frgov:id":"BDCSURCO0000000009600880",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001097,
-    "geom:area_square_m":9272107.620804,
+    "geom:area_square_m":9272107.620803,
     "geom:bbox":"5.82968919362,46.8623737108,5.87409566395,46.9212288592",
     "geom:latitude":46.899017,
     "geom:longitude":5.849285,
@@ -231,6 +243,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683173,
         102191581,
@@ -241,7 +255,10 @@
         102069663
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_39267",
+        "eurostat:nuts_2021_id":"39267"
+    },
     "wof:coterminous":[
         1126056747
     ],
@@ -249,7 +266,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"073d475b7844684262fdafcbdfe4745c",
+    "wof:geomhash":"e1b272d92252def3ff2f17e2f8a55e4c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -263,11 +280,13 @@
         }
     ],
     "wof:id":404378053,
-    "wof:lastmodified":1582324736,
+    "wof:lastmodified":1684352987,
     "wof:name":"Ivory",
     "wof:parent_id":102069663,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":96,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_21047",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bard-l\u00e8s-\u00c9poisses",
+    "eurostat:nuts_2021_id":"21047",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC11",
+    "eurostat:nuts_2021_level_lau":"21047",
+    "eurostat:population":70,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071017",
     "frgov:id":"BDCSURCO0000000009598035",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000427,
-    "geom:area_square_m":3561696.859583,
+    "geom:area_square_m":3561696.859584,
     "geom:bbox":"4.20374424383,47.5195371213,4.24648525367,47.5385802445",
     "geom:latitude":47.528321,
     "geom:longitude":4.224472,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683563,
         102191581,
@@ -58,7 +72,10 @@
         102070311
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_21047",
+        "eurostat:nuts_2021_id":"21047"
+    },
     "wof:coterminous":[
         1126034515
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0fb60d74b017c12536c8b589b6dd44b0",
+    "wof:geomhash":"48808fda9817586a8e3ab90fb9bbd25b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404423759,
-    "wof:lastmodified":1582324413,
+    "wof:lastmodified":1684353530,
     "wof:name":"Bard-Les-Epoisses",
     "wof:parent_id":102070311,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":70,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

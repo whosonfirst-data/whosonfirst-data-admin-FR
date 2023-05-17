@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_40253",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Cricq-Chalosse",
+    "eurostat:nuts_2021_id":"40253",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI13",
+    "eurostat:nuts_2021_level_lau":"40253",
+    "eurostat:population":641,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069649",
     "frgov:id":"BDCSURCO0000000009613304",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002283,
-    "geom:area_square_m":20422669.203413,
+    "geom:area_square_m":20422669.203415,
     "geom:bbox":"-0.715362935814,43.6311237865,-0.631633651885,43.6808518685",
     "geom:latitude":43.65437,
     "geom:longitude":-0.676003,
@@ -120,6 +132,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683183,
         102191581,
@@ -130,7 +144,10 @@
         102065701
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_40253",
+        "eurostat:nuts_2021_id":"40253"
+    },
     "wof:coterminous":[
         101895689
     ],
@@ -138,7 +155,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"252ce64c752af721a569606a9ccea2df",
+    "wof:geomhash":"10b0ad8440c4c718fab2028b474c2664",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -152,11 +169,13 @@
         }
     ],
     "wof:id":404374643,
-    "wof:lastmodified":1582325390,
+    "wof:lastmodified":1684352943,
     "wof:name":"Saint-Cricq-Chalosse",
     "wof:parent_id":102065701,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":641,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

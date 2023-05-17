@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_35265",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Domineuc",
+    "eurostat:nuts_2021_id":"35265",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH03",
+    "eurostat:nuts_2021_level_lau":"35265",
+    "eurostat:population":2532,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243500733",
     "frgov:id":"BDCSURCO0000000009593047",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BRETAGNE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001919,
-    "geom:area_square_m":15763260.841838,
+    "geom:area_square_m":15763260.841839,
     "geom:bbox":"-1.90020229412,48.3357841567,-1.83910475679,48.3861448093",
     "geom:latitude":48.360492,
     "geom:longitude":-1.869354,
@@ -135,6 +147,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683461,
         102191581,
@@ -144,7 +158,10 @@
         102071163
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_35265",
+        "eurostat:nuts_2021_id":"35265"
+    },
     "wof:coterminous":[
         101761115
     ],
@@ -152,7 +169,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a0dea1c7bb4502713cf38567f3bdec80",
+    "wof:geomhash":"1ffa95cbc6627779ef3b2d4a7ad5f52e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -165,11 +182,13 @@
         }
     ],
     "wof:id":404405611,
-    "wof:lastmodified":1582325254,
+    "wof:lastmodified":1684353314,
     "wof:name":"Saint-Domineuc",
     "wof:parent_id":102071163,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2532,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

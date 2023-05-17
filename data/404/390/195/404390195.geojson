@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_39043",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Beaufort-Orbagna",
+    "eurostat:nuts_2021_id":"39043",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC22",
+    "eurostat:nuts_2021_level_lau":"39043",
+    "eurostat:population":1351,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072056",
     "frgov:id":"BDCSURCO0000000009601940",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001551,
-    "geom:area_square_m":13182435.998668,
+    "geom:area_square_m":13182419.705063,
     "geom:bbox":"5.39585,46.555557,5.468522,46.61479",
     "geom:latitude":46.585497,
     "geom:longitude":5.430208,
@@ -159,6 +171,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683173,
         102191581,
@@ -169,7 +183,10 @@
         102064735
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_39043",
+        "eurostat:nuts_2021_id":"39043"
+    },
     "wof:coterminous":[
         101891469
     ],
@@ -177,7 +194,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ad4fd221a64f3a3941ffeabfab066a5d",
+    "wof:geomhash":"51bac2576310f3325b556eed3fa0e000",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -191,11 +208,13 @@
         }
     ],
     "wof:id":404390195,
-    "wof:lastmodified":1636496623,
+    "wof:lastmodified":1684353132,
     "wof:name":"Beaufort",
     "wof:parent_id":102064735,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1351,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

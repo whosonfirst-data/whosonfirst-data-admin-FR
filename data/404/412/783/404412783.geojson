@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_02717",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"S\u00e9ry-l\u00e8s-M\u00e9zi\u00e8res",
+    "eurostat:nuts_2021_id":"02717",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE21",
+    "eurostat:nuts_2021_level_lau":"02717",
+    "eurostat:population":576,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040426",
     "frgov:id":"BDCSURCO0000000009582900",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001461,
-    "geom:area_square_m":11670341.899025,
+    "geom:area_square_m":11670341.899026,
     "geom:bbox":"3.39122815097,49.7441554799,3.45716043992,49.7871835802",
     "geom:latitude":49.764659,
     "geom:longitude":3.423657,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683247,
         102191581,
@@ -58,7 +72,10 @@
         102069001
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_02717",
+        "eurostat:nuts_2021_id":"02717"
+    },
     "wof:coterminous":[
         1125931075
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5871c9e0e4a0e8acae5cb8ac48c7878c",
+    "wof:geomhash":"72e40fc8ecd104c8ee0bb65f20feb87d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404412783,
-    "wof:lastmodified":1582324376,
+    "wof:lastmodified":1684353398,
     "wof:name":"Sery-Les-Mezieres",
     "wof:parent_id":102069001,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":576,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

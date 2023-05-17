@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_73256",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Martin-d'Arc",
+    "eurostat:nuts_2021_id":"73256",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK27",
+    "eurostat:nuts_2021_level_lau":"73256",
+    "eurostat:population":361,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247300452",
     "frgov:id":"BDCSURCO0000000009607190",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683265,
         102191581,
@@ -58,7 +72,10 @@
         102069199
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_73256",
+        "eurostat:nuts_2021_id":"73256"
+    },
     "wof:coterminous":[
         1125960593
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2ada98c73238a91c4d85a6a707fa736f",
+    "wof:geomhash":"252d2c3825598c7c19fbc48f4c7bb7f2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404388685,
-    "wof:lastmodified":1582325486,
+    "wof:lastmodified":1684353113,
     "wof:name":"Saint-Martin-D'Arc",
     "wof:parent_id":102069199,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":361,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

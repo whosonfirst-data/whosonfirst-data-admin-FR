@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_53240",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Martin-du-Limet",
+    "eurostat:nuts_2021_id":"53240",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG03",
+    "eurostat:nuts_2021_level_lau":"53240",
+    "eurostat:population":444,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200048551",
     "frgov:id":"BDCSURCO0000000009596539",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001481,
-    "geom:area_square_m":12300691.804048,
+    "geom:area_square_m":12300691.804049,
     "geom:bbox":"-1.05946450838,47.7930848624,-0.999322617201,47.8354496614",
     "geom:latitude":47.815377,
     "geom:longitude":-1.028159,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683401,
         102191581,
@@ -57,7 +71,10 @@
         102065843
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_53240",
+        "eurostat:nuts_2021_id":"53240"
+    },
     "wof:coterminous":[
         101884837
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"1a13c90a5398c7f41c2da21e81fbe635",
+    "wof:geomhash":"fd1ad896e30784db414d3e75fa783ce7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404423029,
-    "wof:lastmodified":1582324414,
+    "wof:lastmodified":1684353522,
     "wof:name":"Saint-Martin-Du-Limet",
     "wof:parent_id":102065843,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":444,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

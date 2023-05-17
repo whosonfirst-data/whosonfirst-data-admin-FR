@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_42271",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Paul-en-Jarez",
+    "eurostat:nuts_2021_id":"42271",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK25",
+    "eurostat:nuts_2021_level_lau":"42271",
+    "eurostat:population":4844,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244200770",
     "frgov:id":"BDCSURCO0000000009606547",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.002286,
-    "geom:area_square_m":19821012.131955,
+    "geom:area_square_m":19821012.131954,
     "geom:bbox":"4.53849995078,45.4450755916,4.63898738152,45.4979366668",
     "geom:latitude":45.470052,
     "geom:longitude":4.57886,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683377,
         102191581,
@@ -58,7 +72,10 @@
         102070317
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_42271",
+        "eurostat:nuts_2021_id":"42271"
+    },
     "wof:coterminous":[
         101830793
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f1773e267c113cf6fb0e40aefdd96c35",
+    "wof:geomhash":"8f3212db9c227560aab92ec35f3a6c0d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404349097,
-    "wof:lastmodified":1582324705,
+    "wof:lastmodified":1684352604,
     "wof:name":"Saint-Paul-En-Jarez",
     "wof:parent_id":102070317,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":4844,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

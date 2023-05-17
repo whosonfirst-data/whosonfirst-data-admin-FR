@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_04053",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ch\u00e2teauneuf-Val-Saint-Donat",
+    "eurostat:nuts_2021_id":"04053",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL01",
+    "eurostat:nuts_2021_level_lau":"04053",
+    "eurostat:population":504,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071033",
     "frgov:id":"BDCSURCO0000000009611340",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.002373,
-    "geom:area_square_m":21075636.982672,
+    "geom:area_square_m":21075636.982674,
     "geom:bbox":"5.8801068137,44.0733931353,5.97722203818,44.1167040353",
     "geom:latitude":44.095446,
     "geom:longitude":5.93097,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683509,
         102191581,
@@ -57,7 +71,10 @@
         102069899
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_04053",
+        "eurostat:nuts_2021_id":"04053"
+    },
     "wof:coterminous":[
         1126051251
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"bba752fd471f6ff1d0baae7787f80ce9",
+    "wof:geomhash":"b5c6857190f1033c19dea483ac6b936f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404372019,
-    "wof:lastmodified":1582325471,
+    "wof:lastmodified":1684352913,
     "wof:name":"Chateauneuf-Val-Saint-Donat",
     "wof:parent_id":102069899,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":504,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

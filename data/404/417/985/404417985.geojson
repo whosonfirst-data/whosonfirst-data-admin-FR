@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_32268",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Monferran-Sav\u00e8s",
+    "eurostat:nuts_2021_id":"32268",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ24",
+    "eurostat:nuts_2021_level_lau":"32268",
+    "eurostat:population":803,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200023620",
     "frgov:id":"BDCSURCO0000000009613462",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683467,
         102191581,
@@ -58,7 +72,10 @@
         102066029
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_32268",
+        "eurostat:nuts_2021_id":"32268"
+    },
     "wof:coterminous":[
         1125930531
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"56f5a826ba905dcf1469e155fa41e2f2",
+    "wof:geomhash":"1417a12a8b4e2d1cc0488dc24ede0e75",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404417985,
-    "wof:lastmodified":1582325133,
+    "wof:lastmodified":1684353460,
     "wof:name":"Monferran-Saves",
     "wof:parent_id":102066029,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":803,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

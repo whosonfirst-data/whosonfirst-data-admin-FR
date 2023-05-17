@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_70381",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Neurey-l\u00e8s-la-Demie",
+    "eurostat:nuts_2021_id":"70381",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC23",
+    "eurostat:nuts_2021_level_lau":"70381",
+    "eurostat:population":328,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041853",
     "frgov:id":"BDCSURCO0000000009597683",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001161,
-    "geom:area_square_m":9683116.33995,
+    "geom:area_square_m":9683116.339951,
     "geom:bbox":"6.16953634164,47.5474872689,6.23969392388,47.586145702",
     "geom:latitude":47.563261,
     "geom:longitude":6.195576,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683559,
         102191581,
@@ -58,7 +72,10 @@
         102067643
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_70381",
+        "eurostat:nuts_2021_id":"70381"
+    },
     "wof:coterminous":[
         101887719
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"15f883c1deb230328601dd16d385db43",
+    "wof:geomhash":"bfe39fa6809ac19f222bd9a83d9705e6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404357379,
-    "wof:lastmodified":1582324893,
+    "wof:lastmodified":1684352717,
     "wof:name":"Neurey-Les-La-Demie",
     "wof:parent_id":102067643,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":328,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

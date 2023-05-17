@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_33125",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Cissac-M\u00e9doc",
+    "eurostat:nuts_2021_id":"33125",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI12",
+    "eurostat:nuts_2021_level_lau":"33125",
+    "eurostat:population":2146,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069995",
     "frgov:id":"BDCSURCO0000000009607612",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00271,
-    "geom:area_square_m":23601203.712725,
+    "geom:area_square_m":23601203.712723,
     "geom:bbox":"-0.889049116805,45.1873315515,-0.793546412945,45.2423461045",
     "geom:latitude":45.220595,
     "geom:longitude":-0.848172,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683243,
         102191581,
@@ -58,7 +72,10 @@
         102070337
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_33125",
+        "eurostat:nuts_2021_id":"33125"
+    },
     "wof:coterminous":[
         101850311
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3c75852d50d7ce8b8e0c190f48ab5253",
+    "wof:geomhash":"183b6f96fc327d575dfb371d46e39f8a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404406319,
-    "wof:lastmodified":1582324452,
+    "wof:lastmodified":1684353324,
     "wof:name":"Cissac-Medoc",
     "wof:parent_id":102070337,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2146,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

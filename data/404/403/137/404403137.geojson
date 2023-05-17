@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_01371",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Marcel",
+    "eurostat:nuts_2021_id":"01371",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK21",
+    "eurostat:nuts_2021_level_lau":"01371",
+    "eurostat:population":1279,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069193",
     "frgov:id":"BDCSURCO0000000009604446",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001359,
-    "geom:area_square_m":11682002.043628,
+    "geom:area_square_m":11682002.043627,
     "geom:bbox":"4.96049175108,45.9277080744,5.01175055835,45.9693214932",
     "geom:latitude":45.948495,
     "geom:longitude":4.989636,
@@ -108,6 +120,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683153,
         102191581,
@@ -118,7 +132,10 @@
         102070525
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_01371",
+        "eurostat:nuts_2021_id":"01371"
+    },
     "wof:coterminous":[
         101768147
     ],
@@ -126,7 +143,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f590fa9de4c176b12ea81605e04f1dcf",
+    "wof:geomhash":"d25e825131cb0ba5bd6049006c99b1ee",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -140,11 +157,13 @@
         }
     ],
     "wof:id":404403137,
-    "wof:lastmodified":1582325297,
+    "wof:lastmodified":1684353285,
     "wof:name":"Saint-Marcel",
     "wof:parent_id":102070525,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1279,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

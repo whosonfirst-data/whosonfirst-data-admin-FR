@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_79191",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Niort",
+    "eurostat:nuts_2021_id":"79191",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI33",
+    "eurostat:nuts_2021_level_lau":"79191",
+    "eurostat:population":58707,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041317",
     "frgov:id":"BDCSURCO0000000009603158",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Pr\u00e9fecture",
     "geom:area":0.007999,
-    "geom:area_square_m":68300316.707907,
+    "geom:area_square_m":68300316.707906,
     "geom:bbox":"-0.54209,46.281461,-0.380654,46.372906",
     "geom:latitude":46.328393,
     "geom:longitude":-0.465232,
@@ -189,24 +201,30 @@
     "reversegeo:longitude":-0.459754,
     "src:geom":"frgov",
     "src:geom_alt":[],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85683163,
         102191581,
         85633147,
-        102072323,
-        136253037,
         404227969,
         1108826385,
-        85683163
+        136253037,
+        102072323
     ],
     "wof:breaches":[],
     "wof:concordance":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_79191",
+        "eurostat:nuts_2021_id":"79191"
+    },
     "wof:coterminous":[
         101749515,
         102072323
     ],
     "wof:country":"FR",
     "wof:created":1526509024,
-    "wof:geomhash":"694b2259c587f076691a8e6cb4007fda",
+    "wof:geomhash":"7e6fd78f994873ece0c8f78e6dd4a903",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -220,11 +238,13 @@
         }
     ],
     "wof:id":1159321835,
-    "wof:lastmodified":1608039594,
+    "wof:lastmodified":1684353593,
     "wof:name":"Niort",
     "wof:parent_id":102072323,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Pr\u00e9fecture",
+    "wof:population":58707,
+    "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded":[],
     "wof:superseded_by":[],

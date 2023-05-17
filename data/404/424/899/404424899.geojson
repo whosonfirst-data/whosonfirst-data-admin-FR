@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_77256",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lizines",
+    "eurostat:nuts_2021_id":"77256",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR102",
+    "eurostat:nuts_2021_level_lau":"77256",
+    "eurostat:population":185,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040251",
     "frgov:id":"BDCSURCO0000000009591979",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"ILE-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000706,
-    "geom:area_square_m":5779408.723446,
+    "geom:area_square_m":5779408.723447,
     "geom:bbox":"3.13493397062,48.5184596628,3.19585915453,48.5382034147",
     "geom:latitude":48.528238,
     "geom:longitude":3.165616,
@@ -112,6 +124,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683385,
         102191581,
@@ -121,7 +135,10 @@
         102066177
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_77256",
+        "eurostat:nuts_2021_id":"77256"
+    },
     "wof:coterminous":[
         1360680061
     ],
@@ -129,7 +146,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6289403a3eec9b9196523afcacdcba22",
+    "wof:geomhash":"9227b3585e1913a37c5091d506bbb7db",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -142,11 +159,13 @@
         }
     ],
     "wof:id":404424899,
-    "wof:lastmodified":1582324400,
+    "wof:lastmodified":1684353544,
     "wof:name":"Lizines",
     "wof:parent_id":102066177,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":185,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_08202",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gu\u00e9-d'Hossus",
+    "eurostat:nuts_2021_id":"08202",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF21",
+    "eurostat:nuts_2021_level_lau":"08202",
+    "eurostat:population":526,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067759",
     "frgov:id":"BDCSURCO0000000009582202",
     "frgov:insee_arr":"1",
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683309,
         102191581,
@@ -56,7 +70,10 @@
         102068699
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_08202",
+        "eurostat:nuts_2021_id":"08202"
+    },
     "wof:coterminous":[
         1360675219
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ff55c1783bd2dcf72db1147155d93946",
+    "wof:geomhash":"919451db13386a5bd37f5fdd74e69e1c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404374517,
-    "wof:lastmodified":1582325394,
+    "wof:lastmodified":1684352942,
     "wof:name":"Gue-D'Hossus",
     "wof:parent_id":102068699,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":526,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

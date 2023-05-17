@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_29260",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Renan",
+    "eurostat:nuts_2021_id":"29260",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH02",
+    "eurostat:nuts_2021_level_lau":"29260",
+    "eurostat:population":8110,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242900074",
     "frgov:id":"BDCSURCO0000000009591777",
     "frgov:insee_arr":"1",
@@ -159,6 +171,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683553,
         102191581,
@@ -168,7 +182,10 @@
         102070927
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_29260",
+        "eurostat:nuts_2021_id":"29260"
+    },
     "wof:coterminous":[
         101760013
     ],
@@ -176,7 +193,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"43ad58c7267c6a9c00f7c2c658af6a4d",
+    "wof:geomhash":"eb73ad5e7a171bac2f42efa164d10401",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -189,11 +206,13 @@
         }
     ],
     "wof:id":404390813,
-    "wof:lastmodified":1582324273,
+    "wof:lastmodified":1684353140,
     "wof:name":"Saint-Renan",
     "wof:parent_id":102070927,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":8110,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

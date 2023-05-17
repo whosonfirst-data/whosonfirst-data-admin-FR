@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_57464",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Metzeresche",
+    "eurostat:nuts_2021_id":"57464",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF33",
+    "eurostat:nuts_2021_level_lau":"57464",
+    "eurostat:population":949,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"245701354",
     "frgov:id":"BDCSURCO0000000009585149",
     "frgov:insee_arr":"7",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.001177,
-    "geom:area_square_m":9489605.681578,
+    "geom:area_square_m":9489605.681577,
     "geom:bbox":"6.2736067977,49.2778585434,6.33034683695,49.3126811933",
     "geom:latitude":49.295236,
     "geom:longitude":6.306349,
@@ -132,6 +144,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683271,
         102191581,
@@ -142,7 +156,10 @@
         102068321
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_57464",
+        "eurostat:nuts_2021_id":"57464"
+    },
     "wof:coterminous":[
         1175611603
     ],
@@ -150,7 +167,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8d4a5f8a7d5a1621ae3d01397d192292",
+    "wof:geomhash":"c1765170e6ec8c817d7b916d1b87521f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -164,11 +181,13 @@
         }
     ],
     "wof:id":404414401,
-    "wof:lastmodified":1582324338,
+    "wof:lastmodified":1684353419,
     "wof:name":"Metzeresche",
     "wof:parent_id":102068321,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":949,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

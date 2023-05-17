@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_47157",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Marmande",
+    "eurostat:nuts_2021_id":"47157",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI14",
+    "eurostat:nuts_2021_level_lau":"47157",
+    "eurostat:population":17691,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200030674",
     "frgov:id":"BDCSURCO0000000009610424",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Sous-pr\u00e9fecture",
     "geom:area":0.005086,
-    "geom:area_square_m":44855573.382487,
+    "geom:area_square_m":44855573.382488,
     "geom:bbox":"0.108631,44.459682,0.229038,44.542871",
     "geom:latitude":44.50528,
     "geom:longitude":0.172321,
@@ -147,24 +159,30 @@
     "reversegeo:longitude":0.17323,
     "src:geom":"frgov",
     "src:geom_alt":[],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85683341,
         102191581,
         85633147,
-        102072307,
-        136253037,
         404227901,
         1108826385,
-        85683341
+        136253037,
+        102072307
     ],
     "wof:breaches":[],
     "wof:concordance":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_47157",
+        "eurostat:nuts_2021_id":"47157"
+    },
     "wof:coterminous":[
         101830407,
         102072307
     ],
     "wof:country":"FR",
     "wof:created":1526510996,
-    "wof:geomhash":"98101d08a3d3e154219b7fdcb1563f6a",
+    "wof:geomhash":"4c0316f0b45fcf249481371ffb03763a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -178,11 +196,13 @@
         }
     ],
     "wof:id":1159322415,
-    "wof:lastmodified":1608039581,
+    "wof:lastmodified":1684353601,
     "wof:name":"Marmande",
     "wof:parent_id":102072307,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Sous-pr\u00e9fecture",
+    "wof:population":17691,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded":[],
     "wof:superseded_by":[],

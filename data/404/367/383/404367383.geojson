@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_42001",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Abo\u00ebn",
+    "eurostat:nuts_2021_id":"42001",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK25",
+    "eurostat:nuts_2021_level_lau":"42001",
+    "eurostat:population":439,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244200770",
     "frgov:id":"BDCSURCO0000000009606788",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001025,
-    "geom:area_square_m":8901298.42022,
+    "geom:area_square_m":8901298.420218,
     "geom:bbox":"4.09920452729,45.3893455873,4.1549235717,45.4296735229",
     "geom:latitude":45.412703,
     "geom:longitude":4.126871,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683377,
         102191581,
@@ -58,7 +72,10 @@
         102067393
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_42001",
+        "eurostat:nuts_2021_id":"42001"
+    },
     "wof:coterminous":[
         1126029545
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"cea382c0bd77b38ecdf19dade97de7dd",
+    "wof:geomhash":"428a510aeb0cd93cba6fae2b1b6882a5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404367383,
-    "wof:lastmodified":1582324994,
+    "wof:lastmodified":1684352857,
     "wof:name":"Aboen",
     "wof:parent_id":102067393,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":439,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_54483",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Nicolas-de-Port",
+    "eurostat:nuts_2021_id":"54483",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF31",
+    "eurostat:nuts_2021_level_lau":"54483",
+    "eurostat:population":7520,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"245400189",
     "frgov:id":"BDCSURCO0000000009590951",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683343,
         102191581,
@@ -58,7 +72,10 @@
         102069021
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_54483",
+        "eurostat:nuts_2021_id":"54483"
+    },
     "wof:coterminous":[
         101828251
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"aad205757786c05a1f48206bbc189235",
+    "wof:geomhash":"ff2a6d46b9aeea73422411b7ea674fba",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404387417,
-    "wof:lastmodified":1582325364,
+    "wof:lastmodified":1684353097,
     "wof:name":"Saint-Nicolas-De-Port",
     "wof:parent_id":102069021,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":7520,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

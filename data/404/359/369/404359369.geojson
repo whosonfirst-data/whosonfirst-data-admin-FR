@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_85083",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"\u00c9pine",
+    "eurostat:nuts_2021_id":"85083",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG05",
+    "eurostat:nuts_2021_level_lau":"85083",
+    "eurostat:population":1641,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248500191",
     "frgov:id":"BDCSURCO0000000009600402",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00103,
-    "geom:area_square_m":8685057.900208,
+    "geom:area_square_m":8685057.900207,
     "geom:bbox":"-2.30181310336,46.9639589142,-2.23152014368,46.9960229826",
     "geom:latitude":46.984439,
     "geom:longitude":-2.264004,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683409,
         102191581,
@@ -57,7 +71,10 @@
         102067733
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_85083",
+        "eurostat:nuts_2021_id":"85083"
+    },
     "wof:coterminous":[
         101829421
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"78bafb8a9f317120fcecea41d74c7058",
+    "wof:geomhash":"40bc61b504ba443b31c81a140cd95405",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404359369,
-    "wof:lastmodified":1582324796,
+    "wof:lastmodified":1684352745,
     "wof:name":"L'Epine",
     "wof:parent_id":102067733,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1641,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

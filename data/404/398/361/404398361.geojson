@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_29250",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Hernin",
+    "eurostat:nuts_2021_id":"29250",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH02",
+    "eurostat:nuts_2021_level_lau":"29250",
+    "eurostat:population":759,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242900744",
     "frgov:id":"BDCSURCO0000000009593901",
     "frgov:insee_arr":"2",
@@ -144,6 +156,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683553,
         102191581,
@@ -153,7 +167,10 @@
         102065525
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_29250",
+        "eurostat:nuts_2021_id":"29250"
+    },
     "wof:coterminous":[
         101881507
     ],
@@ -161,7 +178,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e1451b6c39dae3b39262f7cb8e569c7d",
+    "wof:geomhash":"09881742f8f46d04c9a3b6c8ba91eaba",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -174,11 +191,13 @@
         }
     ],
     "wof:id":404398361,
-    "wof:lastmodified":1582324113,
+    "wof:lastmodified":1684353230,
     "wof:name":"Saint-Hernin",
     "wof:parent_id":102065525,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":759,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_54486",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Remimont",
+    "eurostat:nuts_2021_id":"54486",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF31",
+    "eurostat:nuts_2021_level_lau":"54486",
+    "eurostat:population":354,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200035772",
     "frgov:id":"BDCSURCO0000000009591855",
     "frgov:insee_arr":"3",
@@ -85,6 +97,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683343,
         102191581,
@@ -95,7 +109,10 @@
         102066935
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_54486",
+        "eurostat:nuts_2021_id":"54486"
+    },
     "wof:coterminous":[
         1360677261
     ],
@@ -103,7 +120,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"629cd10ab306af9438b2efa25218b713",
+    "wof:geomhash":"f78c62d154f7df7b6ba345e1b3713017",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -117,11 +134,13 @@
         }
     ],
     "wof:id":404394947,
-    "wof:lastmodified":1582325031,
+    "wof:lastmodified":1684353190,
     "wof:name":"Saint-Remimont",
     "wof:parent_id":102066935,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":354,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

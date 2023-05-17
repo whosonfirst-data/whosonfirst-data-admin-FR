@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_87097",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Val d'Issoire",
+    "eurostat:nuts_2021_id":"87097",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI23",
+    "eurostat:nuts_2021_level_lau":"87097",
+    "eurostat:population":1068,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071942",
     "frgov:id":"BDCSURCO0000000009604069",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.008234,
-    "geom:area_square_m":70608019.509544,
+    "geom:area_square_m":70608019.509545,
     "geom:bbox":"0.813866667138,46.015626646,0.983698790624,46.1411653509",
     "geom:latitude":46.089805,
     "geom:longitude":0.891325,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683531,
         102191581,
@@ -58,7 +72,10 @@
         102067229
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_87097",
+        "eurostat:nuts_2021_id":"87097"
+    },
     "wof:coterminous":[
         101892509
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4c82d4f833d3400e18f716563b819cc4",
+    "wof:geomhash":"daf777bc230e17ddb9ff24d79b5bdb05",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404360691,
-    "wof:lastmodified":1582325056,
+    "wof:lastmodified":1684352763,
     "wof:name":"Mezieres-Sur-Issoire",
     "wof:parent_id":102067229,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1068,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

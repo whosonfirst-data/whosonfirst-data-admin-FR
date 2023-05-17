@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_21566",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Pierre-en-Vaux",
+    "eurostat:nuts_2021_id":"21566",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC11",
+    "eurostat:nuts_2021_level_lau":"21566",
+    "eurostat:population":148,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071173",
     "frgov:id":"BDCSURCO0000000009600251",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001301,
-    "geom:area_square_m":10962017.163331,
+    "geom:area_square_m":10962017.163332,
     "geom:bbox":"4.49811769258,47.0411582557,4.5584507468,47.0767857116",
     "geom:latitude":47.0566,
     "geom:longitude":4.52925,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683563,
         102191581,
@@ -58,7 +72,10 @@
         102064453
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_21566",
+        "eurostat:nuts_2021_id":"21566"
+    },
     "wof:coterminous":[
         1125937901
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"44fa0a0947139c050b0e578370558734",
+    "wof:geomhash":"1a0f4ecdfda76bb903dd28de84cd0b05",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404397885,
-    "wof:lastmodified":1582324211,
+    "wof:lastmodified":1684353223,
     "wof:name":"Saint-Pierre-En-Vaux",
     "wof:parent_id":102064453,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":148,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

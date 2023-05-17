@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_49132",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"\u00c9trich\u00e9",
+    "eurostat:nuts_2021_id":"49132",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG02",
+    "eurostat:nuts_2021_level_lau":"49132",
+    "eurostat:population":1549,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068955",
     "frgov:id":"BDCSURCO0000000009597547",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002378,
-    "geom:area_square_m":19803081.320891,
+    "geom:area_square_m":19803081.32089,
     "geom:bbox":"-0.490354996126,47.6321846388,-0.417286125489,47.6855500656",
     "geom:latitude":47.659668,
     "geom:longitude":-0.452284,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683327,
         102191581,
@@ -57,7 +71,10 @@
         102066805
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_49132",
+        "eurostat:nuts_2021_id":"49132"
+    },
     "wof:coterminous":[
         101764571
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5cfe334ffe43b9973d803a3dce0d05fe",
+    "wof:geomhash":"fd4f235352bf3ccf9b0e41c3e9bf0bfb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404426335,
-    "wof:lastmodified":1582325087,
+    "wof:lastmodified":1684353561,
     "wof:name":"Etriche",
     "wof:parent_id":102066805,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1549,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

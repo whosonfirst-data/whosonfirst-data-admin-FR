@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_40150",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"L\u00e9on",
+    "eurostat:nuts_2021_id":"40150",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI13",
+    "eurostat:nuts_2021_level_lau":"40150",
+    "eurostat:population":1940,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244000857",
     "frgov:id":"BDCSURCO0000000009612365",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.007463,
-    "geom:area_square_m":66551109.393839,
+    "geom:area_square_m":66551109.39384,
     "geom:bbox":"-1.34768742009,43.7949495189,-1.20616317111,43.899775707",
     "geom:latitude":43.849304,
     "geom:longitude":-1.280548,
@@ -165,6 +177,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683183,
         102191581,
@@ -175,7 +189,10 @@
         102064657
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_40150",
+        "eurostat:nuts_2021_id":"40150"
+    },
     "wof:coterminous":[
         101772899
     ],
@@ -183,7 +200,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"acd2b2fcb8ec1f2acd5b4f891489b6e0",
+    "wof:geomhash":"538cbbc5ccdd39eda1ac568d0b086db6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -197,11 +214,13 @@
         }
     ],
     "wof:id":404349547,
-    "wof:lastmodified":1582324716,
+    "wof:lastmodified":1684352610,
     "wof:name":"Leon",
     "wof:parent_id":102064657,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1940,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

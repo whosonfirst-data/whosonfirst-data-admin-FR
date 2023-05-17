@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_30241",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Chaptes",
+    "eurostat:nuts_2021_id":"30241",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ12",
+    "eurostat:nuts_2021_level_lau":"30241",
+    "eurostat:population":1865,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243000643",
     "frgov:id":"BDCSURCO0000000009611991",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001454,
-    "geom:area_square_m":12936099.321647,
+    "geom:area_square_m":12936099.321646,
     "geom:bbox":"4.25113021502,43.9462689515,4.30338021228,43.989025127",
     "geom:latitude":43.967314,
     "geom:longitude":4.275288,
@@ -135,6 +147,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683431,
         102191581,
@@ -145,7 +159,10 @@
         102069137
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_30241",
+        "eurostat:nuts_2021_id":"30241"
+    },
     "wof:coterminous":[
         101772637
     ],
@@ -153,7 +170,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"036285c670d2f830a5142088776afa2d",
+    "wof:geomhash":"bc2c87ad857223d052eddae80c91fb8d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -167,11 +184,13 @@
         }
     ],
     "wof:id":404427891,
-    "wof:lastmodified":1582325245,
+    "wof:lastmodified":1684353578,
     "wof:name":"Saint-Chaptes",
     "wof:parent_id":102069137,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1865,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

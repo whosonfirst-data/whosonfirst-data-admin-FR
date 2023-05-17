@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_95205",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"\u00c9couen",
+    "eurostat:nuts_2021_id":"95205",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR108",
+    "eurostat:nuts_2021_level_lau":"95205",
+    "eurostat:population":7188,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200055655",
     "frgov:id":"BDCSURCO0000000009588202",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"ILE-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000938,
-    "geom:area_square_m":7606548.489597,
+    "geom:area_square_m":7606548.489596,
     "geom:bbox":"2.36174742125,49.0095648624,2.40954664224,49.0420188865",
     "geom:latitude":49.02586,
     "geom:longitude":2.384504,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683451,
         102191581,
@@ -57,7 +71,10 @@
         102065737
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_95205",
+        "eurostat:nuts_2021_id":"95205"
+    },
     "wof:coterminous":[
         101751365
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"20fe19f2018cb014a7b228e70235246a",
+    "wof:geomhash":"5afa307a6757566042fa673a1d2b1e33",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404360609,
-    "wof:lastmodified":1582325057,
+    "wof:lastmodified":1684352762,
     "wof:name":"Ecouen",
     "wof:parent_id":102065737,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":7188,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

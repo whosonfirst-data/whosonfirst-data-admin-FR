@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_37062",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ch\u00e2teau-la-Valli\u00e8re",
+    "eurostat:nuts_2021_id":"37062",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB04",
+    "eurostat:nuts_2021_level_lau":"37062",
+    "eurostat:population":1780,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072981",
     "frgov:id":"BDCSURCO0000000009598117",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002339,
-    "geom:area_square_m":19531895.739195,
+    "geom:area_square_m":19531895.739194,
     "geom:bbox":"0.280306420922,47.4984329148,0.362848332561,47.5602082066",
     "geom:latitude":47.526627,
     "geom:longitude":0.326305,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683575,
         102191581,
@@ -57,7 +71,10 @@
         102065091
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_37062",
+        "eurostat:nuts_2021_id":"37062"
+    },
     "wof:coterminous":[
         101764405
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d18c92fc55d5d959e6118c7794534647",
+    "wof:geomhash":"1f49933d9115442e5c57465b7a7681bb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404356957,
-    "wof:lastmodified":1582324933,
+    "wof:lastmodified":1684352711,
     "wof:name":"Chateau-La-Valliere",
     "wof:parent_id":102065091,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1780,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

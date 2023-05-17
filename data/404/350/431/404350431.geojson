@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_10226",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Marolles-l\u00e8s-Bailly",
+    "eurostat:nuts_2021_id":"10226",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF22",
+    "eurostat:nuts_2021_level_lau":"10226",
+    "eurostat:population":106,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069003",
     "frgov:id":"BDCSURCO0000000009594405",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683193,
         102191581,
@@ -58,7 +72,10 @@
         102064963
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_10226",
+        "eurostat:nuts_2021_id":"10226"
+    },
     "wof:coterminous":[
         101884485
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a832c9614d5ce1f0c8490aa86f625e31",
+    "wof:geomhash":"c6fcf031bce77304be852b1ef7f6e215",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404350431,
-    "wof:lastmodified":1582324850,
+    "wof:lastmodified":1684352623,
     "wof:name":"Marolles-Les-Bailly",
     "wof:parent_id":102064963,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":106,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

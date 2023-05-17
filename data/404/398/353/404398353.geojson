@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_85227",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Hilaire-des-Loges",
+    "eurostat:nuts_2021_id":"85227",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG05",
+    "eurostat:nuts_2021_level_lau":"85227",
+    "eurostat:population":1950,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248500563",
     "frgov:id":"BDCSURCO0000000009602488",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.004144,
-    "geom:area_square_m":35285753.742768,
+    "geom:area_square_m":35285753.742769,
     "geom:bbox":"-0.697578103897,46.4300381873,-0.607647404467,46.5247973784",
     "geom:latitude":46.47459,
     "geom:longitude":-0.65051,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683409,
         102191581,
@@ -57,7 +71,10 @@
         102069469
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_85227",
+        "eurostat:nuts_2021_id":"85227"
+    },
     "wof:coterminous":[
         101767163
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"80757edab26dd144c8b14acfeec6a44b",
+    "wof:geomhash":"28b48a9b65a32072a10d8a77f878ef0f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404398353,
-    "wof:lastmodified":1582324104,
+    "wof:lastmodified":1684353230,
     "wof:name":"Saint-Hilaire-Des-Loges",
     "wof:parent_id":102069469,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1950,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

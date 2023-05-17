@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_74127",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"F\u00e9ternes",
+    "eurostat:nuts_2021_id":"74127",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK28",
+    "eurostat:nuts_2021_level_lau":"74127",
+    "eurostat:population":1418,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071967",
     "frgov:id":"BDCSURCO0000000009602524",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001658,
-    "geom:area_square_m":14155694.824636,
+    "geom:area_square_m":14155694.824638,
     "geom:bbox":"6.51849153057,46.3244749116,6.59892976994,46.3686548918",
     "geom:latitude":46.348944,
     "geom:longitude":6.56572,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683227,
         102191581,
@@ -58,7 +72,10 @@
         102066779
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_74127",
+        "eurostat:nuts_2021_id":"74127"
+    },
     "wof:coterminous":[
         101853767
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0249267d57b8a2507cfde2fa63881040",
+    "wof:geomhash":"cdbb06a96732f3d225dfd988b0cb4600",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404366401,
-    "wof:lastmodified":1582324828,
+    "wof:lastmodified":1684352843,
     "wof:name":"Feternes",
     "wof:parent_id":102066779,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1418,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

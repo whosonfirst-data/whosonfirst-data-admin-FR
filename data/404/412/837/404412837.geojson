@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_73071",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Champagny-en-Vanoise",
+    "eurostat:nuts_2021_id":"73071",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK27",
+    "eurostat:nuts_2021_level_lau":"73071",
+    "eurostat:population":579,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040798",
     "frgov:id":"BDCSURCO0000000009606468",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.01121,
-    "geom:area_square_m":97239409.69206,
+    "geom:area_square_m":97239409.692058,
     "geom:bbox":"6.67281042669,45.4040963447,6.89015116482,45.4988353048",
     "geom:latitude":45.450564,
     "geom:longitude":6.778574,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683265,
         102191581,
@@ -58,7 +72,10 @@
         102065651
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_73071",
+        "eurostat:nuts_2021_id":"73071"
+    },
     "wof:coterminous":[
         101894911
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f2c9d898b177e94b6971cecb0d4009ba",
+    "wof:geomhash":"0225de2cc0e795e7036d26d829fe3ecb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404412837,
-    "wof:lastmodified":1582324382,
+    "wof:lastmodified":1684353399,
     "wof:name":"Champagny-En-Vanoise",
     "wof:parent_id":102065651,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":579,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

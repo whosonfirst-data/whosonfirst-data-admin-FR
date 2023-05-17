@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_03197",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Neuilly-le-R\u00e9al",
+    "eurostat:nuts_2021_id":"03197",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK11",
+    "eurostat:nuts_2021_level_lau":"03197",
+    "eurostat:population":1456,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071140",
     "frgov:id":"BDCSURCO0000000009602636",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.005557,
-    "geom:area_square_m":47329082.857585,
+    "geom:area_square_m":47329082.857586,
     "geom:bbox":"3.38337446086,46.4211535019,3.49282336517,46.5070090139",
     "geom:latitude":46.466705,
     "geom:longitude":3.436967,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683293,
         102191581,
@@ -58,7 +72,10 @@
         102068947
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_03197",
+        "eurostat:nuts_2021_id":"03197"
+    },
     "wof:coterminous":[
         101768363
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c524eae7317c716cfb55dc13b8c477e0",
+    "wof:geomhash":"1a300514485f8aba36c646e1b0b3b0f5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404352275,
-    "wof:lastmodified":1582324165,
+    "wof:lastmodified":1684352648,
     "wof:name":"Neuilly-Le-Real",
     "wof:parent_id":102068947,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1456,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

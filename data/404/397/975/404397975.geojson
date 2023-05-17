@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_38419",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Martin-de-Clelles",
+    "eurostat:nuts_2021_id":"38419",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK24",
+    "eurostat:nuts_2021_level_lau":"38419",
+    "eurostat:population":186,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200030658",
     "frgov:id":"BDCSURCO0000000009608689",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001707,
-    "geom:area_square_m":14961406.542937,
+    "geom:area_square_m":14961406.542936,
     "geom:bbox":"5.55294035207,44.8298564802,5.65778737155,44.8609894753",
     "geom:latitude":44.84678,
     "geom:longitude":5.602069,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683427,
         102191581,
@@ -58,7 +72,10 @@
         102065037
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_38419",
+        "eurostat:nuts_2021_id":"38419"
+    },
     "wof:coterminous":[
         1125815017
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"48a35f9713a70145ac2ca79825fe9da4",
+    "wof:geomhash":"c9b9d645cfdaa6f2a6a9125d82bca635",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404397975,
-    "wof:lastmodified":1582324216,
+    "wof:lastmodified":1684353224,
     "wof:name":"Saint-Martin-De-Clelles",
     "wof:parent_id":102065037,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":186,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

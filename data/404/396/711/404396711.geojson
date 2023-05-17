@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_91216",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"\u00c9pinay-sur-Orge",
+    "eurostat:nuts_2021_id":"91216",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR104",
+    "eurostat:nuts_2021_level_lau":"91216",
+    "eurostat:population":11270,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200056232",
     "frgov:id":"BDCSURCO0000000009591108",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"ILE-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000536,
-    "geom:area_square_m":4377909.962267,
+    "geom:area_square_m":4377909.962266,
     "geom:bbox":"2.29959548699,48.6570439256,2.33919652988,48.6865096788",
     "geom:latitude":48.672549,
     "geom:longitude":2.31893,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683371,
         102191581,
@@ -57,7 +71,10 @@
         102066955
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_91216",
+        "eurostat:nuts_2021_id":"91216"
+    },
     "wof:coterminous":[
         101751063
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f728954ae74f1f9f6fd54cfd415606da",
+    "wof:geomhash":"624f029b2ea4b6ae20342727dc259343",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404396711,
-    "wof:lastmodified":1582324081,
+    "wof:lastmodified":1684353210,
     "wof:name":"Epinay-Sur-Orge",
     "wof:parent_id":102066955,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":11270,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

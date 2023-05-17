@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_55362",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Moulins-Saint-Hubert",
+    "eurostat:nuts_2021_id":"55362",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF32",
+    "eurostat:nuts_2021_level_lau":"55362",
+    "eurostat:population":176,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066132",
     "frgov:id":"BDCSURCO0000000009583765",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.001001,
-    "geom:area_square_m":8029227.194289,
+    "geom:area_square_m":8029227.194288,
     "geom:bbox":"5.10457302056,49.5613890193,5.15289506602,49.5930721174",
     "geom:latitude":49.578741,
     "geom:longitude":5.12791,
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683297,
         102191581,
@@ -139,7 +153,10 @@
         102068087
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_55362",
+        "eurostat:nuts_2021_id":"55362"
+    },
     "wof:coterminous":[
         1125954553
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b3faa9507f61d4c4fe7886d5ba8876a8",
+    "wof:geomhash":"11402a94186dcb5a038d0650e2825486",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404399535,
-    "wof:lastmodified":1582324145,
+    "wof:lastmodified":1684353244,
     "wof:name":"Moulins-Saint-Hubert",
     "wof:parent_id":102068087,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":176,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

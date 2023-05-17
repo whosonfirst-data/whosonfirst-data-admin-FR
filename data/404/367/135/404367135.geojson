@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_18015",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Aubigny-sur-N\u00e8re",
+    "eurostat:nuts_2021_id":"18015",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB01",
+    "eurostat:nuts_2021_level_lau":"18015",
+    "eurostat:population":5488,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200000933",
     "frgov:id":"BDCSURCO0000000009598665",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683549,
         102191581,
@@ -57,7 +71,10 @@
         102064771
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_18015",
+        "eurostat:nuts_2021_id":"18015"
+    },
     "wof:coterminous":[
         101767201
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"1c1da7e49854f452252a01745b3dc8c1",
+    "wof:geomhash":"bc76cab78f59bcf85b5ba12825b707e7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404367135,
-    "wof:lastmodified":1582324986,
+    "wof:lastmodified":1684352854,
     "wof:name":"Aubigny-Sur-Nere",
     "wof:parent_id":102064771,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":5488,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

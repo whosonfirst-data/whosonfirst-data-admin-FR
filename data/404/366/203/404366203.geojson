@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_2B354",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Vivario",
+    "eurostat:nuts_2021_id":"2B354",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRM",
+    "eurostat:nuts_2021_level_2":"FRM0",
+    "eurostat:nuts_2021_level_3":"FRM02",
+    "eurostat:nuts_2021_level_lau":"2B354",
+    "eurostat:population":432,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242020071",
     "frgov:id":"BDCSURCO0000000009616802",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CORSE",
     "frgov:statut":"Commune simple",
     "geom:area":0.008529,
-    "geom:area_square_m":78183605.14545,
+    "geom:area_square_m":78183605.145453,
     "geom:bbox":"9.04742146555,42.090545407,9.18008394382,42.1950595683",
     "geom:latitude":42.152469,
     "geom:longitude":9.120634,
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683493,
         102191581,
@@ -138,7 +152,10 @@
         102071743
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_2B354",
+        "eurostat:nuts_2021_id":"2B354"
+    },
     "wof:coterminous":[
         1126001031
     ],
@@ -146,7 +163,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"40f701f0cd659e12419960db83ae1bf1",
+    "wof:geomhash":"956c47fa4ee66ccb35cff8cc33a227d0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -159,11 +176,13 @@
         }
     ],
     "wof:id":404366203,
-    "wof:lastmodified":1582324828,
+    "wof:lastmodified":1684352840,
     "wof:name":"Vivario",
     "wof:parent_id":102071743,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":432,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

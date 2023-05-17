@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_76216",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"D\u00e9ville-l\u00e8s-Rouen",
+    "eurostat:nuts_2021_id":"76216",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD22",
+    "eurostat:nuts_2021_level_lau":"76216",
+    "eurostat:population":10492,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200023414",
     "frgov:id":"BDCSURCO0000000009584705",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683251,
         102191581,
@@ -58,7 +72,10 @@
         102071809
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_76216",
+        "eurostat:nuts_2021_id":"76216"
+    },
     "wof:coterminous":[
         101750191
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b94754110292a33cbc02b481068870e6",
+    "wof:geomhash":"0481b06bd09db17f27f40a5621605e16",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404404067,
-    "wof:lastmodified":1582325317,
+    "wof:lastmodified":1684353296,
     "wof:name":"Deville-Les-Rouen",
     "wof:parent_id":102071809,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":10492,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

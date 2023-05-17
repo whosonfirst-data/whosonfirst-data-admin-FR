@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_41229",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Romain-sur-Cher",
+    "eurostat:nuts_2021_id":"41229",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB05",
+    "eurostat:nuts_2021_level_lau":"41229",
+    "eurostat:population":1478,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072064",
     "frgov:id":"BDCSURCO0000000009599265",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003741,
-    "geom:area_square_m":31355528.669861,
+    "geom:area_square_m":31355528.669862,
     "geom:bbox":"1.34319628666,47.2848438015,1.43742830064,47.348986641",
     "geom:latitude":47.318797,
     "geom:longitude":1.386669,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683349,
         102191581,
@@ -57,7 +71,10 @@
         102067705
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_41229",
+        "eurostat:nuts_2021_id":"41229"
+    },
     "wof:coterminous":[
         101766079
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"eadf2d0cd0e764c183dbfef4c5170f51",
+    "wof:geomhash":"11f52838fbaaffed619d33d0022247de",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404373485,
-    "wof:lastmodified":1582325339,
+    "wof:lastmodified":1684352930,
     "wof:name":"Saint-Romain-Sur-Cher",
     "wof:parent_id":102067705,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1478,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

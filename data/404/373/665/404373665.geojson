@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_50565",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sartilly-Baie-Bocage",
+    "eurostat:nuts_2021_id":"50565",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD12",
+    "eurostat:nuts_2021_level_lau":"50565",
+    "eurostat:population":2812,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069425",
     "frgov:id":"BDCSURCO0000000009590380",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.0038,
-    "geom:area_square_m":30976716.578789,
+    "geom:area_square_m":30976716.57879,
     "geom:bbox":"-1.49579807635,48.7116629372,-1.39221839519,48.7779552687",
     "geom:latitude":48.751697,
     "geom:longitude":-1.448744,
@@ -135,6 +147,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683489,
         102191581,
@@ -145,7 +159,10 @@
         102071181
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_50565",
+        "eurostat:nuts_2021_id":"50565"
+    },
     "wof:coterminous":[
         1125890087
     ],
@@ -153,7 +170,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9254083a6900eb0605a3d4fe441489be",
+    "wof:geomhash":"325e68e0acd01786ab502f5ebb2f1208",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -167,11 +184,13 @@
         }
     ],
     "wof:id":404373665,
-    "wof:lastmodified":1582325350,
+    "wof:lastmodified":1684352932,
     "wof:name":"Angey",
     "wof:parent_id":102071181,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2812,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

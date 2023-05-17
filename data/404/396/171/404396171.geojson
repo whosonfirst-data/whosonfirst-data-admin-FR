@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_61374",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Christophe-de-Chaulieu",
+    "eurostat:nuts_2021_id":"61374",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD13",
+    "eurostat:nuts_2021_level_lau":"61374",
+    "eurostat:population":97,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071520",
     "frgov:id":"BDCSURCO0000000009590344",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000787,
-    "geom:area_square_m":6413869.9691,
+    "geom:area_square_m":6413869.969101,
     "geom:bbox":"-0.852122024523,48.7273262478,-0.808230034045,48.7601118544",
     "geom:latitude":48.741884,
     "geom:longitude":-0.832347,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683527,
         102191581,
@@ -58,7 +72,10 @@
         102070283
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_61374",
+        "eurostat:nuts_2021_id":"61374"
+    },
     "wof:coterminous":[
         1126006437
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9cf4e2579a599a8a85f57f24a910a136",
+    "wof:geomhash":"0645cb0e8ff4bcfe83cb6234065f2d38",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404396171,
-    "wof:lastmodified":1582324081,
+    "wof:lastmodified":1684353204,
     "wof:name":"Saint-Christophe-De-Chaulieu",
     "wof:parent_id":102070283,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":97,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

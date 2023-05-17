@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_45291",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Martin-sur-Ocre",
+    "eurostat:nuts_2021_id":"45291",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB06",
+    "eurostat:nuts_2021_level_lau":"45291",
+    "eurostat:population":1240,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244500211",
     "frgov:id":"BDCSURCO0000000009597788",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001888,
-    "geom:area_square_m":15724260.017297,
+    "geom:area_square_m":15724260.017298,
     "geom:bbox":"2.62410888923,47.6122608907,2.6717107232,47.6800356122",
     "geom:latitude":47.646399,
     "geom:longitude":2.644386,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683479,
         102191581,
@@ -57,7 +71,10 @@
         102066801
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_45291",
+        "eurostat:nuts_2021_id":"45291"
+    },
     "wof:coterminous":[
         101766209
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"022e2af4aa6313dc960ca08092066438",
+    "wof:geomhash":"f1b68b22248f78746a20a1b0914fce90",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404407835,
-    "wof:lastmodified":1582324491,
+    "wof:lastmodified":1684353342,
     "wof:name":"Saint-Martin-Sur-Ocre",
     "wof:parent_id":102066801,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1240,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

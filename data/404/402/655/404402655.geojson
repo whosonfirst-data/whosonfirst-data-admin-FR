@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_27099",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Boulay-Morin",
+    "eurostat:nuts_2021_id":"27099",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD21",
+    "eurostat:nuts_2021_level_lau":"27099",
+    "eurostat:population":777,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071454",
     "frgov:id":"BDCSURCO0000000009587791",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00068,
-    "geom:area_square_m":5509825.118376,
+    "geom:area_square_m":5509825.118377,
     "geom:bbox":"1.15741677527,49.0589593834,1.21220829181,49.0925744543",
     "geom:latitude":49.075977,
     "geom:longitude":1.187484,
@@ -120,6 +132,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683283,
         102191581,
@@ -130,7 +144,10 @@
         102067303
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_27099",
+        "eurostat:nuts_2021_id":"27099"
+    },
     "wof:coterminous":[
         101879039
     ],
@@ -138,7 +155,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d06ef67cabf751862e4076979069e109",
+    "wof:geomhash":"96c389b653c114da9c07901154a9b1ce",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -152,11 +169,13 @@
         }
     ],
     "wof:id":404402655,
-    "wof:lastmodified":1582325282,
+    "wof:lastmodified":1684353280,
     "wof:name":"Le Boulay-Morin",
     "wof:parent_id":102067303,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":777,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

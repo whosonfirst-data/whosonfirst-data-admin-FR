@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_62751",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Inglevert",
+    "eurostat:nuts_2021_id":"62751",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE1",
+    "eurostat:nuts_2021_level_3":"FRE12",
+    "eurostat:nuts_2021_level_lau":"62751",
+    "eurostat:population":783,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"246200380",
     "frgov:id":"BDCSURCO0000000009580421",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000847,
-    "geom:area_square_m":6608406.801131,
+    "geom:area_square_m":6608406.80113,
     "geom:bbox":"1.70593255391,50.8580863956,1.76963952067,50.8874404773",
     "geom:latitude":50.871208,
     "geom:longitude":1.743392,
@@ -132,6 +144,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683255,
         102191581,
@@ -142,7 +156,10 @@
         102070677
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_62751",
+        "eurostat:nuts_2021_id":"62751"
+    },
     "wof:coterminous":[
         101898273
     ],
@@ -150,7 +167,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7efb9578108b7d81321b8f4881519ec4",
+    "wof:geomhash":"806d1127773a62c467a0f56e9a978d56",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -164,11 +181,13 @@
         }
     ],
     "wof:id":404379573,
-    "wof:lastmodified":1582324528,
+    "wof:lastmodified":1684353006,
     "wof:name":"Saint-Inglevert",
     "wof:parent_id":102070677,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":783,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

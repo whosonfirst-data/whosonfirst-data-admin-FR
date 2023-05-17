@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_07280",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Paul-le-Jeune",
+    "eurostat:nuts_2021_id":"07280",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK22",
+    "eurostat:nuts_2021_level_lau":"07280",
+    "eurostat:population":970,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200039832",
     "frgov:id":"BDCSURCO0000000009610690",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001656,
-    "geom:area_square_m":14648038.494939,
+    "geom:area_square_m":14648038.49494,
     "geom:bbox":"4.12460289406,44.3120299319,4.18992613642,44.3543558972",
     "geom:latitude":44.332847,
     "geom:longitude":4.155297,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683421,
         102191581,
@@ -58,7 +72,10 @@
         102069249
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_07280",
+        "eurostat:nuts_2021_id":"07280"
+    },
     "wof:coterminous":[
         101896259
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"1947d01ca99c8ddae587aa61100dc28c",
+    "wof:geomhash":"cc279e5c2eb4792284523f76bd731609",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404348997,
-    "wof:lastmodified":1582324576,
+    "wof:lastmodified":1684352602,
     "wof:name":"Saint-Paul-Le-Jeune",
     "wof:parent_id":102069249,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":970,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_60338",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lacroix-Saint-Ouen",
+    "eurostat:nuts_2021_id":"60338",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE22",
+    "eurostat:nuts_2021_level_lau":"60338",
+    "eurostat:population":4708,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067965",
     "frgov:id":"BDCSURCO0000000009585716",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002592,
-    "geom:area_square_m":20879189.849814,
+    "geom:area_square_m":20879189.849811,
     "geom:bbox":"2.74859163373,49.3288083091,2.84389144791,49.3860964867",
     "geom:latitude":49.355568,
     "geom:longitude":2.795395,
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683289,
         102191581,
@@ -136,7 +150,10 @@
         102070783
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_60338",
+        "eurostat:nuts_2021_id":"60338"
+    },
     "wof:coterminous":[
         101828513
     ],
@@ -144,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7f99f4817daf6915b30876e7bce0c33b",
+    "wof:geomhash":"783ae1e1e1c0ac79b987a5848b4ed407",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +175,13 @@
         }
     ],
     "wof:id":404405075,
-    "wof:lastmodified":1582325263,
+    "wof:lastmodified":1684353307,
     "wof:name":"Lacroix-Saint-Ouen",
     "wof:parent_id":102070783,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":4708,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

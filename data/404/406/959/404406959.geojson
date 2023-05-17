@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_70199",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Dampvalley-l\u00e8s-Colombe",
+    "eurostat:nuts_2021_id":"70199",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC23",
+    "eurostat:nuts_2021_level_lau":"70199",
+    "eurostat:population":113,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041861",
     "frgov:id":"BDCSURCO0000000009597372",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000749,
-    "geom:area_square_m":6245376.680969,
+    "geom:area_square_m":6245376.68097,
     "geom:bbox":"6.21900677238,47.6034352157,6.26384792602,47.6397781627",
     "geom:latitude":47.625267,
     "geom:longitude":6.24533,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683559,
         102191581,
@@ -58,7 +72,10 @@
         102067643
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_70199",
+        "eurostat:nuts_2021_id":"70199"
+    },
     "wof:coterminous":[
         1125899707
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2d537b3ab851322f5a6a8b21b97d482f",
+    "wof:geomhash":"ade663a99bcf039f233c9d9fc659ffb3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404406959,
-    "wof:lastmodified":1582324445,
+    "wof:lastmodified":1684353332,
     "wof:name":"Dampvalley-Les-Colombe",
     "wof:parent_id":102067643,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":113,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

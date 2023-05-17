@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_07199",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rosi\u00e8res",
+    "eurostat:nuts_2021_id":"07199",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK22",
+    "eurostat:nuts_2021_level_lau":"07199",
+    "eurostat:population":1190,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240700302",
     "frgov:id":"BDCSURCO0000000009610303",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001857,
-    "geom:area_square_m":16383533.229149,
+    "geom:area_square_m":16383533.229148,
     "geom:bbox":"4.22768102566,44.4536373724,4.29388246088,44.5218514133",
     "geom:latitude":44.492746,
     "geom:longitude":4.261629,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683421,
         102191581,
@@ -58,7 +72,10 @@
         102065809
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_07199",
+        "eurostat:nuts_2021_id":"07199"
+    },
     "wof:coterminous":[
         1125903243
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0ccec23b7466a41164a602af07ae1394",
+    "wof:geomhash":"e9c603539718e05b46da04a74c0da199",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404352813,
-    "wof:lastmodified":1582324174,
+    "wof:lastmodified":1684352656,
     "wof:name":"Rosieres",
     "wof:parent_id":102065809,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1190,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

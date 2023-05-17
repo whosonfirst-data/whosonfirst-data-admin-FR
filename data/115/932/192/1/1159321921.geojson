@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_95203",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Eaubonne",
+    "eurostat:nuts_2021_id":"95203",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR108",
+    "eurostat:nuts_2021_level_lau":"95203",
+    "eurostat:population":25097,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200058485",
     "frgov:id":"BDCSURCO0000000009588702",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"ILE-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000539,
-    "geom:area_square_m":4375040.621181,
+    "geom:area_square_m":4375040.62118,
     "geom:bbox":"2.263475,48.975787,2.292862,49.00662",
     "geom:latitude":48.991021,
     "geom:longitude":2.277582,
@@ -147,23 +159,29 @@
     "reversegeo:longitude":2.277871,
     "src:geom":"frgov",
     "src:geom_alt":[],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85683451,
         102191581,
         85633147,
-        102065591,
         404228193,
         404227465,
-        85683451
+        102065591
     ],
     "wof:breaches":[],
     "wof:concordance":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_95203",
+        "eurostat:nuts_2021_id":"95203"
+    },
     "wof:coterminous":[
         1175612459,
         102065591
     ],
     "wof:country":"FR",
     "wof:created":1526509279,
-    "wof:geomhash":"d7b9da05b91a15c6bdc592e31fd9dfc2",
+    "wof:geomhash":"d204d3fa8e6f7771a29b0d6cf50ae5ee",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -176,11 +194,13 @@
         }
     ],
     "wof:id":1159321921,
-    "wof:lastmodified":1608039560,
+    "wof:lastmodified":1684353594,
     "wof:name":"Eaubonne",
     "wof:parent_id":102065591,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":25097,
+    "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded":[],
     "wof:superseded_by":[],

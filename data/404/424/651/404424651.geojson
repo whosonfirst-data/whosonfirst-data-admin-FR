@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_53247",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Pierre-la-Cour",
+    "eurostat:nuts_2021_id":"53247",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG03",
+    "eurostat:nuts_2021_level_lau":"53247",
+    "eurostat:population":2170,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"245300306",
     "frgov:id":"BDCSURCO0000000009594919",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001942,
-    "geom:area_square_m":16034422.822996,
+    "geom:area_square_m":16034422.822995,
     "geom:bbox":"-1.05929948171,48.0868814219,-0.978271229936,48.1292564632",
     "geom:latitude":48.108625,
     "geom:longitude":-1.02316,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683401,
         102191581,
@@ -57,7 +71,10 @@
         102067831
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_53247",
+        "eurostat:nuts_2021_id":"53247"
+    },
     "wof:coterminous":[
         101763647
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"63ba01fca26e85a08fca8d3ada57bf16",
+    "wof:geomhash":"bccf332cead5c4ba24681c5243db0105",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404424651,
-    "wof:lastmodified":1582324390,
+    "wof:lastmodified":1684353541,
     "wof:name":"Saint-Pierre-La-Cour",
     "wof:parent_id":102067831,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2170,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

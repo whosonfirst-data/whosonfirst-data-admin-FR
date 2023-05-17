@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_61390",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Georges-d'Annebecq",
+    "eurostat:nuts_2021_id":"61390",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD13",
+    "eurostat:nuts_2021_level_lau":"61390",
+    "eurostat:population":147,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068450",
     "frgov:id":"BDCSURCO0000000009591214",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001146,
-    "geom:area_square_m":9369193.665929,
+    "geom:area_square_m":9369193.66593,
     "geom:bbox":"-0.287175675544,48.6016681709,-0.24404936778,48.6521247995",
     "geom:latitude":48.630926,
     "geom:longitude":-0.265683,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683527,
         102191581,
@@ -56,7 +70,10 @@
         102065545
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_61390",
+        "eurostat:nuts_2021_id":"61390"
+    },
     "wof:coterminous":[
         1360680331
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a0cb3372353185eeffb7f05ff19d0524",
+    "wof:geomhash":"891128aa73bb2608fe623cc89fb4df74",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404427353,
-    "wof:lastmodified":1582325233,
+    "wof:lastmodified":1684353572,
     "wof:name":"Saint-Georges-D'Annebecq",
     "wof:parent_id":102065545,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":147,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

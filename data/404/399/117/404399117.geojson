@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_89175",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Fontenay-pr\u00e8s-Chablis",
+    "eurostat:nuts_2021_id":"89175",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC14",
+    "eurostat:nuts_2021_level_lau":"89175",
+    "eurostat:population":143,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067080",
     "frgov:id":"BDCSURCO0000000009596411",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683503,
         102191581,
@@ -58,7 +72,10 @@
         102065867
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_89175",
+        "eurostat:nuts_2021_id":"89175"
+    },
     "wof:coterminous":[
         1125927449
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6a22d7ee43c058cf1a2ed2b9df1c0fc1",
+    "wof:geomhash":"eb41a1892f0fd70c4f24005e413ea925",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404399117,
-    "wof:lastmodified":1582324151,
+    "wof:lastmodified":1684353240,
     "wof:name":"Fontenay-Pres-Chablis",
     "wof:parent_id":102065867,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":143,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

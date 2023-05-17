@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_85254",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Mesmin",
+    "eurostat:nuts_2021_id":"85254",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG05",
+    "eurostat:nuts_2021_level_lau":"85254",
+    "eurostat:population":1766,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248500464",
     "frgov:id":"BDCSURCO0000000009601267",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003123,
-    "geom:area_square_m":26438311.328802,
+    "geom:area_square_m":26438311.328801,
     "geom:bbox":"-0.798350754096,46.7680705686,-0.698680957448,46.8320104522",
     "geom:latitude":46.800644,
     "geom:longitude":-0.749545,
@@ -87,6 +99,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683409,
         102191581,
@@ -96,7 +110,10 @@
         102068183
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_85254",
+        "eurostat:nuts_2021_id":"85254"
+    },
     "wof:coterminous":[
         101767157
     ],
@@ -104,7 +121,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6f037d6c04c605af7dfa28c73d3fcc29",
+    "wof:geomhash":"17db773005bca023547f3ae194466a9b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -117,11 +134,13 @@
         }
     ],
     "wof:id":404357365,
-    "wof:lastmodified":1582324886,
+    "wof:lastmodified":1684352717,
     "wof:name":"Saint-Mesmin",
     "wof:parent_id":102068183,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1766,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

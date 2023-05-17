@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_14173",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Cond\u00e9-sur-Ifs",
+    "eurostat:nuts_2021_id":"14173",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD11",
+    "eurostat:nuts_2021_level_lau":"14173",
+    "eurostat:population":445,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200065589",
     "frgov:id":"BDCSURCO0000000009587854",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001392,
-    "geom:area_square_m":11284960.16861,
+    "geom:area_square_m":11284960.168611,
     "geom:bbox":"-0.172630119406,49.0192503749,-0.106840273522,49.0551297762",
     "geom:latitude":49.036558,
     "geom:longitude":-0.139794,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683579,
         102191581,
@@ -58,7 +72,10 @@
         102065515
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_14173",
+        "eurostat:nuts_2021_id":"14173"
+    },
     "wof:coterminous":[
         101880555
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"22a0cb92570adeca9cfc603f50dcdec1",
+    "wof:geomhash":"29c6e7454c1fa8c882d4bdae113ae9b2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404382081,
-    "wof:lastmodified":1582324692,
+    "wof:lastmodified":1684353034,
     "wof:name":"Conde-Sur-Ifs",
     "wof:parent_id":102065515,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":445,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

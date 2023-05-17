@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_90081",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"R\u00e9ch\u00e9sy",
+    "eurostat:nuts_2021_id":"90081",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC24",
+    "eurostat:nuts_2021_level_lau":"90081",
+    "eurostat:population":786,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"249000241",
     "frgov:id":"BDCSURCO0000000009597611",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001513,
-    "geom:area_square_m":12635147.106892,
+    "geom:area_square_m":12635147.106893,
     "geom:bbox":"7.09159885981,47.4942781267,7.14345865625,47.5396536596",
     "geom:latitude":47.515814,
     "geom:longitude":7.116401,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683353,
         102191581,
@@ -58,7 +72,10 @@
         102064533
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_90081",
+        "eurostat:nuts_2021_id":"90081"
+    },
     "wof:coterminous":[
         101885253
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"00f952e1b78bc68626fb83a14de14090",
+    "wof:geomhash":"f36ac00df1a34c75460b51fdb327fee7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404380751,
-    "wof:lastmodified":1582325379,
+    "wof:lastmodified":1684353019,
     "wof:name":"Rechesy",
     "wof:parent_id":102064533,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":786,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

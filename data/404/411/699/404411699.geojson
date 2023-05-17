@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_17405",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Sorlin-de-Conac",
+    "eurostat:nuts_2021_id":"17405",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI32",
+    "eurostat:nuts_2021_level_lau":"17405",
+    "eurostat:population":198,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041523",
     "frgov:id":"BDCSURCO0000000009607172",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003064,
-    "geom:area_square_m":26626480.236819,
+    "geom:area_square_m":26626480.23682,
     "geom:bbox":"-0.767741695843,45.321769941,-0.658618720625,45.3813945803",
     "geom:latitude":45.350046,
     "geom:longitude":-0.714601,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683275,
         102191581,
@@ -56,7 +70,10 @@
         102067181
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_17405",
+        "eurostat:nuts_2021_id":"17405"
+    },
     "wof:coterminous":[
         1360678865
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5b1ee00024d043ee1b2e9e42904842b5",
+    "wof:geomhash":"7cd2c18824ed937949f5ec06807b8c4e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404411699,
-    "wof:lastmodified":1582325172,
+    "wof:lastmodified":1684353386,
     "wof:name":"Saint-Sorlin-De-Conac",
     "wof:parent_id":102067181,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":198,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

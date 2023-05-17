@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_02695",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Thibaut",
+    "eurostat:nuts_2021_id":"02695",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE21",
+    "eurostat:nuts_2021_level_lau":"02695",
+    "eurostat:population":78,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240200501",
     "frgov:id":"BDCSURCO0000000009585678",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000507,
-    "geom:area_square_m":4086017.916359,
+    "geom:area_square_m":4086017.916358,
     "geom:bbox":"3.59994356094,49.2752743647,3.62830078897,49.3056888881",
     "geom:latitude":49.289343,
     "geom:longitude":3.616985,
@@ -144,6 +156,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683247,
         102191581,
@@ -154,7 +168,10 @@
         102064997
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_02695",
+        "eurostat:nuts_2021_id":"02695"
+    },
     "wof:coterminous":[
         1125889567
     ],
@@ -162,7 +179,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ff16c256e6904a36fa6c2ad5c41258f5",
+    "wof:geomhash":"669059eeabf62657468509bc387850a9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -176,11 +193,13 @@
         }
     ],
     "wof:id":404425057,
-    "wof:lastmodified":1582324310,
+    "wof:lastmodified":1684353546,
     "wof:name":"Saint-Thibaut",
     "wof:parent_id":102064997,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":78,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

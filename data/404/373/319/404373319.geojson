@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_25329",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Laval-le-Prieur\u00e9",
+    "eurostat:nuts_2021_id":"25329",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC21",
+    "eurostat:nuts_2021_level_lau":"25329",
+    "eurostat:population":35,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242504355",
     "frgov:id":"BDCSURCO0000000009599359",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683239,
         102191581,
@@ -58,7 +72,10 @@
         102069005
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_25329",
+        "eurostat:nuts_2021_id":"25329"
+    },
     "wof:coterminous":[
         1125771733
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"eca0e6d335f4c0b5c7ca02ad30463a82",
+    "wof:geomhash":"2d3a19390e5d67211aec47d03f9c07b5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404373319,
-    "wof:lastmodified":1582325352,
+    "wof:lastmodified":1684352928,
     "wof:name":"Laval-Le-Prieure",
     "wof:parent_id":102069005,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":35,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

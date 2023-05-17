@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_26083",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ch\u00e2teauneuf-de-Galaure",
+    "eurostat:nuts_2021_id":"26083",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK23",
+    "eurostat:nuts_2021_level_lau":"26083",
+    "eurostat:population":1808,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040491",
     "frgov:id":"BDCSURCO0000000009607457",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.002101,
-    "geom:area_square_m":18294185.439319,
+    "geom:area_square_m":18294185.439318,
     "geom:bbox":"4.9274624574,45.2088366969,5.00000500655,45.2583925578",
     "geom:latitude":45.235922,
     "geom:longitude":4.959229,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683523,
         102191581,
@@ -58,7 +72,10 @@
         102069179
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_26083",
+        "eurostat:nuts_2021_id":"26083"
+    },
     "wof:coterminous":[
         101842815
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"39ccfd36287da68aa80cb9f153ae6c1c",
+    "wof:geomhash":"52f95f700f1752d8af8b3fd588344b2e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404427707,
-    "wof:lastmodified":1582325234,
+    "wof:lastmodified":1684353576,
     "wof:name":"Chateauneuf-De-Galaure",
     "wof:parent_id":102069179,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1808,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

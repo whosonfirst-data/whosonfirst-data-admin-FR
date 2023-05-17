@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_71392",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Boil",
+    "eurostat:nuts_2021_id":"71392",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC13",
+    "eurostat:nuts_2021_level_lau":"71392",
+    "eurostat:population":491,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247104094",
     "frgov:id":"BDCSURCO0000000009601770",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001383,
-    "geom:area_square_m":11738649.97826,
+    "geom:area_square_m":11738649.978261,
     "geom:bbox":"4.66958791102,46.6260205884,4.73149947951,46.6591270177",
     "geom:latitude":46.641771,
     "geom:longitude":4.699161,
@@ -120,6 +132,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683543,
         102191581,
@@ -130,7 +144,10 @@
         102064939
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_71392",
+        "eurostat:nuts_2021_id":"71392"
+    },
     "wof:coterminous":[
         1125940303
     ],
@@ -138,7 +155,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f22a40b8ddca04e3242e7317a92cade1",
+    "wof:geomhash":"7e91e8407acd3ed20e09b1f6e213d299",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -152,11 +169,13 @@
         }
     ],
     "wof:id":404355639,
-    "wof:lastmodified":1582324195,
+    "wof:lastmodified":1684352694,
     "wof:name":"Saint-Boil",
     "wof:parent_id":102064939,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":491,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_63364",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Jean-d'Heurs",
+    "eurostat:nuts_2021_id":"63364",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK14",
+    "eurostat:nuts_2021_level_lau":"63364",
+    "eurostat:population":659,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"246301097",
     "frgov:id":"BDCSURCO0000000009605049",
     "frgov:insee_arr":"5",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001301,
-    "geom:area_square_m":11208916.658504,
+    "geom:area_square_m":11208916.658503,
     "geom:bbox":"3.41857332889,45.7929406215,3.46924394077,45.8342083606",
     "geom:latitude":45.815099,
     "geom:longitude":3.44625,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683471,
         102191581,
@@ -56,7 +70,10 @@
         102068503
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_63364",
+        "eurostat:nuts_2021_id":"63364"
+    },
     "wof:coterminous":[
         1360674647
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7d77f1e76838a16a1788f6f105488656",
+    "wof:geomhash":"f3179948f464a332d4e6b7ddd87a8191",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404368455,
-    "wof:lastmodified":1582324871,
+    "wof:lastmodified":1684352871,
     "wof:name":"Saint-Jean-D'Heurs",
     "wof:parent_id":102068503,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":659,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

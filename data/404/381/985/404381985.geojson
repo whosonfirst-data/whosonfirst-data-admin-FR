@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_03003",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ainay-le-Ch\u00e2teau",
+    "eurostat:nuts_2021_id":"03003",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK11",
+    "eurostat:nuts_2021_level_lau":"03003",
+    "eurostat:population":994,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240300558",
     "frgov:id":"BDCSURCO0000000009601618",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683293,
         102191581,
@@ -58,7 +72,10 @@
         102064429
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_03003",
+        "eurostat:nuts_2021_id":"03003"
+    },
     "wof:coterminous":[
         101766513
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"080e1f2c9c623e91d79a1c25b3ccd32e",
+    "wof:geomhash":"c8f2b87cd486b88e36f93f41d8cc4e5d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404381985,
-    "wof:lastmodified":1582325433,
+    "wof:lastmodified":1684353033,
     "wof:name":"Ainay-Le-Chateau",
     "wof:parent_id":102064429,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":994,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

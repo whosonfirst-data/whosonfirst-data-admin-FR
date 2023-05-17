@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_18146",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"M\u00e9n\u00e9tr\u00e9ol-sous-Sancerre",
+    "eurostat:nuts_2021_id":"18146",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB01",
+    "eurostat:nuts_2021_level_lau":"18146",
+    "eurostat:population":315,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069227",
     "frgov:id":"BDCSURCO0000000009599242",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000642,
-    "geom:area_square_m":5385293.510531,
+    "geom:area_square_m":5385293.51053,
     "geom:bbox":"2.84120441877,47.3077635168,2.8994527094,47.3309469839",
     "geom:latitude":47.318031,
     "geom:longitude":2.865922,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683549,
         102191581,
@@ -57,7 +71,10 @@
         102068897
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_18146",
+        "eurostat:nuts_2021_id":"18146"
+    },
     "wof:coterminous":[
         1125933509
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"920a116f7a708c1bfc8255bfc564f98a",
+    "wof:geomhash":"1edceb5391ca3b771d5dd7c903ecb008",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404421987,
-    "wof:lastmodified":1582325109,
+    "wof:lastmodified":1684353509,
     "wof:name":"Menetreol-Sous-Sancerre",
     "wof:parent_id":102068897,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":315,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

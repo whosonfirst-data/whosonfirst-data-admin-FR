@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_46265",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Denis-l\u00e8s-Martel",
+    "eurostat:nuts_2021_id":"46265",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ25",
+    "eurostat:nuts_2021_level_lau":"46265",
+    "eurostat:population":333,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066371",
     "frgov:id":"BDCSURCO0000000009608588",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000905,
-    "geom:area_square_m":7920459.095652,
+    "geom:area_square_m":7920459.095653,
     "geom:bbox":"1.6367439461,44.9164459901,1.67663496649,44.9692887025",
     "geom:latitude":44.944266,
     "geom:longitude":1.65817,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683389,
         102191581,
@@ -58,7 +72,10 @@
         102068079
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_46265",
+        "eurostat:nuts_2021_id":"46265"
+    },
     "wof:coterminous":[
         101896121
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8bccd4dde566a8b7991fc01d4c60f91c",
+    "wof:geomhash":"c94246ed162fce900d3d58f2f1b2ae5b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404422189,
-    "wof:lastmodified":1582324287,
+    "wof:lastmodified":1684353511,
     "wof:name":"Saint-Denis-Les-Martel",
     "wof:parent_id":102068079,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":333,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

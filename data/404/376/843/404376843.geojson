@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_52456",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Urbain-Maconcourt",
+    "eurostat:nuts_2021_id":"52456",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF24",
+    "eurostat:nuts_2021_level_lau":"52456",
+    "eurostat:population":643,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200044253",
     "frgov:id":"BDCSURCO0000000009592810",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.00316,
-    "geom:area_square_m":25944001.850734,
+    "geom:area_square_m":25944001.850733,
     "geom:bbox":"5.15181039843,48.367323897,5.25774990592,48.4275255888",
     "geom:latitude":48.396392,
     "geom:longitude":5.195932,
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683261,
         102191581,
@@ -136,7 +150,10 @@
         102066159
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_52456",
+        "eurostat:nuts_2021_id":"52456"
+    },
     "wof:coterminous":[
         1175612291
     ],
@@ -144,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"55d3d0953e1afc343d4183e8c40a9c8e",
+    "wof:geomhash":"6954008838ac66fbaa907659a8fc16c5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +175,13 @@
         }
     ],
     "wof:id":404376843,
-    "wof:lastmodified":1582324665,
+    "wof:lastmodified":1684352974,
     "wof:name":"Saint-Urbain-Maconcourt",
     "wof:parent_id":102066159,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":643,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

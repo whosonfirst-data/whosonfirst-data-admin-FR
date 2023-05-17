@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_67112",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Duttlenheim",
+    "eurostat:nuts_2021_id":"67112",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF1",
+    "eurostat:nuts_2021_level_3":"FRF11",
+    "eurostat:nuts_2021_level_lau":"67112",
+    "eurostat:population":2890,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"246701064",
     "frgov:id":"BDCSURCO0000000009591345",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.001059,
-    "geom:area_square_m":8676598.070137,
+    "geom:area_square_m":8676598.070136,
     "geom:bbox":"7.55189393264,48.5042932988,7.58922628891,48.5453385352",
     "geom:latitude":48.524116,
     "geom:longitude":7.569892,
@@ -147,6 +159,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683221,
         102191581,
@@ -157,7 +171,10 @@
         102066949
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_67112",
+        "eurostat:nuts_2021_id":"67112"
+    },
     "wof:coterminous":[
         101763759
     ],
@@ -165,7 +182,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f204f2721aff3dc432c6bda4c3b4af1b",
+    "wof:geomhash":"26a893262d14e4a72715e8651f6110ed",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -179,11 +196,13 @@
         }
     ],
     "wof:id":404380635,
-    "wof:lastmodified":1582325376,
+    "wof:lastmodified":1684353018,
     "wof:name":"Duttlenheim",
     "wof:parent_id":102066949,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2890,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

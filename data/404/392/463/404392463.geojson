@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_63146",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"\u00c9gliseneuve-pr\u00e8s-Billom",
+    "eurostat:nuts_2021_id":"63146",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK14",
+    "eurostat:nuts_2021_level_lau":"63146",
+    "eurostat:population":799,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067627",
     "frgov:id":"BDCSURCO0000000009605553",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001936,
-    "geom:area_square_m":16718580.822211,
+    "geom:area_square_m":16718580.822212,
     "geom:bbox":"3.35459845435,45.6919726982,3.41995761406,45.7476774534",
     "geom:latitude":45.716136,
     "geom:longitude":3.390086,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683471,
         102191581,
@@ -58,7 +72,10 @@
         102065323
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_63146",
+        "eurostat:nuts_2021_id":"63146"
+    },
     "wof:coterminous":[
         1125937597
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2824cc2179927b8c53eb653bf1256efb",
+    "wof:geomhash":"c65fbb530114242433cae69e1c22e7e7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404392463,
-    "wof:lastmodified":1582324811,
+    "wof:lastmodified":1684353162,
     "wof:name":"Egliseneuve-Pres-Billom",
     "wof:parent_id":102065323,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":799,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

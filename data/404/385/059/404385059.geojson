@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_37220",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Germain-sur-Vienne",
+    "eurostat:nuts_2021_id":"37220",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB04",
+    "eurostat:nuts_2021_level_lau":"37220",
+    "eurostat:population":375,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200043081",
     "frgov:id":"BDCSURCO0000000009599858",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001591,
-    "geom:area_square_m":13374927.177462,
+    "geom:area_square_m":13374927.177463,
     "geom:bbox":"0.0796818578769,47.1592836952,0.157256078315,47.2057888354",
     "geom:latitude":47.180449,
     "geom:longitude":0.110879,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683575,
         102191581,
@@ -57,7 +71,10 @@
         102065431
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_37220",
+        "eurostat:nuts_2021_id":"37220"
+    },
     "wof:coterminous":[
         101885291
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"09776001296fde2f0c0e4a31128d6631",
+    "wof:geomhash":"52b624308c80811a4e6629eac89f8369",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404385059,
-    "wof:lastmodified":1582324640,
+    "wof:lastmodified":1684353071,
     "wof:name":"Saint-Germain-Sur-Vienne",
     "wof:parent_id":102065431,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":375,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_02448",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"M\u00e2checourt",
+    "eurostat:nuts_2021_id":"02448",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE21",
+    "eurostat:nuts_2021_level_lau":"02448",
+    "eurostat:population":122,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240200576",
     "frgov:id":"BDCSURCO0000000009583501",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001265,
-    "geom:area_square_m":10130313.370012,
+    "geom:area_square_m":10130313.370013,
     "geom:bbox":"3.81166433523,49.6308711243,3.87144880953,49.6710492019",
     "geom:latitude":49.65172,
     "geom:longitude":3.836896,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683247,
         102191581,
@@ -58,7 +72,10 @@
         102069807
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_02448",
+        "eurostat:nuts_2021_id":"02448"
+    },
     "wof:coterminous":[
         101901567
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2c6ea6df0e0ea834e4c0d82e52de731b",
+    "wof:geomhash":"8a00c7b422940b46d0869dcf3d0837f8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404401231,
-    "wof:lastmodified":1582324431,
+    "wof:lastmodified":1684353263,
     "wof:name":"Machecourt",
     "wof:parent_id":102069807,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":122,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_80100",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bettencourt-Saint-Ouen",
+    "eurostat:nuts_2021_id":"80100",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE23",
+    "eurostat:nuts_2021_level_lau":"80100",
+    "eurostat:population":619,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071223",
     "frgov:id":"BDCSURCO0000000009582152",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001006,
-    "geom:area_square_m":7992354.828092,
+    "geom:area_square_m":7992354.828091,
     "geom:bbox":"2.09592105207,50.0005282354,2.14729101353,50.0394569093",
     "geom:latitude":50.017895,
     "geom:longitude":2.121971,
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683363,
         102191581,
@@ -136,7 +150,10 @@
         102070423
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_80100",
+        "eurostat:nuts_2021_id":"80100"
+    },
     "wof:coterminous":[
         101899067
     ],
@@ -144,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4defe456cacdde533f85a4c8250f8b2f",
+    "wof:geomhash":"21a0244db6e9d7e21d2ecd880d3326c4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +175,13 @@
         }
     ],
     "wof:id":404399749,
-    "wof:lastmodified":1582324150,
+    "wof:lastmodified":1684353246,
     "wof:name":"Bettencourt-Saint-Ouen",
     "wof:parent_id":102070423,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":619,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_43252",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Varennes-Saint-Honorat",
+    "eurostat:nuts_2021_id":"43252",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK13",
+    "eurostat:nuts_2021_level_lau":"43252",
+    "eurostat:population":24,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200073393",
     "frgov:id":"BDCSURCO0000000009607700",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001362,
-    "geom:area_square_m":11874016.917401,
+    "geom:area_square_m":11874016.917402,
     "geom:bbox":"3.61719131059,45.1497074812,3.67461981243,45.2035794633",
     "geom:latitude":45.1776,
     "geom:longitude":3.644899,
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683413,
         102191581,
@@ -136,7 +150,10 @@
         102064337
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_43252",
+        "eurostat:nuts_2021_id":"43252"
+    },
     "wof:coterminous":[
         1125828533
     ],
@@ -144,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b11162bc3c443eb73baccd3a80c4f5e0",
+    "wof:geomhash":"48bea51ae57380738d33b74e652df83c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +175,13 @@
         }
     ],
     "wof:id":404375557,
-    "wof:lastmodified":1582325407,
+    "wof:lastmodified":1684352956,
     "wof:name":"Varennes-Saint-Honorat",
     "wof:parent_id":102064337,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":24,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_63373",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Maigner",
+    "eurostat:nuts_2021_id":"63373",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK14",
+    "eurostat:nuts_2021_level_lau":"63373",
+    "eurostat:population":190,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072080",
     "frgov:id":"BDCSURCO0000000009604025",
     "frgov:insee_arr":"4",
@@ -120,6 +132,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683471,
         102191581,
@@ -130,7 +144,10 @@
         102069589
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_63373",
+        "eurostat:nuts_2021_id":"63373"
+    },
     "wof:coterminous":[
         1125939885
     ],
@@ -138,7 +155,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c3515de31f9a4e0dee01d5535fb815f5",
+    "wof:geomhash":"a29685b01b341d6bcbcba8e0335780f6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -152,11 +169,13 @@
         }
     ],
     "wof:id":404428099,
-    "wof:lastmodified":1582325116,
+    "wof:lastmodified":1684353581,
     "wof:name":"Saint-Maigner",
     "wof:parent_id":102069589,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":190,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

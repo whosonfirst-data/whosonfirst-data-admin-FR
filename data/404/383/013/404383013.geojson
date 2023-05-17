@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_36123",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"M\u00e9zi\u00e8res-en-Brenne",
+    "eurostat:nuts_2021_id":"36123",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB03",
+    "eurostat:nuts_2021_level_lau":"36123",
+    "eurostat:population":1001,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243600343",
     "frgov:id":"BDCSURCO0000000009601437",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.007919,
-    "geom:area_square_m":67014512.039491,
+    "geom:area_square_m":67014512.039492,
     "geom:bbox":"1.19590077807,46.7591720689,1.31766889892,46.8567999389",
     "geom:latitude":46.812319,
     "geom:longitude":1.256122,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683311,
         102191581,
@@ -57,7 +71,10 @@
         102066997
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_36123",
+        "eurostat:nuts_2021_id":"36123"
+    },
     "wof:coterminous":[
         101766819
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6ec29493fb608d8b13326ea7cb40b7a7",
+    "wof:geomhash":"f5e76a3587d68c6f3fe4ce44aa3e936e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404383013,
-    "wof:lastmodified":1582324541,
+    "wof:lastmodified":1684353046,
     "wof:name":"Mezieres-En-Brenne",
     "wof:parent_id":102066997,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1001,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

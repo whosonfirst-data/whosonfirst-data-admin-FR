@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_16325",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Gourson",
+    "eurostat:nuts_2021_id":"16325",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI31",
+    "eurostat:nuts_2021_level_lau":"16325",
+    "eurostat:population":140,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200043016",
     "frgov:id":"BDCSURCO0000000009604589",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001169,
-    "geom:area_square_m":10049093.469307,
+    "geom:area_square_m":10049093.469306,
     "geom:bbox":"0.276641619531,45.936471618,0.341584652731,45.9650858166",
     "geom:latitude":45.952305,
     "geom:longitude":0.312312,
@@ -123,6 +135,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683437,
         102191581,
@@ -133,7 +147,10 @@
         102068803
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_16325",
+        "eurostat:nuts_2021_id":"16325"
+    },
     "wof:coterminous":[
         1125893173
     ],
@@ -141,7 +158,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b157f741a34dc48544c8790d8e91fbd4",
+    "wof:geomhash":"fd16e72378ae05b8cff86523a045b152",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -155,11 +172,13 @@
         }
     ],
     "wof:id":404427191,
-    "wof:lastmodified":1582325241,
+    "wof:lastmodified":1684353570,
     "wof:name":"Saint-Gourson",
     "wof:parent_id":102068803,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":140,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

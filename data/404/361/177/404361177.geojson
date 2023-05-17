@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_44170",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Julien-de-Vouvantes",
+    "eurostat:nuts_2021_id":"44170",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG01",
+    "eurostat:nuts_2021_level_lau":"44170",
+    "eurostat:population":984,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072726",
     "frgov:id":"BDCSURCO0000000009597560",
     "frgov:insee_arr":"5",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003094,
-    "geom:area_square_m":25768826.111165,
+    "geom:area_square_m":25768826.111166,
     "geom:bbox":"-1.27136525628,47.6267438344,-1.18215233977,47.6818623927",
     "geom:latitude":47.652998,
     "geom:longitude":-1.229511,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683233,
         102191581,
@@ -57,7 +71,10 @@
         102070723
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_44170",
+        "eurostat:nuts_2021_id":"44170"
+    },
     "wof:coterminous":[
         101885437
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e6809c7f78c2cd67bf7913487cf06278",
+    "wof:geomhash":"3b364e0002009fb6ea837c27e6f6caa6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404361177,
-    "wof:lastmodified":1582324766,
+    "wof:lastmodified":1684352770,
     "wof:name":"Saint-Julien-De-Vouvantes",
     "wof:parent_id":102070723,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":984,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

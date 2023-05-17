@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_70206",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"\u00c9chenans-sous-Mont-Vaudois",
+    "eurostat:nuts_2021_id":"70206",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC23",
+    "eurostat:nuts_2021_level_lau":"70206",
+    "eurostat:population":522,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247000722",
     "frgov:id":"BDCSURCO0000000009597337",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000654,
-    "geom:area_square_m":5449729.261671,
+    "geom:area_square_m":5449729.26167,
     "geom:bbox":"6.74498017373,47.5916336316,6.79329792006,47.6216336846",
     "geom:latitude":47.604806,
     "geom:longitude":6.768031,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683559,
         102191581,
@@ -58,7 +72,10 @@
         102069789
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_70206",
+        "eurostat:nuts_2021_id":"70206"
+    },
     "wof:coterminous":[
         101889167
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f88cb54214eb79aaeaa04f346f2962f8",
+    "wof:geomhash":"c8c8d4169f7e125972c0d4bb93c3df67",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404426379,
-    "wof:lastmodified":1582325084,
+    "wof:lastmodified":1684353561,
     "wof:name":"Echenans-Sous-Mont-Vaudois",
     "wof:parent_id":102069789,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":522,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

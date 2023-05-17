@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_24411",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Front-sur-Nizonne",
+    "eurostat:nuts_2021_id":"24411",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI11",
+    "eurostat:nuts_2021_level_lau":"24411",
+    "eurostat:population":157,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071819",
     "frgov:id":"BDCSURCO0000000009606648",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001537,
-    "geom:area_square_m":13325201.297174,
+    "geom:area_square_m":13325201.297173,
     "geom:bbox":"0.597935153455,45.4441212002,0.653848379938,45.5020060878",
     "geom:latitude":45.47692,
     "geom:longitude":0.627198,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683331,
         102191581,
@@ -58,7 +72,10 @@
         102069131
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_24411",
+        "eurostat:nuts_2021_id":"24411"
+    },
     "wof:coterminous":[
         1125810825
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9cbe5b17e893e7b4138fd8cb30f05dd4",
+    "wof:geomhash":"bb66407e73bd8dad5d5405896a517321",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404415379,
-    "wof:lastmodified":1582324357,
+    "wof:lastmodified":1684353430,
     "wof:name":"Saint-Front-Sur-Nizonne",
     "wof:parent_id":102069131,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":157,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

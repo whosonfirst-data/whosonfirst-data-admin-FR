@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_31519",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Vincent",
+    "eurostat:nuts_2021_id":"31519",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ23",
+    "eurostat:nuts_2021_level_lau":"31519",
+    "eurostat:population":192,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071298",
     "frgov:id":"BDCSURCO0000000009614171",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00035,
-    "geom:area_square_m":3138250.508589,
+    "geom:area_square_m":3138250.50859,
     "geom:bbox":"1.74510613931,43.4268500688,1.77138453335,43.4528710677",
     "geom:latitude":43.44005,
     "geom:longitude":1.758312,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683397,
         102191581,
@@ -56,7 +70,10 @@
         102070883
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_31519",
+        "eurostat:nuts_2021_id":"31519"
+    },
     "wof:coterminous":[
         1360673817
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"40e290a475a0359dc1a3eaed2b1f3d77",
+    "wof:geomhash":"a91115de3253948fd6f7620c4ee206c3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404360593,
-    "wof:lastmodified":1582325041,
+    "wof:lastmodified":1684352762,
     "wof:name":"Saint-Vincent",
     "wof:parent_id":102070883,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":192,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

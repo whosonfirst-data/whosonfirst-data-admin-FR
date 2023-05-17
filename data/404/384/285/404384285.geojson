@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_72231",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Parign\u00e9-l'\u00c9v\u00eaque",
+    "eurostat:nuts_2021_id":"72231",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG04",
+    "eurostat:nuts_2021_level_lau":"72231",
+    "eurostat:population":5086,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247200421",
     "frgov:id":"BDCSURCO0000000009596174",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.007657,
-    "geom:area_square_m":63437098.121695,
+    "geom:area_square_m":63437098.121697,
     "geom:bbox":"0.294024187711,47.8611514044,0.434232709453,47.9889842626",
     "geom:latitude":47.931489,
     "geom:longitude":0.371767,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683279,
         102191581,
@@ -57,7 +71,10 @@
         102070793
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_72231",
+        "eurostat:nuts_2021_id":"72231"
+    },
     "wof:coterminous":[
         101763445
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ac2cb48a095c5933aa97e14e6727aae8",
+    "wof:geomhash":"1084c69a133e8729f62ac0b3b682b867",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404384285,
-    "wof:lastmodified":1582324622,
+    "wof:lastmodified":1684353062,
     "wof:name":"Parigne-L'Eveque",
     "wof:parent_id":102070793,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":5086,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

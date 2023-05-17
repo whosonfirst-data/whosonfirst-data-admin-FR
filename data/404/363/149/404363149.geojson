@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_63092",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Charbonni\u00e8res-les-Varennes",
+    "eurostat:nuts_2021_id":"63092",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK14",
+    "eurostat:nuts_2021_level_lau":"63092",
+    "eurostat:population":1728,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070753",
     "frgov:id":"BDCSURCO0000000009604805",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.003744,
-    "geom:area_square_m":32218012.274041,
+    "geom:area_square_m":32218012.27404,
     "geom:bbox":"2.92608420823,45.8575325682,3.03640769005,45.9221897241",
     "geom:latitude":45.898112,
     "geom:longitude":2.979699,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683471,
         102191581,
@@ -58,7 +72,10 @@
         102068687
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_63092",
+        "eurostat:nuts_2021_id":"63092"
+    },
     "wof:coterminous":[
         101767813
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"cd7fbb8b1086f687ad4b56a85e73eb3b",
+    "wof:geomhash":"0b7de191bd356e5d96e4fbadfd073986",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404363149,
-    "wof:lastmodified":1582324237,
+    "wof:lastmodified":1684352797,
     "wof:name":"Charbonnieres-Les-Varennes",
     "wof:parent_id":102068687,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1728,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_13051",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lan\u00e7on-Provence",
+    "eurostat:nuts_2021_id":"13051",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL04",
+    "eurostat:nuts_2021_level_lau":"13051",
+    "eurostat:population":8959,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200054807",
     "frgov:id":"BDCSURCO0000000009613358",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.007702,
-    "geom:area_square_m":68997917.813891,
+    "geom:area_square_m":68997917.813889,
     "geom:bbox":"5.08918475016,43.5229183239,5.25584748308,43.6225869174",
     "geom:latitude":43.575958,
     "geom:longitude":5.159333,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683441,
         102191581,
@@ -57,7 +71,10 @@
         102071589
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_13051",
+        "eurostat:nuts_2021_id":"13051"
+    },
     "wof:coterminous":[
         101831651
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7ec694b5ce2763b41dd9ca107d879920",
+    "wof:geomhash":"1b0194046ef4dd7824f0a8a0ec465284",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404365025,
-    "wof:lastmodified":1582324029,
+    "wof:lastmodified":1684352824,
     "wof:name":"Lancon-Provence",
     "wof:parent_id":102071589,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":8959,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_22138",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ma\u00ebl-Pestivien",
+    "eurostat:nuts_2021_id":"22138",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH01",
+    "eurostat:nuts_2021_level_lau":"22138",
+    "eurostat:population":378,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067981",
     "frgov:id":"BDCSURCO0000000009592661",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BRETAGNE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003868,
-    "geom:area_square_m":31750396.528208,
+    "geom:area_square_m":31750396.528206,
     "geom:bbox":"-3.33943308482,48.3669153509,-3.25066477632,48.45340076",
     "geom:latitude":48.403829,
     "geom:longitude":-3.290289,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683515,
         102191581,
@@ -57,7 +71,10 @@
         102065081
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_22138",
+        "eurostat:nuts_2021_id":"22138"
+    },
     "wof:coterminous":[
         101880293
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"61cb798e8fcca054209daf433bd5c24e",
+    "wof:geomhash":"5da7e504ee1d20c05b79f8e6a3039ff8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404349837,
-    "wof:lastmodified":1582324715,
+    "wof:lastmodified":1684352614,
     "wof:name":"Mael-Pestivien",
     "wof:parent_id":102065081,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":378,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

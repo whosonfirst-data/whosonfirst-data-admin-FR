@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_16089",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ch\u00e2teaubernard",
+    "eurostat:nuts_2021_id":"16089",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI31",
+    "eurostat:nuts_2021_level_lau":"16089",
+    "eurostat:population":3714,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070514",
     "frgov:id":"BDCSURCO0000000009605649",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001549,
-    "geom:area_square_m":13380397.139023,
+    "geom:area_square_m":13380397.139024,
     "geom:bbox":"-0.347170438972,45.651552696,-0.286603066244,45.6988604744",
     "geom:latitude":45.672176,
     "geom:longitude":-0.315537,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683437,
         102191581,
@@ -58,7 +72,10 @@
         102070265
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_16089",
+        "eurostat:nuts_2021_id":"16089"
+    },
     "wof:coterminous":[
         101829049
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"cfff74d7ebb9d044f3410d195d2e5262",
+    "wof:geomhash":"b1f2761b6137092647a5b38058dd769c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404355023,
-    "wof:lastmodified":1582324182,
+    "wof:lastmodified":1684352686,
     "wof:name":"Chateaubernard",
     "wof:parent_id":102070265,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3714,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

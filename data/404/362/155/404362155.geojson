@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_19209",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Hilaire-les-Courbes",
+    "eurostat:nuts_2021_id":"19209",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI21",
+    "eurostat:nuts_2021_level_lau":"19209",
+    "eurostat:population":158,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066645",
     "frgov:id":"BDCSURCO0000000009606134",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683209,
         102191581,
@@ -58,7 +72,10 @@
         102068747
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_19209",
+        "eurostat:nuts_2021_id":"19209"
+    },
     "wof:coterminous":[
         1125934761
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9aefe28d57ccd51f3f5dd46f8e0fadf1",
+    "wof:geomhash":"86df3d9b62419770f2e37289a8193bb4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404362155,
-    "wof:lastmodified":1582324056,
+    "wof:lastmodified":1684352784,
     "wof:name":"Saint-Hilaire-Les-Courbes",
     "wof:parent_id":102068747,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":158,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

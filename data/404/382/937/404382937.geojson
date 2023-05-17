@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_58059",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Charit\u00e9-sur-Loire",
+    "eurostat:nuts_2021_id":"58059",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC12",
+    "eurostat:nuts_2021_level_lau":"58059",
+    "eurostat:population":4901,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068088",
     "frgov:id":"BDCSURCO0000000009599794",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001877,
-    "geom:area_square_m":15775580.261167,
+    "geom:area_square_m":15775580.261166,
     "geom:bbox":"2.9977412016,47.1562854063,3.06024177017,47.2096943577",
     "geom:latitude":47.183463,
     "geom:longitude":3.029628,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683359,
         102191581,
@@ -58,7 +72,10 @@
         102064609
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_58059",
+        "eurostat:nuts_2021_id":"58059"
+    },
     "wof:coterminous":[
         101767179
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"86eee0d40c6f060333de5b704c344ff5",
+    "wof:geomhash":"df27c8b2ffc8c3b3571dba0643c9d544",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404382937,
-    "wof:lastmodified":1582324680,
+    "wof:lastmodified":1684353045,
     "wof:name":"La Charite-Sur-Loire",
     "wof:parent_id":102064609,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":4901,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

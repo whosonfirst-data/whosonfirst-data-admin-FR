@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_84117",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Roman-de-Malegarde",
+    "eurostat:nuts_2021_id":"84117",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL06",
+    "eurostat:nuts_2021_level_lau":"84117",
+    "eurostat:population":325,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248400335",
     "frgov:id":"BDCSURCO0000000009610845",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.000962,
-    "geom:area_square_m":8518640.756831,
+    "geom:area_square_m":8518640.75683,
     "geom:bbox":"4.92635133716,44.2488445367,4.99204138447,44.2798200386",
     "geom:latitude":44.262559,
     "geom:longitude":4.956193,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683201,
         102191581,
@@ -57,7 +71,10 @@
         102068301
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_84117",
+        "eurostat:nuts_2021_id":"84117"
+    },
     "wof:coterminous":[
         1126050641
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a064b0a5fdf6f9600e02f2cd031dd01b",
+    "wof:geomhash":"2d0b057204731f97b43895eea03bd390",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404353787,
-    "wof:lastmodified":1582324142,
+    "wof:lastmodified":1684352669,
     "wof:name":"Saint-Roman-De-Malegarde",
     "wof:parent_id":102068301,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":325,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

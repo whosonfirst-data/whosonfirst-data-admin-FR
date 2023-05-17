@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_38524",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Varces-Alli\u00e8res-et-Risset",
+    "eurostat:nuts_2021_id":"38524",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK24",
+    "eurostat:nuts_2021_level_lau":"38524",
+    "eurostat:population":8250,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040715",
     "frgov:id":"BDCSURCO0000000009607852",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.002395,
-    "geom:area_square_m":20903944.848054,
+    "geom:area_square_m":20903944.848055,
     "geom:bbox":"5.61460798652,45.0653915153,5.72554781825,45.1114482058",
     "geom:latitude":45.091096,
     "geom:longitude":5.677221,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683427,
         102191581,
@@ -56,7 +70,10 @@
         102071019
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_38524",
+        "eurostat:nuts_2021_id":"38524"
+    },
     "wof:coterminous":[
         1360679429
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"fd6f50e6705b811481b1570cb3ef32cc",
+    "wof:geomhash":"3027fd7d6e0f04732d71d796d7a02f30",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404417869,
-    "wof:lastmodified":1582325131,
+    "wof:lastmodified":1684353459,
     "wof:name":"Varces-Allieres-Et-Risset",
     "wof:parent_id":102071019,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":8250,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

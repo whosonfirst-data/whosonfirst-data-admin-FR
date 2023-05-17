@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_07089",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"F\u00e9lines",
+    "eurostat:nuts_2021_id":"07089",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK22",
+    "eurostat:nuts_2021_level_lau":"07089",
+    "eurostat:population":1652,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072015",
     "frgov:id":"BDCSURCO0000000009607247",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001633,
-    "geom:area_square_m":14200931.534648,
+    "geom:area_square_m":14200931.534649,
     "geom:bbox":"4.67993584387,45.2968438794,4.76088872842,45.3340766078",
     "geom:latitude":45.315796,
     "geom:longitude":4.726992,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683421,
         102191581,
@@ -58,7 +72,10 @@
         102068429
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_07089",
+        "eurostat:nuts_2021_id":"07089"
+    },
     "wof:coterminous":[
         101770395
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d744bb9dd7ba372f51f211105f98ff64",
+    "wof:geomhash":"b50d130db27878ae6551a3d40c84172b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404365737,
-    "wof:lastmodified":1582324026,
+    "wof:lastmodified":1684352834,
     "wof:name":"Felines",
     "wof:parent_id":102068429,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1652,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

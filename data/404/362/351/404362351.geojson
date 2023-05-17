@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_69206",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Georges-de-Reneins",
+    "eurostat:nuts_2021_id":"69206",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK26",
+    "eurostat:nuts_2021_level_lau":"69206",
+    "eurostat:population":4378,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067817",
     "frgov:id":"BDCSURCO0000000009603959",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.00319,
-    "geom:area_square_m":27369187.561799,
+    "geom:area_square_m":27369187.5618,
     "geom:bbox":"4.67165610631,46.0272558504,4.76176764517,46.0900803576",
     "geom:latitude":46.058144,
     "geom:longitude":4.721309,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683569,
         102191581,
@@ -58,7 +72,10 @@
         102065119
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_69206",
+        "eurostat:nuts_2021_id":"69206"
+    },
     "wof:coterminous":[
         101767731
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"786e5bd41fe30b7854039fc840c5eae8",
+    "wof:geomhash":"57e43803d321aeb0b9328c061f0169ae",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404362351,
-    "wof:lastmodified":1582324056,
+    "wof:lastmodified":1684352786,
     "wof:name":"Saint-Georges-De-Reneins",
     "wof:parent_id":102065119,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":4378,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

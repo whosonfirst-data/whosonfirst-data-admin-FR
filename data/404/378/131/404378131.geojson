@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_87167",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Martin-Terressus",
+    "eurostat:nuts_2021_id":"87167",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI23",
+    "eurostat:nuts_2021_level_lau":"87167",
+    "eurostat:population":557,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248719361",
     "frgov:id":"BDCSURCO0000000009604841",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002694,
-    "geom:area_square_m":23177991.579756,
+    "geom:area_square_m":23177991.579757,
     "geom:bbox":"1.41441198423,45.8891060531,1.50293336797,45.9388655734",
     "geom:latitude":45.914522,
     "geom:longitude":1.459983,
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683531,
         102191581,
@@ -136,7 +150,10 @@
         102069163
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_87167",
+        "eurostat:nuts_2021_id":"87167"
+    },
     "wof:coterminous":[
         1125993867
     ],
@@ -144,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3f4d7e1ac56628f15a875c628f2def89",
+    "wof:geomhash":"8bf711a09526864fdade04f88620c1f0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +175,13 @@
         }
     ],
     "wof:id":404378131,
-    "wof:lastmodified":1582324741,
+    "wof:lastmodified":1684352988,
     "wof:name":"Saint-Martin-Terressus",
     "wof:parent_id":102069163,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":557,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

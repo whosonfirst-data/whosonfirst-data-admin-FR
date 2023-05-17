@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_42159",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Noir\u00e9table",
+    "eurostat:nuts_2021_id":"42159",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK25",
+    "eurostat:nuts_2021_level_lau":"42159",
+    "eurostat:population":1588,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200065886",
     "frgov:id":"BDCSURCO0000000009605293",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.004714,
-    "geom:area_square_m":40629191.394335,
+    "geom:area_square_m":40629191.394334,
     "geom:bbox":"3.68813529424,45.7584754006,3.78835511046,45.8560447544",
     "geom:latitude":45.805626,
     "geom:longitude":3.744235,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683377,
         102191581,
@@ -58,7 +72,10 @@
         102066241
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_42159",
+        "eurostat:nuts_2021_id":"42159"
+    },
     "wof:coterminous":[
         101767763
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"75bc2e95cac35451644639862d3df483",
+    "wof:geomhash":"9b228532a7c20a81ae8774083d261959",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404351673,
-    "wof:lastmodified":1582324948,
+    "wof:lastmodified":1684352641,
     "wof:name":"Noiretable",
     "wof:parent_id":102066241,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1588,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

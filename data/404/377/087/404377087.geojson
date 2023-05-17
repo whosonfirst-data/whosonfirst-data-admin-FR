@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_40256",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-\u00c9tienne-d'Orthe",
+    "eurostat:nuts_2021_id":"40256",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI13",
+    "eurostat:nuts_2021_level_lau":"40256",
+    "eurostat:population":704,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069417",
     "frgov:id":"BDCSURCO0000000009613322",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001246,
-    "geom:area_square_m":11156850.846313,
+    "geom:area_square_m":11156850.846314,
     "geom:bbox":"-1.22201575671,43.5723738348,-1.15888310198,43.6078841016",
     "geom:latitude":43.590035,
     "geom:longitude":-1.186818,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683183,
         102191581,
@@ -56,7 +70,10 @@
         102067195
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_40256",
+        "eurostat:nuts_2021_id":"40256"
+    },
     "wof:coterminous":[
         1360675507
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ee11f3a320b73d9d3a40219d0c74b405",
+    "wof:geomhash":"d9255db6655fb08b1ed88f2dcaad9d23",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404377087,
-    "wof:lastmodified":1582324567,
+    "wof:lastmodified":1684352976,
     "wof:name":"Saint-Etienne-D'Orthe",
     "wof:parent_id":102067195,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":704,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

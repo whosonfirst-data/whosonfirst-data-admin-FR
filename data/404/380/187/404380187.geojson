@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_21205",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Courcelles-l\u00e8s-Semur",
+    "eurostat:nuts_2021_id":"21205",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC11",
+    "eurostat:nuts_2021_level_lau":"21205",
+    "eurostat:population":245,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071017",
     "frgov:id":"BDCSURCO0000000009598622",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001447,
-    "geom:area_square_m":12101970.258262,
+    "geom:area_square_m":12101970.258263,
     "geom:bbox":"4.25556767593,47.4260739713,4.32821336975,47.4716067884",
     "geom:latitude":47.448935,
     "geom:longitude":4.292919,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683563,
         102191581,
@@ -58,7 +72,10 @@
         102070311
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_21205",
+        "eurostat:nuts_2021_id":"21205"
+    },
     "wof:coterminous":[
         101888075
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"1cdf7c23842248734d8c961c326b46a0",
+    "wof:geomhash":"800f87666042bb67250b477d460d20ba",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404380187,
-    "wof:lastmodified":1582325377,
+    "wof:lastmodified":1684353013,
     "wof:name":"Courcelles-Les-Semur",
     "wof:parent_id":102070311,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":245,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

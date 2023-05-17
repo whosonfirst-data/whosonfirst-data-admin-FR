@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_61259",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"M\u00e9nil-B\u00e9rard",
+    "eurostat:nuts_2021_id":"61259",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD13",
+    "eurostat:nuts_2021_level_lau":"61259",
+    "eurostat:population":75,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068468",
     "frgov:id":"BDCSURCO0000000009590748",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683527,
         102191581,
@@ -58,7 +72,10 @@
         102069023
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_61259",
+        "eurostat:nuts_2021_id":"61259"
+    },
     "wof:coterminous":[
         1125773567
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"661f010ed7d2b9c30dfd12e6a83cfb90",
+    "wof:geomhash":"83102f3f2557c284efef76e219bbe873",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404368451,
-    "wof:lastmodified":1582324880,
+    "wof:lastmodified":1684352871,
     "wof:name":"Le Menil-Berard",
     "wof:parent_id":102069023,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":75,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

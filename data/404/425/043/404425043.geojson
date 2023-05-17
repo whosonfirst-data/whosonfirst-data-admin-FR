@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_80205",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Cond\u00e9-Folie",
+    "eurostat:nuts_2021_id":"80205",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE23",
+    "eurostat:nuts_2021_level_lau":"80205",
+    "eurostat:population":916,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070993",
     "frgov:id":"BDCSURCO0000000009582158",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683363,
         102191581,
@@ -58,7 +72,10 @@
         102070423
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_80205",
+        "eurostat:nuts_2021_id":"80205"
+    },
     "wof:coterminous":[
         1126046291
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c328e5c5c53e8178dbade95b1fb1c9d3",
+    "wof:geomhash":"f95f87d6fbf030b8a2eb94eb063b9abe",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404425043,
-    "wof:lastmodified":1582324309,
+    "wof:lastmodified":1684353546,
     "wof:name":"Conde-Folie",
     "wof:parent_id":102070423,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":916,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

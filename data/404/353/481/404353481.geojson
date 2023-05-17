@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_16308",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Claud",
+    "eurostat:nuts_2021_id":"16308",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI31",
+    "eurostat:nuts_2021_level_lau":"16308",
+    "eurostat:population":1057,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072049",
     "frgov:id":"BDCSURCO0000000009604860",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00309,
-    "geom:area_square_m":26589923.695634,
+    "geom:area_square_m":26589923.695633,
     "geom:bbox":"0.431291384364,45.8704407819,0.534976734712,45.9234823276",
     "geom:latitude":45.898375,
     "geom:longitude":0.471285,
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683437,
         102191581,
@@ -136,7 +150,10 @@
         102069177
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_16308",
+        "eurostat:nuts_2021_id":"16308"
+    },
     "wof:coterminous":[
         101768079
     ],
@@ -144,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"905e8a415a0b562e8692ae56bf45f180",
+    "wof:geomhash":"d7bbb88b7d0e146aa19350d474c43674",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +175,13 @@
         }
     ],
     "wof:id":404353481,
-    "wof:lastmodified":1582324136,
+    "wof:lastmodified":1684352664,
     "wof:name":"Saint-Claud",
     "wof:parent_id":102069177,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1057,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

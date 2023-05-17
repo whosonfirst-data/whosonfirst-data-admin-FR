@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_42211",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Cyprien",
+    "eurostat:nuts_2021_id":"42211",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK25",
+    "eurostat:nuts_2021_level_lau":"42211",
+    "eurostat:population":2485,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200065886",
     "frgov:id":"BDCSURCO0000000009606322",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.000824,
-    "geom:area_square_m":7134762.282078,
+    "geom:area_square_m":7134762.282077,
     "geom:bbox":"4.21160883199,45.5254923676,4.25324608666,45.5572908806",
     "geom:latitude":45.540204,
     "geom:longitude":4.229878,
@@ -99,6 +111,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683377,
         102191581,
@@ -109,7 +123,10 @@
         102069939
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_42211",
+        "eurostat:nuts_2021_id":"42211"
+    },
     "wof:coterminous":[
         101830757
     ],
@@ -117,7 +134,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f5053c3e59a0b46c3c6b0a2305187f9e",
+    "wof:geomhash":"fb1e8f52749186d694029afd2ac995d4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -131,11 +148,13 @@
         }
     ],
     "wof:id":404399845,
-    "wof:lastmodified":1582324146,
+    "wof:lastmodified":1684353248,
     "wof:name":"Saint-Cyprien",
     "wof:parent_id":102069939,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2485,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

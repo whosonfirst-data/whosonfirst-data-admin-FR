@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_70564",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Villers-l\u00e8s-Luxeuil",
+    "eurostat:nuts_2021_id":"70564",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC23",
+    "eurostat:nuts_2021_level_lau":"70564",
+    "eurostat:population":303,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041861",
     "frgov:id":"BDCSURCO0000000009596320",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001091,
-    "geom:area_square_m":9069589.538817,
+    "geom:area_square_m":9069589.538815,
     "geom:bbox":"6.25401835361,47.7461871596,6.31453930148,47.7877719189",
     "geom:latitude":47.768675,
     "geom:longitude":6.279804,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683559,
         102191581,
@@ -58,7 +72,10 @@
         102068551
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_70564",
+        "eurostat:nuts_2021_id":"70564"
+    },
     "wof:coterminous":[
         1125833681
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"08413f5733261f82f6ed6fe390942cc3",
+    "wof:geomhash":"336ac52a617658e425069f1140368a77",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404389357,
-    "wof:lastmodified":1582325328,
+    "wof:lastmodified":1684353121,
     "wof:name":"Villers-Les-Luxeuil",
     "wof:parent_id":102068551,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":303,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

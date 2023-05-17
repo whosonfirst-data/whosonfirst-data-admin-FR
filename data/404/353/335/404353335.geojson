@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_36177",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sacierges-Saint-Martin",
+    "eurostat:nuts_2021_id":"36177",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB03",
+    "eurostat:nuts_2021_level_lau":"36177",
+    "eurostat:population":318,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243600319",
     "frgov:id":"BDCSURCO0000000009602443",
     "frgov:insee_arr":"1",
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683311,
         102191581,
@@ -135,7 +149,10 @@
         102067387
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_36177",
+        "eurostat:nuts_2021_id":"36177"
+    },
     "wof:coterminous":[
         1125803395
     ],
@@ -143,7 +160,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"43eb0f625a8b6d9c218ef9b93826a99e",
+    "wof:geomhash":"2d133de18cf94c8eafb6fd9563b0d5ed",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -156,11 +173,13 @@
         }
     ],
     "wof:id":404353335,
-    "wof:lastmodified":1582324134,
+    "wof:lastmodified":1684352662,
     "wof:name":"Sacierges-Saint-Martin",
     "wof:parent_id":102067387,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":318,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

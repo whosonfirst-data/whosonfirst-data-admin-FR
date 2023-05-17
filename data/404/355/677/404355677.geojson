@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_12246",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Santin",
+    "eurostat:nuts_2021_id":"12246",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ22",
+    "eurostat:nuts_2021_level_lau":"12246",
+    "eurostat:population":555,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067064",
     "frgov:id":"BDCSURCO0000000009609914",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002613,
-    "geom:area_square_m":22986286.176924,
+    "geom:area_square_m":22986286.176926,
     "geom:bbox":"2.20841399157,44.6089432213,2.33222086321,44.669735856",
     "geom:latitude":44.643466,
     "geom:longitude":2.257299,
@@ -127,6 +139,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683301,
         102191581,
@@ -137,7 +151,10 @@
         102066139
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_12246",
+        "eurostat:nuts_2021_id":"12246"
+    },
     "wof:coterminous":[
         1360673319
     ],
@@ -145,7 +162,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d699baa88277efa61dbdb9baa69586f5",
+    "wof:geomhash":"d5bdaaa4729c0838bef7674a4318b83e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -159,11 +176,13 @@
         }
     ],
     "wof:id":404355677,
-    "wof:lastmodified":1582324194,
+    "wof:lastmodified":1684352694,
     "wof:name":"Saint-Santin",
     "wof:parent_id":102066139,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":555,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_40170",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Maill\u00e8res",
+    "eurostat:nuts_2021_id":"40170",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI13",
+    "eurostat:nuts_2021_level_lau":"40170",
+    "eurostat:population":243,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069656",
     "frgov:id":"BDCSURCO0000000009611679",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001694,
-    "geom:area_square_m":15057262.538432,
+    "geom:area_square_m":15057262.538431,
     "geom:bbox":"-0.485442836434,43.9990674898,-0.401399280319,44.0441634718",
     "geom:latitude":44.026263,
     "geom:longitude":-0.441836,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683183,
         102191581,
@@ -58,7 +72,10 @@
         102065915
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_40170",
+        "eurostat:nuts_2021_id":"40170"
+    },
     "wof:coterminous":[
         1125781359
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c24a2d829a298991cd6c7cd87b62e29e",
+    "wof:geomhash":"73abd5f50182040f19e00280b44840a2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404353213,
-    "wof:lastmodified":1582324138,
+    "wof:lastmodified":1684352661,
     "wof:name":"Mailleres",
     "wof:parent_id":102065915,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":243,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

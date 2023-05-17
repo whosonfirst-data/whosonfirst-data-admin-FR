@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_69203",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Genis-l'Argenti\u00e8re",
+    "eurostat:nuts_2021_id":"69203",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK26",
+    "eurostat:nuts_2021_level_lau":"69203",
+    "eurostat:population":1041,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066587",
     "frgov:id":"BDCSURCO0000000009605517",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683569,
         102191581,
@@ -58,7 +72,10 @@
         102069293
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_69203",
+        "eurostat:nuts_2021_id":"69203"
+    },
     "wof:coterminous":[
         1125934097
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8d13b48679fa7007414ce6a26cbd8a71",
+    "wof:geomhash":"2df788cc4a96b0ec06226c3faac18ae3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404358287,
-    "wof:lastmodified":1582324969,
+    "wof:lastmodified":1684352729,
     "wof:name":"Saint-Genis-L'Argentiere",
     "wof:parent_id":102069293,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1041,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

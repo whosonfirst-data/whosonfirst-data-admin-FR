@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_76258",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Terres-de-Caux",
+    "eurostat:nuts_2021_id":"76258",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD22",
+    "eurostat:nuts_2021_level_lau":"76258",
+    "eurostat:population":4142,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200010700",
     "frgov:id":"BDCSURCO0000000009583693",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00477,
-    "geom:area_square_m":38186219.369763,
+    "geom:area_square_m":38186219.369764,
     "geom:bbox":"0.541416811762,49.610985658,0.666527624949,49.6923010014",
     "geom:latitude":49.652678,
     "geom:longitude":0.598056,
@@ -123,6 +135,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683251,
         102191581,
@@ -133,7 +147,10 @@
         102068043
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_76258",
+        "eurostat:nuts_2021_id":"76258"
+    },
     "wof:coterminous":[
         1125817457
     ],
@@ -141,7 +158,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9e2d7782375aa09d83fdac2ae4233cbb",
+    "wof:geomhash":"0df096e55dba3d3b19456793174819ec",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -155,11 +172,13 @@
         }
     ],
     "wof:id":404397497,
-    "wof:lastmodified":1582324204,
+    "wof:lastmodified":1684353219,
     "wof:name":"Saint-Pierre-Lavis",
     "wof:parent_id":102068043,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":4142,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_76557",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Arnoult",
+    "eurostat:nuts_2021_id":"76557",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD22",
+    "eurostat:nuts_2021_level_lau":"76557",
+    "eurostat:population":1384,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200010700",
     "frgov:id":"BDCSURCO0000000009584355",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001721,
-    "geom:area_square_m":13813737.730077,
+    "geom:area_square_m":13813737.730078,
     "geom:bbox":"0.613990806277,49.521383602,0.720000942426,49.5525689176",
     "geom:latitude":49.536332,
     "geom:longitude":0.677175,
@@ -93,6 +105,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683251,
         102191581,
@@ -103,7 +117,10 @@
         102066175
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_76557",
+        "eurostat:nuts_2021_id":"76557"
+    },
     "wof:coterminous":[
         101815035
     ],
@@ -111,7 +128,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b22a22c66e21181a1e84896c87f19f7d",
+    "wof:geomhash":"f497b7cad118c15ecd43733259024f35",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -125,11 +142,13 @@
         }
     ],
     "wof:id":404350495,
-    "wof:lastmodified":1582324861,
+    "wof:lastmodified":1684352624,
     "wof:name":"Saint-Arnoult",
     "wof:parent_id":102066175,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1384,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

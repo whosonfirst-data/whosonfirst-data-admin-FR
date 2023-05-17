@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_71402",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Cyr",
+    "eurostat:nuts_2021_id":"71402",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC13",
+    "eurostat:nuts_2021_level_lau":"71402",
+    "eurostat:population":729,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247103765",
     "frgov:id":"BDCSURCO0000000009601568",
     "frgov:insee_arr":"2",
@@ -105,6 +117,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683543,
         102191581,
@@ -115,7 +129,10 @@
         102071449
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_71402",
+        "eurostat:nuts_2021_id":"71402"
+    },
     "wof:coterminous":[
         101891237
     ],
@@ -123,7 +140,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ad09eb1d6af92c0467ffea2ac02dde86",
+    "wof:geomhash":"6f33e3ce954b46aac8dfae878f069393",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -137,11 +154,13 @@
         }
     ],
     "wof:id":404369785,
-    "wof:lastmodified":1582324913,
+    "wof:lastmodified":1684352887,
     "wof:name":"Saint-Cyr",
     "wof:parent_id":102071449,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":729,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

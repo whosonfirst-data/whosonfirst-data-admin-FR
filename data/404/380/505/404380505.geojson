@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_22324",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Quay-Perros",
+    "eurostat:nuts_2021_id":"22324",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH01",
+    "eurostat:nuts_2021_level_lau":"22324",
+    "eurostat:population":1303,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200065928",
     "frgov:id":"BDCSURCO0000000009589437",
     "frgov:insee_arr":"3",
@@ -135,6 +147,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683515,
         102191581,
@@ -144,7 +158,10 @@
         102069699
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_22324",
+        "eurostat:nuts_2021_id":"22324"
+    },
     "wof:coterminous":[
         101828261
     ],
@@ -152,7 +169,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3ed4d8d9d2a96490fbcae22c7bee7fbc",
+    "wof:geomhash":"e0c575a9f6616a414bf3334a775cfd66",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -165,11 +182,13 @@
         }
     ],
     "wof:id":404380505,
-    "wof:lastmodified":1582325371,
+    "wof:lastmodified":1684353016,
     "wof:name":"Saint-Quay-Perros",
     "wof:parent_id":102069699,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1303,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

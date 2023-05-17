@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_14572",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Denis-de-M\u00e9r\u00e9",
+    "eurostat:nuts_2021_id":"14572",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD11",
+    "eurostat:nuts_2021_level_lau":"14572",
+    "eurostat:population":834,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068799",
     "frgov:id":"BDCSURCO0000000009589369",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00139,
-    "geom:area_square_m":11307691.401525,
+    "geom:area_square_m":11307691.401526,
     "geom:bbox":"-0.540939440881,48.8456476162,-0.464764496418,48.8793188853",
     "geom:latitude":48.864892,
     "geom:longitude":-0.503355,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683579,
         102191581,
@@ -58,7 +72,10 @@
         102069979
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_14572",
+        "eurostat:nuts_2021_id":"14572"
+    },
     "wof:coterminous":[
         101879249
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"76a0a6c26960bb483def1f56972e3ece",
+    "wof:geomhash":"547d1ddc2863609977d0a5dda72f01b5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404404657,
-    "wof:lastmodified":1582325309,
+    "wof:lastmodified":1684353302,
     "wof:name":"Saint-Denis-De-Mere",
     "wof:parent_id":102069979,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":834,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

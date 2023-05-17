@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_31499",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Lys",
+    "eurostat:nuts_2021_id":"31499",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ23",
+    "eurostat:nuts_2021_level_lau":"31499",
+    "eurostat:population":9470,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068641",
     "frgov:id":"BDCSURCO0000000009613938",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002397,
-    "geom:area_square_m":21494137.956431,
+    "geom:area_square_m":21494137.956432,
     "geom:bbox":"1.15598089524,43.4886116636,1.24836679992,43.5325705266",
     "geom:latitude":43.5101,
     "geom:longitude":1.198827,
@@ -123,6 +135,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683397,
         102191581,
@@ -133,7 +147,10 @@
         102069773
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_31499",
+        "eurostat:nuts_2021_id":"31499"
+    },
     "wof:coterminous":[
         101773965
     ],
@@ -141,7 +158,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f2ba761ee0c9d36a210a6294ce7c5256",
+    "wof:geomhash":"6a266ea870a4663e3697882e26085e93",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -155,11 +172,13 @@
         }
     ],
     "wof:id":404364619,
-    "wof:lastmodified":1582324241,
+    "wof:lastmodified":1684352818,
     "wof:name":"Saint-Lys",
     "wof:parent_id":102069773,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":9470,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],
