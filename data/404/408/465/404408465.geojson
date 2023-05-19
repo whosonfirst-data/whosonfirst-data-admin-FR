@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_80577",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Moyencourt-l\u00e8s-Poix",
+    "eurostat:nuts_2021_id":"80577",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE23",
+    "eurostat:nuts_2021_level_lau":"80577",
+    "eurostat:population":181,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071181",
     "frgov:id":"BDCSURCO0000000009582998",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001299,
-    "geom:area_square_m":10370092.187653,
+    "geom:area_square_m":10370092.187651,
     "geom:bbox":"2.00394506895,49.774680711,2.0811230763,49.8100265193",
     "geom:latitude":49.79122,
     "geom:longitude":2.040474,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683363,
         102191581,
@@ -58,7 +72,10 @@
         102070551
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_80577",
+        "eurostat:nuts_2021_id":"80577"
+    },
     "wof:coterminous":[
         1125790501
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"803ef0663ed30f5ddacf75e70ded1401",
+    "wof:geomhash":"1a4d6c761dd35c23ba1554e2fad5c9c6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404408465,
-    "wof:lastmodified":1582324459,
+    "wof:lastmodified":1684353349,
     "wof:name":"Moyencourt-Les-Poix",
     "wof:parent_id":102070551,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":181,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

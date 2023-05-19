@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_53185",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Pr\u00e9-en-Pail-Saint-Samson",
+    "eurostat:nuts_2021_id":"53185",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG03",
+    "eurostat:nuts_2021_level_lau":"53185",
+    "eurostat:population":2331,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200042182",
     "frgov:id":"BDCSURCO0000000009593002",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00706,
-    "geom:area_square_m":57892335.343481,
+    "geom:area_square_m":57892335.34348,
     "geom:bbox":"-0.261084270478,48.4019051892,-0.137841511807,48.5036677826",
     "geom:latitude":48.456161,
     "geom:longitude":-0.19456,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683401,
         102191581,
@@ -57,7 +71,10 @@
         102068827
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_53185",
+        "eurostat:nuts_2021_id":"53185"
+    },
     "wof:coterminous":[
         101880691
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5af798ec92fba0037254d9ddebe607ad",
+    "wof:geomhash":"d59af14b1497a44930ce14f883a0d22c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404349151,
-    "wof:lastmodified":1582324701,
+    "wof:lastmodified":1684352605,
     "wof:name":"Pre-En-Pail",
     "wof:parent_id":102068827,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2331,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_22275",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Barnab\u00e9",
+    "eurostat:nuts_2021_id":"22275",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH01",
+    "eurostat:nuts_2021_level_lau":"22275",
+    "eurostat:population":1249,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067460",
     "frgov:id":"BDCSURCO0000000009594260",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BRETAGNE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002806,
-    "geom:area_square_m":23156198.316064,
+    "geom:area_square_m":23156198.316063,
     "geom:bbox":"-2.75197058124,48.1124291923,-2.64742236471,48.1648750489",
     "geom:latitude":48.138169,
     "geom:longitude":-2.702244,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683515,
         102191581,
@@ -57,7 +71,10 @@
         102065789
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_22275",
+        "eurostat:nuts_2021_id":"22275"
+    },
     "wof:coterminous":[
         101762813
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"542b63cefd36f3f747cc3a620e6ae995",
+    "wof:geomhash":"ed40802e298569c36a05c249ca4e3b7a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404376549,
-    "wof:lastmodified":1582324676,
+    "wof:lastmodified":1684352970,
     "wof:name":"Saint-Barnabe",
     "wof:parent_id":102065789,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1249,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

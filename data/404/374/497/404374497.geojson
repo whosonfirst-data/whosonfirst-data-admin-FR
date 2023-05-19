@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_02151",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Cerny-l\u00e8s-Bucy",
+    "eurostat:nuts_2021_id":"02151",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE21",
+    "eurostat:nuts_2021_level_lau":"02151",
+    "eurostat:population":115,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200043495",
     "frgov:id":"BDCSURCO0000000009583827",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000394,
-    "geom:area_square_m":3157671.860427,
+    "geom:area_square_m":3157671.860426,
     "geom:bbox":"3.52974291119,49.5698084181,3.56362249021,49.5883145833",
     "geom:latitude":49.577776,
     "geom:longitude":3.546338,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683247,
         102191581,
@@ -58,7 +72,10 @@
         102067599
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_02151",
+        "eurostat:nuts_2021_id":"02151"
+    },
     "wof:coterminous":[
         1126009081
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e774f915620f0f65bfa08be692c32590",
+    "wof:geomhash":"fcc7c59985c9d7e7329bfdabee179532",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404374497,
-    "wof:lastmodified":1582325392,
+    "wof:lastmodified":1684352942,
     "wof:name":"Cerny-Les-Bucy",
     "wof:parent_id":102067599,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":115,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

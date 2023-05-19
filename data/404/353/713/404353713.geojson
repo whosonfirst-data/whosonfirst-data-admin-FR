@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_23205",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Junien-la-Breg\u00e8re",
+    "eurostat:nuts_2021_id":"23205",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI22",
+    "eurostat:nuts_2021_level_lau":"23205",
+    "eurostat:population":140,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067189",
     "frgov:id":"BDCSURCO0000000009605091",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002966,
-    "geom:area_square_m":25533375.701791,
+    "geom:area_square_m":25533375.70179,
     "geom:bbox":"1.70236610203,45.8513889478,1.78456224528,45.9204604763",
     "geom:latitude":45.884827,
     "geom:longitude":1.743799,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683179,
         102191581,
@@ -58,7 +72,10 @@
         102068335
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_23205",
+        "eurostat:nuts_2021_id":"23205"
+    },
     "wof:coterminous":[
         1125813527
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6a97ee99240400c2b489355650195b56",
+    "wof:geomhash":"32f21e7db096b2dea67ac3544fef922c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404353713,
-    "wof:lastmodified":1582324131,
+    "wof:lastmodified":1684352667,
     "wof:name":"Saint-Junien-La-Bregere",
     "wof:parent_id":102068335,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":140,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_68261",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rammersmatt",
+    "eurostat:nuts_2021_id":"68261",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF1",
+    "eurostat:nuts_2021_level_3":"FRF12",
+    "eurostat:nuts_2021_level_lau":"68261",
+    "eurostat:population":223,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200036465",
     "frgov:id":"BDCSURCO0000000009595954",
     "frgov:insee_arr":"6",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.000659,
-    "geom:area_square_m":5473159.839912,
+    "geom:area_square_m":5473159.839911,
     "geom:bbox":"7.04101862127,47.7784256342,7.08024059404,47.8079066123",
     "geom:latitude":47.794243,
     "geom:longitude":7.059586,
@@ -132,6 +144,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683381,
         102191581,
@@ -142,7 +156,10 @@
         102069061
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_68261",
+        "eurostat:nuts_2021_id":"68261"
+    },
     "wof:coterminous":[
         1125927051
     ],
@@ -150,7 +167,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"81dff592a26411c5a38b9a01adbb8986",
+    "wof:geomhash":"66f908b977a0670a2cf5ddbee002ac4e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -164,11 +181,13 @@
         }
     ],
     "wof:id":404414893,
-    "wof:lastmodified":1582324339,
+    "wof:lastmodified":1684353425,
     "wof:name":"Rammersmatt",
     "wof:parent_id":102069061,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":223,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

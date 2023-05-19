@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_80290",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Estr\u00e9es-l\u00e8s-Cr\u00e9cy",
+    "eurostat:nuts_2021_id":"80290",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE23",
+    "eurostat:nuts_2021_level_lau":"80290",
+    "eurostat:population":391,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070936",
     "frgov:id":"BDCSURCO0000000009581558",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683363,
         102191581,
@@ -58,7 +72,10 @@
         102067777
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_80290",
+        "eurostat:nuts_2021_id":"80290"
+    },
     "wof:coterminous":[
         101898885
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2d0df5e0b44bdc1a518cac601cb9208b",
+    "wof:geomhash":"32d52f5e84a215cf1a5432f802cdc389",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404385373,
-    "wof:lastmodified":1582324642,
+    "wof:lastmodified":1684353074,
     "wof:name":"Estrees-Les-Crecy",
     "wof:parent_id":102067777,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":391,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

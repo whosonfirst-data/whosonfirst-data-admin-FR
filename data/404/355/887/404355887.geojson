@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_19231",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Pardoux-la-Croisille",
+    "eurostat:nuts_2021_id":"19231",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI21",
+    "eurostat:nuts_2021_level_lau":"19231",
+    "eurostat:population":177,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"241927201",
     "frgov:id":"BDCSURCO0000000009607531",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001998,
-    "geom:area_square_m":17393564.688069,
+    "geom:area_square_m":17393564.688068,
     "geom:bbox":"1.92679676922,45.2283353086,2.00541218429,45.2794218539",
     "geom:latitude":45.249515,
     "geom:longitude":1.968857,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683209,
         102191581,
@@ -58,7 +72,10 @@
         102068005
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_19231",
+        "eurostat:nuts_2021_id":"19231"
+    },
     "wof:coterminous":[
         1125776477
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"363f4cfd8bb9d1bdc68c95db099b3c68",
+    "wof:geomhash":"5a68d3ad072ac42f2cc497d1ea453171",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404355887,
-    "wof:lastmodified":1582324183,
+    "wof:lastmodified":1684352697,
     "wof:name":"Saint-Pardoux-La-Croisille",
     "wof:parent_id":102068005,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":177,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

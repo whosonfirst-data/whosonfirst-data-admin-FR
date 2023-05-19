@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_07263",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Laurent-sous-Coiron",
+    "eurostat:nuts_2021_id":"07263",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK22",
+    "eurostat:nuts_2021_level_lau":"07263",
+    "eurostat:population":100,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240700815",
     "frgov:id":"BDCSURCO0000000009609647",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001781,
-    "geom:area_square_m":15663499.733112,
+    "geom:area_square_m":15663499.733111,
     "geom:bbox":"4.45611401066,44.6352105694,4.51149632074,44.7099795287",
     "geom:latitude":44.664519,
     "geom:longitude":4.484752,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683421,
         102191581,
@@ -58,7 +72,10 @@
         102069599
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_07263",
+        "eurostat:nuts_2021_id":"07263"
+    },
     "wof:coterminous":[
         1126036181
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4df7da0e86b4b8c7d38a64bc59e8518b",
+    "wof:geomhash":"f1ce1e8b22f588d8f7dc62ddea141b88",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404421495,
-    "wof:lastmodified":1582325108,
+    "wof:lastmodified":1684353503,
     "wof:name":"Saint-Laurent-Sous-Coiron",
     "wof:parent_id":102069599,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":100,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

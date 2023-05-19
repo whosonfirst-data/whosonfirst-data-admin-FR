@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_24229",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lardin-Saint-Lazare",
+    "eurostat:nuts_2021_id":"24229",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI11",
+    "eurostat:nuts_2021_level_lau":"24229",
+    "eurostat:population":1753,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041150",
     "frgov:id":"BDCSURCO0000000009607985",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001243,
-    "geom:area_square_m":10844314.810661,
+    "geom:area_square_m":10844314.81066,
     "geom:bbox":"1.19404065899,45.119251361,1.26229538601,45.153481212",
     "geom:latitude":45.136137,
     "geom:longitude":1.232215,
@@ -123,6 +135,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683331,
         102191581,
@@ -133,7 +147,10 @@
         102070999
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_24229",
+        "eurostat:nuts_2021_id":"24229"
+    },
     "wof:coterminous":[
         101769367
     ],
@@ -141,7 +158,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"91bd1acf618052e44402ae7a5b2eda2f",
+    "wof:geomhash":"00b4cde904ff144ad1ebf48f8cdf183b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -155,11 +172,13 @@
         }
     ],
     "wof:id":404418855,
-    "wof:lastmodified":1582325229,
+    "wof:lastmodified":1684353470,
     "wof:name":"Le Lardin-Saint-Lazare",
     "wof:parent_id":102070999,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1753,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

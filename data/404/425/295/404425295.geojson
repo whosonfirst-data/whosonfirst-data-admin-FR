@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_19196",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Cyr-la-Roche",
+    "eurostat:nuts_2021_id":"19196",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI21",
+    "eurostat:nuts_2021_level_lau":"19196",
+    "eurostat:population":505,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200043172",
     "frgov:id":"BDCSURCO0000000009607544",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000965,
-    "geom:area_square_m":8392243.07169,
+    "geom:area_square_m":8392243.071691,
     "geom:bbox":"1.36372653589,45.2596939306,1.40418109354,45.2968966487",
     "geom:latitude":45.27884,
     "geom:longitude":1.383953,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683209,
         102191581,
@@ -58,7 +72,10 @@
         102066413
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_19196",
+        "eurostat:nuts_2021_id":"19196"
+    },
     "wof:coterminous":[
         1125933591
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7eba6a69e7688142c2c3cb72999e0b13",
+    "wof:geomhash":"20b78eb25a8c8b8fdeb741f4b6340c2d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404425295,
-    "wof:lastmodified":1582324302,
+    "wof:lastmodified":1684353549,
     "wof:name":"Saint-Cyr-La-Roche",
     "wof:parent_id":102066413,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":505,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_12238",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-L\u00e9ons",
+    "eurostat:nuts_2021_id":"12238",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ22",
+    "eurostat:nuts_2021_level_lau":"12238",
+    "eurostat:population":398,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"241200765",
     "frgov:id":"BDCSURCO0000000009611236",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003692,
-    "geom:area_square_m":32719580.314393,
+    "geom:area_square_m":32719580.314392,
     "geom:bbox":"2.93017379214,44.1864221503,3.03650550043,44.2586874244",
     "geom:latitude":44.222812,
     "geom:longitude":2.982775,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683301,
         102191581,
@@ -58,7 +72,10 @@
         102071107
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_12238",
+        "eurostat:nuts_2021_id":"12238"
+    },
     "wof:coterminous":[
         101895979
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"13a0b75d27c5407cd4862ef622c10adc",
+    "wof:geomhash":"aa56ec8903296677f428fdb3e794d8ec",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404368879,
-    "wof:lastmodified":1582324877,
+    "wof:lastmodified":1684352877,
     "wof:name":"Saint-Leons",
     "wof:parent_id":102071107,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":398,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

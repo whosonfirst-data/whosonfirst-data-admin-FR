@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_22158",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Guerl\u00e9dan",
+    "eurostat:nuts_2021_id":"22158",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH01",
+    "eurostat:nuts_2021_level_lau":"22158",
+    "eurostat:population":2444,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067460",
     "frgov:id":"BDCSURCO0000000009593888",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BRETAGNE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00595,
-    "geom:area_square_m":49033679.649919,
+    "geom:area_square_m":49033679.649916,
     "geom:bbox":"-3.02532589925,48.1596360831,-2.86787395203,48.2324476946",
     "geom:latitude":48.201496,
     "geom:longitude":-2.957948,
@@ -135,6 +147,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683515,
         102191581,
@@ -144,7 +158,10 @@
         102069331
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_22158",
+        "eurostat:nuts_2021_id":"22158"
+    },
     "wof:coterminous":[
         101881591
     ],
@@ -152,7 +169,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d65716f93a6b20c3a3afbcb46b77d089",
+    "wof:geomhash":"5c10a028d90a1d0355bfa44da7e195fa",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -165,11 +182,13 @@
         }
     ],
     "wof:id":404365315,
-    "wof:lastmodified":1582324033,
+    "wof:lastmodified":1684352828,
     "wof:name":"Saint-Guen",
     "wof:parent_id":102069331,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2444,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

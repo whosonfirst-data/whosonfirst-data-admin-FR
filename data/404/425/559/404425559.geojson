@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_61206",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"H\u00f4me-Chamondot",
+    "eurostat:nuts_2021_id":"61206",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD13",
+    "eurostat:nuts_2021_level_lau":"61206",
+    "eurostat:population":257,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068856",
     "frgov:id":"BDCSURCO0000000009591616",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001959,
-    "geom:area_square_m":16022668.608754,
+    "geom:area_square_m":16022668.608755,
     "geom:bbox":"0.698019566318,48.5831672666,0.776765866863,48.6230655116",
     "geom:latitude":48.600379,
     "geom:longitude":0.736449,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683527,
         102191581,
@@ -56,7 +70,10 @@
         102067917
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_61206",
+        "eurostat:nuts_2021_id":"61206"
+    },
     "wof:coterminous":[
         1360680135
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e79d281627053069f108dcceea1d736d",
+    "wof:geomhash":"fa2dad2cd66a24bace3b63eb44e41c1b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404425559,
-    "wof:lastmodified":1582324298,
+    "wof:lastmodified":1684353552,
     "wof:name":"L'Home-Chamondot",
     "wof:parent_id":102067917,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":257,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

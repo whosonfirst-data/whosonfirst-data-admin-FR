@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_33436",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Magne",
+    "eurostat:nuts_2021_id":"33436",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI12",
+    "eurostat:nuts_2021_level_lau":"33436",
+    "eurostat:population":967,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243301405",
     "frgov:id":"BDCSURCO0000000009610240",
     "frgov:insee_arr":"6",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.009394,
-    "geom:area_square_m":82776938.557985,
+    "geom:area_square_m":82776938.557986,
     "geom:bbox":"-0.722962267119,44.5067112628,-0.601582853583,44.6109718749",
     "geom:latitude":44.554494,
     "geom:longitude":-0.658498,
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683243,
         102191581,
@@ -139,7 +153,10 @@
         102065203
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_33436",
+        "eurostat:nuts_2021_id":"33436"
+    },
     "wof:coterminous":[
         101895179
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"fcb90468a6250f1d53257632ef9b1127",
+    "wof:geomhash":"d028237a794e919cdd3b335af48d0947",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404406071,
-    "wof:lastmodified":1582324440,
+    "wof:lastmodified":1684353321,
     "wof:name":"Saint-Magne",
     "wof:parent_id":102065203,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":967,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

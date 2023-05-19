@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_33422",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Jean-d'Illac",
+    "eurostat:nuts_2021_id":"33422",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI12",
+    "eurostat:nuts_2021_level_lau":"33422",
+    "eurostat:population":8377,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243301165",
     "frgov:id":"BDCSURCO0000000009609349",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683243,
         102191581,
@@ -58,7 +72,10 @@
         102071775
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_33422",
+        "eurostat:nuts_2021_id":"33422"
+    },
     "wof:coterminous":[
         101770693
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"39bbc2a1efe3fcf66eb62a148e68d6d1",
+    "wof:geomhash":"fcd35a081b762622723e844f48eb7fcf",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404398959,
-    "wof:lastmodified":1582324113,
+    "wof:lastmodified":1684353238,
     "wof:name":"Saint-Jean-D'Illac",
     "wof:parent_id":102071775,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":8377,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_47281",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Urcisse",
+    "eurostat:nuts_2021_id":"47281",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI14",
+    "eurostat:nuts_2021_level_lau":"47281",
+    "eurostat:population":236,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200036572",
     "frgov:id":"BDCSURCO0000000009611285",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001233,
-    "geom:area_square_m":10939704.700986,
+    "geom:area_square_m":10939704.700987,
     "geom:bbox":"0.797960796064,44.1467728629,0.863941360729,44.1795197055",
     "geom:latitude":44.164441,
     "geom:longitude":0.827519,
@@ -81,6 +93,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683341,
         102191581,
@@ -91,7 +105,10 @@
         102069631
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_47281",
+        "eurostat:nuts_2021_id":"47281"
+    },
     "wof:coterminous":[
         1125820567
     ],
@@ -99,7 +116,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7bcc099845411a737f44bb4e360e71c5",
+    "wof:geomhash":"2b1bfbd46f4280b8ab91e4e46f4411ad",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -113,11 +130,13 @@
         }
     ],
     "wof:id":404384579,
-    "wof:lastmodified":1582324626,
+    "wof:lastmodified":1684353066,
     "wof:name":"Saint-Urcisse",
     "wof:parent_id":102069631,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":236,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

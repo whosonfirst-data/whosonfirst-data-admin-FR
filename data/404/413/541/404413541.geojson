@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_26324",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Paul-Trois-Ch\u00e2teaux",
+    "eurostat:nuts_2021_id":"26324",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK23",
+    "eurostat:nuts_2021_level_lau":"26324",
+    "eurostat:population":8937,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200042901",
     "frgov:id":"BDCSURCO0000000009610678",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.002493,
-    "geom:area_square_m":22039899.630158,
+    "geom:area_square_m":22039899.630156,
     "geom:bbox":"4.72006656591,44.3250338309,4.80301646019,44.3725422997",
     "geom:latitude":44.348335,
     "geom:longitude":4.757612,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683523,
         102191581,
@@ -58,7 +72,10 @@
         102068961
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_26324",
+        "eurostat:nuts_2021_id":"26324"
+    },
     "wof:coterminous":[
         101831911
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6e2e3921c7b01dcb0d278669a3304743",
+    "wof:geomhash":"b930990aa0dc3072b9f279c5b9500609",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404413541,
-    "wof:lastmodified":1582324332,
+    "wof:lastmodified":1684353409,
     "wof:name":"Saint-Paul-Trois-Chateaux",
     "wof:parent_id":102068961,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":8937,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

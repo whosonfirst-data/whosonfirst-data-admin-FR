@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_08428",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sorcy-Bauth\u00e9mont",
+    "eurostat:nuts_2021_id":"08428",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF21",
+    "eurostat:nuts_2021_level_lau":"08428",
+    "eurostat:population":151,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240800862",
     "frgov:id":"BDCSURCO0000000009584154",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683309,
         102191581,
@@ -58,7 +72,10 @@
         102067797
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_08428",
+        "eurostat:nuts_2021_id":"08428"
+    },
     "wof:coterminous":[
         101903163
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"56843fc5fe5c648c6cc7a76d0e0cce63",
+    "wof:geomhash":"8173da972e9ba722ff152dc1526f4041",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404371789,
-    "wof:lastmodified":1582324659,
+    "wof:lastmodified":1684352910,
     "wof:name":"Sorcy-Bauthemont",
     "wof:parent_id":102067797,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":151,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

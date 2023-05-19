@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_07202",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sabli\u00e8res",
+    "eurostat:nuts_2021_id":"07202",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK22",
+    "eurostat:nuts_2021_level_lau":"07202",
+    "eurostat:population":164,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240700302",
     "frgov:id":"BDCSURCO0000000009610109",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.004353,
-    "geom:area_square_m":38360014.226446,
+    "geom:area_square_m":38360014.226444,
     "geom:bbox":"4.02142077936,44.5059099345,4.11386022551,44.5844286185",
     "geom:latitude":44.543395,
     "geom:longitude":4.063409,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683421,
         102191581,
@@ -58,7 +72,10 @@
         102065809
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_07202",
+        "eurostat:nuts_2021_id":"07202"
+    },
     "wof:coterminous":[
         1125916705
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"264d4e4924d7a3471e597604af4b8f9e",
+    "wof:geomhash":"93400944b1dde5e2c210529ac7cf77c3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404375953,
-    "wof:lastmodified":1582325406,
+    "wof:lastmodified":1684352962,
     "wof:name":"Sablieres",
     "wof:parent_id":102065809,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":164,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

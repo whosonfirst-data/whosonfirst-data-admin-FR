@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_07117",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lablach\u00e8re",
+    "eurostat:nuts_2021_id":"07117",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK22",
+    "eurostat:nuts_2021_level_lau":"07117",
+    "eurostat:population":2143,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240700302",
     "frgov:id":"BDCSURCO0000000009610307",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.003016,
-    "geom:area_square_m":26618561.22471,
+    "geom:area_square_m":26618561.224712,
     "geom:bbox":"4.1640881911,44.4300338074,4.26765907474,44.4923556395",
     "geom:latitude":44.460169,
     "geom:longitude":4.214041,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683421,
         102191581,
@@ -58,7 +72,10 @@
         102065809
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_07117",
+        "eurostat:nuts_2021_id":"07117"
+    },
     "wof:coterminous":[
         101851211
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0250dffe18ca1919b75a7ba280922a4d",
+    "wof:geomhash":"460aefc4d1f79d92fe2a37d24e4eb0d0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404366579,
-    "wof:lastmodified":1582324841,
+    "wof:lastmodified":1684352846,
     "wof:name":"Lablachere",
     "wof:parent_id":102065809,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2143,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

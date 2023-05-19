@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_02127",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bruy\u00e8res-sur-F\u00e8re",
+    "eurostat:nuts_2021_id":"02127",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE21",
+    "eurostat:nuts_2021_level_lau":"02127",
+    "eurostat:population":189,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072031",
     "frgov:id":"BDCSURCO0000000009586631",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001113,
-    "geom:area_square_m":8992979.423571,
+    "geom:area_square_m":8992979.42357,
     "geom:bbox":"3.41967266804,49.1824012265,3.47007405549,49.2164042524",
     "geom:latitude":49.199655,
     "geom:longitude":3.445446,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683247,
         102191581,
@@ -58,7 +72,10 @@
         102066977
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_02127",
+        "eurostat:nuts_2021_id":"02127"
+    },
     "wof:coterminous":[
         1126040379
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a3d4f2c1f8cb09fe9e826c8080800017",
+    "wof:geomhash":"1aae0df23cc8185c6a01b17b9107480c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404410083,
-    "wof:lastmodified":1582325146,
+    "wof:lastmodified":1684353367,
     "wof:name":"Bruyeres-Sur-Fere",
     "wof:parent_id":102066977,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":189,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

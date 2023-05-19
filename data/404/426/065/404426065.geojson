@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_65421",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"S\u00e8re-Lanso",
+    "eurostat:nuts_2021_id":"65421",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ26",
+    "eurostat:nuts_2021_level_lau":"65421",
+    "eurostat:population":52,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069300",
     "frgov:id":"BDCSURCO0000000009615711",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683203,
         102191581,
@@ -58,7 +72,10 @@
         102066445
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_65421",
+        "eurostat:nuts_2021_id":"65421"
+    },
     "wof:coterminous":[
         1125777565
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"eb6a3c0f251a8b03e1b09c6b38f1257a",
+    "wof:geomhash":"03fd3ee4b7ef0f1ac05a17fbdb22c13c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404426065,
-    "wof:lastmodified":1582325082,
+    "wof:lastmodified":1684353558,
     "wof:name":"Sere-Lanso",
     "wof:parent_id":102066445,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":52,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

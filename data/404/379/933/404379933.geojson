@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_90004",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Argi\u00e9sans",
+    "eurostat:nuts_2021_id":"90004",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC24",
+    "eurostat:nuts_2021_level_lau":"90004",
+    "eurostat:population":461,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069052",
     "frgov:id":"BDCSURCO0000000009596999",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683353,
         102191581,
@@ -58,7 +72,10 @@
         102066069
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_90004",
+        "eurostat:nuts_2021_id":"90004"
+    },
     "wof:coterminous":[
         1126032047
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"af76febc8b8336caa57657e1c5cfdf72",
+    "wof:geomhash":"f8073fd44184eda7cbffe2d6437091bb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404379933,
-    "wof:lastmodified":1582324530,
+    "wof:lastmodified":1684353010,
     "wof:name":"Argiesans",
     "wof:parent_id":102066069,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":461,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

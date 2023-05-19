@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_50467",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Floxel",
+    "eurostat:nuts_2021_id":"50467",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD12",
+    "eurostat:nuts_2021_level_lau":"50467",
+    "eurostat:population":491,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067205",
     "frgov:id":"BDCSURCO0000000009584389",
     "frgov:insee_arr":"2",
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683489,
         102191581,
@@ -136,7 +150,10 @@
         102068405
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_50467",
+        "eurostat:nuts_2021_id":"50467"
+    },
     "wof:coterminous":[
         1125810775
     ],
@@ -144,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"894d256a9011501d5cdf735ae6f0ab41",
+    "wof:geomhash":"e825b8553bdc257bde41e10687c50e3d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +175,13 @@
         }
     ],
     "wof:id":404415143,
-    "wof:lastmodified":1582324358,
+    "wof:lastmodified":1684353427,
     "wof:name":"Saint-Floxel",
     "wof:parent_id":102068405,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":491,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

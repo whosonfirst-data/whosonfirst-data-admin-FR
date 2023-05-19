@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_09264",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Jean-de-Verges",
+    "eurostat:nuts_2021_id":"09264",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ21",
+    "eurostat:nuts_2021_level_lau":"09264",
+    "eurostat:population":1249,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067791",
     "frgov:id":"BDCSURCO0000000009615812",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001422,
-    "geom:area_square_m":12854579.356205,
+    "geom:area_square_m":12854579.356204,
     "geom:bbox":"1.60524584367,42.9852848362,1.66628926109,43.0387500734",
     "geom:latitude":43.012841,
     "geom:longitude":1.632695,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683335,
         102191581,
@@ -58,7 +72,10 @@
         102068143
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_09264",
+        "eurostat:nuts_2021_id":"09264"
+    },
     "wof:coterminous":[
         1125777665
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6a94c00256e1a8112bfec59dc5a0b336",
+    "wof:geomhash":"8d893b84f38be54e02e7ee61dbe1cfef",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404376377,
-    "wof:lastmodified":1582324667,
+    "wof:lastmodified":1684352968,
     "wof:name":"Saint-Jean-De-Verges",
     "wof:parent_id":102068143,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1249,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_52523",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Vignes-la-C\u00f4te",
+    "eurostat:nuts_2021_id":"52523",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF24",
+    "eurostat:nuts_2021_level_lau":"52523",
+    "eurostat:population":64,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069664",
     "frgov:id":"BDCSURCO0000000009593612",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683261,
         102191581,
@@ -58,7 +72,10 @@
         102064271
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_52523",
+        "eurostat:nuts_2021_id":"52523"
+    },
     "wof:coterminous":[
         1125928639
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9cc197e0c3236c29e04a39de1c68a004",
+    "wof:geomhash":"d8f4931b904c1d07ce77a202ebb015a2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404379577,
-    "wof:lastmodified":1582324536,
+    "wof:lastmodified":1684353006,
     "wof:name":"Vignes-La-Cote",
     "wof:parent_id":102064271,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":64,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

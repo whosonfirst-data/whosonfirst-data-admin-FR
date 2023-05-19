@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_83088",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"N\u00e9oules",
+    "eurostat:nuts_2021_id":"83088",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL05",
+    "eurostat:nuts_2021_level_lau":"83088",
+    "eurostat:population":2712,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068104",
     "frgov:id":"BDCSURCO0000000009614371",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.002784,
-    "geom:area_square_m":25055905.255326,
+    "geom:area_square_m":25055905.255327,
     "geom:bbox":"5.98571817328,43.2628285945,6.0676966507,43.3193133268",
     "geom:latitude":43.294382,
     "geom:longitude":6.026138,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683315,
         102191581,
@@ -57,7 +71,10 @@
         102068101
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_83088",
+        "eurostat:nuts_2021_id":"83088"
+    },
     "wof:coterminous":[
         101773399
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2f89b071ff0f131a3d59b75ee88e70b2",
+    "wof:geomhash":"144ed38ab4e50201159df83f47427329",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404367757,
-    "wof:lastmodified":1582324998,
+    "wof:lastmodified":1684352862,
     "wof:name":"Neoules",
     "wof:parent_id":102068101,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2712,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

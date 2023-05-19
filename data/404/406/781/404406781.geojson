@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_54471",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Boingt",
+    "eurostat:nuts_2021_id":"54471",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF31",
+    "eurostat:nuts_2021_level_lau":"54471",
+    "eurostat:population":71,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067643",
     "frgov:id":"BDCSURCO0000000009592281",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.000999,
-    "geom:area_square_m":8195526.067106,
+    "geom:area_square_m":8195526.067105,
     "geom:bbox":"6.40067782519,48.3906109828,6.45371158656,48.4416853646",
     "geom:latitude":48.418643,
     "geom:longitude":6.42949,
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683343,
         102191581,
@@ -139,7 +153,10 @@
         102065107
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_54471",
+        "eurostat:nuts_2021_id":"54471"
+    },
     "wof:coterminous":[
         1125808651
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e25d22055a944fd74b88b88aa20a30e7",
+    "wof:geomhash":"f92eff0cfbceb6e85a8f68fbbe04f4a4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404406781,
-    "wof:lastmodified":1582324451,
+    "wof:lastmodified":1684353330,
     "wof:name":"Saint-Boingt",
     "wof:parent_id":102065107,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":71,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

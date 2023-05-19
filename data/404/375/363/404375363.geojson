@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_24398",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Est\u00e8phe",
+    "eurostat:nuts_2021_id":"24398",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI11",
+    "eurostat:nuts_2021_level_lau":"24398",
+    "eurostat:population":613,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071819",
     "frgov:id":"BDCSURCO0000000009606152",
     "frgov:insee_arr":"2",
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683331,
         102191581,
@@ -56,7 +70,10 @@
         102069131
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_24398",
+        "eurostat:nuts_2021_id":"24398"
+    },
     "wof:coterminous":[
         1360675317
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"81810bcf96a8850b3528a0c9f13f4038",
+    "wof:geomhash":"b16aafde02d38a42a3e6ca45d97c0164",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404375363,
-    "wof:lastmodified":1582325408,
+    "wof:lastmodified":1684352954,
     "wof:name":"Saint-Estephe",
     "wof:parent_id":102069131,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":613,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

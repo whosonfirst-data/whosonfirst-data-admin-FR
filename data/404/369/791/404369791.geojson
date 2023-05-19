@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_22030",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Caou\u00ebnnec-Lanv\u00e9z\u00e9ac",
+    "eurostat:nuts_2021_id":"22030",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH01",
+    "eurostat:nuts_2021_level_lau":"22030",
+    "eurostat:population":873,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200065928",
     "frgov:id":"BDCSURCO0000000009589928",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BRETAGNE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000884,
-    "geom:area_square_m":7215191.041007,
+    "geom:area_square_m":7215191.041008,
     "geom:bbox":"-3.39550645363,48.6944985889,-3.34005601496,48.7185510459",
     "geom:latitude":48.705793,
     "geom:longitude":-3.367468,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683515,
         102191581,
@@ -57,7 +71,10 @@
         102067885
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_22030",
+        "eurostat:nuts_2021_id":"22030"
+    },
     "wof:coterminous":[
         101877485
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"fbf0e2b2fc4e56e6e79db910a8669cf5",
+    "wof:geomhash":"231e7b728e43c6efaf0d8fe9ec025608",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404369791,
-    "wof:lastmodified":1582324907,
+    "wof:lastmodified":1684352887,
     "wof:name":"Caouennec-Lanvezeac",
     "wof:parent_id":102067885,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":873,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

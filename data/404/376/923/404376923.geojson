@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_02133",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bucy-l\u00e8s-Pierrepont",
+    "eurostat:nuts_2021_id":"02133",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE21",
+    "eurostat:nuts_2021_level_lau":"02133",
+    "eurostat:population":411,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240200576",
     "frgov:id":"BDCSURCO0000000009583500",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001828,
-    "geom:area_square_m":14633096.999177,
+    "geom:area_square_m":14633096.999175,
     "geom:bbox":"3.8626408129,49.6255893654,3.94536868995,49.6732703463",
     "geom:latitude":49.646297,
     "geom:longitude":3.90328,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683247,
         102191581,
@@ -58,7 +72,10 @@
         102069807
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_02133",
+        "eurostat:nuts_2021_id":"02133"
+    },
     "wof:coterminous":[
         101901475
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"492a7fa429313cff8b21fca6d9142904",
+    "wof:geomhash":"07dbe4c14185004dc0602b7e9a4fa329",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404376923,
-    "wof:lastmodified":1582324668,
+    "wof:lastmodified":1684352975,
     "wof:name":"Bucy-Les-Pierrepont",
     "wof:parent_id":102069807,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":411,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

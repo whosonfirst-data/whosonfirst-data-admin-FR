@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_40146",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Latrille",
+    "eurostat:nuts_2021_id":"40146",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI13",
+    "eurostat:nuts_2021_level_lau":"40146",
+    "eurostat:population":156,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200030435",
     "frgov:id":"BDCSURCO0000000009613285",
     "frgov:insee_arr":"2",
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683183,
         102191581,
@@ -139,7 +153,10 @@
         102064333
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_40146",
+        "eurostat:nuts_2021_id":"40146"
+    },
     "wof:coterminous":[
         1125771361
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c8a63b0b800e966441113c31af3e8f98",
+    "wof:geomhash":"75fd0c5ed106bbd930114e1d25237ea1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404398963,
-    "wof:lastmodified":1582324104,
+    "wof:lastmodified":1684353238,
     "wof:name":"Latrille",
     "wof:parent_id":102064333,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":156,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

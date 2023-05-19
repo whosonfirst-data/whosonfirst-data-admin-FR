@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_72196",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"M\u00e9zi\u00e8res-sur-Ponthouin",
+    "eurostat:nuts_2021_id":"72196",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG04",
+    "eurostat:nuts_2021_level_lau":"72196",
+    "eurostat:population":706,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072676",
     "frgov:id":"BDCSURCO0000000009594547",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002189,
-    "geom:area_square_m":18040339.595378,
+    "geom:area_square_m":18040339.595376,
     "geom:bbox":"0.255339011247,48.1726739406,0.332451035953,48.2365039841",
     "geom:latitude":48.201941,
     "geom:longitude":0.298076,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683279,
         102191581,
@@ -57,7 +71,10 @@
         102068411
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_72196",
+        "eurostat:nuts_2021_id":"72196"
+    },
     "wof:coterminous":[
         101883227
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"317b6916dbfc361bcf219c9f367ba266",
+    "wof:geomhash":"83ebc86beee44a823a45f1e1cad48890",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404420669,
-    "wof:lastmodified":1582325201,
+    "wof:lastmodified":1684353492,
     "wof:name":"Mezieres-Sur-Ponthouin",
     "wof:parent_id":102068411,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":706,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

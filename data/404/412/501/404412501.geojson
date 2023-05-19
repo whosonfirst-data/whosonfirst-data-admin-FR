@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_31241",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Izaut-de-l'H\u00f4tel",
+    "eurostat:nuts_2021_id":"31241",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ23",
+    "eurostat:nuts_2021_level_lau":"31241",
+    "eurostat:population":314,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200073146",
     "frgov:id":"BDCSURCO0000000009615849",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001063,
-    "geom:area_square_m":9607361.60841,
+    "geom:area_square_m":9607361.608409,
     "geom:bbox":"0.721998823787,42.9943472207,0.773898218235,43.0304162557",
     "geom:latitude":43.013089,
     "geom:longitude":0.749486,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683397,
         102191581,
@@ -58,7 +72,10 @@
         102064325
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_31241",
+        "eurostat:nuts_2021_id":"31241"
+    },
     "wof:coterminous":[
         101898069
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e99c6bd3711bc4acfa34364b88d2532b",
+    "wof:geomhash":"81f19bd6a3315bc007256c99a4a647b7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404412501,
-    "wof:lastmodified":1582324377,
+    "wof:lastmodified":1684353395,
     "wof:name":"Izaut-De-L'Hotel",
     "wof:parent_id":102064325,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":314,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_70384",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Neuvelle-l\u00e8s-la-Charit\u00e9",
+    "eurostat:nuts_2021_id":"70384",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC23",
+    "eurostat:nuts_2021_level_lau":"70384",
+    "eurostat:population":225,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247000367",
     "frgov:id":"BDCSURCO0000000009597973",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00158,
-    "geom:area_square_m":13186183.320999,
+    "geom:area_square_m":13186183.320998,
     "geom:bbox":"5.9278065701,47.5076950355,5.99670551766,47.5622217039",
     "geom:latitude":47.53955,
     "geom:longitude":5.960317,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683559,
         102191581,
@@ -58,7 +72,10 @@
         102068781
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_70384",
+        "eurostat:nuts_2021_id":"70384"
+    },
     "wof:coterminous":[
         1125809423
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f120f9519fcef245a7389b0e75f33857",
+    "wof:geomhash":"805925bec4f952df019cb865bdcea3f7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404365281,
-    "wof:lastmodified":1582324030,
+    "wof:lastmodified":1684352828,
     "wof:name":"Neuvelle-Les-La-Charite",
     "wof:parent_id":102068781,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":225,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_27580",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Ouen-de-Thouberville",
+    "eurostat:nuts_2021_id":"27580",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD21",
+    "eurostat:nuts_2021_level_lau":"27580",
+    "eurostat:population":2378,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066405",
     "frgov:id":"BDCSURCO0000000009585403",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000792,
-    "geom:area_square_m":6376503.595094,
+    "geom:area_square_m":6376503.595095,
     "geom:bbox":"0.8618892552,49.3382273927,0.932239614467,49.3613039292",
     "geom:latitude":49.34879,
     "geom:longitude":0.896515,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683283,
         102191581,
@@ -58,7 +72,10 @@
         102069823
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_27580",
+        "eurostat:nuts_2021_id":"27580"
+    },
     "wof:coterminous":[
         101761627
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3bfdcadf7eda29d31c307671acff0982",
+    "wof:geomhash":"84f6d23e81ed2dce2e291ff529b5f8f3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404387461,
-    "wof:lastmodified":1582325367,
+    "wof:lastmodified":1684353098,
     "wof:name":"Saint-Ouen-De-Thouberville",
     "wof:parent_id":102069823,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2378,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

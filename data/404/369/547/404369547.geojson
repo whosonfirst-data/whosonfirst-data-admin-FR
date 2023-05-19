@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_14092",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bourgu\u00e9bus",
+    "eurostat:nuts_2021_id":"14092",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD11",
+    "eurostat:nuts_2021_level_lau":"14092",
+    "eurostat:population":2016,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200065597",
     "frgov:id":"BDCSURCO0000000009587338",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000682,
-    "geom:area_square_m":5515665.883938,
+    "geom:area_square_m":5515665.883937,
     "geom:bbox":"-0.319919533188,49.1031227668,-0.26282995631,49.1315532488",
     "geom:latitude":49.116297,
     "geom:longitude":-0.289657,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683579,
         102191581,
@@ -58,7 +72,10 @@
         102065269
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_14092",
+        "eurostat:nuts_2021_id":"14092"
+    },
     "wof:coterminous":[
         101760263
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e13e5b747ddf3b074da2e0cf1d18a165",
+    "wof:geomhash":"b1eb2346bb4872c5b51ed7c02ffd045f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404369547,
-    "wof:lastmodified":1582324920,
+    "wof:lastmodified":1684352885,
     "wof:name":"Bourguebus",
     "wof:parent_id":102065269,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2016,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

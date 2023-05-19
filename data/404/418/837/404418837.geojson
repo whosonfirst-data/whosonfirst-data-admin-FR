@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_33381",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Caprais-de-Bordeaux",
+    "eurostat:nuts_2021_id":"33381",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI12",
+    "eurostat:nuts_2021_level_lau":"33381",
+    "eurostat:population":3222,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243301439",
     "frgov:id":"BDCSURCO0000000009609337",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001155,
-    "geom:area_square_m":10142585.959087,
+    "geom:area_square_m":10142585.959086,
     "geom:bbox":"-0.452635031211,44.7366496451,-0.399985497381,44.7717622006",
     "geom:latitude":44.753834,
     "geom:longitude":-0.427992,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683243,
         102191581,
@@ -58,7 +72,10 @@
         102068589
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_33381",
+        "eurostat:nuts_2021_id":"33381"
+    },
     "wof:coterminous":[
         101770683
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2c02c65e85b58e423babab10c04f5f3e",
+    "wof:geomhash":"21a7c8e0631d38cc26c0404be94d6adc",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404418837,
-    "wof:lastmodified":1582325228,
+    "wof:lastmodified":1684353470,
     "wof:name":"Saint-Caprais-De-Bordeaux",
     "wof:parent_id":102068589,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3222,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

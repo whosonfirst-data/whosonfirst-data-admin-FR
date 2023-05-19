@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_09051",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"B\u00e9naix",
+    "eurostat:nuts_2021_id":"09051",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ21",
+    "eurostat:nuts_2021_level_lau":"09051",
+    "eurostat:population":147,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240900464",
     "frgov:id":"BDCSURCO0000000009616085",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001617,
-    "geom:area_square_m":14645177.180282,
+    "geom:area_square_m":14645177.180281,
     "geom:bbox":"1.8131104555,42.8740811499,1.88734258175,42.9126732271",
     "geom:latitude":42.895277,
     "geom:longitude":1.850938,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683335,
         102191581,
@@ -58,7 +72,10 @@
         102065407
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_09051",
+        "eurostat:nuts_2021_id":"09051"
+    },
     "wof:coterminous":[
         1126036301
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"1dba600a93a18e1052ec294acb59606c",
+    "wof:geomhash":"5fcb9201fac4bf0dcbec73bd9b05d3d4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404391137,
-    "wof:lastmodified":1582324017,
+    "wof:lastmodified":1684353145,
     "wof:name":"Benaix",
     "wof:parent_id":102065407,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":147,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

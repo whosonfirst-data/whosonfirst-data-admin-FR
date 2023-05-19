@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_31484",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Geni\u00e8s-Bellevue",
+    "eurostat:nuts_2021_id":"31484",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ23",
+    "eurostat:nuts_2021_level_lau":"31484",
+    "eurostat:population":2466,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243100815",
     "frgov:id":"BDCSURCO0000000009613214",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000426,
-    "geom:area_square_m":3813362.102242,
+    "geom:area_square_m":3813362.102243,
     "geom:bbox":"1.46156305564,43.66729314,1.50171125066,43.6943861779",
     "geom:latitude":43.684912,
     "geom:longitude":1.480036,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683397,
         102191581,
@@ -58,7 +72,10 @@
         102071573
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_31484",
+        "eurostat:nuts_2021_id":"31484"
+    },
     "wof:coterminous":[
         101753155
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"1ea9d68c656f26524919b08571fed0b8",
+    "wof:geomhash":"d6272366803bee99e7b519bc0de97050",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404422231,
-    "wof:lastmodified":1582324292,
+    "wof:lastmodified":1684353512,
     "wof:name":"Saint-Genies-Bellevue",
     "wof:parent_id":102071573,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2466,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

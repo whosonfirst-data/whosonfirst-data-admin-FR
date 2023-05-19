@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_49371",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Vezins",
+    "eurostat:nuts_2021_id":"49371",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG02",
+    "eurostat:nuts_2021_level_lau":"49371",
+    "eurostat:population":1717,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071678",
     "frgov:id":"BDCSURCO0000000009600123",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002184,
-    "geom:area_square_m":18377581.287852,
+    "geom:area_square_m":18377581.287851,
     "geom:bbox":"-0.767192251523,47.0948657726,-0.672617510504,47.1328703536",
     "geom:latitude":47.11555,
     "geom:longitude":-0.721661,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683327,
         102191581,
@@ -57,7 +71,10 @@
         102066503
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_49371",
+        "eurostat:nuts_2021_id":"49371"
+    },
     "wof:coterminous":[
         101765923
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0c00253d2b2943e0c04988ff33f9cef4",
+    "wof:geomhash":"defc4de967fe8fe2ed52fd7a6be0d12e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404427695,
-    "wof:lastmodified":1582325238,
+    "wof:lastmodified":1684353576,
     "wof:name":"Vezins",
     "wof:parent_id":102066503,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1717,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

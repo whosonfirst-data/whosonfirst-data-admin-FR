@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_87159",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-L\u00e9ger-la-Montagne",
+    "eurostat:nuts_2021_id":"87159",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI23",
+    "eurostat:nuts_2021_level_lau":"87159",
+    "eurostat:population":348,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066512",
     "frgov:id":"BDCSURCO0000000009604306",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003792,
-    "geom:area_square_m":32552628.603747,
+    "geom:area_square_m":32552628.603748,
     "geom:bbox":"1.37403603725,46.0009558233,1.48110761407,46.0612754709",
     "geom:latitude":46.030649,
     "geom:longitude":1.425481,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683531,
         102191581,
@@ -58,7 +72,10 @@
         102066127
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_87159",
+        "eurostat:nuts_2021_id":"87159"
+    },
     "wof:coterminous":[
         1125909427
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2f73963ecba0a13cf504b023640fc03f",
+    "wof:geomhash":"6741feeb53e4346258b9931d80bba923",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404349467,
-    "wof:lastmodified":1582324714,
+    "wof:lastmodified":1684352609,
     "wof:name":"Saint-Leger-La-Montagne",
     "wof:parent_id":102066127,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":348,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

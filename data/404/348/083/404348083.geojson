@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_62604",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Neufch\u00e2tel-Hardelot",
+    "eurostat:nuts_2021_id":"62604",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE1",
+    "eurostat:nuts_2021_level_3":"FRE12",
+    "eurostat:nuts_2021_level_lau":"62604",
+    "eurostat:population":3746,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"246200729",
     "frgov:id":"BDCSURCO0000000009580736",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002665,
-    "geom:area_square_m":20908976.942899,
+    "geom:area_square_m":20908976.942898,
     "geom:bbox":"1.57600630654,50.5893328539,1.66824849564,50.6432959387",
     "geom:latitude":50.617214,
     "geom:longitude":1.61749,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683255,
         102191581,
@@ -58,7 +72,10 @@
         102071337
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_62604",
+        "eurostat:nuts_2021_id":"62604"
+    },
     "wof:coterminous":[
         101811259
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"33e7d7de99ef4d81b379011242e8da3b",
+    "wof:geomhash":"c83f7757f04ce171f577083561bea57a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404348083,
-    "wof:lastmodified":1582324578,
+    "wof:lastmodified":1684352590,
     "wof:name":"Neufchatel-Hardelot",
     "wof:parent_id":102071337,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3746,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

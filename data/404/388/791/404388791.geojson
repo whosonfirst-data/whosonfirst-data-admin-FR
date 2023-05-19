@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_62023",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Allouagne",
+    "eurostat:nuts_2021_id":"62023",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE1",
+    "eurostat:nuts_2021_level_3":"FRE12",
+    "eurostat:nuts_2021_level_lau":"62023",
+    "eurostat:population":2925,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072460",
     "frgov:id":"BDCSURCO0000000009580785",
     "frgov:insee_arr":"2",
@@ -144,6 +156,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683255,
         102191581,
@@ -154,7 +168,10 @@
         102071651
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_62023",
+        "eurostat:nuts_2021_id":"62023"
+    },
     "wof:coterminous":[
         101811235
     ],
@@ -162,7 +179,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4063ca44eb519ed0927c983502dc1293",
+    "wof:geomhash":"c65d09c718a8e7f383223f1f9285e5fd",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -176,11 +193,13 @@
         }
     ],
     "wof:id":404388791,
-    "wof:lastmodified":1582325477,
+    "wof:lastmodified":1684353114,
     "wof:name":"Allouagne",
     "wof:parent_id":102071651,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2925,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

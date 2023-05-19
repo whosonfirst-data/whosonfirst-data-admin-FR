@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_07267",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Martial",
+    "eurostat:nuts_2021_id":"07267",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK22",
+    "eurostat:nuts_2021_level_lau":"07267",
+    "eurostat:population":251,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072007",
     "frgov:id":"BDCSURCO0000000009608947",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.00413,
-    "geom:area_square_m":36192979.449146,
+    "geom:area_square_m":36192979.449147,
     "geom:bbox":"4.19380243591,44.8191537203,4.30736697078,44.8955014899",
     "geom:latitude":44.862596,
     "geom:longitude":4.251527,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683421,
         102191581,
@@ -56,7 +70,10 @@
         102067679
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_07267",
+        "eurostat:nuts_2021_id":"07267"
+    },
     "wof:coterminous":[
         1360673483
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7cf20f674710c32dedaeea5f1babccb2",
+    "wof:geomhash":"1209973300907c50e335e36a437931a2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404357327,
-    "wof:lastmodified":1582324902,
+    "wof:lastmodified":1684352716,
     "wof:name":"Saint-Martial",
     "wof:parent_id":102067679,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":251,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_51547",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Somme-Tourbe",
+    "eurostat:nuts_2021_id":"51547",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF23",
+    "eurostat:nuts_2021_level_lau":"51547",
+    "eurostat:population":143,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200042620",
     "frgov:id":"BDCSURCO0000000009587075",
     "frgov:insee_arr":"5",
@@ -111,6 +123,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683405,
         102191581,
@@ -121,7 +135,10 @@
         102068693
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_51547",
+        "eurostat:nuts_2021_id":"51547"
+    },
     "wof:coterminous":[
         101879885
     ],
@@ -129,7 +146,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e511a1a9880abdbffa89988e430b2893",
+    "wof:geomhash":"00fa2ab1d37b3ef1a471d1dfba6c04c6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -143,11 +160,13 @@
         }
     ],
     "wof:id":404399761,
-    "wof:lastmodified":1582324153,
+    "wof:lastmodified":1684353247,
     "wof:name":"Somme-Tourbe",
     "wof:parent_id":102068693,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":143,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

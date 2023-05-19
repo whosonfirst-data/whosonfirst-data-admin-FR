@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_27530",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Denis-d'Augerons",
+    "eurostat:nuts_2021_id":"27530",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD21",
+    "eurostat:nuts_2021_level_lau":"27530",
+    "eurostat:population":85,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066413",
     "frgov:id":"BDCSURCO0000000009589315",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000521,
-    "geom:area_square_m":4236247.550717,
+    "geom:area_square_m":4236247.550718,
     "geom:bbox":"0.455430722023,48.8985784054,0.490051792552,48.9331288887",
     "geom:latitude":48.915444,
     "geom:longitude":0.47147,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683283,
         102191581,
@@ -56,7 +70,10 @@
         102066091
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_27530",
+        "eurostat:nuts_2021_id":"27530"
+    },
     "wof:coterminous":[
         1360678927
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5ea69d1fc64909fca651d6b6482dfe9f",
+    "wof:geomhash":"e22852181066fa1989b91817ef036053",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404412441,
-    "wof:lastmodified":1582324372,
+    "wof:lastmodified":1684353394,
     "wof:name":"Saint-Denis-D'Augerons",
     "wof:parent_id":102066091,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":85,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

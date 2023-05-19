@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_05064",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Chapelle-en-Valgaud\u00e9mar",
+    "eurostat:nuts_2021_id":"05064",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL02",
+    "eurostat:nuts_2021_level_lau":"05064",
+    "eurostat:population":104,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068096",
     "frgov:id":"BDCSURCO0000000009608895",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.014519,
-    "geom:area_square_m":127355337.1352,
+    "geom:area_square_m":127355337.135202,
     "geom:bbox":"6.13805219811,44.7395450758,6.34987900796,44.8742292128",
     "geom:latitude":44.816615,
     "geom:longitude":6.242948,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683597,
         102191581,
@@ -57,7 +71,10 @@
         102067993
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_05064",
+        "eurostat:nuts_2021_id":"05064"
+    },
     "wof:coterminous":[
         1125983533
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f000760d17c880f560554a53d57d8f29",
+    "wof:geomhash":"d3a87440aa60517f45edc9e7b20a9756",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404348575,
-    "wof:lastmodified":1582324583,
+    "wof:lastmodified":1684352596,
     "wof:name":"La Chapelle-En-Valgaudemar",
     "wof:parent_id":102067993,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":104,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

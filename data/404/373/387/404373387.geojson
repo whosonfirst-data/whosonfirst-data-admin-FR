@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_18251",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"S\u00e9vry",
+    "eurostat:nuts_2021_id":"18251",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB01",
+    "eurostat:nuts_2021_level_lau":"18251",
+    "eurostat:population":62,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200032514",
     "frgov:id":"BDCSURCO0000000009600048",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683549,
         102191581,
@@ -57,7 +71,10 @@
         102068701
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_18251",
+        "eurostat:nuts_2021_id":"18251"
+    },
     "wof:coterminous":[
         1125878091
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"792a3f30ffc9b0dc86c0a257d32ef262",
+    "wof:geomhash":"ecb4c5ebc657bfd70d4a118edc7afc9b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404373387,
-    "wof:lastmodified":1582325352,
+    "wof:lastmodified":1684352929,
     "wof:name":"Sevry",
     "wof:parent_id":102068701,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":62,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

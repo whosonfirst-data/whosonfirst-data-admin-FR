@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_51476",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-\u00c9tienne-au-Temple",
+    "eurostat:nuts_2021_id":"51476",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF23",
+    "eurostat:nuts_2021_level_lau":"51476",
+    "eurostat:population":812,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066876",
     "frgov:id":"BDCSURCO0000000009588103",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683405,
         102191581,
@@ -58,7 +72,10 @@
         102070511
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_51476",
+        "eurostat:nuts_2021_id":"51476"
+    },
     "wof:coterminous":[
         101879999
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3c38016e3f3cb15774a2bec5e98e00a4",
+    "wof:geomhash":"c48fc0311d13e9b3793febbd44b7b979",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404408089,
-    "wof:lastmodified":1582324464,
+    "wof:lastmodified":1684353344,
     "wof:name":"Saint-Etienne-Au-Temple",
     "wof:parent_id":102070511,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":812,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

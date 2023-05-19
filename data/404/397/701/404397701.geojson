@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_12260",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saucli\u00e8res",
+    "eurostat:nuts_2021_id":"12260",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ22",
+    "eurostat:nuts_2021_level_lau":"12260",
+    "eurostat:population":170,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"241200906",
     "frgov:id":"BDCSURCO0000000009612027",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683301,
         102191581,
@@ -58,7 +72,10 @@
         102068151
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_12260",
+        "eurostat:nuts_2021_id":"12260"
+    },
     "wof:coterminous":[
         1125930243
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"afd0f16fbc23bfc49ea96be43ff3d9a0",
+    "wof:geomhash":"1d875890a69d41763601f9e104f8528a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404397701,
-    "wof:lastmodified":1582324199,
+    "wof:lastmodified":1684353221,
     "wof:name":"Sauclieres",
     "wof:parent_id":102068151,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":170,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

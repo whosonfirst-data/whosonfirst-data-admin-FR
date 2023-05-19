@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_13098",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Mitre-les-Remparts",
+    "eurostat:nuts_2021_id":"13098",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL04",
+    "eurostat:nuts_2021_level_lau":"13098",
+    "eurostat:population":5837,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200054807",
     "frgov:id":"BDCSURCO0000000009613846",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.00235,
-    "geom:area_square_m":21095375.107533,
+    "geom:area_square_m":21095375.107534,
     "geom:bbox":"4.97525091695,43.4328823476,5.0553344646,43.4800872891",
     "geom:latitude":43.455427,
     "geom:longitude":5.015115,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683441,
         102191581,
@@ -57,7 +71,10 @@
         102071537
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_13098",
+        "eurostat:nuts_2021_id":"13098"
+    },
     "wof:coterminous":[
         101773635
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"73cebee49183b91d3d9207c9d7be6745",
+    "wof:geomhash":"97c50fce200b95add0bdd85c7b85d682",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404354885,
-    "wof:lastmodified":1582324096,
+    "wof:lastmodified":1684352684,
     "wof:name":"Saint-Mitre-Les-Remparts",
     "wof:parent_id":102071537,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":5837,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

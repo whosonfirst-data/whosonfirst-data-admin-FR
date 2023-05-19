@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_02511",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Montigny-en-Arrouaise",
+    "eurostat:nuts_2021_id":"02511",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE21",
+    "eurostat:nuts_2021_level_lau":"02511",
+    "eurostat:population":291,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240200493",
     "frgov:id":"BDCSURCO0000000009582426",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001232,
-    "geom:area_square_m":9808122.322619,
+    "geom:area_square_m":9808122.32262,
     "geom:bbox":"3.45790458723,49.8935725641,3.51375845314,49.934204885",
     "geom:latitude":49.911997,
     "geom:longitude":3.483401,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683247,
         102191581,
@@ -58,7 +72,10 @@
         102064767
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_02511",
+        "eurostat:nuts_2021_id":"02511"
+    },
     "wof:coterminous":[
         101899831
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8c204fcbd79930cba3d5d015ea44676b",
+    "wof:geomhash":"17931ff5412cad50754cd6709a9cb027",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404366153,
-    "wof:lastmodified":1582324832,
+    "wof:lastmodified":1684352840,
     "wof:name":"Montigny-En-Arrouaise",
     "wof:parent_id":102064767,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":291,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_21555",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Julien",
+    "eurostat:nuts_2021_id":"21555",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC11",
+    "eurostat:nuts_2021_level_lau":"21555",
+    "eurostat:population":1477,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069540",
     "frgov:id":"BDCSURCO0000000009598580",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002011,
-    "geom:area_square_m":16829892.550819,
+    "geom:area_square_m":16829892.55082,
     "geom:bbox":"5.11308657292,47.3706062325,5.17213053423,47.4267343517",
     "geom:latitude":47.395697,
     "geom:longitude":5.14119,
@@ -102,6 +114,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683563,
         102191581,
@@ -112,7 +126,10 @@
         102065897
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_21555",
+        "eurostat:nuts_2021_id":"21555"
+    },
     "wof:coterminous":[
         101767321
     ],
@@ -120,7 +137,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"1cf5af9356154b661a2afb17bd0e953e",
+    "wof:geomhash":"192e970322c762819e3c99ce8bcc85ec",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -134,11 +151,13 @@
         }
     ],
     "wof:id":404359265,
-    "wof:lastmodified":1582324801,
+    "wof:lastmodified":1684352743,
     "wof:name":"Saint-Julien",
     "wof:parent_id":102065897,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1477,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

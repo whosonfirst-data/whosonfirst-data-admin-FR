@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_87111",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Oradour-sur-Vayres",
+    "eurostat:nuts_2021_id":"87111",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI23",
+    "eurostat:nuts_2021_level_lau":"87111",
+    "eurostat:population":1500,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066520",
     "frgov:id":"BDCSURCO0000000009605609",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.004529,
-    "geom:area_square_m":39087850.951553,
+    "geom:area_square_m":39087850.951554,
     "geom:bbox":"0.826737208795,45.6961114571,0.928584217026,45.7804211127",
     "geom:latitude":45.741192,
     "geom:longitude":0.879415,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683531,
         102191581,
@@ -58,7 +72,10 @@
         102068105
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_87111",
+        "eurostat:nuts_2021_id":"87111"
+    },
     "wof:coterminous":[
         101768245
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"08f929b4a1ae536c964bd5bb9d8f3232",
+    "wof:geomhash":"0b9bcb0b95e4f331922c144e69e9f709",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404348947,
-    "wof:lastmodified":1582324583,
+    "wof:lastmodified":1684352602,
     "wof:name":"Oradour-Sur-Vayres",
     "wof:parent_id":102068105,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1500,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

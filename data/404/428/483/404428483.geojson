@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_89348",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Julien-du-Sault",
+    "eurostat:nuts_2021_id":"89348",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC14",
+    "eurostat:nuts_2021_level_lau":"89348",
+    "eurostat:population":2348,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248900938",
     "frgov:id":"BDCSURCO0000000009595411",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002907,
-    "geom:area_square_m":24037142.40698,
+    "geom:area_square_m":24037142.406981,
     "geom:bbox":"3.23163879345,47.993965947,3.31991042017,48.0639657919",
     "geom:latitude":48.034345,
     "geom:longitude":3.275937,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683503,
         102191581,
@@ -58,7 +72,10 @@
         102069213
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_89348",
+        "eurostat:nuts_2021_id":"89348"
+    },
     "wof:coterminous":[
         101759743
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b63a9063af08c0ff6dd1670769d3c93f",
+    "wof:geomhash":"dd5a896e1c929abddbb1172d9dd012bb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404428483,
-    "wof:lastmodified":1582325114,
+    "wof:lastmodified":1684353585,
     "wof:name":"Saint-Julien-Du-Sault",
     "wof:parent_id":102069213,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2348,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

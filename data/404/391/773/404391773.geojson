@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_14630",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Martin-des-Entr\u00e9es",
+    "eurostat:nuts_2021_id":"14630",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD11",
+    "eurostat:nuts_2021_level_lau":"14630",
+    "eurostat:population":686,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"241400555",
     "frgov:id":"BDCSURCO0000000009585937",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000752,
-    "geom:area_square_m":6068221.823301,
+    "geom:area_square_m":6068221.8233,
     "geom:bbox":"-0.685193242367,49.2421559458,-0.646716013154,49.2721425694",
     "geom:latitude":49.257416,
     "geom:longitude":-0.664965,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683579,
         102191581,
@@ -58,7 +72,10 @@
         102064633
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_14630",
+        "eurostat:nuts_2021_id":"14630"
+    },
     "wof:coterminous":[
         101877809
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ea990018eca90d7da1886ce3a6a15014",
+    "wof:geomhash":"3eade170dcdc02bacd813001b978ccd6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404391773,
-    "wof:lastmodified":1582324023,
+    "wof:lastmodified":1684353153,
     "wof:name":"Saint-Martin-Des-Entrees",
     "wof:parent_id":102064633,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":686,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

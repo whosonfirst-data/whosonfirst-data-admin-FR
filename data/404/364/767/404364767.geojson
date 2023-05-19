@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_43194",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Hostien",
+    "eurostat:nuts_2021_id":"43194",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK13",
+    "eurostat:nuts_2021_level_lau":"43194",
+    "eurostat:population":755,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200073419",
     "frgov:id":"BDCSURCO0000000009608107",
     "frgov:insee_arr":"2",
@@ -132,6 +144,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683413,
         102191581,
@@ -142,7 +156,10 @@
         102068597
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_43194",
+        "eurostat:nuts_2021_id":"43194"
+    },
     "wof:coterminous":[
         101894371
     ],
@@ -150,7 +167,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"97afc0e70087dadb8f6bf028a0e31f26",
+    "wof:geomhash":"bc65cae87bacf5368d6e262cda48cabe",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -164,11 +181,13 @@
         }
     ],
     "wof:id":404364767,
-    "wof:lastmodified":1582324248,
+    "wof:lastmodified":1684352820,
     "wof:name":"Saint-Hostien",
     "wof:parent_id":102068597,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":755,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

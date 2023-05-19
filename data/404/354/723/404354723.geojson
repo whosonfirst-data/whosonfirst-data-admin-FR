@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_90045",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"F\u00eache-l'\u00c9glise",
+    "eurostat:nuts_2021_id":"90045",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC24",
+    "eurostat:nuts_2021_level_lau":"90045",
+    "eurostat:population":768,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"249000241",
     "frgov:id":"BDCSURCO0000000009597623",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000477,
-    "geom:area_square_m":3985968.732943,
+    "geom:area_square_m":3985968.732944,
     "geom:bbox":"6.94458079652,47.4849297935,6.96987411668,47.5165394959",
     "geom:latitude":47.503306,
     "geom:longitude":6.955679,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683353,
         102191581,
@@ -56,7 +70,10 @@
         102066467
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_90045",
+        "eurostat:nuts_2021_id":"90045"
+    },
     "wof:coterminous":[
         1360673211
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9ef6dd93640ac41826deb49125765aaa",
+    "wof:geomhash":"5fccf91cd72700a7b64b558a6762be4f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404354723,
-    "wof:lastmodified":1582324091,
+    "wof:lastmodified":1684352681,
     "wof:name":"Feche-L'Eglise",
     "wof:parent_id":102066467,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":768,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

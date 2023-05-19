@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_60592",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Pierre-es-Champs",
+    "eurostat:nuts_2021_id":"60592",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE22",
+    "eurostat:nuts_2021_level_lau":"60592",
+    "eurostat:population":712,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"246000913",
     "frgov:id":"BDCSURCO0000000009585018",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001352,
-    "geom:area_square_m":10877293.050813,
+    "geom:area_square_m":10877293.050814,
     "geom:bbox":"1.71390731405,49.4034475873,1.78030818592,49.4493390364",
     "geom:latitude":49.422855,
     "geom:longitude":1.740371,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683289,
         102191581,
@@ -58,7 +72,10 @@
         102066045
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_60592",
+        "eurostat:nuts_2021_id":"60592"
+    },
     "wof:coterminous":[
         101903359
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"991d05510e5dc6c5d8dfa61d3d8033fd",
+    "wof:geomhash":"5ca07c4b0e48b29a86ba973f91124ae0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404390649,
-    "wof:lastmodified":1582324271,
+    "wof:lastmodified":1684353138,
     "wof:name":"Saint-Pierre-Es-Champs",
     "wof:parent_id":102066045,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":712,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

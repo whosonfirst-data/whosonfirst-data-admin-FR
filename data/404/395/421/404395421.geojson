@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_26248",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Pontaix",
+    "eurostat:nuts_2021_id":"26248",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK23",
+    "eurostat:nuts_2021_level_lau":"26248",
+    "eurostat:population":168,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242600534",
     "frgov:id":"BDCSURCO0000000009609157",
     "frgov:insee_arr":"1",
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683523,
         102191581,
@@ -139,7 +153,10 @@
         102065825
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_26248",
+        "eurostat:nuts_2021_id":"26248"
+    },
     "wof:coterminous":[
         1126057195
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"fd1dcde2e46e02797cf63fdcd3579747",
+    "wof:geomhash":"71b57456ca3672c911c66c9c1b789b9e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404395421,
-    "wof:lastmodified":1582324778,
+    "wof:lastmodified":1684353196,
     "wof:name":"Pontaix",
     "wof:parent_id":102065825,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":168,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

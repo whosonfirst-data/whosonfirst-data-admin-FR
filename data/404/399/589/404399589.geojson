@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_22296",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Glen",
+    "eurostat:nuts_2021_id":"22296",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH01",
+    "eurostat:nuts_2021_level_lau":"22296",
+    "eurostat:population":621,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069391",
     "frgov:id":"BDCSURCO0000000009593064",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BRETAGNE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001353,
-    "geom:area_square_m":11120794.753672,
+    "geom:area_square_m":11120794.753673,
     "geom:bbox":"-2.55083930583,48.3053435618,-2.50218022666,48.3878851791",
     "geom:latitude":48.353119,
     "geom:longitude":-2.521306,
@@ -138,6 +150,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683515,
         102191581,
@@ -147,7 +161,10 @@
         102069215
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_22296",
+        "eurostat:nuts_2021_id":"22296"
+    },
     "wof:coterminous":[
         1125811919
     ],
@@ -155,7 +172,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"311e624b8ddb3f85b2b45b06a5a0c85b",
+    "wof:geomhash":"700f5bc6f7f59e75827c07420f1031eb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -168,11 +185,13 @@
         }
     ],
     "wof:id":404399589,
-    "wof:lastmodified":1582324151,
+    "wof:lastmodified":1684353245,
     "wof:name":"Saint-Glen",
     "wof:parent_id":102069215,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":621,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

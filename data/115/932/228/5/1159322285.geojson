@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_92007",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bagneux",
+    "eurostat:nuts_2021_id":"92007",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR105",
+    "eurostat:nuts_2021_level_lau":"92007",
+    "eurostat:population":40918,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200054781",
     "frgov:id":"BDCSURCO0000000009590195",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"ILE-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000512,
-    "geom:area_square_m":4172075.23299,
+    "geom:area_square_m":4172075.232989,
     "geom:bbox":"2.292223,48.784895,2.326356,48.811117",
     "geom:latitude":48.798304,
     "geom:longitude":2.310106,
@@ -102,23 +114,29 @@
     "reversegeo:longitude":2.311536,
     "src:geom":"frgov",
     "src:geom_alt":[],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85683157,
         102191581,
         85633147,
-        102064881,
         404227787,
         404227465,
-        85683157
+        102064881
     ],
     "wof:breaches":[],
     "wof:concordance":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_92007",
+        "eurostat:nuts_2021_id":"92007"
+    },
     "wof:coterminous":[
         101749063,
         102064881
     ],
     "wof:country":"FR",
     "wof:created":1526510363,
-    "wof:geomhash":"4f403ea6d42f945470f42387c090ceac",
+    "wof:geomhash":"2d805a408f179f600ad80aa599257372",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -131,11 +149,13 @@
         }
     ],
     "wof:id":1159322285,
-    "wof:lastmodified":1608039568,
+    "wof:lastmodified":1684353599,
     "wof:name":"Bagneux",
     "wof:parent_id":102064881,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":40918,
+    "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded":[],
     "wof:superseded_by":[],

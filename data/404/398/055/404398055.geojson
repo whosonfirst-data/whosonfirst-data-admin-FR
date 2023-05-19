@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_86165",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Montmorillon",
+    "eurostat:nuts_2021_id":"86165",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI34",
+    "eurostat:nuts_2021_level_lau":"86165",
+    "eurostat:population":5954,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070043",
     "frgov:id":"BDCSURCO0000000009602690",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Sous-pr\u00e9fecture",
     "geom:area":0.006655,
-    "geom:area_square_m":56724533.26934,
+    "geom:area_square_m":56724533.269341,
     "geom:bbox":"0.825729350093,46.3813731713,0.962288215252,46.4766291891",
     "geom:latitude":46.426334,
     "geom:longitude":0.895802,
@@ -153,6 +165,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683185,
         102191581,
@@ -163,7 +177,10 @@
         102067481
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_86165",
+        "eurostat:nuts_2021_id":"86165"
+    },
     "wof:coterminous":[
         101767007
     ],
@@ -171,7 +188,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a38bf61570f4d28843d32e32b24dc889",
+    "wof:geomhash":"c4bd89139d7fea79766493df2e21b7e8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -185,11 +202,13 @@
         }
     ],
     "wof:id":404398055,
-    "wof:lastmodified":1582324109,
+    "wof:lastmodified":1684353226,
     "wof:name":"Montmorillon",
     "wof:parent_id":102067481,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Sous-pr\u00e9fecture",
+    "wof:population":5954,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

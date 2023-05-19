@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_41217",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Julien-de-Ch\u00e9don",
+    "eurostat:nuts_2021_id":"41217",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB05",
+    "eurostat:nuts_2021_level_lau":"41217",
+    "eurostat:population":756,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072064",
     "frgov:id":"BDCSURCO0000000009599269",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683349,
         102191581,
@@ -57,7 +71,10 @@
         102066611
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_41217",
+        "eurostat:nuts_2021_id":"41217"
+    },
     "wof:coterminous":[
         1126008327
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a3c10405918b13c6e139a7f3f6a58a00",
+    "wof:geomhash":"246a6d2e8fa5dc4708c3ed75baa13d23",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404425759,
-    "wof:lastmodified":1582324307,
+    "wof:lastmodified":1684353554,
     "wof:name":"Saint-Julien-De-Chedon",
     "wof:parent_id":102066611,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":756,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

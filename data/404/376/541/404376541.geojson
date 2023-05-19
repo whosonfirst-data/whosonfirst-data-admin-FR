@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_38087",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Chasse-sur-Rh\u00f4ne",
+    "eurostat:nuts_2021_id":"38087",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK24",
+    "eurostat:nuts_2021_level_lau":"38087",
+    "eurostat:population":6048,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243800455",
     "frgov:id":"BDCSURCO0000000009606037",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.000902,
-    "geom:area_square_m":7802597.097715,
+    "geom:area_square_m":7802597.097716,
     "geom:bbox":"4.77710308751,45.5662355244,4.84864394887,45.5897132319",
     "geom:latitude":45.579619,
     "geom:longitude":4.814428,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683427,
         102191581,
@@ -58,7 +72,10 @@
         102070889
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_38087",
+        "eurostat:nuts_2021_id":"38087"
+    },
     "wof:coterminous":[
         101753209
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0c5a1bdd7cf893d83c3307395289c1d5",
+    "wof:geomhash":"d23bdbca909af40a50a386fa1e4ee4ca",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404376541,
-    "wof:lastmodified":1582324677,
+    "wof:lastmodified":1684352970,
     "wof:name":"Chasse-Sur-Rhone",
     "wof:parent_id":102070889,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":6048,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_61440",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Ouen-sur-Iton",
+    "eurostat:nuts_2021_id":"61440",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD13",
+    "eurostat:nuts_2021_level_lau":"61440",
+    "eurostat:population":825,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068468",
     "frgov:id":"BDCSURCO0000000009590739",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001749,
-    "geom:area_square_m":14264583.204965,
+    "geom:area_square_m":14264583.204964,
     "geom:bbox":"0.618744164716,48.7196883143,0.728735788727,48.7529108219",
     "geom:latitude":48.735878,
     "geom:longitude":0.671029,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683527,
         102191581,
@@ -58,7 +72,10 @@
         102067717
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_61440",
+        "eurostat:nuts_2021_id":"61440"
+    },
     "wof:coterminous":[
         1125816459
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4eddd10b041bd27043530166de7f4eda",
+    "wof:geomhash":"99a0a044a145791f0a7d279aed0c6bfe",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404419187,
-    "wof:lastmodified":1582325067,
+    "wof:lastmodified":1684353473,
     "wof:name":"Saint-Ouen-Sur-Iton",
     "wof:parent_id":102067717,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":825,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

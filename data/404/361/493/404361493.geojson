@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_2A065",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Carg\u00e8se",
+    "eurostat:nuts_2021_id":"2A065",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRM",
+    "eurostat:nuts_2021_level_2":"FRM0",
+    "eurostat:nuts_2021_level_3":"FRM01",
+    "eurostat:nuts_2021_level_lau":"2A065",
+    "eurostat:population":1325,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067049",
     "frgov:id":"BDCSURCO0000000009616813",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CORSE",
     "frgov:statut":"Commune simple",
     "geom:area":0.005072,
-    "geom:area_square_m":46497518.508734,
+    "geom:area_square_m":46497518.508726,
     "geom:bbox":"8.55778486256,42.1169874477,8.68849977632,42.1960651139",
     "geom:latitude":42.154474,
     "geom:longitude":8.626564,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683167,
         102191581,
@@ -57,7 +71,10 @@
         102070501
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_2A065",
+        "eurostat:nuts_2021_id":"2A065"
+    },
     "wof:coterminous":[
         1125890749
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4a882430ae391935478392726da0e163",
+    "wof:geomhash":"5bf7dbc2ef002ad29059f43341ad1e97",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404361493,
-    "wof:lastmodified":1582324763,
+    "wof:lastmodified":1684352774,
     "wof:name":"Cargese",
     "wof:parent_id":102070501,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1325,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

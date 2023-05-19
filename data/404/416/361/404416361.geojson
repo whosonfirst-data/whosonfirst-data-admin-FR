@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_70102",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Brussey",
+    "eurostat:nuts_2021_id":"70102",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC23",
+    "eurostat:nuts_2021_level_lau":"70102",
+    "eurostat:population":276,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041887",
     "frgov:id":"BDCSURCO0000000009598835",
     "frgov:insee_arr":"2",
@@ -120,6 +132,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683559,
         102191581,
@@ -130,7 +144,10 @@
         102067075
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_70102",
+        "eurostat:nuts_2021_id":"70102"
+    },
     "wof:coterminous":[
         1175611787
     ],
@@ -138,7 +155,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4473682501b9fa718a2debad184efc5b",
+    "wof:geomhash":"40d5d83d25a3b6dfecbf5da44e9bb64c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -152,11 +169,13 @@
         }
     ],
     "wof:id":404416361,
-    "wof:lastmodified":1582325186,
+    "wof:lastmodified":1684353441,
     "wof:name":"Brussey",
     "wof:parent_id":102067075,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":276,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

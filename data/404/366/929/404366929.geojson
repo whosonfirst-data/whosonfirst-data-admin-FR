@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_45016",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Autry-le-Ch\u00e2tel",
+    "eurostat:nuts_2021_id":"45016",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB06",
+    "eurostat:nuts_2021_level_lau":"45016",
+    "eurostat:population":961,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068278",
     "frgov:id":"BDCSURCO0000000009598083",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.006102,
-    "geom:area_square_m":50881271.394427,
+    "geom:area_square_m":50881271.394426,
     "geom:bbox":"2.54424965278,47.5489713212,2.66442472068,47.641173996",
     "geom:latitude":47.595226,
     "geom:longitude":2.60197,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683479,
         102191581,
@@ -57,7 +71,10 @@
         102065837
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_45016",
+        "eurostat:nuts_2021_id":"45016"
+    },
     "wof:coterminous":[
         101887195
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e601038d254da0d7f3eda225f163fb96",
+    "wof:geomhash":"f5c2e10f44e5747664a75430fd5d5912",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404366929,
-    "wof:lastmodified":1582324840,
+    "wof:lastmodified":1684352851,
     "wof:name":"Autry-Le-Chatel",
     "wof:parent_id":102065837,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":961,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

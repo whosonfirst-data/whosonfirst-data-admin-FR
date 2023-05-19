@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_80771",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ugny-l'\u00c9quip\u00e9e",
+    "eurostat:nuts_2021_id":"80771",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE23",
+    "eurostat:nuts_2021_level_lau":"80771",
+    "eurostat:population":40,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070985",
     "frgov:id":"BDCSURCO0000000009582667",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000368,
-    "geom:area_square_m":2932509.276358,
+    "geom:area_square_m":2932509.276359,
     "geom:bbox":"3.04491383909,49.8077211739,3.0849494867,49.8224154837",
     "geom:latitude":49.814885,
     "geom:longitude":3.066399,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683363,
         102191581,
@@ -56,7 +70,10 @@
         102068869
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_80771",
+        "eurostat:nuts_2021_id":"80771"
+    },
     "wof:coterminous":[
         1360677827
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d2a7ae619cf7dfa97a7b4cf85c5f5f1f",
+    "wof:geomhash":"898300748a9fe95f0eb14dd490049042",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404401759,
-    "wof:lastmodified":1582324429,
+    "wof:lastmodified":1684353269,
     "wof:name":"Ugny-L'Equipee",
     "wof:parent_id":102068869,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":40,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

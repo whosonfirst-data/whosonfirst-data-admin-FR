@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_38445",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Pierre-de-M\u00e9sage",
+    "eurostat:nuts_2021_id":"38445",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK24",
+    "eurostat:nuts_2021_level_lau":"38445",
+    "eurostat:population":764,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040715",
     "frgov:id":"BDCSURCO0000000009608058",
     "frgov:insee_arr":"1",
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683427,
         102191581,
@@ -56,7 +70,10 @@
         102071305
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_38445",
+        "eurostat:nuts_2021_id":"38445"
+    },
     "wof:coterminous":[
         1360680259
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"eb6af9928e8265749c85ed486572fd76",
+    "wof:geomhash":"ab4819a6d01e6bbac847d4b0db4932d2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404426887,
-    "wof:lastmodified":1582325080,
+    "wof:lastmodified":1684353567,
     "wof:name":"Saint-Pierre-De-Mesage",
     "wof:parent_id":102071305,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":764,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

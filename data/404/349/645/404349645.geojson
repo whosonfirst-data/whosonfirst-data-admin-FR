@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_23096",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gu\u00e9ret",
+    "eurostat:nuts_2021_id":"23096",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI22",
+    "eurostat:nuts_2021_level_lau":"23096",
+    "eurostat:population":13161,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200034825",
     "frgov:id":"BDCSURCO0000000009603815",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Pr\u00e9fecture",
     "geom:area":0.003037,
-    "geom:area_square_m":26007870.41596,
+    "geom:area_square_m":26007870.415959,
     "geom:bbox":"1.838258,46.113172,1.902414,46.203813",
     "geom:latitude":46.162718,
     "geom:longitude":1.870865,
@@ -48,17 +60,22 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85683179,
         102191581,
         85633147,
-        102072289,
-        136253037,
         404227843,
         1108826385,
-        85683179
+        136253037,
+        102072289
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_23096",
+        "eurostat:nuts_2021_id":"23096"
+    },
     "wof:coterminous":[
         101766355,
         102072289
@@ -67,7 +84,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"68f934edb9cbf393c9abbbaddcc8ad92",
+    "wof:geomhash":"ff90d9d7ae48af8a1127a5bf38f55a8a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -81,11 +98,13 @@
         }
     ],
     "wof:id":404349645,
-    "wof:lastmodified":1608037834,
+    "wof:lastmodified":1684352611,
     "wof:name":"Gueret",
     "wof:parent_id":102072289,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Pr\u00e9fecture",
+    "wof:population":13161,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

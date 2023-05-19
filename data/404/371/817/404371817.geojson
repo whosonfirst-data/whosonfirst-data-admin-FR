@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_35021",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Beauc\u00e9",
+    "eurostat:nuts_2021_id":"35021",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH03",
+    "eurostat:nuts_2021_level_lau":"35021",
+    "eurostat:population":1365,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072452",
     "frgov:id":"BDCSURCO0000000009593423",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BRETAGNE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001022,
-    "geom:area_square_m":8401834.582086,
+    "geom:area_square_m":8401834.582085,
     "geom:bbox":"-1.17725638918,48.3260719849,-1.13358267312,48.3658996965",
     "geom:latitude":48.346668,
     "geom:longitude":-1.155569,
@@ -63,6 +75,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683461,
         102191581,
@@ -72,7 +86,10 @@
         102066431
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_35021",
+        "eurostat:nuts_2021_id":"35021"
+    },
     "wof:coterminous":[
         101843191
     ],
@@ -80,7 +97,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b2e155b87c0c194f9d80a73312adcb71",
+    "wof:geomhash":"9437990dab05e84d1f1adf99238fa8f0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -93,11 +110,13 @@
         }
     ],
     "wof:id":404371817,
-    "wof:lastmodified":1582324647,
+    "wof:lastmodified":1684352910,
     "wof:name":"Beauce",
     "wof:parent_id":102066431,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1365,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

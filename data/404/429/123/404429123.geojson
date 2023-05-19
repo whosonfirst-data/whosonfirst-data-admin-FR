@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"2018-07-11",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_97308",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Georges",
+    "eurostat:nuts_2021_id":"97308",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRY",
+    "eurostat:nuts_2021_level_2":"FRY3",
+    "eurostat:nuts_2021_level_3":"FRY30",
+    "eurostat:nuts_2021_level_lau":"97308",
+    "eurostat:population":4131,
+    "eurostat:population_year":2020,
     "geom:area":0.23046,
     "geom:area_square_m":2843599244.93635,
     "geom:bbox":"-52.5299649522,3.40448490692,-51.6190658242,4.21282161905",
@@ -29,6 +41,8 @@
     "qs:source":"France IGN",
     "qs:type":"Chef-lieu canton",
     "src:geom":"quattroshapes",
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85671195,
         102191581,
@@ -39,12 +53,15 @@
         85632233
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_97308",
+        "eurostat:nuts_2021_id":"97308"
+    },
     "wof:controlled":[
         "wof:hierarchy"
     ],
     "wof:country":"FR",
-    "wof:geomhash":"38bf951f94e199c56ad7684082749fd7",
+    "wof:geomhash":"f49dd26b21212ee6bf6ec3e01badc638",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -64,10 +81,12 @@
         }
     ],
     "wof:id":404429123,
-    "wof:lastmodified":1531422155,
+    "wof:lastmodified":1684353591,
     "wof:name":"Saint-Georges",
     "wof:parent_id":1091680925,
     "wof:placetype":"localadmin",
+    "wof:population":4131,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

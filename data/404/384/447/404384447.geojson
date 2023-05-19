@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_14068",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bi\u00e9ville-Beuville",
+    "eurostat:nuts_2021_id":"14068",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD11",
+    "eurostat:nuts_2021_level_lau":"14068",
+    "eurostat:population":3391,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200065597",
     "frgov:id":"BDCSURCO0000000009586373",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001392,
-    "geom:area_square_m":11241267.817761,
+    "geom:area_square_m":11241267.81776,
     "geom:bbox":"-0.373372333017,49.221258888,-0.302674701797,49.2616264549",
     "geom:latitude":49.239273,
     "geom:longitude":-0.337027,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683579,
         102191581,
@@ -58,7 +72,10 @@
         102071479
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_14068",
+        "eurostat:nuts_2021_id":"14068"
+    },
     "wof:coterminous":[
         1125982457
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b62ba70c4571ef182eda481633396348",
+    "wof:geomhash":"f22ecdde972148de36dc806622423316",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404384447,
-    "wof:lastmodified":1582324613,
+    "wof:lastmodified":1684353064,
     "wof:name":"Bieville-Beuville",
     "wof:parent_id":102071479,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3391,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_26160",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Laveyron",
+    "eurostat:nuts_2021_id":"26160",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK23",
+    "eurostat:nuts_2021_level_lau":"26160",
+    "eurostat:population":1187,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040491",
     "frgov:id":"BDCSURCO0000000009607667",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.000613,
-    "geom:area_square_m":5338310.707844,
+    "geom:area_square_m":5338310.707842,
     "geom:bbox":"4.8032077691,45.1738948433,4.84201432755,45.2255843857",
     "geom:latitude":45.203441,
     "geom:longitude":4.819459,
@@ -132,6 +144,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683523,
         102191581,
@@ -142,7 +156,10 @@
         102069179
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_26160",
+        "eurostat:nuts_2021_id":"26160"
+    },
     "wof:coterminous":[
         1125772021
     ],
@@ -150,7 +167,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"bd505cb69519fe7edc8590bb250dbac1",
+    "wof:geomhash":"3c04dd988c258f5cdbd1cbefd9a197eb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -164,11 +181,13 @@
         }
     ],
     "wof:id":404368649,
-    "wof:lastmodified":1582324878,
+    "wof:lastmodified":1684352874,
     "wof:name":"Laveyron",
     "wof:parent_id":102069179,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1187,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

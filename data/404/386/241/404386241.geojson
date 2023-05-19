@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_39085",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Cerni\u00e9baud",
+    "eurostat:nuts_2021_id":"39085",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC22",
+    "eurostat:nuts_2021_level_lau":"39085",
+    "eurostat:population":88,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069623",
     "frgov:id":"BDCSURCO0000000009601298",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001224,
-    "geom:area_square_m":10376098.00049,
+    "geom:area_square_m":10376098.000489,
     "geom:bbox":"6.09525440113,46.719411734,6.15525239499,46.7558763984",
     "geom:latitude":46.736616,
     "geom:longitude":6.125803,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683173,
         102191581,
@@ -58,7 +72,10 @@
         102068015
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_39085",
+        "eurostat:nuts_2021_id":"39085"
+    },
     "wof:coterminous":[
         1125854735
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"58b1ebd80bb3af743a1f23f5aad06213",
+    "wof:geomhash":"21061a463c8c7e35332e73b4aa964bec",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404386241,
-    "wof:lastmodified":1582325453,
+    "wof:lastmodified":1684353084,
     "wof:name":"Cerniebaud",
     "wof:parent_id":102068015,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":88,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

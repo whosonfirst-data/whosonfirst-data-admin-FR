@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_03205",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"P\u00e9rigny",
+    "eurostat:nuts_2021_id":"03205",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK11",
+    "eurostat:nuts_2021_level_lau":"03205",
+    "eurostat:population":440,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240300491",
     "frgov:id":"BDCSURCO0000000009603286",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.003173,
-    "geom:area_square_m":27134490.166767,
+    "geom:area_square_m":27134490.166768,
     "geom:bbox":"3.51546179195,46.2125099201,3.60677949587,46.2780342429",
     "geom:latitude":46.246766,
     "geom:longitude":3.560486,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683293,
         102191581,
@@ -58,7 +72,10 @@
         102067097
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_03205",
+        "eurostat:nuts_2021_id":"03205"
+    },
     "wof:coterminous":[
         1125923649
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"cccd05847ffaeb65a52e742ff1d6a050",
+    "wof:geomhash":"80c091e428094221a286bd116796fd6e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404400053,
-    "wof:lastmodified":1582324508,
+    "wof:lastmodified":1684353250,
     "wof:name":"Perigny",
     "wof:parent_id":102067097,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":440,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

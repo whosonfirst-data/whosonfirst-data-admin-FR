@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_80199",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Cl\u00e9ry-sur-Somme",
+    "eurostat:nuts_2021_id":"80199",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE23",
+    "eurostat:nuts_2021_level_lau":"80199",
+    "eurostat:population":546,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200037059",
     "frgov:id":"BDCSURCO0000000009582261",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002364,
-    "geom:area_square_m":18800568.460104,
+    "geom:area_square_m":18800568.460103,
     "geom:bbox":"2.85350353149,49.9288452603,2.91613814572,49.994665985",
     "geom:latitude":49.962463,
     "geom:longitude":2.887141,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683363,
         102191581,
@@ -58,7 +72,10 @@
         102070349
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_80199",
+        "eurostat:nuts_2021_id":"80199"
+    },
     "wof:coterminous":[
         101900509
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3d0c6d253b3d2b650dc851a5f06487bd",
+    "wof:geomhash":"8887148efae6132245c0032e3655d3ba",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404368379,
-    "wof:lastmodified":1582324872,
+    "wof:lastmodified":1684352870,
     "wof:name":"Clery-Sur-Somme",
     "wof:parent_id":102070349,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":546,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

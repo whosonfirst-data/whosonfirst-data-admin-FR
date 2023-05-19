@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_04062",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Condamine-Ch\u00e2telard",
+    "eurostat:nuts_2021_id":"04062",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL01",
+    "eurostat:nuts_2021_level_lau":"04062",
+    "eurostat:population":155,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072304",
     "frgov:id":"BDCSURCO0000000009610035",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.006383,
-    "geom:area_square_m":56330313.807214,
+    "geom:area_square_m":56330313.807215,
     "geom:bbox":"6.63229969332,44.4353036655,6.77864840093,44.5002997537",
     "geom:latitude":44.462504,
     "geom:longitude":6.696649,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683509,
         102191581,
@@ -57,7 +71,10 @@
         102064819
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_04062",
+        "eurostat:nuts_2021_id":"04062"
+    },
     "wof:coterminous":[
         1125960847
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0bd1d4dd90e9d574c6e11d69c3ecefaa",
+    "wof:geomhash":"c502f6d121b86c8a84e0cdba9b7a37fe",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404351939,
-    "wof:lastmodified":1582324945,
+    "wof:lastmodified":1684352644,
     "wof:name":"La Condamine-Chatelard",
     "wof:parent_id":102064819,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":155,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

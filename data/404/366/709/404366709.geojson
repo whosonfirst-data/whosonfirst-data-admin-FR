@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_54293",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Land\u00e9court",
+    "eurostat:nuts_2021_id":"54293",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF31",
+    "eurostat:nuts_2021_level_lau":"54293",
+    "eurostat:population":88,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067643",
     "frgov:id":"BDCSURCO0000000009591842",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683343,
         102191581,
@@ -58,7 +72,10 @@
         102065107
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_54293",
+        "eurostat:nuts_2021_id":"54293"
+    },
     "wof:coterminous":[
         1126024559
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"cff6c7e37caf93a5d3bd560d4f7bea3a",
+    "wof:geomhash":"956b63f4e0422ccb04f757488dec0b53",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404366709,
-    "wof:lastmodified":1582324824,
+    "wof:lastmodified":1684352848,
     "wof:name":"Landecourt",
     "wof:parent_id":102065107,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":88,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

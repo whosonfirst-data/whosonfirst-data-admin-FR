@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_10279",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Pars-l\u00e8s-Chavanges",
+    "eurostat:nuts_2021_id":"10279",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF22",
+    "eurostat:nuts_2021_level_lau":"10279",
+    "eurostat:population":66,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040137",
     "frgov:id":"BDCSURCO0000000009591930",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.001028,
-    "geom:area_square_m":8421873.988024,
+    "geom:area_square_m":8421873.988023,
     "geom:bbox":"4.47517867741,48.4946398104,4.52081051715,48.5478184676",
     "geom:latitude":48.517209,
     "geom:longitude":4.503031,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683193,
         102191581,
@@ -58,7 +72,10 @@
         102065617
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_10279",
+        "eurostat:nuts_2021_id":"10279"
+    },
     "wof:coterminous":[
         101883063
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"58c8c346d1c52d57b21025ec44faabc3",
+    "wof:geomhash":"629adc13ece15dbe4175c4eb731c04bd",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404399419,
-    "wof:lastmodified":1582324154,
+    "wof:lastmodified":1684353243,
     "wof:name":"Pars-Les-Chavanges",
     "wof:parent_id":102065617,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":66,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

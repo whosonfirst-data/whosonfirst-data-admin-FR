@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_73276",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Pierre-de-Soucy",
+    "eurostat:nuts_2021_id":"73276",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK27",
+    "eurostat:nuts_2021_level_lau":"73276",
+    "eurostat:population":437,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041010",
     "frgov:id":"BDCSURCO0000000009606231",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001043,
-    "geom:area_square_m":9038559.089061,
+    "geom:area_square_m":9038559.089062,
     "geom:bbox":"6.0774925045,45.467170436,6.1344181004,45.5090387261",
     "geom:latitude":45.487751,
     "geom:longitude":6.104729,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683265,
         102191581,
@@ -58,7 +72,10 @@
         102067647
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_73276",
+        "eurostat:nuts_2021_id":"73276"
+    },
     "wof:coterminous":[
         1125937811
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"dd5d1a6dba88b03a83aa5bb478fa58ac",
+    "wof:geomhash":"655e831d3be391158c43f66cdc332cfe",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404410613,
-    "wof:lastmodified":1582325153,
+    "wof:lastmodified":1684353373,
     "wof:name":"Saint-Pierre-De-Soucy",
     "wof:parent_id":102067647,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":437,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

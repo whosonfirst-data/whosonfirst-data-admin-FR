@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_73047",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bonneval-sur-Arc",
+    "eurostat:nuts_2021_id":"73047",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK27",
+    "eurostat:nuts_2021_level_lau":"73047",
+    "eurostat:population":261,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070340",
     "frgov:id":"BDCSURCO0000000009606705",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.012924,
-    "geom:area_square_m":112237641.677359,
+    "geom:area_square_m":112237641.677357,
     "geom:bbox":"6.99818364796,45.3265122996,7.1858873953,45.4342791156",
     "geom:latitude":45.385858,
     "geom:longitude":7.09198,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683265,
         102191581,
@@ -58,7 +72,10 @@
         102067321
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_73047",
+        "eurostat:nuts_2021_id":"73047"
+    },
     "wof:coterminous":[
         1125998875
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ea352a24b9ad39dd8560a07495defbb8",
+    "wof:geomhash":"905fc91ca118c355e62e1a3849721036",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404359059,
-    "wof:lastmodified":1582324801,
+    "wof:lastmodified":1684352740,
     "wof:name":"Bonneval-Sur-Arc",
     "wof:parent_id":102067321,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":261,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

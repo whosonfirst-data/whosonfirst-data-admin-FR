@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_28358",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Prest",
+    "eurostat:nuts_2021_id":"28358",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB02",
+    "eurostat:nuts_2021_level_lau":"28358",
+    "eurostat:population":2031,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200033181",
     "frgov:id":"BDCSURCO0000000009592500",
     "frgov:insee_arr":"1",
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683189,
         102191581,
@@ -135,7 +149,10 @@
         102065425
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_28358",
+        "eurostat:nuts_2021_id":"28358"
+    },
     "wof:coterminous":[
         101762323
     ],
@@ -143,7 +160,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"156af2b6d8ff86c316330edc2bea3bda",
+    "wof:geomhash":"ebb68ba6fa37492d54061aecd0f8b71a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -156,11 +173,13 @@
         }
     ],
     "wof:id":404357785,
-    "wof:lastmodified":1582324894,
+    "wof:lastmodified":1684352722,
     "wof:name":"Saint-Prest",
     "wof:parent_id":102065425,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2031,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

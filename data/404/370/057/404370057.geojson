@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_07215",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Barth\u00e9lemy-le-Meil",
+    "eurostat:nuts_2021_id":"07215",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK22",
+    "eurostat:nuts_2021_level_lau":"07215",
+    "eurostat:population":195,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041465",
     "frgov:id":"BDCSURCO0000000009608718",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683421,
         102191581,
@@ -58,7 +72,10 @@
         102065359
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_07215",
+        "eurostat:nuts_2021_id":"07215"
+    },
     "wof:coterminous":[
         1126047629
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"bfda88fac6a16b688203684c4b30e797",
+    "wof:geomhash":"e37a8a5405757a1e2d08442739ff659b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404370057,
-    "wof:lastmodified":1582324608,
+    "wof:lastmodified":1684352890,
     "wof:name":"Saint-Barthelemy-Le-Meil",
     "wof:parent_id":102065359,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":195,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

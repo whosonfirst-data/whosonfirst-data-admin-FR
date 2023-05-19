@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_04112",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Manosque",
+    "eurostat:nuts_2021_id":"04112",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL01",
+    "eurostat:nuts_2021_level_lau":"04112",
+    "eurostat:population":22333,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200034700",
     "frgov:id":"BDCSURCO0000000009612399",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.006341,
-    "geom:area_square_m":56561717.550471,
+    "geom:area_square_m":56561717.550467,
     "geom:bbox":"5.727061,43.774701,5.852211,43.883916",
     "geom:latitude":43.835244,
     "geom:longitude":5.790971,
@@ -162,23 +174,29 @@
     "reversegeo:longitude":5.791901,
     "src:geom":"frgov",
     "src:geom_alt":[],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85683509,
         102191581,
         85633147,
-        102072373,
         404228199,
         404227445,
-        85683509
+        102072373
     ],
     "wof:breaches":[],
     "wof:concordance":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_04112",
+        "eurostat:nuts_2021_id":"04112"
+    },
     "wof:coterminous":[
         101774117,
         102072373
     ],
     "wof:country":"FR",
     "wof:created":1526509237,
-    "wof:geomhash":"bfb76b96d68fb3e4ef3a20b0f96af294",
+    "wof:geomhash":"2f2651e1cd1750f988648dafea74c5a5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -191,11 +209,13 @@
         }
     ],
     "wof:id":1159321901,
-    "wof:lastmodified":1608039579,
+    "wof:lastmodified":1684353594,
     "wof:name":"Manosque",
     "wof:parent_id":102072373,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":22333,
+    "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded":[],
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_42200",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Andr\u00e9-le-Puy",
+    "eurostat:nuts_2021_id":"42200",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK25",
+    "eurostat:nuts_2021_level_lau":"42200",
+    "eurostat:population":1539,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200065894",
     "frgov:id":"BDCSURCO0000000009605781",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001004,
-    "geom:area_square_m":8680785.853712,
+    "geom:area_square_m":8680785.853713,
     "geom:bbox":"4.23749604324,45.6251159035,4.28416949276,45.664510762",
     "geom:latitude":45.646709,
     "geom:longitude":4.264684,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683377,
         102191581,
@@ -58,7 +72,10 @@
         102068539
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_42200",
+        "eurostat:nuts_2021_id":"42200"
+    },
     "wof:coterminous":[
         101828953
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8d2e3ac88d72025ac4c2cd3353ad8a02",
+    "wof:geomhash":"7e442d49179bb36045edea24d34c1b89",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404412357,
-    "wof:lastmodified":1582324377,
+    "wof:lastmodified":1684353393,
     "wof:name":"Saint-Andre-Le-Puy",
     "wof:parent_id":102068539,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1539,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

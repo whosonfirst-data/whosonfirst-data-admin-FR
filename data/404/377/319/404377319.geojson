@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_17273",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"P\u00e9rignac",
+    "eurostat:nuts_2021_id":"17273",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI32",
+    "eurostat:nuts_2021_level_lau":"17273",
+    "eurostat:population":1017,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041523",
     "frgov:id":"BDCSURCO0000000009605921",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003206,
-    "geom:area_square_m":27717655.390629,
+    "geom:area_square_m":27717655.39063,
     "geom:bbox":"-0.512266770609,45.6058162293,-0.408929494456,45.6663887424",
     "geom:latitude":45.636925,
     "geom:longitude":-0.458883,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683275,
         102191581,
@@ -58,7 +72,10 @@
         102068117
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_17273",
+        "eurostat:nuts_2021_id":"17273"
+    },
     "wof:coterminous":[
         1126022885
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e02b857dfc47e6fb4cf2dba02c5c38d5",
+    "wof:geomhash":"f6b558e8a7867ef99147295a58ddf21e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404377319,
-    "wof:lastmodified":1582324573,
+    "wof:lastmodified":1684352979,
     "wof:name":"Perignac",
     "wof:parent_id":102068117,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1017,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

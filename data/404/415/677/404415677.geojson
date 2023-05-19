@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_70231",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ferri\u00e8res-l\u00e8s-Ray",
+    "eurostat:nuts_2021_id":"70231",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC23",
+    "eurostat:nuts_2021_level_lau":"70231",
+    "eurostat:population":33,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247000623",
     "frgov:id":"BDCSURCO0000000009597697",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000478,
-    "geom:area_square_m":3989460.232205,
+    "geom:area_square_m":3989460.232206,
     "geom:bbox":"5.77525233743,47.5687461254,5.81217426134,47.5898505067",
     "geom:latitude":47.578926,
     "geom:longitude":5.794457,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683559,
         102191581,
@@ -58,7 +72,10 @@
         102065329
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_70231",
+        "eurostat:nuts_2021_id":"70231"
+    },
     "wof:coterminous":[
         1125771303
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"55dabbc8307619a6db930dca09aaee7c",
+    "wof:geomhash":"c197fb52b97ba41ffafa17873927cb59",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404415677,
-    "wof:lastmodified":1582324363,
+    "wof:lastmodified":1684353433,
     "wof:name":"Ferrieres-Les-Ray",
     "wof:parent_id":102065329,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":33,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

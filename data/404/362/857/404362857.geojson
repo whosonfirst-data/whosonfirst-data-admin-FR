@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_29051",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ergu\u00e9-Gab\u00e9ric",
+    "eurostat:nuts_2021_id":"29051",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH02",
+    "eurostat:nuts_2021_level_lau":"29051",
+    "eurostat:population":8208,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068120",
     "frgov:id":"BDCSURCO0000000009594974",
     "frgov:insee_arr":"4",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683553,
         102191581,
@@ -57,7 +71,10 @@
         102071501
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_29051",
+        "eurostat:nuts_2021_id":"29051"
+    },
     "wof:coterminous":[
         101762707
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"52188ce94da49f22ce6c80d92e519c02",
+    "wof:geomhash":"fddc09ed1b8b832c2ce31909b4a78e9c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404362857,
-    "wof:lastmodified":1582324050,
+    "wof:lastmodified":1684352793,
     "wof:name":"Ergue-Gaberic",
     "wof:parent_id":102071501,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":8208,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

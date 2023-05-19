@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_76029",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Aubermesnil-aux-\u00c9rables",
+    "eurostat:nuts_2021_id":"76029",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD22",
+    "eurostat:nuts_2021_level_lau":"76029",
+    "eurostat:population":203,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069722",
     "frgov:id":"BDCSURCO0000000009583028",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00106,
-    "geom:area_square_m":8457361.45777,
+    "geom:area_square_m":8457361.457771,
     "geom:bbox":"1.54795224305,49.7892311072,1.59030775398,49.8305132649",
     "geom:latitude":49.808063,
     "geom:longitude":1.568501,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683251,
         102191581,
@@ -56,7 +70,10 @@
         102065061
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_76029",
+        "eurostat:nuts_2021_id":"76029"
+    },
     "wof:coterminous":[
         1360676119
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a261763d780610e6be081c6fa12a6847",
+    "wof:geomhash":"b1d7272d2a803df6e34039b86750052f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404383271,
-    "wof:lastmodified":1582324551,
+    "wof:lastmodified":1684353049,
     "wof:name":"Aubermesnil-Aux-Erables",
     "wof:parent_id":102065061,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":203,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

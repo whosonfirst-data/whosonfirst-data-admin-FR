@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_08382",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Jean-aux-Bois",
+    "eurostat:nuts_2021_id":"08382",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF21",
+    "eurostat:nuts_2021_level_lau":"08382",
+    "eurostat:population":107,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240800862",
     "frgov:id":"BDCSURCO0000000009583168",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683309,
         102191581,
@@ -58,7 +72,10 @@
         102065509
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_08382",
+        "eurostat:nuts_2021_id":"08382"
+    },
     "wof:coterminous":[
         101901805
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b71a69cbde28f87a70f24c1ec361f6ef",
+    "wof:geomhash":"2d59c83e6ceb4ebca6f7019789ae0ffd",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404419415,
-    "wof:lastmodified":1582325064,
+    "wof:lastmodified":1684353476,
     "wof:name":"Saint-Jean-Aux-Bois",
     "wof:parent_id":102065509,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":107,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_63370",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Julien-Puy-Lav\u00e8ze",
+    "eurostat:nuts_2021_id":"63370",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK14",
+    "eurostat:nuts_2021_level_lau":"63370",
+    "eurostat:population":359,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069169",
     "frgov:id":"BDCSURCO0000000009605834",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.003341,
-    "geom:area_square_m":28870538.922811,
+    "geom:area_square_m":28870538.92281,
     "geom:bbox":"2.62977216262,45.6316569815,2.7244486827,45.6899006044",
     "geom:latitude":45.66211,
     "geom:longitude":2.679813,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683471,
         102191581,
@@ -58,7 +72,10 @@
         102065547
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_63370",
+        "eurostat:nuts_2021_id":"63370"
+    },
     "wof:coterminous":[
         1125847577
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e523d39c2dfce5437650e51b17e20d71",
+    "wof:geomhash":"4325f5e097d10b78be45b15b3f6d1b9e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404349493,
-    "wof:lastmodified":1582324714,
+    "wof:lastmodified":1684352609,
     "wof:name":"Saint-Julien-Puy-Laveze",
     "wof:parent_id":102065547,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":359,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

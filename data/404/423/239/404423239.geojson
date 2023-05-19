@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_27590",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Pierre-de-Cerni\u00e8res",
+    "eurostat:nuts_2021_id":"27590",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD21",
+    "eurostat:nuts_2021_level_lau":"27590",
+    "eurostat:population":225,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066413",
     "frgov:id":"BDCSURCO0000000009588805",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001457,
-    "geom:area_square_m":11835087.863064,
+    "geom:area_square_m":11835087.863063,
     "geom:bbox":"0.487197965405,48.9173944483,0.554840809417,48.9471152425",
     "geom:latitude":48.931231,
     "geom:longitude":0.519432,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683283,
         102191581,
@@ -58,7 +72,10 @@
         102066091
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_27590",
+        "eurostat:nuts_2021_id":"27590"
+    },
     "wof:coterminous":[
         1125826837
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d994310397154f11cd8e91ef2dad1514",
+    "wof:geomhash":"3ead6dc9aa0d401b8220b99bfdeb986d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404423239,
-    "wof:lastmodified":1582324416,
+    "wof:lastmodified":1684353525,
     "wof:name":"Saint-Pierre-De-Cernieres",
     "wof:parent_id":102066091,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":225,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

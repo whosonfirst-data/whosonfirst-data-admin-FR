@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_19243",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Sornin-Lavolps",
+    "eurostat:nuts_2021_id":"19243",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI21",
+    "eurostat:nuts_2021_level_lau":"19243",
+    "eurostat:population":858,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066603",
     "frgov:id":"BDCSURCO0000000009607099",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00176,
-    "geom:area_square_m":15289826.837145,
+    "geom:area_square_m":15289826.837146,
     "geom:bbox":"1.3436926291,45.3510234052,1.39651665902,45.3961330481",
     "geom:latitude":45.374146,
     "geom:longitude":1.371146,
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683209,
         102191581,
@@ -136,7 +150,10 @@
         102066983
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_19243",
+        "eurostat:nuts_2021_id":"19243"
+    },
     "wof:coterminous":[
         1125826301
     ],
@@ -144,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7be4dfb3e3a0b6be8956bb89bdee631a",
+    "wof:geomhash":"07e0dd5639252ef978afdc30d59c971f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +175,13 @@
         }
     ],
     "wof:id":404412061,
-    "wof:lastmodified":1582324381,
+    "wof:lastmodified":1684353390,
     "wof:name":"Saint-Sornin-Lavolps",
     "wof:parent_id":102066983,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":858,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

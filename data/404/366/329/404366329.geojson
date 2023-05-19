@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_12277",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Taussac",
+    "eurostat:nuts_2021_id":"12277",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ22",
+    "eurostat:nuts_2021_level_lau":"12277",
+    "eurostat:population":520,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067171",
     "frgov:id":"BDCSURCO0000000009609222",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.004493,
-    "geom:area_square_m":39406236.026476,
+    "geom:area_square_m":39406236.026478,
     "geom:bbox":"2.58656051902,44.7774498801,2.68841883858,44.8729700503",
     "geom:latitude":44.82491,
     "geom:longitude":2.636341,
@@ -118,6 +130,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683301,
         102191581,
@@ -128,7 +142,10 @@
         102067801
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_12277",
+        "eurostat:nuts_2021_id":"12277"
+    },
     "wof:coterminous":[
         1360674457
     ],
@@ -136,7 +153,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b4144add07638fd1a577c7e796face6b",
+    "wof:geomhash":"e66dd87a39e9300dd6409b1ce92985af",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -150,11 +167,13 @@
         }
     ],
     "wof:id":404366329,
-    "wof:lastmodified":1582324840,
+    "wof:lastmodified":1684352842,
     "wof:name":"Taussac",
     "wof:parent_id":102067801,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":520,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

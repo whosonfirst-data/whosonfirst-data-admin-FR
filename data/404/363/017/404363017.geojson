@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_42203",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Bonnet-des-Quarts",
+    "eurostat:nuts_2021_id":"42203",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK25",
+    "eurostat:nuts_2021_level_lau":"42203",
+    "eurostat:population":318,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200035731",
     "frgov:id":"BDCSURCO0000000009603756",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.003832,
-    "geom:area_square_m":32833933.614381,
+    "geom:area_square_m":32833933.614382,
     "geom:bbox":"3.78976199406,46.090218203,3.87092491988,46.1641668394",
     "geom:latitude":46.130122,
     "geom:longitude":3.827952,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683377,
         102191581,
@@ -58,7 +72,10 @@
         102066497
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_42203",
+        "eurostat:nuts_2021_id":"42203"
+    },
     "wof:coterminous":[
         1125889555
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"11531a36959de290702fa6a00c4ddfe6",
+    "wof:geomhash":"74b4205f1fab3ad3e9ca4ee8aa6c8082",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404363017,
-    "wof:lastmodified":1582324231,
+    "wof:lastmodified":1684352796,
     "wof:name":"Saint-Bonnet-Des-Quarts",
     "wof:parent_id":102066497,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":318,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

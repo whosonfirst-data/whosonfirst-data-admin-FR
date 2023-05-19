@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_02132",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bucy-l\u00e8s-Cerny",
+    "eurostat:nuts_2021_id":"02132",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE21",
+    "eurostat:nuts_2021_level_lau":"02132",
+    "eurostat:population":203,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200043495",
     "frgov:id":"BDCSURCO0000000009583825",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001093,
-    "geom:area_square_m":8766299.700219,
+    "geom:area_square_m":8766299.700217,
     "geom:bbox":"3.44870295315,49.5686312715,3.53760426491,49.5908132294",
     "geom:latitude":49.579053,
     "geom:longitude":3.496788,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683247,
         102191581,
@@ -58,7 +72,10 @@
         102067599
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_02132",
+        "eurostat:nuts_2021_id":"02132"
+    },
     "wof:coterminous":[
         101902865
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3482c0b2e8f77b2a4f02b592db624c36",
+    "wof:geomhash":"1700893e350d483187f0c61ccb45dc9e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404352681,
-    "wof:lastmodified":1582324163,
+    "wof:lastmodified":1684352654,
     "wof:name":"Bucy-Les-Cerny",
     "wof:parent_id":102067599,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":203,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

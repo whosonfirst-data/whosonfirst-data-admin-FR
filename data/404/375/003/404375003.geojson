@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_07285",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Pierre-sur-Doux",
+    "eurostat:nuts_2021_id":"07285",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK22",
+    "eurostat:nuts_2021_level_lau":"07285",
+    "eurostat:population":107,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240700716",
     "frgov:id":"BDCSURCO0000000009607893",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683421,
         102191581,
@@ -58,7 +72,10 @@
         102068251
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_07285",
+        "eurostat:nuts_2021_id":"07285"
+    },
     "wof:coterminous":[
         1125817607
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4dc07b2f18397af3a7478c2cc9de5de4",
+    "wof:geomhash":"acf786b2a923d06b044a2544d6ace848",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404375003,
-    "wof:lastmodified":1582325420,
+    "wof:lastmodified":1684352948,
     "wof:name":"Saint-Pierre-Sur-Doux",
     "wof:parent_id":102068251,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":107,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

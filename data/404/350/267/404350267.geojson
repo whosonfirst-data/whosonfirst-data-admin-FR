@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_54080",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bl\u00e9nod-l\u00e8s-Toul",
+    "eurostat:nuts_2021_id":"54080",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF31",
+    "eurostat:nuts_2021_level_lau":"54080",
+    "eurostat:population":1078,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"245400510",
     "frgov:id":"BDCSURCO0000000009591431",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.002152,
-    "geom:area_square_m":17602213.855087,
+    "geom:area_square_m":17602213.855086,
     "geom:bbox":"5.78527698554,48.5671119214,5.87417913157,48.6166766388",
     "geom:latitude":48.596907,
     "geom:longitude":5.826967,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683343,
         102191581,
@@ -58,7 +72,10 @@
         102069587
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_54080",
+        "eurostat:nuts_2021_id":"54080"
+    },
     "wof:coterminous":[
         101883799
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"68aa92be5bf4400e3c54c53992e05ed3",
+    "wof:geomhash":"16120c85ba0c964ca58ac642eeb3d36b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404350267,
-    "wof:lastmodified":1582324850,
+    "wof:lastmodified":1684352620,
     "wof:name":"Blenod-Les-Toul",
     "wof:parent_id":102069587,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1078,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

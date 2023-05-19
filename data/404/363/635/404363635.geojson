@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_72080",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Cherr\u00e9-Au",
+    "eurostat:nuts_2021_id":"72080",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG04",
+    "eurostat:nuts_2021_level_lau":"72080",
+    "eurostat:population":2698,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247200686",
     "frgov:id":"BDCSURCO0000000009594874",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002229,
-    "geom:area_square_m":18387653.825904,
+    "geom:area_square_m":18387653.825903,
     "geom:bbox":"0.619155922847,48.1285820751,0.694053986577,48.1852837223",
     "geom:latitude":48.154781,
     "geom:longitude":0.657531,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683279,
         102191581,
@@ -57,7 +71,10 @@
         102066115
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_72080",
+        "eurostat:nuts_2021_id":"72080"
+    },
     "wof:coterminous":[
         101827735
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"87449e593e81aa954c3ef289c9aeb3c6",
+    "wof:geomhash":"c0619a60fc8520f83e010c8b38e04290",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404363635,
-    "wof:lastmodified":1582324224,
+    "wof:lastmodified":1684352804,
     "wof:name":"Cherre",
     "wof:parent_id":102066115,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2698,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

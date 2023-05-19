@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_23112",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lourdoueix-Saint-Pierre",
+    "eurostat:nuts_2021_id":"23112",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI22",
+    "eurostat:nuts_2021_level_lau":"23112",
+    "eurostat:population":773,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041556",
     "frgov:id":"BDCSURCO0000000009602900",
     "frgov:insee_arr":"2",
@@ -132,6 +144,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683179,
         102191581,
@@ -142,7 +156,10 @@
         102065275
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_23112",
+        "eurostat:nuts_2021_id":"23112"
+    },
     "wof:coterminous":[
         1125981525
     ],
@@ -150,7 +167,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7fc804581803701f1ffbca77f4b09c1f",
+    "wof:geomhash":"d3ae5b4929b9d8baa63fc6b13d78cab5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -164,11 +181,13 @@
         }
     ],
     "wof:id":404350419,
-    "wof:lastmodified":1582324856,
+    "wof:lastmodified":1684352622,
     "wof:name":"Lourdoueix-Saint-Pierre",
     "wof:parent_id":102065275,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":773,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

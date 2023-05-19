@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_64232",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Garl\u00e8de-Mondebat",
+    "eurostat:nuts_2021_id":"64232",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI15",
+    "eurostat:nuts_2021_level_lau":"64232",
+    "eurostat:population":222,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067239",
     "frgov:id":"BDCSURCO0000000009613774",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000961,
-    "geom:area_square_m":8621142.143176,
+    "geom:area_square_m":8621142.143177,
     "geom:bbox":"-0.355098523169,43.4904859387,-0.314341022246,43.5396219378",
     "geom:latitude":43.509889,
     "geom:longitude":-0.335565,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683539,
         102191581,
@@ -58,7 +72,10 @@
         102071091
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_64232",
+        "eurostat:nuts_2021_id":"64232"
+    },
     "wof:coterminous":[
         1126054749
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d9075342207b83d17c8d30c8fc974e46",
+    "wof:geomhash":"5b044f20b7a23c5b12497b74f38c29df",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404403141,
-    "wof:lastmodified":1582325302,
+    "wof:lastmodified":1684353285,
     "wof:name":"Garlede-Mondebat",
     "wof:parent_id":102071091,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":222,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_06083",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Menton",
+    "eurostat:nuts_2021_id":"06083",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL03",
+    "eurostat:nuts_2021_level_lau":"06083",
+    "eurostat:population":28958,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240600551",
     "frgov:id":"BDCSURCO0000000009612136",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.00159,
-    "geom:area_square_m":14193073.139371,
+    "geom:area_square_m":14193073.139373,
     "geom:bbox":"7.468057,43.765024,7.530159,43.826758",
     "geom:latitude":43.791663,
     "geom:longitude":7.493548,
@@ -198,23 +210,29 @@
     "reversegeo:longitude":7.491445,
     "src:geom":"frgov",
     "src:geom_alt":[],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85683323,
         102191581,
         85633147,
-        102071959,
         404227807,
         404227445,
-        85683323
+        102071959
     ],
     "wof:breaches":[],
     "wof:concordance":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_06083",
+        "eurostat:nuts_2021_id":"06083"
+    },
     "wof:coterminous":[
         101831791,
         102071959
     ],
     "wof:country":"FR",
     "wof:created":1526509572,
-    "wof:geomhash":"e5f69998c7b9b1fb24288e6f209f8cf7",
+    "wof:geomhash":"3133b8ba68a168e5a2319bac085fca51",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -227,11 +245,13 @@
         }
     ],
     "wof:id":1159322005,
-    "wof:lastmodified":1608039588,
+    "wof:lastmodified":1684353595,
     "wof:name":"Menton",
     "wof:parent_id":102071959,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":28958,
+    "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded":[],
     "wof:superseded_by":[],

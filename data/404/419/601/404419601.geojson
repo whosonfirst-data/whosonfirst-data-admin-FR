@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_41231",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Vi\u00e2tre",
+    "eurostat:nuts_2021_id":"41231",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB05",
+    "eurostat:nuts_2021_level_lau":"41231",
+    "eurostat:population":1196,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244100780",
     "frgov:id":"BDCSURCO0000000009598367",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.011904,
-    "geom:area_square_m":99413447.397368,
+    "geom:area_square_m":99413447.397369,
     "geom:bbox":"1.8546266313,47.4476323053,2.01936543232,47.5758255442",
     "geom:latitude":47.514712,
     "geom:longitude":1.933547,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683349,
         102191581,
@@ -57,7 +71,10 @@
         102068075
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_41231",
+        "eurostat:nuts_2021_id":"41231"
+    },
     "wof:coterminous":[
         101766049
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d418bda9acbed0a30743ddaae8b44336",
+    "wof:geomhash":"e1c3c4b2bba022898040126936f05aa1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404419601,
-    "wof:lastmodified":1582325074,
+    "wof:lastmodified":1684353478,
     "wof:name":"Saint-Viatre",
     "wof:parent_id":102068075,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1196,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

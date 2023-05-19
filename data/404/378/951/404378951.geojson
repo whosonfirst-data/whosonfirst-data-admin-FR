@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_78188",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Cravent",
+    "eurostat:nuts_2021_id":"78188",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR103",
+    "eurostat:nuts_2021_level_lau":"78188",
+    "eurostat:population":438,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071074",
     "frgov:id":"BDCSURCO0000000009588755",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"ILE-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000754,
-    "geom:area_square_m":6119173.036873,
+    "geom:area_square_m":6119173.036872,
     "geom:bbox":"1.46091236795,48.974817132,1.50790343555,49.0055528103",
     "geom:latitude":48.989134,
     "geom:longitude":1.484584,
@@ -120,6 +132,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683367,
         102191581,
@@ -129,7 +143,10 @@
         102064521
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_78188",
+        "eurostat:nuts_2021_id":"78188"
+    },
     "wof:coterminous":[
         101878451
     ],
@@ -137,7 +154,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b149905abdd3509ceb83ed262f71026e",
+    "wof:geomhash":"f19a57c1035b16d6b6ba43fe203100e2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -150,11 +167,13 @@
         }
     ],
     "wof:id":404378951,
-    "wof:lastmodified":1582324741,
+    "wof:lastmodified":1684352998,
     "wof:name":"Cravent",
     "wof:parent_id":102064521,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":438,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

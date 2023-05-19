@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_84108",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Didier",
+    "eurostat:nuts_2021_id":"84108",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL06",
+    "eurostat:nuts_2021_level_lau":"84108",
+    "eurostat:population":2144,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248400053",
     "frgov:id":"BDCSURCO0000000009611526",
     "frgov:insee_arr":"3",
@@ -93,6 +105,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683201,
         102191581,
@@ -102,7 +116,10 @@
         102067729
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_84108",
+        "eurostat:nuts_2021_id":"84108"
+    },
     "wof:coterminous":[
         101772449
     ],
@@ -110,7 +127,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"34a6f4580d7467ed7a0c8001b361b92f",
+    "wof:geomhash":"d7d53f1bf09a2558556365b5ff4356f8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -123,11 +140,13 @@
         }
     ],
     "wof:id":404362021,
-    "wof:lastmodified":1582324060,
+    "wof:lastmodified":1684352782,
     "wof:name":"Saint-Didier",
     "wof:parent_id":102067729,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2144,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

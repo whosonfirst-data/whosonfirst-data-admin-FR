@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_33435",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Macaire",
+    "eurostat:nuts_2021_id":"33435",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI12",
+    "eurostat:nuts_2021_level_lau":"33435",
+    "eurostat:population":2076,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200043974",
     "frgov:id":"BDCSURCO0000000009610017",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000242,
-    "geom:area_square_m":2129089.884566,
+    "geom:area_square_m":2129089.884567,
     "geom:bbox":"-0.251931742775,44.5570810676,-0.215478476186,44.5708642768",
     "geom:latitude":44.56332,
     "geom:longitude":-0.232874,
@@ -141,6 +153,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683243,
         102191581,
@@ -151,7 +165,10 @@
         102071281
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_33435",
+        "eurostat:nuts_2021_id":"33435"
+    },
     "wof:coterminous":[
         101771857
     ],
@@ -159,7 +176,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"dea53832db49cd899370a2f7a1a99f5c",
+    "wof:geomhash":"e77b103bf5b7e01aff5fe5dbafd2b98a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -173,11 +190,13 @@
         }
     ],
     "wof:id":404352229,
-    "wof:lastmodified":1582324162,
+    "wof:lastmodified":1684352648,
     "wof:name":"Saint-Macaire",
     "wof:parent_id":102071281,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2076,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

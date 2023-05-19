@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_61405",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Hilaire-sur-Erre",
+    "eurostat:nuts_2021_id":"61405",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD13",
+    "eurostat:nuts_2021_level_lau":"61405",
+    "eurostat:population":529,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071504",
     "frgov:id":"BDCSURCO0000000009593784",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001864,
-    "geom:area_square_m":15331865.017766,
+    "geom:area_square_m":15331865.017765,
     "geom:bbox":"0.717547640991,48.2815851932,0.781343361712,48.3420495185",
     "geom:latitude":48.311933,
     "geom:longitude":0.746195,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683527,
         102191581,
@@ -58,7 +72,10 @@
         102070189
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_61405",
+        "eurostat:nuts_2021_id":"61405"
+    },
     "wof:coterminous":[
         101883713
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f82aac263e0332aab1bb76ee5629932b",
+    "wof:geomhash":"b88ecaa92ae6fa2e7c298ea8557e6938",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404350945,
-    "wof:lastmodified":1582324863,
+    "wof:lastmodified":1684352630,
     "wof:name":"Saint-Hilaire-Sur-Erre",
     "wof:parent_id":102070189,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":529,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

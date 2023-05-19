@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_07204",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Agr\u00e8ve",
+    "eurostat:nuts_2021_id":"07204",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK22",
+    "eurostat:nuts_2021_level_lau":"07204",
+    "eurostat:population":2353,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041465",
     "frgov:id":"BDCSURCO0000000009608514",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.005521,
-    "geom:area_square_m":48272027.223474,
+    "geom:area_square_m":48272027.223476,
     "geom:bbox":"4.3515432399,44.9492086098,4.48545218942,45.0433387337",
     "geom:latitude":45.00542,
     "geom:longitude":4.413128,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683421,
         102191581,
@@ -58,7 +72,10 @@
         102067103
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_07204",
+        "eurostat:nuts_2021_id":"07204"
+    },
     "wof:coterminous":[
         101770403
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4afb43bcac51ff6b7bfedc3c58718ae6",
+    "wof:geomhash":"fd26172bc4d417040c3b4c14baff31a7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404405587,
-    "wof:lastmodified":1582325259,
+    "wof:lastmodified":1684353314,
     "wof:name":"Saint-Agreve",
     "wof:parent_id":102067103,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2353,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

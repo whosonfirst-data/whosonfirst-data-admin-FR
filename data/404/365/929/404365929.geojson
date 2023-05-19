@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_2A091",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Cognocoli-Monticchi",
+    "eurostat:nuts_2021_id":"2A091",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRM",
+    "eurostat:nuts_2021_level_2":"FRM0",
+    "eurostat:nuts_2021_level_3":"FRM01",
+    "eurostat:nuts_2021_level_lau":"2A091",
+    "eurostat:population":169,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200038958",
     "frgov:id":"BDCSURCO0000000009616891",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CORSE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003871,
-    "geom:area_square_m":35683260.669719,
+    "geom:area_square_m":35683260.669716,
     "geom:bbox":"8.82095543945,41.7544674293,8.91558441198,41.8559730781",
     "geom:latitude":41.802338,
     "geom:longitude":8.865782,
@@ -130,6 +142,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683167,
         102191581,
@@ -139,7 +153,10 @@
         102071473
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_2A091",
+        "eurostat:nuts_2021_id":"2A091"
+    },
     "wof:coterminous":[
         1360674417
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7ee2d791f874de0b2fbabe20f487b92e",
+    "wof:geomhash":"4dde67cb17c3bf82ee0cefbce00d4fd4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -160,11 +177,13 @@
         }
     ],
     "wof:id":404365929,
-    "wof:lastmodified":1582324042,
+    "wof:lastmodified":1684352837,
     "wof:name":"Cognocoli-Monticchi",
     "wof:parent_id":102071473,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":169,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

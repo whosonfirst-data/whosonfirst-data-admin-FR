@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_43119",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lavo\u00fbte-sur-Loire",
+    "eurostat:nuts_2021_id":"43119",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK13",
+    "eurostat:nuts_2021_level_lau":"43119",
+    "eurostat:population":840,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200073419",
     "frgov:id":"BDCSURCO0000000009607906",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001203,
-    "geom:area_square_m":10496426.271756,
+    "geom:area_square_m":10496426.271757,
     "geom:bbox":"3.87155568819,45.1061455165,3.93840987335,45.1334323296",
     "geom:latitude":45.120161,
     "geom:longitude":3.903131,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683413,
         102191581,
@@ -58,7 +72,10 @@
         102068761
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_43119",
+        "eurostat:nuts_2021_id":"43119"
+    },
     "wof:coterminous":[
         1126007837
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"062ebeffbe98ec93fde72da234e16f42",
+    "wof:geomhash":"35bd0a8952a8aed6299a729c6e9dda8d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404395373,
-    "wof:lastmodified":1582324783,
+    "wof:lastmodified":1684353195,
     "wof:name":"Lavoute-Sur-Loire",
     "wof:parent_id":102068761,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":840,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

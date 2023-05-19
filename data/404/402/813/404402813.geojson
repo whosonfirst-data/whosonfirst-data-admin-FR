@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_80118",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Boufflers",
+    "eurostat:nuts_2021_id":"80118",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE23",
+    "eurostat:nuts_2021_level_lau":"80118",
+    "eurostat:population":122,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070936",
     "frgov:id":"BDCSURCO0000000009581553",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000702,
-    "geom:area_square_m":5546304.480316,
+    "geom:area_square_m":5546304.480315,
     "geom:bbox":"1.99454311296,50.2465242403,2.04517078733,50.2712080839",
     "geom:latitude":50.25888,
     "geom:longitude":2.020987,
@@ -135,6 +147,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683363,
         102191581,
@@ -145,7 +159,10 @@
         102067777
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_80118",
+        "eurostat:nuts_2021_id":"80118"
+    },
     "wof:coterminous":[
         1125876335
     ],
@@ -153,7 +170,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"71e96ab0b842143cfb7688711790324e",
+    "wof:geomhash":"6d9aa269641a42b27bd5f0c79b2f8b25",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -167,11 +184,13 @@
         }
     ],
     "wof:id":404402813,
-    "wof:lastmodified":1582325281,
+    "wof:lastmodified":1684353281,
     "wof:name":"Boufflers",
     "wof:parent_id":102067777,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":122,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

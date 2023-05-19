@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_70081",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bouhans-l\u00e8s-Lure",
+    "eurostat:nuts_2021_id":"70081",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC23",
+    "eurostat:nuts_2021_level_lau":"70081",
+    "eurostat:population":323,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041861",
     "frgov:id":"BDCSURCO0000000009596668",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001074,
-    "geom:area_square_m":8935062.638311,
+    "geom:area_square_m":8935062.638312,
     "geom:bbox":"6.38844433685,47.6811987285,6.46992475377,47.7083126687",
     "geom:latitude":47.696026,
     "geom:longitude":6.437993,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683559,
         102191581,
@@ -58,7 +72,10 @@
         102069955
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_70081",
+        "eurostat:nuts_2021_id":"70081"
+    },
     "wof:coterminous":[
         101887679
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"09cc8e4f19f07a3637b480517adb35eb",
+    "wof:geomhash":"d90e4bf41b474d9831f174ce4266fdfb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404407313,
-    "wof:lastmodified":1582324494,
+    "wof:lastmodified":1684353336,
     "wof:name":"Bouhans-Les-Lure",
     "wof:parent_id":102069955,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":323,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

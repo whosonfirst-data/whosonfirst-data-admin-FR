@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_80196",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Citerne",
+    "eurostat:nuts_2021_id":"80196",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE23",
+    "eurostat:nuts_2021_level_lau":"80196",
+    "eurostat:population":238,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070993",
     "frgov:id":"BDCSURCO0000000009582326",
     "frgov:insee_arr":"1",
@@ -132,6 +144,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683363,
         102191581,
@@ -142,7 +156,10 @@
         102068561
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_80196",
+        "eurostat:nuts_2021_id":"80196"
+    },
     "wof:coterminous":[
         101899015
     ],
@@ -150,7 +167,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"cd8806a7988806af28ec58d7ea4d982e",
+    "wof:geomhash":"23a8f03249fc3cdd8c9bcdac55f1379f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -164,11 +181,13 @@
         }
     ],
     "wof:id":404381675,
-    "wof:lastmodified":1582325428,
+    "wof:lastmodified":1684353029,
     "wof:name":"Citerne",
     "wof:parent_id":102068561,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":238,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

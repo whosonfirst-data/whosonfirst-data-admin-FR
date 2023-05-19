@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_30164",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"M\u00e9jannes-le-Clap",
+    "eurostat:nuts_2021_id":"30164",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ12",
+    "eurostat:nuts_2021_level_lau":"30164",
+    "eurostat:population":710,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200035129",
     "frgov:id":"BDCSURCO0000000009611027",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.004334,
-    "geom:area_square_m":38402141.122961,
+    "geom:area_square_m":38402141.12296,
     "geom:bbox":"4.31308284897,44.1960219853,4.40708411062,44.2699777792",
     "geom:latitude":44.230848,
     "geom:longitude":4.364082,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683431,
         102191581,
@@ -58,7 +72,10 @@
         102065627
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_30164",
+        "eurostat:nuts_2021_id":"30164"
+    },
     "wof:coterminous":[
         1126004629
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f00ec35301031a49c49509b160d4971d",
+    "wof:geomhash":"c50bbbf420ceca04e9be64ae1df670a8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404358137,
-    "wof:lastmodified":1582324978,
+    "wof:lastmodified":1684352727,
     "wof:name":"Mejannes-Le-Clap",
     "wof:parent_id":102065627,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":710,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_62225",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Clairmarais",
+    "eurostat:nuts_2021_id":"62225",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE1",
+    "eurostat:nuts_2021_level_3":"FRE12",
+    "eurostat:nuts_2021_level_lau":"62225",
+    "eurostat:population":624,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069037",
     "frgov:id":"BDCSURCO0000000009580446",
     "frgov:insee_arr":"5",
@@ -141,6 +153,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683255,
         102191581,
@@ -151,7 +165,10 @@
         102071167
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_62225",
+        "eurostat:nuts_2021_id":"62225"
+    },
     "wof:coterminous":[
         1125982851
     ],
@@ -159,7 +176,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"daa263ab5252c8a9466d6995793b84e6",
+    "wof:geomhash":"06a440538a35e1d93a833fb987f50010",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -173,11 +190,13 @@
         }
     ],
     "wof:id":404353151,
-    "wof:lastmodified":1582324125,
+    "wof:lastmodified":1684352660,
     "wof:name":"Clairmarais",
     "wof:parent_id":102071167,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":624,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

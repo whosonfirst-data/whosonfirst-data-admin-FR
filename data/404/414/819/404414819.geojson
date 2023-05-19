@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_45066",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Chailly-en-G\u00e2tinais",
+    "eurostat:nuts_2021_id":"45066",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB06",
+    "eurostat:nuts_2021_level_lau":"45066",
+    "eurostat:population":683,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067676",
     "frgov:id":"BDCSURCO0000000009595776",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683479,
         102191581,
@@ -57,7 +71,10 @@
         102067201
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_45066",
+        "eurostat:nuts_2021_id":"45066"
+    },
     "wof:coterminous":[
         101885897
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7279f4098618fbe1f39930c7b4f8b160",
+    "wof:geomhash":"aba8237a509d046775396335be63daf6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404414819,
-    "wof:lastmodified":1582324337,
+    "wof:lastmodified":1684353424,
     "wof:name":"Chailly-En-Gatinais",
     "wof:parent_id":102067201,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":683,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

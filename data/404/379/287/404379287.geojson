@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_30249",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Dionisy",
+    "eurostat:nuts_2021_id":"30249",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ12",
+    "eurostat:nuts_2021_level_lau":"30249",
+    "eurostat:population":1039,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243000643",
     "frgov:id":"BDCSURCO0000000009612437",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683431,
         102191581,
@@ -58,7 +72,10 @@
         102070131
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_30249",
+        "eurostat:nuts_2021_id":"30249"
+    },
     "wof:coterminous":[
         1125938693
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6ce5b47d8f304e6ebfb862169a978db1",
+    "wof:geomhash":"477166c7ff9bc996373fded9ed1186ba",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404379287,
-    "wof:lastmodified":1582324523,
+    "wof:lastmodified":1684353002,
     "wof:name":"Saint-Dionizy",
     "wof:parent_id":102070131,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1039,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_82112",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Moissac",
+    "eurostat:nuts_2021_id":"82112",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ28",
+    "eurostat:nuts_2021_level_lau":"82112",
+    "eurostat:population":13039,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066322",
     "frgov:id":"BDCSURCO0000000009611641",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.009677,
-    "geom:area_square_m":85893284.251534,
+    "geom:area_square_m":85893284.251535,
     "geom:bbox":"1.007523,44.074702,1.193118,44.16901",
     "geom:latitude":44.125999,
     "geom:longitude":1.09815,
@@ -117,24 +129,30 @@
     "reversegeo:longitude":1.089008,
     "src:geom":"frgov",
     "src:geom_alt":[],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85683217,
         102191581,
         85633147,
-        102072277,
-        136253037,
         404227765,
         1108826387,
-        85683217
+        136253037,
+        102072277
     ],
     "wof:breaches":[],
     "wof:concordance":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_82112",
+        "eurostat:nuts_2021_id":"82112"
+    },
     "wof:coterminous":[
         101772799,
         102072277
     ],
     "wof:country":"FR",
     "wof:created":1526509613,
-    "wof:geomhash":"c4481a70bbb9d874ff06a53869adeccd",
+    "wof:geomhash":"7676f4ce03b33a7a707996026ed05086",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -148,11 +166,13 @@
         }
     ],
     "wof:id":1159322033,
-    "wof:lastmodified":1608039570,
+    "wof:lastmodified":1684353596,
     "wof:name":"Moissac",
     "wof:parent_id":102072277,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":13039,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded":[],
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_41221",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-L\u00e9onard-en-Beauce",
+    "eurostat:nuts_2021_id":"41221",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB05",
+    "eurostat:nuts_2021_level_lau":"41221",
+    "eurostat:population":644,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200055481",
     "frgov:id":"BDCSURCO0000000009596817",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683349,
         102191581,
@@ -57,7 +71,10 @@
         102065631
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_41221",
+        "eurostat:nuts_2021_id":"41221"
+    },
     "wof:coterminous":[
         1125935719
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2beaa98feeaae0f6e720dddf56c04bf1",
+    "wof:geomhash":"a504b2530f761bd9759a01798fce1bb4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404391727,
-    "wof:lastmodified":1582324024,
+    "wof:lastmodified":1684353153,
     "wof:name":"Saint-Leonard-En-Beauce",
     "wof:parent_id":102065631,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":644,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

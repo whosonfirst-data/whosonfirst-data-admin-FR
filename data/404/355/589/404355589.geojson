@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_56204",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Allouestre",
+    "eurostat:nuts_2021_id":"56204",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH04",
+    "eurostat:nuts_2021_level_lau":"56204",
+    "eurostat:population":627,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067221",
     "frgov:id":"BDCSURCO0000000009595575",
     "frgov:insee_arr":"2",
@@ -130,6 +142,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683507,
         102191581,
@@ -139,7 +153,10 @@
         102070411
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_56204",
+        "eurostat:nuts_2021_id":"56204"
+    },
     "wof:coterminous":[
         1360673315
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"493cca92c8c58b08472156ce09018b2b",
+    "wof:geomhash":"448fca052a45410bcda0c356e4f506e1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -160,11 +177,13 @@
         }
     ],
     "wof:id":404355589,
-    "wof:lastmodified":1582324189,
+    "wof:lastmodified":1684352693,
     "wof:name":"Saint-Allouestre",
     "wof:parent_id":102070411,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":627,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

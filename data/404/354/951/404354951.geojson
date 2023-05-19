@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_62163",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bouret-sur-Canche",
+    "eurostat:nuts_2021_id":"62163",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE1",
+    "eurostat:nuts_2021_level_3":"FRE12",
+    "eurostat:nuts_2021_level_lau":"62163",
+    "eurostat:population":256,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069672",
     "frgov:id":"BDCSURCO0000000009581533",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000633,
-    "geom:area_square_m":5005608.58291,
+    "geom:area_square_m":5005608.582911,
     "geom:bbox":"2.31056513984,50.2441487556,2.33768235335,50.2881070297",
     "geom:latitude":50.26842,
     "geom:longitude":2.323362,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683255,
         102191581,
@@ -58,7 +72,10 @@
         102065453
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_62163",
+        "eurostat:nuts_2021_id":"62163"
+    },
     "wof:coterminous":[
         1125903695
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0b03e14dd48d8766c9a3dad2eb49add6",
+    "wof:geomhash":"7d658d70c8a80f358312263ce6031ea1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404354951,
-    "wof:lastmodified":1582324094,
+    "wof:lastmodified":1684352685,
     "wof:name":"Bouret-Sur-Canche",
     "wof:parent_id":102065453,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":256,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

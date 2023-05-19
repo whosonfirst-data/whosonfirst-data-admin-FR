@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_06121",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Jean-Cap-Ferrat",
+    "eurostat:nuts_2021_id":"06121",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL03",
+    "eurostat:nuts_2021_level_lau":"06121",
+    "eurostat:population":1573,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200030195",
     "frgov:id":"BDCSURCO0000000009612600",
     "frgov:insee_arr":"2",
@@ -153,6 +165,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683323,
         102191581,
@@ -162,7 +176,10 @@
         102069809
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_06121",
+        "eurostat:nuts_2021_id":"06121"
+    },
     "wof:coterminous":[
         101753177
     ],
@@ -170,7 +187,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e9df4851ad6533191709b82becc0372a",
+    "wof:geomhash":"5b47208f8cd8d692330bce09c373465d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -183,11 +200,13 @@
         }
     ],
     "wof:id":404352907,
-    "wof:lastmodified":1582324160,
+    "wof:lastmodified":1684352657,
     "wof:name":"Saint-Jean-Cap-Ferrat",
     "wof:parent_id":102069809,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1573,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

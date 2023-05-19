@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_82170",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Paul-d'Espis",
+    "eurostat:nuts_2021_id":"82170",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ28",
+    "eurostat:nuts_2021_level_lau":"82170",
+    "eurostat:population":578,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248200016",
     "frgov:id":"BDCSURCO0000000009611444",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002922,
-    "geom:area_square_m":25929551.947919,
+    "geom:area_square_m":25929551.947918,
     "geom:bbox":"0.950705989552,44.1143833044,1.0526227335,44.1688745326",
     "geom:latitude":44.140342,
     "geom:longitude":1.002041,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683217,
         102191581,
@@ -56,7 +70,10 @@
         102066267
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_82170",
+        "eurostat:nuts_2021_id":"82170"
+    },
     "wof:coterminous":[
         1360672663
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5b565ee4ad9054a58839bf17897729a3",
+    "wof:geomhash":"b35a2c2ce81707c9ae2b8ef737db4171",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404348783,
-    "wof:lastmodified":1582324584,
+    "wof:lastmodified":1684352599,
     "wof:name":"Saint-Paul-D'Espis",
     "wof:parent_id":102066267,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":578,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

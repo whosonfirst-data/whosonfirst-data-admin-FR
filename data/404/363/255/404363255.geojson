@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_15225",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"S\u00e9gur-les-Villas",
+    "eurostat:nuts_2021_id":"15225",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK12",
+    "eurostat:nuts_2021_level_lau":"15225",
+    "eurostat:population":202,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066637",
     "frgov:id":"BDCSURCO0000000009607726",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.003105,
-    "geom:area_square_m":27047341.248444,
+    "geom:area_square_m":27047341.248443,
     "geom:bbox":"2.78192444136,45.1789620321,2.86553050466,45.2398152966",
     "geom:latitude":45.208399,
     "geom:longitude":2.822778,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683517,
         102191581,
@@ -58,7 +72,10 @@
         102064375
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_15225",
+        "eurostat:nuts_2021_id":"15225"
+    },
     "wof:coterminous":[
         1126024453
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3cc9bb92249f71b25ac0a279bb0b5f8e",
+    "wof:geomhash":"e6dda52f9ffba2232664dec1c47e79c3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404363255,
-    "wof:lastmodified":1582324234,
+    "wof:lastmodified":1684352799,
     "wof:name":"Segur-Les-Villas",
     "wof:parent_id":102064375,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":202,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

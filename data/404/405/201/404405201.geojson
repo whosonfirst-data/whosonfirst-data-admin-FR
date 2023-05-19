@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_02015",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ancienville",
+    "eurostat:nuts_2021_id":"02015",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE21",
+    "eurostat:nuts_2021_level_lau":"02015",
+    "eurostat:population":75,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071991",
     "frgov:id":"BDCSURCO0000000009586643",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000479,
-    "geom:area_square_m":3867308.906113,
+    "geom:area_square_m":3867308.906112,
     "geom:bbox":"3.18688580436,49.2072830905,3.22625235601,49.2319159995",
     "geom:latitude":49.218868,
     "geom:longitude":3.208288,
@@ -147,6 +159,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683247,
         102191581,
@@ -157,7 +171,10 @@
         102070689
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_02015",
+        "eurostat:nuts_2021_id":"02015"
+    },
     "wof:coterminous":[
         1126031361
     ],
@@ -165,7 +182,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"785a21ea6e33333965ebb8a3a5bc7132",
+    "wof:geomhash":"597b96cfa107bf2fbd81ed2a5ca859e1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -179,11 +196,13 @@
         }
     ],
     "wof:id":404405201,
-    "wof:lastmodified":1582325265,
+    "wof:lastmodified":1684353308,
     "wof:name":"Ancienville",
     "wof:parent_id":102070689,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":75,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

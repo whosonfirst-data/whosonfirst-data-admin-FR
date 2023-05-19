@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_57034",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Aspach",
+    "eurostat:nuts_2021_id":"57034",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF33",
+    "eurostat:nuts_2021_level_lau":"57034",
+    "eurostat:population":34,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068146",
     "frgov:id":"BDCSURCO0000000009590479",
     "frgov:insee_arr":"5",
@@ -117,6 +129,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683271,
         102191581,
@@ -127,7 +141,10 @@
         102067359
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_57034",
+        "eurostat:nuts_2021_id":"57034"
+    },
     "wof:coterminous":[
         1125876077
     ],
@@ -135,7 +152,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"fcc1db3de484e4d8f73aa4cba34cf7e1",
+    "wof:geomhash":"86a62ec7c8f4960960ce822625185d8a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -149,11 +166,13 @@
         }
     ],
     "wof:id":404388425,
-    "wof:lastmodified":1582325478,
+    "wof:lastmodified":1684353109,
     "wof:name":"Aspach",
     "wof:parent_id":102067359,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":34,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

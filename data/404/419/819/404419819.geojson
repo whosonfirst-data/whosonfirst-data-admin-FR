@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_72013",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Aubign\u00e9-Racan",
+    "eurostat:nuts_2021_id":"72013",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG04",
+    "eurostat:nuts_2021_level_lau":"72013",
+    "eurostat:population":2120,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200073112",
     "frgov:id":"BDCSURCO0000000009597531",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683279,
         102191581,
@@ -57,7 +71,10 @@
         102068553
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_72013",
+        "eurostat:nuts_2021_id":"72013"
+    },
     "wof:coterminous":[
         101765013
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a9db710ac6e3c233ceae4c8adebbce5a",
+    "wof:geomhash":"3b4b5b4538ed372f1a912afe24f30013",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404419819,
-    "wof:lastmodified":1582325064,
+    "wof:lastmodified":1684353481,
     "wof:name":"Aubigne-Racan",
     "wof:parent_id":102068553,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2120,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

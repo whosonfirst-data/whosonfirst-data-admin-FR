@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_87158",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Laurent-sur-Gorre",
+    "eurostat:nuts_2021_id":"87158",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI23",
+    "eurostat:nuts_2021_level_lau":"87158",
+    "eurostat:population":1500,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066520",
     "frgov:id":"BDCSURCO0000000009605365",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683531,
         102191581,
@@ -58,7 +72,10 @@
         102069037
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_87158",
+        "eurostat:nuts_2021_id":"87158"
+    },
     "wof:coterminous":[
         101768253
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"21be514ad3b348b9c38765c47d01cd65",
+    "wof:geomhash":"1d79caf5238354173515da7c1dc1657f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404358299,
-    "wof:lastmodified":1582324983,
+    "wof:lastmodified":1684352730,
     "wof:name":"Saint-Laurent-Sur-Gorre",
     "wof:parent_id":102069037,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1500,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

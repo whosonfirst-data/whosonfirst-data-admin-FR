@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_74226",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Andr\u00e9-de-Bo\u00ebge",
+    "eurostat:nuts_2021_id":"74226",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK28",
+    "eurostat:nuts_2021_level_lau":"74226",
+    "eurostat:population":542,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247400047",
     "frgov:id":"BDCSURCO0000000009603187",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001463,
-    "geom:area_square_m":12518864.008054,
+    "geom:area_square_m":12518864.008053,
     "geom:bbox":"6.34698918496,46.1758758343,6.41832215412,46.2135356201",
     "geom:latitude":46.193065,
     "geom:longitude":6.382609,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683227,
         102191581,
@@ -58,7 +72,10 @@
         102065603
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_74226",
+        "eurostat:nuts_2021_id":"74226"
+    },
     "wof:coterminous":[
         1125932285
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f05d3733f2682cadac8d61dd5a71fb1e",
+    "wof:geomhash":"07709fcef722211f9c418d31fc239efc",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404404681,
-    "wof:lastmodified":1582325306,
+    "wof:lastmodified":1684353303,
     "wof:name":"Saint-Andre-De-Boege",
     "wof:parent_id":102065603,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":542,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

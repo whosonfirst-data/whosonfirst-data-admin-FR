@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_50446",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Andr\u00e9-de-l'\u00c9pine",
+    "eurostat:nuts_2021_id":"50446",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD12",
+    "eurostat:nuts_2021_level_lau":"50446",
+    "eurostat:population":548,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066389",
     "frgov:id":"BDCSURCO0000000009586899",
     "frgov:insee_arr":"4",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683489,
         102191581,
@@ -58,7 +72,10 @@
         102070059
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_50446",
+        "eurostat:nuts_2021_id":"50446"
+    },
     "wof:coterminous":[
         101878211
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"95da0e0bd6e5df942e817b373da2022e",
+    "wof:geomhash":"5e2f25f0eac17ed2787ba334936af725",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404408275,
-    "wof:lastmodified":1582324457,
+    "wof:lastmodified":1684353347,
     "wof:name":"Saint-Andre-De-L'Epine",
     "wof:parent_id":102070059,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":548,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_50479",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Germain-de-Varreville",
+    "eurostat:nuts_2021_id":"50479",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD12",
+    "eurostat:nuts_2021_level_lau":"50479",
+    "eurostat:population":113,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200042729",
     "frgov:id":"BDCSURCO0000000009584743",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000736,
-    "geom:area_square_m":5921497.482499,
+    "geom:area_square_m":5921497.482498,
     "geom:bbox":"-1.27637296275,49.4194458768,-1.21236139818,49.4555431349",
     "geom:latitude":49.439017,
     "geom:longitude":-1.244641,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683489,
         102191581,
@@ -58,7 +72,10 @@
         102070751
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_50479",
+        "eurostat:nuts_2021_id":"50479"
+    },
     "wof:coterminous":[
         101903329
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"32449f457865a26299d7223237cf4a53",
+    "wof:geomhash":"396c805a0cbfc23204d1e92b65e20bc1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404372575,
-    "wof:lastmodified":1582325465,
+    "wof:lastmodified":1684352919,
     "wof:name":"Saint-Germain-De-Varreville",
     "wof:parent_id":102070751,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":113,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

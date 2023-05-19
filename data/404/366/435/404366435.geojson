@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_21547",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Euphr\u00f4ne",
+    "eurostat:nuts_2021_id":"21547",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC11",
+    "eurostat:nuts_2021_level_lau":"21547",
+    "eurostat:population":178,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071017",
     "frgov:id":"BDCSURCO0000000009598309",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001314,
-    "geom:area_square_m":10987953.784597,
+    "geom:area_square_m":10987953.784596,
     "geom:bbox":"4.3667534378,47.4446574625,4.41596300883,47.4906887214",
     "geom:latitude":47.466398,
     "geom:longitude":4.391536,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683563,
         102191581,
@@ -58,7 +72,10 @@
         102070311
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_21547",
+        "eurostat:nuts_2021_id":"21547"
+    },
     "wof:coterminous":[
         1125806097
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"57d480979995d1f9731c2507ca397969",
+    "wof:geomhash":"446c461a587897dd5d53bb9508103f19",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404366435,
-    "wof:lastmodified":1582324839,
+    "wof:lastmodified":1684352843,
     "wof:name":"Saint-Euphrone",
     "wof:parent_id":102070311,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":178,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

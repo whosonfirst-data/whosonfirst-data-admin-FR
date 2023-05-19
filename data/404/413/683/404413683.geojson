@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_80466",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lanches-Saint-Hilaire",
+    "eurostat:nuts_2021_id":"80466",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE23",
+    "eurostat:nuts_2021_level_lau":"80466",
+    "eurostat:population":131,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071223",
     "frgov:id":"BDCSURCO0000000009581994",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000682,
-    "geom:area_square_m":5412732.384079,
+    "geom:area_square_m":5412732.38408,
     "geom:bbox":"2.12788486181,50.082564981,2.16798283851,50.1190175391",
     "geom:latitude":50.099723,
     "geom:longitude":2.145543,
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683363,
         102191581,
@@ -139,7 +153,10 @@
         102068047
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_80466",
+        "eurostat:nuts_2021_id":"80466"
+    },
     "wof:coterminous":[
         1125769489
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d2bf72dffb597b2a1bd6c691f834c677",
+    "wof:geomhash":"24d609a8691eabe539f28f3a16af6e45",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404413683,
-    "wof:lastmodified":1582324328,
+    "wof:lastmodified":1684353410,
     "wof:name":"Lanches-Saint-Hilaire",
     "wof:parent_id":102068047,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":131,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

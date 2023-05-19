@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_25222",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"\u00c9talans",
+    "eurostat:nuts_2021_id":"25222",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC21",
+    "eurostat:nuts_2021_level_lau":"25222",
+    "eurostat:population":1550,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242504181",
     "frgov:id":"BDCSURCO0000000009599650",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.004881,
-    "geom:area_square_m":41036678.030751,
+    "geom:area_square_m":41036678.030754,
     "geom:bbox":"6.18259041102,47.1294905488,6.31091480769,47.2040604441",
     "geom:latitude":47.165124,
     "geom:longitude":6.253757,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683239,
         102191581,
@@ -58,7 +72,10 @@
         102067567
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_25222",
+        "eurostat:nuts_2021_id":"25222"
+    },
     "wof:coterminous":[
         101890221
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"49af124ed125e16048d97d349ed4d270",
+    "wof:geomhash":"4bd74de846205621855249f01464b5fa",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404420367,
-    "wof:lastmodified":1582325206,
+    "wof:lastmodified":1684353487,
     "wof:name":"Charbonnieres-Les-Sapins",
     "wof:parent_id":102067567,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1550,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

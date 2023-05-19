@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_46210",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Nadillac",
+    "eurostat:nuts_2021_id":"46210",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ25",
+    "eurostat:nuts_2021_level_lau":"46210",
+    "eurostat:population":61,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244600573",
     "frgov:id":"BDCSURCO0000000009610166",
     "frgov:insee_arr":"3",
@@ -117,6 +129,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683389,
         102191581,
@@ -127,7 +141,10 @@
         102067203
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_46210",
+        "eurostat:nuts_2021_id":"46210"
+    },
     "wof:coterminous":[
         1125920641
     ],
@@ -135,7 +152,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2eede7f11316701706328d1a18370ab4",
+    "wof:geomhash":"b4d6b19e2c6f661374ce17fc6edc7ad0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -149,11 +166,13 @@
         }
     ],
     "wof:id":404377787,
-    "wof:lastmodified":1582324572,
+    "wof:lastmodified":1684352984,
     "wof:name":"Nadillac",
     "wof:parent_id":102067203,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":61,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

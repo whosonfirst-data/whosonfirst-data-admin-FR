@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_34336",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Villeneuve-l\u00e8s-B\u00e9ziers",
+    "eurostat:nuts_2021_id":"34336",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ13",
+    "eurostat:nuts_2021_level_lau":"34336",
+    "eurostat:population":4207,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243400769",
     "frgov:id":"BDCSURCO0000000009614638",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001921,
-    "geom:area_square_m":17284820.45286,
+    "geom:area_square_m":17284820.452858,
     "geom:bbox":"3.25198055692,43.2914304473,3.32917408068,43.344202189",
     "geom:latitude":43.317219,
     "geom:longitude":3.289678,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683419,
         102191581,
@@ -58,7 +72,10 @@
         102065033
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_34336",
+        "eurostat:nuts_2021_id":"34336"
+    },
     "wof:coterminous":[
         101750667
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"77a94bfd732a7672b9f810923f1e6c9b",
+    "wof:geomhash":"35f3be6f45da47b21880c733ea95afb4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404420983,
-    "wof:lastmodified":1582325202,
+    "wof:lastmodified":1684353497,
     "wof:name":"Villeneuve-Les-Beziers",
     "wof:parent_id":102065033,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":4207,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

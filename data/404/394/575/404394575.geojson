@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_26118",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"\u00c9pinouze",
+    "eurostat:nuts_2021_id":"26118",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK23",
+    "eurostat:nuts_2021_level_lau":"26118",
+    "eurostat:population":1521,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040491",
     "frgov:id":"BDCSURCO0000000009607004",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001312,
-    "geom:area_square_m":11412958.267997,
+    "geom:area_square_m":11412958.267998,
     "geom:bbox":"4.90284391488,45.2959373969,4.97303344755,45.3286014885",
     "geom:latitude":45.311645,
     "geom:longitude":4.939037,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683523,
         102191581,
@@ -58,7 +72,10 @@
         102066351
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_26118",
+        "eurostat:nuts_2021_id":"26118"
+    },
     "wof:coterminous":[
         101770377
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f8124d85ce6de26baa73d5eb8fa8e794",
+    "wof:geomhash":"3c5152d19f3ed516f0fb90a9e9b3db25",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404394575,
-    "wof:lastmodified":1582325030,
+    "wof:lastmodified":1684353186,
     "wof:name":"Epinouze",
     "wof:parent_id":102066351,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1521,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_44109",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Nantes",
+    "eurostat:nuts_2021_id":"44109",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG01",
+    "eurostat:nuts_2021_level_lau":"44109",
+    "eurostat:population":309346,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244400404",
     "frgov:id":"BDCSURCO0000000009599618",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Pr\u00e9fecture de r\u00e9gion",
     "geom:area":0.007827,
-    "geom:area_square_m":65717206.649851,
+    "geom:area_square_m":65717206.649854,
     "geom:bbox":"-1.641807,47.180659,-1.478817,47.295808",
     "geom:latitude":47.231934,
     "geom:longitude":-1.548209,
@@ -351,23 +363,29 @@
     "reversegeo:longitude":-1.549419,
     "src:geom":"frgov",
     "src:geom_alt":[],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85683233,
         102191581,
         85633147,
-        102072459,
         404227893,
         404227423,
-        85683233
+        102072459
     ],
     "wof:breaches":[],
     "wof:concordance":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_44109",
+        "eurostat:nuts_2021_id":"44109"
+    },
     "wof:coterminous":[
         101749589,
         102072459
     ],
     "wof:country":"FR",
     "wof:created":1526509034,
-    "wof:geomhash":"76de18cc980873198bd7be02d9e929d3",
+    "wof:geomhash":"da7decca3bdfb1c34cfb8870afcc915f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -380,11 +398,13 @@
         }
     ],
     "wof:id":1159321841,
-    "wof:lastmodified":1608039593,
+    "wof:lastmodified":1684353593,
     "wof:name":"Nantes",
     "wof:parent_id":102072459,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Pr\u00e9fecture de r\u00e9gion",
+    "wof:population":309346,
+    "wof:population_rank":10,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded":[],
     "wof:superseded_by":[],

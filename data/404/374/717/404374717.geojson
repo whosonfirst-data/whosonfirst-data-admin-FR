@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_24458",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Martin-le-Pin",
+    "eurostat:nuts_2021_id":"24458",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI11",
+    "eurostat:nuts_2021_level_lau":"24458",
+    "eurostat:population":271,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071819",
     "frgov:id":"BDCSURCO0000000009606406",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001845,
-    "geom:area_square_m":15979388.126442,
+    "geom:area_square_m":15979388.126443,
     "geom:bbox":"0.589231447142,45.5313040782,0.671969232585,45.5727407388",
     "geom:latitude":45.552004,
     "geom:longitude":0.625475,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683331,
         102191581,
@@ -58,7 +72,10 @@
         102069131
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_24458",
+        "eurostat:nuts_2021_id":"24458"
+    },
     "wof:coterminous":[
         1125815345
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3985b8c54988ca56115acf716857b472",
+    "wof:geomhash":"1ebc6694599875789226ed2429819e73",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404374717,
-    "wof:lastmodified":1582325403,
+    "wof:lastmodified":1684352944,
     "wof:name":"Saint-Martin-Le-Pin",
     "wof:parent_id":102069131,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":271,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

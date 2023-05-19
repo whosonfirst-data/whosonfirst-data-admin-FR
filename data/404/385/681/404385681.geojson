@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_69231",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Pierre-la-Palud",
+    "eurostat:nuts_2021_id":"69231",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK26",
+    "eurostat:nuts_2021_level_lau":"69231",
+    "eurostat:population":2635,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"246900625",
     "frgov:id":"BDCSURCO0000000009605253",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683569,
         102191581,
@@ -58,7 +72,10 @@
         102064681
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_69231",
+        "eurostat:nuts_2021_id":"69231"
+    },
     "wof:coterminous":[
         101828909
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"894b2840f42d7cba9d682d201ef5d609",
+    "wof:geomhash":"bf43e25a748e53d490419223e183df02",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404385681,
-    "wof:lastmodified":1582324630,
+    "wof:lastmodified":1684353078,
     "wof:name":"Saint-Pierre-La-Palud",
     "wof:parent_id":102064681,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2635,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

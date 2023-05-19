@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_71473",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Racho",
+    "eurostat:nuts_2021_id":"71473",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC13",
+    "eurostat:nuts_2021_level_lau":"71473",
+    "eurostat:population":171,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070548",
     "frgov:id":"BDCSURCO0000000009603259",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001232,
-    "geom:area_square_m":10528200.950217,
+    "geom:area_square_m":10528200.950218,
     "geom:bbox":"4.34333057294,46.2458160629,4.39707614235,46.2805268884",
     "geom:latitude":46.262627,
     "geom:longitude":4.373165,
@@ -120,6 +132,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683543,
         102191581,
@@ -130,7 +144,10 @@
         102066365
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_71473",
+        "eurostat:nuts_2021_id":"71473"
+    },
     "wof:coterminous":[
         1125893355
     ],
@@ -138,7 +155,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e67bc76a1a241b12c44c84130753f083",
+    "wof:geomhash":"285d8826e3b3c24b2bf73e0aa56679aa",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -152,11 +169,13 @@
         }
     ],
     "wof:id":404385241,
-    "wof:lastmodified":1582324638,
+    "wof:lastmodified":1684353073,
     "wof:name":"Saint-Racho",
     "wof:parent_id":102066365,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":171,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

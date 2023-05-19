@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_23049",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Champsanglard",
+    "eurostat:nuts_2021_id":"23049",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI22",
+    "eurostat:nuts_2021_level_lau":"23049",
+    "eurostat:population":248,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041556",
     "frgov:id":"BDCSURCO0000000009603331",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001593,
-    "geom:area_square_m":13613947.173912,
+    "geom:area_square_m":13613947.173911,
     "geom:bbox":"1.85746852949,46.2601568879,1.91934535387,46.3042370058",
     "geom:latitude":46.280685,
     "geom:longitude":1.888914,
@@ -135,6 +147,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683179,
         102191581,
@@ -145,7 +159,10 @@
         102065275
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_23049",
+        "eurostat:nuts_2021_id":"23049"
+    },
     "wof:coterminous":[
         1125896721
     ],
@@ -153,7 +170,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3d7745836e8160fb337e845c263183cd",
+    "wof:geomhash":"319a3eb883df9b14d2b360ea118dc8c5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -167,11 +184,13 @@
         }
     ],
     "wof:id":404354491,
-    "wof:lastmodified":1582324089,
+    "wof:lastmodified":1684352678,
     "wof:name":"Champsanglard",
     "wof:parent_id":102065275,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":248,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

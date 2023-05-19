@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_73302",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Trinit\u00e9",
+    "eurostat:nuts_2021_id":"73302",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK27",
+    "eurostat:nuts_2021_level_lau":"73302",
+    "eurostat:population":345,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041010",
     "frgov:id":"BDCSURCO0000000009606238",
     "frgov:insee_arr":"2",
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683265,
         102191581,
@@ -56,7 +70,10 @@
         102068413
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_73302",
+        "eurostat:nuts_2021_id":"73302"
+    },
     "wof:coterminous":[
         1360675117
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8c0d6c4e04ae9bae41e9932c954d54ae",
+    "wof:geomhash":"eb1b1d64bea5c7701beaf297e7747f8d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404373503,
-    "wof:lastmodified":1582325338,
+    "wof:lastmodified":1684352930,
     "wof:name":"La Trinite",
     "wof:parent_id":102068413,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":345,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

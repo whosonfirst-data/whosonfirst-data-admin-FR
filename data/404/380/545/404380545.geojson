@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_65289",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Luby-Betmont",
+    "eurostat:nuts_2021_id":"65289",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ26",
+    "eurostat:nuts_2021_level_lau":"65289",
+    "eurostat:population":107,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070795",
     "frgov:id":"BDCSURCO0000000009614765",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000799,
-    "geom:area_square_m":7192200.038241,
+    "geom:area_square_m":7192200.038242,
     "geom:bbox":"0.272974624325,43.2824989451,0.316151675678,43.307777508",
     "geom:latitude":43.295474,
     "geom:longitude":0.294749,
@@ -114,6 +126,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683203,
         102191581,
@@ -124,7 +138,10 @@
         102068835
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_65289",
+        "eurostat:nuts_2021_id":"65289"
+    },
     "wof:coterminous":[
         1125780761
     ],
@@ -132,7 +149,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"660e3a7de04959e9fd8d85936db0fa79",
+    "wof:geomhash":"593f0b91f818e25971aa00a53a723fbd",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -146,11 +163,13 @@
         }
     ],
     "wof:id":404380545,
-    "wof:lastmodified":1582325378,
+    "wof:lastmodified":1684353017,
     "wof:name":"Luby-Betmont",
     "wof:parent_id":102068835,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":107,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

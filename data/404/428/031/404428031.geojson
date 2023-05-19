@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_51490",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Jean-sur-Moivre",
+    "eurostat:nuts_2021_id":"51490",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF23",
+    "eurostat:nuts_2021_level_lau":"51490",
+    "eurostat:population":210,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200043438",
     "frgov:id":"BDCSURCO0000000009589103",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.001847,
-    "geom:area_square_m":15011694.995213,
+    "geom:area_square_m":15011694.995212,
     "geom:bbox":"4.54508849007,48.8545708405,4.63035246578,48.929415112",
     "geom:latitude":48.897458,
     "geom:longitude":4.584133,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683405,
         102191581,
@@ -58,7 +72,10 @@
         102067207
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_51490",
+        "eurostat:nuts_2021_id":"51490"
+    },
     "wof:coterminous":[
         1125813329
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"175116b70e9a3779927e3dadb00bc34e",
+    "wof:geomhash":"50c54a7ff21d1f900ac895f7bff3ce71",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404428031,
-    "wof:lastmodified":1582325116,
+    "wof:lastmodified":1684353580,
     "wof:name":"Saint-Jean-Sur-Moivre",
     "wof:parent_id":102067207,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":210,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

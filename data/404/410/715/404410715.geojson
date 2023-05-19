@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_14657",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Samson",
+    "eurostat:nuts_2021_id":"14657",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD11",
+    "eurostat:nuts_2021_level_lau":"14657",
+    "eurostat:population":308,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200065563",
     "frgov:id":"BDCSURCO0000000009586846",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00045,
-    "geom:area_square_m":3634626.380203,
+    "geom:area_square_m":3634626.380204,
     "geom:bbox":"-0.170672834723,49.1809285771,-0.132926423341,49.2010058878",
     "geom:latitude":49.190277,
     "geom:longitude":-0.152275,
@@ -91,6 +103,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683579,
         102191581,
@@ -101,7 +115,10 @@
         102067111
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_14657",
+        "eurostat:nuts_2021_id":"14657"
+    },
     "wof:coterminous":[
         1360678749
     ],
@@ -109,7 +126,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d61858e82f65dbf3f2c33c8f5341cc08",
+    "wof:geomhash":"41c1d2c259edbb1087c5e1b901c4b635",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -123,11 +140,13 @@
         }
     ],
     "wof:id":404410715,
-    "wof:lastmodified":1582325150,
+    "wof:lastmodified":1684353374,
     "wof:name":"Saint-Samson",
     "wof:parent_id":102067111,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":308,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

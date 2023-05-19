@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_82149",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"R\u00e9alville",
+    "eurostat:nuts_2021_id":"82149",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ28",
+    "eurostat:nuts_2021_level_lau":"82149",
+    "eurostat:population":1910,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248200057",
     "frgov:id":"BDCSURCO0000000009611435",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002863,
-    "geom:area_square_m":25410488.070057,
+    "geom:area_square_m":25410488.070056,
     "geom:bbox":"1.43771391004,44.1015993077,1.52953687761,44.1506946582",
     "geom:latitude":44.128524,
     "geom:longitude":1.481028,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683217,
         102191581,
@@ -58,7 +72,10 @@
         102065133
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_82149",
+        "eurostat:nuts_2021_id":"82149"
+    },
     "wof:coterminous":[
         101772811
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"82335a789941b6c37ff231cace42a6c8",
+    "wof:geomhash":"b4e6d1a6c2608ce16fe20976dc145dbd",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404364131,
-    "wof:lastmodified":1582324248,
+    "wof:lastmodified":1684352811,
     "wof:name":"Realville",
     "wof:parent_id":102065133,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1910,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

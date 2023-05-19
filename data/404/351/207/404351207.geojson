@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_17397",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Savinien",
+    "eurostat:nuts_2021_id":"17397",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI32",
+    "eurostat:nuts_2021_level_lau":"17397",
+    "eurostat:population":2433,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041689",
     "frgov:id":"BDCSURCO0000000009604907",
     "frgov:insee_arr":"5",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.005466,
-    "geom:area_square_m":47045045.342921,
+    "geom:area_square_m":47045045.342919,
     "geom:bbox":"-0.747933493642,45.8385801552,-0.623801732696,45.9248866674",
     "geom:latitude":45.886506,
     "geom:longitude":-0.67732,
@@ -132,6 +144,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683275,
         102191581,
@@ -142,7 +156,10 @@
         102070351
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_17397",
+        "eurostat:nuts_2021_id":"17397"
+    },
     "wof:coterminous":[
         101766463
     ],
@@ -150,7 +167,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c5cb7233386eeb8ba19c25d30290faa3",
+    "wof:geomhash":"b969366f438a26945b7cc27dfd4c202b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -164,11 +181,13 @@
         }
     ],
     "wof:id":404351207,
-    "wof:lastmodified":1582324960,
+    "wof:lastmodified":1684352634,
     "wof:name":"Saint-Savinien",
     "wof:parent_id":102070351,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2433,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

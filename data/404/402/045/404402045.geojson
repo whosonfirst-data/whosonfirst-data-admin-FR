@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_33416",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Girons-d'Aiguevives",
+    "eurostat:nuts_2021_id":"33416",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI12",
+    "eurostat:nuts_2021_level_lau":"33416",
+    "eurostat:population":950,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200023794",
     "frgov:id":"BDCSURCO0000000009607822",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001354,
-    "geom:area_square_m":11810600.66059,
+    "geom:area_square_m":11810600.660589,
     "geom:bbox":"-0.562242372933,45.1224242152,-0.512808825232,45.171007026",
     "geom:latitude":45.14618,
     "geom:longitude":-0.53795,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683243,
         102191581,
@@ -58,7 +72,10 @@
         102071303
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_33416",
+        "eurostat:nuts_2021_id":"33416"
+    },
     "wof:coterminous":[
         1125811905
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"fdc0531211405d8f162b82cfc0728745",
+    "wof:geomhash":"7a0353657a844f826854c1fbae0ce423",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404402045,
-    "wof:lastmodified":1582325280,
+    "wof:lastmodified":1684353273,
     "wof:name":"Saint-Girons-D'Aiguevives",
     "wof:parent_id":102071303,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":950,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

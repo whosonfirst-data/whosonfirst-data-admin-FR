@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_16355",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Sulpice-de-Cognac",
+    "eurostat:nuts_2021_id":"16355",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI31",
+    "eurostat:nuts_2021_level_lau":"16355",
+    "eurostat:population":1216,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070514",
     "frgov:id":"BDCSURCO0000000009605406",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002751,
-    "geom:area_square_m":23735156.123746,
+    "geom:area_square_m":23735156.123745,
     "geom:bbox":"-0.463153521845,45.7392756432,-0.363451955084,45.7866701534",
     "geom:latitude":45.759084,
     "geom:longitude":-0.408757,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683437,
         102191581,
@@ -58,7 +72,10 @@
         102066663
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_16355",
+        "eurostat:nuts_2021_id":"16355"
+    },
     "wof:coterminous":[
         101851327
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"90de43cb0fdf89d607e392a64e1bd004",
+    "wof:geomhash":"7b10ab7667e060c883a1c1efbd7cd24c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404370763,
-    "wof:lastmodified":1582324595,
+    "wof:lastmodified":1684352898,
     "wof:name":"Saint-Sulpice-De-Cognac",
     "wof:parent_id":102066663,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1216,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_25570",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Tressandans",
+    "eurostat:nuts_2021_id":"25570",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC21",
+    "eurostat:nuts_2021_level_lau":"25570",
+    "eurostat:population":23,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247000714",
     "frgov:id":"BDCSURCO0000000009597951",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000282,
-    "geom:area_square_m":2351859.834735,
+    "geom:area_square_m":2351859.834734,
     "geom:bbox":"6.32014206453,47.4870191216,6.35275680736,47.5065036498",
     "geom:latitude":47.497495,
     "geom:longitude":6.336749,
@@ -114,6 +126,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683239,
         102191581,
@@ -124,7 +138,10 @@
         102068529
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_25570",
+        "eurostat:nuts_2021_id":"25570"
+    },
     "wof:coterminous":[
         1125941383
     ],
@@ -132,7 +149,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9ef137d5352a769f7bd33fd217ae5382",
+    "wof:geomhash":"be3b9253838f0fe95d8a93c1f35e0037",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -146,11 +163,13 @@
         }
     ],
     "wof:id":404377423,
-    "wof:lastmodified":1582324561,
+    "wof:lastmodified":1684352980,
     "wof:name":"Tressandans",
     "wof:parent_id":102068529,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":23,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

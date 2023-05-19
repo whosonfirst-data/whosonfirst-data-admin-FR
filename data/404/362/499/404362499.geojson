@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_60074",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Blaincourt-l\u00e8s-Pr\u00e9cy",
+    "eurostat:nuts_2021_id":"60074",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE22",
+    "eurostat:nuts_2021_level_lau":"60074",
+    "eurostat:population":1190,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067973",
     "frgov:id":"BDCSURCO0000000009586686",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001024,
-    "geom:area_square_m":8268191.630723,
+    "geom:area_square_m":8268191.630724,
     "geom:bbox":"2.31647857918,49.2105521744,2.3746055185,49.2436538536",
     "geom:latitude":49.228245,
     "geom:longitude":2.344334,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683289,
         102191581,
@@ -58,7 +72,10 @@
         102071003
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_60074",
+        "eurostat:nuts_2021_id":"60074"
+    },
     "wof:coterminous":[
         101760331
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"730baf779675a44bbca016e56b3ba363",
+    "wof:geomhash":"78af73c40f1b672a7870706bbdd1e6d0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404362499,
-    "wof:lastmodified":1582324051,
+    "wof:lastmodified":1684352789,
     "wof:name":"Blaincourt-Les-Precy",
     "wof:parent_id":102071003,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1190,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

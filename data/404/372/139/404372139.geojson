@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_38310",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Poli\u00e9nas",
+    "eurostat:nuts_2021_id":"38310",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK24",
+    "eurostat:nuts_2021_level_lau":"38310",
+    "eurostat:population":1188,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070431",
     "frgov:id":"BDCSURCO0000000009607218",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683427,
         102191581,
@@ -58,7 +72,10 @@
         102070509
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_38310",
+        "eurostat:nuts_2021_id":"38310"
+    },
     "wof:coterminous":[
         101894719
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6df2f7cdd4caf45269f093e8614e05d2",
+    "wof:geomhash":"4a0bd0e95b39ae18a4f48ccd7333d981",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404372139,
-    "wof:lastmodified":1582325468,
+    "wof:lastmodified":1684352914,
     "wof:name":"Polienas",
     "wof:parent_id":102070509,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1188,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

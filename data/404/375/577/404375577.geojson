@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_08026",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Aubigny-les-Poth\u00e9es",
+    "eurostat:nuts_2021_id":"08026",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF21",
+    "eurostat:nuts_2021_level_lau":"08026",
+    "eurostat:population":315,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041622",
     "frgov:id":"BDCSURCO0000000009582847",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683309,
         102191581,
@@ -58,7 +72,10 @@
         102068887
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_08026",
+        "eurostat:nuts_2021_id":"08026"
+    },
     "wof:coterminous":[
         101901749
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6d7fafd43f72bf83144df7e33f5c697e",
+    "wof:geomhash":"cf9b036c21d95f20eb2ba2b18b060961",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404375577,
-    "wof:lastmodified":1582325425,
+    "wof:lastmodified":1684352957,
     "wof:name":"Aubigny-Les-Pothees",
     "wof:parent_id":102068887,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":315,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_27105",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Grand Bourgtheroulde",
+    "eurostat:nuts_2021_id":"27105",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD21",
+    "eurostat:nuts_2021_level_lau":"27105",
+    "eurostat:population":3802,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066405",
     "frgov:id":"BDCSURCO0000000009585837",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002427,
-    "geom:area_square_m":19570114.514393,
+    "geom:area_square_m":19570114.514392,
     "geom:bbox":"0.811075185743,49.2753058147,0.899933580912,49.3352849491",
     "geom:latitude":49.306352,
     "geom:longitude":0.86186,
@@ -135,6 +147,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683283,
         102191581,
@@ -145,7 +159,10 @@
         102065523
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_27105",
+        "eurostat:nuts_2021_id":"27105"
+    },
     "wof:coterminous":[
         101753533
     ],
@@ -153,7 +170,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"58d1b8ecb03dd42d91aa87fa764b4ccc",
+    "wof:geomhash":"41a86cdfbf1b5a07164d316b19bc296c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -167,11 +184,13 @@
         }
     ],
     "wof:id":404422629,
-    "wof:lastmodified":1582324284,
+    "wof:lastmodified":1684353517,
     "wof:name":"Bourgtheroulde-Infreville",
     "wof:parent_id":102065523,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3802,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

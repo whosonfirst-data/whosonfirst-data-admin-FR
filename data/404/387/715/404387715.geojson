@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_84127",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"S\u00e9rignan-du-Comtat",
+    "eurostat:nuts_2021_id":"84127",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL06",
+    "eurostat:nuts_2021_level_lau":"84127",
+    "eurostat:population":2676,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248400160",
     "frgov:id":"BDCSURCO0000000009611189",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.002282,
-    "geom:area_square_m":20229720.63122,
+    "geom:area_square_m":20229720.631219,
     "geom:bbox":"4.81529858143,44.1643804109,4.88389988325,44.2221399675",
     "geom:latitude":44.193971,
     "geom:longitude":4.847625,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683201,
         102191581,
@@ -57,7 +71,10 @@
         102067287
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_84127",
+        "eurostat:nuts_2021_id":"84127"
+    },
     "wof:coterminous":[
         101772471
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5b3a4bf186593524ad10f82d60a462ce",
+    "wof:geomhash":"f4860712eec6491c5ee0a98eea0f3d1b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404387715,
-    "wof:lastmodified":1582325361,
+    "wof:lastmodified":1684353101,
     "wof:name":"Serignan-Du-Comtat",
     "wof:parent_id":102067287,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2676,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_78009",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Allainville",
+    "eurostat:nuts_2021_id":"78009",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR103",
+    "eurostat:nuts_2021_level_lau":"78009",
+    "eurostat:population":306,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200073344",
     "frgov:id":"BDCSURCO0000000009592928",
     "frgov:insee_arr":"2",
@@ -90,6 +102,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683367,
         102191581,
@@ -99,7 +113,10 @@
         102067849
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_78009",
+        "eurostat:nuts_2021_id":"78009"
+    },
     "wof:coterminous":[
         101882437
     ],
@@ -107,7 +124,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"fc8d99cdc727e93ac298544d3471dfb4",
+    "wof:geomhash":"8d6f91dce86a75dd6dca85b66d761e1a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -120,11 +137,13 @@
         }
     ],
     "wof:id":404407739,
-    "wof:lastmodified":1582324487,
+    "wof:lastmodified":1684353340,
     "wof:name":"Allainville",
     "wof:parent_id":102067849,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":306,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

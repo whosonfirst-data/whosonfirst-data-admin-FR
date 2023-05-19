@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_49294",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Lambert-la-Potherie",
+    "eurostat:nuts_2021_id":"49294",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG02",
+    "eurostat:nuts_2021_level_lau":"49294",
+    "eurostat:population":2843,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244900015",
     "frgov:id":"BDCSURCO0000000009598149",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001688,
-    "geom:area_square_m":14101420.750389,
+    "geom:area_square_m":14101420.75039,
     "geom:bbox":"-0.737398338009,47.4692555235,-0.643183609405,47.5048363178",
     "geom:latitude":47.486682,
     "geom:longitude":-0.691581,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683327,
         102191581,
@@ -57,7 +71,10 @@
         102070933
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_49294",
+        "eurostat:nuts_2021_id":"49294"
+    },
     "wof:coterminous":[
         101764509
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"70157e9301f244a04c5235a85b96888e",
+    "wof:geomhash":"571e51fbfa3226e5a918c8b3435e0aaa",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404424737,
-    "wof:lastmodified":1582324387,
+    "wof:lastmodified":1684353542,
     "wof:name":"Saint-Lambert-La-Potherie",
     "wof:parent_id":102070933,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2843,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

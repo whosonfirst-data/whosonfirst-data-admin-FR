@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_03229",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Ennemond",
+    "eurostat:nuts_2021_id":"03229",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK11",
+    "eurostat:nuts_2021_level_lau":"03229",
+    "eurostat:population":626,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071140",
     "frgov:id":"BDCSURCO0000000009601798",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.004542,
-    "geom:area_square_m":38533758.691681,
+    "geom:area_square_m":38533758.69168,
     "geom:bbox":"3.34997508493,46.6494130055,3.45518511045,46.7149505394",
     "geom:latitude":46.68095,
     "geom:longitude":3.404397,
@@ -141,6 +153,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683293,
         102191581,
@@ -151,7 +165,10 @@
         102070259
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_03229",
+        "eurostat:nuts_2021_id":"03229"
+    },
     "wof:coterminous":[
         101891059
     ],
@@ -159,7 +176,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9a7a8641ff1f73cdf05d1d2d93befd82",
+    "wof:geomhash":"cdd96c48beec9a50744e86420ee3a9d2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -173,11 +190,13 @@
         }
     ],
     "wof:id":404398577,
-    "wof:lastmodified":1582324122,
+    "wof:lastmodified":1684353233,
     "wof:name":"Saint-Ennemond",
     "wof:parent_id":102070259,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":626,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

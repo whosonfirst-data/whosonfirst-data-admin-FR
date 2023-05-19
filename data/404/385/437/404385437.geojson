@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_59144",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ch\u00e2teau-l'Abbaye",
+    "eurostat:nuts_2021_id":"59144",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE1",
+    "eurostat:nuts_2021_level_3":"FRE11",
+    "eurostat:nuts_2021_level_lau":"59144",
+    "eurostat:population":874,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200042190",
     "frgov:id":"BDCSURCO0000000009580848",
     "frgov:insee_arr":"6",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683445,
         102191581,
@@ -58,7 +72,10 @@
         102071701
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_59144",
+        "eurostat:nuts_2021_id":"59144"
+    },
     "wof:coterminous":[
         101898575
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"542a2f70036f4bf30cfd44055edc4bc2",
+    "wof:geomhash":"12fbe107467f38b092efb7320515d26d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404385437,
-    "wof:lastmodified":1582324632,
+    "wof:lastmodified":1684353075,
     "wof:name":"Chateau-L'Abbaye",
     "wof:parent_id":102071701,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":874,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

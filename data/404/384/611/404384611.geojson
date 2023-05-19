@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_02168",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ch\u00e2teau-Thierry",
+    "eurostat:nuts_2021_id":"02168",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE21",
+    "eurostat:nuts_2021_level_lau":"02168",
+    "eurostat:population":15107,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072031",
     "frgov:id":"BDCSURCO0000000009588148",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Sous-pr\u00e9fecture",
     "geom:area":0.002092,
-    "geom:area_square_m":16954300.878245,
+    "geom:area_square_m":16954300.878246,
     "geom:bbox":"3.34001640513,49.0304111863,3.41625060917,49.0807704812",
     "geom:latitude":49.056419,
     "geom:longitude":3.381532,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683247,
         102191581,
@@ -58,7 +72,10 @@
         102065611
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_02168",
+        "eurostat:nuts_2021_id":"02168"
+    },
     "wof:coterminous":[
         101828523
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"fcf3d3da4904babb6e6d81d7b6d78ac7",
+    "wof:geomhash":"dfe6d2659fd17fda5490cafb90b8020b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404384611,
-    "wof:lastmodified":1582324615,
+    "wof:lastmodified":1684353066,
     "wof:name":"Chateau-Thierry",
     "wof:parent_id":102065611,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Sous-pr\u00e9fecture",
+    "wof:population":15107,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

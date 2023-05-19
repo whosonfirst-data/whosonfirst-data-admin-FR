@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_31082",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bourg-Saint-Bernard",
+    "eurostat:nuts_2021_id":"31082",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ23",
+    "eurostat:nuts_2021_level_lau":"31082",
+    "eurostat:population":1038,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071298",
     "frgov:id":"BDCSURCO0000000009613439",
     "frgov:insee_arr":"3",
@@ -102,6 +114,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683397,
         102191581,
@@ -112,7 +126,10 @@
         102067503
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_31082",
+        "eurostat:nuts_2021_id":"31082"
+    },
     "wof:coterminous":[
         101897077
     ],
@@ -120,7 +137,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d89a99626d5ef6ec478cebe622aae16e",
+    "wof:geomhash":"51b6985cc3f035fca11eec85ddc42f0b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -134,11 +151,13 @@
         }
     ],
     "wof:id":404367625,
-    "wof:lastmodified":1582324999,
+    "wof:lastmodified":1684352860,
     "wof:name":"Bourg-Saint-Bernard",
     "wof:parent_id":102067503,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1038,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

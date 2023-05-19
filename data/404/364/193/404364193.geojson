@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_56223",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Jean-la-Poterie",
+    "eurostat:nuts_2021_id":"56223",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH04",
+    "eurostat:nuts_2021_level_lau":"56223",
+    "eurostat:population":1500,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243500741",
     "frgov:id":"BDCSURCO0000000009597246",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BRETAGNE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000999,
-    "geom:area_square_m":8325699.503751,
+    "geom:area_square_m":8325699.50375,
     "geom:bbox":"-2.14451951719,47.6243781782,-2.09379780348,47.6656393414",
     "geom:latitude":47.645416,
     "geom:longitude":-2.122756,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683507,
         102191581,
@@ -57,7 +71,10 @@
         102064391
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_56223",
+        "eurostat:nuts_2021_id":"56223"
+    },
     "wof:coterminous":[
         101827743
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"cedcbabb32ae3ef370702efbcf8ff315",
+    "wof:geomhash":"aa43928b59aced982053ef8ce685924c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404364193,
-    "wof:lastmodified":1582324240,
+    "wof:lastmodified":1684352812,
     "wof:name":"Saint-Jean-La-Poterie",
     "wof:parent_id":102064391,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1500,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

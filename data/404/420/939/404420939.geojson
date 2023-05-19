@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_80223",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Cr\u00e9mery",
+    "eurostat:nuts_2021_id":"80223",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE23",
+    "eurostat:nuts_2021_level_lau":"80223",
+    "eurostat:population":121,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070977",
     "frgov:id":"BDCSURCO0000000009583249",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683363,
         102191581,
@@ -58,7 +72,10 @@
         102070903
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_80223",
+        "eurostat:nuts_2021_id":"80223"
+    },
     "wof:coterminous":[
         101902209
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"55615912bb467ab618bfe0d86972e912",
+    "wof:geomhash":"45056a05a2d8043710aa4944fb7cd6ff",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404420939,
-    "wof:lastmodified":1582325197,
+    "wof:lastmodified":1684353496,
     "wof:name":"Cremery",
     "wof:parent_id":102070903,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":121,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

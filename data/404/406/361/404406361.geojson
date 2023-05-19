@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_55222",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gussainville",
+    "eurostat:nuts_2021_id":"55222",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF32",
+    "eurostat:nuts_2021_level_lau":"55222",
+    "eurostat:population":35,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"245501242",
     "frgov:id":"BDCSURCO0000000009586553",
     "frgov:insee_arr":"3",
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683297,
         102191581,
@@ -136,7 +150,10 @@
         102065763
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_55222",
+        "eurostat:nuts_2021_id":"55222"
+    },
     "wof:coterminous":[
         1126055867
     ],
@@ -144,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f54738ceea8f1cab349e2423a217d903",
+    "wof:geomhash":"963513ae563f7eb94d7d131d62219f2e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +175,13 @@
         }
     ],
     "wof:id":404406361,
-    "wof:lastmodified":1582324444,
+    "wof:lastmodified":1684353325,
     "wof:name":"Gussainville",
     "wof:parent_id":102065763,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":35,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_04121",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"M\u00e9zel",
+    "eurostat:nuts_2021_id":"04121",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL01",
+    "eurostat:nuts_2021_level_lau":"04121",
+    "eurostat:population":656,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067437",
     "frgov:id":"BDCSURCO0000000009611506",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.002439,
-    "geom:area_square_m":21696217.889583,
+    "geom:area_square_m":21696217.889585,
     "geom:bbox":"6.14766313165,43.9654412325,6.21200658904,44.0305522032",
     "geom:latitude":43.998002,
     "geom:longitude":6.178887,
@@ -120,6 +132,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683509,
         102191581,
@@ -129,7 +143,10 @@
         102067099
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_04121",
+        "eurostat:nuts_2021_id":"04121"
+    },
     "wof:coterminous":[
         101897387
     ],
@@ -137,7 +154,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b91caec5a3e0561b9f3b9ffe39e2235c",
+    "wof:geomhash":"3e3c13b82e117a3b7bcb97c58c67a464",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -150,11 +167,13 @@
         }
     ],
     "wof:id":404406973,
-    "wof:lastmodified":1582324451,
+    "wof:lastmodified":1684353332,
     "wof:name":"Mezel",
     "wof:parent_id":102067099,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":656,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

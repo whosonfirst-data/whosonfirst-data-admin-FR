@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_05129",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Andr\u00e9-de-Rosans",
+    "eurostat:nuts_2021_id":"05129",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL02",
+    "eurostat:nuts_2021_level_lau":"05129",
+    "eurostat:population":151,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068765",
     "frgov:id":"BDCSURCO0000000009610654",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.004188,
-    "geom:area_square_m":37021342.229949,
+    "geom:area_square_m":37021342.229947,
     "geom:bbox":"5.46278184879,44.3299668135,5.57130619549,44.4016284478",
     "geom:latitude":44.364459,
     "geom:longitude":5.52139,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683597,
         102191581,
@@ -57,7 +71,10 @@
         102067423
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_05129",
+        "eurostat:nuts_2021_id":"05129"
+    },
     "wof:coterminous":[
         1126023031
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9dd6974a59d901d5f80184f511a2e230",
+    "wof:geomhash":"0bd9bd18ffc5c8927cac55034f98dcb5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404368089,
-    "wof:lastmodified":1582324877,
+    "wof:lastmodified":1684352866,
     "wof:name":"Saint-Andre-De-Rosans",
     "wof:parent_id":102067423,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":151,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

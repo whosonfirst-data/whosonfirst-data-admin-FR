@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_65081",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Benqu\u00e9-Mol\u00e8re",
+    "eurostat:nuts_2021_id":"65081",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ26",
+    "eurostat:nuts_2021_level_lau":"65081",
+    "eurostat:population":126,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070787",
     "frgov:id":"BDCSURCO0000000009615468",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000423,
-    "geom:area_square_m":3816624.081245,
+    "geom:area_square_m":3816624.081244,
     "geom:bbox":"0.266831146612,43.0854971596,0.317689405966,43.1077076261",
     "geom:latitude":43.096809,
     "geom:longitude":0.289354,
@@ -69,6 +81,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683203,
         102191581,
@@ -79,7 +93,10 @@
         102066323
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_65081",
+        "eurostat:nuts_2021_id":"65081"
+    },
     "wof:coterminous":[
         1126036381
     ],
@@ -87,7 +104,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"22e53b380eb0dbac26697d474cd9601d",
+    "wof:geomhash":"7663ea7ce8ae9dac6d02437cbb6d5cf3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -101,11 +118,13 @@
         }
     ],
     "wof:id":404420761,
-    "wof:lastmodified":1582325207,
+    "wof:lastmodified":1684353493,
     "wof:name":"Benque",
     "wof:parent_id":102066323,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":126,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

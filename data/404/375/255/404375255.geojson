@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_46015",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bagnac-sur-C\u00e9l\u00e9",
+    "eurostat:nuts_2021_id":"46015",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ25",
+    "eurostat:nuts_2021_level_lau":"46015",
+    "eurostat:population":1475,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067361",
     "frgov:id":"BDCSURCO0000000009609701",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002525,
-    "geom:area_square_m":22207521.531289,
+    "geom:area_square_m":22207521.53129,
     "geom:bbox":"2.1121504032,44.6300295002,2.17915233871,44.7002865483",
     "geom:latitude":44.662505,
     "geom:longitude":2.148768,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683389,
         102191581,
@@ -58,7 +72,10 @@
         102065705
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_46015",
+        "eurostat:nuts_2021_id":"46015"
+    },
     "wof:coterminous":[
         101771709
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"816ee79780392829ba7aade5cd3e582b",
+    "wof:geomhash":"241c3d3610aaa2bbbf052668995ba155",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404375255,
-    "wof:lastmodified":1582325422,
+    "wof:lastmodified":1684352952,
     "wof:name":"Bagnac-Sur-Cele",
     "wof:parent_id":102065705,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1475,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

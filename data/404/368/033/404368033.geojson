@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_05027",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Cervi\u00e8res",
+    "eurostat:nuts_2021_id":"05027",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL02",
+    "eurostat:nuts_2021_level_lau":"05027",
+    "eurostat:population":188,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240500439",
     "frgov:id":"BDCSURCO0000000009608670",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.012571,
-    "geom:area_square_m":110196409.510444,
+    "geom:area_square_m":110196409.510443,
     "geom:bbox":"6.66582427454,44.8116563009,6.88338699696,44.9055066312",
     "geom:latitude":44.853307,
     "geom:longitude":6.765173,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683597,
         102191581,
@@ -57,7 +71,10 @@
         102068879
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_05027",
+        "eurostat:nuts_2021_id":"05027"
+    },
     "wof:coterminous":[
         1125805883
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0ef24aa637c829dcff5637527e2d1a4e",
+    "wof:geomhash":"e4724edafda5e7f50b156e420b2c993a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404368033,
-    "wof:lastmodified":1582324881,
+    "wof:lastmodified":1684352865,
     "wof:name":"Cervieres",
     "wof:parent_id":102068879,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":188,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

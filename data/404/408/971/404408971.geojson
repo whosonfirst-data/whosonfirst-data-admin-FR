@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_71444",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Loup-de-Varennes",
+    "eurostat:nuts_2021_id":"71444",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC13",
+    "eurostat:nuts_2021_level_lau":"71444",
+    "eurostat:population":1161,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247100589",
     "frgov:id":"BDCSURCO0000000009601572",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000986,
-    "geom:area_square_m":8354245.741814,
+    "geom:area_square_m":8354245.741813,
     "geom:bbox":"4.82051569098,46.7035851509,4.88548254847,46.7411491021",
     "geom:latitude":46.723737,
     "geom:longitude":4.852576,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683543,
         102191581,
@@ -56,7 +70,10 @@
         102065551
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_71444",
+        "eurostat:nuts_2021_id":"71444"
+    },
     "wof:coterminous":[
         1360678519
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"72532aa1b7aad1f988c5fe0dd85b5e6a",
+    "wof:geomhash":"b0a33c2d68bcf5fd404476e9d634fc79",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404408971,
-    "wof:lastmodified":1582324461,
+    "wof:lastmodified":1684353355,
     "wof:name":"Saint-Loup-De-Varennes",
     "wof:parent_id":102065551,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1161,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

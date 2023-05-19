@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_03244",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Marcel-en-Marcillat",
+    "eurostat:nuts_2021_id":"03244",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK11",
+    "eurostat:nuts_2021_level_lau":"03244",
+    "eurostat:population":136,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071082",
     "frgov:id":"BDCSURCO0000000009603792",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001255,
-    "geom:area_square_m":10748703.546208,
+    "geom:area_square_m":10748703.546209,
     "geom:bbox":"2.55915488725,46.1267846337,2.60292501009,46.1770939427",
     "geom:latitude":46.152784,
     "geom:longitude":2.580522,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683293,
         102191581,
@@ -58,7 +72,10 @@
         102067367
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_03244",
+        "eurostat:nuts_2021_id":"03244"
+    },
     "wof:coterminous":[
         1125958631
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"df5db6aed24d9d07b4023355720db8de",
+    "wof:geomhash":"4ec8e3d8c530af573054ed6911e0e912",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404382821,
-    "wof:lastmodified":1582324683,
+    "wof:lastmodified":1684353043,
     "wof:name":"Saint-Marcel-En-Marcillat",
     "wof:parent_id":102067367,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":136,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

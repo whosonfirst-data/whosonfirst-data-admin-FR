@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_67320",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Neuve-\u00c9glise",
+    "eurostat:nuts_2021_id":"67320",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF1",
+    "eurostat:nuts_2021_level_3":"FRF11",
+    "eurostat:nuts_2021_level_lau":"67320",
+    "eurostat:population":629,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"246700777",
     "frgov:id":"BDCSURCO0000000009592701",
     "frgov:insee_arr":"5",
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683221,
         102191581,
@@ -56,7 +70,10 @@
         102070217
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_67320",
+        "eurostat:nuts_2021_id":"67320"
+    },
     "wof:coterminous":[
         1360675549
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c6293465779ea8c09571fc606c8b9a6e",
+    "wof:geomhash":"f9b8b684dffa1dbfb4591cd0bfd064e8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404377627,
-    "wof:lastmodified":1582324561,
+    "wof:lastmodified":1684352983,
     "wof:name":"Neuve-Eglise",
     "wof:parent_id":102070217,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":629,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

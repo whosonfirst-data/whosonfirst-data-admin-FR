@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_81271",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Sulpice-la-Pointe",
+    "eurostat:nuts_2021_id":"81271",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ27",
+    "eurostat:nuts_2021_level_lau":"81271",
+    "eurostat:population":9117,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200034023",
     "frgov:id":"BDCSURCO0000000009612955",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002691,
-    "geom:area_square_m":24032590.649458,
+    "geom:area_square_m":24032590.649459,
     "geom:bbox":"1.64991890905,43.7278973922,1.73138870278,43.7853526554",
     "geom:latitude":43.759295,
     "geom:longitude":1.686583,
@@ -123,6 +135,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683603,
         102191581,
@@ -133,7 +147,10 @@
         102067473
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_81271",
+        "eurostat:nuts_2021_id":"81271"
+    },
     "wof:coterminous":[
         101772529
     ],
@@ -141,7 +158,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"aab52662b332ec75d992d551a87337ff",
+    "wof:geomhash":"e39e54437745397d716e800d7ef02267",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -155,11 +172,13 @@
         }
     ],
     "wof:id":404405843,
-    "wof:lastmodified":1582325254,
+    "wof:lastmodified":1684353318,
     "wof:name":"Saint-Sulpice",
     "wof:parent_id":102067473,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":9117,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

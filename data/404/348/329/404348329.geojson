@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_14593",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Hymer",
+    "eurostat:nuts_2021_id":"14593",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD11",
+    "eurostat:nuts_2021_level_lau":"14593",
+    "eurostat:population":664,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"241400878",
     "frgov:id":"BDCSURCO0000000009586340",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001565,
-    "geom:area_square_m":12633248.953558,
+    "geom:area_square_m":12633248.953557,
     "geom:bbox":"0.13598392846,49.2092966445,0.195351235732,49.2722585332",
     "geom:latitude":49.243558,
     "geom:longitude":0.16744,
@@ -138,6 +150,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683579,
         102191581,
@@ -148,7 +162,10 @@
         102069373
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_14593",
+        "eurostat:nuts_2021_id":"14593"
+    },
     "wof:coterminous":[
         1125976537
     ],
@@ -156,7 +173,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4c5e97a4bb1ae686daee7632cb9c8827",
+    "wof:geomhash":"f0d0b6a96791120b27450e12e0fe3ea0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -170,11 +187,13 @@
         }
     ],
     "wof:id":404348329,
-    "wof:lastmodified":1582324592,
+    "wof:lastmodified":1684352593,
     "wof:name":"Saint-Hymer",
     "wof:parent_id":102069373,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":664,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

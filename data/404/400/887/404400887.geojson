@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_76210",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Dampierre-Saint-Nicolas",
+    "eurostat:nuts_2021_id":"76210",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD22",
+    "eurostat:nuts_2021_level_lau":"76210",
+    "eurostat:population":472,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247600729",
     "frgov:id":"BDCSURCO0000000009582755",
     "frgov:insee_arr":"1",
@@ -117,6 +129,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683251,
         102191581,
@@ -127,7 +141,10 @@
         102067593
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_76210",
+        "eurostat:nuts_2021_id":"76210"
+    },
     "wof:coterminous":[
         101900233
     ],
@@ -135,7 +152,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"96aa33ef22065e0dab82006de6d38893",
+    "wof:geomhash":"4bca6736f6131df0640a6c51df6a7195",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -149,11 +166,13 @@
         }
     ],
     "wof:id":404400887,
-    "wof:lastmodified":1582324506,
+    "wof:lastmodified":1684353260,
     "wof:name":"Dampierre-Saint-Nicolas",
     "wof:parent_id":102067593,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":472,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

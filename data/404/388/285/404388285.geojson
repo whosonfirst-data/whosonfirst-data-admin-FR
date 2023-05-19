@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_02462",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mareuil-en-D\u00f4le",
+    "eurostat:nuts_2021_id":"02462",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE21",
+    "eurostat:nuts_2021_level_lau":"02462",
+    "eurostat:population":240,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072031",
     "frgov:id":"BDCSURCO0000000009586154",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001125,
-    "geom:area_square_m":9079081.236808,
+    "geom:area_square_m":9079081.236807,
     "geom:bbox":"3.53482021505,49.2233788336,3.59155698035,49.2666604737",
     "geom:latitude":49.241903,
     "geom:longitude":3.561186,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683247,
         102191581,
@@ -58,7 +72,10 @@
         102066977
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_02462",
+        "eurostat:nuts_2021_id":"02462"
+    },
     "wof:coterminous":[
         101879407
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c82f0e7b853aabd8576df7cd439e1a09",
+    "wof:geomhash":"aae025993b2d35e041d87d060115f585",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404388285,
-    "wof:lastmodified":1582325487,
+    "wof:lastmodified":1684353107,
     "wof:name":"Mareuil-En-Dole",
     "wof:parent_id":102066977,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":240,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

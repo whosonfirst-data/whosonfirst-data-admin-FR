@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_69162",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Quinci\u00e9-en-Beaujolais",
+    "eurostat:nuts_2021_id":"69162",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK26",
+    "eurostat:nuts_2021_level_lau":"69162",
+    "eurostat:population":1325,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067817",
     "frgov:id":"BDCSURCO0000000009603728",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.002566,
-    "geom:area_square_m":21999482.131199,
+    "geom:area_square_m":21999482.131198,
     "geom:bbox":"4.5784048393,46.079427945,4.65008445209,46.143736512",
     "geom:latitude":46.113569,
     "geom:longitude":4.607964,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683569,
         102191581,
@@ -58,7 +72,10 @@
         102064935
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_69162",
+        "eurostat:nuts_2021_id":"69162"
+    },
     "wof:coterminous":[
         101767687
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4f8f7239646acdbde22b6c9dcaac9d03",
+    "wof:geomhash":"23a7cb8ea0ca829adc50b9bd2de7f809",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404366003,
-    "wof:lastmodified":1582324837,
+    "wof:lastmodified":1684352838,
     "wof:name":"Quincie-En-Beaujolais",
     "wof:parent_id":102064935,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1325,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

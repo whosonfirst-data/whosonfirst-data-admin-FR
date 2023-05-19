@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_76144",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bretteville-Saint-Laurent",
+    "eurostat:nuts_2021_id":"76144",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD22",
+    "eurostat:nuts_2021_level_lau":"76144",
+    "eurostat:population":159,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069847",
     "frgov:id":"BDCSURCO0000000009583074",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000506,
-    "geom:area_square_m":4045141.605529,
+    "geom:area_square_m":4045141.60553,
     "geom:bbox":"0.849510772357,49.7548895251,0.88362950315,49.7816942087",
     "geom:latitude":49.766367,
     "geom:longitude":0.869589,
@@ -117,6 +129,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683251,
         102191581,
@@ -127,7 +141,10 @@
         102067143
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_76144",
+        "eurostat:nuts_2021_id":"76144"
+    },
     "wof:coterminous":[
         101900145
     ],
@@ -135,7 +152,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"45ae4d0e9eb5374fd22fe6fe3d9cb1e0",
+    "wof:geomhash":"2ba4d4dff308edbba7b1fc692a2ff180",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -149,11 +166,13 @@
         }
     ],
     "wof:id":404377639,
-    "wof:lastmodified":1582324570,
+    "wof:lastmodified":1684352983,
     "wof:name":"Bretteville-Saint-Laurent",
     "wof:parent_id":102067143,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":159,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

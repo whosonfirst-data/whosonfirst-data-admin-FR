@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_19160",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"P\u00e9rols-sur-V\u00e9z\u00e8re",
+    "eurostat:nuts_2021_id":"19160",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI21",
+    "eurostat:nuts_2021_level_lau":"19160",
+    "eurostat:population":185,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066744",
     "frgov:id":"BDCSURCO0000000009606382",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.005439,
-    "geom:area_square_m":47079609.522217,
+    "geom:area_square_m":47079609.522216,
     "geom:bbox":"1.95071089505,45.5253323061,2.06762923956,45.6205785453",
     "geom:latitude":45.575658,
     "geom:longitude":2.003609,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683209,
         102191581,
@@ -58,7 +72,10 @@
         102065567
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_19160",
+        "eurostat:nuts_2021_id":"19160"
+    },
     "wof:coterminous":[
         1125796143
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5597b112309c49deb04ea7cc94d19e26",
+    "wof:geomhash":"fbb0dcc9da372642e9f1e54bff8022e6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404360869,
-    "wof:lastmodified":1582325047,
+    "wof:lastmodified":1684352766,
     "wof:name":"Perols-Sur-Vezere",
     "wof:parent_id":102065567,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":185,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

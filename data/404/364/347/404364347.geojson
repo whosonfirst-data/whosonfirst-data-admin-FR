@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_76582",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Germain-d'\u00c9tables",
+    "eurostat:nuts_2021_id":"76582",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD22",
+    "eurostat:nuts_2021_level_lau":"76582",
+    "eurostat:population":263,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068534",
     "frgov:id":"BDCSURCO0000000009582762",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683251,
         102191581,
@@ -58,7 +72,10 @@
         102070523
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_76582",
+        "eurostat:nuts_2021_id":"76582"
+    },
     "wof:coterminous":[
         101900381
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"573ef55ab6fdf005d674a5c16dc7c565",
+    "wof:geomhash":"1b4645d115b52f33781d8a5a90559ecd",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404364347,
-    "wof:lastmodified":1582324247,
+    "wof:lastmodified":1684352814,
     "wof:name":"Saint-Germain-D'Etables",
     "wof:parent_id":102070523,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":263,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

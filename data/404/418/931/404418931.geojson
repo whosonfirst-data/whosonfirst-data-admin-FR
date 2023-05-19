@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_89447",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"V\u00e9zinnes",
+    "eurostat:nuts_2021_id":"89447",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC14",
+    "eurostat:nuts_2021_level_lau":"89447",
+    "eurostat:population":159,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200039642",
     "frgov:id":"BDCSURCO0000000009596084",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000755,
-    "geom:area_square_m":6259464.684775,
+    "geom:area_square_m":6259464.684776,
     "geom:bbox":"3.91613032351,47.8751024702,3.95222902992,47.9128037702",
     "geom:latitude":47.891822,
     "geom:longitude":3.932563,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683503,
         102191581,
@@ -58,7 +72,10 @@
         102070163
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_89447",
+        "eurostat:nuts_2021_id":"89447"
+    },
     "wof:coterminous":[
         1125944389
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3b91086c86943b72639e7d7ed4046e96",
+    "wof:geomhash":"d7bc895a7861004f3ecfbcc7de193755",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404418931,
-    "wof:lastmodified":1582325215,
+    "wof:lastmodified":1684353471,
     "wof:name":"Vezinnes",
     "wof:parent_id":102070163,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":159,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

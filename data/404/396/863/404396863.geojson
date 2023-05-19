@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_30143",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Laval-Saint-Roman",
+    "eurostat:nuts_2021_id":"30143",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ12",
+    "eurostat:nuts_2021_level_lau":"30143",
+    "eurostat:population":217,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200034692",
     "frgov:id":"BDCSURCO0000000009610859",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001178,
-    "geom:area_square_m":10422433.822851,
+    "geom:area_square_m":10422433.82285,
     "geom:bbox":"4.4805077376,44.2826364163,4.53328892506,44.3202834892",
     "geom:latitude":44.300534,
     "geom:longitude":4.504557,
@@ -123,6 +135,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683431,
         102191581,
@@ -133,7 +147,10 @@
         102068013
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_30143",
+        "eurostat:nuts_2021_id":"30143"
+    },
     "wof:coterminous":[
         1125916883
     ],
@@ -141,7 +158,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"443f38d4f3cc450a534fac7504ad20a5",
+    "wof:geomhash":"5b07ffc70bf45d3ac9b2aa8f198cbb8f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -155,11 +172,13 @@
         }
     ],
     "wof:id":404396863,
-    "wof:lastmodified":1582324079,
+    "wof:lastmodified":1684353212,
     "wof:name":"Laval-Saint-Roman",
     "wof:parent_id":102068013,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":217,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_65358",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Peyret-Saint-Andr\u00e9",
+    "eurostat:nuts_2021_id":"65358",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ26",
+    "eurostat:nuts_2021_level_lau":"65358",
+    "eurostat:population":54,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070795",
     "frgov:id":"BDCSURCO0000000009614747",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000695,
-    "geom:area_square_m":6251926.501942,
+    "geom:area_square_m":6251926.501941,
     "geom:bbox":"0.49547056078,43.302791129,0.537019923143,43.3341306789",
     "geom:latitude":43.320429,
     "geom:longitude":0.511726,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683203,
         102191581,
@@ -58,7 +72,10 @@
         102065773
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_65358",
+        "eurostat:nuts_2021_id":"65358"
+    },
     "wof:coterminous":[
         1125923851
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"90a90499dceeffec4e94473f6760952a",
+    "wof:geomhash":"bdce80740c96c4704a90a648532fe425",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404394059,
-    "wof:lastmodified":1582325036,
+    "wof:lastmodified":1684353180,
     "wof:name":"Peyret-Saint-Andre",
     "wof:parent_id":102065773,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":54,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

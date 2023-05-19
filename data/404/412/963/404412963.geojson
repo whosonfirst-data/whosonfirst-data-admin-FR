@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_02548",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Neuville-l\u00e8s-Dorengt",
+    "eurostat:nuts_2021_id":"02548",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE21",
+    "eurostat:nuts_2021_level_lau":"02548",
+    "eurostat:population":380,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240200444",
     "frgov:id":"BDCSURCO0000000009582218",
     "frgov:insee_arr":"5",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001372,
-    "geom:area_square_m":10908750.055344,
+    "geom:area_square_m":10908750.055343,
     "geom:bbox":"3.64584872312,49.9603255817,3.72381367045,50.005964869",
     "geom:latitude":49.983116,
     "geom:longitude":3.686476,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683247,
         102191581,
@@ -58,7 +72,10 @@
         102068691
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_02548",
+        "eurostat:nuts_2021_id":"02548"
+    },
     "wof:coterminous":[
         101899909
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c93e5fac97e26c2280c4dd5fd4c9475e",
+    "wof:geomhash":"681f2e2cb6119282554aa0f738a673ea",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404412963,
-    "wof:lastmodified":1582324370,
+    "wof:lastmodified":1684353401,
     "wof:name":"La Neuville-Les-Dorengt",
     "wof:parent_id":102068691,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":380,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_09276",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Victor-Rouzaud",
+    "eurostat:nuts_2021_id":"09276",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ21",
+    "eurostat:nuts_2021_level_lau":"09276",
+    "eurostat:population":231,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066231",
     "frgov:id":"BDCSURCO0000000009615612",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001401,
-    "geom:area_square_m":12654164.169719,
+    "geom:area_square_m":12654164.169718,
     "geom:bbox":"1.52439987121,43.0598152601,1.5802798005,43.1083342202",
     "geom:latitude":43.087705,
     "geom:longitude":1.547933,
@@ -111,6 +123,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683335,
         102191581,
@@ -121,7 +135,10 @@
         102066477
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_09276",
+        "eurostat:nuts_2021_id":"09276"
+    },
     "wof:coterminous":[
         1125940569
     ],
@@ -129,7 +146,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"bf4885a6ca0de7cef28059885397353c",
+    "wof:geomhash":"90c7f638f32abbd658c4888e1763ec7a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -143,11 +160,13 @@
         }
     ],
     "wof:id":404422127,
-    "wof:lastmodified":1582324287,
+    "wof:lastmodified":1684353511,
     "wof:name":"Saint-Victor-Rouzaud",
     "wof:parent_id":102066477,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":231,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

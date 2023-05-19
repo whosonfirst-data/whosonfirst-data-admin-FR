@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_62285",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"\u00c9coust-Saint-Mein",
+    "eurostat:nuts_2021_id":"62285",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE1",
+    "eurostat:nuts_2021_level_3":"FRE12",
+    "eurostat:nuts_2021_level_lau":"62285",
+    "eurostat:population":491,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200035442",
     "frgov:id":"BDCSURCO0000000009581647",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683255,
         102191581,
@@ -58,7 +72,10 @@
         102067971
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_62285",
+        "eurostat:nuts_2021_id":"62285"
+    },
     "wof:coterminous":[
         101901039
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3e6de1abce4565d718bc53c8b2a66790",
+    "wof:geomhash":"bc8cfe5319d53c32b120abc016dc539e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404391165,
-    "wof:lastmodified":1582324016,
+    "wof:lastmodified":1684353146,
     "wof:name":"Ecoust-Saint-Mein",
     "wof:parent_id":102067971,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":491,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

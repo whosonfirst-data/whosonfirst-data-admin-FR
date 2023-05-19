@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_24425",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Jean-de-C\u00f4le",
+    "eurostat:nuts_2021_id":"24425",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI11",
+    "eurostat:nuts_2021_level_lau":"24425",
+    "eurostat:population":365,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242400752",
     "frgov:id":"BDCSURCO0000000009606880",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001487,
-    "geom:area_square_m":12910856.461405,
+    "geom:area_square_m":12910856.461404,
     "geom:bbox":"0.807326737276,45.3893586741,0.864026514443,45.4343600825",
     "geom:latitude":45.413175,
     "geom:longitude":0.83526,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683331,
         102191581,
@@ -58,7 +72,10 @@
         102071123
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_24425",
+        "eurostat:nuts_2021_id":"24425"
+    },
     "wof:coterminous":[
         1125817269
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"83b0fe7eeb3b57f282a0bb7fe515adc0",
+    "wof:geomhash":"25911bb615da52b3034fae6f35b07e16",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404391469,
-    "wof:lastmodified":1582324020,
+    "wof:lastmodified":1684353150,
     "wof:name":"Saint-Jean-De-Cole",
     "wof:parent_id":102071123,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":365,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

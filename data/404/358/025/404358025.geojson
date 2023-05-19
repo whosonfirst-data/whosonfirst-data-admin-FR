@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_24460",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-M\u00e9ard-de-Dr\u00f4ne",
+    "eurostat:nuts_2021_id":"24460",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI11",
+    "eurostat:nuts_2021_level_lau":"24460",
+    "eurostat:population":497,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040400",
     "frgov:id":"BDCSURCO0000000009607577",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001031,
-    "geom:area_square_m":8976886.194712,
+    "geom:area_square_m":8976886.194713,
     "geom:bbox":"0.370231579415,45.233930094,0.436765273262,45.2746937116",
     "geom:latitude":45.250629,
     "geom:longitude":0.41041,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683331,
         102191581,
@@ -56,7 +70,10 @@
         102069539
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_24460",
+        "eurostat:nuts_2021_id":"24460"
+    },
     "wof:coterminous":[
         1360673557
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"13fa20c8dd76c8abb67ae1eef97234b0",
+    "wof:geomhash":"08da276651eb142473d3e9b68b1a1fe5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404358025,
-    "wof:lastmodified":1582324970,
+    "wof:lastmodified":1684352726,
     "wof:name":"Saint-Meard-De-Drone",
     "wof:parent_id":102069539,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":497,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

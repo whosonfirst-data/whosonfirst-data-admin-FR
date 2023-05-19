@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_28058",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Br\u00e9champs",
+    "eurostat:nuts_2021_id":"28058",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB02",
+    "eurostat:nuts_2021_level_lau":"28058",
+    "eurostat:population":344,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069953",
     "frgov:id":"BDCSURCO0000000009591144",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000672,
-    "geom:area_square_m":5488172.462024,
+    "geom:area_square_m":5488172.462023,
     "geom:bbox":"1.50061676324,48.6542071396,1.5377890621,48.6882473596",
     "geom:latitude":48.672551,
     "geom:longitude":1.520968,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683189,
         102191581,
@@ -57,7 +71,10 @@
         102067889
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_28058",
+        "eurostat:nuts_2021_id":"28058"
+    },
     "wof:coterminous":[
         101880883
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"bd9f29213ad14420bb7c5fd6b831e9d0",
+    "wof:geomhash":"ccacbf2458e2fd556c149bf7dbef7beb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404422765,
-    "wof:lastmodified":1582324281,
+    "wof:lastmodified":1684353519,
     "wof:name":"Brechamps",
     "wof:parent_id":102067889,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":344,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

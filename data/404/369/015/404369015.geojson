@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_33447",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-M\u00e9dard-de-Guizi\u00e8res",
+    "eurostat:nuts_2021_id":"33447",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI12",
+    "eurostat:nuts_2021_level_lau":"33447",
+    "eurostat:population":2380,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070092",
     "frgov:id":"BDCSURCO0000000009608430",
     "frgov:insee_arr":"5",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001167,
-    "geom:area_square_m":10200907.468503,
+    "geom:area_square_m":10200907.468502,
     "geom:bbox":"-0.104644784526,44.9952649479,-0.0410351426887,45.0268904107",
     "geom:latitude":45.010234,
     "geom:longitude":-0.070089,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683243,
         102191581,
@@ -58,7 +72,10 @@
         102068501
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_33447",
+        "eurostat:nuts_2021_id":"33447"
+    },
     "wof:coterminous":[
         101769447
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"1541ab662f08ccf0c7a41684c3f5344b",
+    "wof:geomhash":"37e34e308c03b5c7bdfe14f0ee77f3b4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404369015,
-    "wof:lastmodified":1582324908,
+    "wof:lastmodified":1684352879,
     "wof:name":"Saint-Medard-De-Guizieres",
     "wof:parent_id":102068501,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2380,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

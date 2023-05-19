@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_01265",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Montr\u00e9al-la-Cluse",
+    "eurostat:nuts_2021_id":"01265",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK21",
+    "eurostat:nuts_2021_level_lau":"01265",
+    "eurostat:population":3435,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200042935",
     "frgov:id":"BDCSURCO0000000009603209",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001456,
-    "geom:area_square_m":12461588.626475,
+    "geom:area_square_m":12461588.626476,
     "geom:bbox":"5.55954711333,46.1663268721,5.63576862406,46.1955856982",
     "geom:latitude":46.179338,
     "geom:longitude":5.595168,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683153,
         102191581,
@@ -58,7 +72,10 @@
         102068489
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_01265",
+        "eurostat:nuts_2021_id":"01265"
+    },
     "wof:coterminous":[
         101842955
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"fb950af4c64844831edfd0c6b80aa683",
+    "wof:geomhash":"46717d45446b6b902703ea0f4b51d157",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404418255,
-    "wof:lastmodified":1582325229,
+    "wof:lastmodified":1684353463,
     "wof:name":"Montreal-La-Cluse",
     "wof:parent_id":102068489,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3435,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_78053",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"B\u00e9houst",
+    "eurostat:nuts_2021_id":"78053",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR103",
+    "eurostat:nuts_2021_level_lau":"78053",
+    "eurostat:population":460,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247800618",
     "frgov:id":"BDCSURCO0000000009589774",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683367,
         102191581,
@@ -57,7 +71,10 @@
         102067077
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_78053",
+        "eurostat:nuts_2021_id":"78053"
+    },
     "wof:coterminous":[
         101879795
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5769a28c8f64f730fb5cc8e37e9c6458",
+    "wof:geomhash":"6ccbaf7c72a8e8bdcedaff680a27cd82",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404395723,
-    "wof:lastmodified":1582324776,
+    "wof:lastmodified":1684353199,
     "wof:name":"Behoust",
     "wof:parent_id":102067077,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":460,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

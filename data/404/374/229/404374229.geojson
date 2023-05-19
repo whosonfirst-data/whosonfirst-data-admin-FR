@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_42280",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-R\u00e9gis-du-Coin",
+    "eurostat:nuts_2021_id":"42280",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK25",
+    "eurostat:nuts_2021_level_lau":"42280",
+    "eurostat:population":387,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244200622",
     "frgov:id":"BDCSURCO0000000009607255",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.002349,
-    "geom:area_square_m":20431358.143845,
+    "geom:area_square_m":20431358.143847,
     "geom:bbox":"4.4196547235,45.2534523458,4.48712616805,45.3202444535",
     "geom:latitude":45.289302,
     "geom:longitude":4.45536,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683377,
         102191581,
@@ -58,7 +72,10 @@
         102068823
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_42280",
+        "eurostat:nuts_2021_id":"42280"
+    },
     "wof:coterminous":[
         1125941601
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"77efe8249d9ae639e95c8e38d3382428",
+    "wof:geomhash":"9ba550c79807173026e478bb7f384c50",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404374229,
-    "wof:lastmodified":1582325390,
+    "wof:lastmodified":1684352939,
     "wof:name":"Saint-Regis-Du-Coin",
     "wof:parent_id":102068823,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":387,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

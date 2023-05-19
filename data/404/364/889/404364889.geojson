@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_43223",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Romain-Lachalm",
+    "eurostat:nuts_2021_id":"43223",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK13",
+    "eurostat:nuts_2021_level_lau":"43223",
+    "eurostat:population":1093,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244300307",
     "frgov:id":"BDCSURCO0000000009607480",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.002244,
-    "geom:area_square_m":19533747.866597,
+    "geom:area_square_m":19533747.866598,
     "geom:bbox":"4.29951631679,45.2422808087,4.3796256846,45.2952951879",
     "geom:latitude":45.26519,
     "geom:longitude":4.33971,
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683413,
         102191581,
@@ -139,7 +153,10 @@
         102068449
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_43223",
+        "eurostat:nuts_2021_id":"43223"
+    },
     "wof:coterminous":[
         101894433
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"baf34ef188a6119ad2c33b304f5848be",
+    "wof:geomhash":"c9e0cfefcdfa1a7c64823c2791c11399",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404364889,
-    "wof:lastmodified":1582324241,
+    "wof:lastmodified":1684352822,
     "wof:name":"Saint-Romain-Lachalm",
     "wof:parent_id":102068449,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1093,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

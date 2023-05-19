@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_77169",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"\u00c9merainville",
+    "eurostat:nuts_2021_id":"77169",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR102",
+    "eurostat:nuts_2021_level_lau":"77169",
+    "eurostat:population":7720,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200057958",
     "frgov:id":"BDCSURCO0000000009589692",
     "frgov:insee_arr":"5",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"ILE-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000654,
-    "geom:area_square_m":5326667.511444,
+    "geom:area_square_m":5326667.511443,
     "geom:bbox":"2.58571393178,48.8028567485,2.63021436586,48.8342530259",
     "geom:latitude":48.819371,
     "geom:longitude":2.609329,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683385,
         102191581,
@@ -57,7 +71,10 @@
         102070921
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_77169",
+        "eurostat:nuts_2021_id":"77169"
+    },
     "wof:coterminous":[
         101751225
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d56beb831ec063db310963e60cf88e48",
+    "wof:geomhash":"314257ad5db66af4a0f8a614c14df75f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404365821,
-    "wof:lastmodified":1582324029,
+    "wof:lastmodified":1684352835,
     "wof:name":"Emerainville",
     "wof:parent_id":102070921,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":7720,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

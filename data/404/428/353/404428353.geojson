@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_21313",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gurgy-le-Ch\u00e2teau",
+    "eurostat:nuts_2021_id":"21313",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC11",
+    "eurostat:nuts_2021_level_lau":"21313",
+    "eurostat:population":44,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242101434",
     "frgov:id":"BDCSURCO0000000009596379",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683563,
         102191581,
@@ -58,7 +72,10 @@
         102069537
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_21313",
+        "eurostat:nuts_2021_id":"21313"
+    },
     "wof:coterminous":[
         1126005839
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d9bad581182b1b41808f6685848fd3d9",
+    "wof:geomhash":"ba7dec5bf2b57b1a6642efbd486005a0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404428353,
-    "wof:lastmodified":1582325112,
+    "wof:lastmodified":1684353584,
     "wof:name":"Gurgy-Le-Chateau",
     "wof:parent_id":102069537,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":44,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

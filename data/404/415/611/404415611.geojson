@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_32390",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Martin-d'Armagnac",
+    "eurostat:nuts_2021_id":"32390",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ24",
+    "eurostat:nuts_2021_level_lau":"32390",
+    "eurostat:population":247,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243200409",
     "frgov:id":"BDCSURCO0000000009613026",
     "frgov:insee_arr":"2",
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683467,
         102191581,
@@ -56,7 +70,10 @@
         102068395
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_32390",
+        "eurostat:nuts_2021_id":"32390"
+    },
     "wof:coterminous":[
         1360679239
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d53ec2b6e8426e97b0f8ecfe4c32d30a",
+    "wof:geomhash":"7116a4d52e2b38cc7d77478da83f8500",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404415611,
-    "wof:lastmodified":1582324355,
+    "wof:lastmodified":1684353433,
     "wof:name":"Saint-Martin-D'Armagnac",
     "wof:parent_id":102068395,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":247,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

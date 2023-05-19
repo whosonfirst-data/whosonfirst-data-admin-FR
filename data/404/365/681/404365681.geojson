@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_06005",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ascros",
+    "eurostat:nuts_2021_id":"06005",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL03",
+    "eurostat:nuts_2021_level_lau":"06005",
+    "eurostat:population":169,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200039931",
     "frgov:id":"BDCSURCO0000000009611698",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.001959,
-    "geom:area_square_m":17452049.827169,
+    "geom:area_square_m":17452049.827168,
     "geom:bbox":"6.97267049547,43.8964505592,7.0591480334,43.9377642229",
     "geom:latitude":43.919382,
     "geom:longitude":7.015423,
@@ -144,6 +156,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683323,
         102191581,
@@ -153,7 +167,10 @@
         102067603
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_06005",
+        "eurostat:nuts_2021_id":"06005"
+    },
     "wof:coterminous":[
         1125824829
     ],
@@ -161,7 +178,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a204d30943d93364da4ca43f16ca7ac8",
+    "wof:geomhash":"2143358cbcd9bc69301be916fc7c1c12",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -174,11 +191,13 @@
         }
     ],
     "wof:id":404365681,
-    "wof:lastmodified":1582324027,
+    "wof:lastmodified":1684352833,
     "wof:name":"Ascros",
     "wof:parent_id":102067603,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":169,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

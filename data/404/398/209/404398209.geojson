@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_34277",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Maurice-Navacelles",
+    "eurostat:nuts_2021_id":"34277",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ13",
+    "eurostat:nuts_2021_level_lau":"34277",
+    "eurostat:population":183,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200017341",
     "frgov:id":"BDCSURCO0000000009612462",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.007714,
-    "geom:area_square_m":68797370.984323,
+    "geom:area_square_m":68797370.984324,
     "geom:bbox":"3.42908683246,43.7881439661,3.57843615131,43.8973856209",
     "geom:latitude":43.844755,
     "geom:longitude":3.506,
@@ -123,6 +135,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683419,
         102191581,
@@ -133,7 +147,10 @@
         102065693
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_34277",
+        "eurostat:nuts_2021_id":"34277"
+    },
     "wof:coterminous":[
         1125998357
     ],
@@ -141,7 +158,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8c2ce9c7d01b6c68d6c072dbb033e188",
+    "wof:geomhash":"48d6576455bdf625b6c5a14d8a924718",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -155,11 +172,13 @@
         }
     ],
     "wof:id":404398209,
-    "wof:lastmodified":1582324118,
+    "wof:lastmodified":1684353228,
     "wof:name":"Saint-Maurice-Navacelles",
     "wof:parent_id":102065693,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":183,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

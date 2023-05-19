@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_42227",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Georges-en-Couzan",
+    "eurostat:nuts_2021_id":"42227",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK25",
+    "eurostat:nuts_2021_level_lau":"42227",
+    "eurostat:population":420,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200065886",
     "frgov:id":"BDCSURCO0000000009605537",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683377,
         102191581,
@@ -58,7 +72,10 @@
         102068911
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_42227",
+        "eurostat:nuts_2021_id":"42227"
+    },
     "wof:coterminous":[
         1125811279
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ff461595a3aacd2667efbb282c8b3c68",
+    "wof:geomhash":"e6b8a1a7aec99e1ac3cbfae85e1a8346",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404362669,
-    "wof:lastmodified":1582324051,
+    "wof:lastmodified":1684352791,
     "wof:name":"Saint-Georges-En-Couzan",
     "wof:parent_id":102068911,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":420,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_45297",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-P\u00e8re-sur-Loire",
+    "eurostat:nuts_2021_id":"45297",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB06",
+    "eurostat:nuts_2021_level_lau":"45297",
+    "eurostat:population":1049,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070100",
     "frgov:id":"BDCSURCO0000000009596798",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001286,
-    "geom:area_square_m":10688196.167328,
+    "geom:area_square_m":10688196.167327,
     "geom:bbox":"2.33998583292,47.7673668802,2.41818504557,47.8003110917",
     "geom:latitude":47.780142,
     "geom:longitude":2.372861,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683479,
         102191581,
@@ -55,7 +69,10 @@
         102069993
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_45297",
+        "eurostat:nuts_2021_id":"45297"
+    },
     "wof:coterminous":[
         1360678697
     ],
@@ -63,7 +80,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"412a287d4cd7f8ff059ca9471998c533",
+    "wof:geomhash":"3b23f08d4166fe7af8c200c1dc392040",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -76,11 +93,13 @@
         }
     ],
     "wof:id":404410381,
-    "wof:lastmodified":1582325159,
+    "wof:lastmodified":1684353371,
     "wof:name":"Saint-Pere-Sur-Loire",
     "wof:parent_id":102069993,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1049,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

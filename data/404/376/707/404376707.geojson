@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_47222",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"R\u00e9union",
+    "eurostat:nuts_2021_id":"47222",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI14",
+    "eurostat:nuts_2021_level_lau":"47222",
+    "eurostat:population":488,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244701355",
     "frgov:id":"BDCSURCO0000000009610963",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003178,
-    "geom:area_square_m":28132334.040876,
+    "geom:area_square_m":28132334.040875,
     "geom:bbox":"0.0787555368797,44.247497056,0.153882375348,44.3209676694",
     "geom:latitude":44.282914,
     "geom:longitude":0.118364,
@@ -58,6 +70,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683341,
         102191581,
@@ -68,7 +82,10 @@
         102065597
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_47222",
+        "eurostat:nuts_2021_id":"47222"
+    },
     "wof:coterminous":[
         1360675451
     ],
@@ -76,7 +93,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"986a2c6e56be9404d5252ae418d8c9c5",
+    "wof:geomhash":"fe228c9d0c37736e529eacdc6b9380a8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -90,11 +107,13 @@
         }
     ],
     "wof:id":404376707,
-    "wof:lastmodified":1582324662,
+    "wof:lastmodified":1684352972,
     "wof:name":"La Reunion",
     "wof:parent_id":102065597,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":488,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

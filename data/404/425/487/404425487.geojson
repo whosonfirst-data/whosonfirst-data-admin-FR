@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_70305",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"L\u009cuilley",
+    "eurostat:nuts_2021_id":"70305",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC23",
+    "eurostat:nuts_2021_level_lau":"70305",
+    "eurostat:population":104,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200036549",
     "frgov:id":"BDCSURCO0000000009598267",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000674,
-    "geom:area_square_m":5631184.768857,
+    "geom:area_square_m":5631184.768858,
     "geom:bbox":"5.3670601767,47.4505607131,5.42702441574,47.477244541",
     "geom:latitude":47.465637,
     "geom:longitude":5.399414,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683559,
         102191581,
@@ -58,7 +72,10 @@
         102064569
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_70305",
+        "eurostat:nuts_2021_id":"70305"
+    },
     "wof:coterminous":[
         1125931957
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c45bda17dcb49a015a423a7b9cc21998",
+    "wof:geomhash":"46c4b7271f9b40ffa32269d25072fc91",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404425487,
-    "wof:lastmodified":1582324309,
+    "wof:lastmodified":1684353551,
     "wof:name":"Loeuilley",
     "wof:parent_id":102064569,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":104,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

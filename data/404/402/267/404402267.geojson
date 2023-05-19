@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_42206",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Bonnet-les-Oules",
+    "eurostat:nuts_2021_id":"42206",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK25",
+    "eurostat:nuts_2021_level_lau":"42206",
+    "eurostat:population":1638,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244200770",
     "frgov:id":"BDCSURCO0000000009606318",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683377,
         102191581,
@@ -58,7 +72,10 @@
         102068539
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_42206",
+        "eurostat:nuts_2021_id":"42206"
+    },
     "wof:coterminous":[
         101769521
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a30a27303611e8b92db45617c577e5f8",
+    "wof:geomhash":"2733f4ab90f6a09c9626d08e2aad6763",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404402267,
-    "wof:lastmodified":1582325274,
+    "wof:lastmodified":1684353275,
     "wof:name":"Saint-Bonnet-Les-Oules",
     "wof:parent_id":102068539,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1638,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

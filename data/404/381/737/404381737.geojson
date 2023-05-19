@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_10067",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Buch\u00e8res",
+    "eurostat:nuts_2021_id":"10067",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF22",
+    "eurostat:nuts_2021_level_lau":"10067",
+    "eurostat:population":1688,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069250",
     "frgov:id":"BDCSURCO0000000009594062",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.000873,
-    "geom:area_square_m":7191666.834768,
+    "geom:area_square_m":7191666.834769,
     "geom:bbox":"4.08614465058,48.2204737695,4.1416187507,48.2522815361",
     "geom:latitude":48.236824,
     "geom:longitude":4.114174,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683193,
         102191581,
@@ -58,7 +72,10 @@
         102065151
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_10067",
+        "eurostat:nuts_2021_id":"10067"
+    },
     "wof:coterminous":[
         101753375
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ce4bf5de83cffe66cafd91898a358924",
+    "wof:geomhash":"ad430323995de641fee0dbded1b4fe8b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404381737,
-    "wof:lastmodified":1582325427,
+    "wof:lastmodified":1684353030,
     "wof:name":"Bucheres",
     "wof:parent_id":102065151,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1688,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

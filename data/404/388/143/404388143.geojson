@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_77339",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Noisy-sur-\u00c9cole",
+    "eurostat:nuts_2021_id":"77339",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR102",
+    "eurostat:nuts_2021_level_lau":"77339",
+    "eurostat:population":1832,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072346",
     "frgov:id":"BDCSURCO0000000009593301",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"ILE-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003629,
-    "geom:area_square_m":29808697.007799,
+    "geom:area_square_m":29808697.0078,
     "geom:bbox":"2.44760947375,48.3417739794,2.5749326287,48.4049343515",
     "geom:latitude":48.377418,
     "geom:longitude":2.508547,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683385,
         102191581,
@@ -57,7 +71,10 @@
         102064811
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_77339",
+        "eurostat:nuts_2021_id":"77339"
+    },
     "wof:coterminous":[
         101763903
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ad1292c5e5e55ab76bcb7310060efba3",
+    "wof:geomhash":"15fa59e0fc00172d5f210bc016cdee6f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404388143,
-    "wof:lastmodified":1582325482,
+    "wof:lastmodified":1684353106,
     "wof:name":"Noisy-Sur-Ecole",
     "wof:parent_id":102064811,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1832,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

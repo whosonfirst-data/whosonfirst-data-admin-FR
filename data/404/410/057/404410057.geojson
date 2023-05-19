@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_79102",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Coulonges-Thouarsais",
+    "eurostat:nuts_2021_id":"79102",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI33",
+    "eurostat:nuts_2021_level_lau":"79102",
+    "eurostat:population":432,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247900798",
     "frgov:id":"BDCSURCO0000000009600826",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002027,
-    "geom:area_square_m":17117506.737483,
+    "geom:area_square_m":17117506.737482,
     "geom:bbox":"-0.372079754642,46.8908313549,-0.288303642074,46.9532493583",
     "geom:latitude":46.923205,
     "geom:longitude":-0.332958,
@@ -123,6 +135,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683163,
         102191581,
@@ -133,7 +147,10 @@
         102069303
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_79102",
+        "eurostat:nuts_2021_id":"79102"
+    },
     "wof:coterminous":[
         101888627
     ],
@@ -141,7 +158,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"05e847c384027b0f2aa26c6cb562079e",
+    "wof:geomhash":"24eebfde90127283564ba83e931e6465",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -155,11 +172,13 @@
         }
     ],
     "wof:id":404410057,
-    "wof:lastmodified":1582325156,
+    "wof:lastmodified":1684353367,
     "wof:name":"Coulonges-Thouarsais",
     "wof:parent_id":102069303,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":432,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

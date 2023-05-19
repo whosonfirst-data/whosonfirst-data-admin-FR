@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_76621",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Martin-Osmonville",
+    "eurostat:nuts_2021_id":"76621",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD22",
+    "eurostat:nuts_2021_level_lau":"76621",
+    "eurostat:population":1171,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070068",
     "frgov:id":"BDCSURCO0000000009583966",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002654,
-    "geom:area_square_m":21254637.551889,
+    "geom:area_square_m":21254637.551888,
     "geom:bbox":"1.26142102642,49.6168410163,1.34630286462,49.6690178877",
     "geom:latitude":49.64211,
     "geom:longitude":1.300437,
@@ -120,6 +132,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683251,
         102191581,
@@ -130,7 +144,10 @@
         102071517
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_76621",
+        "eurostat:nuts_2021_id":"76621"
+    },
     "wof:coterminous":[
         101901919
     ],
@@ -138,7 +155,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"77c2339c2d383a5a5099848a47d64889",
+    "wof:geomhash":"b657766d72045f23741e48208a24c766",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -152,11 +169,13 @@
         }
     ],
     "wof:id":404363647,
-    "wof:lastmodified":1582324230,
+    "wof:lastmodified":1684352804,
     "wof:name":"Saint-Martin-Osmonville",
     "wof:parent_id":102071517,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1171,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

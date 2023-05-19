@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_12208",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Affrique",
+    "eurostat:nuts_2021_id":"12208",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ22",
+    "eurostat:nuts_2021_level_lau":"12208",
+    "eurostat:population":8089,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067155",
     "frgov:id":"BDCSURCO0000000009612241",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.012431,
-    "geom:area_square_m":110634500.083875,
+    "geom:area_square_m":110634500.083872,
     "geom:bbox":"2.75511953203,43.9043263823,2.95164600698,44.0096550398",
     "geom:latitude":43.965643,
     "geom:longitude":2.866707,
@@ -132,6 +144,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683301,
         102191581,
@@ -142,7 +156,10 @@
         102069607
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_12208",
+        "eurostat:nuts_2021_id":"12208"
+    },
     "wof:coterminous":[
         101772925
     ],
@@ -150,7 +167,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"01667204b550cf53c26a4918d8a56687",
+    "wof:geomhash":"004337c309dc1fa7738035e1f4332794",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -164,11 +181,13 @@
         }
     ],
     "wof:id":404366335,
-    "wof:lastmodified":1582324833,
+    "wof:lastmodified":1684352842,
     "wof:name":"Saint-Affrique",
     "wof:parent_id":102069607,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":8089,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

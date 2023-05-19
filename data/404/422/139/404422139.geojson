@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_27369",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lilly",
+    "eurostat:nuts_2021_id":"27369",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD21",
+    "eurostat:nuts_2021_level_lau":"27369",
+    "eurostat:population":84,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070142",
     "frgov:id":"BDCSURCO0000000009585023",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00075,
-    "geom:area_square_m":6034720.918694,
+    "geom:area_square_m":6034720.918695,
     "geom:bbox":"1.54396361289,49.3919383415,1.59275063755,49.4147518198",
     "geom:latitude":49.40293,
     "geom:longitude":1.566321,
@@ -93,6 +105,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683283,
         102191581,
@@ -103,7 +117,10 @@
         102068341
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_27369",
+        "eurostat:nuts_2021_id":"27369"
+    },
     "wof:coterminous":[
         1125779097
     ],
@@ -111,7 +128,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"546a88644a589c287d325c50b320b424",
+    "wof:geomhash":"4bcc61cfb457a43ac39cbe96e0d1ff03",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -125,11 +142,13 @@
         }
     ],
     "wof:id":404422139,
-    "wof:lastmodified":1582324290,
+    "wof:lastmodified":1684353511,
     "wof:name":"Lilly",
     "wof:parent_id":102068341,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":84,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

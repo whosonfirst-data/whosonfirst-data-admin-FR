@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_81164",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"M\u00e9zens",
+    "eurostat:nuts_2021_id":"81164",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ27",
+    "eurostat:nuts_2021_level_lau":"81164",
+    "eurostat:population":490,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066124",
     "frgov:id":"BDCSURCO0000000009612731",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683603,
         102191581,
@@ -58,7 +72,10 @@
         102068931
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_81164",
+        "eurostat:nuts_2021_id":"81164"
+    },
     "wof:coterminous":[
         1126022411
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c6435c255b8d9251d545fce79cd51ff2",
+    "wof:geomhash":"263d3ac4d33befc113bf1edcd880336f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404422485,
-    "wof:lastmodified":1582324282,
+    "wof:lastmodified":1684353515,
     "wof:name":"Mezens",
     "wof:parent_id":102068931,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":490,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

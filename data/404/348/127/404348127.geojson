@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_40283",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Vincent-de-Paul",
+    "eurostat:nuts_2021_id":"40283",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI13",
+    "eurostat:nuts_2021_level_lau":"40283",
+    "eurostat:population":3126,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244000675",
     "frgov:id":"BDCSURCO0000000009612837",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003649,
-    "geom:area_square_m":32581751.379419,
+    "geom:area_square_m":32581751.37942,
     "geom:bbox":"-1.02978046047,43.7223336007,-0.962952425959,43.822555287",
     "geom:latitude":43.766491,
     "geom:longitude":-1.001822,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683183,
         102191581,
@@ -58,7 +72,10 @@
         102064841
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_40283",
+        "eurostat:nuts_2021_id":"40283"
+    },
     "wof:coterminous":[
         1125917249
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"aaaf4fdfbdfa80dc120aa58d3a6ae3cc",
+    "wof:geomhash":"b90a10c119a4c3bf3da553995d9ebf06",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404348127,
-    "wof:lastmodified":1582324583,
+    "wof:lastmodified":1684352590,
     "wof:name":"Saint-Vincent-De-Paul",
     "wof:parent_id":102064841,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3126,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

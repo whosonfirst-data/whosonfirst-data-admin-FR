@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_93049",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Neuilly-Plaisance",
+    "eurostat:nuts_2021_id":"93049",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR106",
+    "eurostat:nuts_2021_level_lau":"93049",
+    "eurostat:population":21150,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200054781",
     "frgov:id":"BDCSURCO0000000009589697",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"ILE-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000419,
-    "geom:area_square_m":3407527.633358,
+    "geom:area_square_m":3407527.633357,
     "geom:bbox":"2.494958,48.850168,2.524471,48.877913",
     "geom:latitude":48.864385,
     "geom:longitude":2.510004,
@@ -120,23 +132,29 @@
     "reversegeo:longitude":2.508988,
     "src:geom":"frgov",
     "src:geom_alt":[],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85683475,
         102191581,
         85633147,
-        102067671,
         404227999,
         404227465,
-        85683475
+        102067671
     ],
     "wof:breaches":[],
     "wof:concordance":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_93049",
+        "eurostat:nuts_2021_id":"93049"
+    },
     "wof:coterminous":[
         101749847,
         102067671
     ],
     "wof:country":"FR",
     "wof:created":1526510359,
-    "wof:geomhash":"52e4f9a21b043b55499d9f8bae5f7712",
+    "wof:geomhash":"aa728e04823670c6eb0dfc8854744a46",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -149,11 +167,13 @@
         }
     ],
     "wof:id":1159322269,
-    "wof:lastmodified":1608039566,
+    "wof:lastmodified":1684353599,
     "wof:name":"Neuilly-Plaisance",
     "wof:parent_id":102067671,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":21150,
+    "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded":[],
     "wof:superseded_by":[],

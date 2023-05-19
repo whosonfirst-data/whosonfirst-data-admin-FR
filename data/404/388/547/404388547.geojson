@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_80790",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Verpilli\u00e8res",
+    "eurostat:nuts_2021_id":"80790",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE23",
+    "eurostat:nuts_2021_level_lau":"80790",
+    "eurostat:population":165,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070977",
     "frgov:id":"BDCSURCO0000000009583567",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000616,
-    "geom:area_square_m":4926624.904215,
+    "geom:area_square_m":4926624.904216,
     "geom:bbox":"2.79464454119,49.6585265101,2.85025900213,49.6776565849",
     "geom:latitude":49.666728,
     "geom:longitude":2.823507,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683363,
         102191581,
@@ -56,7 +70,10 @@
         102070903
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_80790",
+        "eurostat:nuts_2021_id":"80790"
+    },
     "wof:coterminous":[
         1360676571
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0f324e946b988768399719a78d82ee81",
+    "wof:geomhash":"5ee540b8f565a20e0c2a66fcab090a3c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404388547,
-    "wof:lastmodified":1582325490,
+    "wof:lastmodified":1684353111,
     "wof:name":"Verpillieres",
     "wof:parent_id":102070903,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":165,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

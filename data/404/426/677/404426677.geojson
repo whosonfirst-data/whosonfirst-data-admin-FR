@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_55267",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lachauss\u00e9e",
+    "eurostat:nuts_2021_id":"55267",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF32",
+    "eurostat:nuts_2021_level_lau":"55267",
+    "eurostat:population":271,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200034874",
     "frgov:id":"BDCSURCO0000000009587544",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.003794,
-    "geom:area_square_m":30760134.862058,
+    "geom:area_square_m":30760134.862057,
     "geom:bbox":"5.74246987729,48.9982717526,5.85417290109,49.0660632539",
     "geom:latitude":49.032707,
     "geom:longitude":5.799591,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683297,
         102191581,
@@ -58,7 +72,10 @@
         102069355
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_55267",
+        "eurostat:nuts_2021_id":"55267"
+    },
     "wof:coterminous":[
         101880463
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"448b784c707b7bb19d57e05fc2f35863",
+    "wof:geomhash":"ba0fe66f876bb132518ab0ae61d80d1d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404426677,
-    "wof:lastmodified":1582325090,
+    "wof:lastmodified":1684353565,
     "wof:name":"Lachaussee",
     "wof:parent_id":102069355,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":271,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

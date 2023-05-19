@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_50181",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Feug\u00e8res",
+    "eurostat:nuts_2021_id":"50181",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD12",
+    "eurostat:nuts_2021_level_lau":"50181",
+    "eurostat:population":333,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067031",
     "frgov:id":"BDCSURCO0000000009586918",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001017,
-    "geom:area_square_m":8228013.848355,
+    "geom:area_square_m":8228013.848356,
     "geom:bbox":"-1.34417117997,49.1252385574,-1.28647672025,49.1671865629",
     "geom:latitude":49.148593,
     "geom:longitude":-1.317162,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683489,
         102191581,
@@ -58,7 +72,10 @@
         102069393
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_50181",
+        "eurostat:nuts_2021_id":"50181"
+    },
     "wof:coterminous":[
         1125832637
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7ecc57a63a88574f5c7473c0bc0d574b",
+    "wof:geomhash":"2c85e69e59381f273bb35e49379ba985",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404359305,
-    "wof:lastmodified":1582324797,
+    "wof:lastmodified":1684352744,
     "wof:name":"Feugeres",
     "wof:parent_id":102069393,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":333,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

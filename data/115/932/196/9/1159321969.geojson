@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_92078",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Villeneuve-la-Garenne",
+    "eurostat:nuts_2021_id":"92078",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR105",
+    "eurostat:nuts_2021_level_lau":"92078",
+    "eurostat:population":23771,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200054781",
     "frgov:id":"BDCSURCO0000000009588699",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"ILE-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000393,
-    "geom:area_square_m":3189333.53801,
+    "geom:area_square_m":3189333.538009,
     "geom:bbox":"2.309207,48.922756,2.336968,48.947949",
     "geom:latitude":48.936834,
     "geom:longitude":2.324807,
@@ -153,23 +165,29 @@
     "reversegeo:longitude":2.328487,
     "src:geom":"frgov",
     "src:geom_alt":[],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85683157,
         102191581,
         85633147,
-        102071067,
         404227997,
         404227465,
-        85683157
+        102071067
     ],
     "wof:breaches":[],
     "wof:concordance":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_92078",
+        "eurostat:nuts_2021_id":"92078"
+    },
     "wof:coterminous":[
         101751143,
         102071067
     ],
     "wof:country":"FR",
     "wof:created":1526509461,
-    "wof:geomhash":"2906489db3c5b9c6fb3851e3414dbeab",
+    "wof:geomhash":"b07f7dd7059843f8dcf83689dfe12722",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -182,11 +200,13 @@
         }
     ],
     "wof:id":1159321969,
-    "wof:lastmodified":1608039578,
+    "wof:lastmodified":1684353595,
     "wof:name":"Villeneuve-la-Garenne",
     "wof:parent_id":102071067,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":23771,
+    "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded":[],
     "wof:superseded_by":[],

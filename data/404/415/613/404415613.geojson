@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_63288",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Prompsat",
+    "eurostat:nuts_2021_id":"63288",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK14",
+    "eurostat:nuts_2021_level_lau":"63288",
+    "eurostat:population":429,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072098",
     "frgov:id":"BDCSURCO0000000009604524",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.000492,
-    "geom:area_square_m":4227778.345246,
+    "geom:area_square_m":4227778.345245,
     "geom:bbox":"3.04383415736,45.9364523284,3.09289823748,45.9554983905",
     "geom:latitude":45.945153,
     "geom:longitude":3.07232,
@@ -120,6 +132,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683471,
         102191581,
@@ -130,7 +144,10 @@
         102066965
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_63288",
+        "eurostat:nuts_2021_id":"63288"
+    },
     "wof:coterminous":[
         101892077
     ],
@@ -138,7 +155,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"46fadaa93c94e2f0dde59605e493ab73",
+    "wof:geomhash":"9917778f61f1923b4e71e1847427d973",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -152,11 +169,13 @@
         }
     ],
     "wof:id":404415613,
-    "wof:lastmodified":1582324361,
+    "wof:lastmodified":1684353433,
     "wof:name":"Prompsat",
     "wof:parent_id":102066965,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":429,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

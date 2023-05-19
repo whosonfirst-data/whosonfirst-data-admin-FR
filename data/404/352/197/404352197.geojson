@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_84119",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Saturnin-l\u00e8s-Avignon",
+    "eurostat:nuts_2021_id":"84119",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL06",
+    "eurostat:nuts_2021_level_lau":"84119",
+    "eurostat:population":4846,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248400251",
     "frgov:id":"BDCSURCO0000000009611739",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.000697,
-    "geom:area_square_m":6200913.82274,
+    "geom:area_square_m":6200913.822741,
     "geom:bbox":"4.9130434834,43.9501281431,4.97622136403,43.9746206257",
     "geom:latitude":43.962628,
     "geom:longitude":4.940741,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683201,
         102191581,
@@ -57,7 +71,10 @@
         102066701
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_84119",
+        "eurostat:nuts_2021_id":"84119"
+    },
     "wof:coterminous":[
         101831795
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"178e6b6929e8e0eb811bbd703ff52f33",
+    "wof:geomhash":"8534c734bd9ac3dcc2a8715da501b383",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404352197,
-    "wof:lastmodified":1582324171,
+    "wof:lastmodified":1684352647,
     "wof:name":"Saint-Saturnin-Les-Avignon",
     "wof:parent_id":102066701,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":4846,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

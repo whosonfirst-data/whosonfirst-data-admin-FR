@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_62079",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bancourt",
+    "eurostat:nuts_2021_id":"62079",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE1",
+    "eurostat:nuts_2021_level_3":"FRE12",
+    "eurostat:nuts_2021_level_lau":"62079",
+    "eurostat:population":87,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200035442",
     "frgov:id":"BDCSURCO0000000009581949",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000573,
-    "geom:area_square_m":4546157.177603,
+    "geom:area_square_m":4546157.177602,
     "geom:bbox":"2.86717814178,50.0908028504,2.91952306113,50.1159991764",
     "geom:latitude":50.10115,
     "geom:longitude":2.889873,
@@ -144,6 +156,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683255,
         102191581,
@@ -154,7 +168,10 @@
         102065849
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_62079",
+        "eurostat:nuts_2021_id":"62079"
+    },
     "wof:coterminous":[
         1125891989
     ],
@@ -162,7 +179,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"80f9c82aeeff9c83ef9766cb2791590b",
+    "wof:geomhash":"ded3217c10ce79de7d830b2fd1e9a237",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -176,11 +193,13 @@
         }
     ],
     "wof:id":404385141,
-    "wof:lastmodified":1582324642,
+    "wof:lastmodified":1684353072,
     "wof:name":"Bancourt",
     "wof:parent_id":102065849,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":87,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

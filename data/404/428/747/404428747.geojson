@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_11358",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Martin-Lys",
+    "eurostat:nuts_2021_id":"11358",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ11",
+    "eurostat:nuts_2021_level_lau":"11358",
+    "eurostat:population":25,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200043776",
     "frgov:id":"BDCSURCO0000000009616189",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001126,
-    "geom:area_square_m":10213302.986486,
+    "geom:area_square_m":10213302.986485,
     "geom:bbox":"2.20401846402,42.8105251356,2.2687995216,42.8381932343",
     "geom:latitude":42.824725,
     "geom:longitude":2.238299,
@@ -121,6 +133,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683485,
         102191581,
@@ -131,7 +145,10 @@
         102069121
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_11358",
+        "eurostat:nuts_2021_id":"11358"
+    },
     "wof:coterminous":[
         1360680465
     ],
@@ -139,7 +156,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"12a96e6b3c8bc1615e5a58603e14ec81",
+    "wof:geomhash":"0141854dac24cf249229a5054fc07bd1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -153,11 +170,13 @@
         }
     ],
     "wof:id":404428747,
-    "wof:lastmodified":1582325117,
+    "wof:lastmodified":1684353588,
     "wof:name":"Saint-Martin-Lys",
     "wof:parent_id":102069121,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":25,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

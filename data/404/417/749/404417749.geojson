@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_53118",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Housseau-Br\u00e9tignolles",
+    "eurostat:nuts_2021_id":"53118",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG03",
+    "eurostat:nuts_2021_level_lau":"53118",
+    "eurostat:population":247,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200055887",
     "frgov:id":"BDCSURCO0000000009592585",
     "frgov:insee_arr":"3",
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683401,
         102191581,
@@ -55,7 +69,10 @@
         102067313
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_53118",
+        "eurostat:nuts_2021_id":"53118"
+    },
     "wof:coterminous":[
         1360679415
     ],
@@ -63,7 +80,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"89309cf6b0726663ab26f8191b2a9057",
+    "wof:geomhash":"32111c5789194940cd7c2530bba7b5bf",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -76,11 +93,13 @@
         }
     ],
     "wof:id":404417749,
-    "wof:lastmodified":1582325133,
+    "wof:lastmodified":1684353457,
     "wof:name":"Le Housseau-Bretignolles",
     "wof:parent_id":102067313,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":247,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_71223",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Grande-Verri\u00e8re",
+    "eurostat:nuts_2021_id":"71223",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC13",
+    "eurostat:nuts_2021_level_lau":"71223",
+    "eurostat:population":563,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070530",
     "frgov:id":"BDCSURCO0000000009600736",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.005507,
-    "geom:area_square_m":46464535.012154,
+    "geom:area_square_m":46464535.012153,
     "geom:bbox":"4.08901341729,46.9311456692,4.19568999816,47.0087465826",
     "geom:latitude":46.968896,
     "geom:longitude":4.14096,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683543,
         102191581,
@@ -58,7 +72,10 @@
         102071315
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_71223",
+        "eurostat:nuts_2021_id":"71223"
+    },
     "wof:coterminous":[
         1125993639
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4c1d74c40842c76ed92cc9ccc090b5cf",
+    "wof:geomhash":"4f1aa9c86eccbd3e2d909ed2da1ec62e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404413537,
-    "wof:lastmodified":1582324324,
+    "wof:lastmodified":1684353409,
     "wof:name":"La Grande-Verriere",
     "wof:parent_id":102071315,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":563,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

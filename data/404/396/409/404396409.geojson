@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_37230",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Ouen-les-Vignes",
+    "eurostat:nuts_2021_id":"37230",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB04",
+    "eurostat:nuts_2021_level_lau":"37230",
+    "eurostat:population":1016,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200043065",
     "frgov:id":"BDCSURCO0000000009598388",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683575,
         102191581,
@@ -57,7 +71,10 @@
         102064327
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_37230",
+        "eurostat:nuts_2021_id":"37230"
+    },
     "wof:coterminous":[
         101886521
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"11a3d6afc934167d3945a215a5ebf1d9",
+    "wof:geomhash":"2ad494c6644419f6de86d4d14f9184d7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404396409,
-    "wof:lastmodified":1582324070,
+    "wof:lastmodified":1684353207,
     "wof:name":"Saint-Ouen-Les-Vignes",
     "wof:parent_id":102064327,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1016,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

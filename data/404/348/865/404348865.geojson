@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_79273",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Martin-de-Bernegoue",
+    "eurostat:nuts_2021_id":"79273",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI33",
+    "eurostat:nuts_2021_level_lau":"79273",
+    "eurostat:population":782,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041317",
     "frgov:id":"BDCSURCO0000000009603374",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002067,
-    "geom:area_square_m":17682928.09939,
+    "geom:area_square_m":17682928.099391,
     "geom:bbox":"-0.394619164638,46.2119947427,-0.308614081504,46.2650536798",
     "geom:latitude":46.236373,
     "geom:longitude":-0.356929,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683163,
         102191581,
@@ -58,7 +72,10 @@
         102068611
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_79273",
+        "eurostat:nuts_2021_id":"79273"
+    },
     "wof:coterminous":[
         101891591
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"70e8370b3b3416a01800c2c072606dfb",
+    "wof:geomhash":"38203614e34162beaee494f7ee905385",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404348865,
-    "wof:lastmodified":1582324590,
+    "wof:lastmodified":1684352600,
     "wof:name":"Saint-Martin-De-Bernegoue",
     "wof:parent_id":102068611,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":782,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

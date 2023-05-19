@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_03068",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ch\u00e2telus",
+    "eurostat:nuts_2021_id":"03068",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK11",
+    "eurostat:nuts_2021_level_lau":"03068",
+    "eurostat:population":108,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071363",
     "frgov:id":"BDCSURCO0000000009603517",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.000763,
-    "geom:area_square_m":6530242.540035,
+    "geom:area_square_m":6530242.540034,
     "geom:bbox":"3.70228296557,46.1823363343,3.74183797388,46.2231586678",
     "geom:latitude":46.197871,
     "geom:longitude":3.725332,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683293,
         102191581,
@@ -56,7 +70,10 @@
         102067097
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_03068",
+        "eurostat:nuts_2021_id":"03068"
+    },
     "wof:coterminous":[
         1360678729
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e8d0f616bef5a8954d2bfc2914b1b6b7",
+    "wof:geomhash":"ca1b125a1d1af725795220f5ffaeec63",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404410595,
-    "wof:lastmodified":1582325144,
+    "wof:lastmodified":1684353373,
     "wof:name":"Chatelus",
     "wof:parent_id":102067097,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":108,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

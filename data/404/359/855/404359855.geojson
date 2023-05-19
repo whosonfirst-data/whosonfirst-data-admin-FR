@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_86079",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Roche-Rigault",
+    "eurostat:nuts_2021_id":"86079",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI34",
+    "eurostat:nuts_2021_level_lau":"86079",
+    "eurostat:population":556,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248600447",
     "frgov:id":"BDCSURCO0000000009600813",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003032,
-    "geom:area_square_m":25583538.735502,
+    "geom:area_square_m":25583538.735503,
     "geom:bbox":"0.129395387964,46.9291170213,0.212221363722,47.0056315507",
     "geom:latitude":46.970121,
     "geom:longitude":0.171121,
@@ -118,6 +130,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683185,
         102191581,
@@ -128,7 +142,10 @@
         102066461
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_86079",
+        "eurostat:nuts_2021_id":"86079"
+    },
     "wof:coterminous":[
         1360673733
     ],
@@ -136,7 +153,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c39ee81b593b6d2e780c5b20d208b558",
+    "wof:geomhash":"71186146d7054af2a9b2dfcc09bb8d57",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -150,11 +167,13 @@
         }
     ],
     "wof:id":404359855,
-    "wof:lastmodified":1582324802,
+    "wof:lastmodified":1684352752,
     "wof:name":"La Roche-Rigault",
     "wof:parent_id":102066461,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":556,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

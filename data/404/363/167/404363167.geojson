@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_34066",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Cazevieille",
+    "eurostat:nuts_2021_id":"34066",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ13",
+    "eurostat:nuts_2021_level_lau":"34066",
+    "eurostat:population":185,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200022986",
     "frgov:id":"BDCSURCO0000000009612679",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001809,
-    "geom:area_square_m":16155590.631945,
+    "geom:area_square_m":16155590.631944,
     "geom:bbox":"3.74850052924,43.7439963007,3.82523786691,43.7886138627",
     "geom:latitude":43.764262,
     "geom:longitude":3.794657,
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683419,
         102191581,
@@ -136,7 +150,10 @@
         102067699
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_34066",
+        "eurostat:nuts_2021_id":"34066"
+    },
     "wof:coterminous":[
         1126028455
     ],
@@ -144,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"fa5e8037c962d0550b48783128f9d200",
+    "wof:geomhash":"eccc9e3bc698566c33ff6d461dd51c9a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +175,13 @@
         }
     ],
     "wof:id":404363167,
-    "wof:lastmodified":1582324219,
+    "wof:lastmodified":1684352798,
     "wof:name":"Cazevieille",
     "wof:parent_id":102067699,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":185,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

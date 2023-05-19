@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_88415",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-\u00c9tienne-l\u00e8s-Remiremont",
+    "eurostat:nuts_2021_id":"88415",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF34",
+    "eurostat:nuts_2021_level_lau":"88415",
+    "eurostat:population":3840,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068377",
     "frgov:id":"BDCSURCO0000000009595011",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.004081,
-    "geom:area_square_m":33737569.457281,
+    "geom:area_square_m":33737569.457282,
     "geom:bbox":"6.58152404179,47.9671561785,6.68143644109,48.093822883",
     "geom:latitude":48.045906,
     "geom:longitude":6.625416,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683223,
         102191581,
@@ -58,7 +72,10 @@
         102068567
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_88415",
+        "eurostat:nuts_2021_id":"88415"
+    },
     "wof:coterminous":[
         101829633
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4095558bcee256e55e90b3a1c47150ac",
+    "wof:geomhash":"fbef85633a76418a377c61e06de9e5f9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404359951,
-    "wof:lastmodified":1582324797,
+    "wof:lastmodified":1684352753,
     "wof:name":"Saint-Etienne-Les-Remiremont",
     "wof:parent_id":102068567,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3840,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

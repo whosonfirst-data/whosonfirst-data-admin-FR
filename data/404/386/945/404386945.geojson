@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_33471",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Sauveur",
+    "eurostat:nuts_2021_id":"33471",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI12",
+    "eurostat:nuts_2021_level_lau":"33471",
+    "eurostat:population":1312,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069995",
     "frgov:id":"BDCSURCO0000000009607613",
     "frgov:insee_arr":"4",
@@ -96,6 +108,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683243,
         102191581,
@@ -106,7 +120,10 @@
         102070337
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_33471",
+        "eurostat:nuts_2021_id":"33471"
+    },
     "wof:coterminous":[
         101769369
     ],
@@ -114,7 +131,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"bd672d9437f3b7c0a3f31fb3092da8d4",
+    "wof:geomhash":"9912f056cfb91e47f9b456fd0ca837cd",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -128,11 +145,13 @@
         }
     ],
     "wof:id":404386945,
-    "wof:lastmodified":1582325457,
+    "wof:lastmodified":1684353092,
     "wof:name":"Saint-Sauveur",
     "wof:parent_id":102070337,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1312,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

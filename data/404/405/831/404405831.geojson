@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_04161",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"M\u00e9olans-Revel",
+    "eurostat:nuts_2021_id":"04161",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL01",
+    "eurostat:nuts_2021_level_lau":"04161",
+    "eurostat:population":339,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072304",
     "frgov:id":"BDCSURCO0000000009610633",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.01444,
-    "geom:area_square_m":127635258.839232,
+    "geom:area_square_m":127635258.839225,
     "geom:bbox":"6.41226105978,44.283602197,6.58562152178,44.454023132",
     "geom:latitude":44.371253,
     "geom:longitude":6.498107,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683509,
         102191581,
@@ -57,7 +71,10 @@
         102066405
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_04161",
+        "eurostat:nuts_2021_id":"04161"
+    },
     "wof:coterminous":[
         1125889755
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"daea224430b1549f175508af1a1903e9",
+    "wof:geomhash":"5a50495514d0d3c89fa939c6524b71e7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404405831,
-    "wof:lastmodified":1582325264,
+    "wof:lastmodified":1684353317,
     "wof:name":"Meolans-Revel",
     "wof:parent_id":102066405,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":339,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

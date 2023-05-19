@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_10321",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rivi\u00e8re-de-Corps",
+    "eurostat:nuts_2021_id":"10321",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF22",
+    "eurostat:nuts_2021_level_lau":"10321",
+    "eurostat:population":3396,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069250",
     "frgov:id":"BDCSURCO0000000009593667",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683193,
         102191581,
@@ -58,7 +72,10 @@
         102069535
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_10321",
+        "eurostat:nuts_2021_id":"10321"
+    },
     "wof:coterminous":[
         101749605
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5bfc9283c8ec467bfcf8795328cd6096",
+    "wof:geomhash":"5032ec0065f75684bff93c063577f5e7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404425385,
-    "wof:lastmodified":1582324304,
+    "wof:lastmodified":1684353550,
     "wof:name":"La Riviere-De-Corps",
     "wof:parent_id":102069535,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3396,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_10350",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Mards-en-Othe",
+    "eurostat:nuts_2021_id":"10350",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF22",
+    "eurostat:nuts_2021_level_lau":"10350",
+    "eurostat:population":640,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"241000447",
     "frgov:id":"BDCSURCO0000000009594785",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.003804,
-    "geom:area_square_m":31375997.904046,
+    "geom:area_square_m":31375997.904048,
     "geom:bbox":"3.73900154363,48.1253110433,3.84487400218,48.1962605682",
     "geom:latitude":48.163349,
     "geom:longitude":3.789817,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683193,
         102191581,
@@ -58,7 +72,10 @@
         102064371
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_10350",
+        "eurostat:nuts_2021_id":"10350"
+    },
     "wof:coterminous":[
         101884483
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7ca24f09d20780d42ba2975095dd44af",
+    "wof:geomhash":"77bd44cb8a9b6200fef03fd58d6b8806",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404350349,
-    "wof:lastmodified":1582324852,
+    "wof:lastmodified":1684352621,
     "wof:name":"Saint-Mards-En-Othe",
     "wof:parent_id":102064371,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":640,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

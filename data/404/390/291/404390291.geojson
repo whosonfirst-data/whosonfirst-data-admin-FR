@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_85252",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Maurice-le-Girard",
+    "eurostat:nuts_2021_id":"85252",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG05",
+    "eurostat:nuts_2021_level_lau":"85252",
+    "eurostat:population":588,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248500415",
     "frgov:id":"BDCSURCO0000000009601883",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001349,
-    "geom:area_square_m":11449579.672814,
+    "geom:area_square_m":11449579.672816,
     "geom:bbox":"-0.857869172416,46.6222819861,-0.76904326953,46.6570421082",
     "geom:latitude":46.640051,
     "geom:longitude":-0.811077,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683409,
         102191581,
@@ -57,7 +71,10 @@
         102065065
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_85252",
+        "eurostat:nuts_2021_id":"85252"
+    },
     "wof:coterminous":[
         101890425
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f8de363479db41e07407d4a6b8b0640a",
+    "wof:geomhash":"0adf6ca85dc1d1f6461dd92e0c51e416",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404390291,
-    "wof:lastmodified":1582324274,
+    "wof:lastmodified":1684353133,
     "wof:name":"Saint-Maurice-Le-Girard",
     "wof:parent_id":102065065,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":588,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

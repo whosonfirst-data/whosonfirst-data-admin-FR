@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_35304",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Ouen-des-Alleux",
+    "eurostat:nuts_2021_id":"35304",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH03",
+    "eurostat:nuts_2021_level_lau":"35304",
+    "eurostat:population":1296,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072452",
     "frgov:id":"BDCSURCO0000000009593432",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BRETAGNE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001869,
-    "geom:area_square_m":15369113.009189,
+    "geom:area_square_m":15369113.009188,
     "geom:bbox":"-1.48294922282,48.3099169956,-1.38657307273,48.3474299267",
     "geom:latitude":48.326869,
     "geom:longitude":-1.427709,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683461,
         102191581,
@@ -57,7 +71,10 @@
         102070507
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_35304",
+        "eurostat:nuts_2021_id":"35304"
+    },
     "wof:coterminous":[
         101880923
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"36e696cb5389e4f1d10b956dbcbea08a",
+    "wof:geomhash":"ba0741bcc710791c7f5dcd5855b65f58",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404365447,
-    "wof:lastmodified":1582324027,
+    "wof:lastmodified":1684352830,
     "wof:name":"Saint-Ouen-Des-Alleux",
     "wof:parent_id":102070507,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1296,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

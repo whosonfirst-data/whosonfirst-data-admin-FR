@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_13014",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Berre-l'\u00c9tang",
+    "eurostat:nuts_2021_id":"13014",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL04",
+    "eurostat:nuts_2021_level_lau":"13014",
+    "eurostat:population":13472,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200054807",
     "frgov:id":"BDCSURCO0000000009613845",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.004889,
-    "geom:area_square_m":43852679.406701,
+    "geom:area_square_m":43852679.4067,
     "geom:bbox":"5.1130413915,43.4548824767,5.20669171315,43.5402513969",
     "geom:latitude":43.503474,
     "geom:longitude":5.160341,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683441,
         102191581,
@@ -57,7 +71,10 @@
         102065387
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_13014",
+        "eurostat:nuts_2021_id":"13014"
+    },
     "wof:coterminous":[
         101831629
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0677d3bf736079ced33bc0edb11ac67f",
+    "wof:geomhash":"bbdbf3f045e74ca4cf0cb3202d393266",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404367153,
-    "wof:lastmodified":1582324996,
+    "wof:lastmodified":1684352854,
     "wof:name":"Berre-L'Etang",
     "wof:parent_id":102065387,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":13472,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_64520",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Serres-Morla\u00e0s",
+    "eurostat:nuts_2021_id":"64520",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI15",
+    "eurostat:nuts_2021_level_lau":"64520",
+    "eurostat:population":783,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067296",
     "frgov:id":"BDCSURCO0000000009614563",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00047,
-    "geom:area_square_m":4232165.952148,
+    "geom:area_square_m":4232165.952147,
     "geom:bbox":"-0.282625608345,43.3113062127,-0.244339068122,43.3332326424",
     "geom:latitude":43.323403,
     "geom:longitude":-0.261613,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683539,
         102191581,
@@ -58,7 +72,10 @@
         102068661
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_64520",
+        "eurostat:nuts_2021_id":"64520"
+    },
     "wof:coterminous":[
         101897015
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"af0fded1b7e1ec8eedff16f787ab9bcd",
+    "wof:geomhash":"6404b2fb969a90d34d9702d37ce631fb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404423207,
-    "wof:lastmodified":1582324415,
+    "wof:lastmodified":1684353524,
     "wof:name":"Serres-Morlaas",
     "wof:parent_id":102068661,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":783,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

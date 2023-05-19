@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_33412",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Germain-d'Esteuil",
+    "eurostat:nuts_2021_id":"33412",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI12",
+    "eurostat:nuts_2021_level_lau":"33412",
+    "eurostat:population":1234,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069995",
     "frgov:id":"BDCSURCO0000000009607614",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.005138,
-    "geom:area_square_m":44723579.506229,
+    "geom:area_square_m":44723579.506228,
     "geom:bbox":"-0.94970154088,45.2047204581,-0.827684560766,45.3020752428",
     "geom:latitude":45.254997,
     "geom:longitude":-0.895169,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683243,
         102191581,
@@ -58,7 +72,10 @@
         102069743
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_33412",
+        "eurostat:nuts_2021_id":"33412"
+    },
     "wof:coterminous":[
         101850307
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"993fe3e09c304962da48346138f801b2",
+    "wof:geomhash":"daceca08adc2141fab176d40dd4c54ca",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404350787,
-    "wof:lastmodified":1582324863,
+    "wof:lastmodified":1684352628,
     "wof:name":"Saint-Germain-D'Esteuil",
     "wof:parent_id":102069743,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1234,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

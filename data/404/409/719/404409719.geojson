@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_27408",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"M\u00e9zi\u00e8res-en-Vexin",
+    "eurostat:nuts_2021_id":"27408",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD21",
+    "eurostat:nuts_2021_level_lau":"27408",
+    "eurostat:population":613,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072312",
     "frgov:id":"BDCSURCO0000000009586735",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683283,
         102191581,
@@ -58,7 +72,10 @@
         102066791
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_27408",
+        "eurostat:nuts_2021_id":"27408"
+    },
     "wof:coterminous":[
         101877653
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"81898dd1bfa1de184eeaf91cdbc7420a",
+    "wof:geomhash":"33f9d3b1fc7e089fc583fd85c8854d3e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404409719,
-    "wof:lastmodified":1582324485,
+    "wof:lastmodified":1684353363,
     "wof:name":"Mezieres-En-Vexin",
     "wof:parent_id":102066791,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":613,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

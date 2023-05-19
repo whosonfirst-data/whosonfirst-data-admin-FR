@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_69229",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Nizier-d'Azergues",
+    "eurostat:nuts_2021_id":"69229",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK26",
+    "eurostat:nuts_2021_level_lau":"69229",
+    "eurostat:population":790,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040566",
     "frgov:id":"BDCSURCO0000000009603969",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.002814,
-    "geom:area_square_m":24135631.119937,
+    "geom:area_square_m":24135631.119936,
     "geom:bbox":"4.4294455101,46.0475917891,4.49266039289,46.1183483192",
     "geom:latitude":46.083603,
     "geom:longitude":4.462091,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683569,
         102191581,
@@ -58,7 +72,10 @@
         102065937
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_69229",
+        "eurostat:nuts_2021_id":"69229"
+    },
     "wof:coterminous":[
         101891941
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"333ea335099ed5924a0c18f375cabbf7",
+    "wof:geomhash":"8aecf42b90a0f9fa911a444d65105950",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404368601,
-    "wof:lastmodified":1582324881,
+    "wof:lastmodified":1684352873,
     "wof:name":"Saint-Nizier-D'Azergues",
     "wof:parent_id":102065937,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":790,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

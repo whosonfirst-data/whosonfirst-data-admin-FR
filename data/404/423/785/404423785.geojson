@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_10146",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Fay-l\u00e8s-Marcilly",
+    "eurostat:nuts_2021_id":"10146",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF22",
+    "eurostat:nuts_2021_level_lau":"10146",
+    "eurostat:population":87,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"241000488",
     "frgov:id":"BDCSURCO0000000009592869",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683193,
         102191581,
@@ -58,7 +72,10 @@
         102066655
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_10146",
+        "eurostat:nuts_2021_id":"10146"
+    },
     "wof:coterminous":[
         101883115
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ce04cfcfbf9d7f7001542721f3803d91",
+    "wof:geomhash":"9fc60d23066a47afa3c8e7aec81b417c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404423785,
-    "wof:lastmodified":1582324410,
+    "wof:lastmodified":1684353530,
     "wof:name":"Fay-Les-Marcilly",
     "wof:parent_id":102066655,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":87,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

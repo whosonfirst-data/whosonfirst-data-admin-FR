@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_60308",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"H\u00e9m\u00e9villers",
+    "eurostat:nuts_2021_id":"60308",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE22",
+    "eurostat:nuts_2021_level_lau":"60308",
+    "eurostat:population":462,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"246000897",
     "frgov:id":"BDCSURCO0000000009584613",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000863,
-    "geom:area_square_m":6935467.370067,
+    "geom:area_square_m":6935467.370066,
     "geom:bbox":"2.65406062614,49.4533015492,2.6953946762,49.4896964384",
     "geom:latitude":49.471975,
     "geom:longitude":2.673018,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683289,
         102191581,
@@ -58,7 +72,10 @@
         102066943
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_60308",
+        "eurostat:nuts_2021_id":"60308"
+    },
     "wof:coterminous":[
         101902693
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e6ac3bd0681e06628e5ac775f13867fb",
+    "wof:geomhash":"c23ef940ca132321ff162b778f6fd195",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404369707,
-    "wof:lastmodified":1582324907,
+    "wof:lastmodified":1684352887,
     "wof:name":"Hemevillers",
     "wof:parent_id":102066943,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":462,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

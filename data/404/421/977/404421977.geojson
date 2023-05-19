@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_71388",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Aubin-en-Charollais",
+    "eurostat:nuts_2021_id":"71388",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC13",
+    "eurostat:nuts_2021_level_lau":"71388",
+    "eurostat:population":472,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071884",
     "frgov:id":"BDCSURCO0000000009602388",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002319,
-    "geom:area_square_m":19737666.834008,
+    "geom:area_square_m":19737666.834009,
     "geom:bbox":"4.17181150388,46.4755996178,4.24816781591,46.5269169698",
     "geom:latitude":46.500759,
     "geom:longitude":4.208904,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683543,
         102191581,
@@ -58,7 +72,10 @@
         102070789
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_71388",
+        "eurostat:nuts_2021_id":"71388"
+    },
     "wof:coterminous":[
         1125808141
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"347347c35af685a3a849d9db68d6db85",
+    "wof:geomhash":"4a52e28fdcd93ccce04876630620870d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404421977,
-    "wof:lastmodified":1582325101,
+    "wof:lastmodified":1684353509,
     "wof:name":"Saint-Aubin-En-Charollais",
     "wof:parent_id":102070789,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":472,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_14643",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Paul-du-Vernay",
+    "eurostat:nuts_2021_id":"14643",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD11",
+    "eurostat:nuts_2021_level_lau":"14643",
+    "eurostat:population":818,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066801",
     "frgov:id":"BDCSURCO0000000009586883",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001921,
-    "geom:area_square_m":15526004.668241,
+    "geom:area_square_m":15526004.66824,
     "geom:bbox":"-0.782725770828,49.1673355752,-0.7242888689,49.2302184108",
     "geom:latitude":49.196473,
     "geom:longitude":-0.756808,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683579,
         102191581,
@@ -58,7 +72,10 @@
         102064447
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_14643",
+        "eurostat:nuts_2021_id":"14643"
+    },
     "wof:coterminous":[
         101877861
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d621e3f84b51f346bdadc0bc3d2d7f95",
+    "wof:geomhash":"60defa5ecc9ef5ea9632163ff2d85fc5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404413249,
-    "wof:lastmodified":1582324327,
+    "wof:lastmodified":1684353405,
     "wof:name":"Saint-Paul-Du-Vernay",
     "wof:parent_id":102064447,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":818,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

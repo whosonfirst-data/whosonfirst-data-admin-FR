@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_21638",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Til-Ch\u00e2tel",
+    "eurostat:nuts_2021_id":"21638",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC11",
+    "eurostat:nuts_2021_level_lau":"21638",
+    "eurostat:population":1110,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242100154",
     "frgov:id":"BDCSURCO0000000009598004",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003125,
-    "geom:area_square_m":26097491.296153,
+    "geom:area_square_m":26097491.296154,
     "geom:bbox":"5.13643847596,47.4871294561,5.21769124722,47.5599009514",
     "geom:latitude":47.519222,
     "geom:longitude":5.179346,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683563,
         102191581,
@@ -58,7 +72,10 @@
         102067435
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_21638",
+        "eurostat:nuts_2021_id":"21638"
+    },
     "wof:coterminous":[
         101888039
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"56f71855dd901508c293ac519a2c81f1",
+    "wof:geomhash":"c231a8b7ac4ce42c3252747ddc4f8827",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404362951,
-    "wof:lastmodified":1582324056,
+    "wof:lastmodified":1684352795,
     "wof:name":"Til-Chatel",
     "wof:parent_id":102067435,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1110,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

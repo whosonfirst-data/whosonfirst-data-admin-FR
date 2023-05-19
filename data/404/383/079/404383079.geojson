@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_50493",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Jean-des-Champs",
+    "eurostat:nuts_2021_id":"50493",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD12",
+    "eurostat:nuts_2021_level_lau":"50493",
+    "eurostat:population":1410,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200042604",
     "frgov:id":"BDCSURCO0000000009589908",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00237,
-    "geom:area_square_m":19295029.333342,
+    "geom:area_square_m":19295029.333343,
     "geom:bbox":"-1.50558924153,48.7919848595,-1.4268330959,48.856454338",
     "geom:latitude":48.823495,
     "geom:longitude":-1.463841,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683489,
         102191581,
@@ -58,7 +72,10 @@
         102067401
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_50493",
+        "eurostat:nuts_2021_id":"50493"
+    },
     "wof:coterminous":[
         101760411
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f8802e985d763eaeed93cbdf2e050661",
+    "wof:geomhash":"683f22cad4637128a44f4a864ffdbfbe",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404383079,
-    "wof:lastmodified":1582324540,
+    "wof:lastmodified":1684353047,
     "wof:name":"Saint-Jean-Des-Champs",
     "wof:parent_id":102067401,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1410,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

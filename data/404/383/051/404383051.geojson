@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_56206",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Av\u00e9",
+    "eurostat:nuts_2021_id":"56206",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH04",
+    "eurostat:nuts_2021_level_lau":"56206",
+    "eurostat:population":11642,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067932",
     "frgov:id":"BDCSURCO0000000009596919",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BRETAGNE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003144,
-    "geom:area_square_m":26162794.939039,
+    "geom:area_square_m":26162794.93904,
     "geom:bbox":"-2.79297321385,47.6680725099,-2.69351987916,47.7331136749",
     "geom:latitude":47.698639,
     "geom:longitude":-2.741749,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683507,
         102191581,
@@ -57,7 +71,10 @@
         102070781
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_56206",
+        "eurostat:nuts_2021_id":"56206"
+    },
     "wof:coterminous":[
         1175612651
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f1e3fba82b019279b86a085bff933f13",
+    "wof:geomhash":"71fe7622243e887faf5003030079f657",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404383051,
-    "wof:lastmodified":1582324554,
+    "wof:lastmodified":1684353046,
     "wof:name":"Saint-Ave",
     "wof:parent_id":102070781,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":11642,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

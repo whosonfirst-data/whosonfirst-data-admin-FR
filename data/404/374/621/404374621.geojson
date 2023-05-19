@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_02180",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ch\u00e9ry-l\u00e8s-Pouilly",
+    "eurostat:nuts_2021_id":"02180",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE21",
+    "eurostat:nuts_2021_level_lau":"02180",
+    "eurostat:population":710,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240200469",
     "frgov:id":"BDCSURCO0000000009583514",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002174,
-    "geom:area_square_m":17401291.509531,
+    "geom:area_square_m":17401291.50953,
     "geom:bbox":"3.54959925174,49.624280421,3.62767356954,49.6716847201",
     "geom:latitude":49.648861,
     "geom:longitude":3.593841,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683247,
         102191581,
@@ -58,7 +72,10 @@
         102066645
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_02180",
+        "eurostat:nuts_2021_id":"02180"
+    },
     "wof:coterminous":[
         101901473
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"010bd6f30a7784de11d267fe6fd99023",
+    "wof:geomhash":"05b276634432698ff8385a896c22ad17",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404374621,
-    "wof:lastmodified":1582325390,
+    "wof:lastmodified":1684352943,
     "wof:name":"Chery-Les-Pouilly",
     "wof:parent_id":102066645,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":710,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

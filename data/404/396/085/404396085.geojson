@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_19242",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Solve",
+    "eurostat:nuts_2021_id":"19242",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI21",
+    "eurostat:nuts_2021_level_lau":"19242",
+    "eurostat:population":460,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200043172",
     "frgov:id":"BDCSURCO0000000009607335",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000681,
-    "geom:area_square_m":5923004.024875,
+    "geom:area_square_m":5923004.024876,
     "geom:bbox":"1.38583582488,45.288264508,1.41712533458,45.3263037639",
     "geom:latitude":45.306082,
     "geom:longitude":1.403308,
@@ -130,6 +142,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683209,
         102191581,
@@ -140,7 +154,10 @@
         102066413
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_19242",
+        "eurostat:nuts_2021_id":"19242"
+    },
     "wof:coterminous":[
         1360677349
     ],
@@ -148,7 +165,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b6e5b6fda7ca58df0686dbb8f67ff35d",
+    "wof:geomhash":"f9df5ad4554a4545b72568ac2e2849ec",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -162,11 +179,13 @@
         }
     ],
     "wof:id":404396085,
-    "wof:lastmodified":1582324069,
+    "wof:lastmodified":1684353203,
     "wof:name":"Saint-Solve",
     "wof:parent_id":102066413,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":460,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

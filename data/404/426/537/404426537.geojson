@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_29183",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Plou\u00e9gat-Moysan",
+    "eurostat:nuts_2021_id":"29183",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH02",
+    "eurostat:nuts_2021_level_lau":"29183",
+    "eurostat:population":716,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242900835",
     "frgov:id":"BDCSURCO0000000009590856",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683553,
         102191581,
@@ -57,7 +71,10 @@
         102069865
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_29183",
+        "eurostat:nuts_2021_id":"29183"
+    },
     "wof:coterminous":[
         101878801
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f5d9a7c1cc668fec185e0e33d26d90c2",
+    "wof:geomhash":"b8652164c8ae0f22043c53ac31d173c2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404426537,
-    "wof:lastmodified":1582325086,
+    "wof:lastmodified":1684353563,
     "wof:name":"Plouegat-Moysan",
     "wof:parent_id":102069865,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":716,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

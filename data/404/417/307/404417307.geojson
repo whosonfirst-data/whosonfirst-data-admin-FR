@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_27240",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ferri\u00e8re-sur-Risle",
+    "eurostat:nuts_2021_id":"27240",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD21",
+    "eurostat:nuts_2021_level_lau":"27240",
+    "eurostat:population":221,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242700276",
     "frgov:id":"BDCSURCO0000000009588309",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000031,
-    "geom:area_square_m":250716.036031,
+    "geom:area_square_m":250716.03603,
     "geom:bbox":"0.781756946668,48.9742111697,0.791203656515,48.9811394728",
     "geom:latitude":48.978065,
     "geom:longitude":0.786036,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683283,
         102191581,
@@ -58,7 +72,10 @@
         102066353
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_27240",
+        "eurostat:nuts_2021_id":"27240"
+    },
     "wof:coterminous":[
         1126057781
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0376694e48a19e525a042accdabc66f3",
+    "wof:geomhash":"443c001a2015228d43fe602d0acfc5bd",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404417307,
-    "wof:lastmodified":1582325126,
+    "wof:lastmodified":1684353452,
     "wof:name":"La Ferriere-Sur-Risle",
     "wof:parent_id":102066353,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":221,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

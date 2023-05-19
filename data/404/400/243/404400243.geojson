@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_55465",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Remy-la-Calonne",
+    "eurostat:nuts_2021_id":"55465",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF32",
+    "eurostat:nuts_2021_level_lau":"55465",
+    "eurostat:population":103,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"245501176",
     "frgov:id":"BDCSURCO0000000009587553",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.001,
-    "geom:area_square_m":8103269.63228,
+    "geom:area_square_m":8103269.632281,
     "geom:bbox":"5.55589330865,49.0231887754,5.61952496666,49.0538047801",
     "geom:latitude":49.039758,
     "geom:longitude":5.587255,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683297,
         102191581,
@@ -58,7 +72,10 @@
         102065975
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_55465",
+        "eurostat:nuts_2021_id":"55465"
+    },
     "wof:coterminous":[
         1125818629
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2599eda8f8f356d60e59d65c8dba74e0",
+    "wof:geomhash":"b8d5bb36a814cd772c407bde6cf67191",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404400243,
-    "wof:lastmodified":1582324507,
+    "wof:lastmodified":1684353252,
     "wof:name":"Saint-Remy-La-Calonne",
     "wof:parent_id":102065975,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":103,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

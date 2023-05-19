@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_53256",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Thomas-de-Courceriers",
+    "eurostat:nuts_2021_id":"53256",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG03",
+    "eurostat:nuts_2021_level_lau":"53256",
+    "eurostat:population":185,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200033298",
     "frgov:id":"BDCSURCO0000000009594205",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001586,
-    "geom:area_square_m":13054557.926493,
+    "geom:area_square_m":13054557.926494,
     "geom:bbox":"-0.301092068972,48.2379751707,-0.218231534316,48.2807245528",
     "geom:latitude":48.264221,
     "geom:longitude":-0.265979,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683401,
         102191581,
@@ -57,7 +71,10 @@
         102064783
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_53256",
+        "eurostat:nuts_2021_id":"53256"
+    },
     "wof:coterminous":[
         1125820379
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"1dcb4ac84b79acff0c81f142a2da9b11",
+    "wof:geomhash":"3beca802874db8ee5d789a14a70bbcda",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404367877,
-    "wof:lastmodified":1582324999,
+    "wof:lastmodified":1684352863,
     "wof:name":"Saint-Thomas-De-Courceriers",
     "wof:parent_id":102064783,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":185,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

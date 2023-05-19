@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_63337",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-\u00c9loy-la-Glaci\u00e8re",
+    "eurostat:nuts_2021_id":"63337",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK14",
+    "eurostat:nuts_2021_level_lau":"63337",
+    "eurostat:population":56,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070761",
     "frgov:id":"BDCSURCO0000000009606341",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001387,
-    "geom:area_square_m":12010673.078389,
+    "geom:area_square_m":12010673.078388,
     "geom:bbox":"3.5216805817,45.5376740386,3.60516625996,45.5834756808",
     "geom:latitude":45.563536,
     "geom:longitude":3.567877,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683471,
         102191581,
@@ -58,7 +72,10 @@
         102070631
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_63337",
+        "eurostat:nuts_2021_id":"63337"
+    },
     "wof:coterminous":[
         1125954449
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"771bd937a225f7c83280cd50b8093d92",
+    "wof:geomhash":"e8b97649b48b9eb7aac0f86272eb08d2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404355911,
-    "wof:lastmodified":1582324196,
+    "wof:lastmodified":1684352697,
     "wof:name":"Saint-Eloy-La-Glaciere",
     "wof:parent_id":102070631,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":56,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

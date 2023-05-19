@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_46271",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Jean-Lespinasse",
+    "eurostat:nuts_2021_id":"46271",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ25",
+    "eurostat:nuts_2021_level_lau":"46271",
+    "eurostat:population":393,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066371",
     "frgov:id":"BDCSURCO0000000009609005",
     "frgov:insee_arr":"2",
@@ -114,6 +126,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683389,
         102191581,
@@ -124,7 +138,10 @@
         102068763
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_46271",
+        "eurostat:nuts_2021_id":"46271"
+    },
     "wof:coterminous":[
         1125813263
     ],
@@ -132,7 +149,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4168afed10e56bbf3475ce955bc0480d",
+    "wof:geomhash":"aac0938cfcdcafbe8d453f0b98387416",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -146,11 +163,13 @@
         }
     ],
     "wof:id":404396195,
-    "wof:lastmodified":1582324066,
+    "wof:lastmodified":1684353204,
     "wof:name":"Saint-Jean-Lespinasse",
     "wof:parent_id":102068763,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":393,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

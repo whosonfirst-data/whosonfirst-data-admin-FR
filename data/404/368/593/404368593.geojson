@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_05023",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Brian\u00e7on",
+    "eurostat:nuts_2021_id":"05023",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL02",
+    "eurostat:nuts_2021_level_lau":"05023",
+    "eurostat:population":11625,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240500439",
     "frgov:id":"BDCSURCO0000000009608458",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Sous-pr\u00e9fecture",
     "geom:area":0.003225,
-    "geom:area_square_m":28250058.086469,
+    "geom:area_square_m":28250058.086467,
     "geom:bbox":"6.600685,44.869191,6.706584,44.929654",
     "geom:latitude":44.89945,
     "geom:longitude":6.649263,
@@ -48,16 +60,21 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85683597,
         102191581,
         85633147,
-        102072225,
         404227595,
         404227445,
-        85683597
+        102072225
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_05023",
+        "eurostat:nuts_2021_id":"05023"
+    },
     "wof:coterminous":[
         101830393,
         102072225
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ff674d86c73d954a01fefd0a14845baa",
+    "wof:geomhash":"1eda8899b1b30f8aebba6e88c28314d2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -79,11 +96,13 @@
         }
     ],
     "wof:id":404368593,
-    "wof:lastmodified":1608038014,
+    "wof:lastmodified":1684352873,
     "wof:name":"Briancon",
     "wof:parent_id":102072225,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Sous-pr\u00e9fecture",
+    "wof:population":11625,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

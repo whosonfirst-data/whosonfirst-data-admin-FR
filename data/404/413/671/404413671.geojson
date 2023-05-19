@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_18199",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Baudel",
+    "eurostat:nuts_2021_id":"18199",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB01",
+    "eurostat:nuts_2021_level_lau":"18199",
+    "eurostat:population":250,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200027076",
     "frgov:id":"BDCSURCO0000000009601222",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003576,
-    "geom:area_square_m":30241828.775844,
+    "geom:area_square_m":30241828.775845,
     "geom:bbox":"2.15397451172,46.8178796678,2.25062892319,46.8878031122",
     "geom:latitude":46.850599,
     "geom:longitude":2.204209,
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683549,
         102191581,
@@ -138,7 +152,10 @@
         102067609
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_18199",
+        "eurostat:nuts_2021_id":"18199"
+    },
     "wof:coterminous":[
         101890563
     ],
@@ -146,7 +163,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"da26f5aaed111cd16f13615ea00e3e73",
+    "wof:geomhash":"f3f9e0267d80c348166a449c8d7648a2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -159,11 +176,13 @@
         }
     ],
     "wof:id":404413671,
-    "wof:lastmodified":1582324327,
+    "wof:lastmodified":1684353410,
     "wof:name":"Saint-Baudel",
     "wof:parent_id":102067609,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":250,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

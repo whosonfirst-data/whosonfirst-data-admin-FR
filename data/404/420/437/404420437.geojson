@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_82172",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Projet",
+    "eurostat:nuts_2021_id":"82172",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ28",
+    "eurostat:nuts_2021_level_lau":"82172",
+    "eurostat:population":283,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248200107",
     "frgov:id":"BDCSURCO0000000009610913",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002965,
-    "geom:area_square_m":26233990.33906,
+    "geom:area_square_m":26233990.339058,
     "geom:bbox":"1.66949620738,44.2897691024,1.8300609053,44.3366368355",
     "geom:latitude":44.311034,
     "geom:longitude":1.770606,
@@ -84,6 +96,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683217,
         102191581,
@@ -94,7 +108,10 @@
         102065335
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_82172",
+        "eurostat:nuts_2021_id":"82172"
+    },
     "wof:coterminous":[
         1125927831
     ],
@@ -102,7 +119,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0e8b570d9977e962d0a7719290587c46",
+    "wof:geomhash":"3d606e369c4d0de12cae97e05a5794ee",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -116,11 +133,13 @@
         }
     ],
     "wof:id":404420437,
-    "wof:lastmodified":1582325200,
+    "wof:lastmodified":1684353488,
     "wof:name":"Saint-Projet",
     "wof:parent_id":102065335,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":283,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

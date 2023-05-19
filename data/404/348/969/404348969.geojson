@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_18043",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Celle-Cond\u00e9",
+    "eurostat:nuts_2021_id":"18043",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB01",
+    "eurostat:nuts_2021_level_lau":"18043",
+    "eurostat:population":202,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200027076",
     "frgov:id":"BDCSURCO0000000009601428",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003394,
-    "geom:area_square_m":28737695.506665,
+    "geom:area_square_m":28737695.506664,
     "geom:bbox":"2.13723368195,46.756430066,2.22484290902,46.8182045773",
     "geom:latitude":46.789308,
     "geom:longitude":2.176097,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683549,
         102191581,
@@ -57,7 +71,10 @@
         102067609
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_18043",
+        "eurostat:nuts_2021_id":"18043"
+    },
     "wof:coterminous":[
         1125929903
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"aabf4eeffa0c06801c9bb6da12095b53",
+    "wof:geomhash":"ca4556a33ad332624ef5b9a8d714b93c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404348969,
-    "wof:lastmodified":1582324586,
+    "wof:lastmodified":1684352602,
     "wof:name":"La Celle-Conde",
     "wof:parent_id":102067609,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":202,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

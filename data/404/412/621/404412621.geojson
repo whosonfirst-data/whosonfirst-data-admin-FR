@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_60230",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Fay-Saint-Quentin",
+    "eurostat:nuts_2021_id":"60230",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE22",
+    "eurostat:nuts_2021_level_lau":"60230",
+    "eurostat:population":522,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067999",
     "frgov:id":"BDCSURCO0000000009584992",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.0009,
-    "geom:area_square_m":7232448.662483,
+    "geom:area_square_m":7232448.662484,
     "geom:bbox":"2.22473955594,49.4352468085,2.27811366583,49.4684851469",
     "geom:latitude":49.449223,
     "geom:longitude":2.252121,
@@ -120,6 +132,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683289,
         102191581,
@@ -130,7 +144,10 @@
         102069283
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_60230",
+        "eurostat:nuts_2021_id":"60230"
+    },
     "wof:coterminous":[
         101898709
     ],
@@ -138,7 +155,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ecfc94c6388e530bde682e03fdabd964",
+    "wof:geomhash":"792c0fb741096e14e2827eb75e0072d8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -152,11 +169,13 @@
         }
     ],
     "wof:id":404412621,
-    "wof:lastmodified":1582324371,
+    "wof:lastmodified":1684353396,
     "wof:name":"Le Fay-Saint-Quentin",
     "wof:parent_id":102069283,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":522,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

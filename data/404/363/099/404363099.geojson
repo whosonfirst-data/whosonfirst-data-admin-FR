@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_13085",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Roquefort-la-B\u00e9doule",
+    "eurostat:nuts_2021_id":"13085",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL04",
+    "eurostat:nuts_2021_level_lau":"13085",
+    "eurostat:population":5688,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200054807",
     "frgov:id":"BDCSURCO0000000009614633",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683441,
         102191581,
@@ -57,7 +71,10 @@
         102071675
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_13085",
+        "eurostat:nuts_2021_id":"13085"
+    },
     "wof:coterminous":[
         101831623
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9aec9fb70e12e030ff7f7b3ba6065059",
+    "wof:geomhash":"d0aa89d2b669ed0c59e2e190e7373af2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404363099,
-    "wof:lastmodified":1582324223,
+    "wof:lastmodified":1684352797,
     "wof:name":"Roquefort-La-Bedoule",
     "wof:parent_id":102071675,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":5688,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

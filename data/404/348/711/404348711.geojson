@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_48151",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Fr\u00e9zal-d'Albuges",
+    "eurostat:nuts_2021_id":"48151",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ14",
+    "eurostat:nuts_2021_level_lau":"48151",
+    "eurostat:population":70,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069128",
     "frgov:id":"BDCSURCO0000000009609894",
     "frgov:insee_arr":"2",
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683453,
         102191581,
@@ -56,7 +70,10 @@
         102064737
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_48151",
+        "eurostat:nuts_2021_id":"48151"
+    },
     "wof:coterminous":[
         1360672653
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c162719a8a848bb002121bacde4f3fb3",
+    "wof:geomhash":"4fe3fb170f625b8fad6d9b2b95346f95",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404348711,
-    "wof:lastmodified":1582324594,
+    "wof:lastmodified":1684352598,
     "wof:name":"Saint-Frezal-D'Albuges",
     "wof:parent_id":102064737,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":70,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

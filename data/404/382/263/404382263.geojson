@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_06039",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ch\u00e2teauneuf-Villevieille",
+    "eurostat:nuts_2021_id":"06039",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL03",
+    "eurostat:nuts_2021_level_lau":"06039",
+    "eurostat:population":922,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240600593",
     "frgov:id":"BDCSURCO0000000009612145",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.000943,
-    "geom:area_square_m":8418319.725867,
+    "geom:area_square_m":8418319.72587,
     "geom:bbox":"7.27242893414,43.7776471973,7.31737475661,43.8239383336",
     "geom:latitude":43.798768,
     "geom:longitude":7.294925,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683323,
         102191581,
@@ -55,7 +69,10 @@
         102065505
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_06039",
+        "eurostat:nuts_2021_id":"06039"
+    },
     "wof:coterminous":[
         1360676029
     ],
@@ -63,7 +80,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"bf370e901814c90d25f43e1a02a16b77",
+    "wof:geomhash":"38877cd739c310c534b6d85453afa445",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -76,11 +93,13 @@
         }
     ],
     "wof:id":404382263,
-    "wof:lastmodified":1582324695,
+    "wof:lastmodified":1684353036,
     "wof:name":"Chateauneuf-Villevieille",
     "wof:parent_id":102065505,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":922,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

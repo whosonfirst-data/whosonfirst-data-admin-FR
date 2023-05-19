@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_70196",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Dampierre-l\u00e8s-Conflans",
+    "eurostat:nuts_2021_id":"70196",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC23",
+    "eurostat:nuts_2021_level_lau":"70196",
+    "eurostat:population":260,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041721",
     "frgov:id":"BDCSURCO0000000009595990",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001245,
-    "geom:area_square_m":10328999.985219,
+    "geom:area_square_m":10328999.985218,
     "geom:bbox":"6.14415461357,47.8247686431,6.21416791843,47.8572379294",
     "geom:latitude":47.844907,
     "geom:longitude":6.179493,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683559,
         102191581,
@@ -58,7 +72,10 @@
         102068925
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_70196",
+        "eurostat:nuts_2021_id":"70196"
+    },
     "wof:coterminous":[
         1125899681
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b6cca3e8dd6f71f1b4b56e09a19ce5eb",
+    "wof:geomhash":"ba894cfe2201dc261cd4b0d6d270ac95",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404348665,
-    "wof:lastmodified":1582324591,
+    "wof:lastmodified":1684352598,
     "wof:name":"Dampierre-Les-Conflans",
     "wof:parent_id":102068925,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":260,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

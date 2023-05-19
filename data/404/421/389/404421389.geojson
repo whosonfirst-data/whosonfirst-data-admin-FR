@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_87169",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Maurice-les-Brousses",
+    "eurostat:nuts_2021_id":"87169",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI23",
+    "eurostat:nuts_2021_level_lau":"87169",
+    "eurostat:population":1060,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070506",
     "frgov:id":"BDCSURCO0000000009605600",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001272,
-    "geom:area_square_m":10983392.230253,
+    "geom:area_square_m":10983392.230254,
     "geom:bbox":"1.21035503914,45.6813830183,1.26346766966,45.7203696251",
     "geom:latitude":45.700226,
     "geom:longitude":1.24153,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683531,
         102191581,
@@ -58,7 +72,10 @@
         102067661
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_87169",
+        "eurostat:nuts_2021_id":"87169"
+    },
     "wof:coterminous":[
         101894071
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"33be4a0ba33e9a6fb6a22cd893690e7a",
+    "wof:geomhash":"b3c0396db4c1515e0032443315ebaf42",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404421389,
-    "wof:lastmodified":1582325109,
+    "wof:lastmodified":1684353502,
     "wof:name":"Saint-Maurice-Les-Brousses",
     "wof:parent_id":102067661,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1060,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

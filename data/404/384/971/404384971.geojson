@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_31201",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Frontignan-Sav\u00e8s",
+    "eurostat:nuts_2021_id":"31201",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ23",
+    "eurostat:nuts_2021_level_lau":"31201",
+    "eurostat:population":70,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072643",
     "frgov:id":"BDCSURCO0000000009614216",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683397,
         102191581,
@@ -58,7 +72,10 @@
         102067255
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_31201",
+        "eurostat:nuts_2021_id":"31201"
+    },
     "wof:coterminous":[
         1126002367
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"bf03374ebca9d9c6445fd90fd5269fa2",
+    "wof:geomhash":"9e0b02f6825b9cb45a2b4a9d95f203aa",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404384971,
-    "wof:lastmodified":1582324618,
+    "wof:lastmodified":1684353070,
     "wof:name":"Frontignan-Saves",
     "wof:parent_id":102067255,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":70,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

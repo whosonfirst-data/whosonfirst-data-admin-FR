@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_27224",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"\u00c9preville-pr\u00e8s-le-Neubourg",
+    "eurostat:nuts_2021_id":"27224",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD21",
+    "eurostat:nuts_2021_level_lau":"27224",
+    "eurostat:population":471,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242700607",
     "frgov:id":"BDCSURCO0000000009587264",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000958,
-    "geom:area_square_m":7750958.678663,
+    "geom:area_square_m":7750958.678662,
     "geom:bbox":"0.850651361049,49.1171262527,0.901699091308,49.145326436",
     "geom:latitude":49.129449,
     "geom:longitude":0.876376,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683283,
         102191581,
@@ -58,7 +72,10 @@
         102068809
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_27224",
+        "eurostat:nuts_2021_id":"27224"
+    },
     "wof:coterminous":[
         1126050761
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c0d722aea9650461c61c818cfd02f997",
+    "wof:geomhash":"faa49c95bbc3face279028da0d038da6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404388399,
-    "wof:lastmodified":1582325477,
+    "wof:lastmodified":1684353109,
     "wof:name":"Epreville-Pres-Le-Neubourg",
     "wof:parent_id":102068809,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":471,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

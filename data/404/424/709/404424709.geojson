@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_16326",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Groux",
+    "eurostat:nuts_2021_id":"16326",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI31",
+    "eurostat:nuts_2021_level_lau":"16326",
+    "eurostat:population":137,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072023",
     "frgov:id":"BDCSURCO0000000009604876",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000515,
-    "geom:area_square_m":4429315.392053,
+    "geom:area_square_m":4429315.392052,
     "geom:bbox":"0.141579186147,45.8770843608,0.175807917639,45.9037703937",
     "geom:latitude":45.890964,
     "geom:longitude":0.158107,
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683437,
         102191581,
@@ -136,7 +150,10 @@
         102067687
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_16326",
+        "eurostat:nuts_2021_id":"16326"
+    },
     "wof:coterminous":[
         1125896239
     ],
@@ -144,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8641f82fc91c399489146d6268fa8e74",
+    "wof:geomhash":"285d84ec10aa05a0bdc7df015e26e2b9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +175,13 @@
         }
     ],
     "wof:id":404424709,
-    "wof:lastmodified":1582324387,
+    "wof:lastmodified":1684353542,
     "wof:name":"Saint-Groux",
     "wof:parent_id":102067687,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":137,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

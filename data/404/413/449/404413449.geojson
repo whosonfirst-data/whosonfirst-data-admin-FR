@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_28339",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Germain-le-Gaillard",
+    "eurostat:nuts_2021_id":"28339",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB02",
+    "eurostat:nuts_2021_level_lau":"28339",
+    "eurostat:population":345,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200058360",
     "frgov:id":"BDCSURCO0000000009592954",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001006,
-    "geom:area_square_m":8257317.29575,
+    "geom:area_square_m":8257317.295751,
     "geom:bbox":"1.23033625692,48.4102474211,1.28327872449,48.4388718862",
     "geom:latitude":48.424278,
     "geom:longitude":1.254119,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683189,
         102191581,
@@ -55,7 +69,10 @@
         102066423
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_28339",
+        "eurostat:nuts_2021_id":"28339"
+    },
     "wof:coterminous":[
         1360679023
     ],
@@ -63,7 +80,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"de0cf6c084e591293ed88de070a1784e",
+    "wof:geomhash":"94cc3a8da241e74da0671c252fcd5bdc",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -76,11 +93,13 @@
         }
     ],
     "wof:id":404413449,
-    "wof:lastmodified":1582324317,
+    "wof:lastmodified":1684353407,
     "wof:name":"Saint-Germain-Le-Gaillard",
     "wof:parent_id":102066423,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":345,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

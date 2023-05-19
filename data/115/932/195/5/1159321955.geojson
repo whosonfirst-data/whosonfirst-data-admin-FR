@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_26108",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Crest",
+    "eurostat:nuts_2021_id":"26108",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK23",
+    "eurostat:nuts_2021_level_lau":"26108",
+    "eurostat:population":8505,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040509",
     "frgov:id":"BDCSURCO0000000009609165",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.002689,
-    "geom:area_square_m":23622451.449151,
+    "geom:area_square_m":23622451.44915,
     "geom:bbox":"4.980067,44.702415,5.062261,44.760112",
     "geom:latitude":44.733198,
     "geom:longitude":5.021899,
@@ -84,24 +96,30 @@
     "reversegeo:longitude":5.017849,
     "src:geom":"frgov",
     "src:geom_alt":[],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85683523,
         102191581,
         85633147,
-        102072395,
-        136253037,
         404227639,
         1108826389,
-        85683523
+        136253037,
+        102072395
     ],
     "wof:breaches":[],
     "wof:concordance":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_26108",
+        "eurostat:nuts_2021_id":"26108"
+    },
     "wof:coterminous":[
         101771767,
         102072395
     ],
     "wof:country":"FR",
     "wof:created":1526509435,
-    "wof:geomhash":"5cb9381b5a55c2bf6353972cb363e6a0",
+    "wof:geomhash":"be9124b78176ebf800e8db74999712cf",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -115,11 +133,13 @@
         }
     ],
     "wof:id":1159321955,
-    "wof:lastmodified":1608039560,
+    "wof:lastmodified":1684353595,
     "wof:name":"Crest",
     "wof:parent_id":102072395,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":8505,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded":[],
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_59604",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Troisvilles",
+    "eurostat:nuts_2021_id":"59604",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE1",
+    "eurostat:nuts_2021_level_3":"FRE11",
+    "eurostat:nuts_2021_level_lau":"59604",
+    "eurostat:population":841,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200030633",
     "frgov:id":"BDCSURCO0000000009581912",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001062,
-    "geom:area_square_m":8419732.323654,
+    "geom:area_square_m":8419732.323653,
     "geom:bbox":"3.44359348013,50.0855793648,3.50185013136,50.1168844858",
     "geom:latitude":50.102174,
     "geom:longitude":3.473243,
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683445,
         102191581,
@@ -136,7 +150,10 @@
         102067457
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_59604",
+        "eurostat:nuts_2021_id":"59604"
+    },
     "wof:coterminous":[
         1125878753
     ],
@@ -144,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c48e1622e0c2855b6a64bd7e9e541071",
+    "wof:geomhash":"c5518c951078515609c5bf0d83dfbeb5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +175,13 @@
         }
     ],
     "wof:id":404412641,
-    "wof:lastmodified":1582324381,
+    "wof:lastmodified":1684353396,
     "wof:name":"Troisvilles",
     "wof:parent_id":102067457,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":841,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

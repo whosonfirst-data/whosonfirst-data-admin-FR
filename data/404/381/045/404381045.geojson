@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_39002",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Abergement-le-Grand",
+    "eurostat:nuts_2021_id":"39002",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC22",
+    "eurostat:nuts_2021_level_lau":"39002",
+    "eurostat:population":58,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071595",
     "frgov:id":"BDCSURCO0000000009600669",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000494,
-    "geom:area_square_m":4173783.203636,
+    "geom:area_square_m":4173783.203637,
     "geom:bbox":"5.65908259412,46.9036704588,5.69843809604,46.9245024686",
     "geom:latitude":46.91375,
     "geom:longitude":5.679344,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683173,
         102191581,
@@ -58,7 +72,10 @@
         102064331
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_39002",
+        "eurostat:nuts_2021_id":"39002"
+    },
     "wof:coterminous":[
         1126030025
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"471a334d73ecbd099ec7c19f4498df0c",
+    "wof:geomhash":"0db87086fd587799d5521c408874986c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404381045,
-    "wof:lastmodified":1582325436,
+    "wof:lastmodified":1684353022,
     "wof:name":"Abergement-Le-Grand",
     "wof:parent_id":102064331,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":58,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

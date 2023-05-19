@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_81264",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Michel-Labadi\u00e9",
+    "eurostat:nuts_2021_id":"81264",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ27",
+    "eurostat:nuts_2021_level_lau":"81264",
+    "eurostat:population":94,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248100497",
     "frgov:id":"BDCSURCO0000000009611818",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683603,
         102191581,
@@ -58,7 +72,10 @@
         102070253
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_81264",
+        "eurostat:nuts_2021_id":"81264"
+    },
     "wof:coterminous":[
         1125816081
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d6e6a8a4c18fc4d77d3bf95a6379705e",
+    "wof:geomhash":"69bd0dac00e9fcc31c673f231e2db086",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404356477,
-    "wof:lastmodified":1582324927,
+    "wof:lastmodified":1684352704,
     "wof:name":"Saint-Michel-Labadie",
     "wof:parent_id":102070253,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":94,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

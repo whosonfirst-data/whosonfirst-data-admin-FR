@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_71213",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gen\u00eate",
+    "eurostat:nuts_2021_id":"71213",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC13",
+    "eurostat:nuts_2021_level_lau":"71213",
+    "eurostat:population":572,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071538",
     "frgov:id":"BDCSURCO0000000009602146",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001372,
-    "geom:area_square_m":11665867.006893,
+    "geom:area_square_m":11665867.006892,
     "geom:bbox":"5.01432888283,46.5274121755,5.08395155698,46.5719063111",
     "geom:latitude":46.549329,
     "geom:longitude":5.049826,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683543,
         102191581,
@@ -58,7 +72,10 @@
         102067347
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_71213",
+        "eurostat:nuts_2021_id":"71213"
+    },
     "wof:coterminous":[
         1126002517
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b11278b35ae3e339ad5948d8ddd24842",
+    "wof:geomhash":"df3ed741aacd3647a4b7d2f3ea3ae28d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404358923,
-    "wof:lastmodified":1582324974,
+    "wof:lastmodified":1684352739,
     "wof:name":"La Genete",
     "wof:parent_id":102067347,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":572,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

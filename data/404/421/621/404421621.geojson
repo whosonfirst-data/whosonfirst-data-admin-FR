@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_47280",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Sylvestre-sur-Lot",
+    "eurostat:nuts_2021_id":"47280",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI14",
+    "eurostat:nuts_2021_level_lau":"47280",
+    "eurostat:population":2296,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068930",
     "frgov:id":"BDCSURCO0000000009610589",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002427,
-    "geom:area_square_m":21431048.636021,
+    "geom:area_square_m":21431048.63602,
     "geom:bbox":"0.772650236992,44.3903937099,0.842567067385,44.4479752821",
     "geom:latitude":44.418204,
     "geom:longitude":0.808582,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683341,
         102191581,
@@ -58,7 +72,10 @@
         102069187
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_47280",
+        "eurostat:nuts_2021_id":"47280"
+    },
     "wof:coterminous":[
         101771679
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"20899c16410630a007d76844c358b3be",
+    "wof:geomhash":"addd9298687df2d27604337fad6614ec",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404421621,
-    "wof:lastmodified":1582325097,
+    "wof:lastmodified":1684353505,
     "wof:name":"Saint-Sylvestre-Sur-Lot",
     "wof:parent_id":102069187,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2296,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

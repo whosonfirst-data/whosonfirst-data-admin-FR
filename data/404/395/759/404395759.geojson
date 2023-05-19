@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_09208",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Montgauch",
+    "eurostat:nuts_2021_id":"09208",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ21",
+    "eurostat:nuts_2021_level_lau":"09208",
+    "eurostat:population":122,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067940",
     "frgov:id":"BDCSURCO0000000009615832",
     "frgov:insee_arr":"3",
@@ -120,6 +132,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683335,
         102191581,
@@ -130,7 +144,10 @@
         102067295
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_09208",
+        "eurostat:nuts_2021_id":"09208"
+    },
     "wof:coterminous":[
         1125787899
     ],
@@ -138,7 +155,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"300016e88ab8dc8714227b7548ef2ecf",
+    "wof:geomhash":"a2a76616dfeaaca71ce6bfcb4de6fa0a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -152,11 +169,13 @@
         }
     ],
     "wof:id":404395759,
-    "wof:lastmodified":1582324778,
+    "wof:lastmodified":1684353200,
     "wof:name":"Montgauch",
     "wof:parent_id":102067295,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":122,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

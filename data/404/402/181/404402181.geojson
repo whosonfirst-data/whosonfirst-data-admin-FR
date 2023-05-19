@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_35003",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Andouill\u00e9-Neuville",
+    "eurostat:nuts_2021_id":"35003",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH03",
+    "eurostat:nuts_2021_level_lau":"35003",
+    "eurostat:population":886,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243500667",
     "frgov:id":"BDCSURCO0000000009593438",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683461,
         102191581,
@@ -57,7 +71,10 @@
         102070439
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_35003",
+        "eurostat:nuts_2021_id":"35003"
+    },
     "wof:coterminous":[
         101880931
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f1ddb01461179bb00306b15bb0b7eac8",
+    "wof:geomhash":"0ab1d56dab2dff23f2edf49ed35e0888",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404402181,
-    "wof:lastmodified":1582325277,
+    "wof:lastmodified":1684353274,
     "wof:name":"Andouille-Neuville",
     "wof:parent_id":102070439,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":886,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_02286",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Esqu\u00e9h\u00e9ries",
+    "eurostat:nuts_2021_id":"02286",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE21",
+    "eurostat:nuts_2021_level_lau":"02286",
+    "eurostat:population":858,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240200444",
     "frgov:id":"BDCSURCO0000000009582217",
     "frgov:insee_arr":"5",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002048,
-    "geom:area_square_m":16286191.495712,
+    "geom:area_square_m":16286191.49571,
     "geom:bbox":"3.71390581748,49.9544346166,3.80299235405,50.0016458533",
     "geom:latitude":49.982177,
     "geom:longitude":3.753226,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683247,
         102191581,
@@ -58,7 +72,10 @@
         102068691
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_02286",
+        "eurostat:nuts_2021_id":"02286"
+    },
     "wof:coterminous":[
         101899821
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"bc10da64b2648c8ec7c029fd4d1d4fb6",
+    "wof:geomhash":"11fae3ddadc7c1dbf5da7fb78d2d7f3b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404358905,
-    "wof:lastmodified":1582324978,
+    "wof:lastmodified":1684352738,
     "wof:name":"Esqueheries",
     "wof:parent_id":102068691,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":858,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

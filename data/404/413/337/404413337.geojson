@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_64086",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ayherre",
+    "eurostat:nuts_2021_id":"64086",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI15",
+    "eurostat:nuts_2021_level_lau":"64086",
+    "eurostat:population":1042,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067106",
     "frgov:id":"BDCSURCO0000000009614345",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003103,
-    "geom:area_square_m":27884294.695144,
+    "geom:area_square_m":27884294.695143,
     "geom:bbox":"-1.2886836875,43.3321396132,-1.18553541289,43.4111548648",
     "geom:latitude":43.379034,
     "geom:longitude":-1.245615,
@@ -138,6 +150,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683539,
         102191581,
@@ -148,7 +162,10 @@
         102066817
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_64086",
+        "eurostat:nuts_2021_id":"64086"
+    },
     "wof:coterminous":[
         101898005
     ],
@@ -156,7 +173,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"1b3147ae0c0ec08dba8f914228048fd6",
+    "wof:geomhash":"18fc005dfaa2f2b21adde66129b4b1da",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -170,11 +187,13 @@
         }
     ],
     "wof:id":404413337,
-    "wof:lastmodified":1582324315,
+    "wof:lastmodified":1684353406,
     "wof:name":"Ayherre",
     "wof:parent_id":102066817,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1042,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

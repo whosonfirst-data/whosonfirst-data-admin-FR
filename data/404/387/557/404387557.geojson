@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_71525",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sologny",
+    "eurostat:nuts_2021_id":"71525",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC13",
+    "eurostat:nuts_2021_level_lau":"71525",
+    "eurostat:population":591,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070308",
     "frgov:id":"BDCSURCO0000000009602824",
     "frgov:insee_arr":"5",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001252,
-    "geom:area_square_m":10682691.647287,
+    "geom:area_square_m":10682691.647288,
     "geom:bbox":"4.65343568104,46.3465107901,4.69446090285,46.4016736828",
     "geom:latitude":46.371407,
     "geom:longitude":4.672738,
@@ -120,6 +132,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683543,
         102191581,
@@ -130,7 +144,10 @@
         102069241
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_71525",
+        "eurostat:nuts_2021_id":"71525"
+    },
     "wof:coterminous":[
         1125839121
     ],
@@ -138,7 +155,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4582e27bb81a7b3d60cf83e24ffaddf5",
+    "wof:geomhash":"796f534ece12f2ad43aaeb50cb7eaee4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -152,11 +169,13 @@
         }
     ],
     "wof:id":404387557,
-    "wof:lastmodified":1582325355,
+    "wof:lastmodified":1684353099,
     "wof:name":"Sologny",
     "wof:parent_id":102069241,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":591,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

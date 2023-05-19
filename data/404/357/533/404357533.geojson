@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_30227",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Ambroix",
+    "eurostat:nuts_2021_id":"30227",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ12",
+    "eurostat:nuts_2021_level_lau":"30227",
+    "eurostat:population":3162,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200035129",
     "frgov:id":"BDCSURCO0000000009611035",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001341,
-    "geom:area_square_m":11872855.426286,
+    "geom:area_square_m":11872855.426287,
     "geom:bbox":"4.16144557727,44.2243810068,4.22078327846,44.2734270145",
     "geom:latitude":44.253035,
     "geom:longitude":4.194501,
@@ -93,6 +105,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683431,
         102191581,
@@ -103,7 +117,10 @@
         102068715
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_30227",
+        "eurostat:nuts_2021_id":"30227"
+    },
     "wof:coterminous":[
         101772695
     ],
@@ -111,7 +128,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4af119e537d9f93c2e7f70014fdba20c",
+    "wof:geomhash":"24942ad1bc23b0de95ce4be1346f65f2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -125,11 +142,13 @@
         }
     ],
     "wof:id":404357533,
-    "wof:lastmodified":1582324886,
+    "wof:lastmodified":1684352719,
     "wof:name":"Saint-Ambroix",
     "wof:parent_id":102068715,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3162,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

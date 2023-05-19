@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_04050",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ch\u00e2teaufort",
+    "eurostat:nuts_2021_id":"04050",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL01",
+    "eurostat:nuts_2021_level_lau":"04050",
+    "eurostat:population":28,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068765",
     "frgov:id":"BDCSURCO0000000009610808",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.001565,
-    "geom:area_square_m":13854144.074619,
+    "geom:area_square_m":13854144.07462,
     "geom:bbox":"5.99377103158,44.2455090538,6.05892879113,44.3068228272",
     "geom:latitude":44.275375,
     "geom:longitude":6.029888,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683509,
         102191581,
@@ -55,7 +69,10 @@
         102067339
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_04050",
+        "eurostat:nuts_2021_id":"04050"
+    },
     "wof:coterminous":[
         1360676729
     ],
@@ -63,7 +80,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b6e11dac93802f618419ab1597e885e5",
+    "wof:geomhash":"922a0fbdc132a87091ac0db593a57478",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -76,11 +93,13 @@
         }
     ],
     "wof:id":404390027,
-    "wof:lastmodified":1582324271,
+    "wof:lastmodified":1684353129,
     "wof:name":"Chateaufort",
     "wof:parent_id":102067339,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":28,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

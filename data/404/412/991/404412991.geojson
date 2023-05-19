@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_48188",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Serverette",
+    "eurostat:nuts_2021_id":"48188",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ14",
+    "eurostat:nuts_2021_level_lau":"48188",
+    "eurostat:population":257,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069185",
     "frgov:id":"BDCSURCO0000000009609673",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001969,
-    "geom:area_square_m":17302188.045969,
+    "geom:area_square_m":17302188.04597,
     "geom:bbox":"3.36135143862,44.6681632707,3.42225178046,44.7334671473",
     "geom:latitude":44.700021,
     "geom:longitude":3.391367,
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683453,
         102191581,
@@ -136,7 +150,10 @@
         102067629
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_48188",
+        "eurostat:nuts_2021_id":"48188"
+    },
     "wof:coterminous":[
         1125795759
     ],
@@ -144,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"53c172ced7633e79c18262a3b30b5a21",
+    "wof:geomhash":"21e62bb33079515d45b4c6fdc4bfd6e6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +175,13 @@
         }
     ],
     "wof:id":404412991,
-    "wof:lastmodified":1582324369,
+    "wof:lastmodified":1684353401,
     "wof:name":"Serverette",
     "wof:parent_id":102067629,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":257,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

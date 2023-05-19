@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_27598",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Pierre-du-Vauvray",
+    "eurostat:nuts_2021_id":"27598",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD21",
+    "eurostat:nuts_2021_level_lau":"27598",
+    "eurostat:population":1282,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200035665",
     "frgov:id":"BDCSURCO0000000009586273",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000555,
-    "geom:area_square_m":4480817.737529,
+    "geom:area_square_m":4480817.737528,
     "geom:bbox":"1.19437477101,49.2115236082,1.23379708601,49.2399210483",
     "geom:latitude":49.223053,
     "geom:longitude":1.217956,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683283,
         102191581,
@@ -58,7 +72,10 @@
         102068157
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_27598",
+        "eurostat:nuts_2021_id":"27598"
+    },
     "wof:coterminous":[
         101761631
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ea7227622c304df92f671efe44839b7f",
+    "wof:geomhash":"1e1f123aeeec8f3342ab7930adeafe5f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404385305,
-    "wof:lastmodified":1582324638,
+    "wof:lastmodified":1684353074,
     "wof:name":"Saint-Pierre-Du-Vauvray",
     "wof:parent_id":102068157,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1282,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

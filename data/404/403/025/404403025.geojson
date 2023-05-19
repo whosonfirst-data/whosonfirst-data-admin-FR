@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_79293",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-R\u00e9my",
+    "eurostat:nuts_2021_id":"79293",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI33",
+    "eurostat:nuts_2021_level_lau":"79293",
+    "eurostat:population":1100,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041317",
     "frgov:id":"BDCSURCO0000000009602947",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001599,
-    "geom:area_square_m":13643379.81252,
+    "geom:area_square_m":13643379.812518,
     "geom:bbox":"-0.557285140019,46.3476638986,-0.490934009036,46.3914741084",
     "geom:latitude":46.370822,
     "geom:longitude":-0.523255,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683163,
         102191581,
@@ -58,7 +72,10 @@
         102068045
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_79293",
+        "eurostat:nuts_2021_id":"79293"
+    },
     "wof:coterminous":[
         101889995
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5c85f0bb44fc04a117775deeb79628ab",
+    "wof:geomhash":"0f74e9e3239113bfdd763a0d3073d5de",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404403025,
-    "wof:lastmodified":1582325290,
+    "wof:lastmodified":1684353284,
     "wof:name":"Saint-Remy",
     "wof:parent_id":102068045,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1100,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

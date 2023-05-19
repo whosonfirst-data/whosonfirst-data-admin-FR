@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_34269",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Jean-de-Minervois",
+    "eurostat:nuts_2021_id":"34269",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ13",
+    "eurostat:nuts_2021_level_lau":"34269",
+    "eurostat:population":148,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066348",
     "frgov:id":"BDCSURCO0000000009614403",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003638,
-    "geom:area_square_m":32686096.806543,
+    "geom:area_square_m":32686096.806542,
     "geom:bbox":"2.75868348708,43.3715062756,2.87813200684,43.4388219588",
     "geom:latitude":43.400142,
     "geom:longitude":2.817653,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683419,
         102191581,
@@ -58,7 +72,10 @@
         102070229
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_34269",
+        "eurostat:nuts_2021_id":"34269"
+    },
     "wof:coterminous":[
         1125812919
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"39959b1d88e730a427040befb805782a",
+    "wof:geomhash":"3131d0bb5b5b13cdde0944b4cdfc3beb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404383457,
-    "wof:lastmodified":1582324553,
+    "wof:lastmodified":1684353052,
     "wof:name":"Saint-Jean-De-Minervois",
     "wof:parent_id":102070229,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":148,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

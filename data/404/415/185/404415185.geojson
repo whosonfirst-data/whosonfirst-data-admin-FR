@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_70366",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Villers-Chemin-et-Mont-l\u00e8s-\u00c9trelles",
+    "eurostat:nuts_2021_id":"70366",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC23",
+    "eurostat:nuts_2021_level_lau":"70366",
+    "eurostat:population":123,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247000698",
     "frgov:id":"BDCSURCO0000000009598248",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000886,
-    "geom:area_square_m":7412808.058455,
+    "geom:area_square_m":7412808.058456,
     "geom:bbox":"5.84393457655,47.416781468,5.90015747591,47.4627008027",
     "geom:latitude":47.442573,
     "geom:longitude":5.876027,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683559,
         102191581,
@@ -56,7 +70,10 @@
         102066113
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_70366",
+        "eurostat:nuts_2021_id":"70366"
+    },
     "wof:coterminous":[
         1360679195
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c5c33c05637b5656cf698d2832abb929",
+    "wof:geomhash":"9bc2f90c254d4782d49f2e6b8aa804e1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404415185,
-    "wof:lastmodified":1582324367,
+    "wof:lastmodified":1684353428,
     "wof:name":"Villers-Chemin-Et-Mont-Les-Etrelles",
     "wof:parent_id":102066113,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":123,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

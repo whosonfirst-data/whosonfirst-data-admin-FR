@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_31518",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Thomas",
+    "eurostat:nuts_2021_id":"31518",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ23",
+    "eurostat:nuts_2021_level_lau":"31518",
+    "eurostat:population":573,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068641",
     "frgov:id":"BDCSURCO0000000009613699",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001576,
-    "geom:area_square_m":14132567.390322,
+    "geom:area_square_m":14132567.390321,
     "geom:bbox":"1.05038236829,43.4935684669,1.11680926596,43.5369728053",
     "geom:latitude":43.514752,
     "geom:longitude":1.088379,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683397,
         102191581,
@@ -58,7 +72,10 @@
         102069773
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_31518",
+        "eurostat:nuts_2021_id":"31518"
+    },
     "wof:coterminous":[
         1125820365
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"75353f6ed706118ea4818e10e9997e6b",
+    "wof:geomhash":"ef566392b5f28372661391b89e2f92fc",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404410621,
-    "wof:lastmodified":1582325146,
+    "wof:lastmodified":1684353373,
     "wof:name":"Saint-Thomas",
     "wof:parent_id":102069773,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":573,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

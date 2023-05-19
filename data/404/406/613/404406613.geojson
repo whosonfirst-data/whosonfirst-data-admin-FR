@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_47221",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"R\u00e9aup-Lisse",
+    "eurostat:nuts_2021_id":"47221",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI14",
+    "eurostat:nuts_2021_level_lau":"47221",
+    "eurostat:population":606,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068948",
     "frgov:id":"BDCSURCO0000000009611669",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.007979,
-    "geom:area_square_m":70850102.791549,
+    "geom:area_square_m":70850102.791547,
     "geom:bbox":"0.130578710072,44.0459054616,0.2911067708,44.1407930624",
     "geom:latitude":44.10036,
     "geom:longitude":0.210859,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683341,
         102191581,
@@ -56,7 +70,10 @@
         102068497
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_47221",
+        "eurostat:nuts_2021_id":"47221"
+    },
     "wof:coterminous":[
         1360678291
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4338f98c775fa649a5ae1094d6132394",
+    "wof:geomhash":"0960643c83aedc2fae85d2b623776b06",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404406613,
-    "wof:lastmodified":1582324447,
+    "wof:lastmodified":1684353328,
     "wof:name":"Reaup-Lisse",
     "wof:parent_id":102068497,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":606,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

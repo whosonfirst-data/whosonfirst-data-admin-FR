@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_27548",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Germain-sur-Avre",
+    "eurostat:nuts_2021_id":"27548",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD21",
+    "eurostat:nuts_2021_level_lau":"27548",
+    "eurostat:population":1177,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066462",
     "frgov:id":"BDCSURCO0000000009590257",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00067,
-    "geom:area_square_m":5458621.642159,
+    "geom:area_square_m":5458621.64216,
     "geom:bbox":"1.24085469268,48.7573394586,1.28003651872,48.7909017332",
     "geom:latitude":48.773103,
     "geom:longitude":1.262352,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683283,
         102191581,
@@ -58,7 +72,10 @@
         102069007
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_27548",
+        "eurostat:nuts_2021_id":"27548"
+    },
     "wof:coterminous":[
         101761635
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"32dfcdf854fb0135e315d9ea1d9504f8",
+    "wof:geomhash":"dcf9aabfde1132035c7294dbd748756a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404409725,
-    "wof:lastmodified":1582324476,
+    "wof:lastmodified":1684353363,
     "wof:name":"Saint-Germain-Sur-Avre",
     "wof:parent_id":102069007,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1177,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

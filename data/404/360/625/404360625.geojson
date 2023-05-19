@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_08476",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Villers-devant-le-Thour",
+    "eurostat:nuts_2021_id":"08476",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF21",
+    "eurostat:nuts_2021_level_lau":"08476",
+    "eurostat:population":419,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200043156",
     "frgov:id":"BDCSURCO0000000009584520",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.00204,
-    "geom:area_square_m":16377142.638118,
+    "geom:area_square_m":16377142.638119,
     "geom:bbox":"4.04042476637,49.4832508294,4.11925508998,49.5263957201",
     "geom:latitude":49.50452,
     "geom:longitude":4.076666,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683309,
         102191581,
@@ -58,7 +72,10 @@
         102064307
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_08476",
+        "eurostat:nuts_2021_id":"08476"
+    },
     "wof:coterminous":[
         101903137
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d6bb1442473bf595934c9dde2cc71ace",
+    "wof:geomhash":"f75c545bedc3c692e51f134e12b5c886",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404360625,
-    "wof:lastmodified":1582325053,
+    "wof:lastmodified":1684352762,
     "wof:name":"Villers-Devant-Le-Thour",
     "wof:parent_id":102064307,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":419,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_50130",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ch\u00e9renc\u00e9-le-H\u00e9ron",
+    "eurostat:nuts_2021_id":"50130",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD12",
+    "eurostat:nuts_2021_level_lau":"50130",
+    "eurostat:population":409,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200043354",
     "frgov:id":"BDCSURCO0000000009589895",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001182,
-    "geom:area_square_m":9629811.986584,
+    "geom:area_square_m":9629811.986585,
     "geom:bbox":"-1.22802850683,48.7801127949,-1.17340497659,48.8219167898",
     "geom:latitude":48.799458,
     "geom:longitude":-1.201647,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683489,
         102191581,
@@ -58,7 +72,10 @@
         102071503
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_50130",
+        "eurostat:nuts_2021_id":"50130"
+    },
     "wof:coterminous":[
         101879511
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"87947bac7feccd8c25674f6dd6f2c179",
+    "wof:geomhash":"bf782e1ca97ae62acd0eaabc5c367d14",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404405791,
-    "wof:lastmodified":1582325251,
+    "wof:lastmodified":1684353317,
     "wof:name":"Cherence-Le-Heron",
     "wof:parent_id":102071503,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":409,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

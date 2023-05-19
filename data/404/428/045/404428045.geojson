@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_30285",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Maurice-de-Cazevieille",
+    "eurostat:nuts_2021_id":"30285",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ12",
+    "eurostat:nuts_2021_level_lau":"30285",
+    "eurostat:population":727,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066918",
     "frgov:id":"BDCSURCO0000000009611554",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683431,
         102191581,
@@ -58,7 +72,10 @@
         102070825
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_30285",
+        "eurostat:nuts_2021_id":"30285"
+    },
     "wof:coterminous":[
         101895515
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e3e0dc75f7d11660f819df2aea4bf2c7",
+    "wof:geomhash":"6241036b1920edee7501a8e02dcddd89",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404428045,
-    "wof:lastmodified":1582325120,
+    "wof:lastmodified":1684353580,
     "wof:name":"Saint-Maurice-De-Cazevieille",
     "wof:parent_id":102070825,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":727,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

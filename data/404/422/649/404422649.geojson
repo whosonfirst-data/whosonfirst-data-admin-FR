@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_60376",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Maisoncelle-Saint-Pierre",
+    "eurostat:nuts_2021_id":"60376",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE22",
+    "eurostat:nuts_2021_level_lau":"60376",
+    "eurostat:population":161,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067999",
     "frgov:id":"BDCSURCO0000000009584638",
     "frgov:insee_arr":"1",
@@ -123,6 +135,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683289,
         102191581,
@@ -133,7 +147,10 @@
         102069283
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_60376",
+        "eurostat:nuts_2021_id":"60376"
+    },
     "wof:coterminous":[
         101901369
     ],
@@ -141,7 +158,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f4cf09ecd38f968abfc8c18fc2b88e82",
+    "wof:geomhash":"6d73e0accc1867fe8b5b0af6f10ee324",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -155,11 +172,13 @@
         }
     ],
     "wof:id":404422649,
-    "wof:lastmodified":1582324291,
+    "wof:lastmodified":1684353517,
     "wof:name":"Maisoncelle-Saint-Pierre",
     "wof:parent_id":102069283,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":161,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

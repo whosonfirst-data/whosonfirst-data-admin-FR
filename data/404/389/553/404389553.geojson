@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_42219",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-\u00c9tienne-le-Molard",
+    "eurostat:nuts_2021_id":"42219",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK25",
+    "eurostat:nuts_2021_level_lau":"42219",
+    "eurostat:population":1019,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200065886",
     "frgov:id":"BDCSURCO0000000009605531",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683377,
         102191581,
@@ -58,7 +72,10 @@
         102064481
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_42219",
+        "eurostat:nuts_2021_id":"42219"
+    },
     "wof:coterminous":[
         101893493
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9ba81fe1a14194b38d11c905c946cb08",
+    "wof:geomhash":"a441a98de709e2544e0460c36e529e3c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404389553,
-    "wof:lastmodified":1582325330,
+    "wof:lastmodified":1684353124,
     "wof:name":"Saint-Etienne-Le-Molard",
     "wof:parent_id":102064481,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1019,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_06115",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Antonin",
+    "eurostat:nuts_2021_id":"06115",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL03",
+    "eurostat:nuts_2021_level_lau":"06115",
+    "eurostat:population":93,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200039931",
     "frgov:id":"BDCSURCO0000000009611699",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.000714,
-    "geom:area_square_m":6357642.545319,
+    "geom:area_square_m":6357642.545318,
     "geom:bbox":"6.95291853851,43.8941056211,6.99489163733,43.9225784038",
     "geom:latitude":43.908032,
     "geom:longitude":6.976293,
@@ -90,6 +102,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683323,
         102191581,
@@ -99,7 +113,10 @@
         102067603
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_06115",
+        "eurostat:nuts_2021_id":"06115"
+    },
     "wof:coterminous":[
         1125849981
     ],
@@ -107,7 +124,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"db0351835c3d8659f8903c03e4cc8acb",
+    "wof:geomhash":"1b1d853e9dcd0c2a245f30645c378816",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -120,11 +137,13 @@
         }
     ],
     "wof:id":404351743,
-    "wof:lastmodified":1582324962,
+    "wof:lastmodified":1684352642,
     "wof:name":"Saint-Antonin",
     "wof:parent_id":102067603,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":93,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

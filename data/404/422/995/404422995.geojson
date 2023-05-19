@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_43200",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Julien-Chapteuil",
+    "eurostat:nuts_2021_id":"43200",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK13",
+    "eurostat:nuts_2021_level_lau":"43200",
+    "eurostat:population":1920,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200073401",
     "frgov:id":"BDCSURCO0000000009608316",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.00327,
-    "geom:area_square_m":28580223.083183,
+    "geom:area_square_m":28580223.083184,
     "geom:bbox":"4.04243978415,44.9923629568,4.12368355876,45.0626173313",
     "geom:latitude":45.029993,
     "geom:longitude":4.079362,
@@ -141,6 +153,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683413,
         102191581,
@@ -151,7 +165,10 @@
         102068597
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_43200",
+        "eurostat:nuts_2021_id":"43200"
+    },
     "wof:coterminous":[
         101770453
     ],
@@ -159,7 +176,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d29b5dc3dd5711054ee7403724c1e554",
+    "wof:geomhash":"5e19a972b7b9369dc28040c41e56ab17",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -173,11 +190,13 @@
         }
     ],
     "wof:id":404422995,
-    "wof:lastmodified":1582324288,
+    "wof:lastmodified":1684353522,
     "wof:name":"Saint-Julien-Chapteuil",
     "wof:parent_id":102068597,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1920,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

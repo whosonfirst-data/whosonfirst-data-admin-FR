@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_88125",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Darney-aux-Ch\u00eanes",
+    "eurostat:nuts_2021_id":"88125",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF34",
+    "eurostat:nuts_2021_level_lau":"88125",
+    "eurostat:population":63,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068559",
     "frgov:id":"BDCSURCO0000000009593593",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.0003,
-    "geom:area_square_m":2470268.916848,
+    "geom:area_square_m":2470268.916847,
     "geom:bbox":"5.79279877263,48.2734093792,5.82719070395,48.2925239232",
     "geom:latitude":48.282984,
     "geom:longitude":5.810473,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683223,
         102191581,
@@ -58,7 +72,10 @@
         102065561
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_88125",
+        "eurostat:nuts_2021_id":"88125"
+    },
     "wof:coterminous":[
         1125926519
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"fdbc21e9e9d22f838af052a0a2535f70",
+    "wof:geomhash":"1a737acefac23108e324373258715ada",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404363849,
-    "wof:lastmodified":1582324231,
+    "wof:lastmodified":1684352807,
     "wof:name":"Darney-Aux-Chenes",
     "wof:parent_id":102065561,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":63,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

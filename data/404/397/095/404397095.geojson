@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_89332",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Agnan",
+    "eurostat:nuts_2021_id":"89332",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC14",
+    "eurostat:nuts_2021_level_lau":"89332",
+    "eurostat:population":951,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248900748",
     "frgov:id":"BDCSURCO0000000009593697",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00161,
-    "geom:area_square_m":13245873.757881,
+    "geom:area_square_m":13245873.757882,
     "geom:bbox":"3.01874205897,48.2812796451,3.09273010645,48.3233195404",
     "geom:latitude":48.300929,
     "geom:longitude":3.059027,
@@ -100,6 +112,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683503,
         102191581,
@@ -110,7 +124,10 @@
         102068483
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_89332",
+        "eurostat:nuts_2021_id":"89332"
+    },
     "wof:coterminous":[
         1360677451
     ],
@@ -118,7 +135,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ca757b5d452f3a889753b4ea90f09b22",
+    "wof:geomhash":"f729b418c36fb6a25f57034ab9a4d9ce",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -132,11 +149,13 @@
         }
     ],
     "wof:id":404397095,
-    "wof:lastmodified":1582324213,
+    "wof:lastmodified":1684353214,
     "wof:name":"Saint-Agnan",
     "wof:parent_id":102068483,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":951,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_71405",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Didier-en-Bresse",
+    "eurostat:nuts_2021_id":"71405",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC13",
+    "eurostat:nuts_2021_level_lau":"71405",
+    "eurostat:population":188,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040038",
     "frgov:id":"BDCSURCO0000000009600922",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001335,
-    "geom:area_square_m":11289843.635528,
+    "geom:area_square_m":11289843.635527,
     "geom:bbox":"5.06176606501,46.8377556249,5.14950454047,46.8641661243",
     "geom:latitude":46.850697,
     "geom:longitude":5.103928,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683543,
         102191581,
@@ -58,7 +72,10 @@
         102071371
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_71405",
+        "eurostat:nuts_2021_id":"71405"
+    },
     "wof:coterminous":[
         1125809993
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"69d8294e82edf9d5f7dc265782b277fb",
+    "wof:geomhash":"5867cd056b910f7e4d19cb3e764e039d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404356057,
-    "wof:lastmodified":1582324939,
+    "wof:lastmodified":1684352699,
     "wof:name":"Saint-Didier-En-Bresse",
     "wof:parent_id":102071371,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":188,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

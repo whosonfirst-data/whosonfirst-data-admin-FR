@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_06020",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Boll\u00e8ne-V\u00e9subie",
+    "eurostat:nuts_2021_id":"06020",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL03",
+    "eurostat:nuts_2021_level_lau":"06020",
+    "eurostat:population":575,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200030195",
     "frgov:id":"BDCSURCO0000000009611483",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.003965,
-    "geom:area_square_m":35268113.937855,
+    "geom:area_square_m":35268113.937854,
     "geom:bbox":"7.31630247693,43.9671095254,7.43347209159,44.0218918438",
     "geom:latitude":43.995544,
     "geom:longitude":7.372049,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683323,
         102191581,
@@ -57,7 +71,10 @@
         102067795
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_06020",
+        "eurostat:nuts_2021_id":"06020"
+    },
     "wof:coterminous":[
         101897191
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"938e38b1ca258e21b1c69b752154ca8c",
+    "wof:geomhash":"0910523e2d172bf40f35d461f8a1c8f8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404397689,
-    "wof:lastmodified":1582324202,
+    "wof:lastmodified":1684353221,
     "wof:name":"La Bollene-Vesubie",
     "wof:parent_id":102067795,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":575,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

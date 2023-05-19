@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_19200",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-\u00c9tienne-la-Geneste",
+    "eurostat:nuts_2021_id":"19200",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI21",
+    "eurostat:nuts_2021_level_lau":"19200",
+    "eurostat:population":93,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066744",
     "frgov:id":"BDCSURCO0000000009606841",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000583,
-    "geom:area_square_m":5058932.168435,
+    "geom:area_square_m":5058932.168434,
     "geom:bbox":"2.3272768941,45.4367538837,2.36721672173,45.465628545",
     "geom:latitude":45.450538,
     "geom:longitude":2.348769,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683209,
         102191581,
@@ -58,7 +72,10 @@
         102067883
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_19200",
+        "eurostat:nuts_2021_id":"19200"
+    },
     "wof:coterminous":[
         1125810307
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"bc6223454b78decc0a489422c35293ab",
+    "wof:geomhash":"6d36bb7fc547679375aebbd59a071f53",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404413871,
-    "wof:lastmodified":1582324327,
+    "wof:lastmodified":1684353413,
     "wof:name":"Saint-Etienne-La-Geneste",
     "wof:parent_id":102067883,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":93,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_80808",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Vironchaux",
+    "eurostat:nuts_2021_id":"80808",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE23",
+    "eurostat:nuts_2021_level_lau":"80808",
+    "eurostat:population":491,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070936",
     "frgov:id":"BDCSURCO0000000009581407",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002046,
-    "geom:area_square_m":16158887.071606,
+    "geom:area_square_m":16158887.071607,
     "geom:bbox":"1.78889525214,50.274296409,1.85812149023,50.322381399",
     "geom:latitude":50.298058,
     "geom:longitude":1.826235,
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683363,
         102191581,
@@ -136,7 +150,10 @@
         102070943
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_80808",
+        "eurostat:nuts_2021_id":"80808"
+    },
     "wof:coterminous":[
         101898895
     ],
@@ -144,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"1591216088f8dda38af889a81341037e",
+    "wof:geomhash":"35d9a00c0d491bd2e759e14b7a773485",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +175,13 @@
         }
     ],
     "wof:id":404388313,
-    "wof:lastmodified":1582325483,
+    "wof:lastmodified":1684353108,
     "wof:name":"Vironchaux",
     "wof:parent_id":102070943,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":491,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

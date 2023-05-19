@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_74267",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sevrier",
+    "eurostat:nuts_2021_id":"74267",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK28",
+    "eurostat:nuts_2021_level_lau":"74267",
+    "eurostat:population":4161,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066793",
     "frgov:id":"BDCSURCO0000000009604662",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.002122,
-    "geom:area_square_m":18273152.47835,
+    "geom:area_square_m":18273152.478349,
     "geom:bbox":"6.10293877153,45.8307206855,6.1736419794,45.8834593257",
     "geom:latitude":45.855419,
     "geom:longitude":6.138234,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683227,
         102191581,
@@ -58,7 +72,10 @@
         102070245
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_74267",
+        "eurostat:nuts_2021_id":"74267"
+    },
     "wof:coterminous":[
         101768007
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ae831f53442c930ed9df9fe3fce70513",
+    "wof:geomhash":"42aaa6f9901a51d4efef62ad34fa62b8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404394665,
-    "wof:lastmodified":1582325037,
+    "wof:lastmodified":1684353187,
     "wof:name":"Sevrier",
     "wof:parent_id":102070245,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":4161,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

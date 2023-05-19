@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_07054",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Chan\u00e9ac",
+    "eurostat:nuts_2021_id":"07054",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK22",
+    "eurostat:nuts_2021_level_lau":"07054",
+    "eurostat:population":256,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041465",
     "frgov:id":"BDCSURCO0000000009608518",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001807,
-    "geom:area_square_m":15820288.178166,
+    "geom:area_square_m":15820288.178165,
     "geom:bbox":"4.26373223488,44.9080069612,4.36110445449,44.9542491556",
     "geom:latitude":44.92995,
     "geom:longitude":4.307227,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683421,
         102191581,
@@ -58,7 +72,10 @@
         102067679
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_07054",
+        "eurostat:nuts_2021_id":"07054"
+    },
     "wof:coterminous":[
         1126021799
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5a4b1b49100bb831549a45ad92329882",
+    "wof:geomhash":"e18ef2a7c95405935f4b955a3904ab58",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404347899,
-    "wof:lastmodified":1582324729,
+    "wof:lastmodified":1684352587,
     "wof:name":"Chaneac",
     "wof:parent_id":102067679,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":256,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

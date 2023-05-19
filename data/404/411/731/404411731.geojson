@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_11089",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Cenne-Monesti\u00e9s",
+    "eurostat:nuts_2021_id":"11089",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ11",
+    "eurostat:nuts_2021_level_lau":"11089",
+    "eurostat:population":401,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200035707",
     "frgov:id":"BDCSURCO0000000009614683",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683485,
         102191581,
@@ -58,7 +72,10 @@
         102065813
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_11089",
+        "eurostat:nuts_2021_id":"11089"
+    },
     "wof:coterminous":[
         1125846899
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5c18290f04dcf6ae4565ce444af3f679",
+    "wof:geomhash":"e109ecc5f651a4e675522d18d435c500",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404411731,
-    "wof:lastmodified":1582325162,
+    "wof:lastmodified":1684353386,
     "wof:name":"Cenne-Monesties",
     "wof:parent_id":102065813,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":401,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

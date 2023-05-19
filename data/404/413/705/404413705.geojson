@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_77134",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Courchamp",
+    "eurostat:nuts_2021_id":"77134",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR102",
+    "eurostat:nuts_2021_level_lau":"77134",
+    "eurostat:population":150,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200037133",
     "frgov:id":"BDCSURCO0000000009591063",
     "frgov:insee_arr":"3",
@@ -117,6 +129,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683385,
         102191581,
@@ -126,7 +140,10 @@
         102069727
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_77134",
+        "eurostat:nuts_2021_id":"77134"
+    },
     "wof:coterminous":[
         1125898967
     ],
@@ -134,7 +151,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e9a2b02e7c4f2baba1b4c405306d536b",
+    "wof:geomhash":"fcb684c95cae8fd6a590962c71295042",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -147,11 +164,13 @@
         }
     ],
     "wof:id":404413705,
-    "wof:lastmodified":1582324324,
+    "wof:lastmodified":1684353411,
     "wof:name":"Courchamp",
     "wof:parent_id":102069727,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":150,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

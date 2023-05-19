@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_47050",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Cassignas",
+    "eurostat:nuts_2021_id":"47050",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI14",
+    "eurostat:nuts_2021_level_lau":"47050",
+    "eurostat:population":125,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200023307",
     "frgov:id":"BDCSURCO0000000009610941",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000894,
-    "geom:area_square_m":7910287.560666,
+    "geom:area_square_m":7910287.560665,
     "geom:bbox":"0.751228004824,44.2851634638,0.806628641852,44.3153678287",
     "geom:latitude":44.300195,
     "geom:longitude":0.782226,
@@ -123,6 +135,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683341,
         102191581,
@@ -133,7 +147,10 @@
         102067205
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_47050",
+        "eurostat:nuts_2021_id":"47050"
+    },
     "wof:coterminous":[
         1125895633
     ],
@@ -141,7 +158,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5d512a160f55212355e3b69a7f3d13fa",
+    "wof:geomhash":"99223ef1b282eb1700506b6f7b0f0dd5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -155,11 +172,13 @@
         }
     ],
     "wof:id":404404145,
-    "wof:lastmodified":1582325309,
+    "wof:lastmodified":1684353297,
     "wof:name":"Cassignas",
     "wof:parent_id":102067205,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":125,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

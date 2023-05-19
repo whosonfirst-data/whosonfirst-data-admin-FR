@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_35259",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Broladre",
+    "eurostat:nuts_2021_id":"35259",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH03",
+    "eurostat:nuts_2021_level_lau":"35259",
+    "eurostat:population":1132,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070670",
     "frgov:id":"BDCSURCO0000000009591704",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BRETAGNE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00295,
-    "geom:area_square_m":24128762.15272,
+    "geom:area_square_m":24128762.152722,
     "geom:bbox":"-1.69859640885,48.54218053,-1.62886142553,48.6147259761",
     "geom:latitude":48.580094,
     "geom:longitude":-1.661029,
@@ -132,6 +144,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683461,
         102191581,
@@ -141,7 +155,10 @@
         102069219
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_35259",
+        "eurostat:nuts_2021_id":"35259"
+    },
     "wof:coterminous":[
         101877359
     ],
@@ -149,7 +166,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"15cd46192c8606f641215e8da9b19121",
+    "wof:geomhash":"34e5e009f2f4fafe5af475771f1f4f11",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -162,11 +179,13 @@
         }
     ],
     "wof:id":404384339,
-    "wof:lastmodified":1582324613,
+    "wof:lastmodified":1684353063,
     "wof:name":"Saint-Broladre",
     "wof:parent_id":102069219,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1132,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_70462",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Ferjeux",
+    "eurostat:nuts_2021_id":"70462",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC23",
+    "eurostat:nuts_2021_level_lau":"70462",
+    "eurostat:population":78,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247000714",
     "frgov:id":"BDCSURCO0000000009597662",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000211,
-    "geom:area_square_m":1757234.448114,
+    "geom:area_square_m":1757234.448113,
     "geom:bbox":"6.49321124137,47.5401667898,6.51877904972,47.5521213222",
     "geom:latitude":47.545983,
     "geom:longitude":6.507201,
@@ -120,6 +132,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683559,
         102191581,
@@ -130,7 +144,10 @@
         102069295
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_70462",
+        "eurostat:nuts_2021_id":"70462"
+    },
     "wof:coterminous":[
         1125844273
     ],
@@ -138,7 +155,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"76946ce2cbcb8f1283f582954913fe8d",
+    "wof:geomhash":"af31cc4dfe52fac6368419c18380a3d1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -152,11 +169,13 @@
         }
     ],
     "wof:id":404392117,
-    "wof:lastmodified":1582324814,
+    "wof:lastmodified":1684353157,
     "wof:name":"Saint-Ferjeux",
     "wof:parent_id":102069295,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":78,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

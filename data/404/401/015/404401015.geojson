@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_57237",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Fr\u00e9mestroff",
+    "eurostat:nuts_2021_id":"57237",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF33",
+    "eurostat:nuts_2021_level_lau":"57237",
+    "eurostat:population":301,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067502",
     "frgov:id":"BDCSURCO0000000009587484",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683271,
         102191581,
@@ -58,7 +72,10 @@
         102066941
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_57237",
+        "eurostat:nuts_2021_id":"57237"
+    },
     "wof:coterminous":[
         1175611843
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8e454b7f68b0718383d25b7bc16a65bf",
+    "wof:geomhash":"e109f64fe2a873cc7f5d29c1b81a4dc8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404401015,
-    "wof:lastmodified":1582324422,
+    "wof:lastmodified":1684353261,
     "wof:name":"Fremestroff",
     "wof:parent_id":102066941,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":301,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

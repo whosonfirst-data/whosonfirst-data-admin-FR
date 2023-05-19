@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_21542",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Bernard",
+    "eurostat:nuts_2021_id":"21542",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC11",
+    "eurostat:nuts_2021_level_lau":"21542",
+    "eurostat:population":453,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070894",
     "frgov:id":"BDCSURCO0000000009599719",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000436,
-    "geom:area_square_m":3668721.833752,
+    "geom:area_square_m":3668721.833754,
     "geom:bbox":"5.01016857563,47.1447357514,5.04644814917,47.1735872821",
     "geom:latitude":47.159606,
     "geom:longitude":5.023517,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683563,
         102191581,
@@ -56,7 +70,10 @@
         102068705
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_21542",
+        "eurostat:nuts_2021_id":"21542"
+    },
     "wof:coterminous":[
         1360678403
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"475de59a0676413fc897f4888fac7191",
+    "wof:geomhash":"d5caaa53c0d819a329075fed30637ffb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404407901,
-    "wof:lastmodified":1582324487,
+    "wof:lastmodified":1684353342,
     "wof:name":"Saint-Bernard",
     "wof:parent_id":102068705,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":453,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

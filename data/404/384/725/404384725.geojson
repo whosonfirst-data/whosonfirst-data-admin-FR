@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_24426",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Jean-d'Estissac",
+    "eurostat:nuts_2021_id":"24426",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI11",
+    "eurostat:nuts_2021_level_lau":"24426",
+    "eurostat:population":177,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069094",
     "frgov:id":"BDCSURCO0000000009608201",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001474,
-    "geom:area_square_m":12881643.543801,
+    "geom:area_square_m":12881643.543802,
     "geom:bbox":"0.473692917973,45.018153459,0.533763194187,45.0565222938",
     "geom:latitude":45.037295,
     "geom:longitude":0.504583,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683331,
         102191581,
@@ -56,7 +70,10 @@
         102071347
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_24426",
+        "eurostat:nuts_2021_id":"24426"
+    },
     "wof:coterminous":[
         1360676249
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c3f6dbc1fccda45731ebd2afdb291965",
+    "wof:geomhash":"f0c4a30d25281efe9fa9d1288923fd71",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404384725,
-    "wof:lastmodified":1582324617,
+    "wof:lastmodified":1684353068,
     "wof:name":"Saint-Jean-D'Estissac",
     "wof:parent_id":102071347,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":177,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

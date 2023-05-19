@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_14603",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Laurent-de-Condel",
+    "eurostat:nuts_2021_id":"14603",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD11",
+    "eurostat:nuts_2021_level_lau":"14603",
+    "eurostat:population":501,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066710",
     "frgov:id":"BDCSURCO0000000009587870",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001529,
-    "geom:area_square_m":12394176.827798,
+    "geom:area_square_m":12394176.827799,
     "geom:bbox":"-0.423604473799,49.0071826934,-0.35302311345,49.0533556522",
     "geom:latitude":49.02613,
     "geom:longitude":-0.394797,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683579,
         102191581,
@@ -58,7 +72,10 @@
         102065515
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_14603",
+        "eurostat:nuts_2021_id":"14603"
+    },
     "wof:coterminous":[
         1126002975
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a26dacb447def9ff89044331e13b4a76",
+    "wof:geomhash":"2d0438f2c5c1df0a71fd4bfe20f98cb3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404371245,
-    "wof:lastmodified":1582324646,
+    "wof:lastmodified":1684352904,
     "wof:name":"Saint-Laurent-De-Condel",
     "wof:parent_id":102065515,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":501,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_18149",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"M\u00e9ry-\u00e8s-Bois",
+    "eurostat:nuts_2021_id":"18149",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB01",
+    "eurostat:nuts_2021_level_lau":"18149",
+    "eurostat:population":577,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200000933",
     "frgov:id":"BDCSURCO0000000009599533",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.010879,
-    "geom:area_square_m":91211142.687256,
+    "geom:area_square_m":91211142.687257,
     "geom:bbox":"2.31782469105,47.2444859541,2.44573729979,47.3650047507",
     "geom:latitude":47.308641,
     "geom:longitude":2.378834,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683549,
         102191581,
@@ -57,7 +71,10 @@
         102065365
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_18149",
+        "eurostat:nuts_2021_id":"18149"
+    },
     "wof:coterminous":[
         101887597
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"05216182c95f62bf1b494bdb0e8b93ed",
+    "wof:geomhash":"5b3f182cfe4f567b636169a80bb3796b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404412919,
-    "wof:lastmodified":1582324384,
+    "wof:lastmodified":1684353400,
     "wof:name":"Mery-Es-Bois",
     "wof:parent_id":102065365,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":577,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

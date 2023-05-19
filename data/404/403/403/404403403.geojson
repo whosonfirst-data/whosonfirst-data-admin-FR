@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_80709",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Maulvis",
+    "eurostat:nuts_2021_id":"80709",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE23",
+    "eurostat:nuts_2021_level_lau":"80709",
+    "eurostat:population":267,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071181",
     "frgov:id":"BDCSURCO0000000009582532",
     "frgov:insee_arr":"2",
@@ -135,6 +147,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683363,
         102191581,
@@ -145,7 +159,10 @@
         102070113
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_80709",
+        "eurostat:nuts_2021_id":"80709"
+    },
     "wof:coterminous":[
         101900779
     ],
@@ -153,7 +170,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8bd54bfc0dde8e040a142b615f902fe2",
+    "wof:geomhash":"b724a54544084a19b64c2b2de7cfc7fb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -167,11 +184,13 @@
         }
     ],
     "wof:id":404403403,
-    "wof:lastmodified":1582325301,
+    "wof:lastmodified":1684353288,
     "wof:name":"Saint-Maulvis",
     "wof:parent_id":102070113,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":267,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

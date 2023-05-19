@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_22280",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Carn\u00e9",
+    "eurostat:nuts_2021_id":"22280",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH01",
+    "eurostat:nuts_2021_level_lau":"22280",
+    "eurostat:population":998,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068989",
     "frgov:id":"BDCSURCO0000000009592631",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BRETAGNE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001041,
-    "geom:area_square_m":8540687.53692,
+    "geom:area_square_m":8540687.536919,
     "geom:bbox":"-2.07993037063,48.4034089134,-2.02344350707,48.4348631805",
     "geom:latitude":48.419177,
     "geom:longitude":-2.055073,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683515,
         102191581,
@@ -57,7 +71,10 @@
         102066415
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_22280",
+        "eurostat:nuts_2021_id":"22280"
+    },
     "wof:coterminous":[
         101880353
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"92b7ae7e796d9b48b016ae5a01a671ef",
+    "wof:geomhash":"472c6c1b69dd29b9de5fa5d021ce828d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404406677,
-    "wof:lastmodified":1582324449,
+    "wof:lastmodified":1684353328,
     "wof:name":"Saint-Carne",
     "wof:parent_id":102066415,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":998,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

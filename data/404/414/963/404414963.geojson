@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_82152",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Aignan",
+    "eurostat:nuts_2021_id":"82152",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ28",
+    "eurostat:nuts_2021_level_lau":"82152",
+    "eurostat:population":405,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066322",
     "frgov:id":"BDCSURCO0000000009611855",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000367,
-    "geom:area_square_m":3260450.631136,
+    "geom:area_square_m":3260450.631137,
     "geom:bbox":"1.05707158598,44.004573404,1.0911811264,44.0382392376",
     "geom:latitude":44.021054,
     "geom:longitude":1.07288,
@@ -97,6 +109,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683217,
         102191581,
@@ -107,7 +121,10 @@
         102068179
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_82152",
+        "eurostat:nuts_2021_id":"82152"
+    },
     "wof:coterminous":[
         1360679169
     ],
@@ -115,7 +132,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"32de4aaaf90e4a352931150ae13125cd",
+    "wof:geomhash":"4712950688d8fa790daf69031ce689bd",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -129,11 +146,13 @@
         }
     ],
     "wof:id":404414963,
-    "wof:lastmodified":1582324335,
+    "wof:lastmodified":1684353425,
     "wof:name":"Saint-Aignan",
     "wof:parent_id":102068179,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":405,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

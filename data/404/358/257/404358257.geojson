@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_83079",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"M\u00f4le",
+    "eurostat:nuts_2021_id":"83079",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL05",
+    "eurostat:nuts_2021_level_lau":"83079",
+    "eurostat:population":1432,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200036077",
     "frgov:id":"BDCSURCO0000000009614862",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.00511,
-    "geom:area_square_m":46051096.973787,
+    "geom:area_square_m":46051096.973786,
     "geom:bbox":"6.44207144602,43.168791844,6.52443153775,43.271337863",
     "geom:latitude":43.21599,
     "geom:longitude":6.476368,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683315,
         102191581,
@@ -57,7 +71,10 @@
         102068367
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_83079",
+        "eurostat:nuts_2021_id":"83079"
+    },
     "wof:coterminous":[
         1126004115
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9e62f05a1c0f8d9ed789181f420b861b",
+    "wof:geomhash":"3ada39c81518fb80d07ae9d7f815f106",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404358257,
-    "wof:lastmodified":1582324971,
+    "wof:lastmodified":1684352729,
     "wof:name":"La Mole",
     "wof:parent_id":102068367,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1432,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

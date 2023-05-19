@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_24476",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Pantaly-d'Excideuil",
+    "eurostat:nuts_2021_id":"24476",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI11",
+    "eurostat:nuts_2021_level_lau":"24476",
+    "eurostat:population":150,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242401024",
     "frgov:id":"BDCSURCO0000000009607350",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001016,
-    "geom:area_square_m":8835050.742859,
+    "geom:area_square_m":8835050.74286,
     "geom:bbox":"0.987943967417,45.2909002072,1.03745454819,45.3312929145",
     "geom:latitude":45.311886,
     "geom:longitude":1.012103,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683331,
         102191581,
@@ -56,7 +70,10 @@
         102066347
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_24476",
+        "eurostat:nuts_2021_id":"24476"
+    },
     "wof:coterminous":[
         1360677793
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b6cfbca4720db0e7993905c4ccc682a1",
+    "wof:geomhash":"0d10bdfc6910f940ed7ba9d391dc2f43",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404401449,
-    "wof:lastmodified":1582324422,
+    "wof:lastmodified":1684353266,
     "wof:name":"Saint-Pantaly-D'Excideuil",
     "wof:parent_id":102066347,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":150,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_39573",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Villette-l\u00e8s-Dole",
+    "eurostat:nuts_2021_id":"39573",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC22",
+    "eurostat:nuts_2021_level_lau":"39573",
+    "eurostat:population":771,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200010650",
     "frgov:id":"BDCSURCO0000000009600204",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683173,
         102191581,
@@ -58,7 +72,10 @@
         102066609
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_39573",
+        "eurostat:nuts_2021_id":"39573"
+    },
     "wof:coterminous":[
         1125833981
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f0dd15488a8644ec7c5dd4eb93328ede",
+    "wof:geomhash":"e9a288cf99e9018c43a971019b41f4e3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404394467,
-    "wof:lastmodified":1582325036,
+    "wof:lastmodified":1684353185,
     "wof:name":"Villette-Les-Dole",
     "wof:parent_id":102066609,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":771,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

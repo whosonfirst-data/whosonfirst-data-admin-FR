@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_04051",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ch\u00e2teauneuf-Miravail",
+    "eurostat:nuts_2021_id":"04051",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL01",
+    "eurostat:nuts_2021_level_lau":"04051",
+    "eurostat:population":69,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071033",
     "frgov:id":"BDCSURCO0000000009611168",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.002208,
-    "geom:area_square_m":19587269.013072,
+    "geom:area_square_m":19587269.013074,
     "geom:bbox":"5.6776436052,44.1281578507,5.7507350774,44.1758483305",
     "geom:latitude":44.153253,
     "geom:longitude":5.717601,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683509,
         102191581,
@@ -57,7 +71,10 @@
         102067735
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_04051",
+        "eurostat:nuts_2021_id":"04051"
+    },
     "wof:coterminous":[
         1125897405
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"20d623134cfa70514ac1e5db06303225",
+    "wof:geomhash":"ae0821b93ba12c440000d9921d77b5a3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404388881,
-    "wof:lastmodified":1582325479,
+    "wof:lastmodified":1684353115,
     "wof:name":"Chateauneuf-Miravail",
     "wof:parent_id":102067735,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":69,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

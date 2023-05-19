@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_17356",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Loup",
+    "eurostat:nuts_2021_id":"17356",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI32",
+    "eurostat:nuts_2021_level_lau":"17356",
+    "eurostat:population":303,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041689",
     "frgov:id":"BDCSURCO0000000009604364",
     "frgov:insee_arr":"5",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001931,
-    "geom:area_square_m":16582891.808267,
+    "geom:area_square_m":16582891.808268,
     "geom:bbox":"-0.681828399107,45.975366192,-0.602077271118,46.0181571052",
     "geom:latitude":45.9998,
     "geom:longitude":-0.647845,
@@ -103,6 +115,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683275,
         102191581,
@@ -113,7 +127,10 @@
         102070915
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_17356",
+        "eurostat:nuts_2021_id":"17356"
+    },
     "wof:coterminous":[
         1360680269
     ],
@@ -121,7 +138,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"cca4423c0137d57a16a716df5dd123b5",
+    "wof:geomhash":"6fb9234a236d03e67a48c958d6e394c0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -135,11 +152,13 @@
         }
     ],
     "wof:id":404426947,
-    "wof:lastmodified":1582325085,
+    "wof:lastmodified":1684353567,
     "wof:name":"Saint-Loup",
     "wof:parent_id":102070915,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":303,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

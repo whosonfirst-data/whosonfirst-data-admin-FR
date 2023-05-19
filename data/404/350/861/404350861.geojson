@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_37205",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sach\u00e9",
+    "eurostat:nuts_2021_id":"37205",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB04",
+    "eurostat:nuts_2021_level_lau":"37205",
+    "eurostat:population":1392,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072650",
     "frgov:id":"BDCSURCO0000000009599569",
     "frgov:insee_arr":"2",
@@ -54,6 +66,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683575,
         102191581,
@@ -63,7 +77,10 @@
         102064475
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_37205",
+        "eurostat:nuts_2021_id":"37205"
+    },
     "wof:coterminous":[
         1125879569
     ],
@@ -71,7 +88,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"bdd88f5b0850ef8c8dab8f7b4a1efea5",
+    "wof:geomhash":"2b9264bec0ae4f6646ce274e7c901ac4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -84,11 +101,13 @@
         }
     ],
     "wof:id":404350861,
-    "wof:lastmodified":1582324849,
+    "wof:lastmodified":1684352629,
     "wof:name":"Sache",
     "wof:parent_id":102064475,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1392,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

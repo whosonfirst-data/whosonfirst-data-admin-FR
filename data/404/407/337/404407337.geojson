@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_02543",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Neuilly-Saint-Front",
+    "eurostat:nuts_2021_id":"02543",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE21",
+    "eurostat:nuts_2021_level_lau":"02543",
+    "eurostat:population":2078,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072031",
     "frgov:id":"BDCSURCO0000000009587136",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002218,
-    "geom:area_square_m":17930349.58182,
+    "geom:area_square_m":17930349.581819,
     "geom:bbox":"3.23692196919,49.1352692087,3.29601418931,49.1945297855",
     "geom:latitude":49.162831,
     "geom:longitude":3.264283,
@@ -144,6 +156,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683247,
         102191581,
@@ -154,7 +168,10 @@
         102068323
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_02543",
+        "eurostat:nuts_2021_id":"02543"
+    },
     "wof:coterminous":[
         101761701
     ],
@@ -162,7 +179,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"84569427f4dd33a02a791852c4e8ae8d",
+    "wof:geomhash":"ba8e2918cffd21bac88e4f2fda994bdf",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -176,11 +193,13 @@
         }
     ],
     "wof:id":404407337,
-    "wof:lastmodified":1582324488,
+    "wof:lastmodified":1684353336,
     "wof:name":"Neuilly-Saint-Front",
     "wof:parent_id":102068323,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2078,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

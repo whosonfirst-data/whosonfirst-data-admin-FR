@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_77101",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ch\u00e2tenay-sur-Seine",
+    "eurostat:nuts_2021_id":"77101",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR102",
+    "eurostat:nuts_2021_level_lau":"77101",
+    "eurostat:population":1024,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040251",
     "frgov:id":"BDCSURCO0000000009592888",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683385,
         102191581,
@@ -57,7 +71,10 @@
         102066177
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_77101",
+        "eurostat:nuts_2021_id":"77101"
+    },
     "wof:coterminous":[
         101883677
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e473bb94955e20bcde85a9baa427c6b8",
+    "wof:geomhash":"cd2982276c2104aeace097efd945abc3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404415849,
-    "wof:lastmodified":1582324362,
+    "wof:lastmodified":1684353435,
     "wof:name":"Chatenay-Sur-Seine",
     "wof:parent_id":102066177,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1024,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

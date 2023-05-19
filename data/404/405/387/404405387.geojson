@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_72127",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"\u00c9tival-l\u00e8s-le-Mans",
+    "eurostat:nuts_2021_id":"72127",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG04",
+    "eurostat:nuts_2021_level_lau":"72127",
+    "eurostat:population":1939,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247200629",
     "frgov:id":"BDCSURCO0000000009595842",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001248,
-    "geom:area_square_m":10336585.467393,
+    "geom:area_square_m":10336585.467392,
     "geom:bbox":"0.0391607978225,47.944086734,0.117620662227,47.9840400798",
     "geom:latitude":47.963418,
     "geom:longitude":0.076642,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683279,
         102191581,
@@ -57,7 +71,10 @@
         102069957
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_72127",
+        "eurostat:nuts_2021_id":"72127"
+    },
     "wof:coterminous":[
         101763367
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"dbc2f4164b8434a66ea31b2c43b39178",
+    "wof:geomhash":"0f8e3e3e69b4258f490fa19b743f7e70",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404405387,
-    "wof:lastmodified":1582325267,
+    "wof:lastmodified":1684353311,
     "wof:name":"Etival-Les-Le-Mans",
     "wof:parent_id":102069957,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1939,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

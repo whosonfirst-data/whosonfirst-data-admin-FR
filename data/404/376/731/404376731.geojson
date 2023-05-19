@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_07066",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Chom\u00e9rac",
+    "eurostat:nuts_2021_id":"07066",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK22",
+    "eurostat:nuts_2021_level_lau":"07066",
+    "eurostat:population":3030,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071413",
     "frgov:id":"BDCSURCO0000000009609400",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.002205,
-    "geom:area_square_m":19380232.174569,
+    "geom:area_square_m":19380232.174571,
     "geom:bbox":"4.64060595734,44.6793263665,4.69585040093,44.7433629487",
     "geom:latitude":44.709968,
     "geom:longitude":4.670009,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683421,
         102191581,
@@ -58,7 +72,10 @@
         102065507
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_07066",
+        "eurostat:nuts_2021_id":"07066"
+    },
     "wof:coterminous":[
         101771815
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"aff3089b4a685a4d6f5efc653cb00f53",
+    "wof:geomhash":"c5f51023833c7ad0f42bd96c0283df2d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404376731,
-    "wof:lastmodified":1582324662,
+    "wof:lastmodified":1684352972,
     "wof:name":"Chomerac",
     "wof:parent_id":102065507,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3030,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

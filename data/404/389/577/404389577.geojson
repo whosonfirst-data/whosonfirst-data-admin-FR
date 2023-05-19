@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_77402",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Barth\u00e9lemy",
+    "eurostat:nuts_2021_id":"77402",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR102",
+    "eurostat:nuts_2021_level_lau":"77402",
+    "eurostat:population":329,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072544",
     "frgov:id":"BDCSURCO0000000009590148",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"ILE-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001833,
-    "geom:area_square_m":14919459.359755,
+    "geom:area_square_m":14919459.359753,
     "geom:bbox":"3.32241511172,48.7957277157,3.39827140093,48.8400204047",
     "geom:latitude":48.820443,
     "geom:longitude":3.364455,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683385,
         102191581,
@@ -57,7 +71,10 @@
         102066373
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_77402",
+        "eurostat:nuts_2021_id":"77402"
+    },
     "wof:coterminous":[
         101880965
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a7cf1b5daf5f3feabdf46e041bceecd4",
+    "wof:geomhash":"922bfe974241d498adf7ebaf5d9ac196",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404389577,
-    "wof:lastmodified":1582325336,
+    "wof:lastmodified":1684353124,
     "wof:name":"Saint-Barthelemy",
     "wof:parent_id":102066373,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":329,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_24509",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Vincent-de-Connezac",
+    "eurostat:nuts_2021_id":"24509",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI11",
+    "eurostat:nuts_2021_level_lau":"24509",
+    "eurostat:population":662,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040400",
     "frgov:id":"BDCSURCO0000000009607801",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001707,
-    "geom:area_square_m":14879398.613971,
+    "geom:area_square_m":14879398.613972,
     "geom:bbox":"0.355580929431,45.1307420972,0.434720450507,45.1968550339",
     "geom:latitude":45.165762,
     "geom:longitude":0.392861,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683331,
         102191581,
@@ -58,7 +72,10 @@
         102069003
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_24509",
+        "eurostat:nuts_2021_id":"24509"
+    },
     "wof:coterminous":[
         101895011
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"da9b3d6a8dd16377f2d2bdd03ad7cb73",
+    "wof:geomhash":"42f6212ed27925c86251bfe7959a5c24",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404349339,
-    "wof:lastmodified":1582324700,
+    "wof:lastmodified":1684352607,
     "wof:name":"Saint-Vincent-De-Connezac",
     "wof:parent_id":102069003,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":662,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

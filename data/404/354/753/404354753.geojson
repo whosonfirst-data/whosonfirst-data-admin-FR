@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_80106",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Blangy-sous-Poix",
+    "eurostat:nuts_2021_id":"80106",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE23",
+    "eurostat:nuts_2021_level_lau":"80106",
+    "eurostat:population":181,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071181",
     "frgov:id":"BDCSURCO0000000009583003",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001007,
-    "geom:area_square_m":8045847.286864,
+    "geom:area_square_m":8045847.286865,
     "geom:bbox":"1.9779560687,49.7479592766,2.03084119904,49.7873919785",
     "geom:latitude":49.766154,
     "geom:longitude":2.004465,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683363,
         102191581,
@@ -58,7 +72,10 @@
         102070551
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_80106",
+        "eurostat:nuts_2021_id":"80106"
+    },
     "wof:coterminous":[
         101900939
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"53bb42b16cd65bae20395eb20548ad86",
+    "wof:geomhash":"058bdc06c92665fa6f9155ee642a50c3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404354753,
-    "wof:lastmodified":1582324084,
+    "wof:lastmodified":1684352682,
     "wof:name":"Blangy-Sous-Poix",
     "wof:parent_id":102070551,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":181,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

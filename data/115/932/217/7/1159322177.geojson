@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_61214",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Aigle",
+    "eurostat:nuts_2021_id":"61214",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD13",
+    "eurostat:nuts_2021_level_lau":"61214",
+    "eurostat:population":8090,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068468",
     "frgov:id":"BDCSURCO0000000009590740",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002257,
-    "geom:area_square_m":18400081.404356,
+    "geom:area_square_m":18400081.404355,
     "geom:bbox":"0.575951,48.725503,0.647243,48.787333",
     "geom:latitude":48.756012,
     "geom:longitude":0.611222,
@@ -135,24 +147,30 @@
     "reversegeo:longitude":0.616622,
     "src:geom":"frgov",
     "src:geom_alt":[],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85683527,
         102191581,
         85633147,
-        102072355,
-        136253037,
         404228129,
         1108826393,
-        85683527
+        136253037,
+        102072355
     ],
     "wof:breaches":[],
     "wof:concordance":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_61214",
+        "eurostat:nuts_2021_id":"61214"
+    },
     "wof:coterminous":[
         101762579,
         102072355
     ],
     "wof:country":"FR",
     "wof:created":1526510290,
-    "wof:geomhash":"abf6f322c8a3425e4e4d0fbc9cddbea4",
+    "wof:geomhash":"8dccc72201281fe8210d3dee9d673ad9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -166,11 +184,13 @@
         }
     ],
     "wof:id":1159322177,
-    "wof:lastmodified":1608039567,
+    "wof:lastmodified":1684353598,
     "wof:name":"L'Aigle",
     "wof:parent_id":102072355,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":8090,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded":[],
     "wof:superseded_by":[],

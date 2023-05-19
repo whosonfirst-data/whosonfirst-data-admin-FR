@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_51245",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Faverolles-et-Co\u00ebmy",
+    "eurostat:nuts_2021_id":"51245",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF23",
+    "eurostat:nuts_2021_level_lau":"51245",
+    "eurostat:population":566,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067213",
     "frgov:id":"BDCSURCO0000000009586145",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.000685,
-    "geom:area_square_m":5534381.476234,
+    "geom:area_square_m":5534381.476233,
     "geom:bbox":"3.76070561438,49.2168502892,3.8135675069,49.2488096738",
     "geom:latitude":49.233148,
     "geom:longitude":3.791643,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683405,
         102191581,
@@ -58,7 +72,10 @@
         102070033
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_51245",
+        "eurostat:nuts_2021_id":"51245"
+    },
     "wof:coterminous":[
         101878663
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d3d3880d2708e6f20d1c2cc93a4357e9",
+    "wof:geomhash":"96c3d3d4fceae34859e269ae2a7ceac6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404418561,
-    "wof:lastmodified":1582325216,
+    "wof:lastmodified":1684353466,
     "wof:name":"Faverolles-Et-Coemy",
     "wof:parent_id":102070033,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":566,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

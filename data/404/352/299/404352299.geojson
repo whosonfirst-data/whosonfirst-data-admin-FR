@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_70135",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Charmes-Saint-Valbert",
+    "eurostat:nuts_2021_id":"70135",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC23",
+    "eurostat:nuts_2021_level_lau":"70135",
+    "eurostat:population":38,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200036150",
     "frgov:id":"BDCSURCO0000000009596704",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000619,
-    "geom:area_square_m":5151603.978366,
+    "geom:area_square_m":5151603.978365,
     "geom:bbox":"5.68868720807,47.7182675413,5.72677639618,47.7449476511",
     "geom:latitude":47.731431,
     "geom:longitude":5.708389,
@@ -117,6 +129,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683559,
         102191581,
@@ -127,7 +141,10 @@
         102069517
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_70135",
+        "eurostat:nuts_2021_id":"70135"
+    },
     "wof:coterminous":[
         1126043411
     ],
@@ -135,7 +152,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f29b4727959401703faa304f69055e0a",
+    "wof:geomhash":"29990ec910756369a3d89126d0d05427",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -149,11 +166,13 @@
         }
     ],
     "wof:id":404352299,
-    "wof:lastmodified":1582324176,
+    "wof:lastmodified":1684352649,
     "wof:name":"Charmes-Saint-Valbert",
     "wof:parent_id":102069517,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":38,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

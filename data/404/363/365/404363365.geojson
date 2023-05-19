@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_43216",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Paulien",
+    "eurostat:nuts_2021_id":"43216",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK13",
+    "eurostat:nuts_2021_level_lau":"43216",
+    "eurostat:population":2416,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200073419",
     "frgov:id":"BDCSURCO0000000009607909",
     "frgov:insee_arr":"2",
@@ -135,6 +147,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683413,
         102191581,
@@ -145,7 +159,10 @@
         102068761
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_43216",
+        "eurostat:nuts_2021_id":"43216"
+    },
     "wof:coterminous":[
         101770445
     ],
@@ -153,7 +170,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7a15abb0d70c0de074c34523032ce620",
+    "wof:geomhash":"07a83ff1b33f9d49a9e861b0ca51a698",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -167,11 +184,13 @@
         }
     ],
     "wof:id":404363365,
-    "wof:lastmodified":1582324218,
+    "wof:lastmodified":1684352800,
     "wof:name":"Saint-Paulien",
     "wof:parent_id":102068761,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2416,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

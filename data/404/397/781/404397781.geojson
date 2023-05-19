@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_14575",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-\u00c9tienne-la-Thillaye",
+    "eurostat:nuts_2021_id":"14575",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD11",
+    "eurostat:nuts_2021_level_lau":"14575",
+    "eurostat:population":414,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"241400878",
     "frgov:id":"BDCSURCO0000000009585889",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683579,
         102191581,
@@ -58,7 +72,10 @@
         102069373
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_14575",
+        "eurostat:nuts_2021_id":"14575"
+    },
     "wof:coterminous":[
         101877829
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"bca733db0252eaaf8b711fa1446ccb37",
+    "wof:geomhash":"bde1ab0eaf76bff1d64e5a4523f35470",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404397781,
-    "wof:lastmodified":1582324215,
+    "wof:lastmodified":1684353222,
     "wof:name":"Saint-Etienne-La-Thillaye",
     "wof:parent_id":102069373,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":414,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

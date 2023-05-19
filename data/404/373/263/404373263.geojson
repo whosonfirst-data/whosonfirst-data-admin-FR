@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_78147",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Chaufour-l\u00e8s-Bonni\u00e8res",
+    "eurostat:nuts_2021_id":"78147",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR103",
+    "eurostat:nuts_2021_level_lau":"78147",
+    "eurostat:population":471,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071074",
     "frgov:id":"BDCSURCO0000000009588265",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"ILE-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00037,
-    "geom:area_square_m":2999762.692574,
+    "geom:area_square_m":2999762.692573,
     "geom:bbox":"1.47183816176,49.004738629,1.49679045889,49.0277055571",
     "geom:latitude":49.015917,
     "geom:longitude":1.485351,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683367,
         102191581,
@@ -55,7 +69,10 @@
         102064521
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_78147",
+        "eurostat:nuts_2021_id":"78147"
+    },
     "wof:coterminous":[
         1360675099
     ],
@@ -63,7 +80,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"155c36a0a0293110624b240d44147187",
+    "wof:geomhash":"8060974f21b27ca2c9cc83929c67995d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -76,11 +93,13 @@
         }
     ],
     "wof:id":404373263,
-    "wof:lastmodified":1582325351,
+    "wof:lastmodified":1684352927,
     "wof:name":"Chaufour-Les-Bonnieres",
     "wof:parent_id":102064521,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":471,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

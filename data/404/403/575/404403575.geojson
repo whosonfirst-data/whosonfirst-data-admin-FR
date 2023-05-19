@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_02210",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Cond\u00e9-sur-Aisne",
+    "eurostat:nuts_2021_id":"02210",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE21",
+    "eurostat:nuts_2021_level_lau":"02210",
+    "eurostat:population":360,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240200501",
     "frgov:id":"BDCSURCO0000000009584922",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000474,
-    "geom:area_square_m":3816919.858049,
+    "geom:area_square_m":3816919.858048,
     "geom:bbox":"3.45343025516,49.3876805879,3.48340382802,49.4148831016",
     "geom:latitude":49.400419,
     "geom:longitude":3.466003,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683247,
         102191581,
@@ -58,7 +72,10 @@
         102070195
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_02210",
+        "eurostat:nuts_2021_id":"02210"
+    },
     "wof:coterminous":[
         1175611789
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"877fb641cbe9a3817a0407327a7b9064",
+    "wof:geomhash":"de22901c59c92eec5dd0f55be59fa65c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404403575,
-    "wof:lastmodified":1582325294,
+    "wof:lastmodified":1684353290,
     "wof:name":"Conde-Sur-Aisne",
     "wof:parent_id":102070195,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":360,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_15063",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Drugeac",
+    "eurostat:nuts_2021_id":"15063",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK12",
+    "eurostat:nuts_2021_level_lau":"15063",
+    "eurostat:population":349,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"241500271",
     "frgov:id":"BDCSURCO0000000009607951",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.002094,
-    "geom:area_square_m":18259927.200304,
+    "geom:area_square_m":18259927.200305,
     "geom:bbox":"2.34710623793,45.1339762383,2.4229191265,45.1861620009",
     "geom:latitude":45.162392,
     "geom:longitude":2.388918,
@@ -132,6 +144,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683517,
         102191581,
@@ -142,7 +156,10 @@
         102065891
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_15063",
+        "eurostat:nuts_2021_id":"15063"
+    },
     "wof:coterminous":[
         101894503
     ],
@@ -150,7 +167,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"56ad12efb3eb923b5fd0c26194b99df9",
+    "wof:geomhash":"562d4ea05199ce5531cb1702a66a17fc",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -164,11 +181,13 @@
         }
     ],
     "wof:id":404355389,
-    "wof:lastmodified":1582324197,
+    "wof:lastmodified":1684352691,
     "wof:name":"Drugeac",
     "wof:parent_id":102065891,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":349,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

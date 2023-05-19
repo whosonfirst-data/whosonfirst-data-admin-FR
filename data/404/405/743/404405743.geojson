@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_19119",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lostanges",
+    "eurostat:nuts_2021_id":"19119",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI21",
+    "eurostat:nuts_2021_level_lau":"19119",
+    "eurostat:population":139,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066769",
     "frgov:id":"BDCSURCO0000000009608165",
     "frgov:insee_arr":"1",
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683209,
         102191581,
@@ -139,7 +153,10 @@
         102067565
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_19119",
+        "eurostat:nuts_2021_id":"19119"
+    },
     "wof:coterminous":[
         1125780335
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"07d5097c1e2788e33d1d7a9218167243",
+    "wof:geomhash":"1d34242ccbb4ae636cb96a65f0febda8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404405743,
-    "wof:lastmodified":1582325266,
+    "wof:lastmodified":1684353316,
     "wof:name":"Lostanges",
     "wof:parent_id":102067565,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":139,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_26189",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Montauban-sur-l'Ouv\u00e8ze",
+    "eurostat:nuts_2021_id":"26189",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK23",
+    "eurostat:nuts_2021_level_lau":"26189",
+    "eurostat:population":110,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068229",
     "frgov:id":"BDCSURCO0000000009610824",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.003671,
-    "geom:area_square_m":32496337.91723,
+    "geom:area_square_m":32496337.917231,
     "geom:bbox":"5.46772806551,44.2520439617,5.57269382126,44.3128973346",
     "geom:latitude":44.277354,
     "geom:longitude":5.518294,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683523,
         102191581,
@@ -56,7 +70,10 @@
         102069337
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_26189",
+        "eurostat:nuts_2021_id":"26189"
+    },
     "wof:coterminous":[
         1360675401
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d9b3d9bbd584f9ea7f6494105eb88874",
+    "wof:geomhash":"9a0392c304504cdcbb8389ea3561b41c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404376233,
-    "wof:lastmodified":1582324667,
+    "wof:lastmodified":1684352966,
     "wof:name":"Montauban-Sur-L'Ouveze",
     "wof:parent_id":102069337,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":110,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

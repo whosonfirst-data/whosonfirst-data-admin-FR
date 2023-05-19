@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_08320",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Neuville-en-Tourne-\u00e0-Fuy",
+    "eurostat:nuts_2021_id":"08320",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF21",
+    "eurostat:nuts_2021_level_lau":"08320",
+    "eurostat:population":578,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200043156",
     "frgov:id":"BDCSURCO0000000009585231",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683309,
         102191581,
@@ -58,7 +72,10 @@
         102066653
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_08320",
+        "eurostat:nuts_2021_id":"08320"
+    },
     "wof:coterminous":[
         101878131
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"1db5b2ec81e6e3c019f9da73509aa6f2",
+    "wof:geomhash":"bac0ac74bc4f0036132034e0c0c72ebe",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404386937,
-    "wof:lastmodified":1582325444,
+    "wof:lastmodified":1684353092,
     "wof:name":"La Neuville-En-Tourne-A-Fuy",
     "wof:parent_id":102066653,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":578,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

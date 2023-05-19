@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_19172",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rilhac-Treignac",
+    "eurostat:nuts_2021_id":"19172",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI21",
+    "eurostat:nuts_2021_level_lau":"19172",
+    "eurostat:population":110,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066645",
     "frgov:id":"BDCSURCO0000000009606389",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001108,
-    "geom:area_square_m":9602418.357484,
+    "geom:area_square_m":9602418.357483,
     "geom:bbox":"1.66816554957,45.509316597,1.71446146014,45.5475319026",
     "geom:latitude":45.527094,
     "geom:longitude":1.690551,
@@ -123,6 +135,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683209,
         102191581,
@@ -133,7 +147,10 @@
         102068747
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_19172",
+        "eurostat:nuts_2021_id":"19172"
+    },
     "wof:coterminous":[
         1125927803
     ],
@@ -141,7 +158,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ed2bc7b62d29d186a71bb5e45d6ceda8",
+    "wof:geomhash":"e5a83b5ec444d6c9bca25b6c13de9adb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -155,11 +172,13 @@
         }
     ],
     "wof:id":404380123,
-    "wof:lastmodified":1582325385,
+    "wof:lastmodified":1684353012,
     "wof:name":"Rilhac-Treignac",
     "wof:parent_id":102068747,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":110,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

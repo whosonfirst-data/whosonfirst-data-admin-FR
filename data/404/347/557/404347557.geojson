@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_17184",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gripperie-Saint-Symphorien",
+    "eurostat:nuts_2021_id":"17184",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI32",
+    "eurostat:nuts_2021_level_lau":"17184",
+    "eurostat:population":593,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041762",
     "frgov:id":"BDCSURCO0000000009605171",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002165,
-    "geom:area_square_m":18666329.243128,
+    "geom:area_square_m":18666329.243127,
     "geom:bbox":"-0.99569390635,45.7629341165,-0.912155038336,45.8186546113",
     "geom:latitude":45.791471,
     "geom:longitude":-0.952026,
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683275,
         102191581,
@@ -136,7 +150,10 @@
         102069125
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_17184",
+        "eurostat:nuts_2021_id":"17184"
+    },
     "wof:coterminous":[
         1125835459
     ],
@@ -144,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"188ad3c3049ce96be936087f40f9b5c7",
+    "wof:geomhash":"76c5179b6eeb6d349f01f703760804c0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +175,13 @@
         }
     ],
     "wof:id":404347557,
-    "wof:lastmodified":1582324720,
+    "wof:lastmodified":1684352582,
     "wof:name":"La Gripperie-Saint-Symphorien",
     "wof:parent_id":102069125,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":593,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

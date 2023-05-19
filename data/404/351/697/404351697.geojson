@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_46256",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Cirq-Lapopie",
+    "eurostat:nuts_2021_id":"46256",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ25",
+    "eurostat:nuts_2021_level_lau":"46256",
+    "eurostat:population":203,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200023737",
     "frgov:id":"BDCSURCO0000000009610560",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00204,
-    "geom:area_square_m":18008015.681065,
+    "geom:area_square_m":18008015.681064,
     "geom:bbox":"1.60319784654,44.4251753453,1.70109023769,44.4783071178",
     "geom:latitude":44.456216,
     "geom:longitude":1.654508,
@@ -120,6 +132,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683389,
         102191581,
@@ -130,7 +144,10 @@
         102069087
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_46256",
+        "eurostat:nuts_2021_id":"46256"
+    },
     "wof:coterminous":[
         1125806591
     ],
@@ -138,7 +155,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"20d4a0159b5a993708755ca228a054e7",
+    "wof:geomhash":"fd0abd84151ead5ee26a63e143354a9d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -152,11 +169,13 @@
         }
     ],
     "wof:id":404351697,
-    "wof:lastmodified":1582324960,
+    "wof:lastmodified":1684352641,
     "wof:name":"Saint-Cirq-Lapopie",
     "wof:parent_id":102069087,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":203,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

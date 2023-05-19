@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_28242",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"M\u00e9r\u00e9glise",
+    "eurostat:nuts_2021_id":"28242",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB02",
+    "eurostat:nuts_2021_level_lau":"28242",
+    "eurostat:population":100,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200058360",
     "frgov:id":"BDCSURCO0000000009593768",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000537,
-    "geom:area_square_m":4415558.868148,
+    "geom:area_square_m":4415558.868147,
     "geom:bbox":"1.1680760537,48.2832548057,1.20434762323,48.3029639543",
     "geom:latitude":48.29349,
     "geom:longitude":1.184101,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683189,
         102191581,
@@ -57,7 +71,10 @@
         102066989
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_28242",
+        "eurostat:nuts_2021_id":"28242"
+    },
     "wof:coterminous":[
         1126024233
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"806b72e2d7cde3120d3e9caffb2314a5",
+    "wof:geomhash":"581043dd51a37b622ab5d19b6cea45e4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404392471,
-    "wof:lastmodified":1582324809,
+    "wof:lastmodified":1684353162,
     "wof:name":"Mereglise",
     "wof:parent_id":102066989,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":100,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

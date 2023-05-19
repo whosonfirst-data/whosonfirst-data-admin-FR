@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_03248",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Nicolas-des-Biefs",
+    "eurostat:nuts_2021_id":"03248",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK11",
+    "eurostat:nuts_2021_level_lau":"03248",
+    "eurostat:population":171,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071363",
     "frgov:id":"BDCSURCO0000000009604239",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.003377,
-    "geom:area_square_m":28977062.517481,
+    "geom:area_square_m":28977062.51748,
     "geom:bbox":"3.7570202141,46.0015906139,3.82485099884,46.1122629621",
     "geom:latitude":46.063306,
     "geom:longitude":3.79444,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683293,
         102191581,
@@ -58,7 +72,10 @@
         102067675
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_03248",
+        "eurostat:nuts_2021_id":"03248"
+    },
     "wof:coterminous":[
         1125825379
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ea4b34ca397d7f75bfe5185184e5db67",
+    "wof:geomhash":"e7394041e3ed175ac6c53de8bd668ade",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404358517,
-    "wof:lastmodified":1582324973,
+    "wof:lastmodified":1684352733,
     "wof:name":"Saint-Nicolas-Des-Biefs",
     "wof:parent_id":102067675,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":171,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

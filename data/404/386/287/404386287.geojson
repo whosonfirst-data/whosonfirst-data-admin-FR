@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_73240",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sainte-H\u00e9l\u00e8ne-du-Lac",
+    "eurostat:nuts_2021_id":"73240",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK27",
+    "eurostat:nuts_2021_level_lau":"73240",
+    "eurostat:population":779,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041010",
     "frgov:id":"BDCSURCO0000000009606241",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683265,
         102191581,
@@ -58,7 +72,10 @@
         102067647
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_73240",
+        "eurostat:nuts_2021_id":"73240"
+    },
     "wof:coterminous":[
         1125778697
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"42c9405734ab495f1320edae74726a48",
+    "wof:geomhash":"6f136ebc4c60ec8cfcff61746a956065",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404386287,
-    "wof:lastmodified":1582325445,
+    "wof:lastmodified":1684353085,
     "wof:name":"Sainte-Helene-Du-Lac",
     "wof:parent_id":102067647,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":779,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_21182",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Collonges-l\u00e8s-B\u00e9vy",
+    "eurostat:nuts_2021_id":"21182",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC11",
+    "eurostat:nuts_2021_level_lau":"21182",
+    "eurostat:population":94,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070894",
     "frgov:id":"BDCSURCO0000000009599736",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683563,
         102191581,
@@ -58,7 +72,10 @@
         102067033
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_21182",
+        "eurostat:nuts_2021_id":"21182"
+    },
     "wof:coterminous":[
         1126045901
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"869ec22defecc17a9d8a270002df0870",
+    "wof:geomhash":"a63414b4e5a2934957900f57b1ffc259",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404355067,
-    "wof:lastmodified":1582324196,
+    "wof:lastmodified":1684352686,
     "wof:name":"Collonges-Les-Bevy",
     "wof:parent_id":102067033,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":94,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

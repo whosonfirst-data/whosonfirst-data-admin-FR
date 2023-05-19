@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_27354",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Iville",
+    "eurostat:nuts_2021_id":"27354",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD21",
+    "eurostat:nuts_2021_level_lau":"27354",
+    "eurostat:population":464,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242700607",
     "frgov:id":"BDCSURCO0000000009586771",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001074,
-    "geom:area_square_m":8679719.519973,
+    "geom:area_square_m":8679719.519972,
     "geom:bbox":"0.891681522212,49.1633114606,0.961825657744,49.1872350495",
     "geom:latitude":49.177093,
     "geom:longitude":0.92671,
@@ -123,6 +135,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683283,
         102191581,
@@ -133,7 +147,10 @@
         102068809
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_27354",
+        "eurostat:nuts_2021_id":"27354"
+    },
     "wof:coterminous":[
         101877655
     ],
@@ -141,7 +158,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a2e917db430927a43a0ec2bdb67de847",
+    "wof:geomhash":"9f031222557e5ff40453803561285095",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -155,11 +172,13 @@
         }
     ],
     "wof:id":404410313,
-    "wof:lastmodified":1582325151,
+    "wof:lastmodified":1684353370,
     "wof:name":"Iville",
     "wof:parent_id":102068809,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":464,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

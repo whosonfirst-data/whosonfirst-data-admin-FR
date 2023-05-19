@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_39533",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Toulouse-le-Ch\u00e2teau",
+    "eurostat:nuts_2021_id":"39533",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC22",
+    "eurostat:nuts_2021_level_lau":"39533",
+    "eurostat:population":221,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069615",
     "frgov:id":"BDCSURCO0000000009601118",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000487,
-    "geom:area_square_m":4120532.450592,
+    "geom:area_square_m":4120532.450591,
     "geom:bbox":"5.56935870286,46.8080632859,5.59939402544,46.8362619393",
     "geom:latitude":46.8219,
     "geom:longitude":5.583147,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683173,
         102191581,
@@ -58,7 +72,10 @@
         102069829
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_39533",
+        "eurostat:nuts_2021_id":"39533"
+    },
     "wof:coterminous":[
         101889881
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"66f9eee99251d0d770c63a3068057161",
+    "wof:geomhash":"d0a748fdf55fbb40ee8390fde7d1757f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404369269,
-    "wof:lastmodified":1582324911,
+    "wof:lastmodified":1684352882,
     "wof:name":"Toulouse-Le-Chateau",
     "wof:parent_id":102069829,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":221,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_86134",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Linazay",
+    "eurostat:nuts_2021_id":"86134",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI34",
+    "eurostat:nuts_2021_level_lau":"86134",
+    "eurostat:population":225,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070035",
     "frgov:id":"BDCSURCO0000000009603592",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001079,
-    "geom:area_square_m":9244448.535605,
+    "geom:area_square_m":9244448.535606,
     "geom:bbox":"0.164838437187,46.1485119738,0.221513745349,46.1821246571",
     "geom:latitude":46.166603,
     "geom:longitude":0.191627,
@@ -117,6 +129,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683185,
         102191581,
@@ -127,7 +141,10 @@
         102065137
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_86134",
+        "eurostat:nuts_2021_id":"86134"
+    },
     "wof:coterminous":[
         1125779167
     ],
@@ -135,7 +152,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b6ed20f12ab6f44537abfac3e86c0824",
+    "wof:geomhash":"5686ade7cc5ee5aac21954e81945ab8d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -149,11 +166,13 @@
         }
     ],
     "wof:id":404377313,
-    "wof:lastmodified":1582324565,
+    "wof:lastmodified":1684352979,
     "wof:name":"Linazay",
     "wof:parent_id":102065137,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":225,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

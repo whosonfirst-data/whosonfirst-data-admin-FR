@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_10360",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Pouange",
+    "eurostat:nuts_2021_id":"10360",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF22",
+    "eurostat:nuts_2021_level_lau":"10360",
+    "eurostat:population":914,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069250",
     "frgov:id":"BDCSURCO0000000009594065",
     "frgov:insee_arr":"3",
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683193,
         102191581,
@@ -136,7 +150,10 @@
         102065151
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_10360",
+        "eurostat:nuts_2021_id":"10360"
+    },
     "wof:coterminous":[
         101884555
     ],
@@ -144,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b527795cbba499c839cf96c63e9a85c4",
+    "wof:geomhash":"cbf835f942540480a9d7810c9776720c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +175,13 @@
         }
     ],
     "wof:id":404384821,
-    "wof:lastmodified":1582324615,
+    "wof:lastmodified":1684353069,
     "wof:name":"Saint-Pouange",
     "wof:parent_id":102065151,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":914,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

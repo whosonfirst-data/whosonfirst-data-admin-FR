@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_07079",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"D\u00e9saignes",
+    "eurostat:nuts_2021_id":"07079",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK22",
+    "eurostat:nuts_2021_level_lau":"07079",
+    "eurostat:population":1111,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200016905",
     "frgov:id":"BDCSURCO0000000009608309",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.005883,
-    "geom:area_square_m":51441589.129214,
+    "geom:area_square_m":51441589.129215,
     "geom:bbox":"4.43112506411,44.9564524172,4.56330451179,45.0327211236",
     "geom:latitude":44.992363,
     "geom:longitude":4.500855,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683421,
         102191581,
@@ -58,7 +72,10 @@
         102066135
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_07079",
+        "eurostat:nuts_2021_id":"07079"
+    },
     "wof:coterminous":[
         101770399
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7bcde0c0978d978c6940fc5d5521b894",
+    "wof:geomhash":"255777fc2f2cebab24ccefaed87fcaa2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404348089,
-    "wof:lastmodified":1582324587,
+    "wof:lastmodified":1684352590,
     "wof:name":"Desaignes",
     "wof:parent_id":102066135,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1111,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

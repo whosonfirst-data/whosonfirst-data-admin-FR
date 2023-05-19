@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_25398",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Montflovin",
+    "eurostat:nuts_2021_id":"25398",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC21",
+    "eurostat:nuts_2021_level_lau":"25398",
+    "eurostat:population":107,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242500320",
     "frgov:id":"BDCSURCO0000000009600162",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000397,
-    "geom:area_square_m":3349168.647473,
+    "geom:area_square_m":3349168.647474,
     "geom:bbox":"6.40593490076,46.9769462099,6.45272863764,47.0108828859",
     "geom:latitude":46.995413,
     "geom:longitude":6.434683,
@@ -114,6 +126,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683239,
         102191581,
@@ -124,7 +138,10 @@
         102067115
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_25398",
+        "eurostat:nuts_2021_id":"25398"
+    },
     "wof:coterminous":[
         1125918613
     ],
@@ -132,7 +149,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"df4d74c8def943b36f024129be7560f7",
+    "wof:geomhash":"412163a11bebb90bef2eb1d10247ddf1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -146,11 +163,13 @@
         }
     ],
     "wof:id":404397655,
-    "wof:lastmodified":1582324212,
+    "wof:lastmodified":1684353220,
     "wof:name":"Montflovin",
     "wof:parent_id":102067115,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":107,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

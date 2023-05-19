@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_30239",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sainte-C\u00e9cile-d'Andorge",
+    "eurostat:nuts_2021_id":"30239",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ12",
+    "eurostat:nuts_2021_level_lau":"30239",
+    "eurostat:population":586,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066918",
     "frgov:id":"BDCSURCO0000000009611042",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002148,
-    "geom:area_square_m":19018949.652801,
+    "geom:area_square_m":19018949.6528,
     "geom:bbox":"3.93371804255,44.2286029025,4.01899926006,44.2865388928",
     "geom:latitude":44.26089,
     "geom:longitude":3.984038,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683431,
         102191581,
@@ -56,7 +70,10 @@
         102066427
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_30239",
+        "eurostat:nuts_2021_id":"30239"
+    },
     "wof:coterminous":[
         1360680261
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3d743860d47fa47f79b25866b3ed5737",
+    "wof:geomhash":"1b10b2fbfff7935e652c65daafe4869b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404426883,
-    "wof:lastmodified":1582325088,
+    "wof:lastmodified":1684353567,
     "wof:name":"Sainte-Cecile-D'Andorge",
     "wof:parent_id":102066427,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":586,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

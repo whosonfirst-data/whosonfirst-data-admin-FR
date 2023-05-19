@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_28164",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Fresnay-l'\u00c9v\u00eaque",
+    "eurostat:nuts_2021_id":"28164",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB02",
+    "eurostat:nuts_2021_level_lau":"28164",
+    "eurostat:population":741,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070159",
     "frgov:id":"BDCSURCO0000000009594144",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683189,
         102191581,
@@ -57,7 +71,10 @@
         102067189
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_28164",
+        "eurostat:nuts_2021_id":"28164"
+    },
     "wof:coterminous":[
         101883473
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3326f07a6be1c971d533ff3f5a9ed8d6",
+    "wof:geomhash":"406ea62b414e39d197e94560d7771dc3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404380865,
-    "wof:lastmodified":1582325383,
+    "wof:lastmodified":1684353020,
     "wof:name":"Fresnay-L'Eveque",
     "wof:parent_id":102067189,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":741,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

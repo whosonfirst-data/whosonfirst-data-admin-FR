@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_85238",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Laurent-sur-S\u00e8vre",
+    "eurostat:nuts_2021_id":"85238",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG05",
+    "eurostat:nuts_2021_level_lau":"85238",
+    "eurostat:population":3617,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248500662",
     "frgov:id":"BDCSURCO0000000009600837",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001834,
-    "geom:area_square_m":15479216.245888,
+    "geom:area_square_m":15479216.245889,
     "geom:bbox":"-0.93858400046,46.9286100883,-0.860278824237,46.97241084",
     "geom:latitude":46.950792,
     "geom:longitude":-0.900896,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683409,
         102191581,
@@ -57,7 +71,10 @@
         102067085
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_85238",
+        "eurostat:nuts_2021_id":"85238"
+    },
     "wof:coterminous":[
         101765523
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9461d407fae3d4d951c3c3c9426b451b",
+    "wof:geomhash":"cf2a272b1ec81e838931d9ba61b60cf6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404351795,
-    "wof:lastmodified":1582324956,
+    "wof:lastmodified":1684352643,
     "wof:name":"Saint-Laurent-Sur-Sevre",
     "wof:parent_id":102067085,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3617,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

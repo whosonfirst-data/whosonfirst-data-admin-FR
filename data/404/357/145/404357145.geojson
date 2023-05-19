@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_05134",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Cl\u00e9ment-sur-Durance",
+    "eurostat:nuts_2021_id":"05134",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL02",
+    "eurostat:nuts_2021_level_lau":"05134",
+    "eurostat:population":309,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067452",
     "frgov:id":"BDCSURCO0000000009609354",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.002958,
-    "geom:area_square_m":26019849.030156,
+    "geom:area_square_m":26019849.030154,
     "geom:bbox":"6.49702837181,44.595396222,6.60232899784,44.6989671992",
     "geom:latitude":44.647547,
     "geom:longitude":6.560635,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683597,
         102191581,
@@ -55,7 +69,10 @@
         102066211
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_05134",
+        "eurostat:nuts_2021_id":"05134"
+    },
     "wof:coterminous":[
         1360673465
     ],
@@ -63,7 +80,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0d738deecbaf1cce721176d053dc786f",
+    "wof:geomhash":"01747cba515d7da5124fca6363db0a5c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -76,11 +93,13 @@
         }
     ],
     "wof:id":404357145,
-    "wof:lastmodified":1582324893,
+    "wof:lastmodified":1684352714,
     "wof:name":"Saint-Clement-Sur-Durance",
     "wof:parent_id":102066211,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":309,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

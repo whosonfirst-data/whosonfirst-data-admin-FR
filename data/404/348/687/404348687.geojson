@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_23056",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ch\u00e2telus-le-Marcheix",
+    "eurostat:nuts_2021_id":"23056",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI22",
+    "eurostat:nuts_2021_level_lau":"23056",
+    "eurostat:population":314,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067510",
     "frgov:id":"BDCSURCO0000000009604303",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.005071,
-    "geom:area_square_m":43556502.629348,
+    "geom:area_square_m":43556502.629347,
     "geom:bbox":"1.56213321318,45.9726237625,1.69073410567,46.0462748898",
     "geom:latitude":46.006844,
     "geom:longitude":1.625405,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683179,
         102191581,
@@ -58,7 +72,10 @@
         102065083
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_23056",
+        "eurostat:nuts_2021_id":"23056"
+    },
     "wof:coterminous":[
         101892565
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"62a1ada26f4fe3b91f4c770265fb06ec",
+    "wof:geomhash":"d31ca3d17c83bd6bbf444958a85800ba",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404348687,
-    "wof:lastmodified":1582324579,
+    "wof:lastmodified":1684352598,
     "wof:name":"Chatelus-Le-Marcheix",
     "wof:parent_id":102065083,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":314,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_43214",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Pal-de-Senouire",
+    "eurostat:nuts_2021_id":"43214",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK13",
+    "eurostat:nuts_2021_level_lau":"43214",
+    "eurostat:population":109,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200073419",
     "frgov:id":"BDCSURCO0000000009607494",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.002093,
-    "geom:area_square_m":18216303.094685,
+    "geom:area_square_m":18216303.094686,
     "geom:bbox":"3.61733495782,45.2292239469,3.68034463293,45.2843658423",
     "geom:latitude":45.257407,
     "geom:longitude":3.646568,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683413,
         102191581,
@@ -58,7 +72,10 @@
         102065435
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_43214",
+        "eurostat:nuts_2021_id":"43214"
+    },
     "wof:coterminous":[
         1125878295
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"362f0c6cfee81dc7ba50c1ab58245f7d",
+    "wof:geomhash":"d36473348b4fc321dff074dd8e08ab9a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404355751,
-    "wof:lastmodified":1582324190,
+    "wof:lastmodified":1684352695,
     "wof:name":"Saint-Pal-De-Senouire",
     "wof:parent_id":102065435,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":109,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

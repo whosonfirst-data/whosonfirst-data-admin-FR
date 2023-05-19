@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_28387",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Thiron-Gardais",
+    "eurostat:nuts_2021_id":"28387",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB02",
+    "eurostat:nuts_2021_level_lau":"28387",
+    "eurostat:population":995,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070167",
     "frgov:id":"BDCSURCO0000000009593776",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001635,
-    "geom:area_square_m":13445473.531644,
+    "geom:area_square_m":13445473.531643,
     "geom:bbox":"0.960800925802,48.2919556026,1.06700421911,48.3172430812",
     "geom:latitude":48.304407,
     "geom:longitude":1.011349,
@@ -132,6 +144,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683189,
         102191581,
@@ -141,7 +155,10 @@
         102068679
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_28387",
+        "eurostat:nuts_2021_id":"28387"
+    },
     "wof:coterminous":[
         101762339
     ],
@@ -149,7 +166,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"929043c159ced3c68e7c7745094169be",
+    "wof:geomhash":"0dcc5d4a41f029f5cfaf1103d35a5785",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -162,11 +179,13 @@
         }
     ],
     "wof:id":404373657,
-    "wof:lastmodified":1582325343,
+    "wof:lastmodified":1684352932,
     "wof:name":"Thiron-Gardais",
     "wof:parent_id":102068679,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":995,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

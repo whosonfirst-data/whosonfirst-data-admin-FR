@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_12283",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Tr\u00e9mouilles",
+    "eurostat:nuts_2021_id":"12283",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ22",
+    "eurostat:nuts_2021_level_lau":"12283",
+    "eurostat:population":504,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"241200658",
     "frgov:id":"BDCSURCO0000000009611063",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683301,
         102191581,
@@ -58,7 +72,10 @@
         102068745
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_12283",
+        "eurostat:nuts_2021_id":"12283"
+    },
     "wof:coterminous":[
         101895941
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2df4ad374b0a9ccb86a03728261f6cd5",
+    "wof:geomhash":"c0f9ee916bf7301171f1e91a1f3d0374",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404359601,
-    "wof:lastmodified":1582324802,
+    "wof:lastmodified":1684352748,
     "wof:name":"Tremouilles",
     "wof:parent_id":102068745,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":504,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

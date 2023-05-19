@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_30295",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Quentin-la-Poterie",
+    "eurostat:nuts_2021_id":"30295",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ12",
+    "eurostat:nuts_2021_level_lau":"30295",
+    "eurostat:population":3054,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200034379",
     "frgov:id":"BDCSURCO0000000009611543",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002705,
-    "geom:area_square_m":24037381.847949,
+    "geom:area_square_m":24037381.847948,
     "geom:bbox":"4.405914892,44.0293916786,4.47595765362,44.0871290447",
     "geom:latitude":44.057268,
     "geom:longitude":4.438462,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683431,
         102191581,
@@ -58,7 +72,10 @@
         102070535
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_30295",
+        "eurostat:nuts_2021_id":"30295"
+    },
     "wof:coterminous":[
         101772643
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4574d64cfaf3240b574af3a12e9314b4",
+    "wof:geomhash":"226e77ea80c9e64053ee3b01f50da13d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404375097,
-    "wof:lastmodified":1582325412,
+    "wof:lastmodified":1684352950,
     "wof:name":"Saint-Quentin-La-Poterie",
     "wof:parent_id":102070535,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3054,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

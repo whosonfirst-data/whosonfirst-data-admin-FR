@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_43156",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Pr\u00e9sailles",
+    "eurostat:nuts_2021_id":"43156",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK13",
+    "eurostat:nuts_2021_level_lau":"43156",
+    "eurostat:population":116,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200073401",
     "frgov:id":"BDCSURCO0000000009608728",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.002545,
-    "geom:area_square_m":22290583.14615,
+    "geom:area_square_m":22290583.146151,
     "geom:bbox":"4.00701687191,44.8661682924,4.08887979807,44.9170655486",
     "geom:latitude":44.890461,
     "geom:longitude":4.044054,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683413,
         102191581,
@@ -58,7 +72,10 @@
         102066675
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_43156",
+        "eurostat:nuts_2021_id":"43156"
+    },
     "wof:coterminous":[
         1125991321
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d640a30ca8f001646b60ff09949e1265",
+    "wof:geomhash":"4fa8947f74a51ff84f4e9a3e6c3266e4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404368413,
-    "wof:lastmodified":1582324869,
+    "wof:lastmodified":1684352871,
     "wof:name":"Presailles",
     "wof:parent_id":102066675,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":116,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

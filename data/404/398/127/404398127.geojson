@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_16336",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Mary",
+    "eurostat:nuts_2021_id":"16336",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI31",
+    "eurostat:nuts_2021_level_lau":"16336",
+    "eurostat:population":348,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072049",
     "frgov:id":"BDCSURCO0000000009605120",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002518,
-    "geom:area_square_m":21686219.346957,
+    "geom:area_square_m":21686219.346958,
     "geom:bbox":"0.311784902238,45.8236941805,0.412699103282,45.8676636557",
     "geom:latitude":45.845247,
     "geom:longitude":0.361429,
@@ -123,6 +135,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683437,
         102191581,
@@ -133,7 +147,10 @@
         102069177
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_16336",
+        "eurostat:nuts_2021_id":"16336"
+    },
     "wof:coterminous":[
         1125814903
     ],
@@ -141,7 +158,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2f17655fa642e600b194ea97fa3479a3",
+    "wof:geomhash":"36302b5472ede59ab22f55a6ddfa51ba",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -155,11 +172,13 @@
         }
     ],
     "wof:id":404398127,
-    "wof:lastmodified":1582324111,
+    "wof:lastmodified":1684353227,
     "wof:name":"Saint-Mary",
     "wof:parent_id":102069177,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":348,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

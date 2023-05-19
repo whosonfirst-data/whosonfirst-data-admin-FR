@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_58258",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Ouen-sur-Loire",
+    "eurostat:nuts_2021_id":"58258",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC12",
+    "eurostat:nuts_2021_level_lau":"58258",
+    "eurostat:population":561,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067700",
     "frgov:id":"BDCSURCO0000000009600965",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002834,
-    "geom:area_square_m":23947151.6069,
+    "geom:area_square_m":23947151.606903,
     "geom:bbox":"3.27380557913,46.8689633513,3.36553791455,46.9272071648",
     "geom:latitude":46.899024,
     "geom:longitude":3.319965,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683359,
         102191581,
@@ -58,7 +72,10 @@
         102069399
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_58258",
+        "eurostat:nuts_2021_id":"58258"
+    },
     "wof:coterminous":[
         101890501
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"12743d793aa8e31702ffc67b8ae929ba",
+    "wof:geomhash":"f37324a08d030e9d14c1a8908c5d6cda",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404375941,
-    "wof:lastmodified":1582325413,
+    "wof:lastmodified":1684352962,
     "wof:name":"Saint-Ouen-Sur-Loire",
     "wof:parent_id":102069399,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":561,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

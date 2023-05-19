@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_62589",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mont-Saint-\u00c9loi",
+    "eurostat:nuts_2021_id":"62589",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE1",
+    "eurostat:nuts_2021_level_3":"FRE12",
+    "eurostat:nuts_2021_level_lau":"62589",
+    "eurostat:population":1023,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200033579",
     "frgov:id":"BDCSURCO0000000009581337",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683255,
         102191581,
@@ -58,7 +72,10 @@
         102071843
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_62589",
+        "eurostat:nuts_2021_id":"62589"
+    },
     "wof:coterminous":[
         1125896423
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0dff21ad59a18dac101184f0de86c2c6",
+    "wof:geomhash":"2d36a45146ca7fe12cb7c12254a72474",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404397983,
-    "wof:lastmodified":1582324205,
+    "wof:lastmodified":1684353225,
     "wof:name":"Mont-Saint-Eloi",
     "wof:parent_id":102071843,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1023,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

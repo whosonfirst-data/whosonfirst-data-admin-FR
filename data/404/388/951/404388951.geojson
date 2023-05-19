@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_65307",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Maz\u00e8res-de-Neste",
+    "eurostat:nuts_2021_id":"65307",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ26",
+    "eurostat:nuts_2021_level_lau":"65307",
+    "eurostat:population":330,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070829",
     "frgov:id":"BDCSURCO0000000009615666",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000382,
-    "geom:area_square_m":3446694.793022,
+    "geom:area_square_m":3446694.793021,
     "geom:bbox":"0.521999327579,43.0655436873,0.563853726498,43.093872919",
     "geom:latitude":43.075963,
     "geom:longitude":0.541251,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683203,
         102191581,
@@ -58,7 +72,10 @@
         102067833
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_65307",
+        "eurostat:nuts_2021_id":"65307"
+    },
     "wof:coterminous":[
         101896619
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b07a44227c91ffecd43d06e2f7273202",
+    "wof:geomhash":"db9f5f2f1264d49bd66463091c47a020",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404388951,
-    "wof:lastmodified":1582325485,
+    "wof:lastmodified":1684353116,
     "wof:name":"Mazeres-De-Neste",
     "wof:parent_id":102067833,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":330,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

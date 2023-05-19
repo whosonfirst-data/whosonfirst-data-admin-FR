@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_36208",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sainte-S\u00e9v\u00e8re-sur-Indre",
+    "eurostat:nuts_2021_id":"36208",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB03",
+    "eurostat:nuts_2021_level_lau":"36208",
+    "eurostat:population":776,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243600350",
     "frgov:id":"BDCSURCO0000000009602427",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003098,
-    "geom:area_square_m":26367901.365312,
+    "geom:area_square_m":26367901.365311,
     "geom:bbox":"2.03563625423,46.466573457,2.10596604383,46.5478550656",
     "geom:latitude":46.504278,
     "geom:longitude":2.068039,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683311,
         102191581,
@@ -57,7 +71,10 @@
         102068071
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_36208",
+        "eurostat:nuts_2021_id":"36208"
+    },
     "wof:coterminous":[
         101891681
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e9e399d9b05c08299f4153f4bf82a058",
+    "wof:geomhash":"428bb5762aac9cdb02b40daeb64877a8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404363065,
-    "wof:lastmodified":1582324222,
+    "wof:lastmodified":1684352796,
     "wof:name":"Sainte-Severe-Sur-Indre",
     "wof:parent_id":102068071,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":776,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

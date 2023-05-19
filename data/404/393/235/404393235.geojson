@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_23105",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lavaveix-les-Mines",
+    "eurostat:nuts_2021_id":"23105",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI22",
+    "eurostat:nuts_2021_level_lau":"23105",
+    "eurostat:population":666,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067593",
     "frgov:id":"BDCSURCO0000000009604040",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683179,
         102191581,
@@ -58,7 +72,10 @@
         102066227
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_23105",
+        "eurostat:nuts_2021_id":"23105"
+    },
     "wof:coterminous":[
         1125771897
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8c4dfcf7e62a572f75577d1d0fbb1b6a",
+    "wof:geomhash":"eb8fdb8fe6e0bc2a0ad05a58c2d8c9f0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404393235,
-    "wof:lastmodified":1582325011,
+    "wof:lastmodified":1684353171,
     "wof:name":"Lavaveix-Les-Mines",
     "wof:parent_id":102066227,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":666,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

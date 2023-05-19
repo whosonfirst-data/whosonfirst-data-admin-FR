@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_14639",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Ouen-le-Pin",
+    "eurostat:nuts_2021_id":"14639",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD11",
+    "eurostat:nuts_2021_level_lau":"14639",
+    "eurostat:population":259,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"241400761",
     "frgov:id":"BDCSURCO0000000009586829",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683579,
         102191581,
@@ -58,7 +72,10 @@
         102066141
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_14639",
+        "eurostat:nuts_2021_id":"14639"
+    },
     "wof:coterminous":[
         1125816413
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"fc24c4ef87f56fd4e0423ae87e034fd2",
+    "wof:geomhash":"ffe6dc094a81868a80360dd5200ac72e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404395725,
-    "wof:lastmodified":1582324774,
+    "wof:lastmodified":1684353199,
     "wof:name":"Saint-Ouen-Le-Pin",
     "wof:parent_id":102066141,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":259,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

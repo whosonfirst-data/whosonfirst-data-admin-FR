@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_71270",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"M\u00e2con",
+    "eurostat:nuts_2021_id":"71270",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC13",
+    "eurostat:nuts_2021_level_lau":"71270",
+    "eurostat:population":33638,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070308",
     "frgov:id":"BDCSURCO0000000009603021",
     "frgov:insee_arr":"5",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Pr\u00e9fecture",
     "geom:area":0.003164,
-    "geom:area_square_m":27023276.29714,
+    "geom:area_square_m":27023276.297141,
     "geom:bbox":"4.757883,46.273448,4.85853,46.379587",
     "geom:latitude":46.320992,
     "geom:longitude":4.818478,
@@ -111,17 +123,22 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85683543,
         102191581,
         85633147,
-        102072575,
-        136253037,
         404228293,
         1108826395,
-        85683543
+        136253037,
+        102072575
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_71270",
+        "eurostat:nuts_2021_id":"71270"
+    },
     "wof:coterminous":[
         101829229,
         102072575
@@ -130,7 +147,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"22e9600d0689d4fcfe0c3c239c7d3bd0",
+    "wof:geomhash":"db4534a2ce9a7f66ab944b5882c6742a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -144,11 +161,13 @@
         }
     ],
     "wof:id":404395621,
-    "wof:lastmodified":1608037911,
+    "wof:lastmodified":1684353198,
     "wof:name":"Macon",
     "wof:parent_id":102072575,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Pr\u00e9fecture",
+    "wof:population":33638,
+    "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_15051",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Clavi\u00e8res",
+    "eurostat:nuts_2021_id":"15051",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK12",
+    "eurostat:nuts_2021_level_lau":"15051",
+    "eurostat:population":209,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066660",
     "frgov:id":"BDCSURCO0000000009608539",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.005104,
-    "geom:area_square_m":44635126.255502,
+    "geom:area_square_m":44635126.255504,
     "geom:bbox":"3.25600097594,44.9545638604,3.37146553483,45.0306099693",
     "geom:latitude":44.99351,
     "geom:longitude":3.31009,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683517,
         102191581,
@@ -56,7 +70,10 @@
         102067297
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_15051",
+        "eurostat:nuts_2021_id":"15051"
+    },
     "wof:coterminous":[
         1360676581
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5fd2bfa643d439313cf5c931358e784a",
+    "wof:geomhash":"70180396c33f2edf567bd05a54fa058d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404388709,
-    "wof:lastmodified":1582325477,
+    "wof:lastmodified":1684353113,
     "wof:name":"Clavieres",
     "wof:parent_id":102067297,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":209,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

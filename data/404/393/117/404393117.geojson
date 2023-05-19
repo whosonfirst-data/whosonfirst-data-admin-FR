@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_49257",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rairies",
+    "eurostat:nuts_2021_id":"49257",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG02",
+    "eurostat:nuts_2021_level_lau":"49257",
+    "eurostat:population":1013,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068955",
     "frgov:id":"BDCSURCO0000000009597540",
     "frgov:insee_arr":"1",
@@ -112,6 +124,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683327,
         102191581,
@@ -121,7 +135,10 @@
         102066805
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_49257",
+        "eurostat:nuts_2021_id":"49257"
+    },
     "wof:coterminous":[
         1360677083
     ],
@@ -129,7 +146,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6f9829d0e940867995cbb01c8e9fa46b",
+    "wof:geomhash":"1dd00ba02238d5a6aad59b4e58bed9d7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -142,11 +159,13 @@
         }
     ],
     "wof:id":404393117,
-    "wof:lastmodified":1582325014,
+    "wof:lastmodified":1684353169,
     "wof:name":"Les Rairies",
     "wof:parent_id":102066805,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1013,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

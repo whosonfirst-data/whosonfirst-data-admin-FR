@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_01085",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Chapelle-du-Ch\u00e2telard",
+    "eurostat:nuts_2021_id":"01085",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK21",
+    "eurostat:nuts_2021_level_lau":"01085",
+    "eurostat:population":388,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069193",
     "frgov:id":"BDCSURCO0000000009603949",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001587,
-    "geom:area_square_m":13614674.959554,
+    "geom:area_square_m":13614674.959555,
     "geom:bbox":"4.99030835595,46.0307544085,5.04458090486,46.1057114163",
     "geom:latitude":46.073403,
     "geom:longitude":5.021863,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683153,
         102191581,
@@ -58,7 +72,10 @@
         102070525
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_01085",
+        "eurostat:nuts_2021_id":"01085"
+    },
     "wof:coterminous":[
         1126057439
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b7531430a733daac3c115a38c9996a3c",
+    "wof:geomhash":"972dafa5908469c224a0ee25f3bfbc90",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404350085,
-    "wof:lastmodified":1582324848,
+    "wof:lastmodified":1684352618,
     "wof:name":"La Chapelle-Du-Chatelard",
     "wof:parent_id":102070525,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":388,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_80702",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Fuscien",
+    "eurostat:nuts_2021_id":"80702",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE23",
+    "eurostat:nuts_2021_level_lau":"80702",
+    "eurostat:population":1170,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248000531",
     "frgov:id":"BDCSURCO0000000009582710",
     "frgov:insee_arr":"2",
@@ -132,6 +144,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683363,
         102191581,
@@ -142,7 +156,10 @@
         102066695
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_80702",
+        "eurostat:nuts_2021_id":"80702"
+    },
     "wof:coterminous":[
         101900621
     ],
@@ -150,7 +167,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2431eeb9131c9d12a702bd3731a3526b",
+    "wof:geomhash":"b8abba96bd0b44ab4f67f7c1fae60971",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -164,11 +181,13 @@
         }
     ],
     "wof:id":404383989,
-    "wof:lastmodified":1582324556,
+    "wof:lastmodified":1684353059,
     "wof:name":"Saint-Fuscien",
     "wof:parent_id":102066695,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1170,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

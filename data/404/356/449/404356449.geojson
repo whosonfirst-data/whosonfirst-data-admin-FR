@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_85291",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Thorigny",
+    "eurostat:nuts_2021_id":"85291",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG05",
+    "eurostat:nuts_2021_level_lau":"85291",
+    "eurostat:population":1230,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248500589",
     "frgov:id":"BDCSURCO0000000009601892",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003776,
-    "geom:area_square_m":32070247.856452,
+    "geom:area_square_m":32070247.856451,
     "geom:bbox":"-1.29422502397,46.5831939293,-1.19411047517,46.6471686775",
     "geom:latitude":46.617487,
     "geom:longitude":-1.249216,
@@ -111,6 +123,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683409,
         102191581,
@@ -120,7 +134,10 @@
         102070003
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_85291",
+        "eurostat:nuts_2021_id":"85291"
+    },
     "wof:coterminous":[
         101890401
     ],
@@ -128,7 +145,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d2efc7c113ee060e968830411d147b4f",
+    "wof:geomhash":"1ca0a654bbfe46a864c5117537ccee42",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -141,11 +158,13 @@
         }
     ],
     "wof:id":404356449,
-    "wof:lastmodified":1582324926,
+    "wof:lastmodified":1684352704,
     "wof:name":"Thorigny",
     "wof:parent_id":102070003,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1230,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

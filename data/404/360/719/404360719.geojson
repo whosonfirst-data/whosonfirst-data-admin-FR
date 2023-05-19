@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_23218",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Maurice-pr\u00e8s-Crocq",
+    "eurostat:nuts_2021_id":"23218",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI22",
+    "eurostat:nuts_2021_level_lau":"23218",
+    "eurostat:population":100,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067593",
     "frgov:id":"BDCSURCO0000000009605082",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001627,
-    "geom:area_square_m":14012809.958285,
+    "geom:area_square_m":14012809.958286,
     "geom:bbox":"2.27553961279,45.8312046118,2.34594242854,45.8838297369",
     "geom:latitude":45.857663,
     "geom:longitude":2.315302,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683179,
         102191581,
@@ -58,7 +72,10 @@
         102066599
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_23218",
+        "eurostat:nuts_2021_id":"23218"
+    },
     "wof:coterminous":[
         1125889593
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a1898b0b62a71f865899560379229f2a",
+    "wof:geomhash":"363bd9fddaf1582ae86324a31fc472f5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404360719,
-    "wof:lastmodified":1582325058,
+    "wof:lastmodified":1684352763,
     "wof:name":"Saint-Maurice-Pres-Crocq",
     "wof:parent_id":102066599,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":100,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

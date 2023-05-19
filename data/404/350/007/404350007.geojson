@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_86173",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mouterre-Silly",
+    "eurostat:nuts_2021_id":"86173",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI34",
+    "eurostat:nuts_2021_level_lau":"86173",
+    "eurostat:population":663,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248600447",
     "frgov:id":"BDCSURCO0000000009600818",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003679,
-    "geom:area_square_m":31033177.178355,
+    "geom:area_square_m":31033177.178354,
     "geom:bbox":"-0.00220507960164,46.9339818559,0.0721289395667,47.0333304839",
     "geom:latitude":46.986356,
     "geom:longitude":0.0372,
@@ -117,6 +129,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683185,
         102191581,
@@ -127,7 +141,10 @@
         102066461
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_86173",
+        "eurostat:nuts_2021_id":"86173"
+    },
     "wof:coterminous":[
         1125790309
     ],
@@ -135,7 +152,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3f3af704912e1f07a81237ee623559f6",
+    "wof:geomhash":"d57a94e641dc7778774cbe20a1d54553",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -149,11 +166,13 @@
         }
     ],
     "wof:id":404350007,
-    "wof:lastmodified":1582324849,
+    "wof:lastmodified":1684352616,
     "wof:name":"Mouterre-Silly",
     "wof:parent_id":102066461,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":663,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

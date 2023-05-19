@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_70491",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Seveux-Motey",
+    "eurostat:nuts_2021_id":"70491",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC23",
+    "eurostat:nuts_2021_level_lau":"70491",
+    "eurostat:population":488,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247000623",
     "frgov:id":"BDCSURCO0000000009597984",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002044,
-    "geom:area_square_m":17062741.082097,
+    "geom:area_square_m":17062741.082096,
     "geom:bbox":"5.73951657306,47.4972165612,5.80383350447,47.570247003",
     "geom:latitude":47.536455,
     "geom:longitude":5.768701,
@@ -117,6 +129,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683559,
         102191581,
@@ -127,7 +141,10 @@
         102065717
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_70491",
+        "eurostat:nuts_2021_id":"70491"
+    },
     "wof:coterminous":[
         101887867
     ],
@@ -135,7 +152,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d305ee5dea8045883d99d72d20c0845d",
+    "wof:geomhash":"178ab5f07d284d0b150e80ce17678310",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -149,11 +166,13 @@
         }
     ],
     "wof:id":404398477,
-    "wof:lastmodified":1582324106,
+    "wof:lastmodified":1684353232,
     "wof:name":"Seveux",
     "wof:parent_id":102065717,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":488,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

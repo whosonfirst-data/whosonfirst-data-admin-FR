@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_77231",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Isles-les-Meldeuses",
+    "eurostat:nuts_2021_id":"77231",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR102",
+    "eurostat:nuts_2021_level_lau":"77231",
+    "eurostat:population":806,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247700065",
     "frgov:id":"BDCSURCO0000000009588169",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683385,
         102191581,
@@ -57,7 +71,10 @@
         102067019
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_77231",
+        "eurostat:nuts_2021_id":"77231"
+    },
     "wof:coterminous":[
         1126010037
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"025152bd44a9f976691558659a487782",
+    "wof:geomhash":"4b0d40cf20fb1ac697b9ec8e87a66dbb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404369627,
-    "wof:lastmodified":1582324909,
+    "wof:lastmodified":1684352886,
     "wof:name":"Isles-Les-Meldeuses",
     "wof:parent_id":102067019,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":806,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

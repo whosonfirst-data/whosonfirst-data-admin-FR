@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_37101",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"\u00c9peign\u00e9-sur-D\u00eame",
+    "eurostat:nuts_2021_id":"37101",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB04",
+    "eurostat:nuts_2021_level_lau":"37101",
+    "eurostat:population":159,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200073237",
     "frgov:id":"BDCSURCO0000000009597524",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683575,
         102191581,
@@ -57,7 +71,10 @@
         102067437
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_37101",
+        "eurostat:nuts_2021_id":"37101"
+    },
     "wof:coterminous":[
         1126050619
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"90ccf7a46cc5e1d4c2a8abbb92a0b680",
+    "wof:geomhash":"8d34902ce698ab6c8534cf0731a357c6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404421005,
-    "wof:lastmodified":1582325108,
+    "wof:lastmodified":1684353497,
     "wof:name":"Epeigne-Sur-Deme",
     "wof:parent_id":102067437,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":159,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

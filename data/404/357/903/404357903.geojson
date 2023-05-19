@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_77175",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"\u00c9vry-Gr\u00e9gy-sur-Yerre",
+    "eurostat:nuts_2021_id":"77175",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR102",
+    "eurostat:nuts_2021_level_lau":"77175",
+    "eurostat:population":2866,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070779",
     "frgov:id":"BDCSURCO0000000009591538",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"ILE-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002336,
-    "geom:area_square_m":19082478.374641,
+    "geom:area_square_m":19082478.37464,
     "geom:bbox":"2.5956988522,48.6236186926,2.68641514307,48.6829081689",
     "geom:latitude":48.653757,
     "geom:longitude":2.639528,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683385,
         102191581,
@@ -55,7 +69,10 @@
         102064573
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_77175",
+        "eurostat:nuts_2021_id":"77175"
+    },
     "wof:coterminous":[
         1360673535
     ],
@@ -63,7 +80,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a86f6ba5492fb25b2bdc31d3cdb9ca85",
+    "wof:geomhash":"e70cfaff3aa832bfb0272090cd7c59c9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -76,11 +93,13 @@
         }
     ],
     "wof:id":404357903,
-    "wof:lastmodified":1582324896,
+    "wof:lastmodified":1684352724,
     "wof:name":"Evry-Gregy-Sur-Yerre",
     "wof:parent_id":102064573,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2866,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

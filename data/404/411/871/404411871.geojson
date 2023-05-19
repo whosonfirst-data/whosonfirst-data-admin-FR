@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_08061",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Berli\u00e8re",
+    "eurostat:nuts_2021_id":"08061",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF21",
+    "eurostat:nuts_2021_level_lau":"08061",
+    "eurostat:population":40,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240800920",
     "frgov:id":"BDCSURCO0000000009584134",
     "frgov:insee_arr":"4",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683309,
         102191581,
@@ -58,7 +72,10 @@
         102064807
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_08061",
+        "eurostat:nuts_2021_id":"08061"
+    },
     "wof:coterminous":[
         101903277
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"97a81a18072e5fd7f8450a424da06fa6",
+    "wof:geomhash":"9bb4627914b1e32382fd9b2ab1fa38c9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404411871,
-    "wof:lastmodified":1582325171,
+    "wof:lastmodified":1684353388,
     "wof:name":"La Berliere",
     "wof:parent_id":102064807,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":40,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_14635",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Omer",
+    "eurostat:nuts_2021_id":"14635",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD11",
+    "eurostat:nuts_2021_level_lau":"14635",
+    "eurostat:population":184,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066710",
     "frgov:id":"BDCSURCO0000000009588855",
     "frgov:insee_arr":"2",
@@ -171,6 +183,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683579,
         102191581,
@@ -181,7 +195,10 @@
         102069979
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_14635",
+        "eurostat:nuts_2021_id":"14635"
+    },
     "wof:coterminous":[
         101879227
     ],
@@ -189,7 +206,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"fffd09df8b5c74fde99576b1205d2aa5",
+    "wof:geomhash":"7e873ba99115380f7f6c877b8ad47f7c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -203,11 +220,13 @@
         }
     ],
     "wof:id":404372697,
-    "wof:lastmodified":1582325471,
+    "wof:lastmodified":1684352920,
     "wof:name":"Saint-Omer",
     "wof:parent_id":102069979,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":184,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

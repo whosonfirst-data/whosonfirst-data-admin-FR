@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_13094",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-\u00c9tienne-du-Gr\u00e8s",
+    "eurostat:nuts_2021_id":"13094",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL04",
+    "eurostat:nuts_2021_level_lau":"13094",
+    "eurostat:population":2481,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"241300375",
     "frgov:id":"BDCSURCO0000000009612647",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683441,
         102191581,
@@ -57,7 +71,10 @@
         102070263
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_13094",
+        "eurostat:nuts_2021_id":"13094"
+    },
     "wof:coterminous":[
         101773609
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"238e9dc9aa2bc5b6a8dc7a48da86e01b",
+    "wof:geomhash":"42dfcb6933ecace1441a3d6f5c3d96fa",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404389209,
-    "wof:lastmodified":1582325332,
+    "wof:lastmodified":1684353119,
     "wof:name":"Saint-Etienne-Du-Gres",
     "wof:parent_id":102070263,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2481,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

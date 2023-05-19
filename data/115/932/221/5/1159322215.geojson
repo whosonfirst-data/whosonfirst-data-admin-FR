@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_94017",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Champigny-sur-Marne",
+    "eurostat:nuts_2021_id":"94017",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR107",
+    "eurostat:nuts_2021_level_lau":"94017",
+    "eurostat:population":77630,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200054781",
     "frgov:id":"BDCSURCO0000000009589701",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"ILE-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001385,
-    "geom:area_square_m":11274525.105676,
+    "geom:area_square_m":11274525.105675,
     "geom:bbox":"2.475806,48.803161,2.565525,48.831549",
     "geom:latitude":48.817398,
     "geom:longitude":2.516951,
@@ -162,23 +174,29 @@
     "reversegeo:longitude":2.513901,
     "src:geom":"frgov",
     "src:geom_alt":[],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85683459,
         102191581,
         85633147,
-        102071987,
         404228001,
         404227465,
-        85683459
+        102071987
     ],
     "wof:breaches":[],
     "wof:concordance":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_94017",
+        "eurostat:nuts_2021_id":"94017"
+    },
     "wof:coterminous":[
         101749699,
         102071987
     ],
     "wof:country":"FR",
     "wof:created":1526510336,
-    "wof:geomhash":"4ececa567b5dda18ed9b65573194f4d8",
+    "wof:geomhash":"7b4571aabd143b92f6543c9fe36b1dea",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -191,11 +209,13 @@
         }
     ],
     "wof:id":1159322215,
-    "wof:lastmodified":1608039566,
+    "wof:lastmodified":1684353599,
     "wof:name":"Champigny-sur-Marne",
     "wof:parent_id":102071987,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":77630,
+    "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded":[],
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_45290",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Martin-d'Abbat",
+    "eurostat:nuts_2021_id":"45290",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB06",
+    "eurostat:nuts_2021_level_lau":"45290",
+    "eurostat:population":1769,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244500427",
     "frgov:id":"BDCSURCO0000000009596450",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683479,
         102191581,
@@ -57,7 +71,10 @@
         102065307
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_45290",
+        "eurostat:nuts_2021_id":"45290"
+    },
     "wof:coterminous":[
         101766187
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"310ec616b7c6e0b8192cba45ce9d569a",
+    "wof:geomhash":"09a0c7827f49986634ec23a64b5fcd76",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404390867,
-    "wof:lastmodified":1582324265,
+    "wof:lastmodified":1684353141,
     "wof:name":"Saint-Martin-D'Abbat",
     "wof:parent_id":102065307,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1769,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

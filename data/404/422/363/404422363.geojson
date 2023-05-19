@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_18198",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Ambroix",
+    "eurostat:nuts_2021_id":"18198",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB01",
+    "eurostat:nuts_2021_level_lau":"18198",
+    "eurostat:population":364,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243600236",
     "frgov:id":"BDCSURCO0000000009600990",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003764,
-    "geom:area_square_m":31779832.075566,
+    "geom:area_square_m":31779832.075564,
     "geom:bbox":"2.07001038735,46.9066424129,2.18489116833,46.9578673371",
     "geom:latitude":46.935731,
     "geom:longitude":2.123821,
@@ -93,6 +105,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683549,
         102191581,
@@ -102,7 +116,10 @@
         102065621
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_18198",
+        "eurostat:nuts_2021_id":"18198"
+    },
     "wof:coterminous":[
         101890569
     ],
@@ -110,7 +127,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d0308cd2e27d242843e7bca85208a145",
+    "wof:geomhash":"8f7facd415cca7282e0461dcda96f5a3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -123,11 +140,13 @@
         }
     ],
     "wof:id":404422363,
-    "wof:lastmodified":1582324282,
+    "wof:lastmodified":1684353514,
     "wof:name":"Saint-Ambroix",
     "wof:parent_id":102065621,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":364,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

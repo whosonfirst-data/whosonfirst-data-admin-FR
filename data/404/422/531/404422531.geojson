@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_37020",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Beaulieu-l\u00e8s-Loches",
+    "eurostat:nuts_2021_id":"37020",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB04",
+    "eurostat:nuts_2021_level_lau":"37020",
+    "eurostat:population":1767,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071587",
     "frgov:id":"BDCSURCO0000000009600082",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000464,
-    "geom:area_square_m":3901105.245386,
+    "geom:area_square_m":3901105.245387,
     "geom:bbox":"1.00754980366,47.1159309528,1.04513018129,47.1392712661",
     "geom:latitude":47.128758,
     "geom:longitude":1.023305,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683575,
         102191581,
@@ -57,7 +71,10 @@
         102066731
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_37020",
+        "eurostat:nuts_2021_id":"37020"
+    },
     "wof:coterminous":[
         101829511
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a16fbed6edd41c6e94ef5301d43deafb",
+    "wof:geomhash":"0cbe560264aba54ae51280a41011393b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404422531,
-    "wof:lastmodified":1582324289,
+    "wof:lastmodified":1684353516,
     "wof:name":"Beaulieu-Les-Loches",
     "wof:parent_id":102066731,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1767,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

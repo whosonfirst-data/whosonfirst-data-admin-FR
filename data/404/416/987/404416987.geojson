@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_48087",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Prinsu\u00e9jols-Malbouzon",
+    "eurostat:nuts_2021_id":"48087",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ14",
+    "eurostat:nuts_2021_level_lau":"48087",
+    "eurostat:population":280,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069144",
     "frgov:id":"BDCSURCO0000000009609446",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.006521,
-    "geom:area_square_m":57336445.752659,
+    "geom:area_square_m":57336445.75266,
     "geom:bbox":"3.09138105068,44.6294200077,3.2218213516,44.7277025887",
     "geom:latitude":44.678029,
     "geom:longitude":3.159065,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683453,
         102191581,
@@ -58,7 +72,10 @@
         102067269
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_48087",
+        "eurostat:nuts_2021_id":"48087"
+    },
     "wof:coterminous":[
         1125822791
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"13b1500a93d7b5d3db76d5758b9f2093",
+    "wof:geomhash":"7cbe209ebe797526c63faee091f415d1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404416987,
-    "wof:lastmodified":1582325193,
+    "wof:lastmodified":1684353448,
     "wof:name":"Prinsuejols",
     "wof:parent_id":102067269,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":280,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_02320",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Fontaine-l\u00e8s-Clercs",
+    "eurostat:nuts_2021_id":"02320",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE21",
+    "eurostat:nuts_2021_level_lau":"02320",
+    "eurostat:population":250,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071892",
     "frgov:id":"BDCSURCO0000000009582907",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683247,
         102191581,
@@ -58,7 +72,10 @@
         102069685
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_02320",
+        "eurostat:nuts_2021_id":"02320"
+    },
     "wof:coterminous":[
         101901617
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b44d2f70d5b1d8c3a4c45753232956ec",
+    "wof:geomhash":"0d0b73831bad32fbcfaa637462ab5de7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404412781,
-    "wof:lastmodified":1582324383,
+    "wof:lastmodified":1684353398,
     "wof:name":"Fontaine-Les-Clercs",
     "wof:parent_id":102069685,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":250,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

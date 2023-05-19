@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_16015",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Angoul\u00eame",
+    "eurostat:nuts_2021_id":"16015",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI31",
+    "eurostat:nuts_2021_level_lau":"16015",
+    "eurostat:population":41740,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071827",
     "frgov:id":"BDCSURCO0000000009605893",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Pr\u00e9fecture",
     "geom:area":0.002509,
-    "geom:area_square_m":21691363.49299,
+    "geom:area_square_m":21691363.492989,
     "geom:bbox":"0.099621,45.620154,0.190494,45.671636",
     "geom:latitude":45.6474,
     "geom:longitude":0.145145,
@@ -48,17 +60,22 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85683437,
         102191581,
         85633147,
-        102072237,
-        136253037,
         404227619,
         1108826385,
-        85683437
+        136253037,
+        102072237
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_16015",
+        "eurostat:nuts_2021_id":"16015"
+    },
     "wof:coterminous":[
         101829071,
         102072237
@@ -67,7 +84,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d52d0578322cc39ac1e7a141c52a60f7",
+    "wof:geomhash":"f399de09d64038e76b24f4353f04fa9a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -81,11 +98,13 @@
         }
     ],
     "wof:id":404348375,
-    "wof:lastmodified":1608037706,
+    "wof:lastmodified":1684352594,
     "wof:name":"Angouleme",
     "wof:parent_id":102072237,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Pr\u00e9fecture",
+    "wof:population":41740,
+    "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

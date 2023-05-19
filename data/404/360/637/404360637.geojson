@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_05009",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Aspres-l\u00e8s-Corps",
+    "eurostat:nuts_2021_id":"05009",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL02",
+    "eurostat:nuts_2021_level_lau":"05009",
+    "eurostat:population":104,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068096",
     "frgov:id":"BDCSURCO0000000009608899",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.001893,
-    "geom:area_square_m":16608369.111223,
+    "geom:area_square_m":16608369.111224,
     "geom:bbox":"5.94951924785,44.7909809718,6.05650237603,44.8380960978",
     "geom:latitude":44.81267,
     "geom:longitude":5.999465,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683597,
         102191581,
@@ -57,7 +71,10 @@
         102067993
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_05009",
+        "eurostat:nuts_2021_id":"05009"
+    },
     "wof:coterminous":[
         1125890921
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"bd1964b7477bb3a3ff25a66eeccfd1ef",
+    "wof:geomhash":"284906810e0c403eece14f45a58b01f2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404360637,
-    "wof:lastmodified":1582325056,
+    "wof:lastmodified":1684352762,
     "wof:name":"Aspres-Les-Corps",
     "wof:parent_id":102067993,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":104,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

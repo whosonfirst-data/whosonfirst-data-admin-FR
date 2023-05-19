@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_19217",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Julien-Maumont",
+    "eurostat:nuts_2021_id":"19217",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI21",
+    "eurostat:nuts_2021_level_lau":"19217",
+    "eurostat:population":157,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066769",
     "frgov:id":"BDCSURCO0000000009608379",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000731,
-    "geom:area_square_m":6388092.772981,
+    "geom:area_square_m":6388092.77298,
     "geom:bbox":"1.68864554617,45.0215591341,1.72870864127,45.0485752107",
     "geom:latitude":45.03456,
     "geom:longitude":1.709405,
@@ -124,6 +136,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683209,
         102191581,
@@ -134,7 +148,10 @@
         102067565
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_19217",
+        "eurostat:nuts_2021_id":"19217"
+    },
     "wof:coterminous":[
         1360673337
     ],
@@ -142,7 +159,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0fd9b9905db240ae135846a20e80571c",
+    "wof:geomhash":"c838c24ba00bc0f2031a2d918824e6f7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -156,11 +173,13 @@
         }
     ],
     "wof:id":404355905,
-    "wof:lastmodified":1582324191,
+    "wof:lastmodified":1684352697,
     "wof:name":"Saint-Julien-Maumont",
     "wof:parent_id":102067565,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":157,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

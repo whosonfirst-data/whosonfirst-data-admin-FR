@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_07299",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Symphorien-de-Mahun",
+    "eurostat:nuts_2021_id":"07299",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK22",
+    "eurostat:nuts_2021_level_lau":"07299",
+    "eurostat:population":120,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240700716",
     "frgov:id":"BDCSURCO0000000009607681",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.002238,
-    "geom:area_square_m":19511264.825537,
+    "geom:area_square_m":19511264.825535,
     "geom:bbox":"4.51321801519,45.1308763664,4.59322159639,45.181768708",
     "geom:latitude":45.156376,
     "geom:longitude":4.549856,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683421,
         102191581,
@@ -58,7 +72,10 @@
         102068251
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_07299",
+        "eurostat:nuts_2021_id":"07299"
+    },
     "wof:coterminous":[
         1126019399
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"91f7ea7a6db0fa1bebb00d768204307b",
+    "wof:geomhash":"b61b154ae951611af53c13635db39648",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404370055,
-    "wof:lastmodified":1582324600,
+    "wof:lastmodified":1684352890,
     "wof:name":"Saint-Symphorien-De-Mahun",
     "wof:parent_id":102068251,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":120,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_49028",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"B\u00e9huard",
+    "eurostat:nuts_2021_id":"49028",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG02",
+    "eurostat:nuts_2021_level_lau":"49028",
+    "eurostat:population":125,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244900015",
     "frgov:id":"BDCSURCO0000000009598721",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000272,
-    "geom:area_square_m":2275746.207034,
+    "geom:area_square_m":2275746.207033,
     "geom:bbox":"-0.678922655035,47.3686866026,-0.62796515757,47.3938647816",
     "geom:latitude":47.378136,
     "geom:longitude":-0.650991,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683327,
         102191581,
@@ -57,7 +71,10 @@
         102069089
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_49028",
+        "eurostat:nuts_2021_id":"49028"
+    },
     "wof:coterminous":[
         1125804269
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b17e495e02654ff4885f5b8b78b04807",
+    "wof:geomhash":"21e12eaee390f4560bd7e2c5e2464edc",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404354573,
-    "wof:lastmodified":1582324092,
+    "wof:lastmodified":1684352679,
     "wof:name":"Behuard",
     "wof:parent_id":102069089,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":125,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_15192",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Jacques-des-Blats",
+    "eurostat:nuts_2021_id":"15192",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK12",
+    "eurostat:nuts_2021_level_lau":"15192",
+    "eurostat:population":330,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"241501089",
     "frgov:id":"BDCSURCO0000000009608348",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.003581,
-    "geom:area_square_m":31279819.982121,
+    "geom:area_square_m":31279819.98212,
     "geom:bbox":"2.67111208906,45.018829284,2.76583728111,45.0883281366",
     "geom:latitude":45.055689,
     "geom:longitude":2.720888,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683517,
         102191581,
@@ -58,7 +72,10 @@
         102068519
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_15192",
+        "eurostat:nuts_2021_id":"15192"
+    },
     "wof:coterminous":[
         1125764763
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"dfee8e5d9fd16a3fc7bc1b7d7c30c2c6",
+    "wof:geomhash":"00f6525979a659eb2c721264084a838d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404352165,
-    "wof:lastmodified":1582324170,
+    "wof:lastmodified":1684352647,
     "wof:name":"Saint-Jacques-Des-Blats",
     "wof:parent_id":102068519,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":330,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

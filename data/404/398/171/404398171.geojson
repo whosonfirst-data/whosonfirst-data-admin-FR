@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_63354",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Gervais-d'Auvergne",
+    "eurostat:nuts_2021_id":"63354",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK14",
+    "eurostat:nuts_2021_level_lau":"63354",
+    "eurostat:population":1340,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072080",
     "frgov:id":"BDCSURCO0000000009604271",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.005551,
-    "geom:area_square_m":47666490.658018,
+    "geom:area_square_m":47666490.65802,
     "geom:bbox":"2.76996922848,45.9758778351,2.88782422669,46.0612487848",
     "geom:latitude":46.018899,
     "geom:longitude":2.831409,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683471,
         102191581,
@@ -58,7 +72,10 @@
         102071225
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_63354",
+        "eurostat:nuts_2021_id":"63354"
+    },
     "wof:coterminous":[
         101767845
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"79c2d7fc2325dcf74258247515b45716",
+    "wof:geomhash":"04bcf25047906a14e19fcaa528c1ef8e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404398171,
-    "wof:lastmodified":1582324123,
+    "wof:lastmodified":1684353227,
     "wof:name":"Saint-Gervais-D'Auvergne",
     "wof:parent_id":102071225,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1340,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

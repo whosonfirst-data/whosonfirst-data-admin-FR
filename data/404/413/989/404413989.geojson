@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_01379",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Maurice-de-R\u00e9mens",
+    "eurostat:nuts_2021_id":"01379",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK21",
+    "eurostat:nuts_2021_level_lau":"01379",
+    "eurostat:population":756,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240100883",
     "frgov:id":"BDCSURCO0000000009604434",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001205,
-    "geom:area_square_m":10361867.598281,
+    "geom:area_square_m":10361867.59828,
     "geom:bbox":"5.24785290939,45.9293350906,5.29378075438,45.9791721268",
     "geom:latitude":45.953049,
     "geom:longitude":5.270431,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683153,
         102191581,
@@ -58,7 +72,10 @@
         102064237
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_01379",
+        "eurostat:nuts_2021_id":"01379"
+    },
     "wof:coterminous":[
         1125815611
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c7e76da28ff421dfb6b1142417403245",
+    "wof:geomhash":"27af655885cdd043bd2c3d9dbe64bdb4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404413989,
-    "wof:lastmodified":1582324332,
+    "wof:lastmodified":1684353414,
     "wof:name":"Saint-Maurice-De-Remens",
     "wof:parent_id":102064237,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":756,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

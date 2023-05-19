@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_17308",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Agnant",
+    "eurostat:nuts_2021_id":"17308",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI32",
+    "eurostat:nuts_2021_level_lau":"17308",
+    "eurostat:population":2682,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041762",
     "frgov:id":"BDCSURCO0000000009604917",
     "frgov:insee_arr":"2",
@@ -60,6 +72,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683275,
         102191581,
@@ -70,7 +84,10 @@
         102069125
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_17308",
+        "eurostat:nuts_2021_id":"17308"
+    },
     "wof:coterminous":[
         101766423
     ],
@@ -78,7 +95,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ca97b802e029764f0505284b3ed99b8f",
+    "wof:geomhash":"81a6a42d1a3bf4016ac370d7775d4e92",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -92,11 +109,13 @@
         }
     ],
     "wof:id":404347875,
-    "wof:lastmodified":1582324722,
+    "wof:lastmodified":1684352587,
     "wof:name":"Saint-Agnant",
     "wof:parent_id":102069125,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2682,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

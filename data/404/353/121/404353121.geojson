@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_07100",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gravi\u00e8res",
+    "eurostat:nuts_2021_id":"07100",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK22",
+    "eurostat:nuts_2021_level_lau":"07100",
+    "eurostat:population":474,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200039832",
     "frgov:id":"BDCSURCO0000000009610510",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.002114,
-    "geom:area_square_m":18670046.450196,
+    "geom:area_square_m":18670046.450198,
     "geom:bbox":"4.03548127414,44.3892390968,4.10754360761,44.4507046195",
     "geom:latitude":44.421206,
     "geom:longitude":4.07194,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683421,
         102191581,
@@ -58,7 +72,10 @@
         102069249
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_07100",
+        "eurostat:nuts_2021_id":"07100"
+    },
     "wof:coterminous":[
         1125840863
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"93c7bbf37aed06bd302a4183fe36fcd2",
+    "wof:geomhash":"311bcd2ad77a566685e7413e37d32b6b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404353121,
-    "wof:lastmodified":1582324132,
+    "wof:lastmodified":1684352660,
     "wof:name":"Gravieres",
     "wof:parent_id":102069249,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":474,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

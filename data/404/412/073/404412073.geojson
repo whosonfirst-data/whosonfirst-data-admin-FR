@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_36041",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Chapelle-Saint-Laurian",
+    "eurostat:nuts_2021_id":"36041",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB03",
+    "eurostat:nuts_2021_level_lau":"36041",
+    "eurostat:population":148,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068880",
     "frgov:id":"BDCSURCO0000000009600555",
     "frgov:insee_arr":"4",
@@ -132,6 +144,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683311,
         102191581,
@@ -141,7 +155,10 @@
         102068681
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_36041",
+        "eurostat:nuts_2021_id":"36041"
+    },
     "wof:coterminous":[
         1126057551
     ],
@@ -149,7 +166,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"90a5329b6f0cad36ece54745826b756b",
+    "wof:geomhash":"70fddea35b035c5a6b89f46bc5ab63af",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -162,11 +179,13 @@
         }
     ],
     "wof:id":404412073,
-    "wof:lastmodified":1582324379,
+    "wof:lastmodified":1684353390,
     "wof:name":"La Chapelle-Saint-Laurian",
     "wof:parent_id":102068681,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":148,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

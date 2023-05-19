@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_63211",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Marsac-en-Livradois",
+    "eurostat:nuts_2021_id":"63211",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK14",
+    "eurostat:nuts_2021_level_lau":"63211",
+    "eurostat:population":1458,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070761",
     "frgov:id":"BDCSURCO0000000009606574",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.005587,
-    "geom:area_square_m":48436522.126622,
+    "geom:area_square_m":48436522.126621,
     "geom:bbox":"3.65768504792,45.443977761,3.79027956325,45.5136385949",
     "geom:latitude":45.480312,
     "geom:longitude":3.721695,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683471,
         102191581,
@@ -58,7 +72,10 @@
         102064511
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_63211",
+        "eurostat:nuts_2021_id":"63211"
+    },
     "wof:coterminous":[
         101769565
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"785587063c6b9df307ed9036abc241ea",
+    "wof:geomhash":"84add351df1fd78ebea13dedc82b537f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404352061,
-    "wof:lastmodified":1582324175,
+    "wof:lastmodified":1684352646,
     "wof:name":"Marsac-En-Livradois",
     "wof:parent_id":102064511,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1458,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

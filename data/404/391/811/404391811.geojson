@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_14223",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"D\u00e9troit",
+    "eurostat:nuts_2021_id":"14223",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD11",
+    "eurostat:nuts_2021_level_lau":"14223",
+    "eurostat:population":87,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"241400514",
     "frgov:id":"BDCSURCO0000000009589358",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683579,
         102191581,
@@ -58,7 +72,10 @@
         102067429
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_14223",
+        "eurostat:nuts_2021_id":"14223"
+    },
     "wof:coterminous":[
         1125772795
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e525a396d3f81c9a9b2ee546d16d1fa5",
+    "wof:geomhash":"0ad976f352677f1cd23ddbfbcdc0728c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404391811,
-    "wof:lastmodified":1582324009,
+    "wof:lastmodified":1684353154,
     "wof:name":"Le Detroit",
     "wof:parent_id":102067429,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":87,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

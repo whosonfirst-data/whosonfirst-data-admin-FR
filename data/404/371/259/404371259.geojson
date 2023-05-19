@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_26275",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rochegude",
+    "eurostat:nuts_2021_id":"26275",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK23",
+    "eurostat:nuts_2021_level_lau":"26275",
+    "eurostat:population":1579,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200042901",
     "frgov:id":"BDCSURCO0000000009611012",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.00208,
-    "geom:area_square_m":18416869.635777,
+    "geom:area_square_m":18416869.635774,
     "geom:bbox":"4.8039985649,44.2283250664,4.88025037669,44.2776166306",
     "geom:latitude":44.255797,
     "geom:longitude":4.837319,
@@ -87,6 +99,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683523,
         102191581,
@@ -97,7 +111,10 @@
         102068961
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_26275",
+        "eurostat:nuts_2021_id":"26275"
+    },
     "wof:coterminous":[
         101772971
     ],
@@ -105,7 +122,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"125630bbcd895abe023e8843bc1e92f3",
+    "wof:geomhash":"260b8f0c36f0ee2f60b232367f3d0f4e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -119,11 +136,13 @@
         }
     ],
     "wof:id":404371259,
-    "wof:lastmodified":1582324648,
+    "wof:lastmodified":1684352904,
     "wof:name":"Rochegude",
     "wof:parent_id":102068961,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1579,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

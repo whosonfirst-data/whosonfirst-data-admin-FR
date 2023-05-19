@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_45234",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Orl\u00e9ans",
+    "eurostat:nuts_2021_id":"45234",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB06",
+    "eurostat:nuts_2021_level_lau":"45234",
+    "eurostat:population":116685,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244500468",
     "frgov:id":"BDCSURCO0000000009596461",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Pr\u00e9fecture de r\u00e9gion",
     "geom:area":0.003322,
-    "geom:area_square_m":27546736.995805,
+    "geom:area_square_m":27546736.995806,
     "geom:bbox":"1.875803,47.813118,1.948744,47.93336",
     "geom:latitude":47.882238,
     "geom:longitude":1.916602,
@@ -48,16 +60,21 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85683479,
         102191581,
         85633147,
-        102072461,
         404227895,
         404227461,
-        85683479
+        102072461
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_45234",
+        "eurostat:nuts_2021_id":"45234"
+    },
     "wof:coterminous":[
         101750945,
         102072461
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f68077df376798cb7b49ebf8ba6375f0",
+    "wof:geomhash":"fb04008f535b8945d8935b21371fe825",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -79,11 +96,13 @@
         }
     ],
     "wof:id":404353987,
-    "wof:lastmodified":1608037165,
+    "wof:lastmodified":1684352672,
     "wof:name":"Orleans",
     "wof:parent_id":102072461,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Pr\u00e9fecture de r\u00e9gion",
+    "wof:population":116685,
+    "wof:population_rank":9,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

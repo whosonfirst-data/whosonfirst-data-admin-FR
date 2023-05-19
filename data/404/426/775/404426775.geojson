@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_05169",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sorbiers",
+    "eurostat:nuts_2021_id":"05169",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL02",
+    "eurostat:nuts_2021_level_lau":"05169",
+    "eurostat:population":36,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068765",
     "frgov:id":"BDCSURCO0000000009610652",
     "frgov:insee_arr":"2",
@@ -94,6 +106,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683597,
         102191581,
@@ -103,7 +117,10 @@
         102067423
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_05169",
+        "eurostat:nuts_2021_id":"05169"
+    },
     "wof:coterminous":[
         1360680243
     ],
@@ -111,7 +128,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5e45858b788bb7c43b12ff945bc01dc4",
+    "wof:geomhash":"61413162dcacb624f4ef17b95984194b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -124,11 +141,13 @@
         }
     ],
     "wof:id":404426775,
-    "wof:lastmodified":1582325092,
+    "wof:lastmodified":1684353566,
     "wof:name":"Sorbiers",
     "wof:parent_id":102067423,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":36,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_02832",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wi\u00e8ge-Faty",
+    "eurostat:nuts_2021_id":"02832",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE21",
+    "eurostat:nuts_2021_level_lau":"02832",
+    "eurostat:population":200,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240200444",
     "frgov:id":"BDCSURCO0000000009582416",
     "frgov:insee_arr":"5",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683247,
         102191581,
@@ -58,7 +72,10 @@
         102069421
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_02832",
+        "eurostat:nuts_2021_id":"02832"
+    },
     "wof:coterminous":[
         101899995
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"55e2e57ac5e3b1d5447817a185494c1b",
+    "wof:geomhash":"f5159777b18c72e49be46934c53e527f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404411989,
-    "wof:lastmodified":1582325175,
+    "wof:lastmodified":1684353389,
     "wof:name":"Wiege-Faty",
     "wof:parent_id":102069421,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":200,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

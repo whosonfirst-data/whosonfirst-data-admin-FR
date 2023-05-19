@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_21628",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Thoires",
+    "eurostat:nuts_2021_id":"21628",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC11",
+    "eurostat:nuts_2021_level_lau":"21628",
+    "eurostat:population":64,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242101434",
     "frgov:id":"BDCSURCO0000000009595703",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001241,
-    "geom:area_square_m":10277246.154972,
+    "geom:area_square_m":10277246.154971,
     "geom:bbox":"4.65540767373,47.9221088112,4.70492436415,47.9666360299",
     "geom:latitude":47.941182,
     "geom:longitude":4.682396,
@@ -127,6 +139,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683563,
         102191581,
@@ -137,7 +151,10 @@
         102068437
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_21628",
+        "eurostat:nuts_2021_id":"21628"
+    },
     "wof:coterminous":[
         1360679153
     ],
@@ -145,7 +162,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"eb232225bc0e6dbb499116a0c82d320b",
+    "wof:geomhash":"aea56c1256b9d5a71f945d17ebc756a5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -159,11 +176,13 @@
         }
     ],
     "wof:id":404414711,
-    "wof:lastmodified":1582324350,
+    "wof:lastmodified":1684353422,
     "wof:name":"Thoires",
     "wof:parent_id":102068437,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":64,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_08418",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"S\u00e9vigny-Waleppe",
+    "eurostat:nuts_2021_id":"08418",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF21",
+    "eurostat:nuts_2021_level_lau":"08418",
+    "eurostat:population":227,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200043156",
     "frgov:id":"BDCSURCO0000000009583805",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.003018,
-    "geom:area_square_m":24174132.582661,
+    "geom:area_square_m":24174132.582662,
     "geom:bbox":"4.02461435565,49.5941392218,4.14758474848,49.6383890218",
     "geom:latitude":49.617271,
     "geom:longitude":4.079858,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683309,
         102191581,
@@ -58,7 +72,10 @@
         102065263
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_08418",
+        "eurostat:nuts_2021_id":"08418"
+    },
     "wof:coterminous":[
         101903213
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c77994a15ab9c45205a86ed1d0f1a6a6",
+    "wof:geomhash":"eba2929c01e9b144bcab0a01ba38d73a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404387643,
-    "wof:lastmodified":1582325356,
+    "wof:lastmodified":1684353100,
     "wof:name":"Sevigny-Waleppe",
     "wof:parent_id":102065263,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":227,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_45145",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ferri\u00e8res-en-G\u00e2tinais",
+    "eurostat:nuts_2021_id":"45145",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB06",
+    "eurostat:nuts_2021_level_lau":"45145",
+    "eurostat:population":3687,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244500419",
     "frgov:id":"BDCSURCO0000000009595108",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003309,
-    "geom:area_square_m":27318969.981908,
+    "geom:area_square_m":27318969.981907,
     "geom:bbox":"2.76751956472,48.0591511839,2.85694256942,48.1391420892",
     "geom:latitude":48.105344,
     "geom:longitude":2.804429,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683479,
         102191581,
@@ -55,7 +69,10 @@
         102066441
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_45145",
+        "eurostat:nuts_2021_id":"45145"
+    },
     "wof:coterminous":[
         1360679021
     ],
@@ -63,7 +80,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4512f01f3a5053d55d003df1d1462445",
+    "wof:geomhash":"28f65946fa72e9853c76bd796c1af475",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -76,11 +93,13 @@
         }
     ],
     "wof:id":404413303,
-    "wof:lastmodified":1582324324,
+    "wof:lastmodified":1684353405,
     "wof:name":"Ferrieres-En-Gatinais",
     "wof:parent_id":102066441,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3687,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

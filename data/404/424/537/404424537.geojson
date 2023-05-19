@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_80599",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Noyelles-en-Chauss\u00e9e",
+    "eurostat:nuts_2021_id":"80599",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE23",
+    "eurostat:nuts_2021_level_lau":"80599",
+    "eurostat:population":243,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070936",
     "frgov:id":"BDCSURCO0000000009581712",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001329,
-    "geom:area_square_m":10512944.542429,
+    "geom:area_square_m":10512944.54243,
     "geom:bbox":"1.95621780108,50.1925050969,2.01201869796,50.2344854358",
     "geom:latitude":50.210844,
     "geom:longitude":1.986291,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683363,
         102191581,
@@ -58,7 +72,10 @@
         102067777
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_80599",
+        "eurostat:nuts_2021_id":"80599"
+    },
     "wof:coterminous":[
         101898965
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d627e0f784c02fefee5cf748c3087ab5",
+    "wof:geomhash":"c29a80324ac06077c77bf076c4ccd6ec",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404424537,
-    "wof:lastmodified":1582324394,
+    "wof:lastmodified":1684353540,
     "wof:name":"Noyelles-En-Chaussee",
     "wof:parent_id":102067777,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":243,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_66136",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Perpignan",
+    "eurostat:nuts_2021_id":"66136",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ15",
+    "eurostat:nuts_2021_level_lau":"66136",
+    "eurostat:population":120158,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200027183",
     "frgov:id":"BDCSURCO0000000009616505",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Pr\u00e9fecture",
     "geom:area":0.007486,
-    "geom:area_square_m":68033626.808073,
+    "geom:area_square_m":68033626.808075,
     "geom:bbox":"2.826446,42.649272,2.982662,42.748806",
     "geom:latitude":42.696436,
     "geom:longitude":2.899054,
@@ -270,24 +282,30 @@
     "reversegeo:longitude":2.89784,
     "src:geom":"frgov",
     "src:geom_alt":[],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85683169,
         102191581,
         85633147,
-        102072469,
-        136253037,
         404227943,
         1108826387,
-        85683169
+        136253037,
+        102072469
     ],
     "wof:breaches":[],
     "wof:concordance":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_66136",
+        "eurostat:nuts_2021_id":"66136"
+    },
     "wof:coterminous":[
         101750645,
         102072469
     ],
     "wof:country":"FR",
     "wof:created":1526510106,
-    "wof:geomhash":"25c8c5f82510c157f60deff33a233685",
+    "wof:geomhash":"6c3f8c4a5a9936c9b273d1ed7435d00c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -301,11 +319,13 @@
         }
     ],
     "wof:id":1159322133,
-    "wof:lastmodified":1608039586,
+    "wof:lastmodified":1684353597,
     "wof:name":"Perpignan",
     "wof:parent_id":102072469,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Pr\u00e9fecture",
+    "wof:population":120158,
+    "wof:population_rank":9,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded":[],
     "wof:superseded_by":[],

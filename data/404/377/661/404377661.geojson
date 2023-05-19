@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_60169",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Courcelles-l\u00e8s-Gisors",
+    "eurostat:nuts_2021_id":"60169",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE22",
+    "eurostat:nuts_2021_level_lau":"60169",
+    "eurostat:population":821,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"246000707",
     "frgov:id":"BDCSURCO0000000009586243",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000854,
-    "geom:area_square_m":6890555.210169,
+    "geom:area_square_m":6890555.210168,
     "geom:bbox":"1.70142519061,49.2489657088,1.76897080124,49.2724120164",
     "geom:latitude":49.259246,
     "geom:longitude":1.736973,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683289,
         102191581,
@@ -58,7 +72,10 @@
         102065451
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_60169",
+        "eurostat:nuts_2021_id":"60169"
+    },
     "wof:coterminous":[
         101877987
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4dbcc6f475da411323c7e60847426f5d",
+    "wof:geomhash":"bd9c40c7f13d81e6be63f024bee64325",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404377661,
-    "wof:lastmodified":1582324563,
+    "wof:lastmodified":1684352983,
     "wof:name":"Courcelles-Les-Gisors",
     "wof:parent_id":102065451,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":821,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

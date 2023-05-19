@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_08501",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Williers",
+    "eurostat:nuts_2021_id":"08501",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF21",
+    "eurostat:nuts_2021_level_lau":"08501",
+    "eurostat:population":42,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240800847",
     "frgov:id":"BDCSURCO0000000009583119",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.000286,
-    "geom:area_square_m":2289122.087947,
+    "geom:area_square_m":2289122.087948,
     "geom:bbox":"5.28655568194,49.6596834311,5.31915229734,49.6818149526",
     "geom:latitude":49.668602,
     "geom:longitude":5.301716,
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683309,
         102191581,
@@ -139,7 +153,10 @@
         102064957
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_08501",
+        "eurostat:nuts_2021_id":"08501"
+    },
     "wof:coterminous":[
         1125946471
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a3cc7398d3e3b6f8a6050078f25cebca",
+    "wof:geomhash":"581c40572f02f78fd5f10739d5a78939",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404394213,
-    "wof:lastmodified":1582325036,
+    "wof:lastmodified":1684353182,
     "wof:name":"Williers",
     "wof:parent_id":102064957,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":42,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_11292",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Pomar\u00e8de",
+    "eurostat:nuts_2021_id":"11292",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ11",
+    "eurostat:nuts_2021_level_lau":"11292",
+    "eurostat:population":143,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200035855",
     "frgov:id":"BDCSURCO0000000009614164",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683485,
         102191581,
@@ -58,7 +72,10 @@
         102065813
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_11292",
+        "eurostat:nuts_2021_id":"11292"
+    },
     "wof:coterminous":[
         1126004781
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5da15f0a2140ee8d9fd6bd2c8c7b26bb",
+    "wof:geomhash":"3b1f3dde2cb77124c90cc5fa6fa81f96",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404403865,
-    "wof:lastmodified":1582325299,
+    "wof:lastmodified":1684353293,
     "wof:name":"La Pomarede",
     "wof:parent_id":102065813,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":143,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

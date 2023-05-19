@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_67482",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Strasbourg",
+    "eurostat:nuts_2021_id":"67482",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF1",
+    "eurostat:nuts_2021_level_3":"FRF11",
+    "eurostat:nuts_2021_level_lau":"67482",
+    "eurostat:population":280966,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"246700488",
     "frgov:id":"BDCSURCO0000000009591337",
     "frgov:insee_arr":"8",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Pr\u00e9fecture de r\u00e9gion",
     "geom:area":0.009522,
-    "geom:area_square_m":77908448.116105,
+    "geom:area_square_m":77908448.116109,
     "geom:bbox":"7.687934,48.492024,7.835923,48.646236",
     "geom:latitude":48.571406,
     "geom:longitude":7.767647,
@@ -435,17 +447,23 @@
     "reversegeo:longitude":7.768786,
     "src:geom":"frgov",
     "src:geom_alt":[],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85683221,
         102191581,
         85633147,
-        102072577,
-        136253037,
         404228317,
         1108826391,
-        85683221
+        136253037,
+        102072577
     ],
     "wof:breaches":[],
     "wof:concordance":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_67482",
+        "eurostat:nuts_2021_id":"67482"
+    },
     "wof:coterminous":[
         101751113,
         102072577,
@@ -453,7 +471,7 @@
     ],
     "wof:country":"FR",
     "wof:created":1526509337,
-    "wof:geomhash":"8dae0c6324e428b93f64d73f7b6cd84c",
+    "wof:geomhash":"9c1edd51c383a3b91aa3869388e78f06",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -467,11 +485,13 @@
         }
     ],
     "wof:id":1159321945,
-    "wof:lastmodified":1608039561,
+    "wof:lastmodified":1684353595,
     "wof:name":"Strasbourg",
     "wof:parent_id":102072577,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Pr\u00e9fecture de r\u00e9gion",
+    "wof:population":280966,
+    "wof:population_rank":10,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded":[],
     "wof:superseded_by":[],

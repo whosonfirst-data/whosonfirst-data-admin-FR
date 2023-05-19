@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_22318",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Michel-de-Pl\u00e9lan",
+    "eurostat:nuts_2021_id":"22318",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH01",
+    "eurostat:nuts_2021_level_lau":"22318",
+    "eurostat:population":321,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068989",
     "frgov:id":"BDCSURCO0000000009592158",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683515,
         102191581,
@@ -57,7 +71,10 @@
         102069931
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_22318",
+        "eurostat:nuts_2021_id":"22318"
+    },
     "wof:coterminous":[
         1125815999
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a65db884ea3023a9f2128dae5bb98e62",
+    "wof:geomhash":"1fd2f9c41884ff2a90e5ad384fd34748",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404396497,
-    "wof:lastmodified":1582324070,
+    "wof:lastmodified":1684353208,
     "wof:name":"Saint-Michel-De-Plelan",
     "wof:parent_id":102069931,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":321,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

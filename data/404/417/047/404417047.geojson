@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_70363",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Montigny-l\u00e8s-Vesoul",
+    "eurostat:nuts_2021_id":"70363",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC23",
+    "eurostat:nuts_2021_level_lau":"70363",
+    "eurostat:population":660,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247000011",
     "frgov:id":"BDCSURCO0000000009597043",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00078,
-    "geom:area_square_m":6501696.665125,
+    "geom:area_square_m":6501696.665124,
     "geom:bbox":"6.04010124356,47.6290171311,6.09827675816,47.6620797558",
     "geom:latitude":47.643093,
     "geom:longitude":6.070878,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683559,
         102191581,
@@ -58,7 +72,10 @@
         102069671
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_70363",
+        "eurostat:nuts_2021_id":"70363"
+    },
     "wof:coterminous":[
         101887687
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0e2de91fe6be4e11e4b37ccf1bdce93b",
+    "wof:geomhash":"adab3d04e4edc36d4936990715af5b5e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404417047,
-    "wof:lastmodified":1582325130,
+    "wof:lastmodified":1684353449,
     "wof:name":"Montigny-Les-Vesoul",
     "wof:parent_id":102069671,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":660,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

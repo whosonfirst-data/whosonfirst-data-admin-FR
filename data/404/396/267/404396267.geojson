@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_35289",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Malo-de-Phily",
+    "eurostat:nuts_2021_id":"35289",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH03",
+    "eurostat:nuts_2021_level_lau":"35289",
+    "eurostat:population":1084,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200043990",
     "frgov:id":"BDCSURCO0000000009596226",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BRETAGNE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002255,
-    "geom:area_square_m":18703256.441522,
+    "geom:area_square_m":18703256.441521,
     "geom:bbox":"-1.84260516242,47.8350906526,-1.7755075633,47.8943700625",
     "geom:latitude":47.867784,
     "geom:longitude":-1.80529,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683461,
         102191581,
@@ -57,7 +71,10 @@
         102068967
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_35289",
+        "eurostat:nuts_2021_id":"35289"
+    },
     "wof:coterminous":[
         1125798077
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"62842fa95dc5a1433adf163e14b73836",
+    "wof:geomhash":"fa892e03ba711a63bd6a3c9ce932168f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404396267,
-    "wof:lastmodified":1582324070,
+    "wof:lastmodified":1684353205,
     "wof:name":"Saint-Malo-De-Phily",
     "wof:parent_id":102068967,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1084,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

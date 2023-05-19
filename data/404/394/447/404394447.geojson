@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_77406",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Denis-l\u00e8s-Rebais",
+    "eurostat:nuts_2021_id":"77406",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR102",
+    "eurostat:nuts_2021_level_lau":"77406",
+    "eurostat:population":975,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072544",
     "frgov:id":"BDCSURCO0000000009589660",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"ILE-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00185,
-    "geom:area_square_m":15056593.308942,
+    "geom:area_square_m":15056593.308941,
     "geom:bbox":"3.16122690925,48.8240513679,3.22843515638,48.8709384001",
     "geom:latitude":48.845296,
     "geom:longitude":3.199407,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683385,
         102191581,
@@ -57,7 +71,10 @@
         102069203
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_77406",
+        "eurostat:nuts_2021_id":"77406"
+    },
     "wof:coterminous":[
         1125988931
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5a0fd5a8893427045263fece70f8fd69",
+    "wof:geomhash":"7e8e8e27e2126e183d0ef1096d00b0e8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404394447,
-    "wof:lastmodified":1582325025,
+    "wof:lastmodified":1684353184,
     "wof:name":"Saint-Denis-Les-Rebais",
     "wof:parent_id":102069203,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":975,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_80665",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Regni\u00e8re-\u00c9cluse",
+    "eurostat:nuts_2021_id":"80665",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE23",
+    "eurostat:nuts_2021_level_lau":"80665",
+    "eurostat:population":126,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070936",
     "frgov:id":"BDCSURCO0000000009581561",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683363,
         102191581,
@@ -58,7 +72,10 @@
         102070943
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_80665",
+        "eurostat:nuts_2021_id":"80665"
+    },
     "wof:coterminous":[
         1175612365
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f4731e47d65e81e92cc42bd462bd1490",
+    "wof:geomhash":"e9f5dc0f74a34cc62f05e81533c3f8a3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404381477,
-    "wof:lastmodified":1582325429,
+    "wof:lastmodified":1684353027,
     "wof:name":"Regniere-Ecluse",
     "wof:parent_id":102070943,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":126,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

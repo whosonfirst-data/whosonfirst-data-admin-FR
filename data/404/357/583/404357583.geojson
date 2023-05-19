@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_38139",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Creys-M\u00e9pieu",
+    "eurostat:nuts_2021_id":"38139",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK24",
+    "eurostat:nuts_2021_level_lau":"38139",
+    "eurostat:population":1503,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068542",
     "frgov:id":"BDCSURCO0000000009605221",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.003392,
-    "geom:area_square_m":29271412.659561,
+    "geom:area_square_m":29271412.65956,
     "geom:bbox":"5.42124179491,45.7104788368,5.51752528861,45.7783061529",
     "geom:latitude":45.744274,
     "geom:longitude":5.46497,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683427,
         102191581,
@@ -58,7 +72,10 @@
         102067813
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_38139",
+        "eurostat:nuts_2021_id":"38139"
+    },
     "wof:coterminous":[
         101769101
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"cdbb0d1358c347f0ebd1dfafb52f1c18",
+    "wof:geomhash":"055e8b25a9a296e2977729691acccfe8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404357583,
-    "wof:lastmodified":1582324904,
+    "wof:lastmodified":1684352720,
     "wof:name":"Creys-Mepieu",
     "wof:parent_id":102067813,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1503,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

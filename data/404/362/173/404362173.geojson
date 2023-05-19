@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_25283",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Goux-sous-Landet",
+    "eurostat:nuts_2021_id":"25283",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC21",
+    "eurostat:nuts_2021_level_lau":"25283",
+    "eurostat:population":71,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068070",
     "frgov:id":"BDCSURCO0000000009599941",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000648,
-    "geom:area_square_m":5457828.970268,
+    "geom:area_square_m":5457828.970267,
     "geom:bbox":"5.91336175505,47.0647531677,5.95487937029,47.0928382392",
     "geom:latitude":47.078645,
     "geom:longitude":5.932962,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683239,
         102191581,
@@ -58,7 +72,10 @@
         102068337
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_25283",
+        "eurostat:nuts_2021_id":"25283"
+    },
     "wof:coterminous":[
         1126055461
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"53132bb358b4fd01ccdbdd82a2ec4fbb",
+    "wof:geomhash":"e8788f6128ba11f8fdfc505b3a092c3e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404362173,
-    "wof:lastmodified":1582324052,
+    "wof:lastmodified":1684352784,
     "wof:name":"Goux-Sous-Landet",
     "wof:parent_id":102068337,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":71,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

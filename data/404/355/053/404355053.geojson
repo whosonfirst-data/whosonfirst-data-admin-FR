@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_78551",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Germain-en-Laye",
+    "eurostat:nuts_2021_id":"78551",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR103",
+    "eurostat:nuts_2021_level_lau":"78551",
+    "eurostat:population":44753,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200058519",
     "frgov:id":"BDCSURCO0000000009589240",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"ILE-DE-FRANCE",
     "frgov:statut":"Sous-pr\u00e9fecture",
     "geom:area":0.006065,
-    "geom:area_square_m":49257061.909947,
+    "geom:area_square_m":49257061.909946,
     "geom:bbox":"2.039885,48.883884,2.172905,48.987242",
     "geom:latitude":48.941107,
     "geom:longitude":2.099303,
@@ -48,16 +60,21 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85683367,
         102191581,
         85633147,
-        102072359,
         404228161,
         404227465,
-        85683367
+        102072359
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_78551",
+        "eurostat:nuts_2021_id":"78551"
+    },
     "wof:coterminous":[
         101753013,
         102072359
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4253ddab7858cb4b975040e52f6b8a94",
+    "wof:geomhash":"c56f17a33a9c2f04d794e14719787936",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -79,11 +96,13 @@
         }
     ],
     "wof:id":404355053,
-    "wof:lastmodified":1608037215,
+    "wof:lastmodified":1684352686,
     "wof:name":"Saint-Germain-En-Laye",
     "wof:parent_id":102072359,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Sous-pr\u00e9fecture",
+    "wof:population":44753,
+    "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_02384",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Houry",
+    "eurostat:nuts_2021_id":"02384",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE21",
+    "eurostat:nuts_2021_level_lau":"02384",
+    "eurostat:population":53,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240200444",
     "frgov:id":"BDCSURCO0000000009582878",
     "frgov:insee_arr":"5",
@@ -135,6 +147,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683247,
         102191581,
@@ -145,7 +159,10 @@
         102070483
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_02384",
+        "eurostat:nuts_2021_id":"02384"
+    },
     "wof:coterminous":[
         1125995209
     ],
@@ -153,7 +170,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"1e9238fc9e3163375ed05b9b6ce932af",
+    "wof:geomhash":"b466ca5cb5b6e187ee548d1d8df7479e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -167,11 +184,13 @@
         }
     ],
     "wof:id":404393629,
-    "wof:lastmodified":1582325010,
+    "wof:lastmodified":1684353175,
     "wof:name":"Houry",
     "wof:parent_id":102070483,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":53,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

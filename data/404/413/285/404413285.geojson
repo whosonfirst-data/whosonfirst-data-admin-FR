@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_67539",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Wingersheim les Quatre Bans",
+    "eurostat:nuts_2021_id":"67539",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF1",
+    "eurostat:nuts_2021_level_3":"FRF11",
+    "eurostat:nuts_2021_level_lau":"67539",
+    "eurostat:population":2292,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"246700959",
     "frgov:id":"BDCSURCO0000000009589461",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.002295,
-    "geom:area_square_m":18723655.861133,
+    "geom:area_square_m":18723655.861131,
     "geom:bbox":"7.56181893247,48.6987609954,7.67368171298,48.7466365778",
     "geom:latitude":48.720811,
     "geom:longitude":7.623128,
@@ -147,6 +159,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683221,
         102191581,
@@ -157,7 +171,10 @@
         102066209
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_67539",
+        "eurostat:nuts_2021_id":"67539"
+    },
     "wof:coterminous":[
         101882145
     ],
@@ -165,7 +182,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"95a3bd8f121e8bca9521bc8318f69536",
+    "wof:geomhash":"bc290727c397ef6420c8eab9d2bb98dc",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -179,11 +196,13 @@
         }
     ],
     "wof:id":404413285,
-    "wof:lastmodified":1582324327,
+    "wof:lastmodified":1684353405,
     "wof:name":"Wingersheim",
     "wof:parent_id":102066209,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2292,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

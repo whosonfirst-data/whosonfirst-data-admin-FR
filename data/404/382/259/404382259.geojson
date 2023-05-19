@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_05148",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Laurent-du-Cros",
+    "eurostat:nuts_2021_id":"05148",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL02",
+    "eurostat:nuts_2021_level_lau":"05148",
+    "eurostat:population":532,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068096",
     "frgov:id":"BDCSURCO0000000009609360",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683597,
         102191581,
@@ -57,7 +71,10 @@
         102067601
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_05148",
+        "eurostat:nuts_2021_id":"05148"
+    },
     "wof:coterminous":[
         101895857
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"cb473d080142db661077b3a5911116db",
+    "wof:geomhash":"834d72df0fc4c1c96a24b1d76dd8dff2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404382259,
-    "wof:lastmodified":1582324684,
+    "wof:lastmodified":1684353036,
     "wof:name":"Saint-Laurent-Du-Cros",
     "wof:parent_id":102067601,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":532,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

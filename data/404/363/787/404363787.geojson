@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_07120",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lachamp-Rapha\u00ebl",
+    "eurostat:nuts_2021_id":"07120",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK22",
+    "eurostat:nuts_2021_level_lau":"07120",
+    "eurostat:population":63,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072007",
     "frgov:id":"BDCSURCO0000000009609188",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683421,
         102191581,
@@ -58,7 +72,10 @@
         102064435
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_07120",
+        "eurostat:nuts_2021_id":"07120"
+    },
     "wof:coterminous":[
         1125805901
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ee72a0a3c80dc50885e34e5cad5b6681",
+    "wof:geomhash":"eeb5c9bbd81b62cdbd976c250605d75c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404363787,
-    "wof:lastmodified":1582324236,
+    "wof:lastmodified":1684352806,
     "wof:name":"Lachamp-Raphael",
     "wof:parent_id":102064435,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":63,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

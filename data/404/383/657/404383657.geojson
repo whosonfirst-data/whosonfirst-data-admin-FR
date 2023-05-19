@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_65103",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bouilh-P\u00e9reuilh",
+    "eurostat:nuts_2021_id":"65103",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ26",
+    "eurostat:nuts_2021_level_lau":"65103",
+    "eurostat:population":94,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070803",
     "frgov:id":"BDCSURCO0000000009614782",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683203,
         102191581,
@@ -58,7 +72,10 @@
         102067523
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_65103",
+        "eurostat:nuts_2021_id":"65103"
+    },
     "wof:coterminous":[
         1126038815
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"34c7a4766cfd64853306ea1c13094b03",
+    "wof:geomhash":"2936ee8f7b77f00460a2b6f907e9f1df",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404383657,
-    "wof:lastmodified":1582324544,
+    "wof:lastmodified":1684353055,
     "wof:name":"Bouilh-Pereuilh",
     "wof:parent_id":102067523,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":94,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

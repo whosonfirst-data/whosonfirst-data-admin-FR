@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_56232",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Perreux",
+    "eurostat:nuts_2021_id":"56232",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH04",
+    "eurostat:nuts_2021_level_lau":"56232",
+    "eurostat:population":1145,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243500741",
     "frgov:id":"BDCSURCO0000000009596906",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BRETAGNE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00074,
-    "geom:area_square_m":6162634.575731,
+    "geom:area_square_m":6162634.57573,
     "geom:bbox":"-2.14713852835,47.6570151208,-2.10287481897,47.6845359632",
     "geom:latitude":47.672467,
     "geom:longitude":-2.12283,
@@ -132,6 +144,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683507,
         102191581,
@@ -141,7 +155,10 @@
         102064391
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_56232",
+        "eurostat:nuts_2021_id":"56232"
+    },
     "wof:coterminous":[
         101884759
     ],
@@ -149,7 +166,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6ba3095e7eb0e464fc9b49ba6ceb6def",
+    "wof:geomhash":"77a2f2c2570411c08338f2c013506bbe",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -162,11 +179,13 @@
         }
     ],
     "wof:id":404402137,
-    "wof:lastmodified":1582325279,
+    "wof:lastmodified":1684353274,
     "wof:name":"Saint-Perreux",
     "wof:parent_id":102064391,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1145,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

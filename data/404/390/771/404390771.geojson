@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_68185",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Li\u00e8pvre",
+    "eurostat:nuts_2021_id":"68185",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF1",
+    "eurostat:nuts_2021_level_3":"FRF12",
+    "eurostat:nuts_2021_level_lau":"68185",
+    "eurostat:population":1724,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"246800395",
     "frgov:id":"BDCSURCO0000000009593115",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.001503,
-    "geom:area_square_m":12374534.67096,
+    "geom:area_square_m":12374534.670961,
     "geom:bbox":"7.24071075759,48.2361363944,7.33398281402,48.2907319034",
     "geom:latitude":48.267762,
     "geom:longitude":7.275871,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683381,
         102191581,
@@ -58,7 +72,10 @@
         102068697
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_68185",
+        "eurostat:nuts_2021_id":"68185"
+    },
     "wof:coterminous":[
         101763211
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d1e06df600e951a73e1275f8ebc1449f",
+    "wof:geomhash":"2b6b8a15c4f79c5ead3987fc3c34b5ca",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404390771,
-    "wof:lastmodified":1582324267,
+    "wof:lastmodified":1684353140,
     "wof:name":"Liepvre",
     "wof:parent_id":102068697,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1724,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

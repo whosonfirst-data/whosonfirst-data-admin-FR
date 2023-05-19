@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_28343",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Laurent-la-G\u00e2tine",
+    "eurostat:nuts_2021_id":"28343",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB02",
+    "eurostat:nuts_2021_level_lau":"28343",
+    "eurostat:population":441,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069953",
     "frgov:id":"BDCSURCO0000000009591140",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000857,
-    "geom:area_square_m":6991001.625635,
+    "geom:area_square_m":6991001.625634,
     "geom:bbox":"1.51543980332,48.6781006026,1.56458588215,48.7066751264",
     "geom:latitude":48.69357,
     "geom:longitude":1.540219,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683189,
         102191581,
@@ -57,7 +71,10 @@
         102067889
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_28343",
+        "eurostat:nuts_2021_id":"28343"
+    },
     "wof:coterminous":[
         101880859
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"79d08f1afda24a12e39ccdce6333b186",
+    "wof:geomhash":"283f8336b019591c74fcb92aeb69a695",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404377331,
-    "wof:lastmodified":1582324558,
+    "wof:lastmodified":1684352979,
     "wof:name":"Saint-Laurent-La-Gatine",
     "wof:parent_id":102067889,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":441,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

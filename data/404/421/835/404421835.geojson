@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_60211",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"\u00c9ragny-sur-Epte",
+    "eurostat:nuts_2021_id":"60211",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE22",
+    "eurostat:nuts_2021_level_lau":"60211",
+    "eurostat:population":606,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"246000707",
     "frgov:id":"BDCSURCO0000000009585787",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001052,
-    "geom:area_square_m":8482487.889144,
+    "geom:area_square_m":8482487.889142,
     "geom:bbox":"1.76744999436,49.2898101895,1.80815030387,49.3303778123",
     "geom:latitude":49.31239,
     "geom:longitude":1.787135,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683289,
         102191581,
@@ -58,7 +72,10 @@
         102065451
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_60211",
+        "eurostat:nuts_2021_id":"60211"
+    },
     "wof:coterminous":[
         101879277
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e468a78936360da0959f3bb700a86283",
+    "wof:geomhash":"13f68445c3307ff3d25a7b1d981f8d74",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404421835,
-    "wof:lastmodified":1582325100,
+    "wof:lastmodified":1684353507,
     "wof:name":"Eragny-Sur-Epte",
     "wof:parent_id":102065451,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":606,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

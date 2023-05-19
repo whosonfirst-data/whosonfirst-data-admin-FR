@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_05011",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Avan\u00e7on",
+    "eurostat:nuts_2021_id":"05011",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL02",
+    "eurostat:nuts_2021_level_lau":"05011",
+    "eurostat:population":404,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067320",
     "frgov:id":"BDCSURCO0000000009609817",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.002534,
-    "geom:area_square_m":22338484.135155,
+    "geom:area_square_m":22338484.135151,
     "geom:bbox":"6.1581647293,44.507086827,6.22378023681,44.5643186145",
     "geom:latitude":44.533961,
     "geom:longitude":6.191579,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683597,
         102191581,
@@ -55,7 +69,10 @@
         102065077
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_05011",
+        "eurostat:nuts_2021_id":"05011"
+    },
     "wof:coterminous":[
         1360679413
     ],
@@ -63,7 +80,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d635eb79886185adebe0a3b5a39f4e19",
+    "wof:geomhash":"a2fd55d1a495767530e18ad441febac8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -76,11 +93,13 @@
         }
     ],
     "wof:id":404417743,
-    "wof:lastmodified":1582325140,
+    "wof:lastmodified":1684353457,
     "wof:name":"Avancon",
     "wof:parent_id":102065077,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":404,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

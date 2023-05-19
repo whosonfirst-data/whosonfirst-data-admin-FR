@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_62060",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Auxi-le-Ch\u00e2teau",
+    "eurostat:nuts_2021_id":"62060",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE1",
+    "eurostat:nuts_2021_level_3":"FRE12",
+    "eurostat:nuts_2021_level_lau":"62060",
+    "eurostat:population":2639,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069672",
     "frgov:id":"BDCSURCO0000000009581710",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003441,
-    "geom:area_square_m":27217005.461028,
+    "geom:area_square_m":27217005.461029,
     "geom:bbox":"2.06755748026,50.2004293472,2.16744064993,50.2727356446",
     "geom:latitude":50.230796,
     "geom:longitude":2.11716,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683255,
         102191581,
@@ -58,7 +72,10 @@
         102065453
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_62060",
+        "eurostat:nuts_2021_id":"62060"
+    },
     "wof:coterminous":[
         101812603
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"309038d5ef8c50126d0fbcd370bfd38a",
+    "wof:geomhash":"5e422b83fe8d4f9e62d080f4c296e536",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404349949,
-    "wof:lastmodified":1582324708,
+    "wof:lastmodified":1684352616,
     "wof:name":"Auxi-Le-Chateau",
     "wof:parent_id":102065453,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2639,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

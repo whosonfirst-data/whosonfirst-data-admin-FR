@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_89057",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Brosses",
+    "eurostat:nuts_2021_id":"89057",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC14",
+    "eurostat:nuts_2021_level_lau":"89057",
+    "eurostat:population":302,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200039758",
     "frgov:id":"BDCSURCO0000000009598067",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002404,
-    "geom:area_square_m":20068088.755438,
+    "geom:area_square_m":20068088.755437,
     "geom:bbox":"3.65929956576,47.4997730601,3.72613269345,47.5636162342",
     "geom:latitude":47.530384,
     "geom:longitude":3.689621,
@@ -132,6 +144,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683503,
         102191581,
@@ -142,7 +156,10 @@
         102070559
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_89057",
+        "eurostat:nuts_2021_id":"89057"
+    },
     "wof:coterminous":[
         1126040155
     ],
@@ -150,7 +167,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d78e4e7e8d8572bed72e6adc7b8d3b77",
+    "wof:geomhash":"56f805411b68683c7fc1bc38c84de06d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -164,11 +181,13 @@
         }
     ],
     "wof:id":404390721,
-    "wof:lastmodified":1582324276,
+    "wof:lastmodified":1684353139,
     "wof:name":"Brosses",
     "wof:parent_id":102070559,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":302,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

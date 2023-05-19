@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_22321",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Nicolas-du-P\u00e9lem",
+    "eurostat:nuts_2021_id":"22321",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH01",
+    "eurostat:nuts_2021_level_lau":"22321",
+    "eurostat:population":1666,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242200715",
     "frgov:id":"BDCSURCO0000000009593076",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BRETAGNE",
     "frgov:statut":"Commune simple",
     "geom:area":0.005037,
-    "geom:area_square_m":41418342.714304,
+    "geom:area_square_m":41418342.714303,
     "geom:bbox":"-3.21970487302,48.2829849299,-3.11222865186,48.3701042622",
     "geom:latitude":48.322838,
     "geom:longitude":-3.16427,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683515,
         102191581,
@@ -57,7 +71,10 @@
         102071407
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_22321",
+        "eurostat:nuts_2021_id":"22321"
+    },
     "wof:coterminous":[
         101761503
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b23d192ba2052ca5daa7c4e91e83b194",
+    "wof:geomhash":"64f9e3e7d93ac13705071b2ea7dd8809",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404383717,
-    "wof:lastmodified":1582324555,
+    "wof:lastmodified":1684353055,
     "wof:name":"Saint-Nicolas-Du-Pelem",
     "wof:parent_id":102071407,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1666,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

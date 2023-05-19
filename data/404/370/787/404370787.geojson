@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_16220",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"M\u00e9tairies",
+    "eurostat:nuts_2021_id":"16220",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI31",
+    "eurostat:nuts_2021_level_lau":"16220",
+    "eurostat:population":727,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070514",
     "frgov:id":"BDCSURCO0000000009605642",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683437,
         102191581,
@@ -58,7 +72,10 @@
         102067433
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_16220",
+        "eurostat:nuts_2021_id":"16220"
+    },
     "wof:coterminous":[
         1125825033
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d1125b7b8d7b6f50009b791146f0cac3",
+    "wof:geomhash":"6d35861f25355cf96a945285b95de625",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404370787,
-    "wof:lastmodified":1582324610,
+    "wof:lastmodified":1684352899,
     "wof:name":"Les Metairies",
     "wof:parent_id":102067433,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":727,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

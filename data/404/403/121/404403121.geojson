@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_62748",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Folquin",
+    "eurostat:nuts_2021_id":"62748",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE1",
+    "eurostat:nuts_2021_level_3":"FRE12",
+    "eurostat:nuts_2021_level_lau":"62748",
+    "eurostat:population":2248,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"246200844",
     "frgov:id":"BDCSURCO0000000009580354",
     "frgov:insee_arr":"6",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002287,
-    "geom:area_square_m":17817552.987667,
+    "geom:area_square_m":17817552.987668,
     "geom:bbox":"2.10516531499,50.8894450568,2.15181832828,50.9841613428",
     "geom:latitude":50.937435,
     "geom:longitude":2.12577,
@@ -135,6 +147,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683255,
         102191581,
@@ -145,7 +159,10 @@
         102065401
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_62748",
+        "eurostat:nuts_2021_id":"62748"
+    },
     "wof:coterminous":[
         101811145
     ],
@@ -153,7 +170,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"47265e8189aff2de813a0fd70c12963d",
+    "wof:geomhash":"14b12c21cc80cf71db1d98f93389e3e5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -167,11 +184,13 @@
         }
     ],
     "wof:id":404403121,
-    "wof:lastmodified":1582325294,
+    "wof:lastmodified":1684353285,
     "wof:name":"Saint-Folquin",
     "wof:parent_id":102065401,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2248,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

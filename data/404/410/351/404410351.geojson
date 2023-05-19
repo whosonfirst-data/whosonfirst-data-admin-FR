@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_45059",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bucy-Saint-Liphard",
+    "eurostat:nuts_2021_id":"45059",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB06",
+    "eurostat:nuts_2021_level_lau":"45059",
+    "eurostat:population":191,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200035764",
     "frgov:id":"BDCSURCO0000000009596147",
     "frgov:insee_arr":"2",
@@ -117,6 +129,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683479,
         102191581,
@@ -126,7 +140,10 @@
         102069499
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_45059",
+        "eurostat:nuts_2021_id":"45059"
+    },
     "wof:coterminous":[
         1125894595
     ],
@@ -134,7 +151,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6ea0dcaa3b9b7a507f995528fafa4bd9",
+    "wof:geomhash":"4536bf8d8f0f8c62c93a4a2ff570f50e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -147,11 +164,13 @@
         }
     ],
     "wof:id":404410351,
-    "wof:lastmodified":1582325152,
+    "wof:lastmodified":1684353370,
     "wof:name":"Bucy-Saint-Liphard",
     "wof:parent_id":102069499,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":191,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

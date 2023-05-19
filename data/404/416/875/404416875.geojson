@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_85105",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gu\u00e9-de-Velluire",
+    "eurostat:nuts_2021_id":"85105",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG05",
+    "eurostat:nuts_2021_level_lau":"85105",
+    "eurostat:population":544,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200073260",
     "frgov:id":"BDCSURCO0000000009602729",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683409,
         102191581,
@@ -57,7 +71,10 @@
         102064531
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_85105",
+        "eurostat:nuts_2021_id":"85105"
+    },
     "wof:coterminous":[
         1125818477
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f5a48e2a471cebb2a8ba9b39dbeaaacc",
+    "wof:geomhash":"20bb020e1f2d7aa3518f3304f3ab03ea",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404416875,
-    "wof:lastmodified":1582325182,
+    "wof:lastmodified":1684353447,
     "wof:name":"Le Gue-De-Velluire",
     "wof:parent_id":102064531,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":544,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

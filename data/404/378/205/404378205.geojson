@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_56218",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Grav\u00e9",
+    "eurostat:nuts_2021_id":"56218",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH04",
+    "eurostat:nuts_2021_level_lau":"56218",
+    "eurostat:population":730,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"245614383",
     "frgov:id":"BDCSURCO0000000009596909",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683507,
         102191581,
@@ -57,7 +71,10 @@
         102070183
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_56218",
+        "eurostat:nuts_2021_id":"56218"
+    },
     "wof:coterminous":[
         101884749
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4a97730b27efd02612be3e2abce514d3",
+    "wof:geomhash":"8ca9deb42753c4c4e5c82812cb08aebc",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404378205,
-    "wof:lastmodified":1582324738,
+    "wof:lastmodified":1684352989,
     "wof:name":"Saint-Grave",
     "wof:parent_id":102070183,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":730,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

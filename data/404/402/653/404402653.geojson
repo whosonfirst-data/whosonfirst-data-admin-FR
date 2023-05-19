@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_31508",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Paul-d'Oueil",
+    "eurostat:nuts_2021_id":"31508",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ23",
+    "eurostat:nuts_2021_level_lau":"31508",
+    "eurostat:population":34,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072635",
     "frgov:id":"BDCSURCO0000000009616236",
     "frgov:insee_arr":"2",
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683397,
         102191581,
@@ -56,7 +70,10 @@
         102064903
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_31508",
+        "eurostat:nuts_2021_id":"31508"
+    },
     "wof:coterminous":[
         1360677909
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2d2a02457760d5e1d5ba3cd70380a1f4",
+    "wof:geomhash":"d57176b1b5b575e1ea78f91d02df1e26",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404402653,
-    "wof:lastmodified":1582325283,
+    "wof:lastmodified":1684353280,
     "wof:name":"Saint-Paul-D'Oueil",
     "wof:parent_id":102064903,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":34,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

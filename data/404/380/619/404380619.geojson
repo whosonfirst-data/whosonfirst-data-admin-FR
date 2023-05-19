@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_57504",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Niderhoff",
+    "eurostat:nuts_2021_id":"57504",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF33",
+    "eurostat:nuts_2021_level_lau":"57504",
+    "eurostat:population":285,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068146",
     "frgov:id":"BDCSURCO0000000009590475",
     "frgov:insee_arr":"5",
@@ -127,6 +139,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683271,
         102191581,
@@ -137,7 +151,10 @@
         102067359
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_57504",
+        "eurostat:nuts_2021_id":"57504"
+    },
     "wof:coterminous":[
         1360675859
     ],
@@ -145,7 +162,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"1040a2b252fce7c99f6fe39090b47cea",
+    "wof:geomhash":"f1b63a7963c606485aa18bfdd0747302",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -159,11 +176,13 @@
         }
     ],
     "wof:id":404380619,
-    "wof:lastmodified":1582325373,
+    "wof:lastmodified":1684353018,
     "wof:name":"Niderhoff",
     "wof:parent_id":102067359,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":285,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

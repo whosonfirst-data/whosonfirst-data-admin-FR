@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_11432",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Villeneuve-l\u00e8s-Montr\u00e9al",
+    "eurostat:nuts_2021_id":"11432",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ11",
+    "eurostat:nuts_2021_level_lau":"11432",
+    "eurostat:population":300,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200035707",
     "frgov:id":"BDCSURCO0000000009615155",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683485,
         102191581,
@@ -58,7 +72,10 @@
         102068331
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_11432",
+        "eurostat:nuts_2021_id":"11432"
+    },
     "wof:coterminous":[
         1125775689
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9202f959122f4f409e65f219a016b956",
+    "wof:geomhash":"f0d6f393cdf078ab92b81f0a7214780c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404404141,
-    "wof:lastmodified":1582325318,
+    "wof:lastmodified":1684353296,
     "wof:name":"Villeneuve-Les-Montreal",
     "wof:parent_id":102068331,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":300,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

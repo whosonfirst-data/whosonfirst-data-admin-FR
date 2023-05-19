@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_54479",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Mard",
+    "eurostat:nuts_2021_id":"54479",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF31",
+    "eurostat:nuts_2021_level_lau":"54479",
+    "eurostat:population":87,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067643",
     "frgov:id":"BDCSURCO0000000009591405",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.000376,
-    "geom:area_square_m":3081455.537976,
+    "geom:area_square_m":3081455.537975,
     "geom:bbox":"6.2811061338,48.501695165,6.31711585446,48.5180859442",
     "geom:latitude":48.509736,
     "geom:longitude":6.298902,
@@ -94,6 +106,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683343,
         102191581,
@@ -104,7 +118,10 @@
         102065107
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_54479",
+        "eurostat:nuts_2021_id":"54479"
+    },
     "wof:coterminous":[
         1360678453
     ],
@@ -112,7 +129,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c09817e3f816b718da1b6a44d88aead5",
+    "wof:geomhash":"aa6d2a376a5b09af7df21e08c14b4237",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -126,11 +143,13 @@
         }
     ],
     "wof:id":404408411,
-    "wof:lastmodified":1582324465,
+    "wof:lastmodified":1684353348,
     "wof:name":"Saint-Mard",
     "wof:parent_id":102065107,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":87,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

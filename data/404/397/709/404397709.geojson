@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_44005",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Chaumes-en-Retz",
+    "eurostat:nuts_2021_id":"44005",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG01",
+    "eurostat:nuts_2021_level_lau":"44005",
+    "eurostat:population":6759,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067346",
     "frgov:id":"BDCSURCO0000000009599907",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.009204,
-    "geom:area_square_m":77404762.552528,
+    "geom:area_square_m":77404762.552526,
     "geom:bbox":"-1.99717330094,47.1045604512,-1.83376598264,47.2074079777",
     "geom:latitude":47.1493,
     "geom:longitude":-1.922085,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683233,
         102191581,
@@ -57,7 +71,10 @@
         102065167
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_44005",
+        "eurostat:nuts_2021_id":"44005"
+    },
     "wof:coterminous":[
         101874637
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"972b44042f1b090f900df902154589b2",
+    "wof:geomhash":"e403c4501ab25ff60ab974779d25ac02",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404397709,
-    "wof:lastmodified":1582324201,
+    "wof:lastmodified":1684353221,
     "wof:name":"Chemere",
     "wof:parent_id":102065167,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":6759,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

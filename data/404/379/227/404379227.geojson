@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_27113",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Br\u00e9tigny",
+    "eurostat:nuts_2021_id":"27113",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD21",
+    "eurostat:nuts_2021_level_lau":"27113",
+    "eurostat:population":134,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066413",
     "frgov:id":"BDCSURCO0000000009586788",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683283,
         102191581,
@@ -58,7 +72,10 @@
         102065903
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_27113",
+        "eurostat:nuts_2021_id":"27113"
+    },
     "wof:coterminous":[
         1125894203
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a08cfc604df7daf2b8de46972974aca4",
+    "wof:geomhash":"a85eaf1d1eb56e804c62e7d2f6a68cdf",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404379227,
-    "wof:lastmodified":1582324522,
+    "wof:lastmodified":1684353001,
     "wof:name":"Bretigny",
     "wof:parent_id":102065903,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":134,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

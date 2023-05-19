@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_62770",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Venant",
+    "eurostat:nuts_2021_id":"62770",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE1",
+    "eurostat:nuts_2021_level_3":"FRE12",
+    "eurostat:nuts_2021_level_lau":"62770",
+    "eurostat:population":3027,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072460",
     "frgov:id":"BDCSURCO0000000009580692",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001822,
-    "geom:area_square_m":14289367.26768,
+    "geom:area_square_m":14289367.267681,
     "geom:bbox":"2.46779934995,50.6039087818,2.56895586982,50.6434502959",
     "geom:latitude":50.622793,
     "geom:longitude":2.52561,
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683255,
         102191581,
@@ -139,7 +153,10 @@
         102070285
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_62770",
+        "eurostat:nuts_2021_id":"62770"
+    },
     "wof:coterminous":[
         101812575
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c12511d9bda15c6a161c35b0596278dc",
+    "wof:geomhash":"8c8774c893000778951b03e5f194c1ae",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404366095,
-    "wof:lastmodified":1582324838,
+    "wof:lastmodified":1684352839,
     "wof:name":"Saint-Venant",
     "wof:parent_id":102070285,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3027,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

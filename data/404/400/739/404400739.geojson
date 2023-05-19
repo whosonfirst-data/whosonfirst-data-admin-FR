@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_10351",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Martin-de-Bossenay",
+    "eurostat:nuts_2021_id":"10351",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF22",
+    "eurostat:nuts_2021_level_lau":"10351",
+    "eurostat:population":368,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"241000488",
     "frgov:id":"BDCSURCO0000000009592863",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.00201,
-    "geom:area_square_m":16483864.959665,
+    "geom:area_square_m":16483864.959664,
     "geom:bbox":"3.65558690047,48.4195280311,3.721415791,48.4719825139",
     "geom:latitude":48.44436,
     "geom:longitude":3.689819,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683193,
         102191581,
@@ -58,7 +72,10 @@
         102067999
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_10351",
+        "eurostat:nuts_2021_id":"10351"
+    },
     "wof:coterminous":[
         101883065
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"caa3d04d7878ae4ad5e54856699851a9",
+    "wof:geomhash":"b85cbaef21bd7a1ed1c42c234cf51108",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404400739,
-    "wof:lastmodified":1582324504,
+    "wof:lastmodified":1684353258,
     "wof:name":"Saint-Martin-De-Bossenay",
     "wof:parent_id":102067999,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":368,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

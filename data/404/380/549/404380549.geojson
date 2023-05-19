@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_64042",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Argagnon",
+    "eurostat:nuts_2021_id":"64042",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI15",
+    "eurostat:nuts_2021_level_lau":"64042",
+    "eurostat:population":702,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200039204",
     "frgov:id":"BDCSURCO0000000009614045",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00104,
-    "geom:area_square_m":9335827.969043,
+    "geom:area_square_m":9335827.969042,
     "geom:bbox":"-0.701469754424,43.4465045617,-0.646658040198,43.4786022733",
     "geom:latitude":43.462339,
     "geom:longitude":-0.676169,
@@ -132,6 +144,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683539,
         102191581,
@@ -142,7 +156,10 @@
         102064789
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_64042",
+        "eurostat:nuts_2021_id":"64042"
+    },
     "wof:coterminous":[
         101896933
     ],
@@ -150,7 +167,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2532cf9b137faac44a2d47c7800486df",
+    "wof:geomhash":"825f2660fa7b321e276a7ffb3057c1df",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -164,11 +181,13 @@
         }
     ],
     "wof:id":404380549,
-    "wof:lastmodified":1582325385,
+    "wof:lastmodified":1684353017,
     "wof:name":"Argagnon",
     "wof:parent_id":102064789,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":702,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

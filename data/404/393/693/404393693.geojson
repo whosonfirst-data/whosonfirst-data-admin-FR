@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_63392",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-R\u00e9my-de-Chargnat",
+    "eurostat:nuts_2021_id":"63392",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK14",
+    "eurostat:nuts_2021_level_lau":"63392",
+    "eurostat:population":572,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070407",
     "frgov:id":"BDCSURCO0000000009606350",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.000724,
-    "geom:area_square_m":6274210.929323,
+    "geom:area_square_m":6274210.929322,
     "geom:bbox":"3.30474884718,45.496944591,3.34976321982,45.5256078566",
     "geom:latitude":45.509436,
     "geom:longitude":3.324868,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683471,
         102191581,
@@ -58,7 +72,10 @@
         102071339
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_63392",
+        "eurostat:nuts_2021_id":"63392"
+    },
     "wof:coterminous":[
         101893655
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b3484beafc77ba779d8f775e1c89821e",
+    "wof:geomhash":"9c1ad80554f68b081fed8e0333bda6f7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404393693,
-    "wof:lastmodified":1582325011,
+    "wof:lastmodified":1684353176,
     "wof:name":"Saint-Remy-De-Chargnat",
     "wof:parent_id":102071339,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":572,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

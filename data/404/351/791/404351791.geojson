@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_44155",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Colomban",
+    "eurostat:nuts_2021_id":"44155",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG01",
+    "eurostat:nuts_2021_level_lau":"44155",
+    "eurostat:population":3355,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244400438",
     "frgov:id":"BDCSURCO0000000009600394",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.004251,
-    "geom:area_square_m":35833430.865633,
+    "geom:area_square_m":35833430.865632,
     "geom:bbox":"-1.60027351208,46.9718862548,-1.49984492888,47.0619394225",
     "geom:latitude":47.025177,
     "geom:longitude":-1.558581,
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683233,
         102191581,
@@ -138,7 +152,10 @@
         102071195
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_44155",
+        "eurostat:nuts_2021_id":"44155"
+    },
     "wof:coterminous":[
         101765985
     ],
@@ -146,7 +163,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f97960d66643e126f3d5517edfa5c145",
+    "wof:geomhash":"ceeb9083dd81c1e06a09deb02e27994c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -159,11 +176,13 @@
         }
     ],
     "wof:id":404351791,
-    "wof:lastmodified":1582324945,
+    "wof:lastmodified":1684352643,
     "wof:name":"Saint-Colomban",
     "wof:parent_id":102071195,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3355,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

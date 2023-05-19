@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_63356",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Gervazy",
+    "eurostat:nuts_2021_id":"63356",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK14",
+    "eurostat:nuts_2021_level_lau":"63356",
+    "eurostat:population":329,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070407",
     "frgov:id":"BDCSURCO0000000009607062",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001649,
-    "geom:area_square_m":14320151.180141,
+    "geom:area_square_m":14320151.18014,
     "geom:bbox":"3.18336042649,45.3694881432,3.23626387289,45.4301298458",
     "geom:latitude":45.40136,
     "geom:longitude":3.213016,
@@ -123,6 +135,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683471,
         102191581,
@@ -133,7 +147,10 @@
         102071089
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_63356",
+        "eurostat:nuts_2021_id":"63356"
+    },
     "wof:coterminous":[
         1125939685
     ],
@@ -141,7 +158,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"51f0ce08f87c7481f6a519612d4b4a17",
+    "wof:geomhash":"f126ea936bdfd14390d49b613840d34d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -155,11 +172,13 @@
         }
     ],
     "wof:id":404355385,
-    "wof:lastmodified":1582324188,
+    "wof:lastmodified":1684352691,
     "wof:name":"Saint-Gervazy",
     "wof:parent_id":102071089,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":329,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

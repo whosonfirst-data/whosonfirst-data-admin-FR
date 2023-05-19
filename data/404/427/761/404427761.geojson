@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_31506",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Orens-de-Gameville",
+    "eurostat:nuts_2021_id":"31506",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ23",
+    "eurostat:nuts_2021_level_lau":"31506",
+    "eurostat:population":11830,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243100518",
     "frgov:id":"BDCSURCO0000000009613678",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001455,
-    "geom:area_square_m":13036665.243388,
+    "geom:area_square_m":13036665.243387,
     "geom:bbox":"1.50629876919,43.5307308994,1.56026151271,43.5795529464",
     "geom:latitude":43.559408,
     "geom:longitude":1.535042,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683397,
         102191581,
@@ -58,7 +72,10 @@
         102066151
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_31506",
+        "eurostat:nuts_2021_id":"31506"
+    },
     "wof:coterminous":[
         101750689
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0dad8f33a79c06c66796b7d765cfc7db",
+    "wof:geomhash":"fd8675a25b8151aa2731b0f528b9342e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404427761,
-    "wof:lastmodified":1582325242,
+    "wof:lastmodified":1684353577,
     "wof:name":"Saint-Orens-De-Gameville",
     "wof:parent_id":102066151,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":11830,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

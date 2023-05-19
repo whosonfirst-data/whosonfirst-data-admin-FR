@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_27501",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rouvray",
+    "eurostat:nuts_2021_id":"27501",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD21",
+    "eurostat:nuts_2021_level_lau":"27501",
+    "eurostat:population":263,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072312",
     "frgov:id":"BDCSURCO0000000009587778",
     "frgov:insee_arr":"1",
@@ -90,6 +102,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683283,
         102191581,
@@ -100,7 +114,10 @@
         102071077
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_27501",
+        "eurostat:nuts_2021_id":"27501"
+    },
     "wof:coterminous":[
         101879105
     ],
@@ -108,7 +125,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"88722957bba2f4a9c04ec4b04e8c8209",
+    "wof:geomhash":"05a1fa31145163274b07913a54dfacfa",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -122,11 +139,13 @@
         }
     ],
     "wof:id":404400025,
-    "wof:lastmodified":1582324507,
+    "wof:lastmodified":1684353250,
     "wof:name":"Rouvray",
     "wof:parent_id":102071077,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":263,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

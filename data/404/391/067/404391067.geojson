@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_83051",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Entrecasteaux",
+    "eurostat:nuts_2021_id":"83051",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL05",
+    "eurostat:nuts_2021_level_lau":"83051",
+    "eurostat:population":1123,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068104",
     "frgov:id":"BDCSURCO0000000009613573",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.00358,
-    "geom:area_square_m":32104341.286904,
+    "geom:area_square_m":32104341.286902,
     "geom:bbox":"6.18719992658,43.4778054478,6.27810212328,43.5389237435",
     "geom:latitude":43.511327,
     "geom:longitude":6.23482,
@@ -117,6 +129,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683315,
         102191581,
@@ -126,7 +140,10 @@
         102065989
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_83051",
+        "eurostat:nuts_2021_id":"83051"
+    },
     "wof:coterminous":[
         101896539
     ],
@@ -134,7 +151,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9dc0189e340cbcde6ecd3b9a68c43930",
+    "wof:geomhash":"e49d9611dea3e7e463e832a5988023cc",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -147,11 +164,13 @@
         }
     ],
     "wof:id":404391067,
-    "wof:lastmodified":1582324022,
+    "wof:lastmodified":1684353144,
     "wof:name":"Entrecasteaux",
     "wof:parent_id":102065989,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1123,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

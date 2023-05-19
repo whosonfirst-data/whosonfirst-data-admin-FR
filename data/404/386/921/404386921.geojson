@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_18050",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Chapelle-Saint-Ursin",
+    "eurostat:nuts_2021_id":"18050",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB01",
+    "eurostat:nuts_2021_level_lau":"18050",
+    "eurostat:population":3542,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"241800507",
     "frgov:id":"BDCSURCO0000000009600307",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000934,
-    "geom:area_square_m":7868357.766889,
+    "geom:area_square_m":7868357.76689,
     "geom:bbox":"2.29750480536,47.0352859552,2.34548161561,47.0740644315",
     "geom:latitude":47.058158,
     "geom:longitude":2.319228,
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683549,
         102191581,
@@ -138,7 +152,10 @@
         102070499
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_18050",
+        "eurostat:nuts_2021_id":"18050"
+    },
     "wof:coterminous":[
         101767219
     ],
@@ -146,7 +163,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"fc52fda6d30d9c3393f0c9bfe0784eee",
+    "wof:geomhash":"f0cdca085096f22c0f43d7459db3106e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -159,11 +176,13 @@
         }
     ],
     "wof:id":404386921,
-    "wof:lastmodified":1582325458,
+    "wof:lastmodified":1684353092,
     "wof:name":"La Chapelle-Saint-Ursin",
     "wof:parent_id":102070499,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3542,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_38356",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Andr\u00e9-en-Royans",
+    "eurostat:nuts_2021_id":"38356",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK24",
+    "eurostat:nuts_2021_level_lau":"38356",
+    "eurostat:population":315,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070431",
     "frgov:id":"BDCSURCO0000000009607860",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.0012,
-    "geom:area_square_m":10473681.52185,
+    "geom:area_square_m":10473681.521851,
     "geom:bbox":"5.30631880137,45.0624964944,5.37493284876,45.0969566846",
     "geom:latitude":45.083023,
     "geom:longitude":5.33676,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683427,
         102191581,
@@ -58,7 +72,10 @@
         102068345
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_38356",
+        "eurostat:nuts_2021_id":"38356"
+    },
     "wof:coterminous":[
         101896357
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f694905e96d7ea368803fa7d296414f5",
+    "wof:geomhash":"cb305d49319a5b27b6545545c367febb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404394563,
-    "wof:lastmodified":1582325032,
+    "wof:lastmodified":1684353186,
     "wof:name":"Saint-Andre-En-Royans",
     "wof:parent_id":102068345,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":315,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

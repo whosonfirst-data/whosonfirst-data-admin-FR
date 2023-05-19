@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_57203",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"\u00c9vrange",
+    "eurostat:nuts_2021_id":"57203",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF33",
+    "eurostat:nuts_2021_level_lau":"57203",
+    "eurostat:population":240,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"245700695",
     "frgov:id":"BDCSURCO0000000009584087",
     "frgov:insee_arr":"7",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.000277,
-    "geom:area_square_m":2221354.511075,
+    "geom:area_square_m":2221354.511076,
     "geom:bbox":"6.17826445197,49.4945393825,6.21705210152,49.5077402619",
     "geom:latitude":49.501664,
     "geom:longitude":6.195258,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683271,
         102191581,
@@ -58,7 +72,10 @@
         102065207
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_57203",
+        "eurostat:nuts_2021_id":"57203"
+    },
     "wof:coterminous":[
         1126023133
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"462ce3df2c50c7cd6215643fd1ff12be",
+    "wof:geomhash":"ff33e8f440c33ca676eb9022d57d5dd2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404392139,
-    "wof:lastmodified":1582324815,
+    "wof:lastmodified":1684353157,
     "wof:name":"Evrange",
     "wof:parent_id":102065207,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":240,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

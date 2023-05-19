@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_59541",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Python",
+    "eurostat:nuts_2021_id":"59541",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE1",
+    "eurostat:nuts_2021_level_3":"FRE11",
+    "eurostat:nuts_2021_level_lau":"59541",
+    "eurostat:population":1016,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"245901038",
     "frgov:id":"BDCSURCO0000000009581613",
     "frgov:insee_arr":"2",
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683445,
         102191581,
@@ -139,7 +153,10 @@
         102071739
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_59541",
+        "eurostat:nuts_2021_id":"59541"
+    },
     "wof:coterminous":[
         1126020183
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c8873f6e0f0e1cd289a813d967ea03e8",
+    "wof:geomhash":"944cd567b407f75d924a265d575cc8ff",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404372557,
-    "wof:lastmodified":1582325460,
+    "wof:lastmodified":1684352919,
     "wof:name":"Saint-Python",
     "wof:parent_id":102071739,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1016,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

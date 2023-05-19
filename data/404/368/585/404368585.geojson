@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_04195",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Pons",
+    "eurostat:nuts_2021_id":"04195",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL01",
+    "eurostat:nuts_2021_level_lau":"04195",
+    "eurostat:population":626,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072304",
     "frgov:id":"BDCSURCO0000000009610246",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.003627,
-    "geom:area_square_m":32033541.37625,
+    "geom:area_square_m":32033541.376252,
     "geom:bbox":"6.5781211206,44.3834049484,6.65433559009,44.4487051399",
     "geom:latitude":44.41726,
     "geom:longitude":6.614921,
@@ -88,6 +100,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683509,
         102191581,
@@ -97,7 +111,10 @@
         102064819
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_04195",
+        "eurostat:nuts_2021_id":"04195"
+    },
     "wof:coterminous":[
         1360674661
     ],
@@ -105,7 +122,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5d6b3b1a0cd67f5bdf14bfd6dd57242d",
+    "wof:geomhash":"ab15c913c5e047c3d7e1d55a5de4a0d9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -118,11 +135,13 @@
         }
     ],
     "wof:id":404368585,
-    "wof:lastmodified":1582324882,
+    "wof:lastmodified":1684352873,
     "wof:name":"Saint-Pons",
     "wof:parent_id":102064819,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":626,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

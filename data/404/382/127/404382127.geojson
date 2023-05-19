@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_41002",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ang\u00e9",
+    "eurostat:nuts_2021_id":"41002",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB05",
+    "eurostat:nuts_2021_level_lau":"41002",
+    "eurostat:population":882,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072064",
     "frgov:id":"BDCSURCO0000000009599268",
     "frgov:insee_arr":"3",
@@ -72,6 +84,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683349,
         102191581,
@@ -81,7 +95,10 @@
         102066611
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_41002",
+        "eurostat:nuts_2021_id":"41002"
+    },
     "wof:coterminous":[
         1125890059
     ],
@@ -89,7 +106,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e58e2737cd25f7a0c91f1b1e5fecccf7",
+    "wof:geomhash":"0f0048077cca6d91a2d6f2218851718a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -102,11 +119,13 @@
         }
     ],
     "wof:id":404382127,
-    "wof:lastmodified":1582324687,
+    "wof:lastmodified":1684353034,
     "wof:name":"Ange",
     "wof:parent_id":102066611,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":882,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

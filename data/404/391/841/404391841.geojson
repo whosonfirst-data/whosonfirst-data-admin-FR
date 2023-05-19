@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_11354",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Martin-des-Puits",
+    "eurostat:nuts_2021_id":"11354",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ11",
+    "eurostat:nuts_2021_level_lau":"11354",
+    "eurostat:population":28,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200035863",
     "frgov:id":"BDCSURCO0000000009615763",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683485,
         102191581,
@@ -58,7 +72,10 @@
         102067559
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_11354",
+        "eurostat:nuts_2021_id":"11354"
+    },
     "wof:coterminous":[
         1125960625
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d1939aa70ce3447dd7fbf28e937d7fce",
+    "wof:geomhash":"ecab15e7c3a8e4ebdc2d7af9cfaa7ac0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404391841,
-    "wof:lastmodified":1582324017,
+    "wof:lastmodified":1684353154,
     "wof:name":"Saint-Martin-Des-Puits",
     "wof:parent_id":102067559,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":28,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

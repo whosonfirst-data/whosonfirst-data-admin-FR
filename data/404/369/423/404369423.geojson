@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_74002",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Alby-sur-Ch\u00e9ran",
+    "eurostat:nuts_2021_id":"74002",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK28",
+    "eurostat:nuts_2021_level_lau":"74002",
+    "eurostat:population":2579,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066793",
     "frgov:id":"BDCSURCO0000000009604671",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.000758,
-    "geom:area_square_m":6533274.995119,
+    "geom:area_square_m":6533274.995118,
     "geom:bbox":"5.99455755759,45.8013563627,6.04521565376,45.8279139332",
     "geom:latitude":45.815693,
     "geom:longitude":6.016164,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683227,
         102191581,
@@ -58,7 +72,10 @@
         102064517
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_74002",
+        "eurostat:nuts_2021_id":"74002"
+    },
     "wof:coterminous":[
         101767997
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a08fb8edc567df3c8664522e505b3228",
+    "wof:geomhash":"fca68bd99f3ef05b124f5fc8f1d60576",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404369423,
-    "wof:lastmodified":1582324909,
+    "wof:lastmodified":1684352884,
     "wof:name":"Alby-Sur-Cheran",
     "wof:parent_id":102064517,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2579,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_44054",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Erbray",
+    "eurostat:nuts_2021_id":"44054",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG01",
+    "eurostat:nuts_2021_level_lau":"44054",
+    "eurostat:population":3006,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072726",
     "frgov:id":"BDCSURCO0000000009597239",
     "frgov:insee_arr":"5",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.007006,
-    "geom:area_square_m":58338698.327805,
+    "geom:area_square_m":58338698.327803,
     "geom:bbox":"-1.39782665683,47.6281171919,-1.2562751082,47.7078945544",
     "geom:latitude":47.669006,
     "geom:longitude":-1.321599,
@@ -138,6 +150,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683233,
         102191581,
@@ -147,7 +161,10 @@
         102070723
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_44054",
+        "eurostat:nuts_2021_id":"44054"
+    },
     "wof:coterminous":[
         101764645
     ],
@@ -155,7 +172,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2a8c8170be3787403b1dd599f16a95eb",
+    "wof:geomhash":"4dd96ff4d988f5724868e4cde817641d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -168,11 +185,13 @@
         }
     ],
     "wof:id":404347827,
-    "wof:lastmodified":1582324721,
+    "wof:lastmodified":1684352586,
     "wof:name":"Erbray",
     "wof:parent_id":102070723,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3006,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

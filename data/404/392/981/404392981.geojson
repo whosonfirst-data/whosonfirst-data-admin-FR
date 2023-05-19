@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_78545",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Cyr-l'\u00c9cole",
+    "eurostat:nuts_2021_id":"78545",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR103",
+    "eurostat:nuts_2021_level_lau":"78545",
+    "eurostat:population":18795,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247800584",
     "frgov:id":"BDCSURCO0000000009590217",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"ILE-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000626,
-    "geom:area_square_m":5097023.952869,
+    "geom:area_square_m":5097023.95287,
     "geom:bbox":"2.04845842273,48.7898106226,2.08317463793,48.8230116839",
     "geom:latitude":48.806456,
     "geom:longitude":2.065594,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683367,
         102191581,
@@ -57,7 +71,10 @@
         102070705
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_78545",
+        "eurostat:nuts_2021_id":"78545"
+    },
     "wof:coterminous":[
         101751241
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"622351c3cd5581157f354c8e711b53d3",
+    "wof:geomhash":"59b5c0d4d96ad6badaf5f8a6671dc695",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404392981,
-    "wof:lastmodified":1582324822,
+    "wof:lastmodified":1684353168,
     "wof:name":"Saint-Cyr-L'Ecole",
     "wof:parent_id":102070705,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":18795,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

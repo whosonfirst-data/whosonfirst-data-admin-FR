@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_03213",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Reugny",
+    "eurostat:nuts_2021_id":"03213",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK11",
+    "eurostat:nuts_2021_level_lau":"03213",
+    "eurostat:population":249,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240300566",
     "frgov:id":"BDCSURCO0000000009602653",
     "frgov:insee_arr":"1",
@@ -88,6 +100,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683293,
         102191581,
@@ -98,7 +112,10 @@
         102066403
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_03213",
+        "eurostat:nuts_2021_id":"03213"
+    },
     "wof:coterminous":[
         1360678523
     ],
@@ -106,7 +123,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8805d8146d1b73313c67926dcddcd51d",
+    "wof:geomhash":"99db784b7c955c46bf00251d61132b02",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -120,11 +137,13 @@
         }
     ],
     "wof:id":404408987,
-    "wof:lastmodified":1582324468,
+    "wof:lastmodified":1684353355,
     "wof:name":"Reugny",
     "wof:parent_id":102066403,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":249,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

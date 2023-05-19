@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_63396",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Saturnin",
+    "eurostat:nuts_2021_id":"63396",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK14",
+    "eurostat:nuts_2021_level_lau":"63396",
+    "eurostat:population":1172,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069177",
     "frgov:id":"BDCSURCO0000000009605826",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001963,
-    "geom:area_square_m":16965458.37769,
+    "geom:area_square_m":16965458.377689,
     "geom:bbox":"3.04199432473,45.6360252037,3.10161406525,45.68472097",
     "geom:latitude":45.664108,
     "geom:longitude":3.074139,
@@ -91,6 +103,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683471,
         102191581,
@@ -101,7 +115,10 @@
         102070757
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_63396",
+        "eurostat:nuts_2021_id":"63396"
+    },
     "wof:coterminous":[
         1360680101
     ],
@@ -109,7 +126,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2ad8b1c784543f4f50a9f4ec791e42df",
+    "wof:geomhash":"9bc6101291de2959f55549719202da81",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -123,11 +140,13 @@
         }
     ],
     "wof:id":404425299,
-    "wof:lastmodified":1582324311,
+    "wof:lastmodified":1684353549,
     "wof:name":"Saint-Saturnin",
     "wof:parent_id":102070757,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1172,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

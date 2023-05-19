@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_64034",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Arb\u00e9rats-Sill\u00e8gue",
+    "eurostat:nuts_2021_id":"64034",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI15",
+    "eurostat:nuts_2021_level_lau":"64034",
+    "eurostat:population":257,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067106",
     "frgov:id":"BDCSURCO0000000009614330",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000583,
-    "geom:area_square_m":5240942.998166,
+    "geom:area_square_m":5240942.998165,
     "geom:bbox":"-1.01043995079,43.3287311161,-0.971536653705,43.3510636529",
     "geom:latitude":43.340676,
     "geom:longitude":-0.991557,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683539,
         102191581,
@@ -58,7 +72,10 @@
         102070633
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_64034",
+        "eurostat:nuts_2021_id":"64034"
+    },
     "wof:coterminous":[
         1125890219
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"543cf611e1452b63a1bae317b4b489ba",
+    "wof:geomhash":"bd17739c1f7d99d88e3a1b778603b78e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404384833,
-    "wof:lastmodified":1582324617,
+    "wof:lastmodified":1684353069,
     "wof:name":"Arberats-Sillegue",
     "wof:parent_id":102070633,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":257,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

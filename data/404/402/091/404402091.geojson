@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_51037",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Baslieux-l\u00e8s-Fismes",
+    "eurostat:nuts_2021_id":"51037",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF23",
+    "eurostat:nuts_2021_level_lau":"51037",
+    "eurostat:population":327,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067213",
     "frgov:id":"BDCSURCO0000000009585666",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683405,
         102191581,
@@ -58,7 +72,10 @@
         102066931
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_51037",
+        "eurostat:nuts_2021_id":"51037"
+    },
     "wof:coterminous":[
         1126034737
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"52ff3b07f0401699373a02b1600b6999",
+    "wof:geomhash":"1a0d3fd790f1823a9eb1adfc25c37def",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404402091,
-    "wof:lastmodified":1582325273,
+    "wof:lastmodified":1684353273,
     "wof:name":"Baslieux-Les-Fismes",
     "wof:parent_id":102066931,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":327,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

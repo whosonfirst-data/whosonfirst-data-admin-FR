@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_25151",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Chevigney-l\u00e8s-Vercel",
+    "eurostat:nuts_2021_id":"25151",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC21",
+    "eurostat:nuts_2021_level_lau":"25151",
+    "eurostat:population":128,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242504181",
     "frgov:id":"BDCSURCO0000000009599370",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000637,
-    "geom:area_square_m":5358699.127338,
+    "geom:area_square_m":5358699.127337,
     "geom:bbox":"6.35199167644,47.1467524111,6.38531095687,47.1835203629",
     "geom:latitude":47.164579,
     "geom:longitude":6.367581,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683239,
         102191581,
@@ -58,7 +72,10 @@
         102069379
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_25151",
+        "eurostat:nuts_2021_id":"25151"
+    },
     "wof:coterminous":[
         1126044861
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7e1f4912f931fa1badc3f6e4bdd5f2fa",
+    "wof:geomhash":"11e6dc1f12f6f504c150d30f51ccfd56",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404401399,
-    "wof:lastmodified":1582324421,
+    "wof:lastmodified":1684353265,
     "wof:name":"Chevigney-Les-Vercel",
     "wof:parent_id":102069379,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":128,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

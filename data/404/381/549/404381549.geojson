@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_57466",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Metzing",
+    "eurostat:nuts_2021_id":"57466",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF33",
+    "eurostat:nuts_2021_level_lau":"57466",
+    "eurostat:population":645,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"245700372",
     "frgov:id":"BDCSURCO0000000009586469",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.000798,
-    "geom:area_square_m":6462435.40304,
+    "geom:area_square_m":6462435.403039,
     "geom:bbox":"6.94562911609,49.0805008462,6.97560947732,49.1210438058",
     "geom:latitude":49.098909,
     "geom:longitude":6.961341,
@@ -130,6 +142,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683271,
         102191581,
@@ -140,7 +154,10 @@
         102071463
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_57466",
+        "eurostat:nuts_2021_id":"57466"
+    },
     "wof:coterminous":[
         1360675947
     ],
@@ -148,7 +165,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ff2c8d7af268b063dce094f2f05a64ec",
+    "wof:geomhash":"658aca9dd80bf100c84c31469ceb39a3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -162,11 +179,13 @@
         }
     ],
     "wof:id":404381549,
-    "wof:lastmodified":1582325440,
+    "wof:lastmodified":1684353028,
     "wof:name":"Metzing",
     "wof:parent_id":102071463,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":645,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

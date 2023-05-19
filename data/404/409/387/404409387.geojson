@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_49272",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Cl\u00e9ment-des-Lev\u00e9es",
+    "eurostat:nuts_2021_id":"49272",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG02",
+    "eurostat:nuts_2021_level_lau":"49272",
+    "eurostat:population":1106,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071876",
     "frgov:id":"BDCSURCO0000000009599013",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001243,
-    "geom:area_square_m":10410764.566683,
+    "geom:area_square_m":10410764.566682,
     "geom:bbox":"-0.207852758123,47.322494672,-0.152784180598,47.376463316",
     "geom:latitude":47.344995,
     "geom:longitude":-0.181966,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683327,
         102191581,
@@ -57,7 +71,10 @@
         102069559
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_49272",
+        "eurostat:nuts_2021_id":"49272"
+    },
     "wof:coterminous":[
         1126021585
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f63da49ddb61acfcb1d05d579ef6e1e6",
+    "wof:geomhash":"1f5e9600c78590bc443b36ed25361f6b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404409387,
-    "wof:lastmodified":1582324485,
+    "wof:lastmodified":1684353359,
     "wof:name":"Saint-Clement-Des-Levees",
     "wof:parent_id":102069559,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1106,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

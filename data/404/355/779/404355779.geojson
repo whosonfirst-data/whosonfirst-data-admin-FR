@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_18197",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Amand-Montrond",
+    "eurostat:nuts_2021_id":"18197",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB01",
+    "eurostat:nuts_2021_level_lau":"18197",
+    "eurostat:population":9437,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200036135",
     "frgov:id":"BDCSURCO0000000009601621",
     "frgov:insee_arr":"2",
@@ -162,6 +174,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683549,
         102191581,
@@ -171,7 +185,10 @@
         102068387
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_18197",
+        "eurostat:nuts_2021_id":"18197"
+    },
     "wof:coterminous":[
         101829453
     ],
@@ -179,7 +196,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"73e3a685b48f313cff01240867ebf8c7",
+    "wof:geomhash":"8ed3e4fe9f822a630b7ba1bd797d2917",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -192,11 +209,13 @@
         }
     ],
     "wof:id":404355779,
-    "wof:lastmodified":1582324189,
+    "wof:lastmodified":1684352696,
     "wof:name":"Saint-Amand-Montrond",
     "wof:parent_id":102068387,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Sous-pr\u00e9fecture",
+    "wof:population":9437,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_53061",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Charchign\u00e9",
+    "eurostat:nuts_2021_id":"53061",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG03",
+    "eurostat:nuts_2021_level_lau":"53061",
+    "eurostat:population":481,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200055887",
     "frgov:id":"BDCSURCO0000000009593008",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001806,
-    "geom:area_square_m":14823449.384795,
+    "geom:area_square_m":14823449.384794,
     "geom:bbox":"-0.444215265882,48.3937454592,-0.367007813015,48.4358714835",
     "geom:latitude":48.414507,
     "geom:longitude":-0.40742,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683401,
         102191581,
@@ -57,7 +71,10 @@
         102066933
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_53061",
+        "eurostat:nuts_2021_id":"53061"
+    },
     "wof:coterminous":[
         1125769271
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ec889c9ddef23fb590c02750daa2761f",
+    "wof:geomhash":"1d4072227232469828bdbc36ab36ccbd",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404425113,
-    "wof:lastmodified":1582324313,
+    "wof:lastmodified":1684353547,
     "wof:name":"Charchigne",
     "wof:parent_id":102066933,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":481,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_76297",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gancourt-Saint-\u00c9tienne",
+    "eurostat:nuts_2021_id":"76297",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD22",
+    "eurostat:nuts_2021_level_lau":"76297",
+    "eurostat:population":228,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069730",
     "frgov:id":"BDCSURCO0000000009584306",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00157,
-    "geom:area_square_m":12596235.798463,
+    "geom:area_square_m":12596235.798464,
     "geom:bbox":"1.68106169739,49.5232530078,1.74551852539,49.5695977304",
     "geom:latitude":49.545138,
     "geom:longitude":1.709853,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683251,
         102191581,
@@ -58,7 +72,10 @@
         102068929
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_76297",
+        "eurostat:nuts_2021_id":"76297"
+    },
     "wof:coterminous":[
         101902025
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0589697a151b05182d5091e6d83ccff1",
+    "wof:geomhash":"5278f1c794b1046067a47df7f75cf4c3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404420835,
-    "wof:lastmodified":1582325201,
+    "wof:lastmodified":1684353494,
     "wof:name":"Gancourt-Saint-Etienne",
     "wof:parent_id":102068929,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":228,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

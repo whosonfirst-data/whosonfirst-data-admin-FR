@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_42091",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Estivareilles",
+    "eurostat:nuts_2021_id":"42091",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK25",
+    "eurostat:nuts_2021_level_lau":"42091",
+    "eurostat:population":686,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200065886",
     "frgov:id":"BDCSURCO0000000009606793",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.002617,
-    "geom:area_square_m":22705109.081057,
+    "geom:area_square_m":22705109.081056,
     "geom:bbox":"3.96181795805,45.4034422091,4.05177672606,45.4654946068",
     "geom:latitude":45.430721,
     "geom:longitude":4.016748,
@@ -96,6 +108,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683377,
         102191581,
@@ -106,7 +120,10 @@
         102067393
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_42091",
+        "eurostat:nuts_2021_id":"42091"
+    },
     "wof:coterminous":[
         101895227
     ],
@@ -114,7 +131,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6f1ad19b0c8b9f4e2377f0b1dece57ee",
+    "wof:geomhash":"87bc8428318e12974e3daa8ced9ab84c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -128,11 +145,13 @@
         }
     ],
     "wof:id":404367401,
-    "wof:lastmodified":1582324992,
+    "wof:lastmodified":1684352857,
     "wof:name":"Estivareilles",
     "wof:parent_id":102067393,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":686,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

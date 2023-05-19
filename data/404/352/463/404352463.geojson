@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_41091",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Foss\u00e9",
+    "eurostat:nuts_2021_id":"41091",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB05",
+    "eurostat:nuts_2021_level_lau":"41091",
+    "eurostat:population":1308,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200030385",
     "frgov:id":"BDCSURCO0000000009597811",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001236,
-    "geom:area_square_m":10301823.466462,
+    "geom:area_square_m":10301823.466463,
     "geom:bbox":"1.25034643652,47.6111371641,1.29974563053,47.6558461037",
     "geom:latitude":47.630562,
     "geom:longitude":1.276234,
@@ -87,6 +99,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683349,
         102191581,
@@ -96,7 +110,10 @@
         102069269
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_41091",
+        "eurostat:nuts_2021_id":"41091"
+    },
     "wof:coterminous":[
         1175612195
     ],
@@ -104,7 +121,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f456f3a80df53997eb6142c6a764785b",
+    "wof:geomhash":"b484f41f00f9522e665cc7d3d3020bea",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -117,11 +134,13 @@
         }
     ],
     "wof:id":404352463,
-    "wof:lastmodified":1582324165,
+    "wof:lastmodified":1684352651,
     "wof:name":"Fosse",
     "wof:parent_id":102069269,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1308,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

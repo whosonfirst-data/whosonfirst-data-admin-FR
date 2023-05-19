@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_41220",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Laurent-Nouan",
+    "eurostat:nuts_2021_id":"41220",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB05",
+    "eurostat:nuts_2021_level_lau":"41220",
+    "eurostat:population":4357,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244100798",
     "frgov:id":"BDCSURCO0000000009597497",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.007349,
-    "geom:area_square_m":61143677.664543,
+    "geom:area_square_m":61143677.664545,
     "geom:bbox":"1.53837650723,47.6501145608,1.72806479546,47.7609717144",
     "geom:latitude":47.709468,
     "geom:longitude":1.625297,
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683349,
         102191581,
@@ -135,7 +149,10 @@
         102064659
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_41220",
+        "eurostat:nuts_2021_id":"41220"
+    },
     "wof:coterminous":[
         101764799
     ],
@@ -143,7 +160,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"72764df10b60fa5f3fdf28a898b88171",
+    "wof:geomhash":"7415d75ba8295cc7b0e6901a152a32d5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -156,11 +173,13 @@
         }
     ],
     "wof:id":404424863,
-    "wof:lastmodified":1582324400,
+    "wof:lastmodified":1684353544,
     "wof:name":"Saint-Laurent-Nouan",
     "wof:parent_id":102064659,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":4357,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_02306",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Fert\u00e9-Chevresis",
+    "eurostat:nuts_2021_id":"02306",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE21",
+    "eurostat:nuts_2021_level_lau":"02306",
+    "eurostat:population":542,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040426",
     "frgov:id":"BDCSURCO0000000009583204",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00301,
-    "geom:area_square_m":24051967.567129,
+    "geom:area_square_m":24051967.567128,
     "geom:bbox":"3.49620237313,49.7147617984,3.60916722226,49.7779626733",
     "geom:latitude":49.741422,
     "geom:longitude":3.55203,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683247,
         102191581,
@@ -58,7 +72,10 @@
         102069001
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_02306",
+        "eurostat:nuts_2021_id":"02306"
+    },
     "wof:coterminous":[
         101901449
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"966e2b1dab742418e41a741de2edd40c",
+    "wof:geomhash":"8fbf0bac4e3fe1171102b74aa7af39ff",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404363443,
-    "wof:lastmodified":1582324230,
+    "wof:lastmodified":1684352801,
     "wof:name":"La Ferte-Chevresis",
     "wof:parent_id":102069001,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":542,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

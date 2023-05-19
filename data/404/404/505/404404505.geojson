@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_33414",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Germain-de-la-Rivi\u00e8re",
+    "eurostat:nuts_2021_id":"33414",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI12",
+    "eurostat:nuts_2021_level_lau":"33414",
+    "eurostat:population":386,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243301397",
     "frgov:id":"BDCSURCO0000000009608649",
     "frgov:insee_arr":"5",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683243,
         102191581,
@@ -58,7 +72,10 @@
         102068871
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_33414",
+        "eurostat:nuts_2021_id":"33414"
+    },
     "wof:coterminous":[
         1125934271
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"383f717a0e9105f24471db8565b8ee91",
+    "wof:geomhash":"7b7762c32b60c116546c7fe5f74bb985",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404404505,
-    "wof:lastmodified":1582325304,
+    "wof:lastmodified":1684353301,
     "wof:name":"Saint-Germain-De-La-Riviere",
     "wof:parent_id":102068871,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":386,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

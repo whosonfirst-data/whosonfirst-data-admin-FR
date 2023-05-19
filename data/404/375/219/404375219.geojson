@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_73124",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gilly-sur-Is\u00e8re",
+    "eurostat:nuts_2021_id":"73124",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK27",
+    "eurostat:nuts_2021_level_lau":"73124",
+    "eurostat:population":3013,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068997",
     "frgov:id":"BDCSURCO0000000009605436",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.00082,
-    "geom:area_square_m":7084402.969386,
+    "geom:area_square_m":7084402.969387,
     "geom:bbox":"6.32533008538,45.6374707299,6.37183317708,45.6723463447",
     "geom:latitude":45.652943,
     "geom:longitude":6.349997,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683265,
         102191581,
@@ -58,7 +72,10 @@
         102069793
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_73124",
+        "eurostat:nuts_2021_id":"73124"
+    },
     "wof:coterminous":[
         101828891
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"cf3dc51190898cc9d41091ad8aae6465",
+    "wof:geomhash":"1e212de1e0723634ebec0b367e0bbd1c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404375219,
-    "wof:lastmodified":1582325409,
+    "wof:lastmodified":1684352951,
     "wof:name":"Gilly-Sur-Isere",
     "wof:parent_id":102069793,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3013,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

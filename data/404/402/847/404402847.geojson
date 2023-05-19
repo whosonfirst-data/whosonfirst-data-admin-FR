@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_26292",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Auban-sur-l'Ouv\u00e8ze",
+    "eurostat:nuts_2021_id":"26292",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK23",
+    "eurostat:nuts_2021_level_lau":"26292",
+    "eurostat:population":213,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068229",
     "frgov:id":"BDCSURCO0000000009610823",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001858,
-    "geom:area_square_m":16444187.401874,
+    "geom:area_square_m":16444187.401873,
     "geom:bbox":"5.397832079,44.2706004388,5.46349043064,44.3211922577",
     "geom:latitude":44.297247,
     "geom:longitude":5.429623,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683523,
         102191581,
@@ -58,7 +72,10 @@
         102064723
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_26292",
+        "eurostat:nuts_2021_id":"26292"
+    },
     "wof:coterminous":[
         1125917299
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e1947a12d290b76d922715ec5b9ac2b4",
+    "wof:geomhash":"926e1e7a7684a1c564462f967edc4d53",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404402847,
-    "wof:lastmodified":1582325281,
+    "wof:lastmodified":1684353282,
     "wof:name":"Saint-Auban-Sur-L'Ouveze",
     "wof:parent_id":102064723,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":213,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

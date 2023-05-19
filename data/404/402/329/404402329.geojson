@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_65130",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Castelnau-Rivi\u00e8re-Basse",
+    "eurostat:nuts_2021_id":"65130",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ26",
+    "eurostat:nuts_2021_level_lau":"65130",
+    "eurostat:population":627,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072106",
     "frgov:id":"BDCSURCO0000000009613499",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002058,
-    "geom:area_square_m":18437360.193399,
+    "geom:area_square_m":18437360.193398,
     "geom:bbox":"-0.0649980755112,43.5520437036,-0.00053973377823,43.6066087372",
     "geom:latitude":43.580449,
     "geom:longitude":-0.028653,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683203,
         102191581,
@@ -58,7 +72,10 @@
         102065979
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_65130",
+        "eurostat:nuts_2021_id":"65130"
+    },
     "wof:coterminous":[
         101896563
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"296f2ae91a872734ff6c81102edc442e",
+    "wof:geomhash":"5b0821b182660c1103d2e7312d372abc",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404402329,
-    "wof:lastmodified":1582325284,
+    "wof:lastmodified":1684353276,
     "wof:name":"Castelnau-Riviere-Basse",
     "wof:parent_id":102065979,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":627,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

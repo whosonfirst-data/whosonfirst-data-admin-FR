@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_73110",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Esserts-Blay",
+    "eurostat:nuts_2021_id":"73110",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK27",
+    "eurostat:nuts_2021_level_lau":"73110",
+    "eurostat:population":809,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068997",
     "frgov:id":"BDCSURCO0000000009605690",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001775,
-    "geom:area_square_m":15349659.105437,
+    "geom:area_square_m":15349659.105436,
     "geom:bbox":"6.38998762542,45.6031708073,6.44933200967,45.6568102168",
     "geom:latitude":45.626647,
     "geom:longitude":6.41862,
@@ -114,6 +126,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683265,
         102191581,
@@ -124,7 +138,10 @@
         102069793
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_73110",
+        "eurostat:nuts_2021_id":"73110"
+    },
     "wof:coterminous":[
         1125901337
     ],
@@ -132,7 +149,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2f85a69d4334edf7160d4ed3792c0955",
+    "wof:geomhash":"a77b9e75d44a67b5a55722636f443815",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -146,11 +163,13 @@
         }
     ],
     "wof:id":404378229,
-    "wof:lastmodified":1582324734,
+    "wof:lastmodified":1684352990,
     "wof:name":"Esserts-Blay",
     "wof:parent_id":102069793,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":809,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

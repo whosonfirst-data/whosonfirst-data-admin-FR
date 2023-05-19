@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_10237",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mesnil-Saint-Loup",
+    "eurostat:nuts_2021_id":"10237",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF22",
+    "eurostat:nuts_2021_level_lau":"10237",
+    "eurostat:population":600,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"241000488",
     "frgov:id":"BDCSURCO0000000009593675",
     "frgov:insee_arr":"2",
@@ -117,6 +129,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683193,
         102191581,
@@ -127,7 +141,10 @@
         102066655
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_10237",
+        "eurostat:nuts_2021_id":"10237"
+    },
     "wof:coterminous":[
         101884623
     ],
@@ -135,7 +152,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"11b264e25221f2a3c7c1f343bb38d545",
+    "wof:geomhash":"aacba7b8d65839ae6b51bc40086f4c07",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -149,11 +166,13 @@
         }
     ],
     "wof:id":404414679,
-    "wof:lastmodified":1582324346,
+    "wof:lastmodified":1684353422,
     "wof:name":"Mesnil-Saint-Loup",
     "wof:parent_id":102066655,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":600,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

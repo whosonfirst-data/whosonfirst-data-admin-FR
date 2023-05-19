@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_06024",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Brian\u00e7onnet",
+    "eurostat:nuts_2021_id":"06024",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL03",
+    "eurostat:nuts_2021_level_lau":"06024",
+    "eurostat:population":221,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200039857",
     "frgov:id":"BDCSURCO0000000009611943",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.002761,
-    "geom:area_square_m":24615845.093141,
+    "geom:area_square_m":24615845.09314,
     "geom:bbox":"6.67071877634,43.8420271608,6.79447578708,43.8883805715",
     "geom:latitude":43.865064,
     "geom:longitude":6.745198,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683323,
         102191581,
@@ -57,7 +71,10 @@
         102068141
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_06024",
+        "eurostat:nuts_2021_id":"06024"
+    },
     "wof:coterminous":[
         1125891861
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3788bd0cd5df37c87c4e4570370234d6",
+    "wof:geomhash":"6d0f36fa407e8a43f609c29c5c0e5c8e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404365633,
-    "wof:lastmodified":1582324030,
+    "wof:lastmodified":1684352832,
     "wof:name":"Brianconnet",
     "wof:parent_id":102068141,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":221,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

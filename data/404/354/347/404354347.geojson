@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_24488",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Pompont",
+    "eurostat:nuts_2021_id":"24488",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI11",
+    "eurostat:nuts_2021_level_lau":"24488",
+    "eurostat:population":372,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041440",
     "frgov:id":"BDCSURCO0000000009609506",
     "frgov:insee_arr":"4",
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683331,
         102191581,
@@ -139,7 +153,10 @@
         102066193
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_24488",
+        "eurostat:nuts_2021_id":"24488"
+    },
     "wof:coterminous":[
         101893251
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"01e79a4e2ee218f1c005e798061db154",
+    "wof:geomhash":"54bf89236a166303ad690451f48ba2b1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404354347,
-    "wof:lastmodified":1582324091,
+    "wof:lastmodified":1684352676,
     "wof:name":"Saint-Pompont",
     "wof:parent_id":102066193,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":372,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_15203",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Mary-le-Plain",
+    "eurostat:nuts_2021_id":"15203",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK12",
+    "eurostat:nuts_2021_level_lau":"15203",
+    "eurostat:population":159,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066637",
     "frgov:id":"BDCSURCO0000000009607931",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683517,
         102191581,
@@ -58,7 +72,10 @@
         102065745
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_15203",
+        "eurostat:nuts_2021_id":"15203"
+    },
     "wof:coterminous":[
         1125936737
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"faa7d32e321aefcf8ffda16e8319ef12",
+    "wof:geomhash":"ff9174253424a6081fdea01ce4ea727d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404427075,
-    "wof:lastmodified":1582325243,
+    "wof:lastmodified":1684353569,
     "wof:name":"Saint-Mary-Le-Plain",
     "wof:parent_id":102065745,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":159,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

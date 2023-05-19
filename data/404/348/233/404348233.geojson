@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_21295",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gevrey-Chambertin",
+    "eurostat:nuts_2021_id":"21295",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC11",
+    "eurostat:nuts_2021_level_lau":"21295",
+    "eurostat:population":3087,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070894",
     "frgov:id":"BDCSURCO0000000009599463",
     "frgov:insee_arr":"1",
@@ -147,6 +159,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683563,
         102191581,
@@ -157,7 +171,10 @@
         102067033
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_21295",
+        "eurostat:nuts_2021_id":"21295"
+    },
     "wof:coterminous":[
         101767337
     ],
@@ -165,7 +182,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b5eabcb7d0c4c1fdeeb2ed372b1acda3",
+    "wof:geomhash":"598b2be8004313c83959c3bb004d45e9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -179,11 +196,13 @@
         }
     ],
     "wof:id":404348233,
-    "wof:lastmodified":1582324581,
+    "wof:lastmodified":1684352592,
     "wof:name":"Gevrey-Chambertin",
     "wof:parent_id":102067033,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3087,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

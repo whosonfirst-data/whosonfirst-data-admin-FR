@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_23181",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Amand-Jartoudeix",
+    "eurostat:nuts_2021_id":"23181",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI22",
+    "eurostat:nuts_2021_level_lau":"23181",
+    "eurostat:population":168,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067189",
     "frgov:id":"BDCSURCO0000000009604837",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002163,
-    "geom:area_square_m":18604574.058659,
+    "geom:area_square_m":18604574.05866,
     "geom:bbox":"1.62463551325,45.8954627752,1.72011634464,45.9461151835",
     "geom:latitude":45.917786,
     "geom:longitude":1.668535,
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683179,
         102191581,
@@ -139,7 +153,10 @@
         102065521
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_23181",
+        "eurostat:nuts_2021_id":"23181"
+    },
     "wof:coterminous":[
         1125938841
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d76d4b7c1cc7618e3688b3532d4af188",
+    "wof:geomhash":"eea36f39cb0b511b66d05351e13a23e4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404398073,
-    "wof:lastmodified":1582324115,
+    "wof:lastmodified":1684353226,
     "wof:name":"Saint-Amand-Jartoudeix",
     "wof:parent_id":102065521,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":168,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

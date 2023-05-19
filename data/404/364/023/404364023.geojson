@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_19199",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-\u00c9tienne-aux-Clos",
+    "eurostat:nuts_2021_id":"19199",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI21",
+    "eurostat:nuts_2021_level_lau":"19199",
+    "eurostat:population":229,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066744",
     "frgov:id":"BDCSURCO0000000009606377",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.004065,
-    "geom:area_square_m":35186807.548206,
+    "geom:area_square_m":35186807.548207,
     "geom:bbox":"2.39918115932,45.5324257045,2.49629356712,45.6077207224",
     "geom:latitude":45.566293,
     "geom:longitude":2.449206,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683209,
         102191581,
@@ -58,7 +72,10 @@
         102069375
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_19199",
+        "eurostat:nuts_2021_id":"19199"
+    },
     "wof:coterminous":[
         101893237
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4dffca742242054be651b104a65a1ae4",
+    "wof:geomhash":"0f796a2bad29d04b47b3494c7689e570",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404364023,
-    "wof:lastmodified":1582324240,
+    "wof:lastmodified":1684352810,
     "wof:name":"Saint-Etienne-Aux-Clos",
     "wof:parent_id":102069375,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":229,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

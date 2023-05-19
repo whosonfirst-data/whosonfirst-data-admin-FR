@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_77519",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Villiers-Saint-Georges",
+    "eurostat:nuts_2021_id":"77519",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR102",
+    "eurostat:nuts_2021_level_lau":"77519",
+    "eurostat:population":1231,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200037133",
     "frgov:id":"BDCSURCO0000000009591060",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"ILE-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.004058,
-    "geom:area_square_m":33151913.344448,
+    "geom:area_square_m":33151913.344446,
     "geom:bbox":"3.35712492806,48.6233475955,3.46042631314,48.6838962167",
     "geom:latitude":48.652039,
     "geom:longitude":3.40786,
@@ -114,6 +126,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683385,
         102191581,
@@ -123,7 +137,10 @@
         102069727
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_77519",
+        "eurostat:nuts_2021_id":"77519"
+    },
     "wof:coterminous":[
         101882327
     ],
@@ -131,7 +148,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"853b6cf5ff65354367768543b743da5d",
+    "wof:geomhash":"b5c2ecfd1041611d70e2546ae9d31daa",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -144,11 +161,13 @@
         }
     ],
     "wof:id":404386577,
-    "wof:lastmodified":1582325458,
+    "wof:lastmodified":1684353088,
     "wof:name":"Villiers-Saint-Georges",
     "wof:parent_id":102069727,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1231,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_08383",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Juvin",
+    "eurostat:nuts_2021_id":"08383",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF21",
+    "eurostat:nuts_2021_level_lau":"08383",
+    "eurostat:population":104,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240800920",
     "frgov:id":"BDCSURCO0000000009585209",
     "frgov:insee_arr":"4",
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683309,
         102191581,
@@ -139,7 +153,10 @@
         102066563
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_08383",
+        "eurostat:nuts_2021_id":"08383"
+    },
     "wof:coterminous":[
         101879461
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"70691c22e7033da1187bbe84809165cd",
+    "wof:geomhash":"67bd03c7f091e58574db4f686abf3699",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404412245,
-    "wof:lastmodified":1582324371,
+    "wof:lastmodified":1684353392,
     "wof:name":"Saint-Juvin",
     "wof:parent_id":102066563,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":104,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

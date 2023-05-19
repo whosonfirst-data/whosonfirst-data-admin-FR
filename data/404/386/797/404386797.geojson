@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_57610",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Fran\u00e7ois-Lacroix",
+    "eurostat:nuts_2021_id":"57610",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF33",
+    "eurostat:nuts_2021_level_lau":"57610",
+    "eurostat:population":302,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067486",
     "frgov:id":"BDCSURCO0000000009584779",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.000913,
-    "geom:area_square_m":7351138.577447,
+    "geom:area_square_m":7351138.577448,
     "geom:bbox":"6.41654034214,49.3272295799,6.4786719552,49.3632627888",
     "geom:latitude":49.346494,
     "geom:longitude":6.448311,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683271,
         102191581,
@@ -58,7 +72,10 @@
         102064857
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_57610",
+        "eurostat:nuts_2021_id":"57610"
+    },
     "wof:coterminous":[
         1125810799
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"24e9bc28e9bff8e29cc9268c776bc793",
+    "wof:geomhash":"79e2c4954288ad3241ed59e65b7de2dc",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404386797,
-    "wof:lastmodified":1582325442,
+    "wof:lastmodified":1684353090,
     "wof:name":"Saint-Francois-Lacroix",
     "wof:parent_id":102064857,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":302,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

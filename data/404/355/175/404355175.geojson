@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_19230",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Pardoux-Corbier",
+    "eurostat:nuts_2021_id":"19230",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI21",
+    "eurostat:nuts_2021_level_lau":"19230",
+    "eurostat:population":418,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066603",
     "frgov:id":"BDCSURCO0000000009606864",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002039,
-    "geom:area_square_m":17687717.179138,
+    "geom:area_square_m":17687717.179137,
     "geom:bbox":"1.42642449087,45.405883019,1.48131681936,45.4894853257",
     "geom:latitude":45.442723,
     "geom:longitude":1.455069,
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683209,
         102191581,
@@ -139,7 +153,10 @@
         102066983
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_19230",
+        "eurostat:nuts_2021_id":"19230"
+    },
     "wof:coterminous":[
         1125937447
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"28662340c1ba862312f69413491817f4",
+    "wof:geomhash":"a46e350d4654b2ea9c43d053e6596f0b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404355175,
-    "wof:lastmodified":1582324189,
+    "wof:lastmodified":1684352688,
     "wof:name":"Saint-Pardoux-Corbier",
     "wof:parent_id":102066983,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":418,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

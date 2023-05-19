@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_29252",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Jean-Trolimon",
+    "eurostat:nuts_2021_id":"29252",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH02",
+    "eurostat:nuts_2021_level_lau":"29252",
+    "eurostat:population":962,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242900702",
     "frgov:id":"BDCSURCO0000000009595283",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BRETAGNE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001743,
-    "geom:area_square_m":14461694.167389,
+    "geom:area_square_m":14461694.16739,
     "geom:bbox":"-4.35267364321,47.8490077606,-4.26636380959,47.8962992109",
     "geom:latitude":47.868496,
     "geom:longitude":-4.309397,
@@ -144,6 +156,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683553,
         102191581,
@@ -153,7 +167,10 @@
         102070465
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_29252",
+        "eurostat:nuts_2021_id":"29252"
+    },
     "wof:coterminous":[
         101882739
     ],
@@ -161,7 +178,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"cc13a86a2ea057249d3659e077ba0634",
+    "wof:geomhash":"fe0557b6f452b6a6ad20e264e66aa756",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -174,11 +191,13 @@
         }
     ],
     "wof:id":404425613,
-    "wof:lastmodified":1582324307,
+    "wof:lastmodified":1684353553,
     "wof:name":"Saint-Jean-Trolimon",
     "wof:parent_id":102070465,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":962,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

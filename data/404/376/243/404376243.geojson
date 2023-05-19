@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_73190",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Notre-Dame-du-Pr\u00e9",
+    "eurostat:nuts_2021_id":"73190",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK27",
+    "eurostat:nuts_2021_level_lau":"73190",
+    "eurostat:population":249,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200023299",
     "frgov:id":"BDCSURCO0000000009605945",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.002099,
-    "geom:area_square_m":18194505.902235,
+    "geom:area_square_m":18194505.902234,
     "geom:bbox":"6.56516227302,45.4803279016,6.64164051909,45.5281374968",
     "geom:latitude":45.502968,
     "geom:longitude":6.604461,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683265,
         102191581,
@@ -56,7 +70,10 @@
         102067975
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_73190",
+        "eurostat:nuts_2021_id":"73190"
+    },
     "wof:coterminous":[
         1360675407
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8d1a68cbdaee8ef897e50bb6c68f6eff",
+    "wof:geomhash":"d678484f8c64522a23c0ac184b744ee2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404376243,
-    "wof:lastmodified":1582324664,
+    "wof:lastmodified":1684352966,
     "wof:name":"Notre-Dame-Du-Pre",
     "wof:parent_id":102067975,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":249,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

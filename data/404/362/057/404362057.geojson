@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_43043",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"C\u00e9aux-d'All\u00e8gre",
+    "eurostat:nuts_2021_id":"43043",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK13",
+    "eurostat:nuts_2021_level_lau":"43043",
+    "eurostat:population":474,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200073419",
     "frgov:id":"BDCSURCO0000000009607697",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.003726,
-    "geom:area_square_m":32476024.888912,
+    "geom:area_square_m":32476024.888913,
     "geom:bbox":"3.71395714755,45.1430185204,3.80249416835,45.2223864832",
     "geom:latitude":45.183294,
     "geom:longitude":3.759916,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683413,
         102191581,
@@ -56,7 +70,10 @@
         102064337
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_43043",
+        "eurostat:nuts_2021_id":"43043"
+    },
     "wof:coterminous":[
         1360674015
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"1ce4cf18440814bd55c6c368df048289",
+    "wof:geomhash":"6a7b4017d65ef8634eac228e97ed3b31",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404362057,
-    "wof:lastmodified":1582324061,
+    "wof:lastmodified":1684352782,
     "wof:name":"Ceaux-D'Allegre",
     "wof:parent_id":102064337,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":474,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

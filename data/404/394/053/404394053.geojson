@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_11341",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Ferriol",
+    "eurostat:nuts_2021_id":"11341",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ11",
+    "eurostat:nuts_2021_level_lau":"11341",
+    "eurostat:population":116,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200043776",
     "frgov:id":"BDCSURCO0000000009616073",
     "frgov:insee_arr":"2",
@@ -132,6 +144,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683485,
         102191581,
@@ -142,7 +156,10 @@
         102069121
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_11341",
+        "eurostat:nuts_2021_id":"11341"
+    },
     "wof:coterminous":[
         1125810677
     ],
@@ -150,7 +167,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7f63a5d7f9788d8d8a8e704a376acb9a",
+    "wof:geomhash":"1ab5aae59e818f3e21460c50e578bd2f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -164,11 +181,13 @@
         }
     ],
     "wof:id":404394053,
-    "wof:lastmodified":1582325028,
+    "wof:lastmodified":1684353180,
     "wof:name":"Saint-Ferriol",
     "wof:parent_id":102069121,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":116,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

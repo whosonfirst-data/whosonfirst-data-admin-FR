@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_28327",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Bomer",
+    "eurostat:nuts_2021_id":"28327",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB02",
+    "eurostat:nuts_2021_level_lau":"28327",
+    "eurostat:population":196,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200006971",
     "frgov:id":"BDCSURCO0000000009594527",
     "frgov:insee_arr":"4",
@@ -127,6 +139,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683189,
         102191581,
@@ -136,7 +150,10 @@
         102064809
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_28327",
+        "eurostat:nuts_2021_id":"28327"
+    },
     "wof:coterminous":[
         1360676525
     ],
@@ -144,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5436db77ce246c0f14037e0032225f0f",
+    "wof:geomhash":"bdfab52b62d58db7e6d5bb303faa650d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -157,11 +174,13 @@
         }
     ],
     "wof:id":404387987,
-    "wof:lastmodified":1582325368,
+    "wof:lastmodified":1684353104,
     "wof:name":"Saint-Bomer",
     "wof:parent_id":102064809,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":196,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

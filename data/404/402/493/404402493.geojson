@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_54184",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Essey-l\u00e8s-Nancy",
+    "eurostat:nuts_2021_id":"54184",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF31",
+    "eurostat:nuts_2021_level_lau":"54184",
+    "eurostat:population":8823,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"245400676",
     "frgov:id":"BDCSURCO0000000009590047",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683343,
         102191581,
@@ -58,7 +72,10 @@
         102070579
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_54184",
+        "eurostat:nuts_2021_id":"54184"
+    },
     "wof:coterminous":[
         101750115
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"25bbe45973d795ce1b47882dbb97f987",
+    "wof:geomhash":"80d26daea32f3fa2081a71be9f2a7c87",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404402493,
-    "wof:lastmodified":1582325281,
+    "wof:lastmodified":1684353278,
     "wof:name":"Essey-Les-Nancy",
     "wof:parent_id":102070579,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":8823,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

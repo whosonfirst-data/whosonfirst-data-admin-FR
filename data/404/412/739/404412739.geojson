@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_47264",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Pardoux-Isaac",
+    "eurostat:nuts_2021_id":"47264",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI14",
+    "eurostat:nuts_2021_level_lau":"47264",
+    "eurostat:population":1141,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244700464",
     "frgov:id":"BDCSURCO0000000009609981",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000832,
-    "geom:area_square_m":7321200.911156,
+    "geom:area_square_m":7321200.911157,
     "geom:bbox":"0.350974676553,44.5985531638,0.404054684286,44.6298376854",
     "geom:latitude":44.612306,
     "geom:longitude":0.377931,
@@ -117,6 +129,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683341,
         102191581,
@@ -127,7 +141,10 @@
         102067445
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_47264",
+        "eurostat:nuts_2021_id":"47264"
+    },
     "wof:coterminous":[
         101830417
     ],
@@ -135,7 +152,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"33323f66b7f045569fce844ff2ea0e6b",
+    "wof:geomhash":"20385e5f30b3314a2892006e91f3d9d5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -149,11 +166,13 @@
         }
     ],
     "wof:id":404412739,
-    "wof:lastmodified":1582324369,
+    "wof:lastmodified":1684353397,
     "wof:name":"Saint-Pardoux-Isaac",
     "wof:parent_id":102067445,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1141,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_33538",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Valeyrac",
+    "eurostat:nuts_2021_id":"33538",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI12",
+    "eurostat:nuts_2021_level_lau":"33538",
+    "eurostat:population":548,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070720",
     "frgov:id":"BDCSURCO0000000009606938",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003347,
-    "geom:area_square_m":29058638.629119,
+    "geom:area_square_m":29058638.629118,
     "geom:bbox":"-0.9364188255,45.3763123245,-0.817013670692,45.4350833683",
     "geom:latitude":45.402475,
     "geom:longitude":-0.876314,
@@ -130,6 +142,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683243,
         102191581,
@@ -140,7 +154,10 @@
         102069743
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_33538",
+        "eurostat:nuts_2021_id":"33538"
+    },
     "wof:coterminous":[
         1360676051
     ],
@@ -148,7 +165,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ab174a40ec95a04cb80aa0a3bc1d8d6d",
+    "wof:geomhash":"1ec3b680740cabc6907eeb6fdbe4e1ba",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -162,11 +179,13 @@
         }
     ],
     "wof:id":404382389,
-    "wof:lastmodified":1582324696,
+    "wof:lastmodified":1684353037,
     "wof:name":"Valeyrac",
     "wof:parent_id":102069743,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":548,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

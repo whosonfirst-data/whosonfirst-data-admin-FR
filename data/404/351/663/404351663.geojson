@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_15211",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Santin-Cantal\u00e8s",
+    "eurostat:nuts_2021_id":"15211",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK12",
+    "eurostat:nuts_2021_level_lau":"15211",
+    "eurostat:population":307,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066678",
     "frgov:id":"BDCSURCO0000000009608361",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.00393,
-    "geom:area_square_m":34353453.763789,
+    "geom:area_square_m":34353453.763791,
     "geom:bbox":"2.18912273427,44.9890392781,2.28211383321,45.0577944719",
     "geom:latitude":45.020406,
     "geom:longitude":2.235049,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683517,
         102191581,
@@ -58,7 +72,10 @@
         102065413
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_15211",
+        "eurostat:nuts_2021_id":"15211"
+    },
     "wof:coterminous":[
         101894491
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5bfbab6cdadd223064f00c98c744d115",
+    "wof:geomhash":"394dc131e6491aaccb529ce8a6f25012",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404351663,
-    "wof:lastmodified":1582324960,
+    "wof:lastmodified":1684352641,
     "wof:name":"Saint-Santin-Cantales",
     "wof:parent_id":102065413,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":307,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

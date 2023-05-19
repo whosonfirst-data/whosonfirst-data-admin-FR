@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_24109",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Chapelle-Gr\u00e9signac",
+    "eurostat:nuts_2021_id":"24109",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI11",
+    "eurostat:nuts_2021_level_lau":"24109",
+    "eurostat:population":108,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040400",
     "frgov:id":"BDCSURCO0000000009606896",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683331,
         102191581,
@@ -58,7 +72,10 @@
         102071329
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_24109",
+        "eurostat:nuts_2021_id":"24109"
+    },
     "wof:coterminous":[
         1126057471
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d58deaba4c8cc02890033effa542848a",
+    "wof:geomhash":"98ae43b64e4f0b16f9bfbd9cdf7e794e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404422031,
-    "wof:lastmodified":1582324285,
+    "wof:lastmodified":1684353509,
     "wof:name":"La Chapelle-Gresignac",
     "wof:parent_id":102071329,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":108,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

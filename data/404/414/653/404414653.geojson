@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_61373",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sainte-C\u00e9ronne-l\u00e8s-Mortagne",
+    "eurostat:nuts_2021_id":"61373",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD13",
+    "eurostat:nuts_2021_level_lau":"61373",
+    "eurostat:population":249,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200036069",
     "frgov:id":"BDCSURCO0000000009591628",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00156,
-    "geom:area_square_m":12756965.761981,
+    "geom:area_square_m":12756965.761982,
     "geom:bbox":"0.4870737056,48.5653459893,0.561099232172,48.6166742648",
     "geom:latitude":48.586625,
     "geom:longitude":0.525643,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683527,
         102191581,
@@ -58,7 +72,10 @@
         102065171
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_61373",
+        "eurostat:nuts_2021_id":"61373"
+    },
     "wof:coterminous":[
         1125828895
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5eab361178a85af45b91f3f1ba6680a1",
+    "wof:geomhash":"89b719de7ec7d4798c76be39e3dd6b31",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404414653,
-    "wof:lastmodified":1582324347,
+    "wof:lastmodified":1684353422,
     "wof:name":"Sainte-Ceronne-Les-Mortagne",
     "wof:parent_id":102065171,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":249,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

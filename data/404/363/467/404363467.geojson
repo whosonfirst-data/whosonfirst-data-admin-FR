@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_24414",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Georges-de-Montclard",
+    "eurostat:nuts_2021_id":"24414",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI11",
+    "eurostat:nuts_2021_level_lau":"24414",
+    "eurostat:population":291,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069094",
     "frgov:id":"BDCSURCO0000000009608613",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001551,
-    "geom:area_square_m":13579850.502819,
+    "geom:area_square_m":13579850.502817,
     "geom:bbox":"0.570569666605,44.907952298,0.655225060425,44.9540203976",
     "geom:latitude":44.933218,
     "geom:longitude":0.610795,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683331,
         102191581,
@@ -56,7 +70,10 @@
         102071347
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_24414",
+        "eurostat:nuts_2021_id":"24414"
+    },
     "wof:coterminous":[
         1360674139
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7dc4f4e7fb3e441e667cd350f6860e0b",
+    "wof:geomhash":"1b80a7339892a47b03eee9e90c948847",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404363467,
-    "wof:lastmodified":1582324232,
+    "wof:lastmodified":1684352802,
     "wof:name":"Saint-Georges-De-Montclard",
     "wof:parent_id":102071347,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":291,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

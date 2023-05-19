@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_64107",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"B\u00e9horl\u00e9guy",
+    "eurostat:nuts_2021_id":"64107",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI15",
+    "eurostat:nuts_2021_level_lau":"64107",
+    "eurostat:population":74,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067106",
     "frgov:id":"BDCSURCO0000000009615325",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002275,
-    "geom:area_square_m":20532009.311949,
+    "geom:area_square_m":20532009.31195,
     "geom:bbox":"-1.12732642345,43.0941595351,-1.03752547146,43.1440188319",
     "geom:latitude":43.120087,
     "geom:longitude":-1.084851,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683539,
         102191581,
@@ -58,7 +72,10 @@
         102070517
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_64107",
+        "eurostat:nuts_2021_id":"64107"
+    },
     "wof:coterminous":[
         1125905303
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d446d6ba1c27adea45c0591c67627090",
+    "wof:geomhash":"81e1ce8687b7531ae12ba668765bb06f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404408339,
-    "wof:lastmodified":1582324455,
+    "wof:lastmodified":1684353347,
     "wof:name":"Behorleguy",
     "wof:parent_id":102070517,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":74,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

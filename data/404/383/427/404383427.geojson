@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_21414",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mimeure",
+    "eurostat:nuts_2021_id":"21414",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC11",
+    "eurostat:nuts_2021_level_lau":"21414",
+    "eurostat:population":309,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071173",
     "frgov:id":"BDCSURCO0000000009599754",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001648,
-    "geom:area_square_m":13860031.054239,
+    "geom:area_square_m":13860031.05424,
     "geom:bbox":"4.45444795026,47.1350337796,4.5365967952,47.1742429716",
     "geom:latitude":47.152327,
     "geom:longitude":4.495172,
@@ -138,6 +150,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683563,
         102191581,
@@ -148,7 +162,10 @@
         102064453
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_21414",
+        "eurostat:nuts_2021_id":"21414"
+    },
     "wof:coterminous":[
         1125795247
     ],
@@ -156,7 +173,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"149174db5f5bd5c803cbc63bc4eed31a",
+    "wof:geomhash":"6755ced946f5a6723c12c0645286ca89",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -170,11 +187,13 @@
         }
     ],
     "wof:id":404383427,
-    "wof:lastmodified":1582324551,
+    "wof:lastmodified":1684353052,
     "wof:name":"Mimeure",
     "wof:parent_id":102064453,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":309,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

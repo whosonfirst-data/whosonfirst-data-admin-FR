@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_41084",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Fert\u00e9-Imbault",
+    "eurostat:nuts_2021_id":"41084",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB05",
+    "eurostat:nuts_2021_level_lau":"41084",
+    "eurostat:population":975,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244100806",
     "frgov:id":"BDCSURCO0000000009598961",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.006134,
-    "geom:area_square_m":51337238.711484,
+    "geom:area_square_m":51337238.711482,
     "geom:bbox":"1.92169603893,47.3332567492,1.99800994237,47.4691593079",
     "geom:latitude":47.402053,
     "geom:longitude":1.959302,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683349,
         102191581,
@@ -57,7 +71,10 @@
         102068075
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_41084",
+        "eurostat:nuts_2021_id":"41084"
+    },
     "wof:coterminous":[
         101888407
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6fa04a6fac4a481ae440e28921901f38",
+    "wof:geomhash":"173d4ba2d4fc9d80782cb289a4a07c1d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404369489,
-    "wof:lastmodified":1582324918,
+    "wof:lastmodified":1684352884,
     "wof:name":"La Ferte-Imbault",
     "wof:parent_id":102068075,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":975,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

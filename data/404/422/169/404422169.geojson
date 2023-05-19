@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_88273",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Longchamp",
+    "eurostat:nuts_2021_id":"88273",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF34",
+    "eurostat:nuts_2021_level_lau":"88273",
+    "eurostat:population":456,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068757",
     "frgov:id":"BDCSURCO0000000009593958",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.00126,
-    "geom:area_square_m":10379138.147156,
+    "geom:area_square_m":10379138.147157,
     "geom:bbox":"6.48985297045,48.194879689,6.56433141635,48.2381127082",
     "geom:latitude":48.217801,
     "geom:longitude":6.524444,
@@ -93,6 +105,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683223,
         102191581,
@@ -103,7 +117,10 @@
         102066463
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_88273",
+        "eurostat:nuts_2021_id":"88273"
+    },
     "wof:coterminous":[
         101885699
     ],
@@ -111,7 +128,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c1be013f84c117e45f93c1cfe77cd166",
+    "wof:geomhash":"1c98ce0f5b4661dd5d3c6ee9d885c5d1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -125,11 +142,13 @@
         }
     ],
     "wof:id":404422169,
-    "wof:lastmodified":1582324282,
+    "wof:lastmodified":1684353511,
     "wof:name":"Longchamp",
     "wof:parent_id":102066463,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":456,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

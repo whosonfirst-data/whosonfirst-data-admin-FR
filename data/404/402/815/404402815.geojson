@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_04047",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Champtercier",
+    "eurostat:nuts_2021_id":"04047",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL01",
+    "eurostat:nuts_2021_level_lau":"04047",
+    "eurostat:population":844,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067437",
     "frgov:id":"BDCSURCO0000000009611334",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.00209,
-    "geom:area_square_m":18556084.246402,
+    "geom:area_square_m":18556084.246403,
     "geom:bbox":"6.11358005747,44.0746743679,6.17613378246,44.120758099",
     "geom:latitude":44.096737,
     "geom:longitude":6.144179,
@@ -141,6 +153,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683509,
         102191581,
@@ -150,7 +164,10 @@
         102070011
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_04047",
+        "eurostat:nuts_2021_id":"04047"
+    },
     "wof:coterminous":[
         1125896725
     ],
@@ -158,7 +175,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b4165bde8dd3af42c834a91c6500a104",
+    "wof:geomhash":"d1a711c5a379cdb326efe104d61fc1da",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -171,11 +188,13 @@
         }
     ],
     "wof:id":404402815,
-    "wof:lastmodified":1582325280,
+    "wof:lastmodified":1684353281,
     "wof:name":"Champtercier",
     "wof:parent_id":102070011,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":844,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

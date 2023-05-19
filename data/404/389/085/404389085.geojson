@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_76630",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Ouen-sous-Bailly",
+    "eurostat:nuts_2021_id":"76630",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD22",
+    "eurostat:nuts_2021_level_lau":"76630",
+    "eurostat:population":220,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247600729",
     "frgov:id":"BDCSURCO0000000009582560",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683251,
         102191581,
@@ -58,7 +72,10 @@
         102067593
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_76630",
+        "eurostat:nuts_2021_id":"76630"
+    },
     "wof:coterminous":[
         1125816433
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b12f1c3f28df84bcb55c5f19d25b7ba3",
+    "wof:geomhash":"9b8182735eadefde7c166db38a5c7fb8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404389085,
-    "wof:lastmodified":1582325324,
+    "wof:lastmodified":1684353118,
     "wof:name":"Saint-Ouen-Sous-Bailly",
     "wof:parent_id":102067593,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":220,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_01025",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"B\u00e2g\u00e9-Dommartin",
+    "eurostat:nuts_2021_id":"01025",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK21",
+    "eurostat:nuts_2021_level_lau":"01025",
+    "eurostat:population":4092,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071371",
     "frgov:id":"BDCSURCO0000000009603014",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.00466,
-    "geom:area_square_m":39791937.1698,
+    "geom:area_square_m":39791937.169801,
     "geom:bbox":"4.90548967341,46.2853088024,5.01172083962,46.3698808859",
     "geom:latitude":46.323479,
     "geom:longitude":4.953232,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683153,
         102191581,
@@ -58,7 +72,10 @@
         102064537
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_01025",
+        "eurostat:nuts_2021_id":"01025"
+    },
     "wof:coterminous":[
         101766291
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ff197f995577cb4be1a5e06352e87c3f",
+    "wof:geomhash":"25cd940d3dbfcfa4c91eb4a1adb52297",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404364089,
-    "wof:lastmodified":1582324250,
+    "wof:lastmodified":1684352811,
     "wof:name":"Bage-La-Ville",
     "wof:parent_id":102064537,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":4092,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

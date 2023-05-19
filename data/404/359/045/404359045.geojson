@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_26124",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"\u00c9toile-sur-Rh\u00f4ne",
+    "eurostat:nuts_2021_id":"26124",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK23",
+    "eurostat:nuts_2021_level_lau":"26124",
+    "eurostat:population":5478,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068781",
     "frgov:id":"BDCSURCO0000000009608927",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.004561,
-    "geom:area_square_m":39993492.553509,
+    "geom:area_square_m":39993492.55351,
     "geom:bbox":"4.79907426305,44.8011195283,4.95043873807,44.8695549791",
     "geom:latitude":44.831333,
     "geom:longitude":4.874861,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683523,
         102191581,
@@ -58,7 +72,10 @@
         102070433
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_26124",
+        "eurostat:nuts_2021_id":"26124"
+    },
     "wof:coterminous":[
         101771733
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ccae8a5eaece45c83951d0c9e9f80a54",
+    "wof:geomhash":"2880ac5f71e3cf735b62d5cbbee9131f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404359045,
-    "wof:lastmodified":1582324798,
+    "wof:lastmodified":1684352740,
     "wof:name":"Etoile-Sur-Rhone",
     "wof:parent_id":102070433,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":5478,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

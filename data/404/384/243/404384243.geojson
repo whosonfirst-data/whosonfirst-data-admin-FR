@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_38449",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Quentin-Fallavier",
+    "eurostat:nuts_2021_id":"38449",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK24",
+    "eurostat:nuts_2021_level_lau":"38449",
+    "eurostat:population":6103,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243800604",
     "frgov:id":"BDCSURCO0000000009605741",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.002725,
-    "geom:area_square_m":23556191.152566,
+    "geom:area_square_m":23556191.152567,
     "geom:bbox":"5.07376141765,45.6078608251,5.15171429626,45.6704237547",
     "geom:latitude":45.639712,
     "geom:longitude":5.108373,
@@ -138,6 +150,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683427,
         102191581,
@@ -148,7 +162,10 @@
         102070747
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_38449",
+        "eurostat:nuts_2021_id":"38449"
+    },
     "wof:coterminous":[
         101830505
     ],
@@ -156,7 +173,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"22810f77f2501fe284247fd6914a8325",
+    "wof:geomhash":"8eeb91622d08f51ce05b2757e74f8736",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -170,11 +187,13 @@
         }
     ],
     "wof:id":404384243,
-    "wof:lastmodified":1582324615,
+    "wof:lastmodified":1684353062,
     "wof:name":"Saint-Quentin-Fallavier",
     "wof:parent_id":102070747,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":6103,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_51083",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Braux-Saint-Remy",
+    "eurostat:nuts_2021_id":"51083",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF23",
+    "eurostat:nuts_2021_level_lau":"51083",
+    "eurostat:population":86,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200042703",
     "frgov:id":"BDCSURCO0000000009588091",
     "frgov:insee_arr":"5",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.0012,
-    "geom:area_square_m":9733807.010204,
+    "geom:area_square_m":9733807.010203,
     "geom:bbox":"4.82272527727,49.0112289563,4.91207827373,49.035699212",
     "geom:latitude":49.024016,
     "geom:longitude":4.865974,
@@ -111,6 +123,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683405,
         102191581,
@@ -121,7 +135,10 @@
         102068693
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_51083",
+        "eurostat:nuts_2021_id":"51083"
+    },
     "wof:coterminous":[
         1126039669
     ],
@@ -129,7 +146,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8000c14d9dcf6c4a4fde2dc6b90967f6",
+    "wof:geomhash":"0639ffbf40f741e97d61a8887e776de7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -143,11 +160,13 @@
         }
     ],
     "wof:id":404388629,
-    "wof:lastmodified":1582325479,
+    "wof:lastmodified":1684353112,
     "wof:name":"Braux-Saint-Remy",
     "wof:parent_id":102068693,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":86,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

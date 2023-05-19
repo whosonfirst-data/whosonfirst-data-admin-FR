@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_85024",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bois-de-C\u00e9n\u00e9",
+    "eurostat:nuts_2021_id":"85024",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG05",
+    "eurostat:nuts_2021_level_lau":"85024",
+    "eurostat:population":2001,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071629",
     "frgov:id":"BDCSURCO0000000009600638",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.005056,
-    "geom:area_square_m":42677380.938207,
+    "geom:area_square_m":42677380.938208,
     "geom:bbox":"-1.95948915028,46.9097693033,-1.82534814358,46.9959163231",
     "geom:latitude":46.947886,
     "geom:longitude":-1.896073,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683409,
         102191581,
@@ -57,7 +71,10 @@
         102064795
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_85024",
+        "eurostat:nuts_2021_id":"85024"
+    },
     "wof:coterminous":[
         1175612251
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9e71fd5d2358c54cd225b221030a89b9",
+    "wof:geomhash":"04cd6680f95d2d09b59df0bb8a27c081",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404360407,
-    "wof:lastmodified":1582325047,
+    "wof:lastmodified":1684352759,
     "wof:name":"Bois-De-Cene",
     "wof:parent_id":102064795,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2001,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

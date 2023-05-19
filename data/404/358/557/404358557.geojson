@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_54435",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Pr\u00e9ny",
+    "eurostat:nuts_2021_id":"54435",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF31",
+    "eurostat:nuts_2021_level_lau":"54435",
+    "eurostat:population":355,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070738",
     "frgov:id":"BDCSURCO0000000009588062",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.001871,
-    "geom:area_square_m":15186847.086584,
+    "geom:area_square_m":15186847.086582,
     "geom:bbox":"5.91102947283,48.9555290939,6.02067549752,48.9931548316",
     "geom:latitude":48.971652,
     "geom:longitude":5.964041,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683343,
         102191581,
@@ -58,7 +72,10 @@
         102071143
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_54435",
+        "eurostat:nuts_2021_id":"54435"
+    },
     "wof:coterminous":[
         1125798927
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"313118d14c08a2f11c8ece2312d2bc7e",
+    "wof:geomhash":"d555073a27237c9d195c6b7f4552b739",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404358557,
-    "wof:lastmodified":1582324967,
+    "wof:lastmodified":1684352733,
     "wof:name":"Preny",
     "wof:parent_id":102071143,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":355,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

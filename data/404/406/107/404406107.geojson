@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_82162",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Georges",
+    "eurostat:nuts_2021_id":"82162",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ28",
+    "eurostat:nuts_2021_level_lau":"82162",
+    "eurostat:population":261,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248200057",
     "frgov:id":"BDCSURCO0000000009611263",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001037,
-    "geom:area_square_m":9188908.773517,
+    "geom:area_square_m":9188857.647926,
     "geom:bbox":"1.615066,44.196393,1.658666,44.237294",
     "geom:latitude":44.218468,
     "geom:longitude":1.639784,
@@ -109,6 +121,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683217,
         102191581,
@@ -119,7 +133,10 @@
         102065133
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_82162",
+        "eurostat:nuts_2021_id":"82162"
+    },
     "wof:coterminous":[
         1360678247
     ],
@@ -127,7 +144,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7ec512160f120fd529687138a1e4c4d6",
+    "wof:geomhash":"7ce4965063251e55db6ed9b4c7bf9ef4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -141,11 +158,13 @@
         }
     ],
     "wof:id":404406107,
-    "wof:lastmodified":1636496629,
+    "wof:lastmodified":1684353321,
     "wof:name":"Saint-Georges",
     "wof:parent_id":102065133,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":261,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_59046",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bambecque",
+    "eurostat:nuts_2021_id":"59046",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE1",
+    "eurostat:nuts_2021_level_3":"FRE11",
+    "eurostat:nuts_2021_level_lau":"59046",
+    "eurostat:population":770,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040954",
     "frgov:id":"BDCSURCO0000000009580343",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001509,
-    "geom:area_square_m":11762981.632014,
+    "geom:area_square_m":11762981.632013,
     "geom:bbox":"2.51375435484,50.896943036,2.60795090447,50.9206461658",
     "geom:latitude":50.908957,
     "geom:longitude":2.560519,
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683445,
         102191581,
@@ -139,7 +153,10 @@
         102070063
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_59046",
+        "eurostat:nuts_2021_id":"59046"
+    },
     "wof:coterminous":[
         101898557
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"be10a441164a41430f1fc1a4d45ba76d",
+    "wof:geomhash":"65ad4f1574878a7965a8dc3fe54ce43e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404359321,
-    "wof:lastmodified":1582324805,
+    "wof:lastmodified":1684352744,
     "wof:name":"Bambecque",
     "wof:parent_id":102070063,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":770,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

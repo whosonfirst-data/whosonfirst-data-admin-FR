@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_02517",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Montigny-sur-Cr\u00e9cy",
+    "eurostat:nuts_2021_id":"02517",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE21",
+    "eurostat:nuts_2021_level_lau":"02517",
+    "eurostat:population":315,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240200469",
     "frgov:id":"BDCSURCO0000000009583203",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001075,
-    "geom:area_square_m":8592179.589665,
+    "geom:area_square_m":8592179.589664,
     "geom:bbox":"3.55916930449,49.6918335849,3.60863058168,49.7332856958",
     "geom:latitude":49.714781,
     "geom:longitude":3.583777,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683247,
         102191581,
@@ -58,7 +72,10 @@
         102066645
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_02517",
+        "eurostat:nuts_2021_id":"02517"
+    },
     "wof:coterminous":[
         101901521
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"abc8815b00a80999c413e9d756ccabae",
+    "wof:geomhash":"795c6b62dfdc357ca0c21154b9b91fb2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404387497,
-    "wof:lastmodified":1582325358,
+    "wof:lastmodified":1684353098,
     "wof:name":"Montigny-Sur-Crecy",
     "wof:parent_id":102066645,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":315,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

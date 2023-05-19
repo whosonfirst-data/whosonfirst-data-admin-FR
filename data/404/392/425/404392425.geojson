@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_61066",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bur\u00e9",
+    "eurostat:nuts_2021_id":"61066",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD13",
+    "eurostat:nuts_2021_level_lau":"61066",
+    "eurostat:population":111,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200035103",
     "frgov:id":"BDCSURCO0000000009592542",
     "frgov:insee_arr":"1",
@@ -102,6 +114,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683527,
         102191581,
@@ -112,7 +126,10 @@
         102065171
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_61066",
+        "eurostat:nuts_2021_id":"61066"
+    },
     "wof:coterminous":[
         1126040605
     ],
@@ -120,7 +137,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"721e8de2a5488892c34c9ab1109cabc4",
+    "wof:geomhash":"6085bcfc7da41c73a1cbd8bf0b7aaa5a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -134,11 +151,13 @@
         }
     ],
     "wof:id":404392425,
-    "wof:lastmodified":1582324809,
+    "wof:lastmodified":1684353161,
     "wof:name":"Bure",
     "wof:parent_id":102065171,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":111,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

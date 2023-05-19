@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_77261",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lorrez-le-Bocage-Pr\u00e9aux",
+    "eurostat:nuts_2021_id":"77261",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR102",
+    "eurostat:nuts_2021_level_lau":"77261",
+    "eurostat:population":1230,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200023919",
     "frgov:id":"BDCSURCO0000000009594460",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"ILE-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002395,
-    "geom:area_square_m":19727575.800579,
+    "geom:area_square_m":19727575.80058,
     "geom:bbox":"2.85638449396,48.2101771344,2.93022259438,48.2744056651",
     "geom:latitude":48.23945,
     "geom:longitude":2.896444,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683385,
         102191581,
@@ -57,7 +71,10 @@
         102067349
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_77261",
+        "eurostat:nuts_2021_id":"77261"
+    },
     "wof:coterminous":[
         101763915
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5e3267a0fe6deda65682d9fe357c6333",
+    "wof:geomhash":"e6a6ff9d71ca0959a09163040b75c184",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404355563,
-    "wof:lastmodified":1582324190,
+    "wof:lastmodified":1684352693,
     "wof:name":"Lorrez-Le-Bocage-Preaux",
     "wof:parent_id":102067349,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1230,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

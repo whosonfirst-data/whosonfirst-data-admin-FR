@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_21471",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Orret",
+    "eurostat:nuts_2021_id":"21471",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC11",
+    "eurostat:nuts_2021_level_lau":"21471",
+    "eurostat:population":16,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242101434",
     "frgov:id":"BDCSURCO0000000009597731",
     "frgov:insee_arr":"3",
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683563,
         102191581,
@@ -139,7 +153,10 @@
         102064965
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_21471",
+        "eurostat:nuts_2021_id":"21471"
+    },
     "wof:coterminous":[
         1125795517
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d0a8ed82d67eb448290669ac31090a51",
+    "wof:geomhash":"ec368ecfd2927b26dba3ac585615ad88",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404355153,
-    "wof:lastmodified":1582324189,
+    "wof:lastmodified":1684352687,
     "wof:name":"Orret",
     "wof:parent_id":102064965,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":16,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_14650",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Pierre-du-Fresne",
+    "eurostat:nuts_2021_id":"14650",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD11",
+    "eurostat:nuts_2021_level_lau":"14650",
+    "eurostat:population":195,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069524",
     "frgov:id":"BDCSURCO0000000009587898",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00043,
-    "geom:area_square_m":3486636.868932,
+    "geom:area_square_m":3486636.868933,
     "geom:bbox":"-0.78332264926,49.0231100769,-0.748504016917,49.0460185616",
     "geom:latitude":49.034132,
     "geom:longitude":-0.765243,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683579,
         102191581,
@@ -58,7 +72,10 @@
         102064413
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_14650",
+        "eurostat:nuts_2021_id":"14650"
+    },
     "wof:coterminous":[
         1125937853
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7f130ee84704de2b1bfde57e9e2b37da",
+    "wof:geomhash":"96ad9ea558d7bbf0fb787195cc34c92e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404413669,
-    "wof:lastmodified":1582324320,
+    "wof:lastmodified":1684353410,
     "wof:name":"Saint-Pierre-Du-Fresne",
     "wof:parent_id":102064413,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":195,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

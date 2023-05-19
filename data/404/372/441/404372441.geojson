@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_54210",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Fr\u00e9m\u00e9nil",
+    "eurostat:nuts_2021_id":"54210",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF31",
+    "eurostat:nuts_2021_level_lau":"54210",
+    "eurostat:population":216,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069433",
     "frgov:id":"BDCSURCO0000000009590935",
     "frgov:insee_arr":"2",
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683343,
         102191581,
@@ -56,7 +70,10 @@
         102065313
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_54210",
+        "eurostat:nuts_2021_id":"54210"
+    },
     "wof:coterminous":[
         1360674997
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d6eceef7ce3074b63b0246193972a799",
+    "wof:geomhash":"369f6f36260a6644f1d263daadecafb6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404372441,
-    "wof:lastmodified":1582325462,
+    "wof:lastmodified":1684352918,
     "wof:name":"Fremenil",
     "wof:parent_id":102065313,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":216,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

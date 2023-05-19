@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_86051",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Champagn\u00e9-le-Sec",
+    "eurostat:nuts_2021_id":"86051",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI34",
+    "eurostat:nuts_2021_level_lau":"86051",
+    "eurostat:population":200,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070035",
     "frgov:id":"BDCSURCO0000000009603591",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683185,
         102191581,
@@ -58,7 +72,10 @@
         102065137
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_86051",
+        "eurostat:nuts_2021_id":"86051"
+    },
     "wof:coterminous":[
         101891849
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"dedbfebf9c3f993f8065e7861d4fdb4c",
+    "wof:geomhash":"71c3a45689a855cb1d41c08d4f40b504",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404403029,
-    "wof:lastmodified":1582325298,
+    "wof:lastmodified":1684353284,
     "wof:name":"Champagne-Le-Sec",
     "wof:parent_id":102065137,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":200,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_86246",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Savin",
+    "eurostat:nuts_2021_id":"86246",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI34",
+    "eurostat:nuts_2021_level_lau":"86246",
+    "eurostat:population":846,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070043",
     "frgov:id":"BDCSURCO0000000009602051",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002206,
-    "geom:area_square_m":18747636.965393,
+    "geom:area_square_m":18747636.965394,
     "geom:bbox":"0.799237193447,46.5594069169,0.878774120401,46.6160323645",
     "geom:latitude":46.583543,
     "geom:longitude":0.840299,
@@ -93,6 +105,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683185,
         102191581,
@@ -103,7 +117,10 @@
         102068999
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_86246",
+        "eurostat:nuts_2021_id":"86246"
+    },
     "wof:coterminous":[
         101890363
     ],
@@ -111,7 +128,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2254a1a47c492f1b9d42c132c22b6d56",
+    "wof:geomhash":"f600c727b00e20560e5e1315fc04698c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -125,11 +142,13 @@
         }
     ],
     "wof:id":404379957,
-    "wof:lastmodified":1582324528,
+    "wof:lastmodified":1684353010,
     "wof:name":"Saint-Savin",
     "wof:parent_id":102068999,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":846,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

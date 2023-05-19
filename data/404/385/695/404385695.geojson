@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_52069",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Braux-le-Ch\u00e2tel",
+    "eurostat:nuts_2021_id":"52069",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF24",
+    "eurostat:nuts_2021_level_lau":"52069",
+    "eurostat:population":145,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"245200597",
     "frgov:id":"BDCSURCO0000000009594750",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.001304,
-    "geom:area_square_m":10766403.090829,
+    "geom:area_square_m":10766403.09083,
     "geom:bbox":"4.90661451936,48.082267397,4.96509060733,48.1264709879",
     "geom:latitude":48.105395,
     "geom:longitude":4.938491,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683261,
         102191581,
@@ -58,7 +72,10 @@
         102065241
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_52069",
+        "eurostat:nuts_2021_id":"52069"
+    },
     "wof:coterminous":[
         101885951
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c4d9aa26e62b6c31cdc3bf4411448150",
+    "wof:geomhash":"5526d7739fd7a9e55d50827988febd63",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404385695,
-    "wof:lastmodified":1582324634,
+    "wof:lastmodified":1684353078,
     "wof:name":"Braux-Le-Chatel",
     "wof:parent_id":102065241,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":145,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

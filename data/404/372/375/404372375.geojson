@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_32323",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ponsamp\u00e8re",
+    "eurostat:nuts_2021_id":"32323",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ24",
+    "eurostat:nuts_2021_level_lau":"32323",
+    "eurostat:population":126,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200035756",
     "frgov:id":"BDCSURCO0000000009613978",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001002,
-    "geom:area_square_m":8994942.109553,
+    "geom:area_square_m":8994942.109552,
     "geom:bbox":"0.341089154998,43.4423905609,0.402526571345,43.4729927699",
     "geom:latitude":43.458764,
     "geom:longitude":0.370624,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683467,
         102191581,
@@ -58,7 +72,10 @@
         102067899
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_32323",
+        "eurostat:nuts_2021_id":"32323"
+    },
     "wof:coterminous":[
         1125797669
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"17d78284ffc43191d5dc75e0f1c3ae83",
+    "wof:geomhash":"203c828953b3f93a5328b4413bc28229",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404372375,
-    "wof:lastmodified":1582325474,
+    "wof:lastmodified":1684352917,
     "wof:name":"Ponsampere",
     "wof:parent_id":102067899,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":126,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

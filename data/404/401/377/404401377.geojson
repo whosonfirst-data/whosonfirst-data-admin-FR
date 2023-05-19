@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_59264",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gognies-Chauss\u00e9e",
+    "eurostat:nuts_2021_id":"59264",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE1",
+    "eurostat:nuts_2021_level_3":"FRE11",
+    "eurostat:nuts_2021_level_lau":"59264",
+    "eurostat:population":752,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200043396",
     "frgov:id":"BDCSURCO0000000009581249",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001009,
-    "geom:area_square_m":7965859.874098,
+    "geom:area_square_m":7965859.8741,
     "geom:bbox":"3.91859716096,50.298997203,3.96855764308,50.3503664069",
     "geom:latitude":50.327154,
     "geom:longitude":3.942226,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683445,
         102191581,
@@ -56,7 +70,10 @@
         102071309
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_59264",
+        "eurostat:nuts_2021_id":"59264"
+    },
     "wof:coterminous":[
         1360677783
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"15d75b790110ba2e534716b98ed682e7",
+    "wof:geomhash":"f55f174c0553b0f7592b049a1b83724e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404401377,
-    "wof:lastmodified":1582324426,
+    "wof:lastmodified":1684353265,
     "wof:name":"Gognies-Chaussee",
     "wof:parent_id":102071309,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":752,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

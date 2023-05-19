@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_69212",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Jean-des-Vignes",
+    "eurostat:nuts_2021_id":"69212",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK26",
+    "eurostat:nuts_2021_level_lau":"69212",
+    "eurostat:population":432,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040574",
     "frgov:id":"BDCSURCO0000000009604746",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683569,
         102191581,
@@ -58,7 +72,10 @@
         102064567
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_69212",
+        "eurostat:nuts_2021_id":"69212"
+    },
     "wof:coterminous":[
         1125777675
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b2d48e9aef3b49bc6f25b71bc3c56e50",
+    "wof:geomhash":"15203f6305080c4f407ddc9fd40070f0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404370195,
-    "wof:lastmodified":1582324596,
+    "wof:lastmodified":1684352892,
     "wof:name":"Saint-Jean-Des-Vignes",
     "wof:parent_id":102064567,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":432,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

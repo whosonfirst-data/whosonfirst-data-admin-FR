@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_53211",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Denis-de-Gastines",
+    "eurostat:nuts_2021_id":"53211",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG03",
+    "eurostat:nuts_2021_level_lau":"53211",
+    "eurostat:population":1509,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"245300355",
     "frgov:id":"BDCSURCO0000000009593416",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.005952,
-    "geom:area_square_m":48917626.533138,
+    "geom:area_square_m":48917626.533137,
     "geom:bbox":"-0.949110611232,48.3123320302,-0.798483583794,48.3771994055",
     "geom:latitude":48.346667,
     "geom:longitude":-0.870063,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683401,
         102191581,
@@ -57,7 +71,10 @@
         102066161
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_53211",
+        "eurostat:nuts_2021_id":"53211"
+    },
     "wof:coterminous":[
         101763661
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"54c71993fba9671e3d2df391f98599f9",
+    "wof:geomhash":"01251522aac826e1f02e3461d45d4ce3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404349385,
-    "wof:lastmodified":1582324707,
+    "wof:lastmodified":1684352608,
     "wof:name":"Saint-Denis-De-Gastines",
     "wof:parent_id":102066161,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1509,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_32028",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Barcugnan",
+    "eurostat:nuts_2021_id":"32028",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ24",
+    "eurostat:nuts_2021_level_lau":"32028",
+    "eurostat:population":107,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200035756",
     "frgov:id":"BDCSURCO0000000009614510",
     "frgov:insee_arr":"3",
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683467,
         102191581,
@@ -139,7 +153,10 @@
         102067505
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_32028",
+        "eurostat:nuts_2021_id":"32028"
+    },
     "wof:coterminous":[
         1126034475
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"dd08e3c534c60d6ba68765b38f9a0817",
+    "wof:geomhash":"92d787c2396cbc637490288fd9e21eb9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404370203,
-    "wof:lastmodified":1582324600,
+    "wof:lastmodified":1684352892,
     "wof:name":"Barcugnan",
     "wof:parent_id":102067505,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":107,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

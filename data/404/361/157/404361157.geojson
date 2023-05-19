@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_07227",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Cyr",
+    "eurostat:nuts_2021_id":"07227",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK22",
+    "eurostat:nuts_2021_level_lau":"07227",
+    "eurostat:population":1372,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072015",
     "frgov:id":"BDCSURCO0000000009607467",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.000956,
-    "geom:area_square_m":8320950.19935,
+    "geom:area_square_m":8320950.199349,
     "geom:bbox":"4.71627400527,45.2329490684,4.75912830784,45.2678837048",
     "geom:latitude":45.249158,
     "geom:longitude":4.736637,
@@ -105,6 +117,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683421,
         102191581,
@@ -115,7 +129,10 @@
         102064369
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_07227",
+        "eurostat:nuts_2021_id":"07227"
+    },
     "wof:coterminous":[
         101894347
     ],
@@ -123,7 +140,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7a7b3688db5871ae0d0f5bde3b8fa314",
+    "wof:geomhash":"33fb8bdd3d62c51c92883fe8c98ea341",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -137,11 +154,13 @@
         }
     ],
     "wof:id":404361157,
-    "wof:lastmodified":1582324749,
+    "wof:lastmodified":1684352769,
     "wof:name":"Saint-Cyr",
     "wof:parent_id":102064369,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1372,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

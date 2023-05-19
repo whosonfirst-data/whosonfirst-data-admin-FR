@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_66177",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Jean-Lasseille",
+    "eurostat:nuts_2021_id":"66177",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ15",
+    "eurostat:nuts_2021_level_lau":"66177",
+    "eurostat:population":1540,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"246600449",
     "frgov:id":"BDCSURCO0000000009616584",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00032,
-    "geom:area_square_m":2909447.158224,
+    "geom:area_square_m":2909447.158225,
     "geom:bbox":"2.85140961007,42.5754399515,2.87799723807,42.5972441693",
     "geom:latitude":42.585933,
     "geom:longitude":2.864739,
@@ -111,6 +123,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683169,
         102191581,
@@ -121,7 +135,10 @@
         102067465
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_66177",
+        "eurostat:nuts_2021_id":"66177"
+    },
     "wof:coterminous":[
         101897699
     ],
@@ -129,7 +146,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"27fea91d7826d5b6e63345bd42c0615c",
+    "wof:geomhash":"42dff8afac183e5131a202a9da1089da",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -143,11 +160,13 @@
         }
     ],
     "wof:id":404386507,
-    "wof:lastmodified":1582325451,
+    "wof:lastmodified":1684353087,
     "wof:name":"Saint-Jean-Lasseille",
     "wof:parent_id":102067465,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1540,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

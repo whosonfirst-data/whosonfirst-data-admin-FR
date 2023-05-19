@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_56211",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Congard",
+    "eurostat:nuts_2021_id":"56211",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH04",
+    "eurostat:nuts_2021_level_lau":"56211",
+    "eurostat:population":764,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066785",
     "frgov:id":"BDCSURCO0000000009596564",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BRETAGNE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002615,
-    "geom:area_square_m":21734306.361084,
+    "geom:area_square_m":21734306.361085,
     "geom:bbox":"-2.37494952416,47.7323804168,-2.28153075562,47.8085585617",
     "geom:latitude":47.767917,
     "geom:longitude":-2.328225,
@@ -135,6 +147,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683507,
         102191581,
@@ -144,7 +158,10 @@
         102070183
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_56211",
+        "eurostat:nuts_2021_id":"56211"
+    },
     "wof:coterminous":[
         1125933407
     ],
@@ -152,7 +169,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0d365c35a0a03ef69b309807a225e73f",
+    "wof:geomhash":"ca49c343ccc181e62ad40b59cdf05667",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -165,11 +182,13 @@
         }
     ],
     "wof:id":404361995,
-    "wof:lastmodified":1582324758,
+    "wof:lastmodified":1684352781,
     "wof:name":"Saint-Congard",
     "wof:parent_id":102070183,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":764,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

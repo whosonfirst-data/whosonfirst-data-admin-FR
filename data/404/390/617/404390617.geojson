@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_26020",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"R\u00e9para-Auriples",
+    "eurostat:nuts_2021_id":"26020",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK23",
+    "eurostat:nuts_2021_level_lau":"26020",
+    "eurostat:population":235,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242600252",
     "frgov:id":"BDCSURCO0000000009609630",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001728,
-    "geom:area_square_m":15200863.230809,
+    "geom:area_square_m":15200863.230808,
     "geom:bbox":"4.96271639794,44.6195175832,5.02398482486,44.6874194468",
     "geom:latitude":44.661029,
     "geom:longitude":4.994489,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683523,
         102191581,
@@ -56,7 +70,10 @@
         102065623
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_26020",
+        "eurostat:nuts_2021_id":"26020"
+    },
     "wof:coterminous":[
         1360676787
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"105508edcf90fa391c1080392566d201",
+    "wof:geomhash":"1f73e4b498c3ed037d63a7df7e312230",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404390617,
-    "wof:lastmodified":1582324261,
+    "wof:lastmodified":1684353138,
     "wof:name":"La Repara-Auriples",
     "wof:parent_id":102065623,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":235,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

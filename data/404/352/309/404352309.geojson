@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_32098",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Cazaux-Sav\u00e8s",
+    "eurostat:nuts_2021_id":"32098",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ24",
+    "eurostat:nuts_2021_level_lau":"32098",
+    "eurostat:population":315,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243200599",
     "frgov:id":"BDCSURCO0000000009613703",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000627,
-    "geom:area_square_m":5617855.111253,
+    "geom:area_square_m":5617855.111254,
     "geom:bbox":"0.955054800797,43.5328250613,1.00297338804,43.5564359359",
     "geom:latitude":43.5457,
     "geom:longitude":0.978496,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683467,
         102191581,
@@ -58,7 +72,10 @@
         102069077
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_32098",
+        "eurostat:nuts_2021_id":"32098"
+    },
     "wof:coterminous":[
         1126009055
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"bc55cce63bfecd3afb6fc0d3bda543ff",
+    "wof:geomhash":"0605d40b2f527aba32381f535812bcf8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404352309,
-    "wof:lastmodified":1582324160,
+    "wof:lastmodified":1684352649,
     "wof:name":"Cazaux-Saves",
     "wof:parent_id":102069077,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":315,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

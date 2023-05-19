@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_33518",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Tabanac",
+    "eurostat:nuts_2021_id":"33518",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI12",
+    "eurostat:nuts_2021_level_lau":"33518",
+    "eurostat:population":1082,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243301439",
     "frgov:id":"BDCSURCO0000000009609334",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000883,
-    "geom:area_square_m":7760952.837463,
+    "geom:area_square_m":7760952.837464,
     "geom:bbox":"-0.438030215294,44.7020107367,-0.388182353759,44.7439860692",
     "geom:latitude":44.723906,
     "geom:longitude":-0.411009,
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683243,
         102191581,
@@ -139,7 +153,10 @@
         102068589
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_33518",
+        "eurostat:nuts_2021_id":"33518"
+    },
     "wof:coterminous":[
         1125822671
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8ef315351645d78e32a452d16f95c3ef",
+    "wof:geomhash":"5e81dc91fc2967cae453e8bacadb71a2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404402837,
-    "wof:lastmodified":1582325283,
+    "wof:lastmodified":1684353282,
     "wof:name":"Tabanac",
     "wof:parent_id":102068589,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1082,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

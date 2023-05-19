@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_24252",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Marcillac-Saint-Quentin",
+    "eurostat:nuts_2021_id":"24252",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI11",
+    "eurostat:nuts_2021_level_lau":"24252",
+    "eurostat:population":792,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200027217",
     "frgov:id":"BDCSURCO0000000009608596",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001947,
-    "geom:area_square_m":17040627.752604,
+    "geom:area_square_m":17040627.752605,
     "geom:bbox":"1.16483220208,44.9291538544,1.23993228972,44.9771876936",
     "geom:latitude":44.955592,
     "geom:longitude":1.200164,
@@ -123,6 +135,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683331,
         102191581,
@@ -133,7 +147,10 @@
         102070697
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_24252",
+        "eurostat:nuts_2021_id":"24252"
+    },
     "wof:coterminous":[
         1125932711
     ],
@@ -141,7 +158,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7ff6f16d85900f8c9a77eba774146887",
+    "wof:geomhash":"1d46b890943d24b26b6abb1043e7eb24",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -155,11 +172,13 @@
         }
     ],
     "wof:id":404422915,
-    "wof:lastmodified":1582324287,
+    "wof:lastmodified":1684353521,
     "wof:name":"Marcillac-Saint-Quentin",
     "wof:parent_id":102070697,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":792,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

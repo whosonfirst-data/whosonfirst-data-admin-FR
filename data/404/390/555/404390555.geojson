@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_27465",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Plessis-H\u00e9bert",
+    "eurostat:nuts_2021_id":"27465",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD21",
+    "eurostat:nuts_2021_level_lau":"27465",
+    "eurostat:population":400,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072312",
     "frgov:id":"BDCSURCO0000000009588762",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683283,
         102191581,
@@ -58,7 +72,10 @@
         102069181
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_27465",
+        "eurostat:nuts_2021_id":"27465"
+    },
     "wof:coterminous":[
         101879093
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a77f0a043708e8af6a76a2c03b1e0a91",
+    "wof:geomhash":"55103549776671bb1465e3c7664ccda3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404390555,
-    "wof:lastmodified":1582324269,
+    "wof:lastmodified":1684353137,
     "wof:name":"Le Plessis-Hebert",
     "wof:parent_id":102069181,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":400,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

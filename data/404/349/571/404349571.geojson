@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_02810",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Villers-Cotter\u00eats",
+    "eurostat:nuts_2021_id":"02810",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE21",
+    "eurostat:nuts_2021_level_lau":"02810",
+    "eurostat:population":10872,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071991",
     "frgov:id":"BDCSURCO0000000009586652",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.005226,
-    "geom:area_square_m":42191195.777587,
+    "geom:area_square_m":42191195.777588,
     "geom:bbox":"3.05213995897,49.154239413,3.15978679047,49.2858830477",
     "geom:latitude":49.239812,
     "geom:longitude":3.096297,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683247,
         102191581,
@@ -58,7 +72,10 @@
         102070689
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_02810",
+        "eurostat:nuts_2021_id":"02810"
+    },
     "wof:coterminous":[
         101761697
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b6114a0f4656bb182ddcad4b908e985f",
+    "wof:geomhash":"16a0ebb79e81eae5f2f91a5f585615f1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404349571,
-    "wof:lastmodified":1582324716,
+    "wof:lastmodified":1684352610,
     "wof:name":"Villers-Cotterets",
     "wof:parent_id":102070689,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":10872,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

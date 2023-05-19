@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_40247",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Agnet",
+    "eurostat:nuts_2021_id":"40247",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI13",
+    "eurostat:nuts_2021_level_lau":"40247",
+    "eurostat:population":188,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200030435",
     "frgov:id":"BDCSURCO0000000009613284",
     "frgov:insee_arr":"2",
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683183,
         102191581,
@@ -139,7 +153,10 @@
         102064333
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_40247",
+        "eurostat:nuts_2021_id":"40247"
+    },
     "wof:coterminous":[
         1125938761
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4b2ae5216ebf7ad3320033b45954169a",
+    "wof:geomhash":"53ac1003736d6e776b2ea433137d436c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404377151,
-    "wof:lastmodified":1582324559,
+    "wof:lastmodified":1684352977,
     "wof:name":"Saint-Agnet",
     "wof:parent_id":102064333,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":188,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_33281",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"M\u00e9rignac",
+    "eurostat:nuts_2021_id":"33281",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI12",
+    "eurostat:nuts_2021_level_lau":"33281",
+    "eurostat:population":70105,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243300316",
     "frgov:id":"BDCSURCO0000000009609127",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00545,
-    "geom:area_square_m":47795542.476692,
+    "geom:area_square_m":47795542.476693,
     "geom:bbox":"-0.757077,44.799782,-0.606813,44.862666",
     "geom:latitude":44.832252,
     "geom:longitude":-0.681831,
@@ -93,24 +105,30 @@
     "reversegeo:longitude":-0.681834,
     "src:geom":"frgov",
     "src:geom_alt":[],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85683243,
         102191581,
         85633147,
-        102072291,
-        136253037,
         404227869,
         1108826385,
-        85683243
+        136253037,
+        102072291
     ],
     "wof:breaches":[],
     "wof:concordance":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_33281",
+        "eurostat:nuts_2021_id":"33281"
+    },
     "wof:coterminous":[
         101749363,
         102072291
     ],
     "wof:country":"FR",
     "wof:created":1526509799,
-    "wof:geomhash":"e67641bf1152352d6b9bc50e6b143875",
+    "wof:geomhash":"e640a27f333a49acbca8aaba455a3d8a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -124,11 +142,13 @@
         }
     ],
     "wof:id":1159322073,
-    "wof:lastmodified":1608039588,
+    "wof:lastmodified":1684353597,
     "wof:name":"M\u00e9rignac",
     "wof:parent_id":102072291,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":70105,
+    "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded":[],
     "wof:superseded_by":[],

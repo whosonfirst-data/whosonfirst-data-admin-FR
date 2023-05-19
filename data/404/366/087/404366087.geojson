@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_66008",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Argel\u00e8s-sur-Mer",
+    "eurostat:nuts_2021_id":"66008",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ15",
+    "eurostat:nuts_2021_level_lau":"66008",
+    "eurostat:population":10383,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200043602",
     "frgov:id":"BDCSURCO0000000009616714",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.006481,
-    "geom:area_square_m":59048398.696523,
+    "geom:area_square_m":59048398.696526,
     "geom:bbox":"2.97063503071,42.4661635661,3.07649122729,42.593716235",
     "geom:latitude":42.535077,
     "geom:longitude":3.024371,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683169,
         102191581,
@@ -58,7 +72,10 @@
         102064279
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_66008",
+        "eurostat:nuts_2021_id":"66008"
+    },
     "wof:coterminous":[
         101831569
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"978182e22e0454cfe04f0d0273e7f146",
+    "wof:geomhash":"9be7df3da19acab3f1b8be668e059975",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404366087,
-    "wof:lastmodified":1582324835,
+    "wof:lastmodified":1684352839,
     "wof:name":"Argeles-Sur-Mer",
     "wof:parent_id":102064279,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":10383,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

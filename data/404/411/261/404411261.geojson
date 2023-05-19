@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_27083",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bonneville-Aptot",
+    "eurostat:nuts_2021_id":"27083",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD21",
+    "eurostat:nuts_2021_level_lau":"27083",
+    "eurostat:population":257,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200065787",
     "frgov:id":"BDCSURCO0000000009586309",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000929,
-    "geom:area_square_m":7493283.51652,
+    "geom:area_square_m":7493283.516521,
     "geom:bbox":"0.728078048726,49.2442265107,0.776368793316,49.2761845542",
     "geom:latitude":49.259188,
     "geom:longitude":0.751769,
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683283,
         102191581,
@@ -139,7 +153,10 @@
         102068585
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_27083",
+        "eurostat:nuts_2021_id":"27083"
+    },
     "wof:coterminous":[
         1125893585
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2c7dafc1645165d622757bed7523cb1e",
+    "wof:geomhash":"530e42a3fd107131a473195c91810e68",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404411261,
-    "wof:lastmodified":1582325164,
+    "wof:lastmodified":1684353380,
     "wof:name":"Bonneville-Aptot",
     "wof:parent_id":102068585,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":257,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

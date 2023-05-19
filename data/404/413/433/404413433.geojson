@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_46163",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Laval-de-C\u00e8re",
+    "eurostat:nuts_2021_id":"46163",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ25",
+    "eurostat:nuts_2021_level_lau":"46163",
+    "eurostat:population":296,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066371",
     "frgov:id":"BDCSURCO0000000009608571",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000914,
-    "geom:area_square_m":7999900.589015,
+    "geom:area_square_m":7999900.589014,
     "geom:bbox":"1.88658049884,44.9302142653,1.96687039929,44.9718297338",
     "geom:latitude":44.944464,
     "geom:longitude":1.935634,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683389,
         102191581,
@@ -58,7 +72,10 @@
         102064343
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_46163",
+        "eurostat:nuts_2021_id":"46163"
+    },
     "wof:coterminous":[
         101894281
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f3428688a5ade1e256bfbafeaef965cc",
+    "wof:geomhash":"d99232570d6a956d6a03a9fc2fed753a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404413433,
-    "wof:lastmodified":1582324329,
+    "wof:lastmodified":1684353407,
     "wof:name":"Laval-De-Cere",
     "wof:parent_id":102064343,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":296,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

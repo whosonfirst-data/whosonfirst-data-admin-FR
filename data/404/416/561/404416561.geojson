@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_70466",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Loup-Nantouard",
+    "eurostat:nuts_2021_id":"70466",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC23",
+    "eurostat:nuts_2021_level_lau":"70466",
+    "eurostat:population":122,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200036549",
     "frgov:id":"BDCSURCO0000000009598254",
     "frgov:insee_arr":"2",
@@ -120,6 +132,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683559,
         102191581,
@@ -130,7 +144,10 @@
         102065939
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_70466",
+        "eurostat:nuts_2021_id":"70466"
+    },
     "wof:coterminous":[
         101889221
     ],
@@ -138,7 +155,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4b3c0e5f5d81d8452b726d843cf66df0",
+    "wof:geomhash":"20a63fcdfb4fef3a3ceff212c638364e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -152,11 +169,13 @@
         }
     ],
     "wof:id":404416561,
-    "wof:lastmodified":1582325179,
+    "wof:lastmodified":1684353443,
     "wof:name":"Saint-Loup-Nantouard",
     "wof:parent_id":102065939,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":122,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

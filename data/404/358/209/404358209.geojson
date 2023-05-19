@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_23184",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Bard",
+    "eurostat:nuts_2021_id":"23184",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI22",
+    "eurostat:nuts_2021_level_lau":"23184",
+    "eurostat:population":103,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067593",
     "frgov:id":"BDCSURCO0000000009604816",
     "frgov:insee_arr":"1",
@@ -135,6 +147,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683179,
         102191581,
@@ -145,7 +159,10 @@
         102066599
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_23184",
+        "eurostat:nuts_2021_id":"23184"
+    },
     "wof:coterminous":[
         1125808303
     ],
@@ -153,7 +170,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c2b06709b8d8b1349d99c5f926d715e5",
+    "wof:geomhash":"6cbe9e73ea3433702a97de801232abf6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -167,11 +184,13 @@
         }
     ],
     "wof:id":404358209,
-    "wof:lastmodified":1582324981,
+    "wof:lastmodified":1684352728,
     "wof:name":"Saint-Bard",
     "wof:parent_id":102066599,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":103,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

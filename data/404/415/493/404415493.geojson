@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_38428",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Michel-en-Beaumont",
+    "eurostat:nuts_2021_id":"38428",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK24",
+    "eurostat:nuts_2021_level_lau":"38428",
+    "eurostat:population":31,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040657",
     "frgov:id":"BDCSURCO0000000009608467",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.000898,
-    "geom:area_square_m":7868489.668245,
+    "geom:area_square_m":7868489.668243,
     "geom:bbox":"5.87772048941,44.8582921659,5.9519985913,44.8792980339",
     "geom:latitude":44.869546,
     "geom:longitude":5.913034,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683427,
         102191581,
@@ -56,7 +70,10 @@
         102065233
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_38428",
+        "eurostat:nuts_2021_id":"38428"
+    },
     "wof:coterminous":[
         1360679223
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7ec85db2f0c1dce006ff1729cd9f20ed",
+    "wof:geomhash":"ed236ffbccfc1300d208164ed6c81260",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404415493,
-    "wof:lastmodified":1582324363,
+    "wof:lastmodified":1684353431,
     "wof:name":"Saint-Michel-En-Beaumont",
     "wof:parent_id":102065233,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":31,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

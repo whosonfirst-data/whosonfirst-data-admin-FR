@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_09272",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Paul-de-Jarrat",
+    "eurostat:nuts_2021_id":"09272",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ21",
+    "eurostat:nuts_2021_level_lau":"09272",
+    "eurostat:population":1313,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067791",
     "frgov:id":"BDCSURCO0000000009616091",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002479,
-    "geom:area_square_m":22454969.605202,
+    "geom:area_square_m":22454969.605203,
     "geom:bbox":"1.63319377632,42.8605332338,1.70680506038,42.9303383718",
     "geom:latitude":42.895855,
     "geom:longitude":1.672056,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683335,
         102191581,
@@ -58,7 +72,10 @@
         102068143
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_09272",
+        "eurostat:nuts_2021_id":"09272"
+    },
     "wof:coterminous":[
         101773283
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8ff97c48ae0e94d94e0ee8d3ba829388",
+    "wof:geomhash":"1cc59b15921c1311af94caff48c8f642",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404415789,
-    "wof:lastmodified":1582324367,
+    "wof:lastmodified":1684353435,
     "wof:name":"Saint-Paul-De-Jarrat",
     "wof:parent_id":102068143,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1313,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

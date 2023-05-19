@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_88423",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-L\u00e9onard",
+    "eurostat:nuts_2021_id":"88423",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF34",
+    "eurostat:nuts_2021_level_lau":"88423",
+    "eurostat:population":1355,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071066",
     "frgov:id":"BDCSURCO0000000009593527",
     "frgov:insee_arr":"3",
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683223,
         102191581,
@@ -56,7 +70,10 @@
         102066757
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_88423",
+        "eurostat:nuts_2021_id":"88423"
+    },
     "wof:coterminous":[
         1360674591
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"1b87ec20d44c01a5f4b5c8921943c1d0",
+    "wof:geomhash":"0325520fe1da02b8d76b0931b2f6c59a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404367807,
-    "wof:lastmodified":1582325001,
+    "wof:lastmodified":1684352863,
     "wof:name":"Saint-Leonard",
     "wof:parent_id":102066757,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1355,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

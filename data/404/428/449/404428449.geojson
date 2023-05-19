@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_21539",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Anthot",
+    "eurostat:nuts_2021_id":"21539",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC11",
+    "eurostat:nuts_2021_level_lau":"21539",
+    "eurostat:population":59,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200039055",
     "frgov:id":"BDCSURCO0000000009598890",
     "frgov:insee_arr":"2",
@@ -135,6 +147,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683563,
         102191581,
@@ -145,7 +159,10 @@
         102070529
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_21539",
+        "eurostat:nuts_2021_id":"21539"
+    },
     "wof:coterminous":[
         1125938933
     ],
@@ -153,7 +170,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"438ce730e12d95d8a7c9c28b95365fa2",
+    "wof:geomhash":"da7abe40065d94e086927dd009543947",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -167,11 +184,13 @@
         }
     ],
     "wof:id":404428449,
-    "wof:lastmodified":1582325114,
+    "wof:lastmodified":1684353585,
     "wof:name":"Saint-Anthot",
     "wof:parent_id":102070529,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":59,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

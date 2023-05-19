@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_51498",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Mard-sur-Auve",
+    "eurostat:nuts_2021_id":"51498",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF23",
+    "eurostat:nuts_2021_level_lau":"51498",
+    "eurostat:population":64,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200042703",
     "frgov:id":"BDCSURCO0000000009588096",
     "frgov:insee_arr":"5",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.001247,
-    "geom:area_square_m":10106060.184462,
+    "geom:area_square_m":10106060.184463,
     "geom:bbox":"4.7086786529,49.0103339696,4.75054163397,49.0539875213",
     "geom:latitude":49.029744,
     "geom:longitude":4.727958,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683405,
         102191581,
@@ -58,7 +72,10 @@
         102065797
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_51498",
+        "eurostat:nuts_2021_id":"51498"
+    },
     "wof:coterminous":[
         1125814627
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f7a6f1b5fa14669455b8080e54ed5ebc",
+    "wof:geomhash":"4729c2c983884af960bd68c5c9f849c3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404403347,
-    "wof:lastmodified":1582325294,
+    "wof:lastmodified":1684353288,
     "wof:name":"Saint-Mard-Sur-Auve",
     "wof:parent_id":102065797,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":64,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_38452",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Romain-de-Surieu",
+    "eurostat:nuts_2021_id":"38452",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK24",
+    "eurostat:nuts_2021_level_lau":"38452",
+    "eurostat:population":353,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243800778",
     "frgov:id":"BDCSURCO0000000009606758",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.000551,
-    "geom:area_square_m":4784161.726028,
+    "geom:area_square_m":4784161.726027,
     "geom:bbox":"4.87714560726,45.3733281928,4.90154466499,45.4088407546",
     "geom:latitude":45.389772,
     "geom:longitude":4.889404,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683427,
         102191581,
@@ -58,7 +72,10 @@
         102068821
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_38452",
+        "eurostat:nuts_2021_id":"38452"
+    },
     "wof:coterminous":[
         1125818805
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b94080e4a77d192b8fe5a39fd27113c4",
+    "wof:geomhash":"1b88bd75be9787394840c48ed7c08e56",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404409675,
-    "wof:lastmodified":1582324472,
+    "wof:lastmodified":1684353363,
     "wof:name":"Saint-Romain-De-Surieu",
     "wof:parent_id":102068821,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":353,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_01363",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Jean-le-Vieux",
+    "eurostat:nuts_2021_id":"01363",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK21",
+    "eurostat:nuts_2021_level_lau":"01363",
+    "eurostat:population":1723,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200029999",
     "frgov:id":"BDCSURCO0000000009603941",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001767,
-    "geom:area_square_m":15168194.853767,
+    "geom:area_square_m":15168194.853766,
     "geom:bbox":"5.33482846431,46.0078227987,5.42475883924,46.0481473167",
     "geom:latitude":46.029214,
     "geom:longitude":5.383452,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683153,
         102191581,
@@ -58,7 +72,10 @@
         102068853
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_01363",
+        "eurostat:nuts_2021_id":"01363"
+    },
     "wof:coterminous":[
         101768179
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"db978f50157e688f7d8d0d750ce3febd",
+    "wof:geomhash":"b62f853e56ffe4b2f89473fcf7ba2d65",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404375425,
-    "wof:lastmodified":1582325409,
+    "wof:lastmodified":1684352955,
     "wof:name":"Saint-Jean-Le-Vieux",
     "wof:parent_id":102068853,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1723,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_29099",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lampaul-Ploudalm\u00e9zeau",
+    "eurostat:nuts_2021_id":"29099",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH02",
+    "eurostat:nuts_2021_level_lau":"29099",
+    "eurostat:population":838,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242900074",
     "frgov:id":"BDCSURCO0000000009590882",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683553,
         102191581,
@@ -57,7 +71,10 @@
         102069257
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_29099",
+        "eurostat:nuts_2021_id":"29099"
+    },
     "wof:coterminous":[
         101877463
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"58a5d1f29a8e7a4b4876ecdc953e3ee3",
+    "wof:geomhash":"201fdc175271ed54cc7ee24877e63bdd",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404409133,
-    "wof:lastmodified":1582324471,
+    "wof:lastmodified":1684353357,
     "wof:name":"Lampaul-Ploudalmezeau",
     "wof:parent_id":102069257,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":838,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

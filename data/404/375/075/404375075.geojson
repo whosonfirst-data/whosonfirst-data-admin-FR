@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_57344",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Imling",
+    "eurostat:nuts_2021_id":"57344",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF33",
+    "eurostat:nuts_2021_level_lau":"57344",
+    "eurostat:population":724,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068146",
     "frgov:id":"BDCSURCO0000000009590002",
     "frgov:insee_arr":"5",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.000793,
-    "geom:area_square_m":6472124.569479,
+    "geom:area_square_m":6472124.569478,
     "geom:bbox":"6.99676853777,48.6920533167,7.03717915964,48.7308108505",
     "geom:latitude":48.711439,
     "geom:longitude":7.018253,
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683271,
         102191581,
@@ -136,7 +150,10 @@
         102069759
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_57344",
+        "eurostat:nuts_2021_id":"57344"
+    },
     "wof:coterminous":[
         1125892261
     ],
@@ -144,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"67918626bc16df1607684380c666722a",
+    "wof:geomhash":"69c26c4b7f79f56506299e0e768ea83e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +175,13 @@
         }
     ],
     "wof:id":404375075,
-    "wof:lastmodified":1582325419,
+    "wof:lastmodified":1684352949,
     "wof:name":"Imling",
     "wof:parent_id":102069759,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":724,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_10338",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-\u00c9tienne-sous-Barbuise",
+    "eurostat:nuts_2021_id":"10338",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF22",
+    "eurostat:nuts_2021_level_lau":"10338",
+    "eurostat:population":167,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071777",
     "frgov:id":"BDCSURCO0000000009592395",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.001334,
-    "geom:area_square_m":10934809.195629,
+    "geom:area_square_m":10934809.195628,
     "geom:bbox":"4.06455093572,48.4667205804,4.15806570112,48.5094201449",
     "geom:latitude":48.49244,
     "geom:longitude":4.115429,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683193,
         102191581,
@@ -58,7 +72,10 @@
         102064585
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_10338",
+        "eurostat:nuts_2021_id":"10338"
+    },
     "wof:coterminous":[
         1125933805
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ca1811ce99a033b5c5357122d44e6d67",
+    "wof:geomhash":"cdcae0c6e6ba5efb2df8090ff4396a75",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404385845,
-    "wof:lastmodified":1582324630,
+    "wof:lastmodified":1684353080,
     "wof:name":"Saint-Etienne-Sous-Barbuise",
     "wof:parent_id":102064585,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":167,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_22179",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Fr\u00e9hel",
+    "eurostat:nuts_2021_id":"22179",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH01",
+    "eurostat:nuts_2021_level_lau":"22179",
+    "eurostat:population":1567,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068989",
     "frgov:id":"BDCSURCO0000000009590832",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BRETAGNE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002372,
-    "geom:area_square_m":19384348.905326,
+    "geom:area_square_m":19384348.905325,
     "geom:bbox":"-2.4184459875,48.6054607113,-2.3250236195,48.6614826697",
     "geom:latitude":48.634618,
     "geom:longitude":-2.362058,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683515,
         102191581,
@@ -57,7 +71,10 @@
         102068707
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_22179",
+        "eurostat:nuts_2021_id":"22179"
+    },
     "wof:coterminous":[
         101760139
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"551e9892e555c4e4f4a126098cc1297c",
+    "wof:geomhash":"b4211a32c3c3489fc37cca47ea7b24a6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404348735,
-    "wof:lastmodified":1582324586,
+    "wof:lastmodified":1684352599,
     "wof:name":"Frehel",
     "wof:parent_id":102068707,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1567,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

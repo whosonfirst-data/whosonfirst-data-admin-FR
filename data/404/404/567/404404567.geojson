@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_10329",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rouilly-Saint-Loup",
+    "eurostat:nuts_2021_id":"10329",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF22",
+    "eurostat:nuts_2021_level_lau":"10329",
+    "eurostat:population":517,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069250",
     "frgov:id":"BDCSURCO0000000009594058",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.001374,
-    "geom:area_square_m":11306102.752203,
+    "geom:area_square_m":11306102.752202,
     "geom:bbox":"4.11923163525,48.247882297,4.18058211897,48.2830377689",
     "geom:latitude":48.264779,
     "geom:longitude":4.149178,
@@ -117,6 +129,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683193,
         102191581,
@@ -127,7 +141,10 @@
         102066539
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_10329",
+        "eurostat:nuts_2021_id":"10329"
+    },
     "wof:coterminous":[
         101884607
     ],
@@ -135,7 +152,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9ff365f36f44c4813f8cdcdd6cce76ed",
+    "wof:geomhash":"ec9122c5905fc28c46e64889fd5925c2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -149,11 +166,13 @@
         }
     ],
     "wof:id":404404567,
-    "wof:lastmodified":1582325304,
+    "wof:lastmodified":1684353301,
     "wof:name":"Rouilly-Saint-Loup",
     "wof:parent_id":102066539,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":517,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

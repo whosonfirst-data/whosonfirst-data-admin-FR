@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_36184",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Chartier",
+    "eurostat:nuts_2021_id":"36184",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB03",
+    "eurostat:nuts_2021_level_lau":"36184",
+    "eurostat:population":510,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243600350",
     "frgov:id":"BDCSURCO0000000009601826",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003292,
-    "geom:area_square_m":27931719.451275,
+    "geom:area_square_m":27931719.451273,
     "geom:bbox":"1.94248035387,46.6341580024,2.0179508148,46.7098301118",
     "geom:latitude":46.675803,
     "geom:longitude":1.982285,
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683311,
         102191581,
@@ -138,7 +152,10 @@
         102065965
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_36184",
+        "eurostat:nuts_2021_id":"36184"
+    },
     "wof:coterminous":[
         101890073
     ],
@@ -146,7 +163,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"07fddc9824e24ac1f00ab3b9d7785e0b",
+    "wof:geomhash":"03c00ea627869b14d5067232fcc420c6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -159,11 +176,13 @@
         }
     ],
     "wof:id":404409565,
-    "wof:lastmodified":1582324480,
+    "wof:lastmodified":1684353361,
     "wof:name":"Saint-Chartier",
     "wof:parent_id":102065965,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":510,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

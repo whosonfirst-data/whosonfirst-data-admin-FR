@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_25039",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Avoudrey",
+    "eurostat:nuts_2021_id":"25039",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC21",
+    "eurostat:nuts_2021_level_lau":"25039",
+    "eurostat:population":909,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242504181",
     "frgov:id":"BDCSURCO0000000009599642",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001544,
-    "geom:area_square_m":12989595.627458,
+    "geom:area_square_m":12989595.627459,
     "geom:bbox":"6.40653253008,47.1051601884,6.46022477731,47.1710247623",
     "geom:latitude":47.138672,
     "geom:longitude":6.433381,
@@ -123,6 +135,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683239,
         102191581,
@@ -133,7 +147,10 @@
         102069379
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_25039",
+        "eurostat:nuts_2021_id":"25039"
+    },
     "wof:coterminous":[
         101890169
     ],
@@ -141,7 +158,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"78ed5a4c6145c65bf1aaffd2da3068ed",
+    "wof:geomhash":"6fd7e54cee676530c3d64890c5c492da",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -155,11 +172,13 @@
         }
     ],
     "wof:id":404389981,
-    "wof:lastmodified":1582325336,
+    "wof:lastmodified":1684353129,
     "wof:name":"Avoudrey",
     "wof:parent_id":102069379,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":909,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

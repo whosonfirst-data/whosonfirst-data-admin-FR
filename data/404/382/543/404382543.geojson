@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_53237",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Mars-sur-Colmont",
+    "eurostat:nuts_2021_id":"53237",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG03",
+    "eurostat:nuts_2021_level_lau":"53237",
+    "eurostat:population":469,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"245300389",
     "frgov:id":"BDCSURCO0000000009593016",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002029,
-    "geom:area_square_m":16666849.00328,
+    "geom:area_square_m":16666849.003279,
     "geom:bbox":"-0.738619603555,48.3606462673,-0.675202015973,48.4104375766",
     "geom:latitude":48.382759,
     "geom:longitude":-0.708899,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683401,
         102191581,
@@ -57,7 +71,10 @@
         102066553
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_53237",
+        "eurostat:nuts_2021_id":"53237"
+    },
     "wof:coterminous":[
         101881965
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"69e95cec51fad484178b66b5f1b8c876",
+    "wof:geomhash":"a608fea4e7c75e01bc6d67cdae22ec0e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404382543,
-    "wof:lastmodified":1582324687,
+    "wof:lastmodified":1684353039,
     "wof:name":"Saint-Mars-Sur-Colmont",
     "wof:parent_id":102066553,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":469,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

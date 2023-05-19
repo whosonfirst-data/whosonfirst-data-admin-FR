@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_43220",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Pr\u00e9jet-d'Allier",
+    "eurostat:nuts_2021_id":"43220",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK13",
+    "eurostat:nuts_2021_level_lau":"43220",
+    "eurostat:population":165,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200073393",
     "frgov:id":"BDCSURCO0000000009608741",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683413,
         102191581,
@@ -58,7 +72,10 @@
         102068913
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_43220",
+        "eurostat:nuts_2021_id":"43220"
+    },
     "wof:coterminous":[
         1125938121
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"db8cc76eea31c7359d473629ed7b2e3f",
+    "wof:geomhash":"a5160d391d62fcb6fee75aa2057c6685",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404364377,
-    "wof:lastmodified":1582324246,
+    "wof:lastmodified":1684352815,
     "wof:name":"Saint-Prejet-D'Allier",
     "wof:parent_id":102068913,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":165,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

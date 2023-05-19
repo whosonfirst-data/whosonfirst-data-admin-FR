@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_19241",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Setiers",
+    "eurostat:nuts_2021_id":"19241",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI21",
+    "eurostat:nuts_2021_level_lau":"19241",
+    "eurostat:population":285,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066744",
     "frgov:id":"BDCSURCO0000000009605848",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.005431,
-    "geom:area_square_m":46901313.556773,
+    "geom:area_square_m":46901313.556772,
     "geom:bbox":"2.06671131656,45.6553293277,2.1704495208,45.735476431",
     "geom:latitude":45.696758,
     "geom:longitude":2.117666,
@@ -135,6 +147,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683209,
         102191581,
@@ -145,7 +159,10 @@
         102068633
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_19241",
+        "eurostat:nuts_2021_id":"19241"
+    },
     "wof:coterminous":[
         1125938829
     ],
@@ -153,7 +170,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c75b0732c93065d616ba28d34f2aa082",
+    "wof:geomhash":"a8ecd4ade1b7f4325219d1856a49b0ae",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -167,11 +184,13 @@
         }
     ],
     "wof:id":404390177,
-    "wof:lastmodified":1582324276,
+    "wof:lastmodified":1684353131,
     "wof:name":"Saint-Setiers",
     "wof:parent_id":102068633,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":285,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

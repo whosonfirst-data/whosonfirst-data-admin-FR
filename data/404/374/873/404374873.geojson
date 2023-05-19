@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_58058",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Chapelle-Saint-Andr\u00e9",
+    "eurostat:nuts_2021_id":"58058",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC12",
+    "eurostat:nuts_2021_level_lau":"58058",
+    "eurostat:population":315,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067429",
     "frgov:id":"BDCSURCO0000000009598937",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003253,
-    "geom:area_square_m":27229140.994368,
+    "geom:area_square_m":27229140.994367,
     "geom:bbox":"3.281786268,47.3635259139,3.36882784202,47.4361265713",
     "geom:latitude":47.400795,
     "geom:longitude":3.324693,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683359,
         102191581,
@@ -58,7 +72,10 @@
         102068983
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_58058",
+        "eurostat:nuts_2021_id":"58058"
+    },
     "wof:coterminous":[
         101887493
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b5d42f6c10cae50a4f09cc2c6c35488b",
+    "wof:geomhash":"a573d16fadcbd85779b0bf05439d7cd1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404374873,
-    "wof:lastmodified":1582325391,
+    "wof:lastmodified":1684352947,
     "wof:name":"La Chapelle-Saint-Andre",
     "wof:parent_id":102068983,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":315,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

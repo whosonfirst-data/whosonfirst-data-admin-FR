@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_54305",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lay-Saint-Christophe",
+    "eurostat:nuts_2021_id":"54305",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF31",
+    "eurostat:nuts_2021_level_lau":"54305",
+    "eurostat:population":2441,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"245400601",
     "frgov:id":"BDCSURCO0000000009590051",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.001428,
-    "geom:area_square_m":11640738.942599,
+    "geom:area_square_m":11640738.9426,
     "geom:bbox":"6.16786062005,48.7292270547,6.21715241057,48.7737910618",
     "geom:latitude":48.753803,
     "geom:longitude":6.195582,
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683343,
         102191581,
@@ -136,7 +150,10 @@
         102071213
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_54305",
+        "eurostat:nuts_2021_id":"54305"
+    },
     "wof:coterminous":[
         101762799
     ],
@@ -144,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"749c92cb3a9b118eeff080b2d9d60883",
+    "wof:geomhash":"89499888bb0361c5d3c71e3ea5e6e4be",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +175,13 @@
         }
     ],
     "wof:id":404410967,
-    "wof:lastmodified":1582325152,
+    "wof:lastmodified":1684353377,
     "wof:name":"Lay-Saint-Christophe",
     "wof:parent_id":102071213,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2441,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

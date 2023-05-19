@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_81191",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mouzieys-Panens",
+    "eurostat:nuts_2021_id":"81191",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ27",
+    "eurostat:nuts_2021_level_lau":"81191",
+    "eurostat:population":236,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200034064",
     "frgov:id":"BDCSURCO0000000009611617",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001507,
-    "geom:area_square_m":13376434.835095,
+    "geom:area_square_m":13376434.835094,
     "geom:bbox":"1.90169058858,44.0779547638,1.96275604927,44.123419544",
     "geom:latitude":44.105182,
     "geom:longitude":1.933104,
@@ -114,6 +126,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683603,
         102191581,
@@ -124,7 +138,10 @@
         102065861
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_81191",
+        "eurostat:nuts_2021_id":"81191"
+    },
     "wof:coterminous":[
         1125790453
     ],
@@ -132,7 +149,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a620250d363274d628b67e939705649b",
+    "wof:geomhash":"968f06a01f8d1e594a30ddc191238b66",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -146,11 +163,13 @@
         }
     ],
     "wof:id":404410047,
-    "wof:lastmodified":1582325147,
+    "wof:lastmodified":1684353367,
     "wof:name":"Mouzieys-Panens",
     "wof:parent_id":102065861,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":236,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

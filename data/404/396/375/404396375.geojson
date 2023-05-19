@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_87142",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Denis-des-Murs",
+    "eurostat:nuts_2021_id":"87142",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI23",
+    "eurostat:nuts_2021_level_lau":"87142",
+    "eurostat:population":529,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248719361",
     "frgov:id":"BDCSURCO0000000009605352",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002748,
-    "geom:area_square_m":23697964.388864,
+    "geom:area_square_m":23697964.388863,
     "geom:bbox":"1.49233824534,45.7528752856,1.57348822456,45.8081858761",
     "geom:latitude":45.779671,
     "geom:longitude":1.52968,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683531,
         102191581,
@@ -58,7 +72,10 @@
         102069163
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_87142",
+        "eurostat:nuts_2021_id":"87142"
+    },
     "wof:coterminous":[
         1125804775
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"64828523281f2b2e9bd5e3ac6906fe11",
+    "wof:geomhash":"ba90549cf10f13dca6272d667f7f2d68",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404396375,
-    "wof:lastmodified":1582324081,
+    "wof:lastmodified":1684353207,
     "wof:name":"Saint-Denis-Des-Murs",
     "wof:parent_id":102069163,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":529,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

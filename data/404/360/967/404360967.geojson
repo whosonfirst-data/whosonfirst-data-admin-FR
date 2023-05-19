@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_42125",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lur\u00e9",
+    "eurostat:nuts_2021_id":"42125",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK25",
+    "eurostat:nuts_2021_level_lau":"42125",
+    "eurostat:population":142,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244200614",
     "frgov:id":"BDCSURCO0000000009604775",
     "frgov:insee_arr":"2",
@@ -81,6 +93,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683377,
         102191581,
@@ -91,7 +105,10 @@
         102069139
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_42125",
+        "eurostat:nuts_2021_id":"42125"
+    },
     "wof:coterminous":[
         1125869507
     ],
@@ -99,7 +116,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"66b988f51dc1d08ad5d3031f0944efb7",
+    "wof:geomhash":"4d36ec35a53519bd3c9c27b622a0c2bf",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -113,11 +130,13 @@
         }
     ],
     "wof:id":404360967,
-    "wof:lastmodified":1582325051,
+    "wof:lastmodified":1684352767,
     "wof:name":"Lure",
     "wof:parent_id":102069139,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":142,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

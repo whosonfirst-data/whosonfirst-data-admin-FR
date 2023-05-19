@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_36198",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Lactencin",
+    "eurostat:nuts_2021_id":"36198",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB03",
+    "eurostat:nuts_2021_level_lau":"36198",
+    "eurostat:population":423,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243600301",
     "frgov:id":"BDCSURCO0000000009601001",
     "frgov:insee_arr":"2",
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683311,
         102191581,
@@ -138,7 +152,10 @@
         102065293
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_36198",
+        "eurostat:nuts_2021_id":"36198"
+    },
     "wof:coterminous":[
         1125843279
     ],
@@ -146,7 +163,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a65451188ae2bc104214344b1d5a7094",
+    "wof:geomhash":"b266f04901caebf38fad1f11b9987c11",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -159,11 +176,13 @@
         }
     ],
     "wof:id":404347489,
-    "wof:lastmodified":1582324728,
+    "wof:lastmodified":1684352581,
     "wof:name":"Saint-Lactencin",
     "wof:parent_id":102065293,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":423,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

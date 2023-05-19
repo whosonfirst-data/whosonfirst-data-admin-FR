@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_47279",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Sixte",
+    "eurostat:nuts_2021_id":"47279",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI14",
+    "eurostat:nuts_2021_level_lau":"47279",
+    "eurostat:population":358,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200035459",
     "frgov:id":"BDCSURCO0000000009611453",
     "frgov:insee_arr":"1",
@@ -88,6 +100,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683341,
         102191581,
@@ -98,7 +112,10 @@
         102064665
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_47279",
+        "eurostat:nuts_2021_id":"47279"
+    },
     "wof:coterminous":[
         1360678667
     ],
@@ -106,7 +123,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"62ee667da9b7234eda34fe94d3a51d9c",
+    "wof:geomhash":"e0a84c1d2074e9470a70d2abd771f9da",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -120,11 +137,13 @@
         }
     ],
     "wof:id":404410265,
-    "wof:lastmodified":1582325156,
+    "wof:lastmodified":1684353369,
     "wof:name":"Saint-Sixte",
     "wof:parent_id":102064665,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":358,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

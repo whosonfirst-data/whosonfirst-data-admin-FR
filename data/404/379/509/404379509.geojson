@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_26125",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Eurre",
+    "eurostat:nuts_2021_id":"26125",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK23",
+    "eurostat:nuts_2021_level_lau":"26125",
+    "eurostat:population":1334,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242600252",
     "frgov:id":"BDCSURCO0000000009609166",
     "frgov:insee_arr":"1",
@@ -132,6 +144,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683523,
         102191581,
@@ -142,7 +156,10 @@
         102065423
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_26125",
+        "eurostat:nuts_2021_id":"26125"
+    },
     "wof:coterminous":[
         1125812847
     ],
@@ -150,7 +167,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3257777c24a80095db9986991ab81640",
+    "wof:geomhash":"d3518112a7729d54bcb665e067ed5f69",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -164,11 +181,13 @@
         }
     ],
     "wof:id":404379509,
-    "wof:lastmodified":1582324530,
+    "wof:lastmodified":1684353005,
     "wof:name":"Eurre",
     "wof:parent_id":102065423,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1334,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

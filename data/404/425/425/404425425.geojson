@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_51102",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Cauroy-l\u00e8s-Hermonville",
+    "eurostat:nuts_2021_id":"51102",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF23",
+    "eurostat:nuts_2021_level_lau":"51102",
+    "eurostat:population":491,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067213",
     "frgov:id":"BDCSURCO0000000009585247",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.001262,
-    "geom:area_square_m":10167622.755583,
+    "geom:area_square_m":10167622.755582,
     "geom:bbox":"3.88159808146,49.3406082776,3.9609717824,49.3751006818",
     "geom:latitude":49.355736,
     "geom:longitude":3.927979,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683405,
         102191581,
@@ -58,7 +72,10 @@
         102065169
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_51102",
+        "eurostat:nuts_2021_id":"51102"
+    },
     "wof:coterminous":[
         101877425
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c62ba03623176150e4c5e464044dfa73",
+    "wof:geomhash":"f55085c94e55d3d9f60957b9d4dde4b7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404425425,
-    "wof:lastmodified":1582324300,
+    "wof:lastmodified":1684353550,
     "wof:name":"Cauroy-Les-Hermonville",
     "wof:parent_id":102065169,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":491,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

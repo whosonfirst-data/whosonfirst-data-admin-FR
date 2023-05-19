@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_87178",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Priest-Taurion",
+    "eurostat:nuts_2021_id":"87178",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI23",
+    "eurostat:nuts_2021_level_lau":"87178",
+    "eurostat:population":2881,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066512",
     "frgov:id":"BDCSURCO0000000009604842",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003138,
-    "geom:area_square_m":27007416.903809,
+    "geom:area_square_m":27007416.903808,
     "geom:bbox":"1.35009122146,45.8732025976,1.45759132501,45.9288557846",
     "geom:latitude":45.897549,
     "geom:longitude":1.396157,
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683531,
         102191581,
@@ -139,7 +153,10 @@
         102064579
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_87178",
+        "eurostat:nuts_2021_id":"87178"
+    },
     "wof:coterminous":[
         101768281
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"fd83581f0fbc97d481116d59b48896bc",
+    "wof:geomhash":"81a44d698cd2bcbf5dc62150583eaa47",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404352537,
-    "wof:lastmodified":1582324169,
+    "wof:lastmodified":1684352652,
     "wof:name":"Saint-Priest-Taurion",
     "wof:parent_id":102064579,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2881,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_81144",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lescure-d'Albigeois",
+    "eurostat:nuts_2021_id":"81144",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ27",
+    "eurostat:nuts_2021_level_lau":"81144",
+    "eurostat:population":4577,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248100737",
     "frgov:id":"BDCSURCO0000000009612054",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683603,
         102191581,
@@ -58,7 +72,10 @@
         102071247
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_81144",
+        "eurostat:nuts_2021_id":"81144"
+    },
     "wof:coterminous":[
         101831803
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"47b101d1d8e945242367322612c0a593",
+    "wof:geomhash":"89aea2701bf7648f6a156b5dcf52fa2f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404365717,
-    "wof:lastmodified":1582324043,
+    "wof:lastmodified":1684352834,
     "wof:name":"Lescure-D'Albigeois",
     "wof:parent_id":102071247,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":4577,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

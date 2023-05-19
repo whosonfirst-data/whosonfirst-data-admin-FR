@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_08465",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Vaux-l\u00e8s-Rubigny",
+    "eurostat:nuts_2021_id":"08465",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF21",
+    "eurostat:nuts_2021_level_lau":"08465",
+    "eurostat:population":47,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240800862",
     "frgov:id":"BDCSURCO0000000009583176",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.00049,
-    "geom:area_square_m":3918327.526149,
+    "geom:area_square_m":3918327.526148,
     "geom:bbox":"4.1643789695,49.6731481493,4.20250745867,49.7028981391",
     "geom:latitude":49.690431,
     "geom:longitude":4.182581,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683309,
         102191581,
@@ -58,7 +72,10 @@
         102065509
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_08465",
+        "eurostat:nuts_2021_id":"08465"
+    },
     "wof:coterminous":[
         101898761
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9cc219f349f51b5e64d4640cbb41f1d0",
+    "wof:geomhash":"04d4eac065f2a71d5f46dda96fb6ad22",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404411863,
-    "wof:lastmodified":1582325174,
+    "wof:lastmodified":1684353388,
     "wof:name":"Vaux-Les-Rubigny",
     "wof:parent_id":102065509,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":47,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

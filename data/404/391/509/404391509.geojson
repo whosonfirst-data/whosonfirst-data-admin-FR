@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_10081",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Chapelle-Saint-Luc",
+    "eurostat:nuts_2021_id":"10081",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF22",
+    "eurostat:nuts_2021_level_lau":"10081",
+    "eurostat:population":12319,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069250",
     "frgov:id":"BDCSURCO0000000009593664",
     "frgov:insee_arr":"3",
@@ -135,17 +147,22 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85683193,
         102191581,
         85633147,
-        102072079,
-        136253037,
         404228021,
         1108826391,
-        85683193
+        136253037,
+        102072079
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_10081",
+        "eurostat:nuts_2021_id":"10081"
+    },
     "wof:coterminous":[
         101749603,
         102072079
@@ -154,7 +171,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e66bdfdec81c1322c470f79bc4dc8e4a",
+    "wof:geomhash":"9e0da8a521dedcb38b5465f00e6edf26",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -168,11 +185,13 @@
         }
     ],
     "wof:id":404391509,
-    "wof:lastmodified":1608037030,
+    "wof:lastmodified":1684353151,
     "wof:name":"La Chapelle-Saint-Luc",
     "wof:parent_id":102072079,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":12319,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_50553",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Senier-de-Beuvron",
+    "eurostat:nuts_2021_id":"50553",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD12",
+    "eurostat:nuts_2021_level_lau":"50553",
+    "eurostat:population":368,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069425",
     "frgov:id":"BDCSURCO0000000009591693",
     "frgov:insee_arr":"1",
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683489,
         102191581,
@@ -56,7 +70,10 @@
         102070241
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_50553",
+        "eurostat:nuts_2021_id":"50553"
+    },
     "wof:coterminous":[
         1360673727
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"eb1f5206a4b722462b95e97509f354ca",
+    "wof:geomhash":"dbb63830a6d590b43093f53a9e0bb960",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404359797,
-    "wof:lastmodified":1582324785,
+    "wof:lastmodified":1684352751,
     "wof:name":"Saint-Senier-De-Beuvron",
     "wof:parent_id":102070241,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":368,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

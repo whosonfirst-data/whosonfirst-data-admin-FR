@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_35153",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lillemer",
+    "eurostat:nuts_2021_id":"35153",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH03",
+    "eurostat:nuts_2021_level_lau":"35153",
+    "eurostat:population":358,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243500782",
     "frgov:id":"BDCSURCO0000000009591261",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BRETAGNE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000465,
-    "geom:area_square_m":3802903.622575,
+    "geom:area_square_m":3802903.622574,
     "geom:bbox":"-1.86991276507,48.5598661612,-1.83784310932,48.5807957185",
     "geom:latitude":48.570853,
     "geom:longitude":-1.855072,
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683461,
         102191581,
@@ -138,7 +152,10 @@
         102065793
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_35153",
+        "eurostat:nuts_2021_id":"35153"
+    },
     "wof:coterminous":[
         1125894337
     ],
@@ -146,7 +163,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"971caadfeef0e93ded7f9fbfdf681511",
+    "wof:geomhash":"2a2faca70119fd94911d80ba8ca43d37",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -159,11 +176,13 @@
         }
     ],
     "wof:id":404410821,
-    "wof:lastmodified":1582325146,
+    "wof:lastmodified":1684353376,
     "wof:name":"Lillemer",
     "wof:parent_id":102065793,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":358,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

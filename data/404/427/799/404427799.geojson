@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_05096",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Orci\u00e8res",
+    "eurostat:nuts_2021_id":"05096",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL02",
+    "eurostat:nuts_2021_level_lau":"05096",
+    "eurostat:population":690,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068096",
     "frgov:id":"BDCSURCO0000000009609355",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.011396,
-    "geom:area_square_m":100185334.885823,
+    "geom:area_square_m":100185334.88582,
     "geom:bbox":"6.26335848282,44.6257452313,6.44294857623,44.7440497885",
     "geom:latitude":44.683795,
     "geom:longitude":6.348945,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683597,
         102191581,
@@ -57,7 +71,10 @@
         102066841
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_05096",
+        "eurostat:nuts_2021_id":"05096"
+    },
     "wof:coterminous":[
         101895893
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"caac056edce185792003e5b6de674f91",
+    "wof:geomhash":"a01a122f6ab46003b7bb21deae9c6ea9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404427799,
-    "wof:lastmodified":1582325232,
+    "wof:lastmodified":1684353577,
     "wof:name":"Orcieres",
     "wof:parent_id":102066841,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":690,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

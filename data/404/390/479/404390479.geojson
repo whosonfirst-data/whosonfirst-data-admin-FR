@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_13028",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ciotat",
+    "eurostat:nuts_2021_id":"13028",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL04",
+    "eurostat:nuts_2021_level_lau":"13028",
+    "eurostat:population":35174,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200054807",
     "frgov:id":"BDCSURCO0000000009614875",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.003565,
-    "geom:area_square_m":32140633.96505,
+    "geom:area_square_m":32140633.965047,
     "geom:bbox":"5.55554939416,43.1573094123,5.67858486335,43.2188890213",
     "geom:latitude":43.192499,
     "geom:longitude":5.612724,
@@ -171,6 +183,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683441,
         102191581,
@@ -180,7 +194,10 @@
         102065743
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_13028",
+        "eurostat:nuts_2021_id":"13028"
+    },
     "wof:coterminous":[
         101830363
     ],
@@ -188,7 +205,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"749f4aff273e5fb14c419a9d5d35b48c",
+    "wof:geomhash":"7feacb993576d889dbdaaca40a214083",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -201,11 +218,13 @@
         }
     ],
     "wof:id":404390479,
-    "wof:lastmodified":1582324262,
+    "wof:lastmodified":1684353136,
     "wof:name":"La Ciotat",
     "wof:parent_id":102065743,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":35174,
+    "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

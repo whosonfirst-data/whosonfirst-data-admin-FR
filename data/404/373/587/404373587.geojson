@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_73234",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Fran\u00e7ois-de-Sales",
+    "eurostat:nuts_2021_id":"73234",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK27",
+    "eurostat:nuts_2021_level_lau":"73234",
+    "eurostat:population":150,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069110",
     "frgov:id":"BDCSURCO0000000009605449",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001667,
-    "geom:area_square_m":14403664.213944,
+    "geom:area_square_m":14403664.213946,
     "geom:bbox":"6.00330854055,45.6525006005,6.07914291817,45.7011543386",
     "geom:latitude":45.68234,
     "geom:longitude":6.037698,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683265,
         102191581,
@@ -58,7 +72,10 @@
         102066691
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_73234",
+        "eurostat:nuts_2021_id":"73234"
+    },
     "wof:coterminous":[
         1126006499
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b0fa3b3a40e3e46c1e5901322c831fed",
+    "wof:geomhash":"8d8844cac296b5a6c1cc396484f7dee3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404373587,
-    "wof:lastmodified":1582325345,
+    "wof:lastmodified":1684352931,
     "wof:name":"Saint-Francois-De-Sales",
     "wof:parent_id":102066691,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":150,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

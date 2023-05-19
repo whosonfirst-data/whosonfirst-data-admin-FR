@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_03261",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sainte-Th\u00e9rence",
+    "eurostat:nuts_2021_id":"03261",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK11",
+    "eurostat:nuts_2021_level_lau":"03261",
+    "eurostat:population":184,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071082",
     "frgov:id":"BDCSURCO0000000009603314",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683293,
         102191581,
@@ -58,7 +72,10 @@
         102067367
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_03261",
+        "eurostat:nuts_2021_id":"03261"
+    },
     "wof:coterminous":[
         101892829
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ccf7bbae723ee2d39b2fe308c1dc3a2f",
+    "wof:geomhash":"7f461c8a6d82041f7d66cb0c52983411",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404399213,
-    "wof:lastmodified":1582324155,
+    "wof:lastmodified":1684353241,
     "wof:name":"Sainte-Therence",
     "wof:parent_id":102067367,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":184,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

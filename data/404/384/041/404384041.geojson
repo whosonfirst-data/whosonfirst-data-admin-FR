@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_33395",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Est\u00e8phe",
+    "eurostat:nuts_2021_id":"33395",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI12",
+    "eurostat:nuts_2021_level_lau":"33395",
+    "eurostat:population":1615,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069995",
     "frgov:id":"BDCSURCO0000000009607409",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003781,
-    "geom:area_square_m":32912336.185196,
+    "geom:area_square_m":32912336.185195,
     "geom:bbox":"-0.815908649731,45.2223831996,-0.735822461812,45.2864390742",
     "geom:latitude":45.254305,
     "geom:longitude":-0.770923,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683243,
         102191581,
@@ -58,7 +72,10 @@
         102070337
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_33395",
+        "eurostat:nuts_2021_id":"33395"
+    },
     "wof:coterminous":[
         101769375
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9ee720bb46ad8ee943483d8941f849f9",
+    "wof:geomhash":"12e7b68a46fd91672ff620c4838c43e7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404384041,
-    "wof:lastmodified":1582324614,
+    "wof:lastmodified":1684353060,
     "wof:name":"Saint-Estephe",
     "wof:parent_id":102070337,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1615,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

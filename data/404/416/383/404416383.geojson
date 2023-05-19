@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_10218",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Maisons-l\u00e8s-Chaource",
+    "eurostat:nuts_2021_id":"10218",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF22",
+    "eurostat:nuts_2021_level_lau":"10218",
+    "eurostat:population":158,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071041",
     "frgov:id":"BDCSURCO0000000009595381",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.000713,
-    "geom:area_square_m":5897623.227162,
+    "geom:area_square_m":5897623.227163,
     "geom:bbox":"4.14812896713,47.9865812318,4.18086358236,48.0251065758",
     "geom:latitude":48.008285,
     "geom:longitude":4.163664,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683193,
         102191581,
@@ -58,7 +72,10 @@
         102065563
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_10218",
+        "eurostat:nuts_2021_id":"10218"
+    },
     "wof:coterminous":[
         101886115
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"1b3799da91e046bdfd994ecfd37a856d",
+    "wof:geomhash":"608b0d0fb6aa2f8d1bd77bb877a851fc",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404416383,
-    "wof:lastmodified":1582325184,
+    "wof:lastmodified":1684353441,
     "wof:name":"Maisons-Les-Chaource",
     "wof:parent_id":102065563,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":158,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

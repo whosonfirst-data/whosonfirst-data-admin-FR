@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_16329",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Laurent-de-C\u00e9ris",
+    "eurostat:nuts_2021_id":"16329",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI31",
+    "eurostat:nuts_2021_level_lau":"16329",
+    "eurostat:population":778,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072049",
     "frgov:id":"BDCSURCO0000000009604582",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683437,
         102191581,
@@ -58,7 +72,10 @@
         102069177
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_16329",
+        "eurostat:nuts_2021_id":"16329"
+    },
     "wof:coterminous":[
         101892193
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"825f0b01b5a9cf73e26bcb244cc27c8c",
+    "wof:geomhash":"afc9b346f20deb84a5f8dfe28edffe59",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404365601,
-    "wof:lastmodified":1582324040,
+    "wof:lastmodified":1684352832,
     "wof:name":"Saint-Laurent-De-Ceris",
     "wof:parent_id":102069177,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":778,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

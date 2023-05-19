@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_76171",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Chapelle-Saint-Ouen",
+    "eurostat:nuts_2021_id":"76171",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD22",
+    "eurostat:nuts_2021_level_lau":"76171",
+    "eurostat:population":130,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069730",
     "frgov:id":"BDCSURCO0000000009584676",
     "frgov:insee_arr":"1",
@@ -123,6 +135,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683251,
         102191581,
@@ -133,7 +147,10 @@
         102064285
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_76171",
+        "eurostat:nuts_2021_id":"76171"
+    },
     "wof:coterminous":[
         1125908013
     ],
@@ -141,7 +158,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3ed339b03c9bf6d369e85d30b92a4c10",
+    "wof:geomhash":"3eea6e742d787d063a2cdda718851db3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -155,11 +172,13 @@
         }
     ],
     "wof:id":404398957,
-    "wof:lastmodified":1582324113,
+    "wof:lastmodified":1684353238,
     "wof:name":"La Chapelle-Saint-Ouen",
     "wof:parent_id":102064285,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":130,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

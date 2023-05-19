@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_70118",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Chambornay-l\u00e8s-Bellevaux",
+    "eurostat:nuts_2021_id":"70118",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC23",
+    "eurostat:nuts_2021_level_lau":"70118",
+    "eurostat:population":185,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247000706",
     "frgov:id":"BDCSURCO0000000009598524",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000719,
-    "geom:area_square_m":6019382.06756,
+    "geom:area_square_m":6019382.067559,
     "geom:bbox":"6.08133797837,47.3766167496,6.12011768356,47.4128960375",
     "geom:latitude":47.396034,
     "geom:longitude":6.102161,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683559,
         102191581,
@@ -58,7 +72,10 @@
         102068229
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_70118",
+        "eurostat:nuts_2021_id":"70118"
+    },
     "wof:coterminous":[
         101889195
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"42427dcbf570eb5766b7b890e1d1f599",
+    "wof:geomhash":"46c7daf8baecb30c65d585c0bb63847b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404397615,
-    "wof:lastmodified":1582324211,
+    "wof:lastmodified":1684353220,
     "wof:name":"Chambornay-Les-Bellevaux",
     "wof:parent_id":102068229,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":185,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

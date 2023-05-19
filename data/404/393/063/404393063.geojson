@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_51097",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bussy-le-Ch\u00e2teau",
+    "eurostat:nuts_2021_id":"51097",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF23",
+    "eurostat:nuts_2021_level_lau":"51097",
+    "eurostat:population":171,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200042620",
     "frgov:id":"BDCSURCO0000000009587594",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.002944,
-    "geom:area_square_m":23851209.07377,
+    "geom:area_square_m":23851209.073768,
     "geom:bbox":"4.48198929641,49.0175698679,4.56655768932,49.0938085487",
     "geom:latitude":49.059587,
     "geom:longitude":4.53193,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683405,
         102191581,
@@ -58,7 +72,10 @@
         102069275
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_51097",
+        "eurostat:nuts_2021_id":"51097"
+    },
     "wof:coterminous":[
         101877397
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e8025be6734ecec121c2b8221f73655c",
+    "wof:geomhash":"acd612c3aa5f9fc1482c2707363633a7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404393063,
-    "wof:lastmodified":1582325012,
+    "wof:lastmodified":1684353168,
     "wof:name":"Bussy-Le-Chateau",
     "wof:parent_id":102069275,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":171,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

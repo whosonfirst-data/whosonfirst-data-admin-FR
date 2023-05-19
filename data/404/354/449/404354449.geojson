@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_29246",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Eloy",
+    "eurostat:nuts_2021_id":"29246",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH02",
+    "eurostat:nuts_2021_level_lau":"29246",
+    "eurostat:population":214,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242900801",
     "frgov:id":"BDCSURCO0000000009592198",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BRETAGNE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001523,
-    "geom:area_square_m":12512428.834142,
+    "geom:area_square_m":12512428.834143,
     "geom:bbox":"-4.16867231252,48.3503535878,-4.05890463119,48.3799119419",
     "geom:latitude":48.363512,
     "geom:longitude":-4.115445,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683553,
         102191581,
@@ -57,7 +71,10 @@
         102066425
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_29246",
+        "eurostat:nuts_2021_id":"29246"
+    },
     "wof:coterminous":[
         1125941537
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"bc1476825b7bbd3b9a55048a3702b303",
+    "wof:geomhash":"480ead60d4ddb3516c3194ea63790ad2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404354449,
-    "wof:lastmodified":1582324085,
+    "wof:lastmodified":1684352678,
     "wof:name":"Saint-Eloy",
     "wof:parent_id":102066425,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":214,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

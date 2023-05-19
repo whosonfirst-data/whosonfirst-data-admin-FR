@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_61414",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Langis-l\u00e8s-Mortagne",
+    "eurostat:nuts_2021_id":"61414",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD13",
+    "eurostat:nuts_2021_level_lau":"61414",
+    "eurostat:population":911,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200036069",
     "frgov:id":"BDCSURCO0000000009592532",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001551,
-    "geom:area_square_m":12705597.388671,
+    "geom:area_square_m":12705597.388672,
     "geom:bbox":"0.509581188143,48.479988868,0.557660810156,48.5400620896",
     "geom:latitude":48.509882,
     "geom:longitude":0.531946,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683527,
         102191581,
@@ -56,7 +70,10 @@
         102068659
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_61414",
+        "eurostat:nuts_2021_id":"61414"
+    },
     "wof:coterminous":[
         1360674987
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"23016563b589262cda776be5de968823",
+    "wof:geomhash":"47bdd69ed7105d0be4fd6c2d4e9fcbe9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404372231,
-    "wof:lastmodified":1582325471,
+    "wof:lastmodified":1684352915,
     "wof:name":"Saint-Langis-Les-Mortagne",
     "wof:parent_id":102068659,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":911,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

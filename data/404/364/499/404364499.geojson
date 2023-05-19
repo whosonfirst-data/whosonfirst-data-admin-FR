@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_42169",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"P\u00e9rigneux",
+    "eurostat:nuts_2021_id":"42169",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK25",
+    "eurostat:nuts_2021_level_lau":"42169",
+    "eurostat:population":1512,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200065886",
     "frgov:id":"BDCSURCO0000000009606787",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683377,
         102191581,
@@ -58,7 +72,10 @@
         102069939
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_42169",
+        "eurostat:nuts_2021_id":"42169"
+    },
     "wof:coterminous":[
         101851301
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"fb9508120d6891d9fab8e21c8d1d72c4",
+    "wof:geomhash":"554be3a6b7dafcb86e6dc6d1e58ab99f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404364499,
-    "wof:lastmodified":1582324244,
+    "wof:lastmodified":1684352817,
     "wof:name":"Perigneux",
     "wof:parent_id":102069939,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1512,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

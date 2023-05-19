@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_25164",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Corcondray",
+    "eurostat:nuts_2021_id":"25164",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC21",
+    "eurostat:nuts_2021_level_lau":"25164",
+    "eurostat:population":144,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041887",
     "frgov:id":"BDCSURCO0000000009599402",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000638,
-    "geom:area_square_m":5355984.620272,
+    "geom:area_square_m":5355984.62027,
     "geom:bbox":"5.8099207822,47.2083753789,5.84710222092,47.2414654986",
     "geom:latitude":47.226834,
     "geom:longitude":5.828168,
@@ -117,6 +129,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683239,
         102191581,
@@ -127,7 +141,10 @@
         102064459
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_25164",
+        "eurostat:nuts_2021_id":"25164"
+    },
     "wof:coterminous":[
         101888771
     ],
@@ -135,7 +152,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d521dfe58bb15051168f8af140dbe205",
+    "wof:geomhash":"997bd0252cf26f307b766bebe0ccd123",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -149,11 +166,13 @@
         }
     ],
     "wof:id":404386835,
-    "wof:lastmodified":1582325447,
+    "wof:lastmodified":1684353091,
     "wof:name":"Corcondray",
     "wof:parent_id":102064459,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":144,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

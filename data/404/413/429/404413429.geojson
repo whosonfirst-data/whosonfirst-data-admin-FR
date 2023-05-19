@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_21228",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"D\u00e9tain-et-Bruant",
+    "eurostat:nuts_2021_id":"21228",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC11",
+    "eurostat:nuts_2021_level_lau":"21228",
+    "eurostat:population":141,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070894",
     "frgov:id":"BDCSURCO0000000009599737",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001857,
-    "geom:area_square_m":15605885.832516,
+    "geom:area_square_m":15605885.832515,
     "geom:bbox":"4.76334587927,47.1441081472,4.81406781722,47.2029783959",
     "geom:latitude":47.174817,
     "geom:longitude":4.787499,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683563,
         102191581,
@@ -58,7 +72,10 @@
         102067033
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_21228",
+        "eurostat:nuts_2021_id":"21228"
+    },
     "wof:coterminous":[
         1126009631
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c7ab499f10f1ddb4e6353422986f2bf8",
+    "wof:geomhash":"f901e4ebbeb2eafa68d84fb10a545ab5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404413429,
-    "wof:lastmodified":1582324327,
+    "wof:lastmodified":1684353407,
     "wof:name":"Detain-Et-Bruant",
     "wof:parent_id":102067033,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":141,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

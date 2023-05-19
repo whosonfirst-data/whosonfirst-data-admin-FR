@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_40087",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Cr\u00e9on-d'Armagnac",
+    "eurostat:nuts_2021_id":"40087",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI13",
+    "eurostat:nuts_2021_level_lau":"40087",
+    "eurostat:population":362,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200035541",
     "frgov:id":"BDCSURCO0000000009611892",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002389,
-    "geom:area_square_m":21249037.286422,
+    "geom:area_square_m":21249037.28642,
     "geom:bbox":"-0.124235026355,43.9740477779,-0.0250972517449,44.0152138089",
     "geom:latitude":43.995348,
     "geom:longitude":-0.082559,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683183,
         102191581,
@@ -58,7 +72,10 @@
         102065093
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_40087",
+        "eurostat:nuts_2021_id":"40087"
+    },
     "wof:coterminous":[
         101895697
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"1b88d32e13afc5872ba060dd74edd4cc",
+    "wof:geomhash":"fd4fafc9cb2e1476f197ee00223d28f0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404380091,
-    "wof:lastmodified":1582325375,
+    "wof:lastmodified":1684353012,
     "wof:name":"Creon-D'Armagnac",
     "wof:parent_id":102065093,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":362,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

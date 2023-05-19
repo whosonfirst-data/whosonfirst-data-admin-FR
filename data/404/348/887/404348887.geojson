@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_74070",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Chens-sur-L\u00e9man",
+    "eurostat:nuts_2021_id":"74070",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK28",
+    "eurostat:nuts_2021_level_lau":"74070",
+    "eurostat:population":2776,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067551",
     "frgov:id":"BDCSURCO0000000009602758",
     "frgov:insee_arr":"4",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683227,
         102191581,
@@ -58,7 +72,10 @@
         102066577
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_74070",
+        "eurostat:nuts_2021_id":"74070"
+    },
     "wof:coterminous":[
         101766277
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f4f3e5693787afb62d56bc22fdb5975e",
+    "wof:geomhash":"09a4c5600b78d5f485bc8b09cf4d6f60",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404348887,
-    "wof:lastmodified":1582324578,
+    "wof:lastmodified":1684352601,
     "wof:name":"Chens-Sur-Leman",
     "wof:parent_id":102066577,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2776,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

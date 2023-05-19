@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_79347",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Viennay",
+    "eurostat:nuts_2021_id":"79347",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI33",
+    "eurostat:nuts_2021_level_lau":"79347",
+    "eurostat:population":1104,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041333",
     "frgov:id":"BDCSURCO0000000009601675",
     "frgov:insee_arr":"3",
@@ -117,6 +129,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683163,
         102191581,
@@ -127,7 +141,10 @@
         102068475
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_79347",
+        "eurostat:nuts_2021_id":"79347"
+    },
     "wof:coterminous":[
         1125831341
     ],
@@ -135,7 +152,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"895e2b7fc2bdf321a970a2f7f0bc3588",
+    "wof:geomhash":"261d42317b9c603da4453561b4ea4a97",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -149,11 +166,13 @@
         }
     ],
     "wof:id":404362365,
-    "wof:lastmodified":1582324046,
+    "wof:lastmodified":1684352786,
     "wof:name":"Viennay",
     "wof:parent_id":102068475,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1104,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_30222",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Roque-sur-C\u00e8ze",
+    "eurostat:nuts_2021_id":"30222",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ12",
+    "eurostat:nuts_2021_level_lau":"30222",
+    "eurostat:population":184,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200034692",
     "frgov:id":"BDCSURCO0000000009611198",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000946,
-    "geom:area_square_m":8386179.282923,
+    "geom:area_square_m":8386179.282922,
     "geom:bbox":"4.49803705291,44.1755122266,4.54174525139,44.2106792173",
     "geom:latitude":44.190593,
     "geom:longitude":4.518831,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683431,
         102191581,
@@ -58,7 +72,10 @@
         102065527
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_30222",
+        "eurostat:nuts_2021_id":"30222"
+    },
     "wof:coterminous":[
         1125806261
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e388d1aad43ad5f26206cd5752f2bec2",
+    "wof:geomhash":"9e1792fa262daf1adf0a9e4822e576f4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404417029,
-    "wof:lastmodified":1582325137,
+    "wof:lastmodified":1684353449,
     "wof:name":"La Roque-Sur-Ceze",
     "wof:parent_id":102065527,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":184,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

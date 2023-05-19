@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_21239",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"\u00c9chenon",
+    "eurostat:nuts_2021_id":"21239",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC11",
+    "eurostat:nuts_2021_level_lau":"21239",
+    "eurostat:population":775,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242101509",
     "frgov:id":"BDCSURCO0000000009599975",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001272,
-    "geom:area_square_m":10703182.991313,
+    "geom:area_square_m":10703182.991312,
     "geom:bbox":"5.26456150354,47.1018867298,5.31335483948,47.1439705455",
     "geom:latitude":47.120016,
     "geom:longitude":5.286981,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683563,
         102191581,
@@ -58,7 +72,10 @@
         102069611
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_21239",
+        "eurostat:nuts_2021_id":"21239"
+    },
     "wof:coterminous":[
         1125900633
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4833fe5dd2c01bb9b2633568438ad1e7",
+    "wof:geomhash":"e8c531c36c994f985708cf6eee4a0788",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404402039,
-    "wof:lastmodified":1582325275,
+    "wof:lastmodified":1684353273,
     "wof:name":"Echenon",
     "wof:parent_id":102069611,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":775,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

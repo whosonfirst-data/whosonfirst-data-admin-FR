@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_73098",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"D\u00e9serts",
+    "eurostat:nuts_2021_id":"73098",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK27",
+    "eurostat:nuts_2021_level_lau":"73098",
+    "eurostat:population":795,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069110",
     "frgov:id":"BDCSURCO0000000009605702",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.003862,
-    "geom:area_square_m":33390375.767811,
+    "geom:area_square_m":33390375.767809,
     "geom:bbox":"5.96141433654,45.6047165779,6.03651682255,45.6826698229",
     "geom:latitude":45.640636,
     "geom:longitude":5.995831,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683265,
         102191581,
@@ -58,7 +72,10 @@
         102070417
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_73098",
+        "eurostat:nuts_2021_id":"73098"
+    },
     "wof:coterminous":[
         101893171
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"74ac24b8a1394b3c871867533edc0058",
+    "wof:geomhash":"9e73ecf5629edb5134a07c5e310b873f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404420477,
-    "wof:lastmodified":1582325199,
+    "wof:lastmodified":1684353489,
     "wof:name":"Les Deserts",
     "wof:parent_id":102070417,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":795,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_18224",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Martin-des-Champs",
+    "eurostat:nuts_2021_id":"18224",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB01",
+    "eurostat:nuts_2021_level_lau":"18224",
+    "eurostat:population":304,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200032514",
     "frgov:id":"BDCSURCO0000000009600045",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002244,
-    "geom:area_square_m":18862850.120514,
+    "geom:area_square_m":18862850.120513,
     "geom:bbox":"2.89982535308,47.1454602578,2.96797999721,47.1977834955",
     "geom:latitude":47.173351,
     "geom:longitude":2.934947,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683549,
         102191581,
@@ -57,7 +71,10 @@
         102068701
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_18224",
+        "eurostat:nuts_2021_id":"18224"
+    },
     "wof:coterminous":[
         101889089
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"72d75d80b83b082e6e708e2cdcd24b0e",
+    "wof:geomhash":"5d978e9904bb36d3e7650823279789ff",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404349915,
-    "wof:lastmodified":1582324707,
+    "wof:lastmodified":1684352615,
     "wof:name":"Saint-Martin-Des-Champs",
     "wof:parent_id":102068701,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":304,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

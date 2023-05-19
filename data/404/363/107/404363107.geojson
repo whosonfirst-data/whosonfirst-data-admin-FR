@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_30252",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-F\u00e9lix-de-Palli\u00e8res",
+    "eurostat:nuts_2021_id":"30252",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ12",
+    "eurostat:nuts_2021_level_lau":"30252",
+    "eurostat:population":252,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200034411",
     "frgov:id":"BDCSURCO0000000009611782",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683431,
         102191581,
@@ -58,7 +72,10 @@
         102066729
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_30252",
+        "eurostat:nuts_2021_id":"30252"
+    },
     "wof:coterminous":[
         1125810605
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"92c53ed1324e6ddbb2dc9b71dd9de1dc",
+    "wof:geomhash":"0a531f8d67fb4a30929cdf46ce8a171d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404363107,
-    "wof:lastmodified":1582324228,
+    "wof:lastmodified":1684352797,
     "wof:name":"Saint-Felix-De-Pallieres",
     "wof:parent_id":102066729,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":252,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

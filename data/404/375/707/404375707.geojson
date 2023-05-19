@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_47278",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Sernin",
+    "eurostat:nuts_2021_id":"47278",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI14",
+    "eurostat:nuts_2021_level_lau":"47278",
+    "eurostat:population":434,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244700449",
     "frgov:id":"BDCSURCO0000000009609551",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002417,
-    "geom:area_square_m":21243535.097484,
+    "geom:area_square_m":21243535.097483,
     "geom:bbox":"0.200929149592,44.6800356861,0.28556300171,44.7282691304",
     "geom:latitude":44.706466,
     "geom:longitude":0.238894,
@@ -88,6 +100,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683341,
         102191581,
@@ -98,7 +112,10 @@
         102066313
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_47278",
+        "eurostat:nuts_2021_id":"47278"
+    },
     "wof:coterminous":[
         1360675333
     ],
@@ -106,7 +123,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"af2ae091493de7f37d333d131eea3255",
+    "wof:geomhash":"0daee724a8fc66cc147da2690f88e082",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -120,11 +137,13 @@
         }
     ],
     "wof:id":404375707,
-    "wof:lastmodified":1582325408,
+    "wof:lastmodified":1684352959,
     "wof:name":"Saint-Sernin",
     "wof:parent_id":102066313,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":434,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

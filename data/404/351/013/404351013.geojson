@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_63321",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Babel",
+    "eurostat:nuts_2021_id":"63321",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK14",
+    "eurostat:nuts_2021_level_lau":"63321",
+    "eurostat:population":944,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070407",
     "frgov:id":"BDCSURCO0000000009606094",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.00225,
-    "geom:area_square_m":19462616.784623,
+    "geom:area_square_m":19462616.784624,
     "geom:bbox":"3.25650628388,45.580963119,3.33771698912,45.6293754822",
     "geom:latitude":45.602401,
     "geom:longitude":3.300585,
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683471,
         102191581,
@@ -136,7 +150,10 @@
         102067919
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_63321",
+        "eurostat:nuts_2021_id":"63321"
+    },
     "wof:coterminous":[
         101893571
     ],
@@ -144,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5ce7cc29a046f959cd0c29e326aa3e2e",
+    "wof:geomhash":"9e3cdce8546bd2bd4fac1827fb081ba0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +175,13 @@
         }
     ],
     "wof:id":404351013,
-    "wof:lastmodified":1582324947,
+    "wof:lastmodified":1684352631,
     "wof:name":"Saint-Babel",
     "wof:parent_id":102067919,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":944,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

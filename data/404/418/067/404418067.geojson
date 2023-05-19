@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_25611",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"V\u00e8ze",
+    "eurostat:nuts_2021_id":"25611",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC21",
+    "eurostat:nuts_2021_level_lau":"25611",
+    "eurostat:population":455,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242500361",
     "frgov:id":"BDCSURCO0000000009599383",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000629,
-    "geom:area_square_m":5282492.617595,
+    "geom:area_square_m":5282492.617594,
     "geom:bbox":"6.05332593146,47.1803961121,6.09270932889,47.2155804335",
     "geom:latitude":47.197593,
     "geom:longitude":6.073314,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683239,
         102191581,
@@ -58,7 +72,10 @@
         102065221
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_25611",
+        "eurostat:nuts_2021_id":"25611"
+    },
     "wof:coterminous":[
         1125795037
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"46af09cf0314eb836aaecd80ab41909e",
+    "wof:geomhash":"92cd68861774f92bb1d183a0ee3dd7c2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404418067,
-    "wof:lastmodified":1582325229,
+    "wof:lastmodified":1684353461,
     "wof:name":"La Veze",
     "wof:parent_id":102065221,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":455,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

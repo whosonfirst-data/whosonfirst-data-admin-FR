@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_04020",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Barles",
+    "eurostat:nuts_2021_id":"04020",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL01",
+    "eurostat:nuts_2021_level_lau":"04020",
+    "eurostat:population":134,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067437",
     "frgov:id":"BDCSURCO0000000009610805",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.006721,
-    "geom:area_square_m":59509220.072832,
+    "geom:area_square_m":59509220.072833,
     "geom:bbox":"6.19440463103,44.2313472099,6.31186616014,44.3314873575",
     "geom:latitude":44.272759,
     "geom:longitude":6.253239,
@@ -138,6 +150,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683509,
         102191581,
@@ -147,7 +161,10 @@
         102069167
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_04020",
+        "eurostat:nuts_2021_id":"04020"
+    },
     "wof:coterminous":[
         1126002205
     ],
@@ -155,7 +172,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d9eafd41d197c4dd2a40600606ca6fcd",
+    "wof:geomhash":"d1423efb54887a7683f08963e8e2fb5d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -168,11 +185,13 @@
         }
     ],
     "wof:id":404353919,
-    "wof:lastmodified":1582324142,
+    "wof:lastmodified":1684352671,
     "wof:name":"Barles",
     "wof:parent_id":102069167,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":134,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

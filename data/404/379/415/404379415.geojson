@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_24514",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Vivien",
+    "eurostat:nuts_2021_id":"24514",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI11",
+    "eurostat:nuts_2021_level_lau":"24514",
+    "eurostat:population":250,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200034197",
     "frgov:id":"BDCSURCO0000000009608847",
     "frgov:insee_arr":"1",
@@ -85,6 +97,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683331,
         102191581,
@@ -95,7 +109,10 @@
         102071173
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_24514",
+        "eurostat:nuts_2021_id":"24514"
+    },
     "wof:coterminous":[
         1360675731
     ],
@@ -103,7 +120,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"46262bfbdbfbd55d1df0da8806f870b7",
+    "wof:geomhash":"429048f4a353eb86b19ece7ccdd9da45",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -117,11 +134,13 @@
         }
     ],
     "wof:id":404379415,
-    "wof:lastmodified":1582324524,
+    "wof:lastmodified":1684353004,
     "wof:name":"Saint-Vivien",
     "wof:parent_id":102071173,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":250,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

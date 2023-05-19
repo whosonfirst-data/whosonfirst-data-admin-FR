@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_71399",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Christophe-en-Brionnais",
+    "eurostat:nuts_2021_id":"71399",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC13",
+    "eurostat:nuts_2021_level_lau":"71399",
+    "eurostat:population":527,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247103864",
     "frgov:id":"BDCSURCO0000000009603052",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001774,
-    "geom:area_square_m":15158388.146913,
+    "geom:area_square_m":15158388.146914,
     "geom:bbox":"4.1595723048,46.2634775291,4.2286931471,46.3038816986",
     "geom:latitude":46.285282,
     "geom:longitude":4.189687,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683543,
         102191581,
@@ -58,7 +72,10 @@
         102071427
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_71399",
+        "eurostat:nuts_2021_id":"71399"
+    },
     "wof:coterminous":[
         101892929
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a5060f82515ed0ee71f963c39bcc1ac2",
+    "wof:geomhash":"e658c731232b5eaca666360061fe2154",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404405705,
-    "wof:lastmodified":1582325259,
+    "wof:lastmodified":1684353315,
     "wof:name":"Saint-Christophe-En-Brionnais",
     "wof:parent_id":102071427,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":527,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

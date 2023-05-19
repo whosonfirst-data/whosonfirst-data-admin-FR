@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_44089",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Malville",
+    "eurostat:nuts_2021_id":"44089",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG01",
+    "eurostat:nuts_2021_level_lau":"44089",
+    "eurostat:population":3463,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072734",
     "frgov:id":"BDCSURCO0000000009599054",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003705,
-    "geom:area_square_m":31044203.711995,
+    "geom:area_square_m":31044203.711994,
     "geom:bbox":"-1.89543849068,47.3059735523,-1.79504170298,47.3822244036",
     "geom:latitude":47.343762,
     "geom:longitude":-1.854161,
@@ -132,6 +144,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683233,
         102191581,
@@ -141,7 +155,10 @@
         102071283
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_44089",
+        "eurostat:nuts_2021_id":"44089"
+    },
     "wof:coterminous":[
         101764639
     ],
@@ -149,7 +166,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2d90f0556664465929b9efab8c1bef73",
+    "wof:geomhash":"6d0333156eed53a34af466613b85312d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -162,11 +179,13 @@
         }
     ],
     "wof:id":404403115,
-    "wof:lastmodified":1582325301,
+    "wof:lastmodified":1684353285,
     "wof:name":"Malville",
     "wof:parent_id":102071283,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3463,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

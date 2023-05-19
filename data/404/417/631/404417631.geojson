@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_54470",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Baussant",
+    "eurostat:nuts_2021_id":"54470",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF31",
+    "eurostat:nuts_2021_level_lau":"54470",
+    "eurostat:population":73,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070738",
     "frgov:id":"BDCSURCO0000000009588554",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.001113,
-    "geom:area_square_m":9045191.160365,
+    "geom:area_square_m":9045191.160364,
     "geom:bbox":"5.75677058712,48.8773944875,5.83145645092,48.9099601773",
     "geom:latitude":48.892568,
     "geom:longitude":5.797019,
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683343,
         102191581,
@@ -139,7 +153,10 @@
         102069227
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_54470",
+        "eurostat:nuts_2021_id":"54470"
+    },
     "wof:coterminous":[
         101881563
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c3abd11990f3d0e2a7842db8166b31cf",
+    "wof:geomhash":"2aa26ea3d4a2e99e9ed886844f3b5ab5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404417631,
-    "wof:lastmodified":1582325140,
+    "wof:lastmodified":1684353456,
     "wof:name":"Saint-Baussant",
     "wof:parent_id":102069227,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":73,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

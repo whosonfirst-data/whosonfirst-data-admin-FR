@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_06078",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Malauss\u00e8ne",
+    "eurostat:nuts_2021_id":"06078",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL03",
+    "eurostat:nuts_2021_level_lau":"06078",
+    "eurostat:population":311,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200039931",
     "frgov:id":"BDCSURCO0000000009611696",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.00219,
-    "geom:area_square_m":19505030.289855,
+    "geom:area_square_m":19505030.289854,
     "geom:bbox":"7.08246099924,43.8924362651,7.19607187568,43.9364391596",
     "geom:latitude":43.915377,
     "geom:longitude":7.141371,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683323,
         102191581,
@@ -57,7 +71,10 @@
         102069653
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_06078",
+        "eurostat:nuts_2021_id":"06078"
+    },
     "wof:coterminous":[
         1125870289
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c6e7646b9848f7822828f7d5bfe82679",
+    "wof:geomhash":"a90d4a03e6c9b799aa1b8b9b40fec35a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404352345,
-    "wof:lastmodified":1582324177,
+    "wof:lastmodified":1684352649,
     "wof:name":"Malaussene",
     "wof:parent_id":102069653,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":311,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

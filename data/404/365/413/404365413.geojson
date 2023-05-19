@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_88161",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Escles",
+    "eurostat:nuts_2021_id":"88161",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF34",
+    "eurostat:nuts_2021_level_lau":"88161",
+    "eurostat:population":436,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068773",
     "frgov:id":"BDCSURCO0000000009594702",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.002718,
-    "geom:area_square_m":22435197.648012,
+    "geom:area_square_m":22435197.648013,
     "geom:bbox":"6.09757868359,48.0901269878,6.23238214329,48.1475119609",
     "geom:latitude":48.117862,
     "geom:longitude":6.174986,
@@ -117,6 +129,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683223,
         102191581,
@@ -127,7 +141,10 @@
         102066065
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_88161",
+        "eurostat:nuts_2021_id":"88161"
+    },
     "wof:coterminous":[
         101885609
     ],
@@ -135,7 +152,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"02063edd09935cd3a0cff031ffb7b1a1",
+    "wof:geomhash":"9d525875d4496367a63664b564ef9254",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -149,11 +166,13 @@
         }
     ],
     "wof:id":404365413,
-    "wof:lastmodified":1582324028,
+    "wof:lastmodified":1684352829,
     "wof:name":"Escles",
     "wof:parent_id":102066065,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":436,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

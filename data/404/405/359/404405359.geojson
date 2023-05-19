@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_24498",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Saud-Lacoussi\u00e8re",
+    "eurostat:nuts_2021_id":"24498",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI11",
+    "eurostat:nuts_2021_level_lau":"24498",
+    "eurostat:population":832,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071819",
     "frgov:id":"BDCSURCO0000000009606643",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00691,
-    "geom:area_square_m":59846216.449399,
+    "geom:area_square_m":59846216.449397,
     "geom:bbox":"0.783365488833,45.4763537351,0.884144208524,45.5932502604",
     "geom:latitude":45.536953,
     "geom:longitude":0.839604,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683331,
         102191581,
@@ -58,7 +72,10 @@
         102070267
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_24498",
+        "eurostat:nuts_2021_id":"24498"
+    },
     "wof:coterminous":[
         101893297
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"1c8b72bfa598846ad5e2faf979215bcf",
+    "wof:geomhash":"3b0e3102c86511a1630976239c858d0b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404405359,
-    "wof:lastmodified":1582325259,
+    "wof:lastmodified":1684353311,
     "wof:name":"Saint-Saud-Lacoussiere",
     "wof:parent_id":102070267,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":832,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

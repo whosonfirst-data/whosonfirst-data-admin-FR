@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_04172",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Roumoules",
+    "eurostat:nuts_2021_id":"04172",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL01",
+    "eurostat:nuts_2021_level_lau":"04172",
+    "eurostat:population":746,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200034700",
     "frgov:id":"BDCSURCO0000000009612393",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.002938,
-    "geom:area_square_m":26212568.568981,
+    "geom:area_square_m":26212568.568986,
     "geom:bbox":"6.11147528476,43.7841227905,6.1936093203,43.8548574259",
     "geom:latitude":43.821473,
     "geom:longitude":6.148905,
@@ -138,6 +150,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683509,
         102191581,
@@ -147,7 +161,10 @@
         102068249
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_04172",
+        "eurostat:nuts_2021_id":"04172"
+    },
     "wof:coterminous":[
         101897399
     ],
@@ -155,7 +172,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a52e785ef4f2bf5f76ae105aa1d93f02",
+    "wof:geomhash":"e53068cf58c0efe9863d02ddeff06f26",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -168,11 +185,13 @@
         }
     ],
     "wof:id":404398437,
-    "wof:lastmodified":1582324108,
+    "wof:lastmodified":1684353231,
     "wof:name":"Roumoules",
     "wof:parent_id":102068249,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":746,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

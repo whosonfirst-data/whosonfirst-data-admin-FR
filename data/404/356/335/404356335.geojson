@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_85061",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ch\u00e2teau-Guibert",
+    "eurostat:nuts_2021_id":"85061",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG05",
+    "eurostat:nuts_2021_level_lau":"85061",
+    "eurostat:population":1521,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200073260",
     "frgov:id":"BDCSURCO0000000009602099",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.004138,
-    "geom:area_square_m":35169833.95058,
+    "geom:area_square_m":35169833.950581,
     "geom:bbox":"-1.33115520541,46.5445471381,-1.19670839241,46.6054463885",
     "geom:latitude":46.574228,
     "geom:longitude":-1.255341,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683409,
         102191581,
@@ -57,7 +71,10 @@
         102066703
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_85061",
+        "eurostat:nuts_2021_id":"85061"
+    },
     "wof:coterminous":[
         101853169
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"443e32b25ca134615cbf029feef28dfb",
+    "wof:geomhash":"2a1f2c944665a85d31b859072b5189f9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404356335,
-    "wof:lastmodified":1582324934,
+    "wof:lastmodified":1684352702,
     "wof:name":"Chateau-Guibert",
     "wof:parent_id":102066703,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1521,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

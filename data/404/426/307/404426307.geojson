@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_17217",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Macqueville",
+    "eurostat:nuts_2021_id":"17217",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI32",
+    "eurostat:nuts_2021_level_lau":"17217",
+    "eurostat:population":290,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041689",
     "frgov:id":"BDCSURCO0000000009605145",
     "frgov:insee_arr":"5",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00131,
-    "geom:area_square_m":11295275.321649,
+    "geom:area_square_m":11295275.32165,
     "geom:bbox":"-0.231112230315,45.7752147989,-0.177359310781,45.8173478365",
     "geom:latitude":45.795876,
     "geom:longitude":-0.202921,
@@ -123,6 +135,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683275,
         102191581,
@@ -133,7 +147,10 @@
         102067161
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_17217",
+        "eurostat:nuts_2021_id":"17217"
+    },
     "wof:coterminous":[
         101892745
     ],
@@ -141,7 +158,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4da023eba20a5a0432ab7c498eeb5bc4",
+    "wof:geomhash":"f335e23f6856613515f4d366a5abdcdf",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -155,11 +172,13 @@
         }
     ],
     "wof:id":404426307,
-    "wof:lastmodified":1582325077,
+    "wof:lastmodified":1684353560,
     "wof:name":"Macqueville",
     "wof:parent_id":102067161,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":290,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

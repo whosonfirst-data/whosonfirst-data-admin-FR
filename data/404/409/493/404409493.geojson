@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_25510",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ruffey-le-Ch\u00e2teau",
+    "eurostat:nuts_2021_id":"25510",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC21",
+    "eurostat:nuts_2021_level_lau":"25510",
+    "eurostat:population":364,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041887",
     "frgov:id":"BDCSURCO0000000009599125",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683239,
         102191581,
@@ -58,7 +72,10 @@
         102064459
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_25510",
+        "eurostat:nuts_2021_id":"25510"
+    },
     "wof:coterminous":[
         1125929009
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d2852ff2534f1a1c0ecebd9377f2395a",
+    "wof:geomhash":"0cbc361445b71e0d2cda95de23ffcd97",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404409493,
-    "wof:lastmodified":1582324482,
+    "wof:lastmodified":1684353361,
     "wof:name":"Ruffey-Le-Chateau",
     "wof:parent_id":102064459,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":364,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_62342",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Fontaine-l\u00e8s-Boulans",
+    "eurostat:nuts_2021_id":"62342",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE1",
+    "eurostat:nuts_2021_level_3":"FRE12",
+    "eurostat:nuts_2021_level_lau":"62342",
+    "eurostat:population":100,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069672",
     "frgov:id":"BDCSURCO0000000009580929",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683255,
         102191581,
@@ -58,7 +72,10 @@
         102069287
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_62342",
+        "eurostat:nuts_2021_id":"62342"
+    },
     "wof:coterminous":[
         101898449
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f83bc5f4eed6658366fb08ed30a586d5",
+    "wof:geomhash":"4de69d54f414259ffe6488a3a11594b2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404413937,
-    "wof:lastmodified":1582324316,
+    "wof:lastmodified":1684353413,
     "wof:name":"Fontaine-Les-Boulans",
     "wof:parent_id":102069287,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":100,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

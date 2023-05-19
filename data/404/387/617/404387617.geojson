@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_62152",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Boisleux-Saint-Marc",
+    "eurostat:nuts_2021_id":"62152",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE1",
+    "eurostat:nuts_2021_level_3":"FRE12",
+    "eurostat:nuts_2021_level_lau":"62152",
+    "eurostat:population":251,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200033579",
     "frgov:id":"BDCSURCO0000000009581657",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000432,
-    "geom:area_square_m":3420586.843504,
+    "geom:area_square_m":3420586.843505,
     "geom:bbox":"2.78313074802,50.1981733044,2.80699630971,50.2277320108",
     "geom:latitude":50.213898,
     "geom:longitude":2.796121,
@@ -132,6 +144,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683255,
         102191581,
@@ -142,7 +156,10 @@
         102067971
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_62152",
+        "eurostat:nuts_2021_id":"62152"
+    },
     "wof:coterminous":[
         1126038065
     ],
@@ -150,7 +167,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d59e026a4571270366c9f6b5c9a140aa",
+    "wof:geomhash":"3c997f7822acae77d3e7404b66e62f02",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -164,11 +181,13 @@
         }
     ],
     "wof:id":404387617,
-    "wof:lastmodified":1582325356,
+    "wof:lastmodified":1684353099,
     "wof:name":"Boisleux-Saint-Marc",
     "wof:parent_id":102067971,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":251,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

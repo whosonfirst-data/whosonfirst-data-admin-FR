@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_46303",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"S\u00e9naillac-Lauz\u00e8s",
+    "eurostat:nuts_2021_id":"46303",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ25",
+    "eurostat:nuts_2021_level_lau":"46303",
+    "eurostat:population":128,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244600573",
     "frgov:id":"BDCSURCO0000000009609940",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002947,
-    "geom:area_square_m":25954172.222144,
+    "geom:area_square_m":25954172.222145,
     "geom:bbox":"1.59294136594,44.5648736031,1.69879260172,44.6115705868",
     "geom:latitude":44.58957,
     "geom:longitude":1.651333,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683389,
         102191581,
@@ -58,7 +72,10 @@
         102067203
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_46303",
+        "eurostat:nuts_2021_id":"46303"
+    },
     "wof:coterminous":[
         1126022959
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5a40163c14b0c048f6da10f356506450",
+    "wof:geomhash":"58c8a5f49eaa463ef45f8a684e4dc6ee",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404359849,
-    "wof:lastmodified":1582324799,
+    "wof:lastmodified":1684352751,
     "wof:name":"Senaillac-Lauzes",
     "wof:parent_id":102067203,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":128,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

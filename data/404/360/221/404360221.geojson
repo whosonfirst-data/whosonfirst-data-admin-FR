@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_05048",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"\u00c9pine",
+    "eurostat:nuts_2021_id":"05048",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL02",
+    "eurostat:nuts_2021_level_lau":"05048",
+    "eurostat:population":196,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068765",
     "frgov:id":"BDCSURCO0000000009610471",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.003784,
-    "geom:area_square_m":33417161.446267,
+    "geom:area_square_m":33417161.446265,
     "geom:bbox":"5.5646869772,44.3869164542,5.65451243246,44.4767634293",
     "geom:latitude":44.424405,
     "geom:longitude":5.610625,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683597,
         102191581,
@@ -55,7 +69,10 @@
         102068375
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_05048",
+        "eurostat:nuts_2021_id":"05048"
+    },
     "wof:coterminous":[
         1360673789
     ],
@@ -63,7 +80,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e7da0d0f67e1ab377782cb59849bcaca",
+    "wof:geomhash":"81eac6b86368d7ea99fe470d7a7e8a60",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -76,11 +93,13 @@
         }
     ],
     "wof:id":404360221,
-    "wof:lastmodified":1582325044,
+    "wof:lastmodified":1684352756,
     "wof:name":"L'Epine",
     "wof:parent_id":102068375,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":196,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

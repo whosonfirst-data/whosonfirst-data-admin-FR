@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_05142",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Firmin",
+    "eurostat:nuts_2021_id":"05142",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL02",
+    "eurostat:nuts_2021_level_lau":"05142",
+    "eurostat:population":458,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068096",
     "frgov:id":"BDCSURCO0000000009608900",
     "frgov:insee_arr":"2",
@@ -96,6 +108,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683597,
         102191581,
@@ -105,7 +119,10 @@
         102067993
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_05142",
+        "eurostat:nuts_2021_id":"05142"
+    },
     "wof:coterminous":[
         101895859
     ],
@@ -113,7 +130,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d8229e181ec2689e6d6df5f6dc2d9ea9",
+    "wof:geomhash":"0390efbec8b13773047fc6f91686385c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -126,11 +143,13 @@
         }
     ],
     "wof:id":404383391,
-    "wof:lastmodified":1582324538,
+    "wof:lastmodified":1684353051,
     "wof:name":"Saint-Firmin",
     "wof:parent_id":102067993,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":458,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

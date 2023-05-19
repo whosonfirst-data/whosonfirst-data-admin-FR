@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_07270",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Martin-sur-Lavezon",
+    "eurostat:nuts_2021_id":"07270",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK22",
+    "eurostat:nuts_2021_level_lau":"07270",
+    "eurostat:population":432,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071405",
     "frgov:id":"BDCSURCO0000000009609642",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.002677,
-    "geom:area_square_m":23555940.20515,
+    "geom:area_square_m":23555940.205153,
     "geom:bbox":"4.60144774912,44.6065201146,4.70375649512,44.6701614686",
     "geom:latitude":44.634821,
     "geom:longitude":4.656676,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683421,
         102191581,
@@ -56,7 +70,10 @@
         102066843
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_07270",
+        "eurostat:nuts_2021_id":"07270"
+    },
     "wof:coterminous":[
         1360672575
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9cca273aaac415fc8154c59d058a25cd",
+    "wof:geomhash":"be305fc766434b90d49a830c7c8d9725",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404347891,
-    "wof:lastmodified":1582324728,
+    "wof:lastmodified":1684352587,
     "wof:name":"Saint-Martin-Sur-Lavezon",
     "wof:parent_id":102066843,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":432,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

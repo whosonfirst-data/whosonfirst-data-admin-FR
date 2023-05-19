@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_71104",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Charnay-l\u00e8s-Chalon",
+    "eurostat:nuts_2021_id":"71104",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC13",
+    "eurostat:nuts_2021_level_lau":"71104",
+    "eurostat:population":187,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040038",
     "frgov:id":"BDCSURCO0000000009600701",
     "frgov:insee_arr":"2",
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683543,
         102191581,
@@ -56,7 +70,10 @@
         102071605
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_71104",
+        "eurostat:nuts_2021_id":"71104"
+    },
     "wof:coterminous":[
         1360674875
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"40cfbb6316cb1e16314fa62a7dd8adb5",
+    "wof:geomhash":"c927bc4c7a6aa30b3e3d76591ac73719",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404371129,
-    "wof:lastmodified":1582324650,
+    "wof:lastmodified":1684352902,
     "wof:name":"Charnay-Les-Chalon",
     "wof:parent_id":102071605,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":187,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

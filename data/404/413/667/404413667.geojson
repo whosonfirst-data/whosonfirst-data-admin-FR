@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_19239",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Robert",
+    "eurostat:nuts_2021_id":"19239",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI21",
+    "eurostat:nuts_2021_level_lau":"19239",
+    "eurostat:population":301,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200043172",
     "frgov:id":"BDCSURCO0000000009607548",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000698,
-    "geom:area_square_m":6071965.660697,
+    "geom:area_square_m":6071965.660698,
     "geom:bbox":"1.27628504899,45.2381350688,1.31281413185,45.2704687386",
     "geom:latitude":45.25381,
     "geom:longitude":1.295382,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683209,
         102191581,
@@ -58,7 +72,10 @@
         102064451
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_19239",
+        "eurostat:nuts_2021_id":"19239"
+    },
     "wof:coterminous":[
         101894991
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9f4b4ca2d98e081ea0e1de9c980db869",
+    "wof:geomhash":"f00e2a017cd9d35bc03d8e164a11c095",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404413667,
-    "wof:lastmodified":1582324320,
+    "wof:lastmodified":1684353410,
     "wof:name":"Saint-Robert",
     "wof:parent_id":102064451,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":301,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

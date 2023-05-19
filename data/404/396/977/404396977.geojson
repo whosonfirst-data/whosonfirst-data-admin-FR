@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_28324",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Arnoult-des-Bois",
+    "eurostat:nuts_2021_id":"28324",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB02",
+    "eurostat:nuts_2021_level_lau":"28324",
+    "eurostat:population":888,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200058360",
     "frgov:id":"BDCSURCO0000000009592511",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002519,
-    "geom:area_square_m":20638882.963692,
+    "geom:area_square_m":20638882.963691,
     "geom:bbox":"1.22432803842,48.45867769,1.28930430836,48.5250002284",
     "geom:latitude":48.492899,
     "geom:longitude":1.255185,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683189,
         102191581,
@@ -57,7 +71,10 @@
         102066423
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_28324",
+        "eurostat:nuts_2021_id":"28324"
+    },
     "wof:coterminous":[
         1126011031
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5042757123c35d4fb70ed0e8d6060481",
+    "wof:geomhash":"493053e620ea7bc2d480ebc32dc27d4b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404396977,
-    "wof:lastmodified":1582324071,
+    "wof:lastmodified":1684353213,
     "wof:name":"Saint-Arnoult-Des-Bois",
     "wof:parent_id":102066423,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":888,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

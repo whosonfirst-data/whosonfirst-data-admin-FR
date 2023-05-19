@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_35051",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Cesson-S\u00e9vign\u00e9",
+    "eurostat:nuts_2021_id":"35051",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH03",
+    "eurostat:nuts_2021_level_lau":"35051",
+    "eurostat:population":17526,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243500139",
     "frgov:id":"BDCSURCO0000000009594935",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BRETAGNE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003883,
-    "geom:area_square_m":32052151.527481,
+    "geom:area_square_m":32052151.527479,
     "geom:bbox":"-1.63707593671,48.0867164059,-1.55041957671,48.1602420164",
     "geom:latitude":48.120386,
     "geom:longitude":-1.597265,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683461,
         102191581,
@@ -57,7 +71,10 @@
         102071663
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_35051",
+        "eurostat:nuts_2021_id":"35051"
+    },
     "wof:coterminous":[
         101749861
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"dd62c3fffef8abf45a117ddcf543fb0c",
+    "wof:geomhash":"6469eaf5e3de33e9c33357748771eca2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404366935,
-    "wof:lastmodified":1582324833,
+    "wof:lastmodified":1684352851,
     "wof:name":"Cesson-Sevigne",
     "wof:parent_id":102071663,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":17526,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

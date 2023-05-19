@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_77410",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Germain-Laxis",
+    "eurostat:nuts_2021_id":"77410",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR102",
+    "eurostat:nuts_2021_level_lau":"77410",
+    "eurostat:population":743,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247700057",
     "frgov:id":"BDCSURCO0000000009591533",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"ILE-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00088,
-    "geom:area_square_m":7201631.049038,
+    "geom:area_square_m":7201631.049039,
     "geom:bbox":"2.68252926087,48.5689839892,2.72683437591,48.6098686908",
     "geom:latitude":48.586247,
     "geom:longitude":2.706042,
@@ -117,6 +129,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683385,
         102191581,
@@ -126,7 +140,10 @@
         102067649
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_77410",
+        "eurostat:nuts_2021_id":"77410"
+    },
     "wof:coterminous":[
         101882335
     ],
@@ -134,7 +151,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4e9848b9084cee1e2643bff8c968c20d",
+    "wof:geomhash":"4d9f2a92029cf4aed463a794c63b6108",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -147,11 +164,13 @@
         }
     ],
     "wof:id":404400225,
-    "wof:lastmodified":1582324515,
+    "wof:lastmodified":1684353252,
     "wof:name":"Saint-Germain-Laxis",
     "wof:parent_id":102067649,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":743,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_06145",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Tourette-du-Ch\u00e2teau",
+    "eurostat:nuts_2021_id":"06145",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL03",
+    "eurostat:nuts_2021_level_lau":"06145",
+    "eurostat:population":130,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200039931",
     "frgov:id":"BDCSURCO0000000009611924",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.001078,
-    "geom:area_square_m":9608937.932423,
+    "geom:area_square_m":9608937.932424,
     "geom:bbox":"7.1134250827,43.8596395876,7.15965854455,43.9027660213",
     "geom:latitude":43.877407,
     "geom:longitude":7.137398,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683323,
         102191581,
@@ -57,7 +71,10 @@
         102067995
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_06145",
+        "eurostat:nuts_2021_id":"06145"
+    },
     "wof:coterminous":[
         1125825425
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"977fd90bc618cbb59e63c41e464abed3",
+    "wof:geomhash":"c51d1c11d5be48969f955c2f57740bbc",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404382773,
-    "wof:lastmodified":1582324696,
+    "wof:lastmodified":1684353043,
     "wof:name":"Tourette-Du-Chateau",
     "wof:parent_id":102067995,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":130,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

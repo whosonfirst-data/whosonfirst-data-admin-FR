@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_95651",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"V\u00e9theuil",
+    "eurostat:nuts_2021_id":"95651",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR108",
+    "eurostat:nuts_2021_level_lau":"95651",
+    "eurostat:population":857,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"249500513",
     "frgov:id":"BDCSURCO0000000009587752",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683451,
         102191581,
@@ -57,7 +71,10 @@
         102067333
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_95651",
+        "eurostat:nuts_2021_id":"95651"
+    },
     "wof:coterminous":[
         1125985579
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b970be07faf9f6499b8f74738f8250a2",
+    "wof:geomhash":"26f2451feb83d9f48bd9054ddcafca75",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404425149,
-    "wof:lastmodified":1582324313,
+    "wof:lastmodified":1684353547,
     "wof:name":"Vetheuil",
     "wof:parent_id":102067333,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":857,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

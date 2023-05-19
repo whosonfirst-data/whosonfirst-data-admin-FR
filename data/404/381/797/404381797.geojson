@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_26139",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"G\u00e9nissieux",
+    "eurostat:nuts_2021_id":"26139",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK23",
+    "eurostat:nuts_2021_level_lau":"26139",
+    "eurostat:population":2282,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068781",
     "frgov:id":"BDCSURCO0000000009607870",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001041,
-    "geom:area_square_m":9085946.072909,
+    "geom:area_square_m":9085946.07291,
     "geom:bbox":"5.06806363044,45.063649653,5.11912659072,45.1015248063",
     "geom:latitude":45.082276,
     "geom:longitude":5.09029,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683523,
         102191581,
@@ -58,7 +72,10 @@
         102070569
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_26139",
+        "eurostat:nuts_2021_id":"26139"
+    },
     "wof:coterminous":[
         101770367
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"fb81d4438a98a2cb9f35679d98734283",
+    "wof:geomhash":"c3cd2cb7db6da8554389aa600e97a5ee",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404381797,
-    "wof:lastmodified":1582325426,
+    "wof:lastmodified":1684353031,
     "wof:name":"Genissieux",
     "wof:parent_id":102070569,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2282,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

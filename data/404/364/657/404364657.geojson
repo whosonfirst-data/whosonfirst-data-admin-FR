@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_87109",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Oradour-Saint-Genest",
+    "eurostat:nuts_2021_id":"87109",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI23",
+    "eurostat:nuts_2021_level_lau":"87109",
+    "eurostat:population":333,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071942",
     "frgov:id":"BDCSURCO0000000009603578",
     "frgov:insee_arr":"1",
@@ -123,6 +135,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683531,
         102191581,
@@ -133,7 +147,10 @@
         102065663
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_87109",
+        "eurostat:nuts_2021_id":"87109"
+    },
     "wof:coterminous":[
         1125895115
     ],
@@ -141,7 +158,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4e11f4c1d4649b569f5ee5c362cdebcc",
+    "wof:geomhash":"3cac0af629ac167cc183ffe661fb9270",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -155,11 +172,13 @@
         }
     ],
     "wof:id":404364657,
-    "wof:lastmodified":1582324245,
+    "wof:lastmodified":1684352819,
     "wof:name":"Oradour-Saint-Genest",
     "wof:parent_id":102065663,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":333,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

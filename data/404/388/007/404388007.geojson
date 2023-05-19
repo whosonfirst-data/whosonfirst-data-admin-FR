@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_70222",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"\u00c9trelles-et-la-Montbleuse",
+    "eurostat:nuts_2021_id":"70222",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC23",
+    "eurostat:nuts_2021_level_lau":"70222",
+    "eurostat:population":77,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247000698",
     "frgov:id":"BDCSURCO0000000009597982",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683559,
         102191581,
@@ -58,7 +72,10 @@
         102066113
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_70222",
+        "eurostat:nuts_2021_id":"70222"
+    },
     "wof:coterminous":[
         101889155
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"eeb83e8f49af469e30342a73ea095941",
+    "wof:geomhash":"61a12d1b0dfb2157cb8049bd0b6c3985",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404388007,
-    "wof:lastmodified":1582325480,
+    "wof:lastmodified":1684353104,
     "wof:name":"Etrelles-Et-La-Montbleuse",
     "wof:parent_id":102066113,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":77,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

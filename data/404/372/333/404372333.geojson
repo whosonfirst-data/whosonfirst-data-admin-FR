@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_68198",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Magstatt-le-Haut",
+    "eurostat:nuts_2021_id":"68198",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF1",
+    "eurostat:nuts_2021_level_3":"FRF12",
+    "eurostat:nuts_2021_level_lau":"68198",
+    "eurostat:population":283,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066058",
     "frgov:id":"BDCSURCO0000000009596944",
     "frgov:insee_arr":"4",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683381,
         102191581,
@@ -58,7 +72,10 @@
         102066775
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_68198",
+        "eurostat:nuts_2021_id":"68198"
+    },
     "wof:coterminous":[
         1125781325
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8e005b92ff9d9d3d7b706611f933cbb4",
+    "wof:geomhash":"2e9dc4feec7413395459cf4dfb7401a4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404372333,
-    "wof:lastmodified":1582325469,
+    "wof:lastmodified":1684352916,
     "wof:name":"Magstatt-Le-Haut",
     "wof:parent_id":102066775,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":283,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

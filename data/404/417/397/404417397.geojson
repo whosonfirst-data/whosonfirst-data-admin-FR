@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_60347",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lannoy-Cuill\u00e8re",
+    "eurostat:nuts_2021_id":"60347",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE22",
+    "eurostat:nuts_2021_level_lau":"60347",
+    "eurostat:population":282,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"246000848",
     "frgov:id":"BDCSURCO0000000009583631",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001863,
-    "geom:area_square_m":14894105.135207,
+    "geom:area_square_m":14894105.135206,
     "geom:bbox":"1.68861991591,49.6809263142,1.77278597436,49.7385626579",
     "geom:latitude":49.708918,
     "geom:longitude":1.736288,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683289,
         102191581,
@@ -58,7 +72,10 @@
         102067009
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_60347",
+        "eurostat:nuts_2021_id":"60347"
+    },
     "wof:coterminous":[
         1125804603
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ce09bf5064d434fa0e9f357cbd1f5cb6",
+    "wof:geomhash":"cdaab8eff80968f3c2544b477b9bc250",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404417397,
-    "wof:lastmodified":1582325128,
+    "wof:lastmodified":1684353453,
     "wof:name":"Lannoy-Cuillere",
     "wof:parent_id":102067009,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":282,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

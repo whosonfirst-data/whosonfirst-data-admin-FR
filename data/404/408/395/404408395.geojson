@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_10345",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-L\u00e9ger-sous-Brienne",
+    "eurostat:nuts_2021_id":"10345",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF22",
+    "eurostat:nuts_2021_level_lau":"10345",
+    "eurostat:population":386,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040137",
     "frgov:id":"BDCSURCO0000000009592841",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683193,
         102191581,
@@ -58,7 +72,10 @@
         102065213
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_10345",
+        "eurostat:nuts_2021_id":"10345"
+    },
     "wof:coterminous":[
         101883143
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3c0120509b606932ed1b0f8cbcf37363",
+    "wof:geomhash":"00ceb79ec0d7368cd5678b937950ca7c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404408395,
-    "wof:lastmodified":1582324462,
+    "wof:lastmodified":1684353348,
     "wof:name":"Saint-Leger-Sous-Brienne",
     "wof:parent_id":102065213,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":386,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

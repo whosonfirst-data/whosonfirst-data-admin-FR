@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_39118",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ch\u00e2tel-de-Joux",
+    "eurostat:nuts_2021_id":"39118",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC22",
+    "eurostat:nuts_2021_level_lau":"39118",
+    "eurostat:population":51,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243900412",
     "frgov:id":"BDCSURCO0000000009602120",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001671,
-    "geom:area_square_m":14218477.234054,
+    "geom:area_square_m":14218477.234053,
     "geom:bbox":"5.76910606091,46.5030567783,5.84143007973,46.5550532911",
     "geom:latitude":46.529681,
     "geom:longitude":5.809502,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683173,
         102191581,
@@ -58,7 +72,10 @@
         102067309
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_39118",
+        "eurostat:nuts_2021_id":"39118"
+    },
     "wof:coterminous":[
         1125897487
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7b75c58104b73e15b9f05cbc68c596d2",
+    "wof:geomhash":"3b0b7b9052c8095a89c11fb3b62701bf",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404399849,
-    "wof:lastmodified":1582324155,
+    "wof:lastmodified":1684353248,
     "wof:name":"Chatel-De-Joux",
     "wof:parent_id":102067309,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":51,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

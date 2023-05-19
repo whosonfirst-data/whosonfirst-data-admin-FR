@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_88296",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"M\u00e9donville",
+    "eurostat:nuts_2021_id":"88296",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF34",
+    "eurostat:nuts_2021_level_lau":"88296",
+    "eurostat:population":100,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068682",
     "frgov:id":"BDCSURCO0000000009594000",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683223,
         102191581,
@@ -58,7 +72,10 @@
         102064953
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_88296",
+        "eurostat:nuts_2021_id":"88296"
+    },
     "wof:coterminous":[
         101885651
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"fa000cb6612a35499ed2133506c1b664",
+    "wof:geomhash":"c4cd2e6cfd99355e841f4fcc125908a4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404394339,
-    "wof:lastmodified":1582325025,
+    "wof:lastmodified":1684353183,
     "wof:name":"Medonville",
     "wof:parent_id":102064953,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":100,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

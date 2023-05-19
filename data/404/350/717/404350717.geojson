@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_36135",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Moulins-sur-C\u00e9phons",
+    "eurostat:nuts_2021_id":"36135",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB03",
+    "eurostat:nuts_2021_level_lau":"36135",
+    "eurostat:population":293,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243600293",
     "frgov:id":"BDCSURCO0000000009600782",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003821,
-    "geom:area_square_m":32219801.480192,
+    "geom:area_square_m":32219801.480193,
     "geom:bbox":"1.50877302111,46.9703963357,1.61810824521,47.0420852602",
     "geom:latitude":47.008999,
     "geom:longitude":1.560981,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683311,
         102191581,
@@ -57,7 +71,10 @@
         102066873
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_36135",
+        "eurostat:nuts_2021_id":"36135"
+    },
     "wof:coterminous":[
         1125790015
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a6fa27599cfc61e12145c7da08a132e2",
+    "wof:geomhash":"293b8d53143f78f65920497fde60bf30",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404350717,
-    "wof:lastmodified":1582324863,
+    "wof:lastmodified":1684352627,
     "wof:name":"Moulins-Sur-Cephons",
     "wof:parent_id":102066873,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":293,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

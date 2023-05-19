@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_40315",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"T\u00e9thieu",
+    "eurostat:nuts_2021_id":"40315",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI13",
+    "eurostat:nuts_2021_level_lau":"40315",
+    "eurostat:population":759,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244000675",
     "frgov:id":"BDCSURCO0000000009612836",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001225,
-    "geom:area_square_m":10939373.384842,
+    "geom:area_square_m":10939373.384841,
     "geom:bbox":"-0.985654634769,43.7243366079,-0.933937694657,43.7708808401",
     "geom:latitude":43.746847,
     "geom:longitude":-0.959672,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683183,
         102191581,
@@ -56,7 +70,10 @@
         102064841
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_40315",
+        "eurostat:nuts_2021_id":"40315"
+    },
     "wof:coterminous":[
         1360676989
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"99ff549d5888e3a103c08ee61b8c212d",
+    "wof:geomhash":"e8ea260c08336dc9987fe117237dbed5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404392163,
-    "wof:lastmodified":1582324815,
+    "wof:lastmodified":1684353158,
     "wof:name":"Tethieu",
     "wof:parent_id":102064841,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":759,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

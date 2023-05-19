@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_57530",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ottonville",
+    "eurostat:nuts_2021_id":"57530",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF33",
+    "eurostat:nuts_2021_level_lau":"57530",
+    "eurostat:population":445,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067650",
     "frgov:id":"BDCSURCO0000000009586022",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.001948,
-    "geom:area_square_m":15734183.000046,
+    "geom:area_square_m":15734183.000047,
     "geom:bbox":"6.48052837303,49.1982545382,6.56686527718,49.2394286169",
     "geom:latitude":49.215721,
     "geom:longitude":6.522345,
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683271,
         102191581,
@@ -139,7 +153,10 @@
         102064667
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_57530",
+        "eurostat:nuts_2021_id":"57530"
+    },
     "wof:coterminous":[
         101880037
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"fc2d9ac68c2e44dfd0f5c89bcac825b0",
+    "wof:geomhash":"c808417b53da8c5975be37a9fd01897a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404370545,
-    "wof:lastmodified":1582324602,
+    "wof:lastmodified":1684352896,
     "wof:name":"Ottonville",
     "wof:parent_id":102064667,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":445,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_02296",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"\u00c9treillers",
+    "eurostat:nuts_2021_id":"02296",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE21",
+    "eurostat:nuts_2021_level_lau":"02296",
+    "eurostat:population":1208,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240200493",
     "frgov:id":"BDCSURCO0000000009582657",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683247,
         102191581,
@@ -58,7 +72,10 @@
         102070303
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_02296",
+        "eurostat:nuts_2021_id":"02296"
+    },
     "wof:coterminous":[
         101812385
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6baa993d5adc866c13dfb8ba3e3a0de4",
+    "wof:geomhash":"5502b3f8644dc0010976bb02d9de5d5a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404411987,
-    "wof:lastmodified":1582325175,
+    "wof:lastmodified":1684353389,
     "wof:name":"Etreillers",
     "wof:parent_id":102070303,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1208,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

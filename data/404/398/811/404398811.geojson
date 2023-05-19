@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_28130",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Digny",
+    "eurostat:nuts_2021_id":"28130",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB02",
+    "eurostat:nuts_2021_level_lau":"28130",
+    "eurostat:population":979,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069912",
     "frgov:id":"BDCSURCO0000000009592514",
     "frgov:insee_arr":"3",
@@ -123,6 +135,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683189,
         102191581,
@@ -132,7 +146,10 @@
         102068439
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_28130",
+        "eurostat:nuts_2021_id":"28130"
+    },
     "wof:coterminous":[
         1125825769
     ],
@@ -140,7 +157,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"956fb7e61a67a862957d3de0d80ed6b0",
+    "wof:geomhash":"dfa1d5bf534bfe497092883d2c832401",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -153,11 +170,13 @@
         }
     ],
     "wof:id":404398811,
-    "wof:lastmodified":1582324106,
+    "wof:lastmodified":1684353236,
     "wof:name":"Digny",
     "wof:parent_id":102068439,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":979,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

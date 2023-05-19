@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_85094",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Foussais-Payr\u00e9",
+    "eurostat:nuts_2021_id":"85094",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG05",
+    "eurostat:nuts_2021_level_lau":"85094",
+    "eurostat:population":1130,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071934",
     "frgov:id":"BDCSURCO0000000009602280",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.004062,
-    "geom:area_square_m":34557174.726919,
+    "geom:area_square_m":34557174.726918,
     "geom:bbox":"-0.730866419428,46.4770837336,-0.643653360957,46.5610921227",
     "geom:latitude":46.522892,
     "geom:longitude":-0.687207,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683409,
         102191581,
@@ -57,7 +71,10 @@
         102069469
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_85094",
+        "eurostat:nuts_2021_id":"85094"
+    },
     "wof:coterminous":[
         101767093
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f2388b589521dff38f7a30a33c03b3ad",
+    "wof:geomhash":"9b5d8021594f1a03a439492e2e80368a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404376067,
-    "wof:lastmodified":1582324675,
+    "wof:lastmodified":1684352964,
     "wof:name":"Foussais-Payre",
     "wof:parent_id":102069469,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1130,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

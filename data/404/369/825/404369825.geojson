@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_09196",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Montagagne",
+    "eurostat:nuts_2021_id":"09196",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ21",
+    "eurostat:nuts_2021_level_lau":"09196",
+    "eurostat:population":76,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067940",
     "frgov:id":"BDCSURCO0000000009615984",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000764,
-    "geom:area_square_m":6909717.357023,
+    "geom:area_square_m":6909717.357022,
     "geom:bbox":"1.39748067672,42.9393629566,1.4281792816,42.9861416417",
     "geom:latitude":42.964479,
     "geom:longitude":1.41294,
@@ -120,6 +132,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683335,
         102191581,
@@ -130,7 +144,10 @@
         102064439
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_09196",
+        "eurostat:nuts_2021_id":"09196"
+    },
     "wof:coterminous":[
         1125786643
     ],
@@ -138,7 +155,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7209432d774b34fc6ebee0c1f502f716",
+    "wof:geomhash":"87011c50d1343635edf41fcad6f68a6e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -152,11 +169,13 @@
         }
     ],
     "wof:id":404369825,
-    "wof:lastmodified":1582324918,
+    "wof:lastmodified":1684352888,
     "wof:name":"Montagagne",
     "wof:parent_id":102064439,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":76,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

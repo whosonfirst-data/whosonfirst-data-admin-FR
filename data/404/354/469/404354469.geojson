@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_71385",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Amour-Bellevue",
+    "eurostat:nuts_2021_id":"71385",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC13",
+    "eurostat:nuts_2021_level_lau":"71385",
+    "eurostat:population":558,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070308",
     "frgov:id":"BDCSURCO0000000009603248",
     "frgov:insee_arr":"5",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000605,
-    "geom:area_square_m":5175261.904821,
+    "geom:area_square_m":5175261.904822,
     "geom:bbox":"4.70889875299,46.227173774,4.7603332585,46.251271904",
     "geom:latitude":46.241163,
     "geom:longitude":4.740824,
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683543,
         102191581,
@@ -139,7 +153,10 @@
         102065799
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_71385",
+        "eurostat:nuts_2021_id":"71385"
+    },
     "wof:coterminous":[
         101892903
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"640c91b0fe4fd66401dedcf023e4c6e2",
+    "wof:geomhash":"95fbc5a410dc4689f4c5764824e745f6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404354469,
-    "wof:lastmodified":1582324097,
+    "wof:lastmodified":1684352678,
     "wof:name":"Saint-Amour-Bellevue",
     "wof:parent_id":102065799,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":558,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

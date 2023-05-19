@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_31513",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Plancard",
+    "eurostat:nuts_2021_id":"31513",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ23",
+    "eurostat:nuts_2021_level_lau":"31513",
+    "eurostat:population":364,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072643",
     "frgov:id":"BDCSURCO0000000009615229",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001772,
-    "geom:area_square_m":15982209.989285,
+    "geom:area_square_m":15982209.989286,
     "geom:bbox":"0.525441672288,43.1492322912,0.611098201467,43.1889662644",
     "geom:latitude":43.168295,
     "geom:longitude":0.57054,
@@ -120,6 +132,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683397,
         102191581,
@@ -130,7 +144,10 @@
         102068393
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_31513",
+        "eurostat:nuts_2021_id":"31513"
+    },
     "wof:coterminous":[
         101897069
     ],
@@ -138,7 +155,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"05e02f95c90ef527b66293cce4895c08",
+    "wof:geomhash":"c2a8b9f9014a6179282804d3868b0d01",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -152,11 +169,13 @@
         }
     ],
     "wof:id":404362761,
-    "wof:lastmodified":1582324057,
+    "wof:lastmodified":1684352792,
     "wof:name":"Saint-Plancard",
     "wof:parent_id":102068393,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":364,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

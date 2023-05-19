@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_22390",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Yvias",
+    "eurostat:nuts_2021_id":"22390",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH01",
+    "eurostat:nuts_2021_level_lau":"22390",
+    "eurostat:population":765,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067981",
     "frgov:id":"BDCSURCO0000000009589918",
     "frgov:insee_arr":"2",
@@ -135,6 +147,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683515,
         102191581,
@@ -144,7 +158,10 @@
         102069581
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_22390",
+        "eurostat:nuts_2021_id":"22390"
+    },
     "wof:coterminous":[
         1125993745
     ],
@@ -152,7 +169,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"940ad62c4f1a59dfcae78be9eacc997e",
+    "wof:geomhash":"9fb0656d2dd481b8bd642d42419d4785",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -165,11 +182,13 @@
         }
     ],
     "wof:id":404356179,
-    "wof:lastmodified":1582324941,
+    "wof:lastmodified":1684352700,
     "wof:name":"Yvias",
     "wof:parent_id":102069581,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":765,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

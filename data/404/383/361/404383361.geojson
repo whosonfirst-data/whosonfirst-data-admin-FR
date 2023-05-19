@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_15033",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"C\u00e9zens",
+    "eurostat:nuts_2021_id":"15033",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK12",
+    "eurostat:nuts_2021_level_lau":"15033",
+    "eurostat:population":218,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066660",
     "frgov:id":"BDCSURCO0000000009608549",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.003659,
-    "geom:area_square_m":32002088.781448,
+    "geom:area_square_m":32002088.781447,
     "geom:bbox":"2.80301293844,44.9510656408,2.91139824033,45.0326033882",
     "geom:latitude":44.983925,
     "geom:longitude":2.858766,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683517,
         102191581,
@@ -58,7 +72,10 @@
         102066713
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_15033",
+        "eurostat:nuts_2021_id":"15033"
+    },
     "wof:coterminous":[
         101894587
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6ce1ef0a41b431cf0468969deb77399d",
+    "wof:geomhash":"05128a5c26ce797331ab630a83f9c512",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404383361,
-    "wof:lastmodified":1582324547,
+    "wof:lastmodified":1684353051,
     "wof:name":"Cezens",
     "wof:parent_id":102066713,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":218,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

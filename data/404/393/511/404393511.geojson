@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_59530",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Aybert",
+    "eurostat:nuts_2021_id":"59530",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE1",
+    "eurostat:nuts_2021_level_3":"FRE11",
+    "eurostat:nuts_2021_level_lau":"59530",
+    "eurostat:population":379,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"245901160",
     "frgov:id":"BDCSURCO0000000009580979",
     "frgov:insee_arr":"6",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000527,
-    "geom:area_square_m":4145839.507994,
+    "geom:area_square_m":4145839.507993,
     "geom:bbox":"3.62700741884,50.4354538524,3.66970259998,50.4645039751",
     "geom:latitude":50.451072,
     "geom:longitude":3.650793,
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683445,
         102191581,
@@ -136,7 +150,10 @@
         102067939
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_59530",
+        "eurostat:nuts_2021_id":"59530"
+    },
     "wof:coterminous":[
         1125941519
     ],
@@ -144,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e56c0c23a393e980f72c800abd318b7b",
+    "wof:geomhash":"90ccfb43b2e6e0cbbc7db9eeeda43edf",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +175,13 @@
         }
     ],
     "wof:id":404393511,
-    "wof:lastmodified":1582325014,
+    "wof:lastmodified":1684353174,
     "wof:name":"Saint-Aybert",
     "wof:parent_id":102067939,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":379,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

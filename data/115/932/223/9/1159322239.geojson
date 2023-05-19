@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_95585",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sarcelles",
+    "eurostat:nuts_2021_id":"95585",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR108",
+    "eurostat:nuts_2021_level_lau":"95585",
+    "eurostat:population":58587,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200055655",
     "frgov:id":"BDCSURCO0000000009588685",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"ILE-DE-FRANCE",
     "frgov:statut":"Sous-pr\u00e9fecture",
     "geom:area":0.001031,
-    "geom:area_square_m":8363452.13371,
+    "geom:area_square_m":8363452.133711,
     "geom:bbox":"2.363647,48.971284,2.408138,49.01347",
     "geom:latitude":48.990243,
     "geom:longitude":2.381193,
@@ -174,23 +186,29 @@
     "reversegeo:longitude":2.381548,
     "src:geom":"frgov",
     "src:geom_alt":[],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85683451,
         102191581,
         85633147,
-        102072335,
         404228003,
         404227465,
-        85683451
+        102072335
     ],
     "wof:breaches":[],
     "wof:concordance":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_95585",
+        "eurostat:nuts_2021_id":"95585"
+    },
     "wof:coterminous":[
         101751341,
         102072335
     ],
     "wof:country":"FR",
     "wof:created":1526510341,
-    "wof:geomhash":"8e5d7b26b1dbf3b3181ea1c8b79d55ed",
+    "wof:geomhash":"2b60f40164996f665719549d3f1c29b2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -203,11 +221,13 @@
         }
     ],
     "wof:id":1159322239,
-    "wof:lastmodified":1608039582,
+    "wof:lastmodified":1684353599,
     "wof:name":"Sarcelles",
     "wof:parent_id":102072335,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Sous-pr\u00e9fecture",
+    "wof:population":58587,
+    "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded":[],
     "wof:superseded_by":[],

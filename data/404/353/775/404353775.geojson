@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_60683",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Villers-Saint-Genest",
+    "eurostat:nuts_2021_id":"60683",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE22",
+    "eurostat:nuts_2021_level_lau":"60683",
+    "eurostat:population":389,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"246000871",
     "frgov:id":"BDCSURCO0000000009587157",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001187,
-    "geom:area_square_m":9605819.967883,
+    "geom:area_square_m":9605819.967881,
     "geom:bbox":"2.85848522185,49.1268757002,2.93563515947,49.1547506476",
     "geom:latitude":49.140649,
     "geom:longitude":2.900574,
@@ -123,6 +135,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683289,
         102191581,
@@ -133,7 +147,10 @@
         102065197
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_60683",
+        "eurostat:nuts_2021_id":"60683"
+    },
     "wof:coterminous":[
         101879303
     ],
@@ -141,7 +158,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"397d63657a7fa7797fe4ddd53c57761a",
+    "wof:geomhash":"310fbed38144db0ea3463420d3f33511",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -155,11 +172,13 @@
         }
     ],
     "wof:id":404353775,
-    "wof:lastmodified":1582324141,
+    "wof:lastmodified":1684352668,
     "wof:name":"Villers-Saint-Genest",
     "wof:parent_id":102065197,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":389,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

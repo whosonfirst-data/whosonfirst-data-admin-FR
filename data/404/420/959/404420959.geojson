@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_60518",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Puits-la-Vall\u00e9e",
+    "eurostat:nuts_2021_id":"60518",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE22",
+    "eurostat:nuts_2021_level_lau":"60518",
+    "eurostat:population":203,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068005",
     "frgov:id":"BDCSURCO0000000009583918",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000539,
-    "geom:area_square_m":4324393.365956,
+    "geom:area_square_m":4324393.365955,
     "geom:bbox":"2.17374322329,49.5706188541,2.20851088949,49.5993478496",
     "geom:latitude":49.583713,
     "geom:longitude":2.190078,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683289,
         102191581,
@@ -58,7 +72,10 @@
         102067275
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_60518",
+        "eurostat:nuts_2021_id":"60518"
+    },
     "wof:coterminous":[
         101901365
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f4375fe0a86fbdf78e2a26b1d28e08db",
+    "wof:geomhash":"7c741ef65fad9c16dba56e00b6df18f2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404420959,
-    "wof:lastmodified":1582325205,
+    "wof:lastmodified":1684353496,
     "wof:name":"Puits-La-Vallee",
     "wof:parent_id":102067275,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":203,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

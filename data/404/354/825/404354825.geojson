@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_21681",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Vieux-Ch\u00e2teau",
+    "eurostat:nuts_2021_id":"21681",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC11",
+    "eurostat:nuts_2021_level_lau":"21681",
+    "eurostat:population":85,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071017",
     "frgov:id":"BDCSURCO0000000009598318",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00077,
-    "geom:area_square_m":6436008.030206,
+    "geom:area_square_m":6436008.030207,
     "geom:bbox":"4.11807003425,47.4402540898,4.16603145393,47.4909838228",
     "geom:latitude":47.470872,
     "geom:longitude":4.135817,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683563,
         102191581,
@@ -58,7 +72,10 @@
         102070311
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_21681",
+        "eurostat:nuts_2021_id":"21681"
+    },
     "wof:coterminous":[
         1125846687
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"027121432cf884b3290e249cce4b42ed",
+    "wof:geomhash":"df35339634bf772c6b407b5765cf3bc8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404354825,
-    "wof:lastmodified":1582324097,
+    "wof:lastmodified":1684352683,
     "wof:name":"Vieux-Chateau",
     "wof:parent_id":102070311,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":85,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

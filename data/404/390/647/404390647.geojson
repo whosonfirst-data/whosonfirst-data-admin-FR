@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_60581",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Just-en-Chauss\u00e9e",
+    "eurostat:nuts_2021_id":"60581",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE22",
+    "eurostat:nuts_2021_level_lau":"60581",
+    "eurostat:population":6013,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"246000566",
     "frgov:id":"BDCSURCO0000000009584624",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001825,
-    "geom:area_square_m":14648498.723943,
+    "geom:area_square_m":14648498.723942,
     "geom:bbox":"2.38394619687,49.4887142866,2.44500348501,49.537901241",
     "geom:latitude":49.511208,
     "geom:longitude":2.417475,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683289,
         102191581,
@@ -58,7 +72,10 @@
         102070281
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_60581",
+        "eurostat:nuts_2021_id":"60581"
+    },
     "wof:coterminous":[
         101814931
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"eceede27d31edd3e215b4e8f6c81d862",
+    "wof:geomhash":"05ad9096aed5e2ba210092b50ac5511e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404390647,
-    "wof:lastmodified":1582324272,
+    "wof:lastmodified":1684353138,
     "wof:name":"Saint-Just-En-Chaussee",
     "wof:parent_id":102070281,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":6013,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

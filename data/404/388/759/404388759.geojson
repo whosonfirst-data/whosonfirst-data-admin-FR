@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_66001",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Alb\u00e8re",
+    "eurostat:nuts_2021_id":"66001",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ15",
+    "eurostat:nuts_2021_level_lau":"66001",
+    "eurostat:population":80,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"246600373",
     "frgov:id":"BDCSURCO0000000009616716",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683169,
         102191581,
@@ -58,7 +72,10 @@
         102064679
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_66001",
+        "eurostat:nuts_2021_id":"66001"
+    },
     "wof:coterminous":[
         1125978517
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"1e3a7f88644391acf0c0441f2b8a5bdc",
+    "wof:geomhash":"9c2f973d28e3f99fefdf41dabb989421",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404388759,
-    "wof:lastmodified":1582325485,
+    "wof:lastmodified":1684353114,
     "wof:name":"L'Albere",
     "wof:parent_id":102064679,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":80,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

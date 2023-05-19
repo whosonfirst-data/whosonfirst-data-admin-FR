@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_35245",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Romill\u00e9",
+    "eurostat:nuts_2021_id":"35245",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH03",
+    "eurostat:nuts_2021_level_lau":"35245",
+    "eurostat:population":3905,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243500139",
     "frgov:id":"BDCSURCO0000000009594240",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BRETAGNE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003512,
-    "geom:area_square_m":28928653.189136,
+    "geom:area_square_m":28928653.189135,
     "geom:bbox":"-1.92271013494,48.1939277111,-1.82654963905,48.2602495076",
     "geom:latitude":48.222314,
     "geom:longitude":-1.878804,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683461,
         102191581,
@@ -57,7 +71,10 @@
         102064975
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_35245",
+        "eurostat:nuts_2021_id":"35245"
+    },
     "wof:coterminous":[
         101762373
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"1cb4b0af9efd1af509732a7575ff570f",
+    "wof:geomhash":"ffbeb9bb9e0c44a04eecf11a49ed6158",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404351149,
-    "wof:lastmodified":1582324964,
+    "wof:lastmodified":1684352633,
     "wof:name":"Romille",
     "wof:parent_id":102064975,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3905,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

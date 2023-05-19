@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_41030",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Cell\u00e9",
+    "eurostat:nuts_2021_id":"41030",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB05",
+    "eurostat:nuts_2021_level_lau":"41030",
+    "eurostat:population":225,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072072",
     "frgov:id":"BDCSURCO0000000009596489",
     "frgov:insee_arr":"2",
@@ -204,6 +216,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683349,
         102191581,
@@ -213,7 +227,10 @@
         102068215
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_41030",
+        "eurostat:nuts_2021_id":"41030"
+    },
     "wof:coterminous":[
         1125919569
     ],
@@ -221,7 +238,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e1244b7484acfd78b1d48a6bea21fdd8",
+    "wof:geomhash":"7d32fe27b613bf654cb22fab96584333",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -234,11 +251,13 @@
         }
     ],
     "wof:id":404424901,
-    "wof:lastmodified":1582324387,
+    "wof:lastmodified":1684353544,
     "wof:name":"Celle",
     "wof:parent_id":102068215,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":225,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

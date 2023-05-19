@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_44150",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Aignan-Grandlieu",
+    "eurostat:nuts_2021_id":"44150",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG01",
+    "eurostat:nuts_2021_level_lau":"44150",
+    "eurostat:population":3944,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244400404",
     "frgov:id":"BDCSURCO0000000009599901",
     "frgov:insee_arr":"2",
@@ -123,6 +135,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683233,
         102191581,
@@ -132,7 +146,10 @@
         102064913
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_44150",
+        "eurostat:nuts_2021_id":"44150"
+    },
     "wof:coterminous":[
         101829605
     ],
@@ -140,7 +157,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0d785560d83137b0cdeef56debb88198",
+    "wof:geomhash":"5c6e683f35cd5b7419b56830e5c967e0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -153,11 +170,13 @@
         }
     ],
     "wof:id":404420797,
-    "wof:lastmodified":1582325195,
+    "wof:lastmodified":1684353494,
     "wof:name":"Saint-Aignan-Grandlieu",
     "wof:parent_id":102064913,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3944,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

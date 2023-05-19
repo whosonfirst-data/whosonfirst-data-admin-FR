@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_26313",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Marcel-l\u00e8s-Valence",
+    "eurostat:nuts_2021_id":"26313",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK23",
+    "eurostat:nuts_2021_level_lau":"26313",
+    "eurostat:population":6236,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068781",
     "frgov:id":"BDCSURCO0000000009608296",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001704,
-    "geom:area_square_m":14902727.333596,
+    "geom:area_square_m":14902727.333595,
     "geom:bbox":"4.91681522648,44.9517751412,4.98440085437,44.9929935114",
     "geom:latitude":44.97238,
     "geom:longitude":4.950825,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683523,
         102191581,
@@ -58,7 +72,10 @@
         102070171
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_26313",
+        "eurostat:nuts_2021_id":"26313"
+    },
     "wof:coterminous":[
         101771737
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8200dcbf255937d7eeabcb8a236bed98",
+    "wof:geomhash":"083b89c66b0b9a7e8fa6b1c01173c672",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404393817,
-    "wof:lastmodified":1582325010,
+    "wof:lastmodified":1684353177,
     "wof:name":"Saint-Marcel-Les-Valence",
     "wof:parent_id":102070171,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":6236,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_04063",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Corbi\u00e8res",
+    "eurostat:nuts_2021_id":"04063",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL01",
+    "eurostat:nuts_2021_level_lau":"04063",
+    "eurostat:population":1184,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200034700",
     "frgov:id":"BDCSURCO0000000009612627",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.002094,
-    "geom:area_square_m":18702310.363317,
+    "geom:area_square_m":18702310.363316,
     "geom:bbox":"5.7128939475,43.729407543,5.78344751142,43.7893771932",
     "geom:latitude":43.760927,
     "geom:longitude":5.745387,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683509,
         102191581,
@@ -57,7 +71,10 @@
         102070199
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_04063",
+        "eurostat:nuts_2021_id":"04063"
+    },
     "wof:coterminous":[
         1125898517
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"57057b69af43f749348f987696a96cba",
+    "wof:geomhash":"fd81ed1fe23592df34350a55f1c469fa",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404379923,
-    "wof:lastmodified":1582324527,
+    "wof:lastmodified":1684353010,
     "wof:name":"Corbieres",
     "wof:parent_id":102070199,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1184,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

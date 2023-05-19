@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_06119",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Dalmas-le-Selvage",
+    "eurostat:nuts_2021_id":"06119",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL03",
+    "eurostat:nuts_2021_level_lau":"06119",
+    "eurostat:population":118,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200030195",
     "frgov:id":"BDCSURCO0000000009610801",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683323,
         102191581,
@@ -57,7 +71,10 @@
         102068377
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_06119",
+        "eurostat:nuts_2021_id":"06119"
+    },
     "wof:coterminous":[
         1125806599
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8628a0e610164f2df9085f97ce45ce85",
+    "wof:geomhash":"3fbdfbd413ecb41f32e3b9a9d55cb0a2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404420799,
-    "wof:lastmodified":1582325196,
+    "wof:lastmodified":1684353494,
     "wof:name":"Saint-Dalmas-Le-Selvage",
     "wof:parent_id":102068377,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":118,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

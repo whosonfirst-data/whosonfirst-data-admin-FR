@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_14023",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Asni\u00e8res-en-Bessin",
+    "eurostat:nuts_2021_id":"14023",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD11",
+    "eurostat:nuts_2021_level_lau":"14023",
+    "eurostat:population":65,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066801",
     "frgov:id":"BDCSURCO0000000009585473",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000568,
-    "geom:area_square_m":4576734.540783,
+    "geom:area_square_m":4576734.540782,
     "geom:bbox":"-0.954380613094,49.3408957682,-0.922616444198,49.3803487133",
     "geom:latitude":49.360062,
     "geom:longitude":-0.937862,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683579,
         102191581,
@@ -58,7 +72,10 @@
         102067951
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_14023",
+        "eurostat:nuts_2021_id":"14023"
+    },
     "wof:coterminous":[
         1125984181
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6bf71ebaeb9bfd6001e54dc9720684d8",
+    "wof:geomhash":"9f21ab41f05b394a9ce5e62238a90580",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404412605,
-    "wof:lastmodified":1582324373,
+    "wof:lastmodified":1684353396,
     "wof:name":"Asnieres-En-Bessin",
     "wof:parent_id":102067951,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":65,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

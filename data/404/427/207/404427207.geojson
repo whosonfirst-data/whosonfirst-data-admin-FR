@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_41224",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Marc-du-Cor",
+    "eurostat:nuts_2021_id":"41224",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB05",
+    "eurostat:nuts_2021_level_lau":"41224",
+    "eurostat:population":183,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244100293",
     "frgov:id":"BDCSURCO0000000009595822",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001564,
-    "geom:area_square_m":12952205.186419,
+    "geom:area_square_m":12952205.18642,
     "geom:bbox":"0.932199381572,47.9525154211,1.00717121703,47.9828502384",
     "geom:latitude":47.96852,
     "geom:longitude":0.968225,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683349,
         102191581,
@@ -57,7 +71,10 @@
         102066311
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_41224",
+        "eurostat:nuts_2021_id":"41224"
+    },
     "wof:coterminous":[
         1125936039
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6b3555adee88ab8d2db31c6316944700",
+    "wof:geomhash":"7a74dd42ffe3cf307d374d45db5c4941",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404427207,
-    "wof:lastmodified":1582325245,
+    "wof:lastmodified":1684353571,
     "wof:name":"Saint-Marc-Du-Cor",
     "wof:parent_id":102066311,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":183,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

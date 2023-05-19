@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_27298",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Graveron-S\u00e9merville",
+    "eurostat:nuts_2021_id":"27298",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD21",
+    "eurostat:nuts_2021_level_lau":"27298",
+    "eurostat:population":303,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242700607",
     "frgov:id":"BDCSURCO0000000009587802",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000993,
-    "geom:area_square_m":8038958.169156,
+    "geom:area_square_m":8038958.169157,
     "geom:bbox":"0.946675842746,49.0739855714,0.991575956151,49.1207709363",
     "geom:latitude":49.095147,
     "geom:longitude":0.966267,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683283,
         102191581,
@@ -58,7 +72,10 @@
         102067303
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_27298",
+        "eurostat:nuts_2021_id":"27298"
+    },
     "wof:coterminous":[
         101879033
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3b25367e497e6c59057098ba804cef69",
+    "wof:geomhash":"42f88b7cb25f54a982ca5ca36ed9965c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404394699,
-    "wof:lastmodified":1582325036,
+    "wof:lastmodified":1684353187,
     "wof:name":"Graveron-Semerville",
     "wof:parent_id":102067303,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":303,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_24384",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Cassien",
+    "eurostat:nuts_2021_id":"24384",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI11",
+    "eurostat:nuts_2021_level_lau":"24384",
+    "eurostat:population":34,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200034833",
     "frgov:id":"BDCSURCO0000000009609520",
     "frgov:insee_arr":"1",
@@ -84,6 +96,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683331,
         102191581,
@@ -94,7 +108,10 @@
         102067953
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_24384",
+        "eurostat:nuts_2021_id":"24384"
+    },
     "wof:coterminous":[
         1125808969
     ],
@@ -102,7 +119,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"45622f8b012eef51333daf7fdcac2a9f",
+    "wof:geomhash":"4d0109e5380361d0e96092f115862a8b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -116,11 +133,13 @@
         }
     ],
     "wof:id":404401369,
-    "wof:lastmodified":1582324428,
+    "wof:lastmodified":1684353265,
     "wof:name":"Saint-Cassien",
     "wof:parent_id":102067953,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":34,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

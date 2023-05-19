@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_82111",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Miramont-de-Quercy",
+    "eurostat:nuts_2021_id":"82111",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ28",
+    "eurostat:nuts_2021_level_lau":"82111",
+    "eurostat:population":323,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040418",
     "frgov:id":"BDCSURCO0000000009611096",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00167,
-    "geom:area_square_m":14795134.850021,
+    "geom:area_square_m":14795134.85002,
     "geom:bbox":"1.02348504305,44.1994850528,1.08039156691,44.2520569466",
     "geom:latitude":44.228851,
     "geom:longitude":1.050203,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683217,
         102191581,
@@ -58,7 +72,10 @@
         102064687
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_82111",
+        "eurostat:nuts_2021_id":"82111"
+    },
     "wof:coterminous":[
         1126044943
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"333608989b3959e139e2ed60571b1e4f",
+    "wof:geomhash":"95f3ac589722a5b332070b30699af135",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404386541,
-    "wof:lastmodified":1582325457,
+    "wof:lastmodified":1684353088,
     "wof:name":"Miramont-De-Quercy",
     "wof:parent_id":102064687,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":323,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_11331",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Amans",
+    "eurostat:nuts_2021_id":"11331",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ11",
+    "eurostat:nuts_2021_level_lau":"11331",
+    "eurostat:population":64,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200035707",
     "frgov:id":"BDCSURCO0000000009614937",
     "frgov:insee_arr":"1",
@@ -85,6 +97,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683485,
         102191581,
@@ -95,7 +109,10 @@
         102065019
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_11331",
+        "eurostat:nuts_2021_id":"11331"
+    },
     "wof:coterminous":[
         1360676031
     ],
@@ -103,7 +120,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6f0ef50c247b3b3d803933f1e9708345",
+    "wof:geomhash":"eabe52437881913a54973441eeba5099",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -117,11 +134,13 @@
         }
     ],
     "wof:id":404382107,
-    "wof:lastmodified":1582324689,
+    "wof:lastmodified":1684353034,
     "wof:name":"Saint-Amans",
     "wof:parent_id":102065019,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":64,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

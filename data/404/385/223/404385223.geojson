@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_72297",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Marceau",
+    "eurostat:nuts_2021_id":"72297",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG04",
+    "eurostat:nuts_2021_level_lau":"72297",
+    "eurostat:population":560,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072700",
     "frgov:id":"BDCSURCO0000000009594553",
     "frgov:insee_arr":"2",
@@ -87,6 +99,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683279,
         102191581,
@@ -96,7 +110,10 @@
         102064571
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_72297",
+        "eurostat:nuts_2021_id":"72297"
+    },
     "wof:coterminous":[
         101883209
     ],
@@ -104,7 +121,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6ca4d065d01c89aafb0e29a44da0a9c6",
+    "wof:geomhash":"464fc9821ffa8363cd7dade6f4b90af5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -117,11 +134,13 @@
         }
     ],
     "wof:id":404385223,
-    "wof:lastmodified":1582324639,
+    "wof:lastmodified":1684353073,
     "wof:name":"Saint-Marceau",
     "wof:parent_id":102064571,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":560,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

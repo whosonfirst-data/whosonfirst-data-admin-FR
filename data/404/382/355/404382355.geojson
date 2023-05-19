@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_25268",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Germ\u00e9fontaine",
+    "eurostat:nuts_2021_id":"25268",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC21",
+    "eurostat:nuts_2021_level_lau":"25268",
+    "eurostat:population":122,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242504181",
     "frgov:id":"BDCSURCO0000000009599085",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001324,
-    "geom:area_square_m":11119307.031141,
+    "geom:area_square_m":11119307.031142,
     "geom:bbox":"6.45249330988,47.2084251793,6.5191308486,47.2426507454",
     "geom:latitude":47.22486,
     "geom:longitude":6.482911,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683239,
         102191581,
@@ -58,7 +72,10 @@
         102067887
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_25268",
+        "eurostat:nuts_2021_id":"25268"
+    },
     "wof:coterminous":[
         1126054975
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"889bc9a87ab675797af6ec8ef37592c1",
+    "wof:geomhash":"ecd0e95053ccfb9bee48828c8ad5fcca",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404382355,
-    "wof:lastmodified":1582324681,
+    "wof:lastmodified":1684353037,
     "wof:name":"Germefontaine",
     "wof:parent_id":102067887,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":122,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_51556",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Soudron",
+    "eurostat:nuts_2021_id":"51556",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF23",
+    "eurostat:nuts_2021_level_lau":"51556",
+    "eurostat:population":301,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066876",
     "frgov:id":"BDCSURCO0000000009590124",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.00527,
-    "geom:area_square_m":42893186.676117,
+    "geom:area_square_m":42893186.676116,
     "geom:bbox":"4.13026146355,48.7871495943,4.26193743037,48.8797570822",
     "geom:latitude":48.832882,
     "geom:longitude":4.199031,
@@ -108,6 +120,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683405,
         102191581,
@@ -118,7 +132,10 @@
         102066041
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_51556",
+        "eurostat:nuts_2021_id":"51556"
+    },
     "wof:coterminous":[
         101881213
     ],
@@ -126,7 +143,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b6c5736aa7b501b2c09d7d29c21c7424",
+    "wof:geomhash":"b2afc6ee45612669d85ae30d119c1399",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -140,11 +157,13 @@
         }
     ],
     "wof:id":404403793,
-    "wof:lastmodified":1582325295,
+    "wof:lastmodified":1684353293,
     "wof:name":"Soudron",
     "wof:parent_id":102066041,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":301,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

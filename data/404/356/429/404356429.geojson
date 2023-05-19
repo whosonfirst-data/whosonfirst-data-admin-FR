@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_87185",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Victurnien",
+    "eurostat:nuts_2021_id":"87185",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI23",
+    "eurostat:nuts_2021_level_lau":"87185",
+    "eurostat:population":1755,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200059400",
     "frgov:id":"BDCSURCO0000000009604849",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002486,
-    "geom:area_square_m":21399634.801379,
+    "geom:area_square_m":21399634.801378,
     "geom:bbox":"0.977567151465,45.8515112983,1.08313542172,45.9056943337",
     "geom:latitude":45.880529,
     "geom:longitude":1.024896,
@@ -132,6 +144,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683531,
         102191581,
@@ -142,7 +156,10 @@
         102068849
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_87185",
+        "eurostat:nuts_2021_id":"87185"
+    },
     "wof:coterminous":[
         101768259
     ],
@@ -150,7 +167,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d7658c5ef1c9de73b23108beee7e5318",
+    "wof:geomhash":"7f9fcc14bb06c4bc15aa1bad118bed02",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -164,11 +181,13 @@
         }
     ],
     "wof:id":404356429,
-    "wof:lastmodified":1582324936,
+    "wof:lastmodified":1684352704,
     "wof:name":"Saint-Victurnien",
     "wof:parent_id":102068849,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1755,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

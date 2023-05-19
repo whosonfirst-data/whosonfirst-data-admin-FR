@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_85248",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Martin-Lars-en-Sainte-Hermine",
+    "eurostat:nuts_2021_id":"85248",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG05",
+    "eurostat:nuts_2021_level_lau":"85248",
+    "eurostat:population":408,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200073260",
     "frgov:id":"BDCSURCO0000000009602092",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002215,
-    "geom:area_square_m":18823209.939952,
+    "geom:area_square_m":18823209.939954,
     "geom:bbox":"-1.01160304117,46.5661156401,-0.943482838421,46.6257270871",
     "geom:latitude":46.597385,
     "geom:longitude":-0.977045,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683409,
         102191581,
@@ -55,7 +69,10 @@
         102069305
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_85248",
+        "eurostat:nuts_2021_id":"85248"
+    },
     "wof:coterminous":[
         1360672779
     ],
@@ -63,7 +80,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d93e818d67f9346b33d9a25c444e94ed",
+    "wof:geomhash":"ccbd95b71665eb62153a5fbf8ea8ca9e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -76,11 +93,13 @@
         }
     ],
     "wof:id":404350203,
-    "wof:lastmodified":1582324850,
+    "wof:lastmodified":1684352619,
     "wof:name":"Saint-Martin-Lars-En-Sainte-Hermine",
     "wof:parent_id":102069305,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":408,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_70117",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ch\u00e2lonvillars",
+    "eurostat:nuts_2021_id":"70117",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC23",
+    "eurostat:nuts_2021_level_lau":"70117",
+    "eurostat:population":1248,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247000722",
     "frgov:id":"BDCSURCO0000000009596996",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000917,
-    "geom:area_square_m":7643250.981644,
+    "geom:area_square_m":7643250.981643,
     "geom:bbox":"6.7522118242,47.6238695921,6.80103447418,47.6516594721",
     "geom:latitude":47.637875,
     "geom:longitude":6.776948,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683559,
         102191581,
@@ -58,7 +72,10 @@
         102069789
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_70117",
+        "eurostat:nuts_2021_id":"70117"
+    },
     "wof:coterminous":[
         101765603
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e9ea2d90bdf0d0ae4fd3475f13f210ee",
+    "wof:geomhash":"51c7686d942aac2e6bee113ad7971e7f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404384897,
-    "wof:lastmodified":1582324625,
+    "wof:lastmodified":1684353069,
     "wof:name":"Chalonvillars",
     "wof:parent_id":102069789,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1248,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

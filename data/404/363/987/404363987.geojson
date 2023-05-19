@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_45153",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Germigny-des-Pr\u00e9s",
+    "eurostat:nuts_2021_id":"45153",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB06",
+    "eurostat:nuts_2021_level_lau":"45153",
+    "eurostat:population":722,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070100",
     "frgov:id":"BDCSURCO0000000009596452",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683479,
         102191581,
@@ -57,7 +71,10 @@
         102065307
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_45153",
+        "eurostat:nuts_2021_id":"45153"
+    },
     "wof:coterminous":[
         101885847
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3caac6e63ad96d5b00316b488b10b5df",
+    "wof:geomhash":"30fbf7c922474c68fe46a5945e37df0c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404363987,
-    "wof:lastmodified":1582324235,
+    "wof:lastmodified":1684352809,
     "wof:name":"Germigny-Des-Pres",
     "wof:parent_id":102065307,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":722,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_87046",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Cognac-la-For\u00eat",
+    "eurostat:nuts_2021_id":"87046",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI23",
+    "eurostat:nuts_2021_level_lau":"87046",
+    "eurostat:population":1185,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066520",
     "frgov:id":"BDCSURCO0000000009605105",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003692,
-    "geom:area_square_m":31802906.380195,
+    "geom:area_square_m":31802906.380194,
     "geom:bbox":"0.953113957194,45.7991586143,1.06411322387,45.8740949378",
     "geom:latitude":45.836669,
     "geom:longitude":1.004919,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683531,
         102191581,
@@ -58,7 +72,10 @@
         102069037
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_87046",
+        "eurostat:nuts_2021_id":"87046"
+    },
     "wof:coterminous":[
         101892545
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f2dfc311fb529f83cbd2daa24df68e25",
+    "wof:geomhash":"cf0cd86ef2e0c55d453fe7b9a8d0530d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404347589,
-    "wof:lastmodified":1582324725,
+    "wof:lastmodified":1684352583,
     "wof:name":"Cognac-La-Foret",
     "wof:parent_id":102069037,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1185,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

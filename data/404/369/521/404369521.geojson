@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_50513",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Martin-de-Cenilly",
+    "eurostat:nuts_2021_id":"50513",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD12",
+    "eurostat:nuts_2021_level_lau":"50513",
+    "eurostat:population":182,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067023",
     "frgov:id":"BDCSURCO0000000009588413",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000832,
-    "geom:area_square_m":6749193.596379,
+    "geom:area_square_m":6749193.596378,
     "geom:bbox":"-1.30707527825,48.9625817226,-1.26480259005,48.9937502402",
     "geom:latitude":48.9781,
     "geom:longitude":-1.285788,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683489,
         102191581,
@@ -58,7 +72,10 @@
         102066157
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_50513",
+        "eurostat:nuts_2021_id":"50513"
+    },
     "wof:coterminous":[
         1125815003
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f5858db1baeac4d2f01f966ae3558659",
+    "wof:geomhash":"451ca29c06dc86c6e359508c23e87303",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404369521,
-    "wof:lastmodified":1582324912,
+    "wof:lastmodified":1684352885,
     "wof:name":"Saint-Martin-De-Cenilly",
     "wof:parent_id":102066157,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":182,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

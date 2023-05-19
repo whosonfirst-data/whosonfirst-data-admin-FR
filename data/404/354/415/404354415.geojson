@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_12201",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rodelle",
+    "eurostat:nuts_2021_id":"12201",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ22",
+    "eurostat:nuts_2021_level_lau":"12201",
+    "eurostat:population":1066,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067478",
     "frgov:id":"BDCSURCO0000000009610537",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.006074,
-    "geom:area_square_m":53588469.764103,
+    "geom:area_square_m":53588469.764104,
     "geom:bbox":"2.58170597231,44.4223306026,2.67218670551,44.5357018472",
     "geom:latitude":44.481655,
     "geom:longitude":2.622434,
@@ -123,6 +135,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683301,
         102191581,
@@ -133,7 +147,10 @@
         102064713
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_12201",
+        "eurostat:nuts_2021_id":"12201"
+    },
     "wof:coterminous":[
         1125850147
     ],
@@ -141,7 +158,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7cc7e6b80f28c63a744d82e7f9c14571",
+    "wof:geomhash":"59a870251f0c441311042f3d60ed13a9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -155,11 +172,13 @@
         }
     ],
     "wof:id":404354415,
-    "wof:lastmodified":1582324086,
+    "wof:lastmodified":1684352677,
     "wof:name":"Rodelle",
     "wof:parent_id":102064713,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1066,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

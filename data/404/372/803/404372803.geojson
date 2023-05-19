@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_15201",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Martin-sous-Vigouroux",
+    "eurostat:nuts_2021_id":"15201",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK12",
+    "eurostat:nuts_2021_level_lau":"15201",
+    "eurostat:population":236,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066660",
     "frgov:id":"BDCSURCO0000000009608761",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.002222,
-    "geom:area_square_m":19452766.50406,
+    "geom:area_square_m":19452766.504059,
     "geom:bbox":"2.77185523561,44.8874955735,2.82204049358,44.9992310558",
     "geom:latitude":44.935496,
     "geom:longitude":2.793237,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683517,
         102191581,
@@ -58,7 +72,10 @@
         102066713
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_15201",
+        "eurostat:nuts_2021_id":"15201"
+    },
     "wof:coterminous":[
         1125936681
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"00b2d20b5c8684bc50d3439cd443392a",
+    "wof:geomhash":"ef57be8e0cfb2e2a5096f240d8503e08",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404372803,
-    "wof:lastmodified":1582325463,
+    "wof:lastmodified":1684352922,
     "wof:name":"Saint-Martin-Sous-Vigouroux",
     "wof:parent_id":102066713,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":236,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

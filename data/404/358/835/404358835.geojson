@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_41209",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Firmin-des-Pr\u00e9s",
+    "eurostat:nuts_2021_id":"41209",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB05",
+    "eurostat:nuts_2021_level_lau":"41209",
+    "eurostat:population":824,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072072",
     "frgov:id":"BDCSURCO0000000009596481",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683349,
         102191581,
@@ -57,7 +71,10 @@
         102066877
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_41209",
+        "eurostat:nuts_2021_id":"41209"
+    },
     "wof:coterminous":[
         101885477
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d488d04a7042ae6cf71916fb29f1a371",
+    "wof:geomhash":"22baa79f1528235d869a364394fb0c0d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404358835,
-    "wof:lastmodified":1582324972,
+    "wof:lastmodified":1684352737,
     "wof:name":"Saint-Firmin-Des-Pres",
     "wof:parent_id":102066877,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":824,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

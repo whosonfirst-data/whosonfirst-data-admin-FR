@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_66111",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Montalba-le-Ch\u00e2teau",
+    "eurostat:nuts_2021_id":"66111",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ15",
+    "eurostat:nuts_2021_level_lau":"66111",
+    "eurostat:population":149,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"246600415",
     "frgov:id":"BDCSURCO0000000009616429",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001761,
-    "geom:area_square_m":15999974.595229,
+    "geom:area_square_m":15999974.595228,
     "geom:bbox":"2.53187713501,42.6748453284,2.59944705464,42.7229357026",
     "geom:latitude":42.699672,
     "geom:longitude":2.565529,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683169,
         102191581,
@@ -58,7 +72,10 @@
         102067723
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_66111",
+        "eurostat:nuts_2021_id":"66111"
+    },
     "wof:coterminous":[
         1125786831
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3487f058356e072e2fbb99d52ad20088",
+    "wof:geomhash":"ea30d1659e58c2dea239e2b316fdcb40",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404403083,
-    "wof:lastmodified":1582325289,
+    "wof:lastmodified":1684353285,
     "wof:name":"Montalba-Le-Chateau",
     "wof:parent_id":102067723,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":149,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

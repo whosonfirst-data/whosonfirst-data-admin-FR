@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_08109",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Chatel-Ch\u00e9h\u00e9ry",
+    "eurostat:nuts_2021_id":"08109",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF21",
+    "eurostat:nuts_2021_level_lau":"08109",
+    "eurostat:population":146,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240800920",
     "frgov:id":"BDCSURCO0000000009585611",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.001998,
-    "geom:area_square_m":16115472.708197,
+    "geom:area_square_m":16115472.708198,
     "geom:bbox":"4.90621243021,49.2602436418,5.00205341843,49.3008707149",
     "geom:latitude":49.278612,
     "geom:longitude":4.952194,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683309,
         102191581,
@@ -58,7 +72,10 @@
         102066563
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_08109",
+        "eurostat:nuts_2021_id":"08109"
+    },
     "wof:coterminous":[
         101879467
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7720d085150671703afb78532bce1cf2",
+    "wof:geomhash":"33c6f842440fb4c5960bcede5c14aaa6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404358103,
-    "wof:lastmodified":1582324966,
+    "wof:lastmodified":1684352727,
     "wof:name":"Chatel-Chehery",
     "wof:parent_id":102066563,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":146,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

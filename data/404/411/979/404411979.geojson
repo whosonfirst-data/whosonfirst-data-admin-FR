@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_31072",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Boiss\u00e8de",
+    "eurostat:nuts_2021_id":"31072",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ23",
+    "eurostat:nuts_2021_level_lau":"31072",
+    "eurostat:population":70,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072643",
     "frgov:id":"BDCSURCO0000000258855066",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000437,
-    "geom:area_square_m":3928010.336057,
+    "geom:area_square_m":3928010.336058,
     "geom:bbox":"0.807662553821,43.397852406,0.848204294115,43.4169750226",
     "geom:latitude":43.407296,
     "geom:longitude":0.826348,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683397,
         102191581,
@@ -58,7 +72,10 @@
         102067255
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_31072",
+        "eurostat:nuts_2021_id":"31072"
+    },
     "wof:coterminous":[
         1126038115
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7f81329702b88fa540eb4cc5e3604adc",
+    "wof:geomhash":"e559a37bed81a5b8eb5d31392f0087f6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404411979,
-    "wof:lastmodified":1582325166,
+    "wof:lastmodified":1684353389,
     "wof:name":"Boissede",
     "wof:parent_id":102067255,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":70,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

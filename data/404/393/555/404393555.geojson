@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_47150",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Longueville",
+    "eurostat:nuts_2021_id":"47150",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI14",
+    "eurostat:nuts_2021_level_lau":"47150",
+    "eurostat:population":366,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200030674",
     "frgov:id":"BDCSURCO0000000009610420",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000543,
-    "geom:area_square_m":4791321.662984,
+    "geom:area_square_m":4791321.662985,
     "geom:bbox":"0.198157276059,44.4524852904,0.241096144643,44.4752065729",
     "geom:latitude":44.462613,
     "geom:longitude":0.21933,
@@ -97,6 +109,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683341,
         102191581,
@@ -107,7 +121,10 @@
         102067823
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_47150",
+        "eurostat:nuts_2021_id":"47150"
+    },
     "wof:coterminous":[
         1360677119
     ],
@@ -115,7 +132,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3166d83d9bca670a06033831a5bf3a3e",
+    "wof:geomhash":"b3748121aebd99d2ffed69318d3ac38e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -129,11 +146,13 @@
         }
     ],
     "wof:id":404393555,
-    "wof:lastmodified":1582325015,
+    "wof:lastmodified":1684353174,
     "wof:name":"Longueville",
     "wof:parent_id":102067823,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":366,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_72381",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Voivres-l\u00e8s-le-Mans",
+    "eurostat:nuts_2021_id":"72381",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG04",
+    "eurostat:nuts_2021_level_lau":"72381",
+    "eurostat:population":1377,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247200629",
     "frgov:id":"BDCSURCO0000000009595843",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001396,
-    "geom:area_square_m":11566963.272142,
+    "geom:area_square_m":11566963.272143,
     "geom:bbox":"0.034434607906,47.9093818307,0.121527254509,47.9454220268",
     "geom:latitude":47.927746,
     "geom:longitude":0.084946,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683279,
         102191581,
@@ -57,7 +71,10 @@
         102069957
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_72381",
+        "eurostat:nuts_2021_id":"72381"
+    },
     "wof:coterminous":[
         1125835237
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"bcd336347830906fadb41a70fd7a0208",
+    "wof:geomhash":"b158cea9ccb0936a0cb3aa4a1980d6a6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404420509,
-    "wof:lastmodified":1582325206,
+    "wof:lastmodified":1684353489,
     "wof:name":"Voivres-Les-Le-Mans",
     "wof:parent_id":102069957,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1377,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

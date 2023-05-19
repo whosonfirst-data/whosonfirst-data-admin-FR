@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_38090",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ch\u00e2teau-Bernard",
+    "eurostat:nuts_2021_id":"38090",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK24",
+    "eurostat:nuts_2021_level_lau":"38090",
+    "eurostat:population":267,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200030658",
     "frgov:id":"BDCSURCO0000000009608279",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.002091,
-    "geom:area_square_m":18289179.97397,
+    "geom:area_square_m":18289179.973969,
     "geom:bbox":"5.52675556053,44.9609213767,5.60315398367,45.0046863372",
     "geom:latitude":44.981615,
     "geom:longitude":5.563931,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683427,
         102191581,
@@ -56,7 +70,10 @@
         102067575
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_38090",
+        "eurostat:nuts_2021_id":"38090"
+    },
     "wof:coterminous":[
         1360676885
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d43503b077711beae423b1b949858b7b",
+    "wof:geomhash":"d446fc2993a8afac77b26be25ec5e680",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404391341,
-    "wof:lastmodified":1582324013,
+    "wof:lastmodified":1684353148,
     "wof:name":"Chateau-Bernard",
     "wof:parent_id":102067575,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":267,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

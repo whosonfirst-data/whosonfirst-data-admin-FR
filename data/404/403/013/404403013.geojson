@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_28341",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Jean-de-Rebervilliers",
+    "eurostat:nuts_2021_id":"28341",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB02",
+    "eurostat:nuts_2021_level_lau":"28341",
+    "eurostat:population":241,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040277",
     "frgov:id":"BDCSURCO0000000009591599",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001335,
-    "geom:area_square_m":10909393.462523,
+    "geom:area_square_m":10909393.462525,
     "geom:bbox":"1.2303057171,48.6015318959,1.29009528397,48.6390004935",
     "geom:latitude":48.622731,
     "geom:longitude":1.25814,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683189,
         102191581,
@@ -57,7 +71,10 @@
         102066145
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_28341",
+        "eurostat:nuts_2021_id":"28341"
+    },
     "wof:coterminous":[
         1125812951
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8b03c45180fda3da691d926545472bba",
+    "wof:geomhash":"ea198a5630c22ee314a49edfd129dd3f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404403013,
-    "wof:lastmodified":1582325290,
+    "wof:lastmodified":1684353284,
     "wof:name":"Saint-Jean-De-Rebervilliers",
     "wof:parent_id":102066145,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":241,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

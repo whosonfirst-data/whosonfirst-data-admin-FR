@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_51161",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Cond\u00e9-sur-Marne",
+    "eurostat:nuts_2021_id":"51161",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF23",
+    "eurostat:nuts_2021_level_lau":"51161",
+    "eurostat:population":805,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066876",
     "frgov:id":"BDCSURCO0000000009588109",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.001513,
-    "geom:area_square_m":12260377.365802,
+    "geom:area_square_m":12260377.365801,
     "geom:bbox":"4.153302467,49.0228730888,4.21169772524,49.0689625221",
     "geom:latitude":49.046699,
     "geom:longitude":4.179834,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683405,
         102191581,
@@ -58,7 +72,10 @@
         102070511
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_51161",
+        "eurostat:nuts_2021_id":"51161"
+    },
     "wof:coterminous":[
         101877421
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"46319c91954db1197ddcb6ef51177be0",
+    "wof:geomhash":"35a57371c971dd54bc7eaf8b02decd47",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404421347,
-    "wof:lastmodified":1582325102,
+    "wof:lastmodified":1684353501,
     "wof:name":"Conde-Sur-Marne",
     "wof:parent_id":102070511,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":805,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

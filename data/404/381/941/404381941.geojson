@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_01072",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ceyz\u00e9riat",
+    "eurostat:nuts_2021_id":"01072",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK21",
+    "eurostat:nuts_2021_level_lau":"01072",
+    "eurostat:population":3157,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071751",
     "frgov:id":"BDCSURCO0000000009603459",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001076,
-    "geom:area_square_m":9208030.738169,
+    "geom:area_square_m":9208030.738168,
     "geom:bbox":"5.29371498555,46.1662355638,5.34453247812,46.1982259128",
     "geom:latitude":46.183389,
     "geom:longitude":5.319667,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683153,
         102191581,
@@ -58,7 +72,10 @@
         102065495
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_01072",
+        "eurostat:nuts_2021_id":"01072"
+    },
     "wof:coterminous":[
         101768167
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"569a65290a72926258d5c8de62cbdf5a",
+    "wof:geomhash":"927102772693fd581716eab86b4edef6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404381941,
-    "wof:lastmodified":1582325432,
+    "wof:lastmodified":1684353032,
     "wof:name":"Ceyzeriat",
     "wof:parent_id":102065495,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3157,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

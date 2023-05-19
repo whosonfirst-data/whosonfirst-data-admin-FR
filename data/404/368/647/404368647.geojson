@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_32103",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ch\u00e9lan",
+    "eurostat:nuts_2021_id":"32103",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ24",
+    "eurostat:nuts_2021_level_lau":"32103",
+    "eurostat:population":175,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072320",
     "frgov:id":"BDCSURCO0000000009614503",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001555,
-    "geom:area_square_m":13985680.356661,
+    "geom:area_square_m":13985680.356663,
     "geom:bbox":"0.514317735191,43.327053708,0.574036726125,43.3795849983",
     "geom:latitude":43.351294,
     "geom:longitude":0.544921,
@@ -81,6 +93,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683467,
         102191581,
@@ -91,7 +105,10 @@
         102067121
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_32103",
+        "eurostat:nuts_2021_id":"32103"
+    },
     "wof:coterminous":[
         101897265
     ],
@@ -99,7 +116,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"46c49d229b3c709e9aa49d7d03371163",
+    "wof:geomhash":"49308f163852852e1dac86c7eed3a9e5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -113,11 +130,13 @@
         }
     ],
     "wof:id":404368647,
-    "wof:lastmodified":1582324878,
+    "wof:lastmodified":1684352874,
     "wof:name":"Chelan",
     "wof:parent_id":102067121,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":175,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

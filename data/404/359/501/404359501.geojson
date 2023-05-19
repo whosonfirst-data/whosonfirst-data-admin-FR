@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_11357",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Martin-le-Vieil",
+    "eurostat:nuts_2021_id":"11357",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ11",
+    "eurostat:nuts_2021_level_lau":"11357",
+    "eurostat:population":226,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200035715",
     "frgov:id":"BDCSURCO0000000009614680",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001513,
-    "geom:area_square_m":13620819.517328,
+    "geom:area_square_m":13620819.517329,
     "geom:bbox":"2.12151406956,43.2647342848,2.19255517621,43.3201952191",
     "geom:latitude":43.293968,
     "geom:longitude":2.15327,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683485,
         102191581,
@@ -58,7 +72,10 @@
         102064441
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_11357",
+        "eurostat:nuts_2021_id":"11357"
+    },
     "wof:coterminous":[
         1125917449
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"12e913d00ca713ecce4269cef6fbb1d1",
+    "wof:geomhash":"044cc7f6137abdc62fd4195cda73084d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404359501,
-    "wof:lastmodified":1582324796,
+    "wof:lastmodified":1684352747,
     "wof:name":"Saint-Martin-Le-Vieil",
     "wof:parent_id":102064441,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":226,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

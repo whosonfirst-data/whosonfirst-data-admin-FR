@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_78381",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Maulette",
+    "eurostat:nuts_2021_id":"78381",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR103",
+    "eurostat:nuts_2021_level_lau":"78381",
+    "eurostat:population":972,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247800550",
     "frgov:id":"BDCSURCO0000000009590239",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"ILE-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000971,
-    "geom:area_square_m":7907925.953146,
+    "geom:area_square_m":7907925.953147,
     "geom:bbox":"1.58145872416,48.7631669406,1.64075688596,48.8052294127",
     "geom:latitude":48.783562,
     "geom:longitude":1.615972,
@@ -117,6 +129,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683367,
         102191581,
@@ -126,7 +140,10 @@
         102065655
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_78381",
+        "eurostat:nuts_2021_id":"78381"
+    },
     "wof:coterminous":[
         101879805
     ],
@@ -134,7 +151,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"39564c7b2f06201db85349c46f74ae13",
+    "wof:geomhash":"42d46661559c5ac89d6113b39916fb43",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -147,11 +164,13 @@
         }
     ],
     "wof:id":404408895,
-    "wof:lastmodified":1582324458,
+    "wof:lastmodified":1684353354,
     "wof:name":"Maulette",
     "wof:parent_id":102065655,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":972,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

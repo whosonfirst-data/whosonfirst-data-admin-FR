@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_44031",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Chapelle-Glain",
+    "eurostat:nuts_2021_id":"44031",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG01",
+    "eurostat:nuts_2021_level_lau":"44031",
+    "eurostat:population":812,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072726",
     "frgov:id":"BDCSURCO0000000009597561",
     "frgov:insee_arr":"5",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.004167,
-    "geom:area_square_m":34729977.136577,
+    "geom:area_square_m":34729977.136576,
     "geom:bbox":"-1.24674256782,47.5871931412,-1.13722183609,47.661595292",
     "geom:latitude":47.61995,
     "geom:longitude":-1.195036,
@@ -144,6 +156,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683233,
         102191581,
@@ -153,7 +167,10 @@
         102070723
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_44031",
+        "eurostat:nuts_2021_id":"44031"
+    },
     "wof:coterminous":[
         101885435
     ],
@@ -161,7 +178,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f271e143868c64580d23a3ffbbd4d9b0",
+    "wof:geomhash":"63a47aea0eefa30ae1daa779cd6a3115",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -174,11 +191,13 @@
         }
     ],
     "wof:id":404360535,
-    "wof:lastmodified":1582325042,
+    "wof:lastmodified":1684352761,
     "wof:name":"La Chapelle-Glain",
     "wof:parent_id":102070723,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":812,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

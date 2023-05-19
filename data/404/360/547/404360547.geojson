@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_21557",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Marc-sur-Seine",
+    "eurostat:nuts_2021_id":"21557",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC11",
+    "eurostat:nuts_2021_level_lau":"21557",
+    "eurostat:population":107,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242101434",
     "frgov:id":"BDCSURCO0000000009597092",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001009,
-    "geom:area_square_m":8392927.323417,
+    "geom:area_square_m":8392927.323418,
     "geom:bbox":"4.56019675286,47.6763279448,4.62274909373,47.7197101194",
     "geom:latitude":47.699859,
     "geom:longitude":4.600485,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683563,
         102191581,
@@ -58,7 +72,10 @@
         102064965
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_21557",
+        "eurostat:nuts_2021_id":"21557"
+    },
     "wof:coterminous":[
         1125984567
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7987099922917c43645c7faf124320a1",
+    "wof:geomhash":"a9eccfda683b982cd6e1d016a97d69e2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404360547,
-    "wof:lastmodified":1582325058,
+    "wof:lastmodified":1684352761,
     "wof:name":"Saint-Marc-Sur-Seine",
     "wof:parent_id":102064965,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":107,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_55462",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Maurice-sous-les-C\u00f4tes",
+    "eurostat:nuts_2021_id":"55462",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF32",
+    "eurostat:nuts_2021_level_lau":"55462",
+    "eurostat:population":352,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200034874",
     "frgov:id":"BDCSURCO0000000009588069",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683297,
         102191581,
@@ -58,7 +72,10 @@
         102069355
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_55462",
+        "eurostat:nuts_2021_id":"55462"
+    },
     "wof:coterminous":[
         101880447
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"969fefa906a8830c9215482075aeff44",
+    "wof:geomhash":"93b822164ae9838c74d5d5747b4241a1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404399435,
-    "wof:lastmodified":1582324157,
+    "wof:lastmodified":1684353243,
     "wof:name":"Saint-Maurice-Sous-Les-Cotes",
     "wof:parent_id":102069355,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":352,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

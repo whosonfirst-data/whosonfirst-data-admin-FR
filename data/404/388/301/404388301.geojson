@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_08459",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Tremblois-l\u00e8s-Carignan",
+    "eurostat:nuts_2021_id":"08459",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF21",
+    "eurostat:nuts_2021_level_lau":"08459",
+    "eurostat:population":168,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240800847",
     "frgov:id":"BDCSURCO0000000009583438",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683309,
         102191581,
@@ -58,7 +72,10 @@
         102064957
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_08459",
+        "eurostat:nuts_2021_id":"08459"
+    },
     "wof:coterminous":[
         1125826311
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"84280b04168cd0af277a9b538c893d99",
+    "wof:geomhash":"7c51bacf8a9837387a8912513d08033f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404388301,
-    "wof:lastmodified":1582325477,
+    "wof:lastmodified":1684353108,
     "wof:name":"Tremblois-Les-Carignan",
     "wof:parent_id":102064957,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":168,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

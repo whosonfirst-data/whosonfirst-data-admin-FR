@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_59545",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Souplet",
+    "eurostat:nuts_2021_id":"59545",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE1",
+    "eurostat:nuts_2021_level_3":"FRE11",
+    "eurostat:nuts_2021_level_lau":"59545",
+    "eurostat:population":1230,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200030633",
     "frgov:id":"BDCSURCO0000000009581909",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001588,
-    "geom:area_square_m":12604337.138646,
+    "geom:area_square_m":12604337.138647,
     "geom:bbox":"3.48276686469,50.0350802526,3.55649861603,50.0700702748",
     "geom:latitude":50.052806,
     "geom:longitude":3.515733,
@@ -123,6 +135,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683445,
         102191581,
@@ -133,7 +147,10 @@
         102067457
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_59545",
+        "eurostat:nuts_2021_id":"59545"
+    },
     "wof:coterminous":[
         101812735
     ],
@@ -141,7 +158,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"defefff7c8dee06c7d81e0af7ff37ae7",
+    "wof:geomhash":"3f62e300a0d86b775af96f0494d904a9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -155,11 +172,13 @@
         }
     ],
     "wof:id":404425865,
-    "wof:lastmodified":1582324310,
+    "wof:lastmodified":1684353555,
     "wof:name":"Saint-Souplet",
     "wof:parent_id":102067457,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1230,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

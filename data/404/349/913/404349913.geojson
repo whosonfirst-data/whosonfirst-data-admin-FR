@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_72255",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rouess\u00e9-Vass\u00e9",
+    "eurostat:nuts_2021_id":"72255",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG04",
+    "eurostat:nuts_2021_level_lau":"72255",
+    "eurostat:population":813,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072718",
     "frgov:id":"BDCSURCO0000000009594900",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003844,
-    "geom:area_square_m":31711771.506605,
+    "geom:area_square_m":31711771.506604,
     "geom:bbox":"-0.253808357225,48.1218533266,-0.136698110416,48.1880953948",
     "geom:latitude":48.154918,
     "geom:longitude":-0.200313,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683279,
         102191581,
@@ -57,7 +71,10 @@
         102069851
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_72255",
+        "eurostat:nuts_2021_id":"72255"
+    },
     "wof:coterminous":[
         101883157
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0e5964d5e7caddc7076328b83af7a3bc",
+    "wof:geomhash":"e6eef75bd2d97650626779e7389f85cb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404349913,
-    "wof:lastmodified":1582324708,
+    "wof:lastmodified":1684352615,
     "wof:name":"Rouesse-Vasse",
     "wof:parent_id":102069851,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":813,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

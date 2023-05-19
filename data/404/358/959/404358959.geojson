@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_33042",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Belin-B\u00e9liet",
+    "eurostat:nuts_2021_id":"33042",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI12",
+    "eurostat:nuts_2021_level_lau":"33042",
+    "eurostat:population":5529,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243301405",
     "frgov:id":"BDCSURCO0000000009610447",
     "frgov:insee_arr":"6",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.017682,
-    "geom:area_square_m":155984179.267596,
+    "geom:area_square_m":155984179.2676,
     "geom:bbox":"-0.919170454183,44.4181766718,-0.678721645289,44.5733715921",
     "geom:latitude":44.485978,
     "geom:longitude":-0.786538,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683243,
         102191581,
@@ -58,7 +72,10 @@
         102065203
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_33042",
+        "eurostat:nuts_2021_id":"33042"
+    },
     "wof:coterminous":[
         101771839
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"bc4f9387a11ecbf87f787afa71a3892f",
+    "wof:geomhash":"280f17211f64ae9130c0701c7d072c07",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404358959,
-    "wof:lastmodified":1582324976,
+    "wof:lastmodified":1684352739,
     "wof:name":"Belin-Beliet",
     "wof:parent_id":102065203,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":5529,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

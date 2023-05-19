@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_85158",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mouzeuil-Saint-Martin",
+    "eurostat:nuts_2021_id":"85158",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG05",
+    "eurostat:nuts_2021_level_lau":"85158",
+    "eurostat:population":1216,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071934",
     "frgov:id":"BDCSURCO0000000009602497",
     "frgov:insee_arr":"1",
@@ -111,6 +123,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683409,
         102191581,
@@ -120,7 +134,10 @@
         102065865
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_85158",
+        "eurostat:nuts_2021_id":"85158"
+    },
     "wof:coterminous":[
         101767143
     ],
@@ -128,7 +145,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5221c69ae70d0903e3c5d79a5f26cde3",
+    "wof:geomhash":"0284b7d454d57b378624d50bce59d17f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -141,11 +158,13 @@
         }
     ],
     "wof:id":404393097,
-    "wof:lastmodified":1582325012,
+    "wof:lastmodified":1684353169,
     "wof:name":"Mouzeuil-Saint-Martin",
     "wof:parent_id":102065865,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1216,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

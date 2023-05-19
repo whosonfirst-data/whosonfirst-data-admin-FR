@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_12240",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Parthem",
+    "eurostat:nuts_2021_id":"12240",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ22",
+    "eurostat:nuts_2021_level_lau":"12240",
+    "eurostat:population":406,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067064",
     "frgov:id":"BDCSURCO0000000009609913",
     "frgov:insee_arr":"3",
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683301,
         102191581,
@@ -139,7 +153,10 @@
         102066139
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_12240",
+        "eurostat:nuts_2021_id":"12240"
+    },
     "wof:coterminous":[
         1125776485
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2aaf0332eb23c7067a0991215cef84da",
+    "wof:geomhash":"69133f78c8bad460073ca7c5fadca00d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404366323,
-    "wof:lastmodified":1582324831,
+    "wof:lastmodified":1684352842,
     "wof:name":"Saint-Parthem",
     "wof:parent_id":102066139,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":406,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

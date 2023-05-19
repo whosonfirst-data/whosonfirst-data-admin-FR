@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_24432",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Julien-de-Lampon",
+    "eurostat:nuts_2021_id":"24432",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI11",
+    "eurostat:nuts_2021_level_lau":"24432",
+    "eurostat:population":626,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040830",
     "frgov:id":"BDCSURCO0000000009609021",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001521,
-    "geom:area_square_m":13333899.012625,
+    "geom:area_square_m":13333899.012624,
     "geom:bbox":"1.34890559344,44.8417343353,1.41264857189,44.88277416",
     "geom:latitude":44.862511,
     "geom:longitude":1.382735,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683331,
         102191581,
@@ -56,7 +70,10 @@
         102065791
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_24432",
+        "eurostat:nuts_2021_id":"24432"
+    },
     "wof:coterminous":[
         1360675725
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a3ebda1dcec45064842bd4d764d3a759",
+    "wof:geomhash":"3de2e63eec76669a04a20a9f85e205f9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404379425,
-    "wof:lastmodified":1582324523,
+    "wof:lastmodified":1684353004,
     "wof:name":"Saint-Julien-De-Lampon",
     "wof:parent_id":102065791,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":626,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

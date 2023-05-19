@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_89443",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"V\u00e9ron",
+    "eurostat:nuts_2021_id":"89443",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC14",
+    "eurostat:nuts_2021_level_lau":"89443",
+    "eurostat:population":1955,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248900334",
     "frgov:id":"BDCSURCO0000000009594801",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001915,
-    "geom:area_square_m":15809056.485049,
+    "geom:area_square_m":15809056.48505,
     "geom:bbox":"3.28139762261,48.1116810157,3.38418460029,48.1434665884",
     "geom:latitude":48.126339,
     "geom:longitude":3.332086,
@@ -78,6 +90,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683503,
         102191581,
@@ -88,7 +102,10 @@
         102071099
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_89443",
+        "eurostat:nuts_2021_id":"89443"
+    },
     "wof:coterminous":[
         101885725
     ],
@@ -96,7 +113,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"905900b1fdf9d749b1fd38af7371143d",
+    "wof:geomhash":"1bd5875619e1253b9c683503ca831f95",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -110,11 +127,13 @@
         }
     ],
     "wof:id":404371433,
-    "wof:lastmodified":1582324656,
+    "wof:lastmodified":1684352906,
     "wof:name":"Veron",
     "wof:parent_id":102071099,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1955,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

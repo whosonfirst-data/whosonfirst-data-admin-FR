@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_31486",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Hilaire",
+    "eurostat:nuts_2021_id":"31486",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ23",
+    "eurostat:nuts_2021_level_lau":"31486",
+    "eurostat:population":1219,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068641",
     "frgov:id":"BDCSURCO0000000009614196",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000707,
-    "geom:area_square_m":6349742.407097,
+    "geom:area_square_m":6349742.407098,
     "geom:bbox":"1.24316065102,43.4093812642,1.29468817655,43.4326220265",
     "geom:latitude":43.421116,
     "geom:longitude":1.268557,
@@ -102,6 +114,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683397,
         102191581,
@@ -112,7 +126,10 @@
         102068533
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_31486",
+        "eurostat:nuts_2021_id":"31486"
+    },
     "wof:coterminous":[
         101897105
     ],
@@ -120,7 +137,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3c2ee5497cd9df1c43c3ee3804bfb652",
+    "wof:geomhash":"1c1a7e9562807516f6691e84960e4ffd",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -134,11 +151,13 @@
         }
     ],
     "wof:id":404385685,
-    "wof:lastmodified":1582324638,
+    "wof:lastmodified":1684353078,
     "wof:name":"Saint-Hilaire",
     "wof:parent_id":102068533,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1219,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

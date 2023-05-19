@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_24038",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bertric-Bur\u00e9e",
+    "eurostat:nuts_2021_id":"24038",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI11",
+    "eurostat:nuts_2021_level_lau":"24038",
+    "eurostat:population":440,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040400",
     "frgov:id":"BDCSURCO0000000009607368",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00192,
-    "geom:area_square_m":16693319.891786,
+    "geom:area_square_m":16693319.891787,
     "geom:bbox":"0.321635112124,45.2846498635,0.386462887161,45.3323383785",
     "geom:latitude":45.308752,
     "geom:longitude":0.354455,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683331,
         102191581,
@@ -58,7 +72,10 @@
         102071329
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_24038",
+        "eurostat:nuts_2021_id":"24038"
+    },
     "wof:coterminous":[
         101893283
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"92c81a38b8e16f915b632c4a75ae71f7",
+    "wof:geomhash":"80723f588b7b4d044f336ef750f09adb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404376281,
-    "wof:lastmodified":1582324665,
+    "wof:lastmodified":1684352967,
     "wof:name":"Bertric-Buree",
     "wof:parent_id":102071329,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":440,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

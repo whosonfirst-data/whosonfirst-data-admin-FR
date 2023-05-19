@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_47245",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-G\u00e9raud",
+    "eurostat:nuts_2021_id":"47245",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI14",
+    "eurostat:nuts_2021_level_lau":"47245",
+    "eurostat:population":95,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244700449",
     "frgov:id":"BDCSURCO0000000009609764",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000651,
-    "geom:area_square_m":5732722.857735,
+    "geom:area_square_m":5732722.857734,
     "geom:bbox":"0.13637320218,44.6060185015,0.178479212499,44.6413146522",
     "geom:latitude":44.622318,
     "geom:longitude":0.157431,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683341,
         102191581,
@@ -58,7 +72,10 @@
         102069995
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_47245",
+        "eurostat:nuts_2021_id":"47245"
+    },
     "wof:coterminous":[
         1125795913
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2593f4b653e2d85bcc919f360a4d7fe8",
+    "wof:geomhash":"d0d7b0c0d1f90cf8412a5866e5917add",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404400401,
-    "wof:lastmodified":1582324507,
+    "wof:lastmodified":1684353254,
     "wof:name":"Saint-Geraud",
     "wof:parent_id":102069995,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":95,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

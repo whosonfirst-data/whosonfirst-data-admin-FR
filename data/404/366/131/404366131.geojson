@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_35206",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Noyal-Ch\u00e2tillon-sur-Seiche",
+    "eurostat:nuts_2021_id":"35206",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH03",
+    "eurostat:nuts_2021_level_lau":"35206",
+    "eurostat:population":6919,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243500139",
     "frgov:id":"BDCSURCO0000000009595238",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BRETAGNE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003194,
-    "geom:area_square_m":26400732.212108,
+    "geom:area_square_m":26400732.212107,
     "geom:bbox":"-1.70538227568,48.0229274536,-1.61599866671,48.0828919667",
     "geom:latitude":48.052229,
     "geom:longitude":-1.662652,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683461,
         102191581,
@@ -57,7 +71,10 @@
         102071459
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_35206",
+        "eurostat:nuts_2021_id":"35206"
+    },
     "wof:coterminous":[
         101754957
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a784fde8a914c8741091efddbc151cfe",
+    "wof:geomhash":"7b813669c7002dad7257cc6a767892c1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404366131,
-    "wof:lastmodified":1582324833,
+    "wof:lastmodified":1684352839,
     "wof:name":"Noyal-Chatillon-Sur-Seiche",
     "wof:parent_id":102071459,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":6919,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

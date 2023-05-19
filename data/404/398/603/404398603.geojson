@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_19047",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Chartrier-Ferri\u00e8re",
+    "eurostat:nuts_2021_id":"19047",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI21",
+    "eurostat:nuts_2021_level_lau":"19047",
+    "eurostat:population":369,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200043172",
     "frgov:id":"BDCSURCO0000000009608178",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001783,
-    "geom:area_square_m":15577117.562408,
+    "geom:area_square_m":15577117.562407,
     "geom:bbox":"1.39956399749,45.0301002502,1.46896444931,45.081414532",
     "geom:latitude":45.05823,
     "geom:longitude":1.434464,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683209,
         102191581,
@@ -58,7 +72,10 @@
         102066783
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_19047",
+        "eurostat:nuts_2021_id":"19047"
+    },
     "wof:coterminous":[
         1125813157
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ce8703715d571f0eb3d74fd9c2c42a8c",
+    "wof:geomhash":"a7f3b23dd48ff83e512b8c1bcfd59947",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404398603,
-    "wof:lastmodified":1582324109,
+    "wof:lastmodified":1684353233,
     "wof:name":"Chartrier-Ferriere",
     "wof:parent_id":102066783,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":369,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

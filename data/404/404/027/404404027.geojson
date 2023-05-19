@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_17084",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Champagnolles",
+    "eurostat:nuts_2021_id":"17084",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI32",
+    "eurostat:nuts_2021_level_lau":"17084",
+    "eurostat:population":648,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041523",
     "frgov:id":"BDCSURCO0000000009606457",
     "frgov:insee_arr":"1",
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683275,
         102191581,
@@ -139,7 +153,10 @@
         102069255
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_17084",
+        "eurostat:nuts_2021_id":"17084"
+    },
     "wof:coterminous":[
         101894123
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"cfc2db34782d2a2983d32c5f3e9c645a",
+    "wof:geomhash":"5e1fb1ca49711683e384d700614aea1d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404404027,
-    "wof:lastmodified":1582325314,
+    "wof:lastmodified":1684353295,
     "wof:name":"Champagnolles",
     "wof:parent_id":102069255,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":648,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

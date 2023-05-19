@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_17365",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Martin-d'Ary",
+    "eurostat:nuts_2021_id":"17365",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI32",
+    "eurostat:nuts_2021_level_lau":"17365",
+    "eurostat:population":473,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041523",
     "frgov:id":"BDCSURCO0000000009607599",
     "frgov:insee_arr":"1",
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683275,
         102191581,
@@ -56,7 +70,10 @@
         102067563
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_17365",
+        "eurostat:nuts_2021_id":"17365"
+    },
     "wof:coterminous":[
         1360672771
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3d878b83888a3aadd6066dba900dc9cb",
+    "wof:geomhash":"bc9b95a054113a0e257a1891a87803b5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404349995,
-    "wof:lastmodified":1582324709,
+    "wof:lastmodified":1684352616,
     "wof:name":"Saint-Martin-D'Ary",
     "wof:parent_id":102067563,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":473,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

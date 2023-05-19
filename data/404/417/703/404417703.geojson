@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_80404",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Guyencourt-Saulcourt",
+    "eurostat:nuts_2021_id":"80404",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE23",
+    "eurostat:nuts_2021_level_lau":"80404",
+    "eurostat:population":140,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200037059",
     "frgov:id":"BDCSURCO0000000009582095",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00063,
-    "geom:area_square_m":5011756.919761,
+    "geom:area_square_m":5011756.91976,
     "geom:bbox":"3.06158798113,49.9810438914,3.09921448206,50.0101590535",
     "geom:latitude":49.995302,
     "geom:longitude":3.081079,
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683363,
         102191581,
@@ -139,7 +153,10 @@
         102070707
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_80404",
+        "eurostat:nuts_2021_id":"80404"
+    },
     "wof:coterminous":[
         1125904791
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d6ed5b4f5222130afc910e5a970e97dd",
+    "wof:geomhash":"9a2043969b479299510020b2615ff257",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404417703,
-    "wof:lastmodified":1582325135,
+    "wof:lastmodified":1684353457,
     "wof:name":"Guyencourt-Saulcourt",
     "wof:parent_id":102070707,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":140,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

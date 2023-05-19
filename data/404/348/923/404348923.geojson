@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_07142",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lesp\u00e9ron",
+    "eurostat:nuts_2021_id":"07142",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK22",
+    "eurostat:nuts_2021_level_lau":"07142",
+    "eurostat:population":320,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072007",
     "frgov:id":"BDCSURCO0000000009609425",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.002895,
-    "geom:area_square_m":25427418.434835,
+    "geom:area_square_m":25427418.434833,
     "geom:bbox":"3.86130243895,44.6918623108,3.93895806728,44.769624916",
     "geom:latitude":44.734207,
     "geom:longitude":3.895055,
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683421,
         102191581,
@@ -136,7 +150,10 @@
         102065615
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_07142",
+        "eurostat:nuts_2021_id":"07142"
+    },
     "wof:coterminous":[
         1125912579
     ],
@@ -144,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9e60dc83db24c7ed21f8314f93ccecf7",
+    "wof:geomhash":"7334640991d1880bf65000563e9a2004",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +175,13 @@
         }
     ],
     "wof:id":404348923,
-    "wof:lastmodified":1582324583,
+    "wof:lastmodified":1684352601,
     "wof:name":"Lesperon",
     "wof:parent_id":102065615,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":320,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

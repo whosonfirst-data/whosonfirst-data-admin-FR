@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_52444",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Blin",
+    "eurostat:nuts_2021_id":"52444",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF24",
+    "eurostat:nuts_2021_level_lau":"52444",
+    "eurostat:population":381,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069664",
     "frgov:id":"BDCSURCO0000000009594011",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.002727,
-    "geom:area_square_m":22456723.25411,
+    "geom:area_square_m":22456723.254111,
     "geom:bbox":"5.38461116002,48.2133021594,5.44965372372,48.2892795721",
     "geom:latitude":48.251011,
     "geom:longitude":5.416485,
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683261,
         102191581,
@@ -136,7 +150,10 @@
         102068723
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_52444",
+        "eurostat:nuts_2021_id":"52444"
+    },
     "wof:coterminous":[
         101884393
     ],
@@ -144,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"59b382851a71050a36698de983473b95",
+    "wof:geomhash":"2930afb80f8da9d95450b7e1ac9d0bf9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +175,13 @@
         }
     ],
     "wof:id":404348267,
-    "wof:lastmodified":1582324580,
+    "wof:lastmodified":1684352592,
     "wof:name":"Saint-Blin",
     "wof:parent_id":102068723,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":381,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_70240",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Fontaine-l\u00e8s-Luxeuil",
+    "eurostat:nuts_2021_id":"70240",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC23",
+    "eurostat:nuts_2021_level_lau":"70240",
+    "eurostat:population":1351,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041721",
     "frgov:id":"BDCSURCO0000000009595983",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003359,
-    "geom:area_square_m":27864113.489025,
+    "geom:area_square_m":27864113.489023,
     "geom:bbox":"6.28662146755,47.8311612665,6.38108907087,47.8848823777",
     "geom:latitude":47.85982,
     "geom:longitude":6.334623,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683559,
         102191581,
@@ -58,7 +72,10 @@
         102068353
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_70240",
+        "eurostat:nuts_2021_id":"70240"
+    },
     "wof:coterminous":[
         101765591
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"286c3849fe0c2fbe54348069e29353ad",
+    "wof:geomhash":"169bc270bb5e8d9680cbbe3b63a3e94c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404367805,
-    "wof:lastmodified":1582324994,
+    "wof:lastmodified":1684352862,
     "wof:name":"Fontaine-Les-Luxeuil",
     "wof:parent_id":102068353,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1351,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

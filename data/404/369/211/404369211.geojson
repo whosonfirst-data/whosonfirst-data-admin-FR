@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_04191",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Martin-l\u00e8s-Seyne",
+    "eurostat:nuts_2021_id":"04191",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL01",
+    "eurostat:nuts_2021_level_lau":"04191",
+    "eurostat:population":14,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067437",
     "frgov:id":"BDCSURCO0000000009610455",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.001389,
-    "geom:area_square_m":12271877.591472,
+    "geom:area_square_m":12271877.591473,
     "geom:bbox":"6.22697265806,44.3591046458,6.27831619637,44.4122496667",
     "geom:latitude":44.382641,
     "geom:longitude":6.255996,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683509,
         102191581,
@@ -57,7 +71,10 @@
         102069167
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_04191",
+        "eurostat:nuts_2021_id":"04191"
+    },
     "wof:coterminous":[
         1125815381
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f9195d46c1e4f583012c16b37236664f",
+    "wof:geomhash":"d0be6e84dcdce07be687f22b437b0b6a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404369211,
-    "wof:lastmodified":1582324908,
+    "wof:lastmodified":1684352881,
     "wof:name":"Saint-Martin-Les-Seyne",
     "wof:parent_id":102069167,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":14,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

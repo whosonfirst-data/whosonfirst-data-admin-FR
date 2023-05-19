@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_41228",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Rimay",
+    "eurostat:nuts_2021_id":"41228",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB05",
+    "eurostat:nuts_2021_level_lau":"41228",
+    "eurostat:population":291,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072072",
     "frgov:id":"BDCSURCO0000000009596836",
     "frgov:insee_arr":"2",
@@ -120,6 +132,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683349,
         102191581,
@@ -129,7 +143,10 @@
         102066495
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_41228",
+        "eurostat:nuts_2021_id":"41228"
+    },
     "wof:coterminous":[
         101885545
     ],
@@ -137,7 +154,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"734c1bd34c5861d1f274dda2391a8b49",
+    "wof:geomhash":"c2551dae9f733649b9205b90ca55d50f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -150,11 +167,13 @@
         }
     ],
     "wof:id":404419109,
-    "wof:lastmodified":1582325069,
+    "wof:lastmodified":1684353473,
     "wof:name":"Saint-Rimay",
     "wof:parent_id":102066495,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":291,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

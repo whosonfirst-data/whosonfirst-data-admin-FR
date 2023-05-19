@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_54179",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"\u00c9ply",
+    "eurostat:nuts_2021_id":"54179",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF31",
+    "eurostat:nuts_2021_level_lau":"54179",
+    "eurostat:population":300,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070589",
     "frgov:id":"BDCSURCO0000000009588536",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.001388,
-    "geom:area_square_m":11276567.370852,
+    "geom:area_square_m":11276567.370853,
     "geom:bbox":"6.14854934099,48.9057820257,6.20901776751,48.9442172084",
     "geom:latitude":48.924987,
     "geom:longitude":6.181733,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683343,
         102191581,
@@ -58,7 +72,10 @@
         102068651
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_54179",
+        "eurostat:nuts_2021_id":"54179"
+    },
     "wof:coterminous":[
         101882743
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f22d477217f46ae5a8665ea63f20872a",
+    "wof:geomhash":"247ea176bc97b7ea5d400c3176026608",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404405851,
-    "wof:lastmodified":1582325255,
+    "wof:lastmodified":1684353318,
     "wof:name":"Eply",
     "wof:parent_id":102068651,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":300,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_03247",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Menoux",
+    "eurostat:nuts_2021_id":"03247",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK11",
+    "eurostat:nuts_2021_level_lau":"03247",
+    "eurostat:population":1045,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071496",
     "frgov:id":"BDCSURCO0000000009602198",
     "frgov:insee_arr":"2",
@@ -141,6 +153,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683293,
         102191581,
@@ -151,7 +165,10 @@
         102069319
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_03247",
+        "eurostat:nuts_2021_id":"03247"
+    },
     "wof:coterminous":[
         101891041
     ],
@@ -159,7 +176,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"22ba6f12f38775dddc6ab803bd3a74fc",
+    "wof:geomhash":"527cc7e7ff9a9119d72714897c24700d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -173,11 +190,13 @@
         }
     ],
     "wof:id":404368627,
-    "wof:lastmodified":1582324870,
+    "wof:lastmodified":1684352874,
     "wof:name":"Saint-Menoux",
     "wof:parent_id":102069319,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1045,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

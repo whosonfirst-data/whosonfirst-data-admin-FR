@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_76712",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Trinit\u00e9-du-Mont",
+    "eurostat:nuts_2021_id":"76712",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD22",
+    "eurostat:nuts_2021_level_lau":"76712",
+    "eurostat:population":798,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200010700",
     "frgov:id":"BDCSURCO0000000009584363",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683251,
         102191581,
@@ -58,7 +72,10 @@
         102070295
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_76712",
+        "eurostat:nuts_2021_id":"76712"
+    },
     "wof:coterminous":[
         1125766385
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"84b78cfdc6fb450c8dfe672dd71e9bb4",
+    "wof:geomhash":"ecdccdb178617a7842f6b18c5e1d82a0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404378521,
-    "wof:lastmodified":1582324738,
+    "wof:lastmodified":1684352993,
     "wof:name":"La Trinite-Du-Mont",
     "wof:parent_id":102070295,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":798,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

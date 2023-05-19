@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_38294",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Panossas",
+    "eurostat:nuts_2021_id":"38294",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK24",
+    "eurostat:nuts_2021_level_lau":"38294",
+    "eurostat:population":666,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068542",
     "frgov:id":"BDCSURCO0000000009605492",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.000931,
-    "geom:area_square_m":8044730.071126,
+    "geom:area_square_m":8044730.071125,
     "geom:bbox":"5.16491835998,45.6597118323,5.21570144998,45.6943969656",
     "geom:latitude":45.676065,
     "geom:longitude":5.193714,
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683427,
         102191581,
@@ -136,7 +150,10 @@
         102065699
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_38294",
+        "eurostat:nuts_2021_id":"38294"
+    },
     "wof:coterminous":[
         1125922997
     ],
@@ -144,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"56ad4595d4f7beb26f9ada9c8fcca5ff",
+    "wof:geomhash":"b34d59a0054da4e1318dbe3ed45ea50d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +175,13 @@
         }
     ],
     "wof:id":404393999,
-    "wof:lastmodified":1582325008,
+    "wof:lastmodified":1684353179,
     "wof:name":"Panossas",
     "wof:parent_id":102065699,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":666,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

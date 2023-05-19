@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_66230",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Vin\u00e7a",
+    "eurostat:nuts_2021_id":"66230",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ15",
+    "eurostat:nuts_2021_level_lau":"66230",
+    "eurostat:population":2075,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200049211",
     "frgov:id":"BDCSURCO0000000009616517",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000855,
-    "geom:area_square_m":7775896.993472,
+    "geom:area_square_m":7775896.993473,
     "geom:bbox":"2.49703129216,42.6284222688,2.54788584433,42.6577849138",
     "geom:latitude":42.643591,
     "geom:longitude":2.522974,
@@ -171,6 +183,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683169,
         102191581,
@@ -181,7 +195,10 @@
         102067723
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_66230",
+        "eurostat:nuts_2021_id":"66230"
+    },
     "wof:coterminous":[
         101775193
     ],
@@ -189,7 +206,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5a0a0445667165ba16643c3ae1d30784",
+    "wof:geomhash":"b343633e6eb15c0fa0157e87c26e4675",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -203,11 +220,13 @@
         }
     ],
     "wof:id":404378143,
-    "wof:lastmodified":1582324739,
+    "wof:lastmodified":1684352988,
     "wof:name":"Vinca",
     "wof:parent_id":102067723,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2075,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

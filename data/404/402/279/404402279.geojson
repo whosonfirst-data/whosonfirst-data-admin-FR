@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_03226",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Didier-en-Donjon",
+    "eurostat:nuts_2021_id":"03226",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK11",
+    "eurostat:nuts_2021_level_lau":"03226",
+    "eurostat:population":259,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071470",
     "frgov:id":"BDCSURCO0000000009602852",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.003866,
-    "geom:area_square_m":32976560.357381,
+    "geom:area_square_m":32976560.35738,
     "geom:bbox":"3.81287671875,46.3571093491,3.92658247324,46.4120467825",
     "geom:latitude":46.383189,
     "geom:longitude":3.861022,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683293,
         102191581,
@@ -58,7 +72,10 @@
         102065739
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_03226",
+        "eurostat:nuts_2021_id":"03226"
+    },
     "wof:coterminous":[
         1125810023
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5db187af463efec5e65571ee250706c8",
+    "wof:geomhash":"fe747cc9500141f45a160a3593943e03",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404402279,
-    "wof:lastmodified":1582325280,
+    "wof:lastmodified":1684353275,
     "wof:name":"Saint-Didier-En-Donjon",
     "wof:parent_id":102065739,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":259,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

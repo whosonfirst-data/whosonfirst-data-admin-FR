@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_44088",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Maisdon-sur-S\u00e8vre",
+    "eurostat:nuts_2021_id":"44088",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG01",
+    "eurostat:nuts_2021_level_lau":"44088",
+    "eurostat:population":2942,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067635",
     "frgov:id":"BDCSURCO0000000009600140",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683233,
         102191581,
@@ -57,7 +71,10 @@
         102064339
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_44088",
+        "eurostat:nuts_2021_id":"44088"
+    },
     "wof:coterminous":[
         101765957
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f4a567b84905822c9ea86fe11bf6bf72",
+    "wof:geomhash":"8572d285a4e46ee3542c6b39d1d6f3e0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404365029,
-    "wof:lastmodified":1582324038,
+    "wof:lastmodified":1684352824,
     "wof:name":"Maisdon-Sur-Sevre",
     "wof:parent_id":102064339,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2942,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

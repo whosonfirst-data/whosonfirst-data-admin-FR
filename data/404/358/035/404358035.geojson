@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_51230",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"\u00c9pernay",
+    "eurostat:nuts_2021_id":"51230",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF23",
+    "eurostat:nuts_2021_level_lau":"51230",
+    "eurostat:population":22671,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067684",
     "frgov:id":"BDCSURCO0000000009588129",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Sous-pr\u00e9fecture",
     "geom:area":0.002809,
-    "geom:area_square_m":22766665.912872,
+    "geom:area_square_m":22766665.912873,
     "geom:bbox":"3.862357,49.017723,3.993454,49.060261",
     "geom:latitude":49.036948,
     "geom:longitude":3.931482,
@@ -48,17 +60,22 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85683405,
         102191581,
         85633147,
-        102072157,
-        136253037,
         404227909,
         1108826391,
-        85683405
+        136253037,
+        102072157
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_51230",
+        "eurostat:nuts_2021_id":"51230"
+    },
     "wof:coterminous":[
         101828113,
         102072157
@@ -67,7 +84,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0ab575ae3cff6418641e7f4ba0da2ed3",
+    "wof:geomhash":"225aeb7c6453a71d4a6c557ccc300edc",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -81,11 +98,13 @@
         }
     ],
     "wof:id":404358035,
-    "wof:lastmodified":1608038136,
+    "wof:lastmodified":1684352726,
     "wof:name":"Epernay",
     "wof:parent_id":102072157,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Sous-pr\u00e9fecture",
+    "wof:population":22671,
+    "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

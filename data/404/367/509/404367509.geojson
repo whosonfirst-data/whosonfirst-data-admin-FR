@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_05006",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Argenti\u00e8re-la-Bess\u00e9e",
+    "eurostat:nuts_2021_id":"05006",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL02",
+    "eurostat:nuts_2021_level_lau":"05006",
+    "eurostat:population":2279,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240500462",
     "frgov:id":"BDCSURCO0000000009608893",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.007422,
-    "geom:area_square_m":65144658.207334,
+    "geom:area_square_m":65144658.207333,
     "geom:bbox":"6.35285970841,44.7571283205,6.59029520617,44.8097346488",
     "geom:latitude":44.782066,
     "geom:longitude":6.472003,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683597,
         102191581,
@@ -57,7 +71,10 @@
         102064431
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_05006",
+        "eurostat:nuts_2021_id":"05006"
+    },
     "wof:coterminous":[
         101771555
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7955f454b5ffcaba20f2d53c0cc93c37",
+    "wof:geomhash":"657b5b798c82b754c56e62bb94685712",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404367509,
-    "wof:lastmodified":1582324998,
+    "wof:lastmodified":1684352859,
     "wof:name":"L'Argentiere-La-Bessee",
     "wof:parent_id":102064431,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2279,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

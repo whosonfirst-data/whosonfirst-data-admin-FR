@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_53076",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Coss\u00e9-en-Champagne",
+    "eurostat:nuts_2021_id":"53076",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG03",
+    "eurostat:nuts_2021_level_lau":"53076",
+    "eurostat:population":323,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"245300223",
     "frgov:id":"BDCSURCO0000000009595854",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683401,
         102191581,
@@ -57,7 +71,10 @@
         102068407
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_53076",
+        "eurostat:nuts_2021_id":"53076"
+    },
     "wof:coterminous":[
         1125898649
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"58068b9c1a5ccffc08d55e0b6185f90f",
+    "wof:geomhash":"3777b3511eb96cd07f247df6f46cfd8c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404397929,
-    "wof:lastmodified":1582324214,
+    "wof:lastmodified":1684353224,
     "wof:name":"Cosse-En-Champagne",
     "wof:parent_id":102068407,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":323,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

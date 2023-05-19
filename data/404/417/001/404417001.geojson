@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_26312",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Marcel-l\u00e8s-Sauzet",
+    "eurostat:nuts_2021_id":"26312",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK23",
+    "eurostat:nuts_2021_level_lau":"26312",
+    "eurostat:population":1244,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040459",
     "frgov:id":"BDCSURCO0000000009609857",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683523,
         102191581,
@@ -58,7 +72,10 @@
         102067039
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_26312",
+        "eurostat:nuts_2021_id":"26312"
+    },
     "wof:coterminous":[
         101828863
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ddf2455cf68b8364cc92ea9987c7939c",
+    "wof:geomhash":"f1a53eff9876c3cdc1a863c27b9eb5be",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404417001,
-    "wof:lastmodified":1582325132,
+    "wof:lastmodified":1684353448,
     "wof:name":"Saint-Marcel-Les-Sauzet",
     "wof:parent_id":102067039,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1244,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

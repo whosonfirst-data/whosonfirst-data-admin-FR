@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_80461",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lamotte-Brebi\u00e8re",
+    "eurostat:nuts_2021_id":"80461",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE23",
+    "eurostat:nuts_2021_level_lau":"80461",
+    "eurostat:population":222,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248000499",
     "frgov:id":"BDCSURCO0000000009582497",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000534,
-    "geom:area_square_m":4251549.789962,
+    "geom:area_square_m":4251549.789963,
     "geom:bbox":"2.3759007759,49.8834331755,2.41496676864,49.9161168677",
     "geom:latitude":49.893801,
     "geom:longitude":2.394307,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683363,
         102191581,
@@ -58,7 +72,10 @@
         102067653
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_80461",
+        "eurostat:nuts_2021_id":"80461"
+    },
     "wof:coterminous":[
         1125769449
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7d762d4023e27087a023f4f94c58c50c",
+    "wof:geomhash":"0b87aa9c1aae17903e28b70b275bfa32",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404384001,
-    "wof:lastmodified":1582324617,
+    "wof:lastmodified":1684353059,
     "wof:name":"Lamotte-Brebiere",
     "wof:parent_id":102067653,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":222,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

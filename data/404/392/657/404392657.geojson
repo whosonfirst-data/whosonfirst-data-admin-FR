@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_77290",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"M\u00e9ry-sur-Marne",
+    "eurostat:nuts_2021_id":"77290",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR102",
+    "eurostat:nuts_2021_level_lau":"77290",
+    "eurostat:population":670,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247700024",
     "frgov:id":"BDCSURCO0000000009588641",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683385,
         102191581,
@@ -57,7 +71,10 @@
         102066447
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_77290",
+        "eurostat:nuts_2021_id":"77290"
+    },
     "wof:coterminous":[
         1125784671
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3e5869c8fab081ec8c772ae6ade65e6e",
+    "wof:geomhash":"b2e100b8f8c7475c7840f78f91b2b499",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404392657,
-    "wof:lastmodified":1582324812,
+    "wof:lastmodified":1684353164,
     "wof:name":"Mery-Sur-Marne",
     "wof:parent_id":102066447,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":670,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

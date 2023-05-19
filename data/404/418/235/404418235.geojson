@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_65420",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"S\u00e8re-en-Lavedan",
+    "eurostat:nuts_2021_id":"65420",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ26",
+    "eurostat:nuts_2021_level_lau":"65420",
+    "eurostat:population":74,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070811",
     "frgov:id":"BDCSURCO0000000009615729",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683203,
         102191581,
@@ -58,7 +72,10 @@
         102064277
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_65420",
+        "eurostat:nuts_2021_id":"65420"
+    },
     "wof:coterminous":[
         1125805727
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"77a36f1a48105cdb8706f6b162c1c1e0",
+    "wof:geomhash":"38af91e24697e3a416fa8c6eba4715db",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404418235,
-    "wof:lastmodified":1582325220,
+    "wof:lastmodified":1684353463,
     "wof:name":"Sere-En-Lavedan",
     "wof:parent_id":102064277,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":74,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

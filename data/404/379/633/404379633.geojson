@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_42236",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Hilaire-sous-Charlieu",
+    "eurostat:nuts_2021_id":"42236",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK25",
+    "eurostat:nuts_2021_level_lau":"42236",
+    "eurostat:population":535,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200035202",
     "frgov:id":"BDCSURCO0000000009603745",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001606,
-    "geom:area_square_m":13766324.355771,
+    "geom:area_square_m":13766324.355772,
     "geom:bbox":"4.15216771001,46.0987857465,4.21370105513,46.1422832725",
     "geom:latitude":46.120788,
     "geom:longitude":4.182903,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683377,
         102191581,
@@ -58,7 +72,10 @@
         102065097
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_42236",
+        "eurostat:nuts_2021_id":"42236"
+    },
     "wof:coterminous":[
         1125812365
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5a85fc55be7d60d3c80d3e9401c31a36",
+    "wof:geomhash":"588ccc22388e9a4f06fdd847f38dea54",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404379633,
-    "wof:lastmodified":1582324524,
+    "wof:lastmodified":1684353006,
     "wof:name":"Saint-Hilaire-Sous-Charlieu",
     "wof:parent_id":102065097,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":535,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_62759",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Martin-Choquel",
+    "eurostat:nuts_2021_id":"62759",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE1",
+    "eurostat:nuts_2021_level_3":"FRE12",
+    "eurostat:nuts_2021_level_lau":"62759",
+    "eurostat:population":482,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200018083",
     "frgov:id":"BDCSURCO0000000009580633",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000799,
-    "geom:area_square_m":6265452.722171,
+    "geom:area_square_m":6265452.722172,
     "geom:bbox":"1.87171739142,50.6495300915,1.90523768443,50.6866769311",
     "geom:latitude":50.668386,
     "geom:longitude":1.887307,
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683255,
         102191581,
@@ -139,7 +153,10 @@
         102068283
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_62759",
+        "eurostat:nuts_2021_id":"62759"
+    },
     "wof:coterminous":[
         1126023223
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4a794272337df9963f81e0ee4d97d80e",
+    "wof:geomhash":"9c7025c38983b97c25be51827d616be1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404423097,
-    "wof:lastmodified":1582324408,
+    "wof:lastmodified":1684353523,
     "wof:name":"Saint-Martin-Choquel",
     "wof:parent_id":102068283,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":482,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

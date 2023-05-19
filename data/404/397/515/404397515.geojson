@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_02117",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bray-Saint-Christophe",
+    "eurostat:nuts_2021_id":"02117",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE21",
+    "eurostat:nuts_2021_level_lau":"02117",
+    "eurostat:population":67,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071892",
     "frgov:id":"BDCSURCO0000000009582919",
     "frgov:insee_arr":"3",
@@ -138,6 +150,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683247,
         102191581,
@@ -148,7 +162,10 @@
         102069685
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_02117",
+        "eurostat:nuts_2021_id":"02117"
+    },
     "wof:coterminous":[
         1126039685
     ],
@@ -156,7 +173,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2f9a81c1243fda584a2239c3af9c23ef",
+    "wof:geomhash":"f261864276473ab2c55a5cbfabf6627b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -170,11 +187,13 @@
         }
     ],
     "wof:id":404397515,
-    "wof:lastmodified":1582324216,
+    "wof:lastmodified":1684353219,
     "wof:name":"Bray-Saint-Christophe",
     "wof:parent_id":102069685,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":67,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

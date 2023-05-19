@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_63299",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Renti\u00e8res",
+    "eurostat:nuts_2021_id":"63299",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK14",
+    "eurostat:nuts_2021_level_lau":"63299",
+    "eurostat:population":113,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070407",
     "frgov:id":"BDCSURCO0000000009606827",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683471,
         102191581,
@@ -58,7 +72,10 @@
         102064787
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_63299",
+        "eurostat:nuts_2021_id":"63299"
+    },
     "wof:coterminous":[
         1125801223
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"16942efaad73e863d0f94e9b6df5103c",
+    "wof:geomhash":"3cb8601a7e7dd928cd2b5914cbf70a81",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404364723,
-    "wof:lastmodified":1582324247,
+    "wof:lastmodified":1684352820,
     "wof:name":"Rentieres",
     "wof:parent_id":102064787,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":113,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

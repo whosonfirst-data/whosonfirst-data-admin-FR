@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_50239",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Th\u00e8reval",
+    "eurostat:nuts_2021_id":"50239",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD12",
+    "eurostat:nuts_2021_level_lau":"50239",
+    "eurostat:population":1800,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066389",
     "frgov:id":"BDCSURCO0000000009587393",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003548,
-    "geom:area_square_m":28711204.081651,
+    "geom:area_square_m":28711204.08165,
     "geom:bbox":"-1.24562055992,49.102216517,-1.13996188522,49.1586612852",
     "geom:latitude":49.127783,
     "geom:longitude":-1.193361,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683489,
         102191581,
@@ -58,7 +72,10 @@
         102068311
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_50239",
+        "eurostat:nuts_2021_id":"50239"
+    },
     "wof:coterminous":[
         1125893937
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d2f3fe7250b3f2c44f261c3cef10a095",
+    "wof:geomhash":"aae37dd4545af8062969f6d90c0763ae",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404412797,
-    "wof:lastmodified":1582324368,
+    "wof:lastmodified":1684353398,
     "wof:name":"Hebecrevon",
     "wof:parent_id":102068311,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1800,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

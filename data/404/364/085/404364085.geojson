@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_01383",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Paul-de-Varax",
+    "eurostat:nuts_2021_id":"01383",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK21",
+    "eurostat:nuts_2021_level_lau":"01383",
+    "eurostat:population":1529,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069193",
     "frgov:id":"BDCSURCO0000000009603707",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.003014,
-    "geom:area_square_m":25843758.948343,
+    "geom:area_square_m":25843758.948342,
     "geom:bbox":"5.08889790793,46.0671317548,5.17275566766,46.1226503841",
     "geom:latitude":46.095562,
     "geom:longitude":5.12763,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683153,
         102191581,
@@ -58,7 +72,10 @@
         102070525
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_01383",
+        "eurostat:nuts_2021_id":"01383"
+    },
     "wof:coterminous":[
         101768153
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"38a2c69f7472d0b24bd5b2da5c758d22",
+    "wof:geomhash":"b2984ec3a59002963db086b715614179",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404364085,
-    "wof:lastmodified":1582324242,
+    "wof:lastmodified":1684352811,
     "wof:name":"Saint-Paul-De-Varax",
     "wof:parent_id":102070525,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1529,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

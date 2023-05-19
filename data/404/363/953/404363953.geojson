@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_39476",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Aubin",
+    "eurostat:nuts_2021_id":"39476",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC22",
+    "eurostat:nuts_2021_level_lau":"39476",
+    "eurostat:population":1800,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200010650",
     "frgov:id":"BDCSURCO0000000009600216",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003994,
-    "geom:area_square_m":33662425.584279,
+    "geom:area_square_m":33662425.58428,
     "geom:bbox":"5.27528759312,47.0010958116,5.39540989112,47.0605215845",
     "geom:latitude":47.032529,
     "geom:longitude":5.333088,
@@ -105,6 +117,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683173,
         102191581,
@@ -115,7 +129,10 @@
         102065833
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_39476",
+        "eurostat:nuts_2021_id":"39476"
+    },
     "wof:coterminous":[
         101766623
     ],
@@ -123,7 +140,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"913b56b53e816630f23e1984c7782d8f",
+    "wof:geomhash":"ba4754afb405bbfe9b5986f68869db4b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -137,11 +154,13 @@
         }
     ],
     "wof:id":404363953,
-    "wof:lastmodified":1582324218,
+    "wof:lastmodified":1684352809,
     "wof:name":"Saint-Aubin",
     "wof:parent_id":102065833,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1800,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

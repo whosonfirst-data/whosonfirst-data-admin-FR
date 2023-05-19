@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_45292",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Maurice-sur-Aveyron",
+    "eurostat:nuts_2021_id":"45292",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB06",
+    "eurostat:nuts_2021_level_lau":"45292",
+    "eurostat:population":865,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067676",
     "frgov:id":"BDCSURCO0000000009596440",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00657,
-    "geom:area_square_m":54523761.108021,
+    "geom:area_square_m":54523761.108023,
     "geom:bbox":"2.87574139156,47.8044495127,3.03382385098,47.8769467816",
     "geom:latitude":47.846734,
     "geom:longitude":2.960583,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683479,
         102191581,
@@ -57,7 +71,10 @@
         102065635
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_45292",
+        "eurostat:nuts_2021_id":"45292"
+    },
     "wof:coterminous":[
         101887165
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"34477735d1450ad86bbe6afba83145c8",
+    "wof:geomhash":"150c1434d374273718f6e05d1d2608fd",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404347855,
-    "wof:lastmodified":1582324729,
+    "wof:lastmodified":1684352586,
     "wof:name":"Saint-Maurice-Sur-Aveyron",
     "wof:parent_id":102065635,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":865,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

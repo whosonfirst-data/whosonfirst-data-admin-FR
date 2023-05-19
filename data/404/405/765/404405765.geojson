@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_23188",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Dizier-les-Domaines",
+    "eurostat:nuts_2021_id":"23188",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI22",
+    "eurostat:nuts_2021_level_lau":"23188",
+    "eurostat:population":195,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041556",
     "frgov:id":"BDCSURCO0000000009603109",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683179,
         102191581,
@@ -58,7 +72,10 @@
         102066085
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_23188",
+        "eurostat:nuts_2021_id":"23188"
+    },
     "wof:coterminous":[
         1125933369
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6ab5d5af004162560c02f07ac9ea8845",
+    "wof:geomhash":"ab8d3d7b8a6c4b28d24843c54b62c4a6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404405765,
-    "wof:lastmodified":1582325251,
+    "wof:lastmodified":1684353316,
     "wof:name":"Saint-Dizier-Les-Domaines",
     "wof:parent_id":102066085,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":195,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

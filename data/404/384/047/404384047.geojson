@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_26197",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mont\u00e9lier",
+    "eurostat:nuts_2021_id":"26197",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK23",
+    "eurostat:nuts_2021_level_lau":"26197",
+    "eurostat:population":4140,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068781",
     "frgov:id":"BDCSURCO0000000009608497",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.002801,
-    "geom:area_square_m":24511582.651434,
+    "geom:area_square_m":24511582.651435,
     "geom:bbox":"4.97027044929,44.9162718464,5.06966842163,44.9673420275",
     "geom:latitude":44.942823,
     "geom:longitude":5.021175,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683523,
         102191581,
@@ -58,7 +72,10 @@
         102064969
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_26197",
+        "eurostat:nuts_2021_id":"26197"
+    },
     "wof:coterminous":[
         101842807
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8316917b19ce0203b6e3dcc334735dd2",
+    "wof:geomhash":"ed42ec4673e76711fd0c7358d0184c86",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404384047,
-    "wof:lastmodified":1582324615,
+    "wof:lastmodified":1684353060,
     "wof:name":"Montelier",
     "wof:parent_id":102064969,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":4140,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

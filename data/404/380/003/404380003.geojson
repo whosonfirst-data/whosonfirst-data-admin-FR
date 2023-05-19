@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_57536",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Petit-Tenquin",
+    "eurostat:nuts_2021_id":"57536",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF33",
+    "eurostat:nuts_2021_level_lau":"57536",
+    "eurostat:population":229,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067502",
     "frgov:id":"BDCSURCO0000000009587478",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.0006,
-    "geom:area_square_m":4872493.841689,
+    "geom:area_square_m":4872493.84169,
     "geom:bbox":"6.84483934245,48.978138639,6.89489811604,48.9983513896",
     "geom:latitude":48.988451,
     "geom:longitude":6.868524,
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683271,
         102191581,
@@ -139,7 +153,10 @@
         102066941
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_57536",
+        "eurostat:nuts_2021_id":"57536"
+    },
     "wof:coterminous":[
         101881375
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"29e69ea930e495f8be1b18610cf4f733",
+    "wof:geomhash":"8428b8fe5d84cc84cc1ad22e85f07c8e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404380003,
-    "wof:lastmodified":1582325383,
+    "wof:lastmodified":1684353011,
     "wof:name":"Petit-Tenquin",
     "wof:parent_id":102066941,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":229,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

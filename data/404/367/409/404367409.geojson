@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_71431",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Jean-de-Tr\u00e9zy",
+    "eurostat:nuts_2021_id":"71431",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC13",
+    "eurostat:nuts_2021_level_lau":"71431",
+    "eurostat:population":368,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070530",
     "frgov:id":"BDCSURCO0000000009601168",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683543,
         102191581,
@@ -58,7 +72,10 @@
         102066635
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_71431",
+        "eurostat:nuts_2021_id":"71431"
+    },
     "wof:coterminous":[
         1125813059
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c44d7dd125e3148846c429de5923e80b",
+    "wof:geomhash":"c5f46cf9e3bbe639343b72fa247e372d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404367409,
-    "wof:lastmodified":1582324993,
+    "wof:lastmodified":1684352857,
     "wof:name":"Saint-Jean-De-Trezy",
     "wof:parent_id":102066635,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":368,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

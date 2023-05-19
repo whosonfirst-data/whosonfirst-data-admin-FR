@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_21240",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"\u00c9chevannes",
+    "eurostat:nuts_2021_id":"21240",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC11",
+    "eurostat:nuts_2021_level_lau":"21240",
+    "eurostat:population":299,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242100154",
     "frgov:id":"BDCSURCO0000000009598006",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683563,
         102191581,
@@ -58,7 +72,10 @@
         102067435
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_21240",
+        "eurostat:nuts_2021_id":"21240"
+    },
     "wof:coterminous":[
         1126050189
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"66ba4164005ad9dea6d001b7262b667b",
+    "wof:geomhash":"4396bdc3da67b12f1b9e42549b7f943b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404420767,
-    "wof:lastmodified":1582325205,
+    "wof:lastmodified":1684353493,
     "wof:name":"Echevannes",
     "wof:parent_id":102067435,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":299,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_74244",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Laurent",
+    "eurostat:nuts_2021_id":"74244",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK28",
+    "eurostat:nuts_2021_level_lau":"74244",
+    "eurostat:population":836,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247400724",
     "frgov:id":"BDCSURCO0000000009603901",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001273,
-    "geom:area_square_m":10927873.861946,
+    "geom:area_square_m":10927873.861945,
     "geom:bbox":"6.32910398513,46.0197063013,6.38835983225,46.0538362337",
     "geom:latitude":46.037257,
     "geom:longitude":6.353558,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683227,
         102191581,
@@ -58,7 +72,10 @@
         102067469
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_74244",
+        "eurostat:nuts_2021_id":"74244"
+    },
     "wof:coterminous":[
         101893751
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7e104760561c7c7549ad8f9c3360b76c",
+    "wof:geomhash":"00986d17d2a53dabf759f4a7072af950",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404362385,
-    "wof:lastmodified":1582324053,
+    "wof:lastmodified":1684352787,
     "wof:name":"Saint-Laurent",
     "wof:parent_id":102067469,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":836,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

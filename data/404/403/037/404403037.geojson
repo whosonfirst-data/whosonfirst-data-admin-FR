@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_17344",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Hilaire-de-Villefranche",
+    "eurostat:nuts_2021_id":"17344",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI32",
+    "eurostat:nuts_2021_level_lau":"17344",
+    "eurostat:population":1321,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041689",
     "frgov:id":"BDCSURCO0000000009604901",
     "frgov:insee_arr":"5",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00265,
-    "geom:area_square_m":22820448.088745,
+    "geom:area_square_m":22820448.088746,
     "geom:bbox":"-0.580391385004,45.8279616218,-0.49382112342,45.8841933061",
     "geom:latitude":45.858841,
     "geom:longitude":-0.535606,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683275,
         102191581,
@@ -58,7 +72,10 @@
         102069593
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_17344",
+        "eurostat:nuts_2021_id":"17344"
+    },
     "wof:coterminous":[
         101892713
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ab0d2b6e423c0e65649697736fe455a6",
+    "wof:geomhash":"103adc22ea02a83291c21024003750ff",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404403037,
-    "wof:lastmodified":1582325292,
+    "wof:lastmodified":1684353284,
     "wof:name":"Saint-Hilaire-De-Villefranche",
     "wof:parent_id":102069593,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1321,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

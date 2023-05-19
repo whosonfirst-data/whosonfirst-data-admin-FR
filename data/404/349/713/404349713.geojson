@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_17173",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gen\u00e9touze",
+    "eurostat:nuts_2021_id":"17173",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI32",
+    "eurostat:nuts_2021_level_lau":"17173",
+    "eurostat:population":230,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041523",
     "frgov:id":"BDCSURCO0000000009607597",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.004261,
-    "geom:area_square_m":37108133.077138,
+    "geom:area_square_m":37108133.077137,
     "geom:bbox":"-0.11127423822,45.1865992865,0.00606295857283,45.2488528772",
     "geom:latitude":45.221308,
     "geom:longitude":-0.052128,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683275,
         102191581,
@@ -58,7 +72,10 @@
         102067563
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_17173",
+        "eurostat:nuts_2021_id":"17173"
+    },
     "wof:coterminous":[
         1125871895
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e115ad7cf6ad766955f0985721d9814a",
+    "wof:geomhash":"58674ae9030ad54df38cc5fec37a82c7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404349713,
-    "wof:lastmodified":1582324707,
+    "wof:lastmodified":1684352612,
     "wof:name":"La Genetouze",
     "wof:parent_id":102067563,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":230,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

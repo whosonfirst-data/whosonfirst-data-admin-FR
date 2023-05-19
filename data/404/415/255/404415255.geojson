@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_28390",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Tillay-le-P\u00e9neux",
+    "eurostat:nuts_2021_id":"28390",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB02",
+    "eurostat:nuts_2021_level_lau":"28390",
+    "eurostat:population":324,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070159",
     "frgov:id":"BDCSURCO0000000009594850",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.0027,
-    "geom:area_square_m":22273583.674868,
+    "geom:area_square_m":22273583.674867,
     "geom:bbox":"1.72223316379,48.1261052248,1.79599972246,48.1860184541",
     "geom:latitude":48.159129,
     "geom:longitude":1.763713,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683189,
         102191581,
@@ -57,7 +71,10 @@
         102068205
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_28390",
+        "eurostat:nuts_2021_id":"28390"
+    },
     "wof:coterminous":[
         1125796327
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"dbd04bc927185a2d3c388c2954c66607",
+    "wof:geomhash":"54bd505f0023f3cf650b9700ca4fafbd",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404415255,
-    "wof:lastmodified":1582324365,
+    "wof:lastmodified":1684353428,
     "wof:name":"Tillay-Le-Peneux",
     "wof:parent_id":102068205,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":324,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

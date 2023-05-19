@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_39572",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Villette-l\u00e8s-Arbois",
+    "eurostat:nuts_2021_id":"39572",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC22",
+    "eurostat:nuts_2021_level_lau":"39572",
+    "eurostat:population":386,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071595",
     "frgov:id":"BDCSURCO0000000009600663",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000641,
-    "geom:area_square_m":5411796.888648,
+    "geom:area_square_m":5411796.888647,
     "geom:bbox":"5.72435469313,46.9194376027,5.76082073761,46.9493765505",
     "geom:latitude":46.933485,
     "geom:longitude":5.743878,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683173,
         102191581,
@@ -58,7 +72,10 @@
         102064331
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_39572",
+        "eurostat:nuts_2021_id":"39572"
+    },
     "wof:coterminous":[
         1126058763
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8890b4893e2375fa5343aacf30a583a4",
+    "wof:geomhash":"c55f20e22b8f281f0b6a51d16abb078a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404418063,
-    "wof:lastmodified":1582325220,
+    "wof:lastmodified":1684353461,
     "wof:name":"Villette-Les-Arbois",
     "wof:parent_id":102064331,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":386,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

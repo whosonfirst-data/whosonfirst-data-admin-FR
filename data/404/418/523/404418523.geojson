@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_60401",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mesnil-Th\u00e9ribus",
+    "eurostat:nuts_2021_id":"60401",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE22",
+    "eurostat:nuts_2021_level_lau":"60401",
+    "eurostat:population":794,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"246000707",
     "frgov:id":"BDCSURCO0000000009585773",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683289,
         102191581,
@@ -58,7 +72,10 @@
         102064505
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_60401",
+        "eurostat:nuts_2021_id":"60401"
+    },
     "wof:coterminous":[
         101878045
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ed47bafd7dbee475ac20e0e06d8c3a6a",
+    "wof:geomhash":"070d2e4c6a09941d93bd364231d1cb9c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404418523,
-    "wof:lastmodified":1582325231,
+    "wof:lastmodified":1684353466,
     "wof:name":"Le Mesnil-Theribus",
     "wof:parent_id":102064505,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":794,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

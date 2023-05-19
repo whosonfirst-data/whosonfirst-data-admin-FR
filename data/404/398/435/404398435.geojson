@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_24356",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rouffignac-Saint-Cernin-de-Reilhac",
+    "eurostat:nuts_2021_id":"24356",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI11",
+    "eurostat:nuts_2021_level_lau":"24356",
+    "eurostat:population":1603,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041168",
     "frgov:id":"BDCSURCO0000000009608401",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.007024,
-    "geom:area_square_m":61360634.985081,
+    "geom:area_square_m":61360634.98508,
     "geom:bbox":"0.915784285545,45.0007953082,1.02358907132,45.0962974262",
     "geom:latitude":45.05113,
     "geom:longitude":0.965846,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683331,
         102191581,
@@ -58,7 +72,10 @@
         102068493
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_24356",
+        "eurostat:nuts_2021_id":"24356"
+    },
     "wof:coterminous":[
         101770603
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"817ec285a2f8ee62afa38cda4528c23b",
+    "wof:geomhash":"d69dd97fa48041df9064e357cc80499a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404398435,
-    "wof:lastmodified":1582324120,
+    "wof:lastmodified":1684353231,
     "wof:name":"Rouffignac-Saint-Cernin-De-Reilhac",
     "wof:parent_id":102068493,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1603,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_40199",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mouscard\u00e8s",
+    "eurostat:nuts_2021_id":"40199",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI13",
+    "eurostat:nuts_2021_level_lau":"40199",
+    "eurostat:population":268,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069417",
     "frgov:id":"BDCSURCO0000000009613314",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001022,
-    "geom:area_square_m":9151176.920602,
+    "geom:area_square_m":9151176.920601,
     "geom:bbox":"-0.90973119182,43.5712756692,-0.867061263546,43.6197907158",
     "geom:latitude":43.588507,
     "geom:longitude":-0.884655,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683183,
         102191581,
@@ -58,7 +72,10 @@
         102067579
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_40199",
+        "eurostat:nuts_2021_id":"40199"
+    },
     "wof:coterminous":[
         1125790181
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"37253898815bc74d7446e65fe31aaf41",
+    "wof:geomhash":"af7dcaecfc04d8909441f9f18df38bb5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404386509,
-    "wof:lastmodified":1582325452,
+    "wof:lastmodified":1684353087,
     "wof:name":"Mouscardes",
     "wof:parent_id":102067579,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":268,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

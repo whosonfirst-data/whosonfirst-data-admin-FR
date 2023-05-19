@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_26284",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Roussas",
+    "eurostat:nuts_2021_id":"26284",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK23",
+    "eurostat:nuts_2021_level_lau":"26284",
+    "eurostat:population":365,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040681",
     "frgov:id":"BDCSURCO0000000009610291",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001809,
-    "geom:area_square_m":15971671.277107,
+    "geom:area_square_m":15971671.277106,
     "geom:bbox":"4.75758459468,44.4152188446,4.81436002567,44.4665889381",
     "geom:latitude":44.442351,
     "geom:longitude":4.787326,
@@ -123,6 +135,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683523,
         102191581,
@@ -133,7 +147,10 @@
         102066487
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_26284",
+        "eurostat:nuts_2021_id":"26284"
+    },
     "wof:coterminous":[
         101896221
     ],
@@ -141,7 +158,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7ec703e43f7bcaf67855531d56795a89",
+    "wof:geomhash":"9388faaa47ef44d7a288086bcb30e827",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -155,11 +172,13 @@
         }
     ],
     "wof:id":404396971,
-    "wof:lastmodified":1582324073,
+    "wof:lastmodified":1684353213,
     "wof:name":"Roussas",
     "wof:parent_id":102066487,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":365,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

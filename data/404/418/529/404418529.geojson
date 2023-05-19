@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_60566",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Arnoult",
+    "eurostat:nuts_2021_id":"60566",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE22",
+    "eurostat:nuts_2021_level_lau":"60566",
+    "eurostat:population":217,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"246000848",
     "frgov:id":"BDCSURCO0000000009583939",
     "frgov:insee_arr":"1",
@@ -93,6 +105,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683289,
         102191581,
@@ -103,7 +117,10 @@
         102067009
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_60566",
+        "eurostat:nuts_2021_id":"60566"
+    },
     "wof:coterminous":[
         101901355
     ],
@@ -111,7 +128,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ed00d6ccdc1944dd0adf4b39643f04ff",
+    "wof:geomhash":"ea4c71fd035309f1a0e9f882933b0855",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -125,11 +142,13 @@
         }
     ],
     "wof:id":404418529,
-    "wof:lastmodified":1582325222,
+    "wof:lastmodified":1684353466,
     "wof:name":"Saint-Arnoult",
     "wof:parent_id":102067009,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":217,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

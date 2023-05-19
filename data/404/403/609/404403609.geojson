@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_07272",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Maurice-d'Ard\u00e8che",
+    "eurostat:nuts_2021_id":"07272",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK22",
+    "eurostat:nuts_2021_level_lau":"07272",
+    "eurostat:population":306,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200039808",
     "frgov:id":"BDCSURCO0000000009610094",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.000601,
-    "geom:area_square_m":5295152.378547,
+    "geom:area_square_m":5295152.378548,
     "geom:bbox":"4.38458236225,44.4996754625,4.41791774128,44.5395757796",
     "geom:latitude":44.518881,
     "geom:longitude":4.405391,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683421,
         102191581,
@@ -58,7 +72,10 @@
         102069599
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_07272",
+        "eurostat:nuts_2021_id":"07272"
+    },
     "wof:coterminous":[
         101897527
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"fd0d847e5842332a07be570cf3ee0b7e",
+    "wof:geomhash":"09b19b50d5a0c59b3caad97a703a430c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404403609,
-    "wof:lastmodified":1582325301,
+    "wof:lastmodified":1684353291,
     "wof:name":"Saint-Maurice-D'Ardeche",
     "wof:parent_id":102069599,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":306,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

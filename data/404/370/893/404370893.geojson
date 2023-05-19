@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_42264",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-M\u00e9dard-en-Forez",
+    "eurostat:nuts_2021_id":"42264",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK25",
+    "eurostat:nuts_2021_level_lau":"42264",
+    "eurostat:population":1040,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200065894",
     "frgov:id":"BDCSURCO0000000009606061",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001199,
-    "geom:area_square_m":10375112.09526,
+    "geom:area_square_m":10375112.095261,
     "geom:bbox":"4.33406209815,45.5748082001,4.38718632626,45.6111815264",
     "geom:latitude":45.592478,
     "geom:longitude":4.362785,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683377,
         102191581,
@@ -58,7 +72,10 @@
         102065237
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_42264",
+        "eurostat:nuts_2021_id":"42264"
+    },
     "wof:coterminous":[
         101893471
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6978fa255c18245de5baca909dd3569e",
+    "wof:geomhash":"25143b14e73ac877f2f8961586113e0a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404370893,
-    "wof:lastmodified":1582324600,
+    "wof:lastmodified":1684352900,
     "wof:name":"Saint-Medard-En-Forez",
     "wof:parent_id":102065237,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1040,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

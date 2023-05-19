@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_51365",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mesneux",
+    "eurostat:nuts_2021_id":"51365",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF23",
+    "eurostat:nuts_2021_level_lau":"51365",
+    "eurostat:population":861,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067213",
     "frgov:id":"BDCSURCO0000000009586129",
     "frgov:insee_arr":"3",
@@ -111,6 +123,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683405,
         102191581,
@@ -121,7 +135,10 @@
         102070033
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_51365",
+        "eurostat:nuts_2021_id":"51365"
+    },
     "wof:coterminous":[
         101878615
     ],
@@ -129,7 +146,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c4fc4201028d885d2491f262c80b2a5f",
+    "wof:geomhash":"51fd750747104d4df64349897306696b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -143,11 +160,13 @@
         }
     ],
     "wof:id":404384781,
-    "wof:lastmodified":1582324625,
+    "wof:lastmodified":1684353068,
     "wof:name":"Les Mesneux",
     "wof:parent_id":102070033,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":861,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

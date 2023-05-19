@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_29261",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Rivoal",
+    "eurostat:nuts_2021_id":"29261",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH02",
+    "eurostat:nuts_2021_level_lau":"29261",
+    "eurostat:population":194,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067197",
     "frgov:id":"BDCSURCO0000000009592671",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BRETAGNE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002319,
-    "geom:area_square_m":19060251.376944,
+    "geom:area_square_m":19060251.376943,
     "geom:bbox":"-4.04818143797,48.3239586061,-3.94053755962,48.367251028",
     "geom:latitude":48.349128,
     "geom:longitude":-3.987639,
@@ -138,6 +150,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683553,
         102191581,
@@ -147,7 +161,10 @@
         102068963
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_29261",
+        "eurostat:nuts_2021_id":"29261"
+    },
     "wof:coterminous":[
         1126048231
     ],
@@ -155,7 +172,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e9be49da1706306e209cac6ea2d6deb1",
+    "wof:geomhash":"51df74e4d0d5e72f56f0cdacfe7b054f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -168,11 +185,13 @@
         }
     ],
     "wof:id":404409129,
-    "wof:lastmodified":1582324477,
+    "wof:lastmodified":1684353356,
     "wof:name":"Saint-Rivoal",
     "wof:parent_id":102068963,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":194,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

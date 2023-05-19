@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_42214",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Cyr-les-Vignes",
+    "eurostat:nuts_2021_id":"42214",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK25",
+    "eurostat:nuts_2021_level_lau":"42214",
+    "eurostat:population":1042,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200065894",
     "frgov:id":"BDCSURCO0000000009605779",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.002243,
-    "geom:area_square_m":19382582.545146,
+    "geom:area_square_m":19382582.545145,
     "geom:bbox":"4.24612191245,45.6562406735,4.33594630238,45.6993834559",
     "geom:latitude":45.676647,
     "geom:longitude":4.290472,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683377,
         102191581,
@@ -58,7 +72,10 @@
         102065433
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_42214",
+        "eurostat:nuts_2021_id":"42214"
+    },
     "wof:coterminous":[
         101893447
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9138c84d655db501a0d8ef7efdd91c8e",
+    "wof:geomhash":"0645fd9b9a3a7808ad2f9b78572ac32a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404350041,
-    "wof:lastmodified":1582324847,
+    "wof:lastmodified":1684352617,
     "wof:name":"Saint-Cyr-Les-Vignes",
     "wof:parent_id":102065433,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1042,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

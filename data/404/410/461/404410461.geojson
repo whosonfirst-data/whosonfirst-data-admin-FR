@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_26303",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sainte-Euph\u00e9mie-sur-Ouv\u00e8ze",
+    "eurostat:nuts_2021_id":"26303",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK23",
+    "eurostat:nuts_2021_level_lau":"26303",
+    "eurostat:population":70,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068229",
     "frgov:id":"BDCSURCO0000000009610826",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001275,
-    "geom:area_square_m":11285339.761308,
+    "geom:area_square_m":11285339.761309,
     "geom:bbox":"5.36410655113,44.2759085842,5.41969483393,44.320477613",
     "geom:latitude":44.300888,
     "geom:longitude":5.391556,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683523,
         102191581,
@@ -58,7 +72,10 @@
         102064723
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_26303",
+        "eurostat:nuts_2021_id":"26303"
+    },
     "wof:coterminous":[
         1125849901
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"25ab2f4fabdec042d3856721cea3f9ee",
+    "wof:geomhash":"0a09ef84c2825adea9779cf62f78aba4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404410461,
-    "wof:lastmodified":1582325157,
+    "wof:lastmodified":1684353372,
     "wof:name":"Sainte-Euphemie-Sur-Ouveze",
     "wof:parent_id":102064723,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":70,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

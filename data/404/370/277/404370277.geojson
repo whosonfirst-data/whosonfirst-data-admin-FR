@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_32284",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mont\u00e9gut-Sav\u00e8s",
+    "eurostat:nuts_2021_id":"32284",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ24",
+    "eurostat:nuts_2021_level_lau":"32284",
+    "eurostat:population":64,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243200599",
     "frgov:id":"BDCSURCO0000000009614205",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683467,
         102191581,
@@ -58,7 +72,10 @@
         102066605
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_32284",
+        "eurostat:nuts_2021_id":"32284"
+    },
     "wof:coterminous":[
         1125787551
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ad0dd779b62dd63aa36595115565d2dc",
+    "wof:geomhash":"fc36217b3cc69e30cc685ece289b20b4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404370277,
-    "wof:lastmodified":1582324605,
+    "wof:lastmodified":1684352893,
     "wof:name":"Montegut-Saves",
     "wof:parent_id":102066605,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":64,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

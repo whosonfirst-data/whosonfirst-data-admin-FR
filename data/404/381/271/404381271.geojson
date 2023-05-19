@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_77058",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bussy-Saint-Georges",
+    "eurostat:nuts_2021_id":"77058",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR102",
+    "eurostat:nuts_2021_level_lau":"77058",
+    "eurostat:population":27379,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247700594",
     "frgov:id":"BDCSURCO0000000009590172",
     "frgov:insee_arr":"5",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"ILE-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001869,
-    "geom:area_square_m":15216586.372883,
+    "geom:area_square_m":15216586.372882,
     "geom:bbox":"2.66664683273,48.7972999322,2.75095598459,48.8526641835",
     "geom:latitude":48.830802,
     "geom:longitude":2.722971,
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683385,
         102191581,
@@ -135,7 +149,10 @@
         102070607
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_77058",
+        "eurostat:nuts_2021_id":"77058"
+    },
     "wof:coterminous":[
         101749867
     ],
@@ -143,7 +160,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"29ade4993c65588b1e6bbdfc502e65cf",
+    "wof:geomhash":"df3c3db26cb997dd155e143f5ac88d38",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -156,11 +173,13 @@
         }
     ],
     "wof:id":404381271,
-    "wof:lastmodified":1582325437,
+    "wof:lastmodified":1684353025,
     "wof:name":"Bussy-Saint-Georges",
     "wof:parent_id":102070607,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":27379,
+    "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

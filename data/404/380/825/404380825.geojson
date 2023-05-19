@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_27245",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Fleury-la-For\u00eat",
+    "eurostat:nuts_2021_id":"27245",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD21",
+    "eurostat:nuts_2021_level_lau":"27245",
+    "eurostat:population":265,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070142",
     "frgov:id":"BDCSURCO0000000009585022",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00097,
-    "geom:area_square_m":7801899.92953,
+    "geom:area_square_m":7801899.929529,
     "geom:bbox":"1.5314482759,49.4093131018,1.58508243548,49.4417204082",
     "geom:latitude":49.426783,
     "geom:longitude":1.555091,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683283,
         102191581,
@@ -58,7 +72,10 @@
         102068341
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_27245",
+        "eurostat:nuts_2021_id":"27245"
+    },
     "wof:coterminous":[
         101902605
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4aa9bee8b2ff636aaacff0209d64047f",
+    "wof:geomhash":"c6aff6e6ad5d0bb084cee932af8141ef",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404380825,
-    "wof:lastmodified":1582325382,
+    "wof:lastmodified":1684353020,
     "wof:name":"Fleury-La-Foret",
     "wof:parent_id":102068341,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":265,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

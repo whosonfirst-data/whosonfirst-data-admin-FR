@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_60667",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Verberie",
+    "eurostat:nuts_2021_id":"60667",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE22",
+    "eurostat:nuts_2021_level_lau":"60667",
+    "eurostat:population":3848,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067965",
     "frgov:id":"BDCSURCO0000000009585724",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001872,
-    "geom:area_square_m":15092324.40025,
+    "geom:area_square_m":15092324.400249,
     "geom:bbox":"2.70349265594,49.2730359202,2.77425770338,49.3436438104",
     "geom:latitude":49.305682,
     "geom:longitude":2.733506,
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683289,
         102191581,
@@ -139,7 +153,10 @@
         102069913
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_60667",
+        "eurostat:nuts_2021_id":"60667"
+    },
     "wof:coterminous":[
         101760385
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c3df8ab711d9b44bcdd81bd1938bf903",
+    "wof:geomhash":"8b082ab8661d46a456852202eb2072da",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404417215,
-    "wof:lastmodified":1582325137,
+    "wof:lastmodified":1684353451,
     "wof:name":"Verberie",
     "wof:parent_id":102069913,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3848,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

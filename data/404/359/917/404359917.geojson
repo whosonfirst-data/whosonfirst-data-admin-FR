@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_46276",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Martin-Labouval",
+    "eurostat:nuts_2021_id":"46276",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ25",
+    "eurostat:nuts_2021_level_lau":"46276",
+    "eurostat:population":186,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244600532",
     "frgov:id":"BDCSURCO0000000009610370",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001515,
-    "geom:area_square_m":13365604.398233,
+    "geom:area_square_m":13365604.398232,
     "geom:bbox":"1.69773894067,44.4600720459,1.76097377453,44.502238149",
     "geom:latitude":44.479807,
     "geom:longitude":1.728925,
@@ -114,6 +126,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683389,
         102191581,
@@ -124,7 +138,10 @@
         102067397
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_46276",
+        "eurostat:nuts_2021_id":"46276"
+    },
     "wof:coterminous":[
         1125825699
     ],
@@ -132,7 +149,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ee66ed52e0f0aacd496dd64ccd2465e8",
+    "wof:geomhash":"6f0782f9ffae3cbecaf70029b73e6e32",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -146,11 +163,13 @@
         }
     ],
     "wof:id":404359917,
-    "wof:lastmodified":1582324805,
+    "wof:lastmodified":1684352752,
     "wof:name":"Saint-Martin-Labouval",
     "wof:parent_id":102067397,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":186,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

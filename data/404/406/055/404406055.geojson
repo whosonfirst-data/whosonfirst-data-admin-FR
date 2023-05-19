@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_82156",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Arroumex",
+    "eurostat:nuts_2021_id":"82156",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ28",
+    "eurostat:nuts_2021_level_lau":"82156",
+    "eurostat:population":152,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066322",
     "frgov:id":"BDCSURCO0000000009611862",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001093,
-    "geom:area_square_m":9722863.844036,
+    "geom:area_square_m":9722863.844037,
     "geom:bbox":"0.960190743958,43.9729906238,1.01803872644,44.0076239745",
     "geom:latitude":43.991759,
     "geom:longitude":0.989251,
@@ -120,6 +132,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683217,
         102191581,
@@ -130,7 +144,10 @@
         102068179
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_82156",
+        "eurostat:nuts_2021_id":"82156"
+    },
     "wof:coterminous":[
         1125807731
     ],
@@ -138,7 +155,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4b3574cd76f6df301a3171c25be64b45",
+    "wof:geomhash":"0715226faa249b80acf9dc455c7c375e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -152,11 +169,13 @@
         }
     ],
     "wof:id":404406055,
-    "wof:lastmodified":1582324441,
+    "wof:lastmodified":1684353321,
     "wof:name":"Saint-Arroumex",
     "wof:parent_id":102068179,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":152,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

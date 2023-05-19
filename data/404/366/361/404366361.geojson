@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_64147",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Briscous",
+    "eurostat:nuts_2021_id":"64147",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI15",
+    "eurostat:nuts_2021_level_lau":"64147",
+    "eurostat:population":2806,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067106",
     "frgov:id":"BDCSURCO0000000009614072",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003508,
-    "geom:area_square_m":31484528.207214,
+    "geom:area_square_m":31484528.207213,
     "geom:bbox":"-1.37963450815,43.4334138873,-1.27487867141,43.486473899",
     "geom:latitude":43.456327,
     "geom:longitude":-1.324863,
@@ -144,6 +156,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683539,
         102191581,
@@ -154,7 +168,10 @@
         102066817
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_64147",
+        "eurostat:nuts_2021_id":"64147"
+    },
     "wof:coterminous":[
         101772337
     ],
@@ -162,7 +179,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"39cb7f87fe00c6d45529cc4a08f56ca5",
+    "wof:geomhash":"a8fa0cde78a384983c423bdbd53c1e92",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -176,11 +193,13 @@
         }
     ],
     "wof:id":404366361,
-    "wof:lastmodified":1582324832,
+    "wof:lastmodified":1684352842,
     "wof:name":"Briscous",
     "wof:parent_id":102066817,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2806,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_59207",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Escautpont",
+    "eurostat:nuts_2021_id":"59207",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE1",
+    "eurostat:nuts_2021_level_3":"FRE11",
+    "eurostat:nuts_2021_level_lau":"59207",
+    "eurostat:population":4192,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200042190",
     "frgov:id":"BDCSURCO0000000009580984",
     "frgov:insee_arr":"6",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000729,
-    "geom:area_square_m":5739501.211805,
+    "geom:area_square_m":5739501.211804,
     "geom:bbox":"3.52112552938,50.4041785049,3.58101260427,50.4436905898",
     "geom:latitude":50.424148,
     "geom:longitude":3.553268,
@@ -123,6 +135,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683445,
         102191581,
@@ -133,7 +147,10 @@
         102067939
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_59207",
+        "eurostat:nuts_2021_id":"59207"
+    },
     "wof:coterminous":[
         101840619
     ],
@@ -141,7 +158,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6ea67350cf089e842a3f95fb8d650686",
+    "wof:geomhash":"c95b8f695c07441579f66904525f02d7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -155,11 +172,13 @@
         }
     ],
     "wof:id":404412157,
-    "wof:lastmodified":1582324369,
+    "wof:lastmodified":1684353391,
     "wof:name":"Escautpont",
     "wof:parent_id":102067939,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":4192,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

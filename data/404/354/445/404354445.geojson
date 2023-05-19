@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_37236",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-R\u00e8gle",
+    "eurostat:nuts_2021_id":"37236",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB04",
+    "eurostat:nuts_2021_level_lau":"37236",
+    "eurostat:population":609,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200043065",
     "frgov:id":"BDCSURCO0000000009598683",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00075,
-    "geom:area_square_m":6277303.130226,
+    "geom:area_square_m":6277303.130225,
     "geom:bbox":"1.00043789472,47.39822019,1.06386934316,47.4220758568",
     "geom:latitude":47.410235,
     "geom:longitude":1.039788,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683575,
         102191581,
@@ -57,7 +71,10 @@
         102064327
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_37236",
+        "eurostat:nuts_2021_id":"37236"
+    },
     "wof:coterminous":[
         1125938261
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7430fcba608d76b6ac27707746c3cdcd",
+    "wof:geomhash":"cfa6a607fd2e044b916d15fb16d9d4a2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404354445,
-    "wof:lastmodified":1582324097,
+    "wof:lastmodified":1684352678,
     "wof:name":"Saint-Regle",
     "wof:parent_id":102064327,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":609,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

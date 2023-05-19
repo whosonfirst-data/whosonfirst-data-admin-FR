@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_06027",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Cagnes-sur-Mer",
+    "eurostat:nuts_2021_id":"06027",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL03",
+    "eurostat:nuts_2021_level_lau":"06027",
+    "eurostat:population":50928,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200030195",
     "frgov:id":"BDCSURCO0000000009612605",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.002032,
-    "geom:area_square_m":18174450.581874,
+    "geom:area_square_m":18174450.581875,
     "geom:bbox":"7.120599,43.641818,7.179532,43.700185",
     "geom:latitude":43.672112,
     "geom:longitude":7.152387,
@@ -156,23 +168,29 @@
     "reversegeo:longitude":7.152947,
     "src:geom":"frgov",
     "src:geom_alt":[],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85683323,
         102191581,
         85633147,
-        102072035,
         404227597,
         404227445,
-        85683323
+        102072035
     ],
     "wof:breaches":[],
     "wof:concordance":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_06027",
+        "eurostat:nuts_2021_id":"06027"
+    },
     "wof:coterminous":[
         101749249,
         102072035
     ],
     "wof:country":"FR",
     "wof:created":1526509316,
-    "wof:geomhash":"e7cf760c8c03543f63321f1a78f1c198",
+    "wof:geomhash":"f1f0e23de5b1cadf13fc7d0417b05300",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -185,11 +203,13 @@
         }
     ],
     "wof:id":1159321931,
-    "wof:lastmodified":1608039561,
+    "wof:lastmodified":1684353594,
     "wof:name":"Cagnes-sur-Mer",
     "wof:parent_id":102072035,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":50928,
+    "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded":[],
     "wof:superseded_by":[],

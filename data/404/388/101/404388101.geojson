@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_2B214",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Piano",
+    "eurostat:nuts_2021_id":"2B214",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRM",
+    "eurostat:nuts_2021_level_2":"FRM0",
+    "eurostat:nuts_2021_level_3":"FRM02",
+    "eurostat:nuts_2021_level_lau":"2B214",
+    "eurostat:population":28,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200073252",
     "frgov:id":"BDCSURCO0000000009616468",
     "frgov:insee_arr":"3",
@@ -396,6 +408,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683493,
         102191581,
@@ -405,7 +419,10 @@
         102070977
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_2B214",
+        "eurostat:nuts_2021_id":"2B214"
+    },
     "wof:coterminous":[
         1125796661
     ],
@@ -413,7 +430,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0004d70ef349b41128bae49b83185fc9",
+    "wof:geomhash":"c502fcdb0c4443df23ec82426ac9e329",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -426,11 +443,13 @@
         }
     ],
     "wof:id":404388101,
-    "wof:lastmodified":1582325485,
+    "wof:lastmodified":1684353105,
     "wof:name":"Piano",
     "wof:parent_id":102070977,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":28,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

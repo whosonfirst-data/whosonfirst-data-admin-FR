@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_79290",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Pompain",
+    "eurostat:nuts_2021_id":"79290",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI33",
+    "eurostat:nuts_2021_level_lau":"79290",
+    "eurostat:population":943,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069748",
     "frgov:id":"BDCSURCO0000000009602718",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00284,
-    "geom:area_square_m":24205120.077022,
+    "geom:area_square_m":24205120.077021,
     "geom:bbox":"-0.640783626423,46.3904557945,-0.56472326169,46.4552299519",
     "geom:latitude":46.424533,
     "geom:longitude":-0.602797,
@@ -117,6 +129,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683163,
         102191581,
@@ -127,7 +141,10 @@
         102066329
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_79290",
+        "eurostat:nuts_2021_id":"79290"
+    },
     "wof:coterminous":[
         101890003
     ],
@@ -135,7 +152,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d35ea53bb8020e6cf244b069aaa8463a",
+    "wof:geomhash":"62cb80aa644a80b32f8cbb6c90944ff2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -149,11 +166,13 @@
         }
     ],
     "wof:id":404423905,
-    "wof:lastmodified":1582324412,
+    "wof:lastmodified":1684353532,
     "wof:name":"Saint-Pompain",
     "wof:parent_id":102066329,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":943,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

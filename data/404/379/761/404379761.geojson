@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_11247",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Monthaut",
+    "eurostat:nuts_2021_id":"11247",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ11",
+    "eurostat:nuts_2021_level_lau":"11247",
+    "eurostat:population":38,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071926",
     "frgov:id":"BDCSURCO0000000009615578",
     "frgov:insee_arr":"2",
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683485,
         102191581,
@@ -139,7 +153,10 @@
         102064309
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_11247",
+        "eurostat:nuts_2021_id":"11247"
+    },
     "wof:coterminous":[
         1125788021
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d575509810ff741fd961f7f16d048e71",
+    "wof:geomhash":"12cd4d104bca5b3c554ba238c20bf560",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404379761,
-    "wof:lastmodified":1582324530,
+    "wof:lastmodified":1684353008,
     "wof:name":"Monthaut",
     "wof:parent_id":102064309,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":38,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

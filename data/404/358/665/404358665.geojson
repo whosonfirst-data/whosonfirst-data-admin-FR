@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_13032",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"\u00c9guilles",
+    "eurostat:nuts_2021_id":"13032",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL04",
+    "eurostat:nuts_2021_level_lau":"13032",
+    "eurostat:population":7856,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200054807",
     "frgov:id":"BDCSURCO0000000009613355",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.003801,
-    "geom:area_square_m":34052403.198014,
+    "geom:area_square_m":34052403.198011,
     "geom:bbox":"5.25114645171,43.5352657495,5.38438236042,43.597060466",
     "geom:latitude":43.57099,
     "geom:longitude":5.328891,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683441,
         102191581,
@@ -57,7 +71,10 @@
         102064445
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_13032",
+        "eurostat:nuts_2021_id":"13032"
+    },
     "wof:coterminous":[
         101773569
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e494e17299ffbca16f2a0a817310ee68",
+    "wof:geomhash":"152b032c9d8779cf13da75729ca4025f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404358665,
-    "wof:lastmodified":1582324982,
+    "wof:lastmodified":1684352735,
     "wof:name":"Eguilles",
     "wof:parent_id":102064445,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":7856,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

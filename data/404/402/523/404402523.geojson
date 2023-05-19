@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_14066",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Berni\u00e8res-sur-Mer",
+    "eurostat:nuts_2021_id":"14066",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD11",
+    "eurostat:nuts_2021_level_lau":"14066",
+    "eurostat:population":2308,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"241400860",
     "frgov:id":"BDCSURCO0000000009585916",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000948,
-    "geom:area_square_m":7637220.774916,
+    "geom:area_square_m":7637220.774915,
     "geom:bbox":"-0.437239244032,49.2964165523,-0.397514550494,49.335659458",
     "geom:latitude":49.319953,
     "geom:longitude":-0.418196,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683579,
         102191581,
@@ -58,7 +72,10 @@
         102066851
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_14066",
+        "eurostat:nuts_2021_id":"14066"
+    },
     "wof:coterminous":[
         101828407
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2ab37bac168693d1a55f8ad957762aa2",
+    "wof:geomhash":"87a675284411ca173c1e2ceebfcad814",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404402523,
-    "wof:lastmodified":1582325285,
+    "wof:lastmodified":1684353278,
     "wof:name":"Bernieres-Sur-Mer",
     "wof:parent_id":102066851,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2308,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

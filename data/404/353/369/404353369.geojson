@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_85090",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"S\u00e8vremont",
+    "eurostat:nuts_2021_id":"85090",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG05",
+    "eurostat:nuts_2021_level_lau":"85090",
+    "eurostat:population":6486,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248500464",
     "frgov:id":"BDCSURCO0000000009601270",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.010518,
-    "geom:area_square_m":88967752.60038,
+    "geom:area_square_m":88967752.600379,
     "geom:bbox":"-0.944414152117,46.7850834676,-0.757950657005,46.8955999829",
     "geom:latitude":46.836651,
     "geom:longitude":-0.852728,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683409,
         102191581,
@@ -57,7 +71,10 @@
         102068183
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_85090",
+        "eurostat:nuts_2021_id":"85090"
+    },
     "wof:coterminous":[
         101829405
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9e302ecdd9d2af43ec88674828e34682",
+    "wof:geomhash":"6f9a2b66bb18d90db98678928e34693a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404353369,
-    "wof:lastmodified":1582324134,
+    "wof:lastmodified":1684352663,
     "wof:name":"La Flocelliere",
     "wof:parent_id":102068183,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":6486,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

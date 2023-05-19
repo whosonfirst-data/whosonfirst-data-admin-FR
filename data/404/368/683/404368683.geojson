@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_56254",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Tr\u00e9dion",
+    "eurostat:nuts_2021_id":"56254",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH04",
+    "eurostat:nuts_2021_level_lau":"56254",
+    "eurostat:population":1273,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067932",
     "frgov:id":"BDCSURCO0000000009596568",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BRETAGNE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003101,
-    "geom:area_square_m":25765704.373022,
+    "geom:area_square_m":25765704.373021,
     "geom:bbox":"-2.6401457287,47.7545096467,-2.53217932505,47.8078457746",
     "geom:latitude":47.782952,
     "geom:longitude":-2.584043,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683507,
         102191581,
@@ -57,7 +71,10 @@
         102065375
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_56254",
+        "eurostat:nuts_2021_id":"56254"
+    },
     "wof:coterminous":[
         101884745
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a776c5bbff2226d464bd29e9e3716020",
+    "wof:geomhash":"d8336eb71a132b8c9d69e8dd2bf3d137",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404368683,
-    "wof:lastmodified":1582324879,
+    "wof:lastmodified":1684352874,
     "wof:name":"Tredion",
     "wof:parent_id":102065375,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1273,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

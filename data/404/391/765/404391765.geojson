@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_69219",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Laurent-d'Agny",
+    "eurostat:nuts_2021_id":"69219",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK26",
+    "eurostat:nuts_2021_level_lau":"69219",
+    "eurostat:population":2139,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"246900740",
     "frgov:id":"BDCSURCO0000000009605764",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001226,
-    "geom:area_square_m":10595141.91539,
+    "geom:area_square_m":10595141.915389,
     "geom:bbox":"4.65369964596,45.6187133318,4.71192575035,45.6622994215",
     "geom:latitude":45.642922,
     "geom:longitude":4.6842,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683569,
         102191581,
@@ -58,7 +72,10 @@
         102068727
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_69219",
+        "eurostat:nuts_2021_id":"69219"
+    },
     "wof:coterminous":[
         101769503
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9d53550186846a2984937a76c8f8232e",
+    "wof:geomhash":"3bf1131ebc718d7deffcdfb982584946",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404391765,
-    "wof:lastmodified":1582324008,
+    "wof:lastmodified":1684353153,
     "wof:name":"Saint-Laurent-D'Agny",
     "wof:parent_id":102068727,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2139,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

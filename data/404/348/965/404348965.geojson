@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_64480",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Gladie-Arrive-Munein",
+    "eurostat:nuts_2021_id":"64480",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI15",
+    "eurostat:nuts_2021_level_lau":"64480",
+    "eurostat:population":200,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067288",
     "frgov:id":"BDCSURCO0000000009614322",
     "frgov:insee_arr":"2",
@@ -130,6 +142,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683539,
         102191581,
@@ -140,7 +154,10 @@
         102070865
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_64480",
+        "eurostat:nuts_2021_id":"64480"
+    },
     "wof:coterminous":[
         1360672675
     ],
@@ -148,7 +165,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d0a4e4e8ce44978b349df1dc2e7a756a",
+    "wof:geomhash":"aeebf9e3cd40fb4000ac39c6c34479b8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -162,11 +179,13 @@
         }
     ],
     "wof:id":404348965,
-    "wof:lastmodified":1582324575,
+    "wof:lastmodified":1684352602,
     "wof:name":"Saint-Gladie-Arrive-Munein",
     "wof:parent_id":102070865,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":200,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

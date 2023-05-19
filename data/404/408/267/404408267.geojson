@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_47269",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Pierre-de-Clairac",
+    "eurostat:nuts_2021_id":"47269",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI14",
+    "eurostat:nuts_2021_level_lau":"47269",
+    "eurostat:population":865,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200035459",
     "frgov:id":"BDCSURCO0000000009611288",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683341,
         102191581,
@@ -58,7 +72,10 @@
         102069631
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_47269",
+        "eurostat:nuts_2021_id":"47269"
+    },
     "wof:coterminous":[
         1125817089
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"40eab0dc29c60a26997e5ace031b8b58",
+    "wof:geomhash":"eccc74b93bc7fc93f9dc40b032925dc0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404408267,
-    "wof:lastmodified":1582324458,
+    "wof:lastmodified":1684353347,
     "wof:name":"Saint-Pierre-De-Clairac",
     "wof:parent_id":102069631,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":865,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

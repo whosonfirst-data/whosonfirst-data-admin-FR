@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_05014",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Barret-sur-M\u00e9ouge",
+    "eurostat:nuts_2021_id":"05014",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL02",
+    "eurostat:nuts_2021_level_lau":"05014",
+    "eurostat:population":220,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068765",
     "frgov:id":"BDCSURCO0000000009610816",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.002963,
-    "geom:area_square_m":26235398.047053,
+    "geom:area_square_m":26235398.047051,
     "geom:bbox":"5.67561002672,44.223278619,5.77318232418,44.2950171391",
     "geom:latitude":44.264768,
     "geom:longitude":5.728407,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683597,
         102191581,
@@ -57,7 +71,10 @@
         102067233
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_05014",
+        "eurostat:nuts_2021_id":"05014"
+    },
     "wof:coterminous":[
         1126025779
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e6a03a31aba94fe1c026ec5563d6332c",
+    "wof:geomhash":"c9bf44484a148431e7dfd75ffbe61e5c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404390723,
-    "wof:lastmodified":1582324267,
+    "wof:lastmodified":1684353139,
     "wof:name":"Barret-Sur-Meouge",
     "wof:parent_id":102067233,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":220,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

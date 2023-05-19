@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_88058",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bi\u00e9court",
+    "eurostat:nuts_2021_id":"88058",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF34",
+    "eurostat:nuts_2021_level_lau":"88058",
+    "eurostat:population":103,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068369",
     "frgov:id":"BDCSURCO0000000009593190",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683223,
         102191581,
@@ -58,7 +72,10 @@
         102067289
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_88058",
+        "eurostat:nuts_2021_id":"88058"
+    },
     "wof:coterminous":[
         1125923941
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"839bb4ff9bb2b58019ac0a1318a381c7",
+    "wof:geomhash":"5dff446766f047e3d3a7809a2f9a7cf4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404384425,
-    "wof:lastmodified":1582324614,
+    "wof:lastmodified":1684353064,
     "wof:name":"Biecourt",
     "wof:parent_id":102067289,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":103,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

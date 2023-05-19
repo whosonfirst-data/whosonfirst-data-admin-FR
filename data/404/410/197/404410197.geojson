@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_08376",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sailly",
+    "eurostat:nuts_2021_id":"08376",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF21",
+    "eurostat:nuts_2021_level_lau":"08376",
+    "eurostat:population":253,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240800847",
     "frgov:id":"BDCSURCO0000000009583762",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.001613,
-    "geom:area_square_m":12929111.846234,
+    "geom:area_square_m":12929111.846235,
     "geom:bbox":"5.14245163875,49.5773215747,5.20866559922,49.6197107636",
     "geom:latitude":49.600028,
     "geom:longitude":5.172722,
@@ -102,6 +114,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683309,
         102191581,
@@ -112,7 +126,10 @@
         102064957
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_08376",
+        "eurostat:nuts_2021_id":"08376"
+    },
     "wof:coterminous":[
         101903269
     ],
@@ -120,7 +137,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"72f05cc2ca7ca57c1c02c3d60ff22b1d",
+    "wof:geomhash":"546ae90e1415e68fd465caa675bd96b6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -134,11 +151,13 @@
         }
     ],
     "wof:id":404410197,
-    "wof:lastmodified":1582325152,
+    "wof:lastmodified":1684353368,
     "wof:name":"Sailly",
     "wof:parent_id":102064957,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":253,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

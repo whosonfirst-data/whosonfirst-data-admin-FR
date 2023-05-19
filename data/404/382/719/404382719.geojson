@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_13095",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Marc-Jaumegarde",
+    "eurostat:nuts_2021_id":"13095",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL04",
+    "eurostat:nuts_2021_level_lau":"13095",
+    "eurostat:population":1250,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200054807",
     "frgov:id":"BDCSURCO0000000009613354",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.002594,
-    "geom:area_square_m":23240494.428188,
+    "geom:area_square_m":23240494.428189,
     "geom:bbox":"5.47923881133,43.5316958215,5.56126536496,43.5817574723",
     "geom:latitude":43.556464,
     "geom:longitude":5.522287,
@@ -117,6 +129,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683441,
         102191581,
@@ -126,7 +140,10 @@
         102064247
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_13095",
+        "eurostat:nuts_2021_id":"13095"
+    },
     "wof:coterminous":[
         101850251
     ],
@@ -134,7 +151,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"1645536fe5348a2fb1c297f94d9a11d4",
+    "wof:geomhash":"1c86464b8b997ecd74c670572f3339a9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -147,11 +164,13 @@
         }
     ],
     "wof:id":404382719,
-    "wof:lastmodified":1582324696,
+    "wof:lastmodified":1684353042,
     "wof:name":"Saint-Marc-Jaumegarde",
     "wof:parent_id":102064247,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1250,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_74273",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sixt-Fer-\u00e0-Cheval",
+    "eurostat:nuts_2021_id":"74273",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK28",
+    "eurostat:nuts_2021_level_lau":"74273",
+    "eurostat:population":769,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200034098",
     "frgov:id":"BDCSURCO0000000009603893",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.01383,
-    "geom:area_square_m":118674213.394157,
+    "geom:area_square_m":118674213.394167,
     "geom:bbox":"6.72252521852,45.9655178584,6.8999284721,46.1326428128",
     "geom:latitude":46.054084,
     "geom:longitude":6.812395,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683227,
         102191581,
@@ -56,7 +70,10 @@
         102068609
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_74273",
+        "eurostat:nuts_2021_id":"74273"
+    },
     "wof:coterminous":[
         1360676105
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"47dfb685836ee5cd712d557c430f0fb7",
+    "wof:geomhash":"ad9dd3298916c9af760df10fe51336dc",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404383089,
-    "wof:lastmodified":1582324549,
+    "wof:lastmodified":1684353047,
     "wof:name":"Sixt-Fer-A-Cheval",
     "wof:parent_id":102068609,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":769,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

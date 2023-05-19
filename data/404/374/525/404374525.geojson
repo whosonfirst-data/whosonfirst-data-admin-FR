@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_80215",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Coulonvillers",
+    "eurostat:nuts_2021_id":"80215",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE23",
+    "eurostat:nuts_2021_level_lau":"80215",
+    "eurostat:population":231,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070936",
     "frgov:id":"BDCSURCO0000000009581859",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001205,
-    "geom:area_square_m":9543817.448696,
+    "geom:area_square_m":9543817.448695,
     "geom:bbox":"1.98579516008,50.1300039993,2.05021080993,50.1812839767",
     "geom:latitude":50.152842,
     "geom:longitude":2.017042,
@@ -132,6 +144,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683363,
         102191581,
@@ -142,7 +156,10 @@
         102064875
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_80215",
+        "eurostat:nuts_2021_id":"80215"
+    },
     "wof:coterminous":[
         101898115
     ],
@@ -150,7 +167,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"1b4810dea740f7c1933a89513ce7ebba",
+    "wof:geomhash":"8efe759691162111e4c3909261a7b43a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -164,11 +181,13 @@
         }
     ],
     "wof:id":404374525,
-    "wof:lastmodified":1582325403,
+    "wof:lastmodified":1684352942,
     "wof:name":"Coulonvillers",
     "wof:parent_id":102064875,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":231,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

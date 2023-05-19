@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_84007",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Avignon",
+    "eurostat:nuts_2021_id":"84007",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL06",
+    "eurostat:nuts_2021_level_lau":"84007",
+    "eurostat:population":91921,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248400251",
     "frgov:id":"BDCSURCO0000000009611977",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Pr\u00e9fecture",
     "geom:area":0.007275,
-    "geom:area_square_m":64782026.001585,
+    "geom:area_square_m":64782026.001584,
     "geom:bbox":"4.739061,43.886236,4.927177,43.996679",
     "geom:latitude":43.935408,
     "geom:longitude":4.840918,
@@ -294,23 +306,29 @@
     "reversegeo:longitude":4.840818,
     "src:geom":"frgov",
     "src:geom_alt":[],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85683201,
         102191581,
         85633147,
-        102072171,
         404227981,
         404227445,
-        85683201
+        102072171
     ],
     "wof:breaches":[],
     "wof:concordance":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_84007",
+        "eurostat:nuts_2021_id":"84007"
+    },
     "wof:coterminous":[
         101748959,
         102072171
     ],
     "wof:country":"FR",
     "wof:created":1526510158,
-    "wof:geomhash":"d2b0c10de8060edba2b984fc180fe689",
+    "wof:geomhash":"937bf1d090e4516772cfe400a03ed14d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -323,11 +341,13 @@
         }
     ],
     "wof:id":1159322151,
-    "wof:lastmodified":1608039582,
+    "wof:lastmodified":1684353598,
     "wof:name":"Avignon",
     "wof:parent_id":102072171,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Pr\u00e9fecture",
+    "wof:population":91921,
+    "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded":[],
     "wof:superseded_by":[],

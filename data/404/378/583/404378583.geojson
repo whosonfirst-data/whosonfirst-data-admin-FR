@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_02250",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Cuiry-l\u00e8s-Chaudardes",
+    "eurostat:nuts_2021_id":"02250",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE21",
+    "eurostat:nuts_2021_level_lau":"02250",
+    "eurostat:population":76,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240200592",
     "frgov:id":"BDCSURCO0000000009585258",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000641,
-    "geom:area_square_m":5157526.383281,
+    "geom:area_square_m":5157526.383282,
     "geom:bbox":"3.74179519221,49.3744545672,3.78229479877,49.4094394461",
     "geom:latitude":49.390257,
     "geom:longitude":3.762718,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683247,
         102191581,
@@ -58,7 +72,10 @@
         102066469
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_02250",
+        "eurostat:nuts_2021_id":"02250"
+    },
     "wof:coterminous":[
         1126048457
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"116dbb4383705ba237cca076b6097a99",
+    "wof:geomhash":"24d33781099498f8adecb3123ac048d7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404378583,
-    "wof:lastmodified":1582324747,
+    "wof:lastmodified":1684352994,
     "wof:name":"Cuiry-Les-Chaudardes",
     "wof:parent_id":102066469,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":76,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

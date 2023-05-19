@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_22308",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Juvat",
+    "eurostat:nuts_2021_id":"22308",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH01",
+    "eurostat:nuts_2021_level_lau":"22308",
+    "eurostat:population":653,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068989",
     "frgov:id":"BDCSURCO0000000009593055",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BRETAGNE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002193,
-    "geom:area_square_m":18016672.165188,
+    "geom:area_square_m":18016672.165189,
     "geom:bbox":"-2.09832071614,48.3422016456,-2.01631013116,48.3901773406",
     "geom:latitude":48.36176,
     "geom:longitude":-2.054385,
@@ -138,6 +150,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683515,
         102191581,
@@ -147,7 +161,10 @@
         102066785
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_22308",
+        "eurostat:nuts_2021_id":"22308"
+    },
     "wof:coterminous":[
         101881583
     ],
@@ -155,7 +172,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"501824d68ac810e9bcc002ccf9e1e5e3",
+    "wof:geomhash":"d139c1f31ca7148733ce2a9e1459cede",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -168,11 +185,13 @@
         }
     ],
     "wof:id":404362865,
-    "wof:lastmodified":1582324060,
+    "wof:lastmodified":1684352793,
     "wof:name":"Saint-Juvat",
     "wof:parent_id":102066785,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":653,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

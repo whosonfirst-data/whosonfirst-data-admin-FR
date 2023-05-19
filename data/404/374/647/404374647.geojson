@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_05036",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ch\u00e2teauroux-les-Alpes",
+    "eurostat:nuts_2021_id":"05036",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL02",
+    "eurostat:nuts_2021_level_lau":"05036",
+    "eurostat:population":1197,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067742",
     "frgov:id":"BDCSURCO0000000009609605",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.01041,
-    "geom:area_square_m":91589320.953178,
+    "geom:area_square_m":91589320.953177,
     "geom:bbox":"6.39877322414,44.5840898231,6.56798354967,44.7008125134",
     "geom:latitude":44.642253,
     "geom:longitude":6.483329,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683597,
         102191581,
@@ -57,7 +71,10 @@
         102065669
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_05036",
+        "eurostat:nuts_2021_id":"05036"
+    },
     "wof:coterminous":[
         101895847
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"1a4a56f9823111316ebc9c980aff379f",
+    "wof:geomhash":"79636545e38f9dab4f06103e5dc56216",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404374647,
-    "wof:lastmodified":1582325399,
+    "wof:lastmodified":1684352943,
     "wof:name":"Chateauroux-Les-Alpes",
     "wof:parent_id":102065669,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1197,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

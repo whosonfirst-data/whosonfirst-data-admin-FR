@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_78548",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Forget",
+    "eurostat:nuts_2021_id":"78548",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR103",
+    "eurostat:nuts_2021_level_lau":"78548",
+    "eurostat:population":518,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200033173",
     "frgov:id":"BDCSURCO0000000009590684",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"ILE-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000736,
-    "geom:area_square_m":6004015.476558,
+    "geom:area_square_m":6004015.476559,
     "geom:bbox":"1.97019106977,48.6964449789,2.0249296563,48.7290004066",
     "geom:latitude":48.712885,
     "geom:longitude":1.997117,
@@ -117,6 +129,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683367,
         102191581,
@@ -126,7 +140,10 @@
         102065129
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_78548",
+        "eurostat:nuts_2021_id":"78548"
+    },
     "wof:coterminous":[
         1125933905
     ],
@@ -134,7 +151,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"dee6bf472fca6476df05f83489ae014e",
+    "wof:geomhash":"ed480be7625602c45eb50a09b6e5e99f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -147,11 +164,13 @@
         }
     ],
     "wof:id":404380909,
-    "wof:lastmodified":1582325371,
+    "wof:lastmodified":1684353021,
     "wof:name":"Saint-Forget",
     "wof:parent_id":102065129,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":518,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

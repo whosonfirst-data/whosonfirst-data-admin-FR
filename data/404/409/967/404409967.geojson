@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_22110",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lanm\u00e9rin",
+    "eurostat:nuts_2021_id":"22110",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH01",
+    "eurostat:nuts_2021_level_lau":"22110",
+    "eurostat:population":599,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200065928",
     "frgov:id":"BDCSURCO0000000009589435",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BRETAGNE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000518,
-    "geom:area_square_m":4222449.983744,
+    "geom:area_square_m":4222449.983745,
     "geom:bbox":"-3.37603001262,48.7277346852,-3.33171087631,48.7510804688",
     "geom:latitude":48.739908,
     "geom:longitude":-3.357401,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683515,
         102191581,
@@ -57,7 +71,10 @@
         102071451
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_22110",
+        "eurostat:nuts_2021_id":"22110"
+    },
     "wof:coterminous":[
         101877501
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9fcf4e8ec620db0d38d153bef157f12a",
+    "wof:geomhash":"8d120f7472ca89fbb58ed0dec547e275",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404409967,
-    "wof:lastmodified":1582324479,
+    "wof:lastmodified":1684353366,
     "wof:name":"Lanmerin",
     "wof:parent_id":102071451,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":599,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

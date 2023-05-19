@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_23241",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Silvain-Bellegarde",
+    "eurostat:nuts_2021_id":"23241",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI22",
+    "eurostat:nuts_2021_level_lau":"23241",
+    "eurostat:population":211,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067593",
     "frgov:id":"BDCSURCO0000000009604545",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002425,
-    "geom:area_square_m":20839952.602805,
+    "geom:area_square_m":20839952.602807,
     "geom:bbox":"2.26655208244,45.939075473,2.34369876452,45.9971893144",
     "geom:latitude":45.966023,
     "geom:longitude":2.307684,
@@ -124,6 +136,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683179,
         102191581,
@@ -134,7 +148,10 @@
         102064831
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_23241",
+        "eurostat:nuts_2021_id":"23241"
+    },
     "wof:coterminous":[
         1360674065
     ],
@@ -142,7 +159,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"50a8afa00cc77e08c5c52ca85c192f91",
+    "wof:geomhash":"7206657f919d886c4541c401dfaa237e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -156,11 +173,13 @@
         }
     ],
     "wof:id":404362477,
-    "wof:lastmodified":1582324049,
+    "wof:lastmodified":1684352788,
     "wof:name":"Saint-Silvain-Bellegarde",
     "wof:parent_id":102064831,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":211,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

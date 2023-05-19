@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_03251",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Plaisir",
+    "eurostat:nuts_2021_id":"03251",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK11",
+    "eurostat:nuts_2021_level_lau":"03251",
+    "eurostat:population":379,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071496",
     "frgov:id":"BDCSURCO0000000009602010",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.006191,
-    "geom:area_square_m":52571261.120359,
+    "geom:area_square_m":52571261.12036,
     "geom:bbox":"2.8939729864,46.586827155,3.01589067819,46.6709639954",
     "geom:latitude":46.62436,
     "geom:longitude":2.955705,
@@ -141,6 +153,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683293,
         102191581,
@@ -151,7 +165,10 @@
         102064305
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_03251",
+        "eurostat:nuts_2021_id":"03251"
+    },
     "wof:coterminous":[
         1125940157
     ],
@@ -159,7 +176,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"38fda01c11e0d543a441bdf6b6ccc118",
+    "wof:geomhash":"b637171cb660aee49e4592ee1d2e0703",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -173,11 +190,13 @@
         }
     ],
     "wof:id":404376033,
-    "wof:lastmodified":1582324675,
+    "wof:lastmodified":1684352963,
     "wof:name":"Saint-Plaisir",
     "wof:parent_id":102064305,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":379,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

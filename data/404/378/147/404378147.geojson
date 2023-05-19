@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_71430",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Jean-de-Vaux",
+    "eurostat:nuts_2021_id":"71430",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC13",
+    "eurostat:nuts_2021_level_lau":"71430",
+    "eurostat:population":407,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247100589",
     "frgov:id":"BDCSURCO0000000009601161",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000271,
-    "geom:area_square_m":2290819.412916,
+    "geom:area_square_m":2290819.412915,
     "geom:bbox":"4.68330285888,46.7976970161,4.70940118266,46.8164665436",
     "geom:latitude":46.806195,
     "geom:longitude":4.696363,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683543,
         102191581,
@@ -58,7 +72,10 @@
         102067841
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_71430",
+        "eurostat:nuts_2021_id":"71430"
+    },
     "wof:coterminous":[
         1126027695
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b23ec5a4a75a2f554a5f6f66d74ca866",
+    "wof:geomhash":"8f38e989d6aac9e8c79089c09666460b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404378147,
-    "wof:lastmodified":1582324747,
+    "wof:lastmodified":1684352988,
     "wof:name":"Saint-Jean-De-Vaux",
     "wof:parent_id":102067841,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":407,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

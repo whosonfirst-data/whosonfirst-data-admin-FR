@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_55172",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"\u00c9parges",
+    "eurostat:nuts_2021_id":"55172",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF32",
+    "eurostat:nuts_2021_level_lau":"55172",
+    "eurostat:population":67,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"245501176",
     "frgov:id":"BDCSURCO0000000009587551",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.00118,
-    "geom:area_square_m":9556363.693778,
+    "geom:area_square_m":9556363.693779,
     "geom:bbox":"5.55515659218,49.0475368404,5.61597706872,49.0819670283",
     "geom:latitude":49.064114,
     "geom:longitude":5.583045,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683297,
         102191581,
@@ -58,7 +72,10 @@
         102065975
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_55172",
+        "eurostat:nuts_2021_id":"55172"
+    },
     "wof:coterminous":[
         1125902983
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8a10111303a42c411bb8b3911ac0633d",
+    "wof:geomhash":"efa24653e8087eef029e54ed125ecbef",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404376481,
-    "wof:lastmodified":1582324672,
+    "wof:lastmodified":1684352969,
     "wof:name":"Les Eparges",
     "wof:parent_id":102065975,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":67,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

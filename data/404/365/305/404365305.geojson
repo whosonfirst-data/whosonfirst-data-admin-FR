@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_02139",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Caillou\u00ebl-Cr\u00e9pigny",
+    "eurostat:nuts_2021_id":"02139",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE21",
+    "eurostat:nuts_2021_level_lau":"02139",
+    "eurostat:population":438,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071785",
     "frgov:id":"BDCSURCO0000000009583846",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683247,
         102191581,
@@ -58,7 +72,10 @@
         102065879
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_02139",
+        "eurostat:nuts_2021_id":"02139"
+    },
     "wof:coterminous":[
         1126040869
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"25acade06e1920e7d889d1cda29fdd12",
+    "wof:geomhash":"4fcc4925f9d5e07513ddcaa5d11132e5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404365305,
-    "wof:lastmodified":1582324036,
+    "wof:lastmodified":1684352828,
     "wof:name":"Caillouel-Crepigny",
     "wof:parent_id":102065879,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":438,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

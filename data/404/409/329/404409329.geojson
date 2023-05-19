@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_60635",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Thiverny",
+    "eurostat:nuts_2021_id":"60635",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE22",
+    "eurostat:nuts_2021_level_lau":"60635",
+    "eurostat:population":1065,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068047",
     "frgov:id":"BDCSURCO0000000009586207",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000258,
-    "geom:area_square_m":2082342.072338,
+    "geom:area_square_m":2082342.072337,
     "geom:bbox":"2.41598466297,49.2377124761,2.44289525474,49.2526104823",
     "geom:latitude":49.245173,
     "geom:longitude":2.428451,
@@ -123,6 +135,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683289,
         102191581,
@@ -133,7 +147,10 @@
         102071003
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_60635",
+        "eurostat:nuts_2021_id":"60635"
+    },
     "wof:coterminous":[
         101853827
     ],
@@ -141,7 +158,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"201e6eef977a1260c441a9d58e5c451c",
+    "wof:geomhash":"95f4e71939af499f78f63887e4b47684",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -155,11 +172,13 @@
         }
     ],
     "wof:id":404409329,
-    "wof:lastmodified":1582324485,
+    "wof:lastmodified":1684353359,
     "wof:name":"Thiverny",
     "wof:parent_id":102071003,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1065,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

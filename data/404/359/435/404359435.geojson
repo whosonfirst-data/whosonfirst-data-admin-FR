@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_31478",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-F\u00e9lix-Lauragais",
+    "eurostat:nuts_2021_id":"31478",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ23",
+    "eurostat:nuts_2021_level_lau":"31478",
+    "eurostat:population":1271,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243100567",
     "frgov:id":"BDCSURCO0000000009614165",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.005808,
-    "geom:area_square_m":52139082.309809,
+    "geom:area_square_m":52139082.309808,
     "geom:bbox":"1.83696045217,43.3933731027,1.97458245336,43.5146209437",
     "geom:latitude":43.450593,
     "geom:longitude":1.901606,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683397,
         102191581,
@@ -58,7 +72,10 @@
         102069015
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_31478",
+        "eurostat:nuts_2021_id":"31478"
+    },
     "wof:coterminous":[
         101850271
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8dab98791a71a479f7f4a45aca5527ea",
+    "wof:geomhash":"54dbc4ab37da908dfb83886b3b2ba7fc",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404359435,
-    "wof:lastmodified":1582324802,
+    "wof:lastmodified":1684352746,
     "wof:name":"Saint-Felix-Lauragais",
     "wof:parent_id":102069015,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1271,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

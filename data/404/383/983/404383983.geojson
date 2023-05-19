@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_63272",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"P\u00e9rignat-l\u00e8s-Sarli\u00e8ve",
+    "eurostat:nuts_2021_id":"63272",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK14",
+    "eurostat:nuts_2021_level_lau":"63272",
+    "eurostat:population":2680,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"246300701",
     "frgov:id":"BDCSURCO0000000009605565",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.000448,
-    "geom:area_square_m":3868716.099588,
+    "geom:area_square_m":3868716.099587,
     "geom:bbox":"3.12788486454,45.7216576642,3.16032750758,45.7434534228",
     "geom:latitude":45.732824,
     "geom:longitude":3.143209,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683471,
         102191581,
@@ -58,7 +72,10 @@
         102071693
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_63272",
+        "eurostat:nuts_2021_id":"63272"
+    },
     "wof:coterminous":[
         101753243
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"fe2351a27bfd221efbd770e061e30329",
+    "wof:geomhash":"6cbfe7705da1ebe9d81b048677cba2f6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404383983,
-    "wof:lastmodified":1582324545,
+    "wof:lastmodified":1684353059,
     "wof:name":"Perignat-Les-Sarlieve",
     "wof:parent_id":102071693,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2680,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

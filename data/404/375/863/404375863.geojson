@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_29302",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Pont-de-Buis-l\u00e8s-Quimerch",
+    "eurostat:nuts_2021_id":"29302",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH02",
+    "eurostat:nuts_2021_level_lau":"29302",
+    "eurostat:population":3792,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066868",
     "frgov:id":"BDCSURCO0000000009593094",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BRETAGNE",
     "frgov:statut":"Commune simple",
     "geom:area":0.004944,
-    "geom:area_square_m":40690017.302843,
+    "geom:area_square_m":40690017.302844,
     "geom:bbox":"-4.15850745432,48.2366270561,-4.06340477411,48.3109372983",
     "geom:latitude":48.275297,
     "geom:longitude":-4.106968,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683553,
         102191581,
@@ -57,7 +71,10 @@
         102066865
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_29302",
+        "eurostat:nuts_2021_id":"29302"
+    },
     "wof:coterminous":[
         101761449
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4ce15c2e8e08f2b2efddab5ec30421b7",
+    "wof:geomhash":"152f16e4127c1b912e6de6880620610b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404375863,
-    "wof:lastmodified":1582325423,
+    "wof:lastmodified":1684352961,
     "wof:name":"Pont-De-Buis-Les-Quimerch",
     "wof:parent_id":102066865,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3792,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

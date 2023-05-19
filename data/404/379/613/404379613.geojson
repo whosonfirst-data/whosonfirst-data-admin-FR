@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_42005",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Andr\u00e9zieux-Bouth\u00e9on",
+    "eurostat:nuts_2021_id":"42005",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK25",
+    "eurostat:nuts_2021_level_lau":"42005",
+    "eurostat:population":9790,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244200770",
     "frgov:id":"BDCSURCO0000000009606321",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001833,
-    "geom:area_square_m":15877536.807041,
+    "geom:area_square_m":15877536.80704,
     "geom:bbox":"4.24043740367,45.5165767854,4.31420579034,45.5535252108",
     "geom:latitude":45.535066,
     "geom:longitude":4.276836,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683377,
         102191581,
@@ -56,7 +70,10 @@
         102068539
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_42005",
+        "eurostat:nuts_2021_id":"42005"
+    },
     "wof:coterminous":[
         1360675759
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"55ef348ffd60212fe5b6e427219650a0",
+    "wof:geomhash":"6d0a8c514f4c52f0051c3171c43e9918",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404379613,
-    "wof:lastmodified":1582324530,
+    "wof:lastmodified":1684353006,
     "wof:name":"Andrezieux-Boutheon",
     "wof:parent_id":102068539,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":9790,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

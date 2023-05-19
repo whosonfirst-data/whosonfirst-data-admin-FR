@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_37005",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Antogny-le-Tillac",
+    "eurostat:nuts_2021_id":"37005",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB04",
+    "eurostat:nuts_2021_level_lau":"37005",
+    "eurostat:population":510,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072668",
     "frgov:id":"BDCSURCO0000000009600802",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002047,
-    "geom:area_square_m":17273143.257402,
+    "geom:area_square_m":17273143.257401,
     "geom:bbox":"0.505190240834,46.9554641095,0.601727787654,46.9837024141",
     "geom:latitude":46.968204,
     "geom:longitude":0.554964,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683575,
         102191581,
@@ -55,7 +69,10 @@
         102067963
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_37005",
+        "eurostat:nuts_2021_id":"37005"
+    },
     "wof:coterminous":[
         1360674737
     ],
@@ -63,7 +80,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"841ac110d1378a2eed5e4a5821a33ed5",
+    "wof:geomhash":"b2553a9c510f499a5b20c46f1282c4f2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -76,11 +93,13 @@
         }
     ],
     "wof:id":404369621,
-    "wof:lastmodified":1582324908,
+    "wof:lastmodified":1684352886,
     "wof:name":"Antogny-Le-Tillac",
     "wof:parent_id":102067963,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":510,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

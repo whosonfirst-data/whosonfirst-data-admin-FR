@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_07207",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Alban-Auriolles",
+    "eurostat:nuts_2021_id":"07207",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK22",
+    "eurostat:nuts_2021_level_lau":"07207",
+    "eurostat:population":1091,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200039808",
     "frgov:id":"BDCSURCO0000000009610503",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001967,
-    "geom:area_square_m":17367060.896116,
+    "geom:area_square_m":17367060.896115,
     "geom:bbox":"4.25733930944,44.4112851372,4.33584892103,44.4535441858",
     "geom:latitude":44.43437,
     "geom:longitude":4.294662,
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683421,
         102191581,
@@ -139,7 +153,10 @@
         102065809
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_07207",
+        "eurostat:nuts_2021_id":"07207"
+    },
     "wof:coterminous":[
         101896305
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9c0990cbec84acd95777a26fa41b58be",
+    "wof:geomhash":"609a4fbc7cd1e5f9832c5cd00329b93a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404412915,
-    "wof:lastmodified":1582324375,
+    "wof:lastmodified":1684353400,
     "wof:name":"Saint-Alban-Auriolles",
     "wof:parent_id":102065809,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1091,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

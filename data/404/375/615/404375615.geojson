@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_42221",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sainte-Foy-Saint-Sulpice",
+    "eurostat:nuts_2021_id":"42221",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK25",
+    "eurostat:nuts_2021_level_lau":"42221",
+    "eurostat:population":512,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200065886",
     "frgov:id":"BDCSURCO0000000009605275",
     "frgov:insee_arr":"1",
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683377,
         102191581,
@@ -136,7 +150,10 @@
         102064481
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_42221",
+        "eurostat:nuts_2021_id":"42221"
+    },
     "wof:coterminous":[
         1125939535
     ],
@@ -144,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0d4e5ea5e945aa7b13e43cd734de92e6",
+    "wof:geomhash":"e8c995cf76dc93c2645353d0d0cc1e67",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +175,13 @@
         }
     ],
     "wof:id":404375615,
-    "wof:lastmodified":1582325420,
+    "wof:lastmodified":1684352957,
     "wof:name":"Sainte-Foy-Saint-Sulpice",
     "wof:parent_id":102064481,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":512,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

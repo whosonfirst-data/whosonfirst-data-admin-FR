@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_08189",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Girondelle",
+    "eurostat:nuts_2021_id":"08189",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF21",
+    "eurostat:nuts_2021_level_lau":"08189",
+    "eurostat:population":153,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041622",
     "frgov:id":"BDCSURCO0000000009582606",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.001436,
-    "geom:area_square_m":11448122.644366,
+    "geom:area_square_m":11448122.644367,
     "geom:bbox":"4.35339097223,49.8339988276,4.41477192002,49.8719519038",
     "geom:latitude":49.852163,
     "geom:longitude":4.386169,
@@ -138,6 +150,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683309,
         102191581,
@@ -148,7 +162,10 @@
         102068887
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_08189",
+        "eurostat:nuts_2021_id":"08189"
+    },
     "wof:coterminous":[
         101901833
     ],
@@ -156,7 +173,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f621842fcf470259171a8929a4ba9a45",
+    "wof:geomhash":"1073e1997e3f8acf94de9daa9e082df8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -170,11 +187,13 @@
         }
     ],
     "wof:id":404428511,
-    "wof:lastmodified":1582325118,
+    "wof:lastmodified":1684353585,
     "wof:name":"Girondelle",
     "wof:parent_id":102068887,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":153,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

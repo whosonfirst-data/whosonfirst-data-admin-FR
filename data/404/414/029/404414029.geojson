@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_69259",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"V\u00e9nissieux",
+    "eurostat:nuts_2021_id":"69259",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK26",
+    "eurostat:nuts_2021_level_lau":"69259",
+    "eurostat:population":65894,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200046977",
     "frgov:id":"BDCSURCO0000000009605502",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001779,
-    "geom:area_square_m":15361814.127035,
+    "geom:area_square_m":15361814.127034,
     "geom:bbox":"4.84972,45.671508,4.91164,45.730396",
     "geom:latitude":45.704135,
     "geom:longitude":4.881314,
@@ -48,17 +60,22 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85683569,
         102191581,
         85633147,
-        102072119,
-        136253037,
         404227735,
         1108826389,
-        85683569
+        136253037,
+        102072119
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_69259",
+        "eurostat:nuts_2021_id":"69259"
+    },
     "wof:coterminous":[
         101750827,
         102072119
@@ -67,7 +84,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f2bc171725e09d2083299179e61adc56",
+    "wof:geomhash":"8c1e0c6dd4a9cd8a79399c1a9fc67f0e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -81,11 +98,13 @@
         }
     ],
     "wof:id":404414029,
-    "wof:lastmodified":1608037402,
+    "wof:lastmodified":1684353414,
     "wof:name":"Venissieux",
     "wof:parent_id":102072119,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":65894,
+    "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

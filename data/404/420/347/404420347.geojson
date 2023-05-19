@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_27563",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Mards-de-Blacarville",
+    "eurostat:nuts_2021_id":"27563",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD21",
+    "eurostat:nuts_2021_level_lau":"27563",
+    "eurostat:population":801,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200065787",
     "frgov:id":"BDCSURCO0000000009585422",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001088,
-    "geom:area_square_m":8759891.000521,
+    "geom:area_square_m":8759891.00052,
     "geom:bbox":"0.473294895817,49.3615820083,0.541706867285,49.3924778896",
     "geom:latitude":49.377032,
     "geom:longitude":0.509739,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683283,
         102191581,
@@ -58,7 +72,10 @@
         102069339
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_27563",
+        "eurostat:nuts_2021_id":"27563"
+    },
     "wof:coterminous":[
         1125814657
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7220672c1a89f09c262380d4e4397604",
+    "wof:geomhash":"7fc19af6c37eb73ff0f56af2cb0f8870",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404420347,
-    "wof:lastmodified":1582325204,
+    "wof:lastmodified":1684353487,
     "wof:name":"Saint-Mards-De-Blacarville",
     "wof:parent_id":102069339,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":801,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_01369",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Just",
+    "eurostat:nuts_2021_id":"01369",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK21",
+    "eurostat:nuts_2021_level_lau":"01369",
+    "eurostat:population":926,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071751",
     "frgov:id":"BDCSURCO0000000009603224",
     "frgov:insee_arr":"2",
@@ -118,6 +130,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683153,
         102191581,
@@ -128,7 +142,10 @@
         102070955
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_01369",
+        "eurostat:nuts_2021_id":"01369"
+    },
     "wof:coterminous":[
         1360674911
     ],
@@ -136,7 +153,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"85a41429ca1428461a615583ab6cbe9c",
+    "wof:geomhash":"43d5a2277ec76b4d80d8bca48a04b3c8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -150,11 +167,13 @@
         }
     ],
     "wof:id":404371545,
-    "wof:lastmodified":1582324651,
+    "wof:lastmodified":1684352907,
     "wof:name":"Saint-Just",
     "wof:parent_id":102070955,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":926,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

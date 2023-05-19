@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_07212",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Andr\u00e9-en-Vivarais",
+    "eurostat:nuts_2021_id":"07212",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK22",
+    "eurostat:nuts_2021_level_lau":"07212",
+    "eurostat:population":213,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041465",
     "frgov:id":"BDCSURCO0000000009607896",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.002357,
-    "geom:area_square_m":20567359.339915,
+    "geom:area_square_m":20567359.339914,
     "geom:bbox":"4.36946535605,45.081335843,4.46302754179,45.1448228051",
     "geom:latitude":45.116892,
     "geom:longitude":4.409144,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683421,
         102191581,
@@ -58,7 +72,10 @@
         102067103
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_07212",
+        "eurostat:nuts_2021_id":"07212"
+    },
     "wof:coterminous":[
         1125993793
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6c2e1cee8431a8e7becfd9d4a3e5d35e",
+    "wof:geomhash":"270bf0c183d19427096b21af21a50a99",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404376223,
-    "wof:lastmodified":1582324672,
+    "wof:lastmodified":1684352966,
     "wof:name":"Saint-Andre-En-Vivarais",
     "wof:parent_id":102067103,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":213,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

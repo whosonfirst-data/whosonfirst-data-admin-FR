@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_81097",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Fr\u00e9jairolles",
+    "eurostat:nuts_2021_id":"81097",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ27",
+    "eurostat:nuts_2021_level_lau":"81097",
+    "eurostat:population":1323,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248100737",
     "frgov:id":"BDCSURCO0000000009612483",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683603,
         102191581,
@@ -58,7 +72,10 @@
         102071317
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_81097",
+        "eurostat:nuts_2021_id":"81097"
+    },
     "wof:coterminous":[
         1125928227
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"fd1eef3425cb9bf1eaf286c8dcc9b08b",
+    "wof:geomhash":"c4fa6f8b0eba90ad5a825ac2c51eba93",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404376341,
-    "wof:lastmodified":1582324667,
+    "wof:lastmodified":1684352968,
     "wof:name":"Frejairolles",
     "wof:parent_id":102071317,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1323,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

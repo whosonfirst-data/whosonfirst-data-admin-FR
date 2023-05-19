@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_25517",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Gorgon-Main",
+    "eurostat:nuts_2021_id":"25517",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC21",
+    "eurostat:nuts_2021_level_lau":"25517",
+    "eurostat:population":283,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242500320",
     "frgov:id":"BDCSURCO0000000009600166",
     "frgov:insee_arr":"3",
@@ -117,6 +129,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683239,
         102191581,
@@ -127,7 +141,10 @@
         102067115
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_25517",
+        "eurostat:nuts_2021_id":"25517"
+    },
     "wof:coterminous":[
         1125896151
     ],
@@ -135,7 +152,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"bccd87f165e2f08e89828fc159ecd6aa",
+    "wof:geomhash":"9b17074453d614a8bb19abac7e082536",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -149,11 +166,13 @@
         }
     ],
     "wof:id":404418885,
-    "wof:lastmodified":1582325226,
+    "wof:lastmodified":1684353470,
     "wof:name":"Saint-Gorgon-Main",
     "wof:parent_id":102067115,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":283,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

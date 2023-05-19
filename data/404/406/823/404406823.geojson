@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_60681",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Villers-Saint-Barth\u00e9lemy",
+    "eurostat:nuts_2021_id":"60681",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE22",
+    "eurostat:nuts_2021_level_lau":"60681",
+    "eurostat:population":480,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"246000913",
     "frgov:id":"BDCSURCO0000000009585353",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683289,
         102191581,
@@ -58,7 +72,10 @@
         102064505
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_60681",
+        "eurostat:nuts_2021_id":"60681"
+    },
     "wof:coterminous":[
         101902771
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"83f8505a5cd74ae35a4592090ac53f5f",
+    "wof:geomhash":"9013322508d07207a487671b675a2113",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404406823,
-    "wof:lastmodified":1582324447,
+    "wof:lastmodified":1684353330,
     "wof:name":"Villers-Saint-Barthelemy",
     "wof:parent_id":102064505,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":480,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

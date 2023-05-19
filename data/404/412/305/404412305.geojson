@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_87090",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mailhac-sur-Benaize",
+    "eurostat:nuts_2021_id":"87090",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI23",
+    "eurostat:nuts_2021_level_lau":"87090",
+    "eurostat:population":270,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071942",
     "frgov:id":"BDCSURCO0000000009603128",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002478,
-    "geom:area_square_m":21165675.178613,
+    "geom:area_square_m":21165675.178614,
     "geom:bbox":"1.27823319718,46.2811862597,1.35441796241,46.340871772",
     "geom:latitude":46.310544,
     "geom:longitude":1.315447,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683531,
         102191581,
@@ -58,7 +72,10 @@
         102069471
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_87090",
+        "eurostat:nuts_2021_id":"87090"
+    },
     "wof:coterminous":[
         1125838829
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0cd1ed8304093cd30525ffe1f0dad089",
+    "wof:geomhash":"b85ad379c994643921ccfb658850eb64",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404412305,
-    "wof:lastmodified":1582324379,
+    "wof:lastmodified":1684353393,
     "wof:name":"Mailhac-Sur-Benaize",
     "wof:parent_id":102069471,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":270,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

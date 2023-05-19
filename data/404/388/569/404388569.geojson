@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_02084",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"B\u00e9zu-le-Gu\u00e9ry",
+    "eurostat:nuts_2021_id":"02084",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE21",
+    "eurostat:nuts_2021_level_lau":"02084",
+    "eurostat:population":260,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240200584",
     "frgov:id":"BDCSURCO0000000009588154",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001386,
-    "geom:area_square_m":11243204.853061,
+    "geom:area_square_m":11243204.85306,
     "geom:bbox":"3.19899246753,48.9873290066,3.2572678998,49.0325602566",
     "geom:latitude":49.010438,
     "geom:longitude":3.22781,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683247,
         102191581,
@@ -58,7 +72,10 @@
         102065405
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_02084",
+        "eurostat:nuts_2021_id":"02084"
+    },
     "wof:coterminous":[
         1125893139
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e366fe9db35c7db91e155e43d3690d88",
+    "wof:geomhash":"03b41acd2ab403432ed6ccb9be539824",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404388569,
-    "wof:lastmodified":1582325476,
+    "wof:lastmodified":1684353111,
     "wof:name":"Bezu-Le-Guery",
     "wof:parent_id":102065405,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":260,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

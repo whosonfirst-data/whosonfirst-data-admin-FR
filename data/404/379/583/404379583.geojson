@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_21104",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Br\u00e9mur-et-Vaurois",
+    "eurostat:nuts_2021_id":"21104",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC11",
+    "eurostat:nuts_2021_level_lau":"21104",
+    "eurostat:population":49,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242101434",
     "frgov:id":"BDCSURCO0000000009597090",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001136,
-    "geom:area_square_m":9446565.137897,
+    "geom:area_square_m":9446565.137898,
     "geom:bbox":"4.57661830984,47.7139251967,4.64094089965,47.7458813374",
     "geom:latitude":47.729435,
     "geom:longitude":4.609321,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683563,
         102191581,
@@ -58,7 +72,10 @@
         102065747
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_21104",
+        "eurostat:nuts_2021_id":"21104"
+    },
     "wof:coterminous":[
         1125894101
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ff52e909473505cfcf10a09eb6d748a4",
+    "wof:geomhash":"fbaa9d11ba62b3385b3ba916089407c8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404379583,
-    "wof:lastmodified":1582324536,
+    "wof:lastmodified":1684353006,
     "wof:name":"Bremur-Et-Vaurois",
     "wof:parent_id":102065747,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":49,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

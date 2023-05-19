@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_15207",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Poncy",
+    "eurostat:nuts_2021_id":"15207",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK12",
+    "eurostat:nuts_2021_level_lau":"15207",
+    "eurostat:population":355,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066637",
     "frgov:id":"BDCSURCO0000000009607928",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.004651,
-    "geom:area_square_m":40555930.43098,
+    "geom:area_square_m":40555930.430981,
     "geom:bbox":"3.14903116194,45.1151619949,3.23381701536,45.2227841248",
     "geom:latitude":45.1593,
     "geom:longitude":3.194428,
@@ -132,6 +144,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683517,
         102191581,
@@ -142,7 +156,10 @@
         102065745
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_15207",
+        "eurostat:nuts_2021_id":"15207"
+    },
     "wof:coterminous":[
         1126023285
     ],
@@ -150,7 +167,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3c29d9ffd944eb1e9f3633db4eb61732",
+    "wof:geomhash":"0b422e37c2c2198f5ff18e3493518973",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -164,11 +181,13 @@
         }
     ],
     "wof:id":404364037,
-    "wof:lastmodified":1582324245,
+    "wof:lastmodified":1684352810,
     "wof:name":"Saint-Poncy",
     "wof:parent_id":102065745,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":355,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

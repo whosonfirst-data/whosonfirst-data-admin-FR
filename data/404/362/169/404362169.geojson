@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_07297",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Sylvestre",
+    "eurostat:nuts_2021_id":"07297",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK22",
+    "eurostat:nuts_2021_level_lau":"07297",
+    "eurostat:population":508,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041366",
     "frgov:id":"BDCSURCO0000000009608303",
     "frgov:insee_arr":"3",
@@ -96,6 +108,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683421,
         102191581,
@@ -106,7 +120,10 @@
         102067869
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_07297",
+        "eurostat:nuts_2021_id":"07297"
+    },
     "wof:coterminous":[
         1125938947
     ],
@@ -114,7 +131,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e04c1c5982eeac4670f5400cc1048f10",
+    "wof:geomhash":"c7f7d60b64d27b24ad325d5f43fe46f0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -128,11 +145,13 @@
         }
     ],
     "wof:id":404362169,
-    "wof:lastmodified":1582324047,
+    "wof:lastmodified":1684352784,
     "wof:name":"Saint-Sylvestre",
     "wof:parent_id":102067869,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":508,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

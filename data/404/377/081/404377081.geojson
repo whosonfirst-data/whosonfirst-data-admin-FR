@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_33408",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Gen\u00e8s-de-Lombaud",
+    "eurostat:nuts_2021_id":"33408",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI12",
+    "eurostat:nuts_2021_level_lau":"33408",
+    "eurostat:population":391,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243301215",
     "frgov:id":"BDCSURCO0000000009609335",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000695,
-    "geom:area_square_m":6099612.679025,
+    "geom:area_square_m":6099612.679024,
     "geom:bbox":"-0.412797395693,44.7399617374,-0.352073794651,44.7678075906",
     "geom:latitude":44.754112,
     "geom:longitude":-0.378507,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683243,
         102191581,
@@ -58,7 +72,10 @@
         102068589
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_33408",
+        "eurostat:nuts_2021_id":"33408"
+    },
     "wof:coterminous":[
         1125810995
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"931048abfc2cdda8160efacc2a3fc6b4",
+    "wof:geomhash":"15c2d0ee940eeb657921cc0901adcdbf",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404377081,
-    "wof:lastmodified":1582324568,
+    "wof:lastmodified":1684352976,
     "wof:name":"Saint-Genes-De-Lombaud",
     "wof:parent_id":102068589,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":391,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

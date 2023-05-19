@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_35271",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Georges-de-Reintembault",
+    "eurostat:nuts_2021_id":"35271",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH03",
+    "eurostat:nuts_2021_level_lau":"35271",
+    "eurostat:population":1498,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072452",
     "frgov:id":"BDCSURCO0000000009592129",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BRETAGNE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003846,
-    "geom:area_square_m":31506675.357134,
+    "geom:area_square_m":31506675.357135,
     "geom:bbox":"-1.27901470996,48.4698635015,-1.1856473449,48.5436957385",
     "geom:latitude":48.512905,
     "geom:longitude":-1.235079,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683461,
         102191581,
@@ -57,7 +71,10 @@
         102067961
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_35271",
+        "eurostat:nuts_2021_id":"35271"
+    },
     "wof:coterminous":[
         101761147
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"24ed3c3d49e8761b8bd4be8e385297b7",
+    "wof:geomhash":"71a10b1c3ad45a9eaaf307875651768d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404350147,
-    "wof:lastmodified":1582324864,
+    "wof:lastmodified":1684352618,
     "wof:name":"Saint-Georges-De-Reintembault",
     "wof:parent_id":102067961,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1498,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

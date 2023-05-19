@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_23016",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Banize",
+    "eurostat:nuts_2021_id":"23016",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI22",
+    "eurostat:nuts_2021_level_lau":"23016",
+    "eurostat:population":187,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067189",
     "frgov:id":"BDCSURCO0000000009604829",
     "frgov:insee_arr":"1",
@@ -136,6 +148,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683179,
         102191581,
@@ -146,7 +160,10 @@
         102068527
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_23016",
+        "eurostat:nuts_2021_id":"23016"
+    },
     "wof:coterminous":[
         1360674569
     ],
@@ -154,7 +171,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2b66a460b08fe6d4ee4eacee1cdc1343",
+    "wof:geomhash":"2b0ba3cae9e4c964e6bc7af643f61201",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -168,11 +185,13 @@
         }
     ],
     "wof:id":404367649,
-    "wof:lastmodified":1582324999,
+    "wof:lastmodified":1684352861,
     "wof:name":"Banize",
     "wof:parent_id":102068527,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":187,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

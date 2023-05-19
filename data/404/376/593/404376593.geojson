@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_74242",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Jorioz",
+    "eurostat:nuts_2021_id":"74242",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK28",
+    "eurostat:nuts_2021_level_lau":"74242",
+    "eurostat:population":5738,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066793",
     "frgov:id":"BDCSURCO0000000009604664",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.002647,
-    "geom:area_square_m":22810588.975563,
+    "geom:area_square_m":22810588.975564,
     "geom:bbox":"6.10741415021,45.7985544112,6.19198814046,45.8510544775",
     "geom:latitude":45.822712,
     "geom:longitude":6.150082,
@@ -114,6 +126,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683227,
         102191581,
@@ -124,7 +138,10 @@
         102070245
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_74242",
+        "eurostat:nuts_2021_id":"74242"
+    },
     "wof:coterminous":[
         1175611839
     ],
@@ -132,7 +149,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d3da7e13ab0671c42d7988bbad61d544",
+    "wof:geomhash":"479af9e45491e14919838bda01406b80",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -146,11 +163,13 @@
         }
     ],
     "wof:id":404376593,
-    "wof:lastmodified":1582324661,
+    "wof:lastmodified":1684352971,
     "wof:name":"Saint-Jorioz",
     "wof:parent_id":102070245,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":5738,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

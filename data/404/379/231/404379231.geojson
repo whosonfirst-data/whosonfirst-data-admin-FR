@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_70010",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Alaincourt",
+    "eurostat:nuts_2021_id":"70010",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC23",
+    "eurostat:nuts_2021_level_lau":"70010",
+    "eurostat:population":112,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041721",
     "frgov:id":"BDCSURCO0000000009595332",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000708,
-    "geom:area_square_m":5860531.329726,
+    "geom:area_square_m":5860531.329727,
     "geom:bbox":"6.08093990323,47.9309785353,6.12524343423,47.9593370537",
     "geom:latitude":47.946224,
     "geom:longitude":6.099139,
@@ -96,6 +108,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683559,
         102191581,
@@ -106,7 +120,10 @@
         102068925
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_70010",
+        "eurostat:nuts_2021_id":"70010"
+    },
     "wof:coterminous":[
         101886385
     ],
@@ -114,7 +131,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7f47e7b19e29263e015567d6ec118a28",
+    "wof:geomhash":"30cbe185168a853dc23eb6d55d8d8647",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -128,11 +145,13 @@
         }
     ],
     "wof:id":404379231,
-    "wof:lastmodified":1582324532,
+    "wof:lastmodified":1684353002,
     "wof:name":"Alaincourt",
     "wof:parent_id":102068925,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":112,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

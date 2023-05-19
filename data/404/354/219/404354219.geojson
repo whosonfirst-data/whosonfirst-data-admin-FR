@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_85305",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Vouvant",
+    "eurostat:nuts_2021_id":"85305",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG05",
+    "eurostat:nuts_2021_level_lau":"85305",
+    "eurostat:population":867,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071934",
     "frgov:id":"BDCSURCO0000000009602086",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.0024,
-    "geom:area_square_m":20407448.317354,
+    "geom:area_square_m":20407448.317353,
     "geom:bbox":"-0.807618933079,46.5262210952,-0.715121338344,46.5845854425",
     "geom:latitude":46.562485,
     "geom:longitude":-0.764934,
@@ -114,6 +126,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683409,
         102191581,
@@ -123,7 +137,10 @@
         102065065
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_85305",
+        "eurostat:nuts_2021_id":"85305"
+    },
     "wof:coterminous":[
         101890393
     ],
@@ -131,7 +148,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ec2131931a78df15f4ca8c1a4b82bcd9",
+    "wof:geomhash":"70e90741029a9162a72799470199edcb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -144,11 +161,13 @@
         }
     ],
     "wof:id":404354219,
-    "wof:lastmodified":1582324086,
+    "wof:lastmodified":1684352674,
     "wof:name":"Vouvant",
     "wof:parent_id":102065065,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":867,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_24370",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Antoine-de-Breuilh",
+    "eurostat:nuts_2021_id":"24370",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI11",
+    "eurostat:nuts_2021_level_lau":"24370",
+    "eurostat:population":1877,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200034197",
     "frgov:id":"BDCSURCO0000000009609074",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683331,
         102191581,
@@ -58,7 +72,10 @@
         102071173
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_24370",
+        "eurostat:nuts_2021_id":"24370"
+    },
     "wof:coterminous":[
         1175612099
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"bb134a0b562e78a135404993cca9e200",
+    "wof:geomhash":"5b6243ae838427b510e9e75b40226557",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404390531,
-    "wof:lastmodified":1582324270,
+    "wof:lastmodified":1684353136,
     "wof:name":"Saint-Antoine-De-Breuilh",
     "wof:parent_id":102071173,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1877,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

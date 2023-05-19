@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_33367",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Andr\u00e9-du-Bois",
+    "eurostat:nuts_2021_id":"33367",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI12",
+    "eurostat:nuts_2021_level_lau":"33367",
+    "eurostat:population":434,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200043974",
     "frgov:id":"BDCSURCO0000000009609791",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001134,
-    "geom:area_square_m":9986616.936759,
+    "geom:area_square_m":9986616.936758,
     "geom:bbox":"-0.223923271547,44.5911169071,-0.158445665058,44.6254128241",
     "geom:latitude":44.607504,
     "geom:longitude":-0.18742,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683243,
         102191581,
@@ -56,7 +70,10 @@
         102071281
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_33367",
+        "eurostat:nuts_2021_id":"33367"
+    },
     "wof:coterminous":[
         1360675815
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d45b8f29d2f6d83ee0102ccb6ccb920b",
+    "wof:geomhash":"cafeace42dcc23b1bb0542f54c1bbd67",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404380093,
-    "wof:lastmodified":1582325384,
+    "wof:lastmodified":1684353012,
     "wof:name":"Saint-Andre-Du-Bois",
     "wof:parent_id":102071281,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":434,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

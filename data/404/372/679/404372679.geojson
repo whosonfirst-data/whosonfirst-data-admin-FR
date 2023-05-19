@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_33173",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Francs",
+    "eurostat:nuts_2021_id":"33173",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI12",
+    "eurostat:nuts_2021_level_lau":"33173",
+    "eurostat:population":189,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200035533",
     "frgov:id":"BDCSURCO0000000009608635",
     "frgov:insee_arr":"5",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000755,
-    "geom:area_square_m":6604272.142934,
+    "geom:area_square_m":6604272.142935,
     "geom:bbox":"-0.0178202873505,44.9272636013,0.0182116443099,44.9671853392",
     "geom:latitude":44.942748,
     "geom:longitude":-0.000262,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683243,
         102191581,
@@ -56,7 +70,10 @@
         102070073
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_33173",
+        "eurostat:nuts_2021_id":"33173"
+    },
     "wof:coterminous":[
         1360675025
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c918629a8134b3f38d864deefe4f3905",
+    "wof:geomhash":"b702dd180caa873b9f497a72fed7a0a1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404372679,
-    "wof:lastmodified":1582325470,
+    "wof:lastmodified":1684352920,
     "wof:name":"Francs",
     "wof:parent_id":102070073,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":189,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

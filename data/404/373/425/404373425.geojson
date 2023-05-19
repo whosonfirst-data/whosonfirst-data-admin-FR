@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_17372",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-M\u00e9dard",
+    "eurostat:nuts_2021_id":"17372",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI32",
+    "eurostat:nuts_2021_level_lau":"17372",
+    "eurostat:population":75,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041523",
     "frgov:id":"BDCSURCO0000000009606918",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000443,
-    "geom:area_square_m":3846969.328156,
+    "geom:area_square_m":3846969.328155,
     "geom:bbox":"-0.370720642692,45.3890095895,-0.334707515783,45.4115676142",
     "geom:latitude":45.399707,
     "geom:longitude":-0.353252,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683275,
         102191581,
@@ -56,7 +70,10 @@
         102066223
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_17372",
+        "eurostat:nuts_2021_id":"17372"
+    },
     "wof:coterminous":[
         1360675101
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"fd543202a964cba263d559e7839d7f90",
+    "wof:geomhash":"5569b45b1a9b49db556f418bbaeef0e5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404373425,
-    "wof:lastmodified":1582325339,
+    "wof:lastmodified":1684352929,
     "wof:name":"Saint-Medard",
     "wof:parent_id":102066223,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":75,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

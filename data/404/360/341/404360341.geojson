@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_87161",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-L\u00e9onard-de-Noblat",
+    "eurostat:nuts_2021_id":"87161",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI23",
+    "eurostat:nuts_2021_level_lau":"87161",
+    "eurostat:population":4554,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248719361",
     "frgov:id":"BDCSURCO0000000009605095",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.006438,
-    "geom:area_square_m":55455125.120966,
+    "geom:area_square_m":55455125.120967,
     "geom:bbox":"1.43304644244,45.8029889156,1.5648489712,45.8862959228",
     "geom:latitude":45.841046,
     "geom:longitude":1.495777,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683531,
         102191581,
@@ -58,7 +72,10 @@
         102069163
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_87161",
+        "eurostat:nuts_2021_id":"87161"
+    },
     "wof:coterminous":[
         101768287
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"df836ff9af6827594cd9f07e6eecb241",
+    "wof:geomhash":"fd9c9786d91ba9a272660295c273bc4e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404360341,
-    "wof:lastmodified":1582325048,
+    "wof:lastmodified":1684352758,
     "wof:name":"Saint-Leonard-De-Noblat",
     "wof:parent_id":102069163,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":4554,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

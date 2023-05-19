@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_10370",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Soligny-les-\u00c9tangs",
+    "eurostat:nuts_2021_id":"10370",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF22",
+    "eurostat:nuts_2021_level_lau":"10370",
+    "eurostat:population":239,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200006716",
     "frgov:id":"BDCSURCO0000000009593268",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683193,
         102191581,
@@ -58,7 +72,10 @@
         102067235
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_10370",
+        "eurostat:nuts_2021_id":"10370"
+    },
     "wof:coterminous":[
         1125806363
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b459dfa648820e0ea19564318884a1f0",
+    "wof:geomhash":"eec99082447270d3a8bf00c982a9948b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404396209,
-    "wof:lastmodified":1582324077,
+    "wof:lastmodified":1684353205,
     "wof:name":"Soligny-Les-Etangs",
     "wof:parent_id":102067235,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":239,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

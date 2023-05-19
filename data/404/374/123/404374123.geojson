@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_70268",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"G\u00e9zier-et-Fontenelay",
+    "eurostat:nuts_2021_id":"70268",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC23",
+    "eurostat:nuts_2021_level_lau":"70268",
+    "eurostat:population":211,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041887",
     "frgov:id":"BDCSURCO0000000009598537",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001465,
-    "geom:area_square_m":12273422.490687,
+    "geom:area_square_m":12273422.490686,
     "geom:bbox":"5.86323165848,47.3435355796,5.92395968536,47.3823904329",
     "geom:latitude":47.361999,
     "geom:longitude":5.891572,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683559,
         102191581,
@@ -58,7 +72,10 @@
         102066113
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_70268",
+        "eurostat:nuts_2021_id":"70268"
+    },
     "wof:coterminous":[
         1126055049
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8f36546ca27a6093f2ecc2528b437363",
+    "wof:geomhash":"916d04917fb12de5fd646f06944e720a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404374123,
-    "wof:lastmodified":1582325403,
+    "wof:lastmodified":1684352937,
     "wof:name":"Gezier-Et-Fontenelay",
     "wof:parent_id":102066113,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":211,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

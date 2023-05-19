@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_28360",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Sauveur-Marville",
+    "eurostat:nuts_2021_id":"28360",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB02",
+    "eurostat:nuts_2021_level_lau":"28360",
+    "eurostat:population":925,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040277",
     "frgov:id":"BDCSURCO0000000009591601",
     "frgov:insee_arr":"3",
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683189,
         102191581,
@@ -138,7 +152,10 @@
         102066145
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_28360",
+        "eurostat:nuts_2021_id":"28360"
+    },
     "wof:coterminous":[
         1125776735
     ],
@@ -146,7 +163,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b800fad4e9ec888b052e450e0c3508f8",
+    "wof:geomhash":"7ede40f6ef1ce2b7ca96bf5c407c61a8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -159,11 +176,13 @@
         }
     ],
     "wof:id":404370887,
-    "wof:lastmodified":1582324598,
+    "wof:lastmodified":1684352900,
     "wof:name":"Saint-Sauveur-Marville",
     "wof:parent_id":102066145,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":925,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

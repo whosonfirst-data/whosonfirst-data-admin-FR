@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_84113",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Martin-de-la-Brasque",
+    "eurostat:nuts_2021_id":"84113",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL06",
+    "eurostat:nuts_2021_level_lau":"84113",
+    "eurostat:population":840,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248400285",
     "frgov:id":"BDCSURCO0000000009612407",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.000625,
-    "geom:area_square_m":5577597.707232,
+    "geom:area_square_m":5577597.707231,
     "geom:bbox":"5.52290459727,43.746988593,5.55644346256,43.7846448977",
     "geom:latitude":43.764223,
     "geom:longitude":5.539433,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683201,
         102191581,
@@ -57,7 +71,10 @@
         102067779
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_84113",
+        "eurostat:nuts_2021_id":"84113"
+    },
     "wof:coterminous":[
         1125850007
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"03286f2523de0333c6ad9c17ec3bfe74",
+    "wof:geomhash":"9ea47cf6a2c9d1525986bc01ab6287b4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404410217,
-    "wof:lastmodified":1582325146,
+    "wof:lastmodified":1684353369,
     "wof:name":"Saint-Martin-De-La-Brasque",
     "wof:parent_id":102067779,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":840,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_03064",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ch\u00e2teau-sur-Allier",
+    "eurostat:nuts_2021_id":"03064",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK11",
+    "eurostat:nuts_2021_level_lau":"03064",
+    "eurostat:population":179,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071140",
     "frgov:id":"BDCSURCO0000000009601411",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.003286,
-    "geom:area_square_m":27822091.066882,
+    "geom:area_square_m":27822091.066883,
     "geom:bbox":"2.93076272907,46.7579773149,3.03754618646,46.8040310293",
     "geom:latitude":46.78167,
     "geom:longitude":2.987487,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683293,
         102191581,
@@ -58,7 +72,10 @@
         102067231
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_03064",
+        "eurostat:nuts_2021_id":"03064"
+    },
     "wof:coterminous":[
         1126002251
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6cedfb6fe2882efd0c5e08c9f59f6bcb",
+    "wof:geomhash":"54ecc6dd0170598b8bf1259d5b6e04b3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404349223,
-    "wof:lastmodified":1582324712,
+    "wof:lastmodified":1684352605,
     "wof:name":"Chateau-Sur-Allier",
     "wof:parent_id":102067231,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":179,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

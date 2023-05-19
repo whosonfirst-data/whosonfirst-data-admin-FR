@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_61370",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Brice",
+    "eurostat:nuts_2021_id":"61370",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD13",
+    "eurostat:nuts_2021_level_lau":"61370",
+    "eurostat:population":153,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071520",
     "frgov:id":"BDCSURCO0000000009591668",
     "frgov:insee_arr":"2",
@@ -94,6 +106,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683527,
         102191581,
@@ -104,7 +118,10 @@
         102066047
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_61370",
+        "eurostat:nuts_2021_id":"61370"
+    },
     "wof:coterminous":[
         1360676833
     ],
@@ -112,7 +129,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"db7752641d6656d4af81eb3da4bceed3",
+    "wof:geomhash":"53f7de9ffc485d146dc9d2a7547cf689",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -126,11 +143,13 @@
         }
     ],
     "wof:id":404390967,
-    "wof:lastmodified":1582324269,
+    "wof:lastmodified":1684353143,
     "wof:name":"Saint-Brice",
     "wof:parent_id":102066047,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":153,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

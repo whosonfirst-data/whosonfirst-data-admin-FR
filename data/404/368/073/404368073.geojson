@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_03120",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Garnat-sur-Engi\u00e8vre",
+    "eurostat:nuts_2021_id":"03120",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK11",
+    "eurostat:nuts_2021_level_lau":"03120",
+    "eurostat:population":705,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071140",
     "frgov:id":"BDCSURCO0000000009601794",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.002196,
-    "geom:area_square_m":18648873.974154,
+    "geom:area_square_m":18648873.974153,
     "geom:bbox":"3.62612366949,46.6151269854,3.71620628095,46.6541906367",
     "geom:latitude":46.634781,
     "geom:longitude":3.668248,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683293,
         102191581,
@@ -58,7 +72,10 @@
         102064885
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_03120",
+        "eurostat:nuts_2021_id":"03120"
+    },
     "wof:coterminous":[
         101891039
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e70dc201c1466cb3457335114259aac7",
+    "wof:geomhash":"7c2a575329760475f6b7731772aa7232",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404368073,
-    "wof:lastmodified":1582324878,
+    "wof:lastmodified":1684352866,
     "wof:name":"Garnat-Sur-Engievre",
     "wof:parent_id":102064885,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":705,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

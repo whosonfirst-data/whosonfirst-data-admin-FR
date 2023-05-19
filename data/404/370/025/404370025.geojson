@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_51212",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Dommartin-Lettr\u00e9e",
+    "eurostat:nuts_2021_id":"51212",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF23",
+    "eurostat:nuts_2021_level_lau":"51212",
+    "eurostat:population":153,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066876",
     "frgov:id":"BDCSURCO0000000009590122",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.003985,
-    "geom:area_square_m":32473675.958779,
+    "geom:area_square_m":32473675.95878,
     "geom:bbox":"4.2324491749,48.7322942786,4.33727883917,48.8030870732",
     "geom:latitude":48.770622,
     "geom:longitude":4.285896,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683405,
         102191581,
@@ -58,7 +72,10 @@
         102069223
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_51212",
+        "eurostat:nuts_2021_id":"51212"
+    },
     "wof:coterminous":[
         101881263
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4d65e507726d7b331d4b654222d07340",
+    "wof:geomhash":"0377713ecbad7d1298a5d307012d268b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404370025,
-    "wof:lastmodified":1582324598,
+    "wof:lastmodified":1684352890,
     "wof:name":"Dommartin-Lettree",
     "wof:parent_id":102069223,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":153,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

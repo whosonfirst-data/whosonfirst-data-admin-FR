@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_24395",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Cybranet",
+    "eurostat:nuts_2021_id":"24395",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI11",
+    "eurostat:nuts_2021_level_lau":"24395",
+    "eurostat:population":385,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041440",
     "frgov:id":"BDCSURCO0000000009609262",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001223,
-    "geom:area_square_m":10738402.830221,
+    "geom:area_square_m":10738402.830222,
     "geom:bbox":"1.13670811359,44.7616412076,1.18214408466,44.8049118797",
     "geom:latitude":44.780596,
     "geom:longitude":1.158978,
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683331,
         102191581,
@@ -139,7 +153,10 @@
         102066193
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_24395",
+        "eurostat:nuts_2021_id":"24395"
+    },
     "wof:coterminous":[
         1125811397
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f717e728b7b53c335fcd50d6fe4cab76",
+    "wof:geomhash":"bf89562dbc0f12616ae76f432923be5d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404413755,
-    "wof:lastmodified":1582324315,
+    "wof:lastmodified":1684353411,
     "wof:name":"Saint-Cybranet",
     "wof:parent_id":102066193,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":385,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

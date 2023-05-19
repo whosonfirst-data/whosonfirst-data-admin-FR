@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_72051",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"C\u00e9rans-Foulletourte",
+    "eurostat:nuts_2021_id":"72051",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG04",
+    "eurostat:nuts_2021_level_lau":"72051",
+    "eurostat:population":3375,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200073112",
     "frgov:id":"BDCSURCO0000000009596508",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683279,
         102191581,
@@ -57,7 +71,10 @@
         102069093
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_72051",
+        "eurostat:nuts_2021_id":"72051"
+    },
     "wof:coterminous":[
         101763417
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"588d8db05250acf7d7bcdbe7cb146fcb",
+    "wof:geomhash":"bff07aa8c89afa61eaeaf3cc2752e82d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404365193,
-    "wof:lastmodified":1582324027,
+    "wof:lastmodified":1684352826,
     "wof:name":"Cerans-Foulletourte",
     "wof:parent_id":102069093,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3375,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

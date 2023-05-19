@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_23225",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Oradoux-pr\u00e8s-Crocq",
+    "eurostat:nuts_2021_id":"23225",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI22",
+    "eurostat:nuts_2021_level_lau":"23225",
+    "eurostat:population":97,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067593",
     "frgov:id":"BDCSURCO0000000009604822",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001557,
-    "geom:area_square_m":13405081.706638,
+    "geom:area_square_m":13405081.706637,
     "geom:bbox":"2.34619588306,45.8649332345,2.40688589211,45.9114537486",
     "geom:latitude":45.888834,
     "geom:longitude":2.375522,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683179,
         102191581,
@@ -58,7 +72,10 @@
         102066599
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_23225",
+        "eurostat:nuts_2021_id":"23225"
+    },
     "wof:coterminous":[
         1125816259
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"44ca59dc71f4cf87d128f2d4be705816",
+    "wof:geomhash":"4b737f06625f520df5ef0725e0642ac9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404360755,
-    "wof:lastmodified":1582325041,
+    "wof:lastmodified":1684352764,
     "wof:name":"Saint-Oradoux-Pres-Crocq",
     "wof:parent_id":102066599,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":97,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

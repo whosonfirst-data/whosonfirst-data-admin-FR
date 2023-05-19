@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_23237",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Priest-Palus",
+    "eurostat:nuts_2021_id":"23237",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI22",
+    "eurostat:nuts_2021_level_lau":"23237",
+    "eurostat:population":55,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067189",
     "frgov:id":"BDCSURCO0000000009604836",
     "frgov:insee_arr":"2",
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683179,
         102191581,
@@ -139,7 +153,10 @@
         102065521
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_23237",
+        "eurostat:nuts_2021_id":"23237"
+    },
     "wof:coterminous":[
         1125817791
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"62ffa52ca642e33c6c132f709cd6b0a5",
+    "wof:geomhash":"c68fa737d5e0d8dcff954aa0f050f6af",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404354945,
-    "wof:lastmodified":1582324101,
+    "wof:lastmodified":1684352684,
     "wof:name":"Saint-Priest-Palus",
     "wof:parent_id":102065521,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":55,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

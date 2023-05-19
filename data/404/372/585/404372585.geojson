@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_01388",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Trivier-de-Courtes",
+    "eurostat:nuts_2021_id":"01388",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK21",
+    "eurostat:nuts_2021_level_lau":"01388",
+    "eurostat:population":1093,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071751",
     "frgov:id":"BDCSURCO0000000009602354",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001932,
-    "geom:area_square_m":16456278.967404,
+    "geom:area_square_m":16456278.967403,
     "geom:bbox":"5.03312393675,46.4301366534,5.10169545309,46.4859239138",
     "geom:latitude":46.461429,
     "geom:longitude":5.066539,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683153,
         102191581,
@@ -56,7 +70,10 @@
         102069651
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_01388",
+        "eurostat:nuts_2021_id":"01388"
+    },
     "wof:coterminous":[
         1360675005
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"29f8682656a633b4f80379937ae1262b",
+    "wof:geomhash":"8bfdce9f9338ba5f07f4b8dac80b8896",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404372585,
-    "wof:lastmodified":1582325473,
+    "wof:lastmodified":1684352919,
     "wof:name":"Saint-Trivier-De-Courtes",
     "wof:parent_id":102069651,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1093,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

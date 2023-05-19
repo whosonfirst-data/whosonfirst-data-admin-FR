@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_55330",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"M\u00e9ligny-le-Grand",
+    "eurostat:nuts_2021_id":"55330",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF32",
+    "eurostat:nuts_2021_level_lau":"55330",
+    "eurostat:population":95,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066157",
     "frgov:id":"BDCSURCO0000000009590549",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683297,
         102191581,
@@ -58,7 +72,10 @@
         102069505
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_55330",
+        "eurostat:nuts_2021_id":"55330"
+    },
     "wof:coterminous":[
         1125783805
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9fa16e22d675f566cf2d29d8aa40213f",
+    "wof:geomhash":"650f648873263a2bc2522288c5aaca7b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404418209,
-    "wof:lastmodified":1582325227,
+    "wof:lastmodified":1684353462,
     "wof:name":"Meligny-Le-Grand",
     "wof:parent_id":102069505,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":95,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_07262",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Laurent-les-Bains-Laval-d'Aurelle",
+    "eurostat:nuts_2021_id":"07262",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK22",
+    "eurostat:nuts_2021_level_lau":"07262",
+    "eurostat:population":177,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072007",
     "frgov:id":"BDCSURCO0000000009609890",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.003036,
-    "geom:area_square_m":26732151.339365,
+    "geom:area_square_m":26732151.339366,
     "geom:bbox":"3.90653996877,44.5687472904,4.01243871153,44.6286439918",
     "geom:latitude":44.597328,
     "geom:longitude":3.958422,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683421,
         102191581,
@@ -58,7 +72,10 @@
         102067171
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_07262",
+        "eurostat:nuts_2021_id":"07262"
+    },
     "wof:coterminous":[
         1125843371
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e404d22de8b1ae5198c819fecc9cf46a",
+    "wof:geomhash":"34eaf03377363fd9987473671a1d0c77",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404363867,
-    "wof:lastmodified":1582324224,
+    "wof:lastmodified":1684352807,
     "wof:name":"Saint-Laurent-Les-Bains",
     "wof:parent_id":102067171,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":177,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

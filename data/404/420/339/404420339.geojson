@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_57415",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lorry-l\u00e8s-Metz",
+    "eurostat:nuts_2021_id":"57415",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF33",
+    "eurostat:nuts_2021_level_lau":"57415",
+    "eurostat:population":1786,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200039865",
     "frgov:id":"BDCSURCO0000000009586524",
     "frgov:insee_arr":"9",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683271,
         102191581,
@@ -58,7 +72,10 @@
         102070811
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_57415",
+        "eurostat:nuts_2021_id":"57415"
+    },
     "wof:coterminous":[
         101750093
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"27606d40d35b47271de46bdd9bc70ebe",
+    "wof:geomhash":"ee5456301664737b63d3f65d7db32b20",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404420339,
-    "wof:lastmodified":1582325197,
+    "wof:lastmodified":1684353487,
     "wof:name":"Lorry-Les-Metz",
     "wof:parent_id":102070811,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1786,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

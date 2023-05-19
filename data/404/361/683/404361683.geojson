@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_58235",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Brisson",
+    "eurostat:nuts_2021_id":"58235",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC12",
+    "eurostat:nuts_2021_level_lau":"58235",
+    "eurostat:population":264,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067890",
     "frgov:id":"BDCSURCO0000000009599492",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00356,
-    "geom:area_square_m":29873370.446167,
+    "geom:area_square_m":29873370.446166,
     "geom:bbox":"4.03851937682,47.2168586736,4.13514854069,47.30772691",
     "geom:latitude":47.267276,
     "geom:longitude":4.094998,
@@ -121,6 +133,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683359,
         102191581,
@@ -131,7 +145,10 @@
         102066811
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_58235",
+        "eurostat:nuts_2021_id":"58235"
+    },
     "wof:coterminous":[
         1360673961
     ],
@@ -139,7 +156,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a38a1106a7178371168e867fc4814568",
+    "wof:geomhash":"d2b3b56568b775ac02a2f0a653104121",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -153,11 +170,13 @@
         }
     ],
     "wof:id":404361683,
-    "wof:lastmodified":1582324763,
+    "wof:lastmodified":1684352777,
     "wof:name":"Saint-Brisson",
     "wof:parent_id":102066811,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":264,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

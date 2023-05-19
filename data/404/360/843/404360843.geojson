@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_50347",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Montjoie-Saint-Martin",
+    "eurostat:nuts_2021_id":"50347",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD12",
+    "eurostat:nuts_2021_level_lau":"50347",
+    "eurostat:population":243,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069425",
     "frgov:id":"BDCSURCO0000000009592130",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000912,
-    "geom:area_square_m":7465280.589805,
+    "geom:area_square_m":7465280.589806,
     "geom:bbox":"-1.32150436148,48.5082604897,-1.26860141217,48.5485953332",
     "geom:latitude":48.525737,
     "geom:longitude":-1.288829,
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683489,
         102191581,
@@ -139,7 +153,10 @@
         102070241
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_50347",
+        "eurostat:nuts_2021_id":"50347"
+    },
     "wof:coterminous":[
         1125788289
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"000753f45529b1d328a074b8762c6dfa",
+    "wof:geomhash":"dee5cb5418ad26b82fce28ee3f765def",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404360843,
-    "wof:lastmodified":1582325045,
+    "wof:lastmodified":1684352765,
     "wof:name":"Montjoie-Saint-Martin",
     "wof:parent_id":102070241,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":243,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

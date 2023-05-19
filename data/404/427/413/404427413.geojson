@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_60033",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Avilly-Saint-L\u00e9onard",
+    "eurostat:nuts_2021_id":"60033",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE22",
+    "eurostat:nuts_2021_level_lau":"60033",
+    "eurostat:population":887,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"246000764",
     "frgov:id":"BDCSURCO0000000009586676",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001505,
-    "geom:area_square_m":12162809.981147,
+    "geom:area_square_m":12162809.981148,
     "geom:bbox":"2.49168453312,49.1665893987,2.56400045535,49.1986978353",
     "geom:latitude":49.18364,
     "geom:longitude":2.527219,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683289,
         102191581,
@@ -58,7 +72,10 @@
         102070475
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_60033",
+        "eurostat:nuts_2021_id":"60033"
+    },
     "wof:coterminous":[
         1126029305
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4c925901a8d4757e00f863cc96aa87b8",
+    "wof:geomhash":"f1f23ea0bcbf16172c67a207691adf7d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404427413,
-    "wof:lastmodified":1582325235,
+    "wof:lastmodified":1684353573,
     "wof:name":"Avilly-Saint-Leonard",
     "wof:parent_id":102070475,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":887,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

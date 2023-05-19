@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_03156",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lusigny",
+    "eurostat:nuts_2021_id":"03156",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK11",
+    "eurostat:nuts_2021_level_lau":"03156",
+    "eurostat:population":1698,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071140",
     "frgov:id":"BDCSURCO0000000009602191",
     "frgov:insee_arr":"2",
@@ -141,6 +153,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683293,
         102191581,
@@ -151,7 +165,10 @@
         102064885
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_03156",
+        "eurostat:nuts_2021_id":"03156"
+    },
     "wof:coterminous":[
         101766485
     ],
@@ -159,7 +176,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"935c56d2db54f7d5a17d29fffd6e278f",
+    "wof:geomhash":"0d1e18ced007fb1bdee9efb92a45e152",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -173,11 +190,13 @@
         }
     ],
     "wof:id":404362283,
-    "wof:lastmodified":1582324057,
+    "wof:lastmodified":1684352785,
     "wof:name":"Lusigny",
     "wof:parent_id":102064885,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1698,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

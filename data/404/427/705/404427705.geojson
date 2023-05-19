@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_85187",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"R\u00e9aumur",
+    "eurostat:nuts_2021_id":"85187",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG05",
+    "eurostat:nuts_2021_level_lau":"85187",
+    "eurostat:population":864,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248500464",
     "frgov:id":"BDCSURCO0000000009601689",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002622,
-    "geom:area_square_m":22226164.439848,
+    "geom:area_square_m":22226164.439847,
     "geom:bbox":"-0.867194425119,46.687487679,-0.757589270121,46.7440810396",
     "geom:latitude":46.714517,
     "geom:longitude":-0.816276,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683409,
         102191581,
@@ -57,7 +71,10 @@
         102068183
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_85187",
+        "eurostat:nuts_2021_id":"85187"
+    },
     "wof:coterminous":[
         101888979
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f78250b23b92ab6d5812f97041071c39",
+    "wof:geomhash":"dba4d56ec7ffb0fb80e9b7b71e1ba135",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404427705,
-    "wof:lastmodified":1582325240,
+    "wof:lastmodified":1684353576,
     "wof:name":"Reaumur",
     "wof:parent_id":102068183,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":864,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

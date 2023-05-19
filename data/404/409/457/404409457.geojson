@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_57524",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ommeray",
+    "eurostat:nuts_2021_id":"57524",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF33",
+    "eurostat:nuts_2021_level_lau":"57524",
+    "eurostat:population":127,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"245701206",
     "frgov:id":"BDCSURCO0000000009590018",
     "frgov:insee_arr":"5",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.001245,
-    "geom:area_square_m":10156651.826176,
+    "geom:area_square_m":10156651.826175,
     "geom:bbox":"6.65805170425,48.7030242328,6.72804233442,48.7355225739",
     "geom:latitude":48.718304,
     "geom:longitude":6.686993,
@@ -135,6 +147,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683271,
         102191581,
@@ -145,7 +159,10 @@
         102070415
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_57524",
+        "eurostat:nuts_2021_id":"57524"
+    },
     "wof:coterminous":[
         101882685
     ],
@@ -153,7 +170,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"011bd9e2e59e95cbb3474e5cfdb005c0",
+    "wof:geomhash":"f4ca6a1ac5e99e56b0186fdd260bc1d1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -167,11 +184,13 @@
         }
     ],
     "wof:id":404409457,
-    "wof:lastmodified":1582324483,
+    "wof:lastmodified":1684353360,
     "wof:name":"Ommeray",
     "wof:parent_id":102070415,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":127,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

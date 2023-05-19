@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_28296",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"P\u00e9ronville",
+    "eurostat:nuts_2021_id":"28296",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB02",
+    "eurostat:nuts_2021_level_lau":"28296",
+    "eurostat:population":268,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070159",
     "frgov:id":"BDCSURCO0000000009595460",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683189,
         102191581,
@@ -57,7 +71,10 @@
         102068205
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_28296",
+        "eurostat:nuts_2021_id":"28296"
+    },
     "wof:coterminous":[
         1126026209
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0d8e4e9481601e738e15606cbe9a015f",
+    "wof:geomhash":"30cb5b4c5f3f77b3abe894a00bdb2db9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404424811,
-    "wof:lastmodified":1582324388,
+    "wof:lastmodified":1684353543,
     "wof:name":"Peronville",
     "wof:parent_id":102068205,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":268,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

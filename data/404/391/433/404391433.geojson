@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_21672",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Vesvres",
+    "eurostat:nuts_2021_id":"21672",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC11",
+    "eurostat:nuts_2021_level_lau":"21672",
+    "eurostat:population":27,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071017",
     "frgov:id":"BDCSURCO0000000009598898",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000491,
-    "geom:area_square_m":4112932.327625,
+    "geom:area_square_m":4112932.327626,
     "geom:bbox":"4.51650238915,47.3600263943,4.54241380816,47.3919889591",
     "geom:latitude":47.376624,
     "geom:longitude":4.529247,
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683563,
         102191581,
@@ -136,7 +150,10 @@
         102070769
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_21672",
+        "eurostat:nuts_2021_id":"21672"
+    },
     "wof:coterminous":[
         1125944169
     ],
@@ -144,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"dbaaab21387f573e37e4dd793727037d",
+    "wof:geomhash":"2434fa1d83eb8a65c7bac643ec91ebed",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +175,13 @@
         }
     ],
     "wof:id":404391433,
-    "wof:lastmodified":1582324021,
+    "wof:lastmodified":1684353150,
     "wof:name":"Vesvres",
     "wof:parent_id":102070769,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":27,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

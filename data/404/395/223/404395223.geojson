@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_95212",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"\u00c9piais-l\u00e8s-Louvres",
+    "eurostat:nuts_2021_id":"95212",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR108",
+    "eurostat:nuts_2021_level_lau":"95212",
+    "eurostat:population":107,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200055655",
     "frgov:id":"BDCSURCO0000000009588194",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"ILE-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000421,
-    "geom:area_square_m":3416671.939637,
+    "geom:area_square_m":3416671.939638,
     "geom:bbox":"2.5255792692,49.0223343747,2.56966250866,49.0418925683",
     "geom:latitude":49.030472,
     "geom:longitude":2.548867,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683451,
         102191581,
@@ -57,7 +71,10 @@
         102066709
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_95212",
+        "eurostat:nuts_2021_id":"95212"
+    },
     "wof:coterminous":[
         1125916805
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d9575db48fcf188565152326cddb4341",
+    "wof:geomhash":"bb39c9e852ac5c6bdac718eeae4b9e67",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404395223,
-    "wof:lastmodified":1582324779,
+    "wof:lastmodified":1684353194,
     "wof:name":"Epiais-Les-Louvres",
     "wof:parent_id":102066709,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":107,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

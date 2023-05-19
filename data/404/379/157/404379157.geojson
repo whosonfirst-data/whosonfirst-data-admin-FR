@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_08391",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Menges",
+    "eurostat:nuts_2021_id":"08391",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF21",
+    "eurostat:nuts_2021_level_lau":"08391",
+    "eurostat:population":972,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041630",
     "frgov:id":"BDCSURCO0000000009582820",
     "frgov:insee_arr":"3",
@@ -132,6 +144,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683309,
         102191581,
@@ -142,7 +156,10 @@
         102070657
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_08391",
+        "eurostat:nuts_2021_id":"08391"
+    },
     "wof:coterminous":[
         101901755
     ],
@@ -150,7 +167,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"47ae058294869babe13265e16c2ee3bd",
+    "wof:geomhash":"61253080c39f06a2757e0d9afe6c62f3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -164,11 +181,13 @@
         }
     ],
     "wof:id":404379157,
-    "wof:lastmodified":1582324520,
+    "wof:lastmodified":1684353000,
     "wof:name":"Saint-Menges",
     "wof:parent_id":102070657,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":972,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

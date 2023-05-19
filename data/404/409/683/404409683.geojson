@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_07222",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Cierge-sous-le-Cheylard",
+    "eurostat:nuts_2021_id":"07222",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK22",
+    "eurostat:nuts_2021_level_lau":"07222",
+    "eurostat:population":203,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041465",
     "frgov:id":"BDCSURCO0000000009608512",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.000691,
-    "geom:area_square_m":6051078.361091,
+    "geom:area_square_m":6051078.36109,
     "geom:bbox":"4.43000096033,44.9105525577,4.47202852706,44.9389362914",
     "geom:latitude":44.926469,
     "geom:longitude":4.453912,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683421,
         102191581,
@@ -56,7 +70,10 @@
         102065359
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_07222",
+        "eurostat:nuts_2021_id":"07222"
+    },
     "wof:coterminous":[
         1360678603
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d7f2aa4608a120ed7ade0a88fdb36878",
+    "wof:geomhash":"e3addf889ffe14fead0a33942ce6f525",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404409683,
-    "wof:lastmodified":1582324482,
+    "wof:lastmodified":1684353363,
     "wof:name":"Saint-Cierge-Sous-Le-Cheylard",
     "wof:parent_id":102065359,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":203,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

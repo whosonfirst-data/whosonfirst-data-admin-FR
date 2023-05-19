@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_10337",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Christophe-Dodinicourt",
+    "eurostat:nuts_2021_id":"10337",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF22",
+    "eurostat:nuts_2021_level_lau":"10337",
+    "eurostat:population":34,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040137",
     "frgov:id":"BDCSURCO0000000009592839",
     "frgov:insee_arr":"1",
@@ -120,6 +132,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683193,
         102191581,
@@ -130,7 +144,10 @@
         102065213
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_10337",
+        "eurostat:nuts_2021_id":"10337"
+    },
     "wof:coterminous":[
         1126006445
     ],
@@ -138,7 +155,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"342befd11422789463ffb71b56261517",
+    "wof:geomhash":"80c040018d818565b870ee37bb793889",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -152,11 +169,13 @@
         }
     ],
     "wof:id":404415431,
-    "wof:lastmodified":1582324356,
+    "wof:lastmodified":1684353430,
     "wof:name":"Saint-Christophe-Dodinicourt",
     "wof:parent_id":102065213,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":34,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

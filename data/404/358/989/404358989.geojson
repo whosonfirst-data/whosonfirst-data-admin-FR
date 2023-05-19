@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_83038",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ch\u00e2teaudouble",
+    "eurostat:nuts_2021_id":"83038",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL05",
+    "eurostat:nuts_2021_level_lau":"83038",
+    "eurostat:population":473,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248300493",
     "frgov:id":"BDCSURCO0000000009613100",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.004567,
-    "geom:area_square_m":40876128.842669,
+    "geom:area_square_m":40876128.842666,
     "geom:bbox":"6.39644031182,43.5660305989,6.48731728124,43.6856717279",
     "geom:latitude":43.623859,
     "geom:longitude":6.435793,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683315,
         102191581,
@@ -57,7 +71,10 @@
         102065253
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_83038",
+        "eurostat:nuts_2021_id":"83038"
+    },
     "wof:coterminous":[
         1125951199
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"db870f2498026368ef23205a2b3b9e15",
+    "wof:geomhash":"a20d53d1b2057cbb87c9c8f407dd2269",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404358989,
-    "wof:lastmodified":1582324984,
+    "wof:lastmodified":1684352739,
     "wof:name":"Chateaudouble",
     "wof:parent_id":102065253,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":473,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

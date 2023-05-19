@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_10208",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Loupti\u00e8re-Th\u00e9nard",
+    "eurostat:nuts_2021_id":"10208",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF22",
+    "eurostat:nuts_2021_level_lau":"10208",
+    "eurostat:population":289,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200006716",
     "frgov:id":"BDCSURCO0000000009593270",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.00167,
-    "geom:area_square_m":13716150.682461,
+    "geom:area_square_m":13716150.682462,
     "geom:bbox":"3.41292717038,48.3580913026,3.47048136112,48.4090098163",
     "geom:latitude":48.384689,
     "geom:longitude":3.437753,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683193,
         102191581,
@@ -58,7 +72,10 @@
         102067235
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_10208",
+        "eurostat:nuts_2021_id":"10208"
+    },
     "wof:coterminous":[
         101883107
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c07927638e8c6fcee7a0ea0edcc43faa",
+    "wof:geomhash":"307bc50871c149555da25144ce1dac76",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404415847,
-    "wof:lastmodified":1582324363,
+    "wof:lastmodified":1684353435,
     "wof:name":"La Louptiere-Thenard",
     "wof:parent_id":102067235,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":289,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

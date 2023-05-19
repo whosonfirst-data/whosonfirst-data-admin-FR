@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_45279",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Germain-des-Pr\u00e9s",
+    "eurostat:nuts_2021_id":"45279",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB06",
+    "eurostat:nuts_2021_level_lau":"45279",
+    "eurostat:population":1916,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067668",
     "frgov:id":"BDCSURCO0000000009595765",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003183,
-    "geom:area_square_m":26353777.007768,
+    "geom:area_square_m":26353777.007769,
     "geom:bbox":"2.79169127379,47.9348186807,2.89259319557,47.9954362256",
     "geom:latitude":47.965944,
     "geom:longitude":2.84856,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683479,
         102191581,
@@ -57,7 +71,10 @@
         102065437
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_45279",
+        "eurostat:nuts_2021_id":"45279"
+    },
     "wof:coterminous":[
         101764911
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"cb36a51d1455387d72ceef44be4fb4e1",
+    "wof:geomhash":"7aca8cfc9b4cb689449521f7449aa145",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404365835,
-    "wof:lastmodified":1582324030,
+    "wof:lastmodified":1684352835,
     "wof:name":"Saint-Germain-Des-Pres",
     "wof:parent_id":102065437,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1916,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

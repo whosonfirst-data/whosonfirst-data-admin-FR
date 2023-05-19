@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_17179",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gonds",
+    "eurostat:nuts_2021_id":"17179",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI32",
+    "eurostat:nuts_2021_level_lau":"17179",
+    "eurostat:population":1726,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200036473",
     "frgov:id":"BDCSURCO0000000009605660",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001509,
-    "geom:area_square_m":13027791.716721,
+    "geom:area_square_m":13027791.716722,
     "geom:bbox":"-0.634189663407,45.6830375623,-0.578982611732,45.7305423069",
     "geom:latitude":45.706191,
     "geom:longitude":-0.607229,
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683275,
         102191581,
@@ -136,7 +150,10 @@
         102071613
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_17179",
+        "eurostat:nuts_2021_id":"17179"
+    },
     "wof:coterminous":[
         101829161
     ],
@@ -144,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"06fddf57da0b391eb1923a2e5f57fdb6",
+    "wof:geomhash":"ace5715459a484f87b1e92d00c2da8ce",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +175,13 @@
         }
     ],
     "wof:id":404417417,
-    "wof:lastmodified":1582325137,
+    "wof:lastmodified":1684353453,
     "wof:name":"Les Gonds",
     "wof:parent_id":102071613,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1726,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

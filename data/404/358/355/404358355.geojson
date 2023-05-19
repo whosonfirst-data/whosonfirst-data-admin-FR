@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_53029",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Biern\u00e9-les-Villages",
+    "eurostat:nuts_2021_id":"53029",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG03",
+    "eurostat:nuts_2021_level_lau":"53029",
+    "eurostat:population":1249,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"245300447",
     "frgov:id":"BDCSURCO0000000009596524",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002926,
-    "geom:area_square_m":24298688.740684,
+    "geom:area_square_m":24298688.740683,
     "geom:bbox":"-0.584162830317,47.7835368737,-0.492782902243,47.8325427448",
     "geom:latitude":47.806808,
     "geom:longitude":-0.533225,
@@ -135,6 +147,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683401,
         102191581,
@@ -144,7 +158,10 @@
         102064853
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_53029",
+        "eurostat:nuts_2021_id":"53029"
+    },
     "wof:coterminous":[
         101884789
     ],
@@ -152,7 +169,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2fa0f3f5cdb766e060efc0de7ade99d3",
+    "wof:geomhash":"7bc49dc42367b1de3210f39decce0679",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -165,11 +182,13 @@
         }
     ],
     "wof:id":404358355,
-    "wof:lastmodified":1582324968,
+    "wof:lastmodified":1684352731,
     "wof:name":"Bierne",
     "wof:parent_id":102064853,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1249,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

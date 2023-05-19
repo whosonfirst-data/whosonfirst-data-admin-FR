@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_63250",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Neschers",
+    "eurostat:nuts_2021_id":"63250",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK14",
+    "eurostat:nuts_2021_level_lau":"63250",
+    "eurostat:population":834,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070407",
     "frgov:id":"BDCSURCO0000000009606101",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001117,
-    "geom:area_square_m":9661626.451589,
+    "geom:area_square_m":9661626.45159,
     "geom:bbox":"3.14267662392,45.5647618572,3.19407245418,45.6135555127",
     "geom:latitude":45.592257,
     "geom:longitude":3.165158,
@@ -120,6 +132,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683471,
         102191581,
@@ -130,7 +144,10 @@
         102065771
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_63250",
+        "eurostat:nuts_2021_id":"63250"
+    },
     "wof:coterminous":[
         101893647
     ],
@@ -138,7 +155,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ea0c5bd2e510690ef1acc83f4f9abb20",
+    "wof:geomhash":"b773923b57758308d9d1928cb1575527",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -152,11 +169,13 @@
         }
     ],
     "wof:id":404388627,
-    "wof:lastmodified":1582325479,
+    "wof:lastmodified":1684353112,
     "wof:name":"Neschers",
     "wof:parent_id":102065771,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":834,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

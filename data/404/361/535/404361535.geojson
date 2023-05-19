@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_27613",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Vincent-du-Boulay",
+    "eurostat:nuts_2021_id":"27613",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD21",
+    "eurostat:nuts_2021_level_lau":"27613",
+    "eurostat:population":381,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066017",
     "frgov:id":"BDCSURCO0000000009587289",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683283,
         102191581,
@@ -58,7 +72,10 @@
         102070401
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_27613",
+        "eurostat:nuts_2021_id":"27613"
+    },
     "wof:coterminous":[
         1125820859
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c6226133f8faf42aa9f2b3c5c02fa10b",
+    "wof:geomhash":"2dd61109f8364e8db26202987c5c20e1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404361535,
-    "wof:lastmodified":1582324751,
+    "wof:lastmodified":1684352775,
     "wof:name":"Saint-Vincent-Du-Boulay",
     "wof:parent_id":102070401,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":381,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

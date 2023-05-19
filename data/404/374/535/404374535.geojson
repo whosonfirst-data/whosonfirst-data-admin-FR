@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_84016",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"B\u00e9darrides",
+    "eurostat:nuts_2021_id":"84016",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL06",
+    "eurostat:nuts_2021_level_lau":"84016",
+    "eurostat:population":5171,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248400293",
     "frgov:id":"BDCSURCO0000000009611530",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.002817,
-    "geom:area_square_m":25038123.44883,
+    "geom:area_square_m":25038123.448832,
     "geom:bbox":"4.8623526628,44.0188417804,4.94366911123,44.0764706666",
     "geom:latitude":44.047928,
     "geom:longitude":4.908024,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683201,
         102191581,
@@ -57,7 +71,10 @@
         102065135
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_84016",
+        "eurostat:nuts_2021_id":"84016"
+    },
     "wof:coterminous":[
         101753189
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c88dd5f30fb4b63189b212ab3dd41a46",
+    "wof:geomhash":"92bbc67425f00d3af9ae2393319ea305",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404374535,
-    "wof:lastmodified":1582325390,
+    "wof:lastmodified":1684352942,
     "wof:name":"Bedarrides",
     "wof:parent_id":102065135,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":5171,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

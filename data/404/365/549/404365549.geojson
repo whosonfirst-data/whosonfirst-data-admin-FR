@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_06129",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Sauveur-sur-Tin\u00e9e",
+    "eurostat:nuts_2021_id":"06129",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL03",
+    "eurostat:nuts_2021_level_lau":"06129",
+    "eurostat:population":308,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200030195",
     "frgov:id":"BDCSURCO0000000009611145",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.00363,
-    "geom:area_square_m":32223246.073508,
+    "geom:area_square_m":32223246.073509,
     "geom:bbox":"7.08225045493,44.0635361143,7.16284977807,44.1690970811",
     "geom:latitude":44.121363,
     "geom:longitude":7.118251,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683323,
         102191581,
@@ -57,7 +71,10 @@
         102068743
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_06129",
+        "eurostat:nuts_2021_id":"06129"
+    },
     "wof:coterminous":[
         1125872599
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f3ecf53d6262aa0679346d3f7f35bddc",
+    "wof:geomhash":"e33119f2568f914967f496f3cffca11a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404365549,
-    "wof:lastmodified":1582324042,
+    "wof:lastmodified":1684352831,
     "wof:name":"Saint-Sauveur-Sur-Tinee",
     "wof:parent_id":102068743,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":308,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

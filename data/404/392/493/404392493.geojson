@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_41204",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Claude-de-Diray",
+    "eurostat:nuts_2021_id":"41204",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB05",
+    "eurostat:nuts_2021_level_lau":"41204",
+    "eurostat:population":1783,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244100798",
     "frgov:id":"BDCSURCO0000000009597810",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683349,
         102191581,
@@ -57,7 +71,10 @@
         102069781
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_41204",
+        "eurostat:nuts_2021_id":"41204"
+    },
     "wof:coterminous":[
         101764771
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e6ae4988a48e2dd3221e0fa5fa8a1120",
+    "wof:geomhash":"9aa0db0fb4fcdf77ad2f75d7908e3969",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404392493,
-    "wof:lastmodified":1582324818,
+    "wof:lastmodified":1684353162,
     "wof:name":"Saint-Claude-De-Diray",
     "wof:parent_id":102069781,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1783,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_30262",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Hippolyte-de-Montaigu",
+    "eurostat:nuts_2021_id":"30262",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ12",
+    "eurostat:nuts_2021_level_lau":"30262",
+    "eurostat:population":260,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200034379",
     "frgov:id":"BDCSURCO0000000009611544",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683431,
         102191581,
@@ -58,7 +72,10 @@
         102070535
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_30262",
+        "eurostat:nuts_2021_id":"30262"
+    },
     "wof:coterminous":[
         101895505
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9057e4b0ee38d2a8c6951a9e3aed7ff2",
+    "wof:geomhash":"4cb64a64be361756badb08c6f35c1307",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404419607,
-    "wof:lastmodified":1582325074,
+    "wof:lastmodified":1684353478,
     "wof:name":"Saint-Hippolyte-De-Montaigu",
     "wof:parent_id":102070535,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":260,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

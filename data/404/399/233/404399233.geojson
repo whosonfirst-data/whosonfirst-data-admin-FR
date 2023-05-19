@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_42231",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Germain-Lespinasse",
+    "eurostat:nuts_2021_id":"42231",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK25",
+    "eurostat:nuts_2021_level_lau":"42231",
+    "eurostat:population":1251,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200035731",
     "frgov:id":"BDCSURCO0000000009603754",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001723,
-    "geom:area_square_m":14768477.249016,
+    "geom:area_square_m":14768477.249015,
     "geom:bbox":"3.93304994386,46.0867497073,3.99415001251,46.1355289113",
     "geom:latitude":46.108779,
     "geom:longitude":3.964308,
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683377,
         102191581,
@@ -136,7 +150,10 @@
         102069349
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_42231",
+        "eurostat:nuts_2021_id":"42231"
+    },
     "wof:coterminous":[
         101767741
     ],
@@ -144,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a1bb4913e5f4809425fe64445ae81c6e",
+    "wof:geomhash":"8088bfe5bcb88befec7f776d7d057e0d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +175,13 @@
         }
     ],
     "wof:id":404399233,
-    "wof:lastmodified":1582324149,
+    "wof:lastmodified":1684353241,
     "wof:name":"Saint-Germain-Lespinasse",
     "wof:parent_id":102069349,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1251,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

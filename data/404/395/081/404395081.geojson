@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_76568",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Clair-sur-les-Monts",
+    "eurostat:nuts_2021_id":"76568",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD22",
+    "eurostat:nuts_2021_level_lau":"76568",
+    "eurostat:population":591,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247600620",
     "frgov:id":"BDCSURCO0000000009583999",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000502,
-    "geom:area_square_m":4019766.733299,
+    "geom:area_square_m":4019766.7333,
     "geom:bbox":"0.762297211952,49.5910903739,0.800313358982,49.6132530907",
     "geom:latitude":49.602445,
     "geom:longitude":0.784399,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683251,
         102191581,
@@ -58,7 +72,10 @@
         102071695
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_76568",
+        "eurostat:nuts_2021_id":"76568"
+    },
     "wof:coterminous":[
         1125809331
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"30820a062ab8c1ec79ceff844ce42a66",
+    "wof:geomhash":"a674431a2e05b3513344aef8ba6339da",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404395081,
-    "wof:lastmodified":1582324779,
+    "wof:lastmodified":1684353192,
     "wof:name":"Saint-Clair-Sur-Les-Monts",
     "wof:parent_id":102071695,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":591,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

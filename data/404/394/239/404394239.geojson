@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_84073",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"M\u00e9nerbes",
+    "eurostat:nuts_2021_id":"84073",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL06",
+    "eurostat:nuts_2021_level_lau":"84073",
+    "eurostat:population":990,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040624",
     "frgov:id":"BDCSURCO0000000009612413",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.003397,
-    "geom:area_square_m":30303701.157573,
+    "geom:area_square_m":30303701.157574,
     "geom:bbox":"5.17736302793,43.7920510003,5.25714756225,43.8622115752",
     "geom:latitude":43.824136,
     "geom:longitude":5.220983,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683201,
         102191581,
@@ -57,7 +71,10 @@
         102065477
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_84073",
+        "eurostat:nuts_2021_id":"84073"
+    },
     "wof:coterminous":[
         1126038647
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"15bed97585857267ab7d7c602d71099b",
+    "wof:geomhash":"1ce6a0e6e784995169c0b693f5efd670",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404394239,
-    "wof:lastmodified":1582325037,
+    "wof:lastmodified":1684353182,
     "wof:name":"Menerbes",
     "wof:parent_id":102065477,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":990,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

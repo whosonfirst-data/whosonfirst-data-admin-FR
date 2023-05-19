@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_27606",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Symphorien",
+    "eurostat:nuts_2021_id":"27606",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD21",
+    "eurostat:nuts_2021_level_lau":"27606",
+    "eurostat:population":488,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200065787",
     "frgov:id":"BDCSURCO0000000009585866",
     "frgov:insee_arr":"2",
@@ -88,6 +100,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683283,
         102191581,
@@ -98,7 +112,10 @@
         102069339
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_27606",
+        "eurostat:nuts_2021_id":"27606"
+    },
     "wof:coterminous":[
         1360675747
     ],
@@ -106,7 +123,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"89ad0ef7458e192a2dbc0c6c937deb91",
+    "wof:geomhash":"48cd88a6708453cfb44e4b1b3fbcd6da",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -120,11 +137,13 @@
         }
     ],
     "wof:id":404379493,
-    "wof:lastmodified":1582324532,
+    "wof:lastmodified":1684353005,
     "wof:name":"Saint-Symphorien",
     "wof:parent_id":102069339,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":488,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

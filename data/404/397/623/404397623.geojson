@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_05118",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Val Bu\u00ebch-M\u00e9ouge",
+    "eurostat:nuts_2021_id":"05118",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL02",
+    "eurostat:nuts_2021_level_lau":"05118",
+    "eurostat:population":1349,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068765",
     "frgov:id":"BDCSURCO0000000009610989",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.007874,
-    "geom:area_square_m":69740422.165251,
+    "geom:area_square_m":69740422.165253,
     "geom:bbox":"5.75295188469,44.1901095056,5.91474005644,44.3127431072",
     "geom:latitude":44.247886,
     "geom:longitude":5.822652,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683597,
         102191581,
@@ -55,7 +69,10 @@
         102067233
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_05118",
+        "eurostat:nuts_2021_id":"05118"
+    },
     "wof:coterminous":[
         1360677477
     ],
@@ -63,7 +80,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b01d99b31dc187ead4d0cb7b32a8c6e1",
+    "wof:geomhash":"25c84f06869c06263dd47a14410df1f0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -76,11 +93,13 @@
         }
     ],
     "wof:id":404397623,
-    "wof:lastmodified":1582324211,
+    "wof:lastmodified":1684353220,
     "wof:name":"Chateauneuf-De-Chabre",
     "wof:parent_id":102067233,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1349,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

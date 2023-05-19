@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_27553",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Julien-de-la-Li\u00e8gue",
+    "eurostat:nuts_2021_id":"27553",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD21",
+    "eurostat:nuts_2021_level_lau":"27553",
+    "eurostat:population":413,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242700623",
     "frgov:id":"BDCSURCO0000000009587243",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683283,
         102191581,
@@ -58,7 +72,10 @@
         102071175
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_27553",
+        "eurostat:nuts_2021_id":"27553"
+    },
     "wof:coterminous":[
         1125993811
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"fae4e44fa046e3312a10d1eb72010ebc",
+    "wof:geomhash":"2aca0c0cc072f5efabb84eec28d3e0f3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404377417,
-    "wof:lastmodified":1582324567,
+    "wof:lastmodified":1684352980,
     "wof:name":"Saint-Julien-De-La-Liegue",
     "wof:parent_id":102071175,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":413,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

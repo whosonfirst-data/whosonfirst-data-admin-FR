@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_03299",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Varennes-sur-T\u00e8che",
+    "eurostat:nuts_2021_id":"03299",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK11",
+    "eurostat:nuts_2021_level_lau":"03299",
+    "eurostat:population":245,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071470",
     "frgov:id":"BDCSURCO0000000009603068",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.002203,
-    "geom:area_square_m":18813482.846674,
+    "geom:area_square_m":18813482.846673,
     "geom:bbox":"3.60838201903,46.2868995917,3.6681226961,46.3460456283",
     "geom:latitude":46.317392,
     "geom:longitude":3.637659,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683293,
         102191581,
@@ -58,7 +72,10 @@
         102066905
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_03299",
+        "eurostat:nuts_2021_id":"03299"
+    },
     "wof:coterminous":[
         1125942537
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"23015920734119331fef0b1386e057d0",
+    "wof:geomhash":"37aa2df738ee418b13ba6b6f007c598e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404355115,
-    "wof:lastmodified":1582324196,
+    "wof:lastmodified":1684352687,
     "wof:name":"Varennes-Sur-Teche",
     "wof:parent_id":102066905,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":245,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

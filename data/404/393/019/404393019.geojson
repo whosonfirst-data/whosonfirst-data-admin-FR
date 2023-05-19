@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_24374",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Aubin-de-Lanquais",
+    "eurostat:nuts_2021_id":"24374",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI11",
+    "eurostat:nuts_2021_level_lau":"24374",
+    "eurostat:population":343,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040889",
     "frgov:id":"BDCSURCO0000000009609283",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001065,
-    "geom:area_square_m":9345499.802077,
+    "geom:area_square_m":9345499.802076,
     "geom:bbox":"0.577296127072,44.7746202479,0.619290166482,44.8218800011",
     "geom:latitude":44.797162,
     "geom:longitude":0.602587,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683331,
         102191581,
@@ -58,7 +72,10 @@
         102066787
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_24374",
+        "eurostat:nuts_2021_id":"24374"
+    },
     "wof:coterminous":[
         1125956773
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9fa3622ca59b561b0930a9d548e240fa",
+    "wof:geomhash":"bcb0cf3804366eda17ae090237dee087",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404393019,
-    "wof:lastmodified":1582325018,
+    "wof:lastmodified":1684353168,
     "wof:name":"Saint-Aubin-De-Lanquais",
     "wof:parent_id":102066787,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":343,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

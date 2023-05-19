@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_72190",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Marolles-l\u00e8s-Saint-Calais",
+    "eurostat:nuts_2021_id":"72190",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG04",
+    "eurostat:nuts_2021_level_lau":"72190",
+    "eurostat:population":276,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072692",
     "frgov:id":"BDCSURCO0000000009596165",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001455,
-    "geom:area_square_m":12053982.292706,
+    "geom:area_square_m":12053982.292705,
     "geom:bbox":"0.758598576456,47.8884856055,0.817672838297,47.9407558224",
     "geom:latitude":47.917272,
     "geom:longitude":0.793781,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683279,
         102191581,
@@ -57,7 +71,10 @@
         102069519
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_72190",
+        "eurostat:nuts_2021_id":"72190"
+    },
     "wof:coterminous":[
         1125782807
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"029b5eb75dbbd56bb694c8f744187768",
+    "wof:geomhash":"d906aea848c960711d2e8ff117b84740",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404362345,
-    "wof:lastmodified":1582324063,
+    "wof:lastmodified":1684352786,
     "wof:name":"Marolles-Les-Saint-Calais",
     "wof:parent_id":102069519,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":276,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

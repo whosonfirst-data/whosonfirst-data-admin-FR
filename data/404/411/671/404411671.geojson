@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_39283",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lavancia-Epercy",
+    "eurostat:nuts_2021_id":"39283",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC22",
+    "eurostat:nuts_2021_level_lau":"39283",
+    "eurostat:population":646,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243900412",
     "frgov:id":"BDCSURCO0000000009602779",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001262,
-    "geom:area_square_m":10773853.653574,
+    "geom:area_square_m":10773853.653573,
     "geom:bbox":"5.64418443092,46.3158739584,5.71496755316,46.3569177983",
     "geom:latitude":46.336457,
     "geom:longitude":5.684845,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683173,
         102191581,
@@ -58,7 +72,10 @@
         102069183
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_39283",
+        "eurostat:nuts_2021_id":"39283"
+    },
     "wof:coterminous":[
         101892989
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"796e40a86263a5ff6df43a250e1e1d0f",
+    "wof:geomhash":"95ab352ae821992bd3d9c63c9bef5e75",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404411671,
-    "wof:lastmodified":1582325171,
+    "wof:lastmodified":1684353385,
     "wof:name":"Lavancia-Epercy",
     "wof:parent_id":102069183,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":646,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

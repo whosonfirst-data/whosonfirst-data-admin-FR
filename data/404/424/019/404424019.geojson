@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_41215",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Jacques-des-Gu\u00e9rets",
+    "eurostat:nuts_2021_id":"41215",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB05",
+    "eurostat:nuts_2021_level_lau":"41215",
+    "eurostat:population":91,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072072",
     "frgov:id":"BDCSURCO0000000009596842",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683349,
         102191581,
@@ -57,7 +71,10 @@
         102066495
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_41215",
+        "eurostat:nuts_2021_id":"41215"
+    },
     "wof:coterminous":[
         101886851
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"227c97101320e1205d2a4c63250e3530",
+    "wof:geomhash":"cffb44e7e59f67bc4400b8a0fdc3457d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404424019,
-    "wof:lastmodified":1582324398,
+    "wof:lastmodified":1684353534,
     "wof:name":"Saint-Jacques-Des-Guerets",
     "wof:parent_id":102066495,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":91,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

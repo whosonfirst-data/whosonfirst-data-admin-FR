@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_25141",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Chaux-l\u00e8s-Passavant",
+    "eurostat:nuts_2021_id":"25141",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC21",
+    "eurostat:nuts_2021_level_lau":"25141",
+    "eurostat:population":133,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242504181",
     "frgov:id":"BDCSURCO0000000009599095",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001015,
-    "geom:area_square_m":8523260.752055,
+    "geom:area_square_m":8523260.752057,
     "geom:bbox":"6.32413409262,47.2123756184,6.3728989927,47.25594126",
     "geom:latitude":47.235591,
     "geom:longitude":6.350581,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683239,
         102191581,
@@ -58,7 +72,10 @@
         102069379
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_25141",
+        "eurostat:nuts_2021_id":"25141"
+    },
     "wof:coterminous":[
         1126037423
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2092890d82e5d9b66255e7170e71b4ba",
+    "wof:geomhash":"48ee764f4db1d0e79374f823aa2b1f49",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404395409,
-    "wof:lastmodified":1582324773,
+    "wof:lastmodified":1684353196,
     "wof:name":"Chaux-Les-Passavant",
     "wof:parent_id":102069379,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":133,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

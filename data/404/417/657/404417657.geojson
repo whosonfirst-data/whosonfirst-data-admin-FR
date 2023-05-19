@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_14563",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Beno\u00eet-d'H\u00e9bertot",
+    "eurostat:nuts_2021_id":"14563",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD11",
+    "eurostat:nuts_2021_level_lau":"14563",
+    "eurostat:population":425,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"241400878",
     "frgov:id":"BDCSURCO0000000009585874",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000881,
-    "geom:area_square_m":7096457.816507,
+    "geom:area_square_m":7096457.816506,
     "geom:bbox":"0.24640356924,49.309466534,0.30706028562,49.3395279237",
     "geom:latitude":49.324806,
     "geom:longitude":0.27255,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683579,
         102191581,
@@ -58,7 +72,10 @@
         102069373
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_14563",
+        "eurostat:nuts_2021_id":"14563"
+    },
     "wof:coterminous":[
         1125932771
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4a78878af7a896f2f8e86bf92f75684c",
+    "wof:geomhash":"ccd49ae88014fd5806ddc401e8951270",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404417657,
-    "wof:lastmodified":1582325132,
+    "wof:lastmodified":1684353456,
     "wof:name":"Saint-Benoit-D'Hebertot",
     "wof:parent_id":102069373,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":425,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

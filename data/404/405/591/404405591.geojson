@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_38333",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rencurel",
+    "eurostat:nuts_2021_id":"38333",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK24",
+    "eurostat:nuts_2021_level_lau":"38333",
+    "eurostat:population":322,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070431",
     "frgov:id":"BDCSURCO0000000009607855",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.003958,
-    "geom:area_square_m":34536556.087275,
+    "geom:area_square_m":34536556.087276,
     "geom:bbox":"5.43386226982,45.0675177095,5.51665998542,45.1680454966",
     "geom:latitude":45.118278,
     "geom:longitude":5.472667,
@@ -123,6 +135,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683427,
         102191581,
@@ -133,7 +147,10 @@
         102068345
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_38333",
+        "eurostat:nuts_2021_id":"38333"
+    },
     "wof:coterminous":[
         101894775
     ],
@@ -141,7 +158,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e81640e35010b4b84a2a18cb91775615",
+    "wof:geomhash":"d3ad7cbb24888e4b0640dad41c99a738",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -155,11 +172,13 @@
         }
     ],
     "wof:id":404405591,
-    "wof:lastmodified":1582325261,
+    "wof:lastmodified":1684353314,
     "wof:name":"Rencurel",
     "wof:parent_id":102068345,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":322,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

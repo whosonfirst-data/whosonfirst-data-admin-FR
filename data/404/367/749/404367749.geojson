@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_08473",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Vieux-l\u00e8s-Asfeld",
+    "eurostat:nuts_2021_id":"08473",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF21",
+    "eurostat:nuts_2021_level_lau":"08473",
+    "eurostat:population":314,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200043156",
     "frgov:id":"BDCSURCO0000000009584880",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683309,
         102191581,
@@ -58,7 +72,10 @@
         102064307
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_08473",
+        "eurostat:nuts_2021_id":"08473"
+    },
     "wof:coterminous":[
         101903149
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"563235febb649de69bc8b0eb6949593f",
+    "wof:geomhash":"8a6f6f57812a92f7030e231f4f32cde3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404367749,
-    "wof:lastmodified":1582324995,
+    "wof:lastmodified":1684352862,
     "wof:name":"Vieux-Les-Asfeld",
     "wof:parent_id":102064307,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":314,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

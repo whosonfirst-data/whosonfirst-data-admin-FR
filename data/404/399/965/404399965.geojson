@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_90071",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Montreux-Ch\u00e2teau",
+    "eurostat:nuts_2021_id":"90071",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC24",
+    "eurostat:nuts_2021_level_lau":"90071",
+    "eurostat:population":1181,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069052",
     "frgov:id":"BDCSURCO0000000009596975",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683353,
         102191581,
@@ -58,7 +72,10 @@
         102064699
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_90071",
+        "eurostat:nuts_2021_id":"90071"
+    },
     "wof:coterminous":[
         101887563
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"88be23a74168cd14a845536086c5f247",
+    "wof:geomhash":"cf54bc272fd2563d098ee5f0736de26b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404399965,
-    "wof:lastmodified":1582324144,
+    "wof:lastmodified":1684353249,
     "wof:name":"Montreux-Chateau",
     "wof:parent_id":102064699,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1181,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

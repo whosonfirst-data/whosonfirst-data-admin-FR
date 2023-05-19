@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_72027",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Beaumont-sur-D\u00eame",
+    "eurostat:nuts_2021_id":"72027",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG04",
+    "eurostat:nuts_2021_level_lau":"72027",
+    "eurostat:population":331,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070373",
     "frgov:id":"BDCSURCO0000000009597525",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001627,
-    "geom:area_square_m":13541169.793467,
+    "geom:area_square_m":13541169.793468,
     "geom:bbox":"0.549818521515,47.6678236593,0.619073422964,47.7123778518",
     "geom:latitude":47.687201,
     "geom:longitude":0.579544,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683279,
         102191581,
@@ -57,7 +71,10 @@
         102065245
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_72027",
+        "eurostat:nuts_2021_id":"72027"
+    },
     "wof:coterminous":[
         1126035385
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c76d9868deaded72d47abf170aa94073",
+    "wof:geomhash":"dd1b01c029b6f038cd79ee73eea9d89b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404376709,
-    "wof:lastmodified":1582324662,
+    "wof:lastmodified":1684352972,
     "wof:name":"Beaumont-Sur-Deme",
     "wof:parent_id":102065245,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":331,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

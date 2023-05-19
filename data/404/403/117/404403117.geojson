@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_41083",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Fert\u00e9-Beauharnais",
+    "eurostat:nuts_2021_id":"41083",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB05",
+    "eurostat:nuts_2021_level_lau":"41083",
+    "eurostat:population":525,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244100780",
     "frgov:id":"BDCSURCO0000000009598088",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683349,
         102191581,
@@ -57,7 +71,10 @@
         102067127
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_41083",
+        "eurostat:nuts_2021_id":"41083"
+    },
     "wof:coterminous":[
         101886927
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6a6e3cfe6a863d6c87e67aa6ef7b92ac",
+    "wof:geomhash":"89df3ed4ac67ec402ef7af921ff75436",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404403117,
-    "wof:lastmodified":1582325295,
+    "wof:lastmodified":1684353285,
     "wof:name":"La Ferte-Beauharnais",
     "wof:parent_id":102067127,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":525,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

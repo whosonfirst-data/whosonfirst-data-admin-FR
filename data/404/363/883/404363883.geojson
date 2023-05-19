@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_24417",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Germain-des-Pr\u00e9s",
+    "eurostat:nuts_2021_id":"24417",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI11",
+    "eurostat:nuts_2021_level_lau":"24417",
+    "eurostat:population":498,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242401024",
     "frgov:id":"BDCSURCO0000000009607109",
     "frgov:insee_arr":"2",
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683331,
         102191581,
@@ -56,7 +70,10 @@
         102066347
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_24417",
+        "eurostat:nuts_2021_id":"24417"
+    },
     "wof:coterminous":[
         1360674169
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3d9d3d572182333a041d5d7cdb6c89a9",
+    "wof:geomhash":"7a713961709722d501a86c0025c1ce07",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404363883,
-    "wof:lastmodified":1582324230,
+    "wof:lastmodified":1684352808,
     "wof:name":"Saint-Germain-Des-Pres",
     "wof:parent_id":102066347,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":498,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

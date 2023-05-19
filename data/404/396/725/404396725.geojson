@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_72336",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Solesmes",
+    "eurostat:nuts_2021_id":"72336",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG04",
+    "eurostat:nuts_2021_level_lau":"72336",
+    "eurostat:population":1198,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247200090",
     "frgov:id":"BDCSURCO0000000009596517",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001389,
-    "geom:area_square_m":11528009.334454,
+    "geom:area_square_m":11528009.334453,
     "geom:bbox":"-0.320327019425,47.8235388252,-0.24576447018,47.8583119876",
     "geom:latitude":47.844381,
     "geom:longitude":-0.281452,
@@ -90,6 +102,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683279,
         102191581,
@@ -99,7 +113,10 @@
         102069299
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_72336",
+        "eurostat:nuts_2021_id":"72336"
+    },
     "wof:coterminous":[
         101763359
     ],
@@ -107,7 +124,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"78bc0188934b5d6dc75f25b305101521",
+    "wof:geomhash":"8ce17db166d4a9b2dc9b2c1d0cdb00a0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -120,11 +137,13 @@
         }
     ],
     "wof:id":404396725,
-    "wof:lastmodified":1582324071,
+    "wof:lastmodified":1684353210,
     "wof:name":"Solesmes",
     "wof:parent_id":102069299,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1198,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

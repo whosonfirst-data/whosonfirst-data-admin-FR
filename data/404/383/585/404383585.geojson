@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_64483",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Jean-de-Luz",
+    "eurostat:nuts_2021_id":"64483",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI15",
+    "eurostat:nuts_2021_level_lau":"64483",
+    "eurostat:population":14093,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067106",
     "frgov:id":"BDCSURCO0000000009614352",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002165,
-    "geom:area_square_m":19451944.537974,
+    "geom:area_square_m":19451944.537973,
     "geom:bbox":"-1.66940922326,43.3653628219,-1.5981467383,43.4233665635",
     "geom:latitude":43.394468,
     "geom:longitude":-1.630517,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683539,
         102191581,
@@ -58,7 +72,10 @@
         102070379
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_64483",
+        "eurostat:nuts_2021_id":"64483"
+    },
     "wof:coterminous":[
         101831741
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"331335b5bd033d70964c4e303f196a6f",
+    "wof:geomhash":"d941f70e0291e7b05d8e7773bb13bfeb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404383585,
-    "wof:lastmodified":1582324555,
+    "wof:lastmodified":1684353054,
     "wof:name":"Saint-Jean-De-Luz",
     "wof:parent_id":102070379,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":14093,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

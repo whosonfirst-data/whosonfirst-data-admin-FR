@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_31145",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Cintegabelle",
+    "eurostat:nuts_2021_id":"31145",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ23",
+    "eurostat:nuts_2021_level_lau":"31145",
+    "eurostat:population":2904,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068807",
     "frgov:id":"BDCSURCO0000000009614947",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00594,
-    "geom:area_square_m":53450580.252729,
+    "geom:area_square_m":53450580.252731,
     "geom:bbox":"1.48010360452,43.2533346844,1.5951614674,43.3468665245",
     "geom:latitude":43.306521,
     "geom:longitude":1.535633,
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683397,
         102191581,
@@ -136,7 +150,10 @@
         102066429
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_31145",
+        "eurostat:nuts_2021_id":"31145"
+    },
     "wof:coterminous":[
         101773991
     ],
@@ -144,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"241ca560a2d42a6873880d2b35aaf161",
+    "wof:geomhash":"9f08d8f45556f0d76498f3eaa0ebfca2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +175,13 @@
         }
     ],
     "wof:id":404359359,
-    "wof:lastmodified":1582324795,
+    "wof:lastmodified":1684352745,
     "wof:name":"Cintegabelle",
     "wof:parent_id":102066429,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2904,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

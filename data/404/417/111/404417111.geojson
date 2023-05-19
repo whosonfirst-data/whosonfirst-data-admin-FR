@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_33472",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Sauveur-de-Puynormand",
+    "eurostat:nuts_2021_id":"33472",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI12",
+    "eurostat:nuts_2021_level_lau":"33472",
+    "eurostat:population":348,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070092",
     "frgov:id":"BDCSURCO0000000009608432",
     "frgov:insee_arr":"5",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000627,
-    "geom:area_square_m":5486142.879392,
+    "geom:area_square_m":5486142.879393,
     "geom:bbox":"-0.0522808950555,44.9835319112,-0.00913960604774,45.007761942",
     "geom:latitude":44.995297,
     "geom:longitude":-0.033161,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683243,
         102191581,
@@ -56,7 +70,10 @@
         102070073
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_33472",
+        "eurostat:nuts_2021_id":"33472"
+    },
     "wof:coterminous":[
         1360679347
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2b1bb2bbb4ae6b6c0d0219f18ba8f419",
+    "wof:geomhash":"20d6a40365926f1d80aa7b73e7bffd83",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404417111,
-    "wof:lastmodified":1582325133,
+    "wof:lastmodified":1684353450,
     "wof:name":"Saint-Sauveur-De-Puynormand",
     "wof:parent_id":102070073,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":348,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

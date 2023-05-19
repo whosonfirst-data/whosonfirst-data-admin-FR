@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_47241",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Eutrope-de-Born",
+    "eurostat:nuts_2021_id":"47241",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI14",
+    "eurostat:nuts_2021_level_lau":"47241",
+    "eurostat:population":680,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200036523",
     "frgov:id":"BDCSURCO0000000009610195",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.004344,
-    "geom:area_square_m":38264939.267755,
+    "geom:area_square_m":38264939.267756,
     "geom:bbox":"0.651322455895,44.5367155744,0.764312241896,44.6217175128",
     "geom:latitude":44.577721,
     "geom:longitude":0.708666,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683341,
         102191581,
@@ -58,7 +72,10 @@
         102070577
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_47241",
+        "eurostat:nuts_2021_id":"47241"
+    },
     "wof:coterminous":[
         1125933825
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b39d71ae1020a0ac17b31150c3900067",
+    "wof:geomhash":"feb4a0e84c86521bd39aa7118affc710",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404352553,
-    "wof:lastmodified":1582324172,
+    "wof:lastmodified":1684352652,
     "wof:name":"Saint-Eutrope-De-Born",
     "wof:parent_id":102070577,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":680,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

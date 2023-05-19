@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_77227",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Herm\u00e9",
+    "eurostat:nuts_2021_id":"77227",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR102",
+    "eurostat:nuts_2021_level_lau":"77227",
+    "eurostat:population":642,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040251",
     "frgov:id":"BDCSURCO0000000009592421",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"ILE-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001939,
-    "geom:area_square_m":15890611.445011,
+    "geom:area_square_m":15890611.445012,
     "geom:bbox":"3.31189055473,48.4645400667,3.38278769141,48.5114733857",
     "geom:latitude":48.486113,
     "geom:longitude":3.345998,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683385,
         102191581,
@@ -57,7 +71,10 @@
         102064403
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_77227",
+        "eurostat:nuts_2021_id":"77227"
+    },
     "wof:coterminous":[
         101883671
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"50aa7a9e603f47cca627af043ccb9aba",
+    "wof:geomhash":"081db1904aa5920766cff00ded510f23",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404407583,
-    "wof:lastmodified":1582324502,
+    "wof:lastmodified":1684353339,
     "wof:name":"Herme",
     "wof:parent_id":102064403,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":642,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

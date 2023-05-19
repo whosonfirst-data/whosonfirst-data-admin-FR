@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_64421",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ogeu-les-Bains",
+    "eurostat:nuts_2021_id":"64421",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI15",
+    "eurostat:nuts_2021_level_lau":"64421",
+    "eurostat:population":1289,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067262",
     "frgov:id":"BDCSURCO0000000009615305",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002558,
-    "geom:area_square_m":23071563.408551,
+    "geom:area_square_m":23071563.40855,
     "geom:bbox":"-0.549787820869,43.1255736273,-0.466220558388,43.1839466792",
     "geom:latitude":43.155618,
     "geom:longitude":-0.503945,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683539,
         102191581,
@@ -58,7 +72,10 @@
         102069357
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_64421",
+        "eurostat:nuts_2021_id":"64421"
+    },
     "wof:coterminous":[
         101773883
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e11cddd319caaa8c4dfda999c40fc87d",
+    "wof:geomhash":"8f1d16c6b8d3cd115221e66b3c20b563",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404347471,
-    "wof:lastmodified":1582324721,
+    "wof:lastmodified":1684352581,
     "wof:name":"Ogeu-Les-Bains",
     "wof:parent_id":102069357,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1289,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

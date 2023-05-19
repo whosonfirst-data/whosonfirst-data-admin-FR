@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_01345",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Denis-en-Bugey",
+    "eurostat:nuts_2021_id":"01345",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK21",
+    "eurostat:nuts_2021_level_lau":"01345",
+    "eurostat:population":2309,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240100883",
     "frgov:id":"BDCSURCO0000000009604176",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.000303,
-    "geom:area_square_m":2608329.325198,
+    "geom:area_square_m":2608329.325197,
     "geom:bbox":"5.30888466365,45.9424776418,5.34314181557,45.9570049646",
     "geom:latitude":45.948843,
     "geom:longitude":5.325129,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683153,
         102191581,
@@ -58,7 +72,10 @@
         102064237
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_01345",
+        "eurostat:nuts_2021_id":"01345"
+    },
     "wof:coterminous":[
         101829113
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ad7d649cea0607b7a2aaf90da3cc8f5a",
+    "wof:geomhash":"29f2cc0b365392a65728d4879b11d64b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404413991,
-    "wof:lastmodified":1582324315,
+    "wof:lastmodified":1684353414,
     "wof:name":"Saint-Denis-En-Bugey",
     "wof:parent_id":102064237,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2309,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

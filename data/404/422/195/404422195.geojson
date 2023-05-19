@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_44158",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-\u00c9tienne-de-Montluc",
+    "eurostat:nuts_2021_id":"44158",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG01",
+    "eurostat:nuts_2021_level_lau":"44158",
+    "eurostat:population":7129,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072734",
     "frgov:id":"BDCSURCO0000000009599340",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683233,
         102191581,
@@ -57,7 +71,10 @@
         102070537
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_44158",
+        "eurostat:nuts_2021_id":"44158"
+    },
     "wof:coterminous":[
         101766011
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"bd044d7c42cfc066977b89073a60747b",
+    "wof:geomhash":"b5dc54c920911da27d74d1ce7d6d72e2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404422195,
-    "wof:lastmodified":1582324281,
+    "wof:lastmodified":1684353511,
     "wof:name":"Saint-Etienne-De-Montluc",
     "wof:parent_id":102070537,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":7129,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

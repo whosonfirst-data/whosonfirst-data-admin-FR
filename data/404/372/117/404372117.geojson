@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_07059",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ch\u00e2teaubourg",
+    "eurostat:nuts_2021_id":"07059",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK22",
+    "eurostat:nuts_2021_level_lau":"07059",
+    "eurostat:population":244,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041366",
     "frgov:id":"BDCSURCO0000000009608300",
     "frgov:insee_arr":"3",
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683421,
         102191581,
@@ -56,7 +70,10 @@
         102067869
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_07059",
+        "eurostat:nuts_2021_id":"07059"
+    },
     "wof:coterminous":[
         1360674961
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b4b0f969ee7a9d8bb1202ef47a1f56f1",
+    "wof:geomhash":"fde3c304af1aa273308da0eb8987f8d2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404372117,
-    "wof:lastmodified":1582325467,
+    "wof:lastmodified":1684352914,
     "wof:name":"Chateaubourg",
     "wof:parent_id":102067869,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":244,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

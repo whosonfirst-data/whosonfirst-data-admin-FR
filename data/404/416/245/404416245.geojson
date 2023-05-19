@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_80305",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ferri\u00e8res",
+    "eurostat:nuts_2021_id":"80305",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE23",
+    "eurostat:nuts_2021_level_lau":"80305",
+    "eurostat:population":477,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071223",
     "frgov:id":"BDCSURCO0000000009582510",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000447,
-    "geom:area_square_m":3561495.285586,
+    "geom:area_square_m":3561495.285585,
     "geom:bbox":"2.15816605692,49.8755256636,2.19936871966,49.8956058622",
     "geom:latitude":49.884859,
     "geom:longitude":2.178828,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683363,
         102191581,
@@ -56,7 +70,10 @@
         102070423
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_80305",
+        "eurostat:nuts_2021_id":"80305"
+    },
     "wof:coterminous":[
         1360679289
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"63938bf218bddadc9c94ea974f089071",
+    "wof:geomhash":"f3d4273065a52abb20e831aaf14328fc",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404416245,
-    "wof:lastmodified":1582325181,
+    "wof:lastmodified":1684353440,
     "wof:name":"Ferrieres",
     "wof:parent_id":102070423,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":477,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_66176",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Hippolyte",
+    "eurostat:nuts_2021_id":"66176",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ15",
+    "eurostat:nuts_2021_level_lau":"66176",
+    "eurostat:population":3052,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200027183",
     "frgov:id":"BDCSURCO0000000009616299",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002809,
-    "geom:area_square_m":25480764.137229,
+    "geom:area_square_m":25480764.13723,
     "geom:bbox":"2.9383613448,42.7682880761,3.01257612242,42.8523659137",
     "geom:latitude":42.806957,
     "geom:longitude":2.973561,
@@ -87,6 +99,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683169,
         102191581,
@@ -97,7 +111,10 @@
         102066887
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_66176",
+        "eurostat:nuts_2021_id":"66176"
+    },
     "wof:coterminous":[
         101844331
     ],
@@ -105,7 +122,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3bc413c59c0ae37a6a99ab220a103ac5",
+    "wof:geomhash":"5068c72a87ded0e8fa86960e8b0b267c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -119,11 +136,13 @@
         }
     ],
     "wof:id":404401935,
-    "wof:lastmodified":1582324428,
+    "wof:lastmodified":1684353271,
     "wof:name":"Saint-Hippolyte",
     "wof:parent_id":102066887,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3052,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

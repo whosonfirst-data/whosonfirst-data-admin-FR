@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_07224",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Cirgues-en-Montagne",
+    "eurostat:nuts_2021_id":"07224",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK22",
+    "eurostat:nuts_2021_level_lau":"07224",
+    "eurostat:population":210,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072007",
     "frgov:id":"BDCSURCO0000000009609193",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.002501,
-    "geom:area_square_m":21952781.355213,
+    "geom:area_square_m":21952781.355217,
     "geom:bbox":"4.04792296408,44.7367162318,4.15423340922,44.8051878563",
     "geom:latitude":44.768125,
     "geom:longitude":4.088367,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683421,
         102191581,
@@ -58,7 +72,10 @@
         102066407
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_07224",
+        "eurostat:nuts_2021_id":"07224"
+    },
     "wof:coterminous":[
         1125926665
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"1968108062d4ee7d065a4938050d317f",
+    "wof:geomhash":"5c1b3a49d621ced2decf8cd92c112b28",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404405585,
-    "wof:lastmodified":1582325266,
+    "wof:lastmodified":1684353314,
     "wof:name":"Saint-Cirgues-En-Montagne",
     "wof:parent_id":102066407,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":210,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

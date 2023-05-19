@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_70088",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bourguignon-l\u00e8s-la-Charit\u00e9",
+    "eurostat:nuts_2021_id":"70088",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC23",
+    "eurostat:nuts_2021_level_lau":"70088",
+    "eurostat:population":116,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247000698",
     "frgov:id":"BDCSURCO0000000009597972",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000509,
-    "geom:area_square_m":4254072.947589,
+    "geom:area_square_m":4254072.947588,
     "geom:bbox":"5.944162159,47.4951093587,5.98269430117,47.5186607787",
     "geom:latitude":47.5076,
     "geom:longitude":5.96478,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683559,
         102191581,
@@ -58,7 +72,10 @@
         102068781
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_70088",
+        "eurostat:nuts_2021_id":"70088"
+    },
     "wof:coterminous":[
         101887869
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7ced8dd6be3aa0dfc92cf624884d626e",
+    "wof:geomhash":"747c94485cbf32b74e93bca10da0a0d8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404420327,
-    "wof:lastmodified":1582325212,
+    "wof:lastmodified":1684353487,
     "wof:name":"Bourguignon-Les-La-Charite",
     "wof:parent_id":102068781,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":116,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_45283",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Hilaire-sur-Puiseaux",
+    "eurostat:nuts_2021_id":"45283",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB06",
+    "eurostat:nuts_2021_level_lau":"45283",
+    "eurostat:population":175,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067676",
     "frgov:id":"BDCSURCO0000000009596126",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001372,
-    "geom:area_square_m":11371768.139586,
+    "geom:area_square_m":11371768.139584,
     "geom:bbox":"2.67038833509,47.8871280401,2.72588641012,47.9278761535",
     "geom:latitude":47.906885,
     "geom:longitude":2.699059,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683479,
         102191581,
@@ -57,7 +71,10 @@
         102067201
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_45283",
+        "eurostat:nuts_2021_id":"45283"
+    },
     "wof:coterminous":[
         1125812397
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"22169cfcd5ab0e30e581ff6b419d22aa",
+    "wof:geomhash":"4f0f44fcdbf6a698ccf6b2078205f020",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404380117,
-    "wof:lastmodified":1582325379,
+    "wof:lastmodified":1684353012,
     "wof:name":"Saint-Hilaire-Sur-Puiseaux",
     "wof:parent_id":102067201,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":175,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

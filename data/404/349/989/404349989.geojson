@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_73154",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mercury",
+    "eurostat:nuts_2021_id":"73154",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK27",
+    "eurostat:nuts_2021_level_lau":"73154",
+    "eurostat:population":3088,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068997",
     "frgov:id":"BDCSURCO0000000009605438",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.002571,
-    "geom:area_square_m":22208916.193301,
+    "geom:area_square_m":22208916.193302,
     "geom:bbox":"6.30794812254,45.6566605286,6.37907724572,45.7292549184",
     "geom:latitude":45.687687,
     "geom:longitude":6.344545,
@@ -132,6 +144,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683265,
         102191581,
@@ -142,7 +156,10 @@
         102065059
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_73154",
+        "eurostat:nuts_2021_id":"73154"
+    },
     "wof:coterminous":[
         1175612673
     ],
@@ -150,7 +167,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"bd861284f04a9fb9382ff94ade663d17",
+    "wof:geomhash":"a5bf3ca787f620f9be8a8a61c322822c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -164,11 +181,13 @@
         }
     ],
     "wof:id":404349989,
-    "wof:lastmodified":1582324717,
+    "wof:lastmodified":1684352616,
     "wof:name":"Mercury",
     "wof:parent_id":102065059,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3088,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

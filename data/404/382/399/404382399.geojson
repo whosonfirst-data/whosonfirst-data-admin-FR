@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_26261",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"R\u00e9auville",
+    "eurostat:nuts_2021_id":"26261",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK23",
+    "eurostat:nuts_2021_level_lau":"26261",
+    "eurostat:population":387,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040681",
     "frgov:id":"BDCSURCO0000000009610290",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.0021,
-    "geom:area_square_m":18535794.806161,
+    "geom:area_square_m":18535794.80616,
     "geom:bbox":"4.79726464562,44.4192701755,4.87839688477,44.4732369061",
     "geom:latitude":44.451783,
     "geom:longitude":4.838929,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683523,
         102191581,
@@ -58,7 +72,10 @@
         102066487
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_26261",
+        "eurostat:nuts_2021_id":"26261"
+    },
     "wof:coterminous":[
         101896211
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"975f4d83fde9be9181c059075243fb5b",
+    "wof:geomhash":"4e64824137c975a2b7cb5b1750a7d133",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404382399,
-    "wof:lastmodified":1582324680,
+    "wof:lastmodified":1684353037,
     "wof:name":"Reauville",
     "wof:parent_id":102066487,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":387,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

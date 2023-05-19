@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_05018",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"B\u00e2tie-Vieille",
+    "eurostat:nuts_2021_id":"05018",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL02",
+    "eurostat:nuts_2021_level_lau":"05018",
+    "eurostat:population":342,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067320",
     "frgov:id":"BDCSURCO0000000009609818",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.00103,
-    "geom:area_square_m":9077811.981525,
+    "geom:area_square_m":9077811.981524,
     "geom:bbox":"6.13174248886,44.5278531822,6.17307377589,44.5758864865",
     "geom:latitude":44.555054,
     "geom:longitude":6.156118,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683597,
         102191581,
@@ -57,7 +71,10 @@
         102065077
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_05018",
+        "eurostat:nuts_2021_id":"05018"
+    },
     "wof:coterminous":[
         1126057193
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"29b567566c82c836eba63e5d744e6cbb",
+    "wof:geomhash":"b66d57fd17dd065d1dec81d9046acad9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404373883,
-    "wof:lastmodified":1582325347,
+    "wof:lastmodified":1684352935,
     "wof:name":"La Batie-Vieille",
     "wof:parent_id":102065077,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":342,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

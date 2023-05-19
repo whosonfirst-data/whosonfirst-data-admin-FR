@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_73275",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Pierre-de-Genebroz",
+    "eurostat:nuts_2021_id":"73275",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK27",
+    "eurostat:nuts_2021_level_lau":"73275",
+    "eurostat:population":334,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040111",
     "frgov:id":"BDCSURCO0000000009606493",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683265,
         102191581,
@@ -58,7 +72,10 @@
         102066889
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_73275",
+        "eurostat:nuts_2021_id":"73275"
+    },
     "wof:coterminous":[
         1125937793
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"edb8e0159e19c455c606909b8bdf4d53",
+    "wof:geomhash":"452b87a772cfd0023b3c78bb507adfd9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404404673,
-    "wof:lastmodified":1582325307,
+    "wof:lastmodified":1684353303,
     "wof:name":"Saint-Pierre-De-Genebroz",
     "wof:parent_id":102066889,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":334,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

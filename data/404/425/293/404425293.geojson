@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_78576",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-R\u00e9my-l'Honor\u00e9",
+    "eurostat:nuts_2021_id":"78576",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR103",
+    "eurostat:nuts_2021_level_lau":"78576",
+    "eurostat:population":1568,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247800618",
     "frgov:id":"BDCSURCO0000000009590687",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683367,
         102191581,
@@ -57,7 +71,10 @@
         102067077
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_78576",
+        "eurostat:nuts_2021_id":"78576"
+    },
     "wof:coterminous":[
         101761265
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"92df7d5dd1bc658f9d7c029e1e07228d",
+    "wof:geomhash":"1290fdeea996061e2a07e2c11cfd2dda",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404425293,
-    "wof:lastmodified":1582324302,
+    "wof:lastmodified":1684353549,
     "wof:name":"Saint-Remy-L'Honore",
     "wof:parent_id":102067077,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1568,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

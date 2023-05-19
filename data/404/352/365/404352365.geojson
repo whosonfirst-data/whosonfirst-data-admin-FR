@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_64218",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Est\u00e9ren\u00e7uby",
+    "eurostat:nuts_2021_id":"64218",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI15",
+    "eurostat:nuts_2021_level_lau":"64218",
+    "eurostat:population":345,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067106",
     "frgov:id":"BDCSURCO0000000009615526",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.005068,
-    "geom:area_square_m":45774099.915317,
+    "geom:area_square_m":45774099.915316,
     "geom:bbox":"-1.22189299131,43.0325280443,-1.13022821401,43.1218402986",
     "geom:latitude":43.081808,
     "geom:longitude":-1.182069,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683539,
         102191581,
@@ -58,7 +72,10 @@
         102070517
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_64218",
+        "eurostat:nuts_2021_id":"64218"
+    },
     "wof:coterminous":[
         1125808653
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b616f51cc23198889b73d722486bb639",
+    "wof:geomhash":"a8f7fdcefb8277f9a7f4c3076b3cb8e6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404352365,
-    "wof:lastmodified":1582324161,
+    "wof:lastmodified":1684352650,
     "wof:name":"Esterencuby",
     "wof:parent_id":102070517,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":345,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

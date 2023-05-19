@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_70525",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Vauconcourt-Nervezain",
+    "eurostat:nuts_2021_id":"70525",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC23",
+    "eurostat:nuts_2021_level_lau":"70525",
+    "eurostat:population":215,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247000623",
     "frgov:id":"BDCSURCO0000000009597408",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002204,
-    "geom:area_square_m":18353602.024725,
+    "geom:area_square_m":18353602.024727,
     "geom:bbox":"5.7984597921,47.6298791593,5.86835265024,47.6821763284",
     "geom:latitude":47.656992,
     "geom:longitude":5.832606,
@@ -120,6 +132,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683559,
         102191581,
@@ -130,7 +144,10 @@
         102065329
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_70525",
+        "eurostat:nuts_2021_id":"70525"
+    },
     "wof:coterminous":[
         101887671
     ],
@@ -138,7 +155,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"81e33417da10fcff9e2df2c557651e1c",
+    "wof:geomhash":"7130bc318f9daa0e6d19a7b72bfcf10a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -152,11 +169,13 @@
         }
     ],
     "wof:id":404404859,
-    "wof:lastmodified":1582325307,
+    "wof:lastmodified":1684353305,
     "wof:name":"Vauconcourt-Nervezain",
     "wof:parent_id":102065329,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":215,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

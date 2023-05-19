@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_38430",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Mury-Monteymond",
+    "eurostat:nuts_2021_id":"38430",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK24",
+    "eurostat:nuts_2021_level_lau":"38430",
+    "eurostat:population":320,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200018166",
     "frgov:id":"BDCSURCO0000000009607421",
     "frgov:insee_arr":"1",
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683427,
         102191581,
@@ -136,7 +150,10 @@
         102065831
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_38430",
+        "eurostat:nuts_2021_id":"38430"
+    },
     "wof:coterminous":[
         101896345
     ],
@@ -144,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"54eafaf9e3bf1e10c7061f0a5b610b9b",
+    "wof:geomhash":"a3445fad729b00d766d0903e59b46eb5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +175,13 @@
         }
     ],
     "wof:id":404427835,
-    "wof:lastmodified":1582325237,
+    "wof:lastmodified":1684353578,
     "wof:name":"Saint-Mury-Monteymond",
     "wof:parent_id":102065831,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":320,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

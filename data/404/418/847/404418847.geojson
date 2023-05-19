@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_33405",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Gen\u00e8s-de-Blaye",
+    "eurostat:nuts_2021_id":"33405",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI12",
+    "eurostat:nuts_2021_level_lau":"33405",
+    "eurostat:population":485,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200023794",
     "frgov:id":"BDCSURCO0000000009607830",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001347,
-    "geom:area_square_m":11747667.468643,
+    "geom:area_square_m":11747667.468642,
     "geom:bbox":"-0.700455542895,45.1450611144,-0.634152147185,45.1835187468",
     "geom:latitude":45.161677,
     "geom:longitude":-0.668243,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683243,
         102191581,
@@ -58,7 +72,10 @@
         102065429
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_33405",
+        "eurostat:nuts_2021_id":"33405"
+    },
     "wof:coterminous":[
         1125824861
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4ef35303917dcdb4ad705b9e759a9d28",
+    "wof:geomhash":"b431f24adbbad751f1e0a0397fa69088",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404418847,
-    "wof:lastmodified":1582325226,
+    "wof:lastmodified":1684353470,
     "wof:name":"Saint-Genes-De-Blaye",
     "wof:parent_id":102065429,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":485,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

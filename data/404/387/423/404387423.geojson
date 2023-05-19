@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_54249",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Hannonville-Suz\u00e9mont",
+    "eurostat:nuts_2021_id":"54249",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF31",
+    "eurostat:nuts_2021_level_lau":"54249",
+    "eurostat:population":259,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070738",
     "frgov:id":"BDCSURCO0000000009587034",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683343,
         102191581,
@@ -58,7 +72,10 @@
         102066249
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_54249",
+        "eurostat:nuts_2021_id":"54249"
+    },
     "wof:coterminous":[
         101880275
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"efcadc398e97ae85bbd94e4e9a04b9a3",
+    "wof:geomhash":"d49262bb159c019934e166c0385a435c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404387423,
-    "wof:lastmodified":1582325357,
+    "wof:lastmodified":1684353097,
     "wof:name":"Hannonville-Suzemont",
     "wof:parent_id":102066249,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":259,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

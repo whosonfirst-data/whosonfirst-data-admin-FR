@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_71004",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"All\u00e9riot",
+    "eurostat:nuts_2021_id":"71004",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC13",
+    "eurostat:nuts_2021_level_lau":"71004",
+    "eurostat:population":1145,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040038",
     "frgov:id":"BDCSURCO0000000009601149",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001598,
-    "geom:area_square_m":13524017.102155,
+    "geom:area_square_m":13524017.102156,
     "geom:bbox":"4.92150934239,46.7759628576,4.98547694844,46.8282526577",
     "geom:latitude":46.799161,
     "geom:longitude":4.955236,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683543,
         102191581,
@@ -58,7 +72,10 @@
         102071371
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_71004",
+        "eurostat:nuts_2021_id":"71004"
+    },
     "wof:coterminous":[
         101889769
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a8e840f9c7bb6f0a8cd6d50006c638a4",
+    "wof:geomhash":"37f8625c753b15340c32a420aa2eb9f5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404389349,
-    "wof:lastmodified":1582325327,
+    "wof:lastmodified":1684353121,
     "wof:name":"Alleriot",
     "wof:parent_id":102071371,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1145,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

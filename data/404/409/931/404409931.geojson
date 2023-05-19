@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_72045",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Brains-sur-G\u00e9e",
+    "eurostat:nuts_2021_id":"72045",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG04",
+    "eurostat:nuts_2021_level_lau":"72045",
+    "eurostat:population":820,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040475",
     "frgov:id":"BDCSURCO0000000009595503",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001922,
-    "geom:area_square_m":15898508.451299,
+    "geom:area_square_m":15898508.451298,
     "geom:bbox":"-0.0596737184153,47.9889299537,0.0164022878944,48.0331865809",
     "geom:latitude":48.009566,
     "geom:longitude":-0.027473,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683279,
         102191581,
@@ -57,7 +71,10 @@
         102067013
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_72045",
+        "eurostat:nuts_2021_id":"72045"
+    },
     "wof:coterminous":[
         101884705
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b229356acecbc8fa5a484e7d5e5ad7e8",
+    "wof:geomhash":"3ee558d80d43adf4903354d6d45ecbdb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404409931,
-    "wof:lastmodified":1582324470,
+    "wof:lastmodified":1684353366,
     "wof:name":"Brains-Sur-Gee",
     "wof:parent_id":102067013,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":820,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

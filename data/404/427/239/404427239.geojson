@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_88505",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Vienville",
+    "eurostat:nuts_2021_id":"88505",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF34",
+    "eurostat:nuts_2021_level_lau":"88505",
+    "eurostat:population":125,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071066",
     "frgov:id":"BDCSURCO0000000009593936",
     "frgov:insee_arr":"3",
@@ -115,6 +127,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683223,
         102191581,
@@ -125,7 +139,10 @@
         102065779
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_88505",
+        "eurostat:nuts_2021_id":"88505"
+    },
     "wof:coterminous":[
         1360680303
     ],
@@ -133,7 +150,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6d47abb8be0c7e2bd299b9bb3a957dd4",
+    "wof:geomhash":"7ec976a352d2f06ef78fe09548824668",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -147,11 +164,13 @@
         }
     ],
     "wof:id":404427239,
-    "wof:lastmodified":1582325245,
+    "wof:lastmodified":1684353571,
     "wof:name":"Vienville",
     "wof:parent_id":102065779,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":125,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

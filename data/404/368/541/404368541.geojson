@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_55340",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mogn\u00e9ville",
+    "eurostat:nuts_2021_id":"55340",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF32",
+    "eurostat:nuts_2021_level_lau":"55340",
+    "eurostat:population":381,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"245501184",
     "frgov:id":"BDCSURCO0000000009590091",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.002259,
-    "geom:area_square_m":18407512.099566,
+    "geom:area_square_m":18407512.099567,
     "geom:bbox":"4.94925751937,48.7484911741,5.02757792718,48.8014001124",
     "geom:latitude":48.774879,
     "geom:longitude":4.992039,
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683297,
         102191581,
@@ -139,7 +153,10 @@
         102067213
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_55340",
+        "eurostat:nuts_2021_id":"55340"
+    },
     "wof:coterminous":[
         101882865
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"952adcb4b9521a6a70bdd741c7ab91cc",
+    "wof:geomhash":"bacfbc9d9c9952cf60b8310ff76690b9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404368541,
-    "wof:lastmodified":1582324883,
+    "wof:lastmodified":1684352872,
     "wof:name":"Mogneville",
     "wof:parent_id":102067213,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":381,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

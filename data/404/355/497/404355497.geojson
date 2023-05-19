@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_07281",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-P\u00e9ray",
+    "eurostat:nuts_2021_id":"07281",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK22",
+    "eurostat:nuts_2021_level_lau":"07281",
+    "eurostat:population":7692,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041366",
     "frgov:id":"BDCSURCO0000000009608500",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.002711,
-    "geom:area_square_m":23730111.864408,
+    "geom:area_square_m":23730111.86441,
     "geom:bbox":"4.78149648263,44.9165465005,4.88136573723,44.9625490427",
     "geom:latitude":44.940939,
     "geom:longitude":4.824359,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683421,
         102191581,
@@ -58,7 +72,10 @@
         102067869
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_07281",
+        "eurostat:nuts_2021_id":"07281"
+    },
     "wof:coterminous":[
         101750737
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0e10256e55edeccb4cdf98f5cb62b728",
+    "wof:geomhash":"5ee9580ba01ae94b1c6dbec1b8ac9e44",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404355497,
-    "wof:lastmodified":1582324185,
+    "wof:lastmodified":1684352692,
     "wof:name":"Saint-Peray",
     "wof:parent_id":102067869,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":7692,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

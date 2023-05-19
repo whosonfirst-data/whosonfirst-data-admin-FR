@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_27572",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Meslin-du-Bosc",
+    "eurostat:nuts_2021_id":"27572",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD21",
+    "eurostat:nuts_2021_level_lau":"27572",
+    "eurostat:population":284,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066405",
     "frgov:id":"BDCSURCO0000000009586774",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683283,
         102191581,
@@ -58,7 +72,10 @@
         102064321
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_27572",
+        "eurostat:nuts_2021_id":"27572"
+    },
     "wof:coterminous":[
         1125936957
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7c246e794739556b8fd9755bc5e04083",
+    "wof:geomhash":"ffb6be3ba8d79ed0f8ff7d3082a069b1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404425351,
-    "wof:lastmodified":1582324306,
+    "wof:lastmodified":1684353549,
     "wof:name":"Saint-Meslin-Du-Bosc",
     "wof:parent_id":102064321,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":284,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

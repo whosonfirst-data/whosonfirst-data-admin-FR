@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_04033",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ubaye-Serre-Pon\u00e7on",
+    "eurostat:nuts_2021_id":"04033",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL01",
+    "eurostat:nuts_2021_level_lau":"04033",
+    "eurostat:population":741,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072304",
     "frgov:id":"BDCSURCO0000000009610249",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.007635,
-    "geom:area_square_m":67404225.702289,
+    "geom:area_square_m":67404225.702288,
     "geom:bbox":"6.23276991039,44.4082685703,6.4056282235,44.4809329532",
     "geom:latitude":44.441405,
     "geom:longitude":6.318634,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683509,
         102191581,
@@ -57,7 +71,10 @@
         102066405
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_04033",
+        "eurostat:nuts_2021_id":"04033"
+    },
     "wof:coterminous":[
         101895539
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e5116725b5214e77843c767b9169b941",
+    "wof:geomhash":"6b8feaeb5f0aada078f97ed7da80df1f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404368901,
-    "wof:lastmodified":1582324866,
+    "wof:lastmodified":1684352877,
     "wof:name":"La Breole",
     "wof:parent_id":102066405,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":741,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

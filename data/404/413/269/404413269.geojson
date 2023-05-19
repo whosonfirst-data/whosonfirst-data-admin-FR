@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_64475",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sainte-Engr\u00e2ce",
+    "eurostat:nuts_2021_id":"64475",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI15",
+    "eurostat:nuts_2021_level_lau":"64475",
+    "eurostat:population":193,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067106",
     "frgov:id":"BDCSURCO0000000009615908",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.008081,
-    "geom:area_square_m":73081995.617203,
+    "geom:area_square_m":73081995.617202,
     "geom:bbox":"-0.900972275051,42.9506666664,-0.751598734617,43.0465994112",
     "geom:latitude":42.994328,
     "geom:longitude":-0.839506,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683539,
         102191581,
@@ -58,7 +72,10 @@
         102070969
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_64475",
+        "eurostat:nuts_2021_id":"64475"
+    },
     "wof:coterminous":[
         1125849919
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b31c46731a99ab7a7d2cba596b947466",
+    "wof:geomhash":"4bd31aed491171c6c2e7596888deaef6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404413269,
-    "wof:lastmodified":1582324321,
+    "wof:lastmodified":1684353405,
     "wof:name":"Sainte-Engrace",
     "wof:parent_id":102070969,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":193,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

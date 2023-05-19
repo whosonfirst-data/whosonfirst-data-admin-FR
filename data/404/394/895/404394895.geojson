@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_82153",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Amans-du-Pech",
+    "eurostat:nuts_2021_id":"82153",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ28",
+    "eurostat:nuts_2021_level_lau":"82153",
+    "eurostat:population":216,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040418",
     "frgov:id":"BDCSURCO0000000009610936",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000764,
-    "geom:area_square_m":6763861.014423,
+    "geom:area_square_m":6763861.014422,
     "geom:bbox":"0.869170496809,44.2967008816,0.916429926804,44.3283788353",
     "geom:latitude":44.31135,
     "geom:longitude":0.893749,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683217,
         102191581,
@@ -58,7 +72,10 @@
         102066833
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_82153",
+        "eurostat:nuts_2021_id":"82153"
+    },
     "wof:coterminous":[
         1125932153
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"1566966e53b040103527a0edee4c0ad7",
+    "wof:geomhash":"abc9491b36f4497fd18c59012942136d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404394895,
-    "wof:lastmodified":1582325028,
+    "wof:lastmodified":1684353190,
     "wof:name":"Saint-Amans-Du-Pech",
     "wof:parent_id":102066833,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":216,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

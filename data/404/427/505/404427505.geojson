@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_60559",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rue-Saint-Pierre",
+    "eurostat:nuts_2021_id":"60559",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE22",
+    "eurostat:nuts_2021_level_lau":"60559",
+    "eurostat:population":809,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067999",
     "frgov:id":"BDCSURCO0000000009585335",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001017,
-    "geom:area_square_m":8185220.273528,
+    "geom:area_square_m":8185220.273529,
     "geom:bbox":"2.27202751938,49.3886832394,2.31791440842,49.4380514198",
     "geom:latitude":49.414087,
     "geom:longitude":2.291612,
@@ -87,6 +99,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683289,
         102191581,
@@ -97,7 +111,10 @@
         102065713
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_60559",
+        "eurostat:nuts_2021_id":"60559"
+    },
     "wof:coterminous":[
         101902839
     ],
@@ -105,7 +122,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"12119914e91f2bb67a117522f58a1f61",
+    "wof:geomhash":"5bc9d66e5a1c3a11b44cc48eaa3903c2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -119,11 +136,13 @@
         }
     ],
     "wof:id":404427505,
-    "wof:lastmodified":1582325233,
+    "wof:lastmodified":1684353574,
     "wof:name":"La Rue-Saint-Pierre",
     "wof:parent_id":102065713,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":809,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

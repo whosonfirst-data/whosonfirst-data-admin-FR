@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_60312",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"H\u00e9ricourt-sur-Th\u00e9rain",
+    "eurostat:nuts_2021_id":"60312",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE22",
+    "eurostat:nuts_2021_level_lau":"60312",
+    "eurostat:population":126,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"246000848",
     "frgov:id":"BDCSURCO0000000009583943",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683289,
         102191581,
@@ -58,7 +72,10 @@
         102067009
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_60312",
+        "eurostat:nuts_2021_id":"60312"
+    },
     "wof:coterminous":[
         101899787
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6c3f4d26b321519b69906f5a8f62b565",
+    "wof:geomhash":"b56e15fea3cb8ae9ff4289dd85753490",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404372489,
-    "wof:lastmodified":1582325471,
+    "wof:lastmodified":1684352918,
     "wof:name":"Hericourt-Sur-Therain",
     "wof:parent_id":102067009,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":126,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

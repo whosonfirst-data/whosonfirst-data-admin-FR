@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_70208",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"\u00c9chenoz-le-Sec",
+    "eurostat:nuts_2021_id":"70208",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC23",
+    "eurostat:nuts_2021_level_lau":"70208",
+    "eurostat:population":298,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041853",
     "frgov:id":"BDCSURCO0000000009597684",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001844,
-    "geom:area_square_m":15399915.565209,
+    "geom:area_square_m":15399915.56521,
     "geom:bbox":"6.08924128122,47.5046136008,6.1541424846,47.5525561442",
     "geom:latitude":47.528142,
     "geom:longitude":6.121216,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683559,
         102191581,
@@ -58,7 +72,10 @@
         102067467
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_70208",
+        "eurostat:nuts_2021_id":"70208"
+    },
     "wof:coterminous":[
         1126050185
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"1936810391c1b94506d99dcc0ee25691",
+    "wof:geomhash":"9c93ab582c8f1d5e6fd9828da245d453",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404401891,
-    "wof:lastmodified":1582324432,
+    "wof:lastmodified":1684353271,
     "wof:name":"Echenoz-Le-Sec",
     "wof:parent_id":102067467,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":298,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

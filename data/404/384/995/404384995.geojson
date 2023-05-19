@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_16356",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Sulpice-de-Ruffec",
+    "eurostat:nuts_2021_id":"16356",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI31",
+    "eurostat:nuts_2021_level_lau":"16356",
+    "eurostat:population":31,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200043016",
     "frgov:id":"BDCSURCO0000000009604591",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000279,
-    "geom:area_square_m":2399777.9762,
+    "geom:area_square_m":2399777.976201,
     "geom:bbox":"0.301540939442,45.9265668645,0.336615634977,45.947192755",
     "geom:latitude":45.937346,
     "geom:longitude":0.319466,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683437,
         102191581,
@@ -58,7 +72,10 @@
         102068803
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_16356",
+        "eurostat:nuts_2021_id":"16356"
+    },
     "wof:coterminous":[
         1125819967
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c0e7ce93ce8e42b53f091982c1f4b932",
+    "wof:geomhash":"ddc85b39945a388cbeff747c7fc8c3e0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404384995,
-    "wof:lastmodified":1582324619,
+    "wof:lastmodified":1684353070,
     "wof:name":"Saint-Sulpice-De-Ruffec",
     "wof:parent_id":102068803,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":31,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

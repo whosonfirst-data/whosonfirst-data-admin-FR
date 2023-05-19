@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_15245",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Vabres",
+    "eurostat:nuts_2021_id":"15245",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK12",
+    "eurostat:nuts_2021_level_lau":"15245",
+    "eurostat:population":250,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066660",
     "frgov:id":"BDCSURCO0000000009608340",
     "frgov:insee_arr":"3",
@@ -94,6 +106,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683517,
         102191581,
@@ -104,7 +118,10 @@
         102067879
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_15245",
+        "eurostat:nuts_2021_id":"15245"
+    },
     "wof:coterminous":[
         1360677945
     ],
@@ -112,7 +129,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e8f2d33e4493c56d4c02f3c3dec2df14",
+    "wof:geomhash":"57858dcb49c593e83418d12c6331f66f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -126,11 +143,13 @@
         }
     ],
     "wof:id":404402917,
-    "wof:lastmodified":1582325285,
+    "wof:lastmodified":1684353283,
     "wof:name":"Vabres",
     "wof:parent_id":102067879,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":250,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

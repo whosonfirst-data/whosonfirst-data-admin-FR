@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_21242",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"\u00c9chigey",
+    "eurostat:nuts_2021_id":"21242",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC11",
+    "eurostat:nuts_2021_level_lau":"21242",
+    "eurostat:population":288,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200000925",
     "frgov:id":"BDCSURCO0000000009599711",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000643,
-    "geom:area_square_m":5405746.590012,
+    "geom:area_square_m":5405746.590011,
     "geom:bbox":"5.17540410002,47.1613237681,5.2221746366,47.1923761129",
     "geom:latitude":47.178043,
     "geom:longitude":5.200127,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683563,
         102191581,
@@ -58,7 +72,10 @@
         102066859
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_21242",
+        "eurostat:nuts_2021_id":"21242"
+    },
     "wof:coterminous":[
         1125770857
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"80d3f7bfa5cab85808ce84462ba29084",
+    "wof:geomhash":"514f4bc1db25749503320fb54fbc2d17",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404382291,
-    "wof:lastmodified":1582324694,
+    "wof:lastmodified":1684353036,
     "wof:name":"Echigey",
     "wof:parent_id":102066859,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":288,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

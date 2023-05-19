@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_52400",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ch\u00e2telet-sur-Meuse",
+    "eurostat:nuts_2021_id":"52400",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF24",
+    "eurostat:nuts_2021_level_lau":"52400",
+    "eurostat:population":150,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070332",
     "frgov:id":"BDCSURCO0000000009595352",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.00259,
-    "geom:area_square_m":21438143.122602,
+    "geom:area_square_m":21438143.122601,
     "geom:bbox":"5.60192470532,47.9444558592,5.69751268462,47.9982159388",
     "geom:latitude":47.973762,
     "geom:longitude":5.639256,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683261,
         102191581,
@@ -58,7 +72,10 @@
         102064921
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_52400",
+        "eurostat:nuts_2021_id":"52400"
+    },
     "wof:coterminous":[
         101887225
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"afdcbaf72cfbf5da57421fe2b4d4d941",
+    "wof:geomhash":"a789165bd58996656efd098517901389",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404399929,
-    "wof:lastmodified":1582324158,
+    "wof:lastmodified":1684353248,
     "wof:name":"Le Chatelet-Sur-Meuse",
     "wof:parent_id":102064921,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":150,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_51019",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Aub\u00e9rive",
+    "eurostat:nuts_2021_id":"51019",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF23",
+    "eurostat:nuts_2021_level_lau":"51019",
+    "eurostat:population":238,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067213",
     "frgov:id":"BDCSURCO0000000009586593",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.003412,
-    "geom:area_square_m":27569085.040739,
+    "geom:area_square_m":27569085.04074,
     "geom:bbox":"4.34675754446,49.1719932943,4.47620406093,49.2195068234",
     "geom:latitude":49.197512,
     "geom:longitude":4.411501,
@@ -132,6 +144,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683405,
         102191581,
@@ -142,7 +156,10 @@
         102064983
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_51019",
+        "eurostat:nuts_2021_id":"51019"
+    },
     "wof:coterminous":[
         101878629
     ],
@@ -150,7 +167,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"67c6e6849eb53a216e37aed2fa0896a5",
+    "wof:geomhash":"8dd9f4c24585a53791d86cbea4726f6d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -164,11 +181,13 @@
         }
     ],
     "wof:id":404391885,
-    "wof:lastmodified":1582324019,
+    "wof:lastmodified":1684353155,
     "wof:name":"Auberive",
     "wof:parent_id":102064983,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":238,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

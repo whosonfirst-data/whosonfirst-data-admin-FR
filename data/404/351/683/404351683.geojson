@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_50487",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-James",
+    "eurostat:nuts_2021_id":"50487",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD12",
+    "eurostat:nuts_2021_level_lau":"50487",
+    "eurostat:population":4954,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069425",
     "frgov:id":"BDCSURCO0000000009592128",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.010655,
-    "geom:area_square_m":87274059.964056,
+    "geom:area_square_m":87274059.964055,
     "geom:bbox":"-1.44087776953,48.4560620054,-1.28665186177,48.5858215563",
     "geom:latitude":48.516441,
     "geom:longitude":-1.371751,
@@ -60,6 +72,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683489,
         102191581,
@@ -70,7 +84,10 @@
         102070241
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_50487",
+        "eurostat:nuts_2021_id":"50487"
+    },
     "wof:coterminous":[
         101761727
     ],
@@ -78,7 +95,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"42e5f3fdef9a6cd86e417158e253b46a",
+    "wof:geomhash":"6468958584ddd499bfe9e9910402dfb3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -92,11 +109,13 @@
         }
     ],
     "wof:id":404351683,
-    "wof:lastmodified":1582324959,
+    "wof:lastmodified":1684352641,
     "wof:name":"Saint-James",
     "wof:parent_id":102070241,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":4954,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

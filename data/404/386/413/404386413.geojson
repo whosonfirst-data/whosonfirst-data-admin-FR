@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_72049",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bru\u00e8re-sur-Loir",
+    "eurostat:nuts_2021_id":"72049",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG04",
+    "eurostat:nuts_2021_level_lau":"72049",
+    "eurostat:population":244,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200073112",
     "frgov:id":"BDCSURCO0000000009597530",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001382,
-    "geom:area_square_m":11510282.003334,
+    "geom:area_square_m":11510282.003333,
     "geom:bbox":"0.324184569006,47.6318990068,0.380788645762,47.6762930143",
     "geom:latitude":47.651447,
     "geom:longitude":0.357108,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683279,
         102191581,
@@ -57,7 +71,10 @@
         102067219
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_72049",
+        "eurostat:nuts_2021_id":"72049"
+    },
     "wof:coterminous":[
         1126057319
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"859d0781674a5e48a796a22f2aedf197",
+    "wof:geomhash":"b1c80223cb887f22b846fbfa665af3c9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404386413,
-    "wof:lastmodified":1582325445,
+    "wof:lastmodified":1684353086,
     "wof:name":"La Bruere-Sur-Loir",
     "wof:parent_id":102067219,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":244,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

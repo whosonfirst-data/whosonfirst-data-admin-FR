@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_85034",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bournezeau",
+    "eurostat:nuts_2021_id":"85034",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG05",
+    "eurostat:nuts_2021_level_lau":"85034",
+    "eurostat:population":3373,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248500340",
     "frgov:id":"BDCSURCO0000000009601890",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.007189,
-    "geom:area_square_m":61040161.725871,
+    "geom:area_square_m":61040161.725872,
     "geom:bbox":"-1.21820531731,46.5778045718,-1.05978047548,46.6796915906",
     "geom:latitude":46.629673,
     "geom:longitude":-1.141506,
@@ -123,6 +135,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683409,
         102191581,
@@ -132,7 +146,10 @@
         102064949
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_85034",
+        "eurostat:nuts_2021_id":"85034"
+    },
     "wof:coterminous":[
         101767129
     ],
@@ -140,7 +157,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"08dd7d3f6ef26cba49e57605956804e6",
+    "wof:geomhash":"9cfa108547237e2831231780121f99d4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -153,11 +170,13 @@
         }
     ],
     "wof:id":404360463,
-    "wof:lastmodified":1582325046,
+    "wof:lastmodified":1684352760,
     "wof:name":"Bournezeau",
     "wof:parent_id":102064949,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3373,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

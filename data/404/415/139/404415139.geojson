@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_44063",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"G\u00e9tign\u00e9",
+    "eurostat:nuts_2021_id":"44063",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG01",
+    "eurostat:nuts_2021_level_lau":"44063",
+    "eurostat:population":3669,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067635",
     "frgov:id":"BDCSURCO0000000009600137",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002835,
-    "geom:area_square_m":23871958.569973,
+    "geom:area_square_m":23871958.569972,
     "geom:bbox":"-1.27708961057,47.0534866628,-1.16189767684,47.1004479978",
     "geom:latitude":47.081102,
     "geom:longitude":-1.217401,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683233,
         102191581,
@@ -57,7 +71,10 @@
         102065919
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_44063",
+        "eurostat:nuts_2021_id":"44063"
+    },
     "wof:coterminous":[
         101829629
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7c6472dd85a7f4a1473eb3dd8ab206e8",
+    "wof:geomhash":"1ac28e4d78f2882fc0b57172cabdea43",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404415139,
-    "wof:lastmodified":1582324361,
+    "wof:lastmodified":1684353427,
     "wof:name":"Getigne",
     "wof:parent_id":102065919,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3669,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

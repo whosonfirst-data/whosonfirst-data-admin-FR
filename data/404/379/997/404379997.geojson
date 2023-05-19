@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_04035",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Brunet",
+    "eurostat:nuts_2021_id":"04035",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL01",
+    "eurostat:nuts_2021_level_lau":"04035",
+    "eurostat:population":278,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200034700",
     "frgov:id":"BDCSURCO0000000009611954",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.003231,
-    "geom:area_square_m":28795035.423919,
+    "geom:area_square_m":28795035.423917,
     "geom:bbox":"5.97250098304,43.8604390449,6.07742847574,43.9103530108",
     "geom:latitude":43.885963,
     "geom:longitude":6.033182,
@@ -69,6 +81,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683509,
         102191581,
@@ -78,7 +92,10 @@
         102069687
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_04035",
+        "eurostat:nuts_2021_id":"04035"
+    },
     "wof:coterminous":[
         1126008925
     ],
@@ -86,7 +103,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2da03836699d2b86f9c9638e932cecfe",
+    "wof:geomhash":"16d6ca9dbe8c2254df67738972f9222e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -99,11 +116,13 @@
         }
     ],
     "wof:id":404379997,
-    "wof:lastmodified":1582324521,
+    "wof:lastmodified":1684353011,
     "wof:name":"Brunet",
     "wof:parent_id":102069687,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":278,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

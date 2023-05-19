@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_02218",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Coucy-l\u00e8s-Eppes",
+    "eurostat:nuts_2021_id":"02218",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE21",
+    "eurostat:nuts_2021_level_lau":"02218",
+    "eurostat:population":624,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240200576",
     "frgov:id":"BDCSURCO0000000009584181",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683247,
         102191581,
@@ -58,7 +72,10 @@
         102069807
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_02218",
+        "eurostat:nuts_2021_id":"02218"
+    },
     "wof:coterminous":[
         101902953
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"272a55e6f8d877cdb63ae6cec30f45db",
+    "wof:geomhash":"9f62aaa484819a016019175bf93a6ff7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404386055,
-    "wof:lastmodified":1582325447,
+    "wof:lastmodified":1684353082,
     "wof:name":"Coucy-Les-Eppes",
     "wof:parent_id":102069807,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":624,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

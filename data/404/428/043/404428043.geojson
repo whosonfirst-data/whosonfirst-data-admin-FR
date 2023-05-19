@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_55119",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Cl\u00e9ry-le-Petit",
+    "eurostat:nuts_2021_id":"55119",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF32",
+    "eurostat:nuts_2021_level_lau":"55119",
+    "eurostat:population":186,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066132",
     "frgov:id":"BDCSURCO0000000009585206",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.000572,
-    "geom:area_square_m":4602698.721864,
+    "geom:area_square_m":4602698.721863,
     "geom:bbox":"5.14139229584,49.3453078824,5.1901968376,49.3839442681",
     "geom:latitude":49.365309,
     "geom:longitude":5.174229,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683297,
         102191581,
@@ -58,7 +72,10 @@
         102065583
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_55119",
+        "eurostat:nuts_2021_id":"55119"
+    },
     "wof:coterminous":[
         101878907
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"27b729a4e55cff9f8047c1a63507a58b",
+    "wof:geomhash":"cfbcbdea222865247da89e8a45f6f62c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404428043,
-    "wof:lastmodified":1582325121,
+    "wof:lastmodified":1684353580,
     "wof:name":"Clery-Le-Petit",
     "wof:parent_id":102065583,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":186,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_38546",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Vignieu",
+    "eurostat:nuts_2021_id":"38546",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK24",
+    "eurostat:nuts_2021_level_lau":"38546",
+    "eurostat:population":1015,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068542",
     "frgov:id":"BDCSURCO0000000009605730",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001092,
-    "geom:area_square_m":9442840.8513,
+    "geom:area_square_m":9442840.851301,
     "geom:bbox":"5.39813333954,45.6139161263,5.44718840346,45.6487539498",
     "geom:latitude":45.631255,
     "geom:longitude":5.421086,
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683427,
         102191581,
@@ -139,7 +153,10 @@
         102070275
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_38546",
+        "eurostat:nuts_2021_id":"38546"
+    },
     "wof:coterminous":[
         101893093
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4be334b26a8158f9c1eddbfa8995f689",
+    "wof:geomhash":"64c18dcda3e180c935759feba6677b20",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404365485,
-    "wof:lastmodified":1582324028,
+    "wof:lastmodified":1684352830,
     "wof:name":"Vignieu",
     "wof:parent_id":102070275,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1015,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

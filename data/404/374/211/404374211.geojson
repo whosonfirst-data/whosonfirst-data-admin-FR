@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_32421",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Savignac-Mona",
+    "eurostat:nuts_2021_id":"32421",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ24",
+    "eurostat:nuts_2021_level_lau":"32421",
+    "eurostat:population":138,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243200599",
     "frgov:id":"BDCSURCO0000000009613952",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000769,
-    "geom:area_square_m":6903525.829948,
+    "geom:area_square_m":6903525.829947,
     "geom:bbox":"0.980982810435,43.4717792864,1.03748981921,43.4985931088",
     "geom:latitude":43.485553,
     "geom:longitude":1.010523,
@@ -117,6 +129,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683467,
         102191581,
@@ -127,7 +141,10 @@
         102069077
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_32421",
+        "eurostat:nuts_2021_id":"32421"
+    },
     "wof:coterminous":[
         1125804783
     ],
@@ -135,7 +152,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"1995c63f0bc185550e1e5dd750214e5c",
+    "wof:geomhash":"2a8223c079d6d23b01fb27cb0bb0ac81",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -149,11 +166,13 @@
         }
     ],
     "wof:id":404374211,
-    "wof:lastmodified":1582325390,
+    "wof:lastmodified":1684352939,
     "wof:name":"Savignac-Mona",
     "wof:parent_id":102069077,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":138,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

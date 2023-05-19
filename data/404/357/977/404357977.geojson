@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_16090",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ch\u00e2teauneuf-sur-Charente",
+    "eurostat:nuts_2021_id":"16090",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI31",
+    "eurostat:nuts_2021_level_lau":"16090",
+    "eurostat:population":3536,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070514",
     "frgov:id":"BDCSURCO0000000009606171",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002779,
-    "geom:area_square_m":24041834.307529,
+    "geom:area_square_m":24041834.307528,
     "geom:bbox":"-0.106306704419,45.5725684079,-0.00508624779885,45.6209875953",
     "geom:latitude":45.596254,
     "geom:longitude":-0.051514,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683437,
         102191581,
@@ -58,7 +72,10 @@
         102066481
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_16090",
+        "eurostat:nuts_2021_id":"16090"
+    },
     "wof:coterminous":[
         101768061
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"69d81407ec0ba16811cb41f70b952b3c",
+    "wof:geomhash":"07b7f6b39c9e320cbe4625192b68863e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404357977,
-    "wof:lastmodified":1582324893,
+    "wof:lastmodified":1684352725,
     "wof:name":"Chateauneuf-Sur-Charente",
     "wof:parent_id":102066481,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3536,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

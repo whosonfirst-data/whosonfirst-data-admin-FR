@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_80307",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Feuill\u00e8res",
+    "eurostat:nuts_2021_id":"80307",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE23",
+    "eurostat:nuts_2021_level_lau":"80307",
+    "eurostat:population":147,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200037059",
     "frgov:id":"BDCSURCO0000000009582263",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000746,
-    "geom:area_square_m":5933608.271023,
+    "geom:area_square_m":5933608.271024,
     "geom:bbox":"2.82419050453,49.9313802332,2.87644489573,49.9522732262",
     "geom:latitude":49.941774,
     "geom:longitude":2.851531,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683363,
         102191581,
@@ -58,7 +72,10 @@
         102070349
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_80307",
+        "eurostat:nuts_2021_id":"80307"
+    },
     "wof:coterminous":[
         1125934829
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"75aef3abad899f30342c303f1b1d116d",
+    "wof:geomhash":"3a587a7eee472e5a08894ecfe74e3ffc",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404400293,
-    "wof:lastmodified":1582324509,
+    "wof:lastmodified":1684353253,
     "wof:name":"Feuilleres",
     "wof:parent_id":102070349,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":147,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

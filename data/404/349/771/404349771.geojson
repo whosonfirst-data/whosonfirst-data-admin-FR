@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_19228",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Pantal\u00e9on-de-Lapleau",
+    "eurostat:nuts_2021_id":"19228",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI21",
+    "eurostat:nuts_2021_level_lau":"19228",
+    "eurostat:population":67,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066744",
     "frgov:id":"BDCSURCO0000000009607316",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000977,
-    "geom:area_square_m":8492604.237306,
+    "geom:area_square_m":8492604.237307,
     "geom:bbox":"2.17710940924,45.2999804926,2.22972722298,45.3395487217",
     "geom:latitude":45.320005,
     "geom:longitude":2.202249,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683209,
         102191581,
@@ -58,7 +72,10 @@
         102066665
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_19228",
+        "eurostat:nuts_2021_id":"19228"
+    },
     "wof:coterminous":[
         1125816567
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"cd22a7b4ce4583d7f0cf1323b778921f",
+    "wof:geomhash":"474407d67cc87ed606c05bf3230946ec",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404349771,
-    "wof:lastmodified":1582324707,
+    "wof:lastmodified":1684352613,
     "wof:name":"Saint-Pantaleon-De-Lapleau",
     "wof:parent_id":102066665,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":67,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

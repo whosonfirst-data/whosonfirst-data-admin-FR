@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_24496",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Romain-et-Saint-Cl\u00e9ment",
+    "eurostat:nuts_2021_id":"24496",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI11",
+    "eurostat:nuts_2021_level_lau":"24496",
+    "eurostat:population":328,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242400752",
     "frgov:id":"BDCSURCO0000000009606879",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683331,
         102191581,
@@ -58,7 +72,10 @@
         102071123
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_24496",
+        "eurostat:nuts_2021_id":"24496"
+    },
     "wof:coterminous":[
         1125976423
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9c888116369cb040d857ca8f0c842b68",
+    "wof:geomhash":"ac1dbabb8efa3f47a746e2edf04d8281",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404364363,
-    "wof:lastmodified":1582324240,
+    "wof:lastmodified":1684352815,
     "wof:name":"Saint-Romain-Et-Saint-Clement",
     "wof:parent_id":102071123,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":328,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_19074",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"\u00c9glise-aux-Bois",
+    "eurostat:nuts_2021_id":"19074",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI21",
+    "eurostat:nuts_2021_level_lau":"19074",
+    "eurostat:population":55,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066645",
     "frgov:id":"BDCSURCO0000000009605854",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00189,
-    "geom:area_square_m":16337384.436601,
+    "geom:area_square_m":16337384.4366,
     "geom:bbox":"1.76379702675,45.6329965237,1.82643658895,45.6826630881",
     "geom:latitude":45.657725,
     "geom:longitude":1.796473,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683209,
         102191581,
@@ -56,7 +70,10 @@
         102068747
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_19074",
+        "eurostat:nuts_2021_id":"19074"
+    },
     "wof:coterminous":[
         1360676587
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"066194bf65a935c800fb136b6c7a2ac1",
+    "wof:geomhash":"7cbf763b6713770918bffa62aadcdbaf",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404388745,
-    "wof:lastmodified":1582325491,
+    "wof:lastmodified":1684353113,
     "wof:name":"L'Eglise-Aux-Bois",
     "wof:parent_id":102068747,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":55,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

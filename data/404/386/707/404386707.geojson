@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_62205",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Campagne-l\u00e8s-Wardrecques",
+    "eurostat:nuts_2021_id":"62205",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE1",
+    "eurostat:nuts_2021_level_3":"FRE12",
+    "eurostat:nuts_2021_level_lau":"62205",
+    "eurostat:population":1243,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069037",
     "frgov:id":"BDCSURCO0000000009580516",
     "frgov:insee_arr":"5",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.0006,
-    "geom:area_square_m":4693990.907936,
+    "geom:area_square_m":4693990.907935,
     "geom:bbox":"2.3125804451,50.6944635486,2.35564790492,50.7306704542",
     "geom:latitude":50.713563,
     "geom:longitude":2.332864,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683255,
         102191581,
@@ -58,7 +72,10 @@
         102071791
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_62205",
+        "eurostat:nuts_2021_id":"62205"
+    },
     "wof:coterminous":[
         1126041045
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"68c02b55cf8472f310041dfaf1b87721",
+    "wof:geomhash":"b3252d57c572dcddd8ab3c178800d32f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404386707,
-    "wof:lastmodified":1582325444,
+    "wof:lastmodified":1684353089,
     "wof:name":"Campagne-Les-Wardrecques",
     "wof:parent_id":102071791,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1243,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

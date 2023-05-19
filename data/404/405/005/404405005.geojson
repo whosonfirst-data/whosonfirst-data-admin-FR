@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_54364",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"M\u00e9r\u00e9ville",
+    "eurostat:nuts_2021_id":"54364",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF31",
+    "eurostat:nuts_2021_level_lau":"54364",
+    "eurostat:population":1345,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"245400171",
     "frgov:id":"BDCSURCO0000000009590961",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683343,
         102191581,
@@ -58,7 +72,10 @@
         102070321
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_54364",
+        "eurostat:nuts_2021_id":"54364"
+    },
     "wof:coterminous":[
         101762801
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"cebaff207ac40086a1e7952f96f90c6c",
+    "wof:geomhash":"7af3ff2f44d9b73a18aad7c3259d4b03",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404405005,
-    "wof:lastmodified":1582325265,
+    "wof:lastmodified":1684353306,
     "wof:name":"Mereville",
     "wof:parent_id":102070321,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1345,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

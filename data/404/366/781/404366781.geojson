@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_07274",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Maurice-en-Chalencon",
+    "eurostat:nuts_2021_id":"07274",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK22",
+    "eurostat:nuts_2021_level_lau":"07274",
+    "eurostat:population":220,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071413",
     "frgov:id":"BDCSURCO0000000009608714",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.00088,
-    "geom:area_square_m":7712145.041523,
+    "geom:area_square_m":7712145.041522,
     "geom:bbox":"4.56011644611,44.837380951,4.60195319152,44.8722911891",
     "geom:latitude":44.854729,
     "geom:longitude":4.582282,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683421,
         102191581,
@@ -56,7 +70,10 @@
         102069533
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_07274",
+        "eurostat:nuts_2021_id":"07274"
+    },
     "wof:coterminous":[
         1360674485
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2c5b076a9437a5f48da98054e78382cc",
+    "wof:geomhash":"de7cd73530f637be86c0498867ec2c80",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404366781,
-    "wof:lastmodified":1582324840,
+    "wof:lastmodified":1684352849,
     "wof:name":"Saint-Maurice-En-Chalencon",
     "wof:parent_id":102069533,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":220,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

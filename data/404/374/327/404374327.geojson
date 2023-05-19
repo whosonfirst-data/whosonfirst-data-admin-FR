@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_35318",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Thual",
+    "eurostat:nuts_2021_id":"35318",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH03",
+    "eurostat:nuts_2021_level_lau":"35318",
+    "eurostat:population":915,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243500733",
     "frgov:id":"BDCSURCO0000000009593050",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BRETAGNE",
     "frgov:statut":"Commune simple",
     "geom:area":0.0014,
-    "geom:area_square_m":11510962.604173,
+    "geom:area_square_m":11510962.604174,
     "geom:bbox":"-1.96689732172,48.3187176356,-1.9021175292,48.3553547918",
     "geom:latitude":48.335544,
     "geom:longitude":-1.931774,
@@ -132,6 +144,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683461,
         102191581,
@@ -141,7 +155,10 @@
         102071163
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_35318",
+        "eurostat:nuts_2021_id":"35318"
+    },
     "wof:coterminous":[
         1125938987
     ],
@@ -149,7 +166,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"1c208b39f17b5bd04e66707eb9bfa605",
+    "wof:geomhash":"c4c03a55c535cc8152851f4395195d99",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -162,11 +179,13 @@
         }
     ],
     "wof:id":404374327,
-    "wof:lastmodified":1582325403,
+    "wof:lastmodified":1684352940,
     "wof:name":"Saint-Thual",
     "wof:parent_id":102071163,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":915,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

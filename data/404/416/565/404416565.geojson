@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_51486",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Hilaire-le-Grand",
+    "eurostat:nuts_2021_id":"51486",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF23",
+    "eurostat:nuts_2021_level_lau":"51486",
+    "eurostat:population":363,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200042620",
     "frgov:id":"BDCSURCO0000000009587079",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683405,
         102191581,
@@ -58,7 +72,10 @@
         102069275
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_51486",
+        "eurostat:nuts_2021_id":"51486"
+    },
     "wof:coterminous":[
         101878651
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a6a8d0a6ab7e349c0bb4c1d84b9a3d07",
+    "wof:geomhash":"a570f1d0860f343fe94b38af657da9cc",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404416565,
-    "wof:lastmodified":1582325188,
+    "wof:lastmodified":1684353443,
     "wof:name":"Saint-Hilaire-Le-Grand",
     "wof:parent_id":102069275,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":363,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

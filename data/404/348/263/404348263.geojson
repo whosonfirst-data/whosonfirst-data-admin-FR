@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_79312",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"S\u00e9lign\u00e9",
+    "eurostat:nuts_2021_id":"79312",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI33",
+    "eurostat:nuts_2021_level_lau":"79312",
+    "eurostat:population":115,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069755",
     "frgov:id":"BDCSURCO0000000009603611",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001158,
-    "geom:area_square_m":9922072.324009,
+    "geom:area_square_m":9922072.324008,
     "geom:bbox":"-0.310138660705,46.1281830146,-0.233428775009,46.1522636191",
     "geom:latitude":46.13968,
     "geom:longitude":-0.270162,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683163,
         102191581,
@@ -58,7 +72,10 @@
         102065131
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_79312",
+        "eurostat:nuts_2021_id":"79312"
+    },
     "wof:coterminous":[
         101892997
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"990a0107b3e47f27589ecf363a885d59",
+    "wof:geomhash":"ba4dd74e21fdece31918f03d3709bf4b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404348263,
-    "wof:lastmodified":1582324591,
+    "wof:lastmodified":1684352592,
     "wof:name":"Seligne",
     "wof:parent_id":102065131,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":115,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

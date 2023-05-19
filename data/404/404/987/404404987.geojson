@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_55288",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"L\u00e9rouville",
+    "eurostat:nuts_2021_id":"55288",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF32",
+    "eurostat:nuts_2021_level_lau":"55288",
+    "eurostat:population":1433,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066157",
     "frgov:id":"BDCSURCO0000000009590074",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.001754,
-    "geom:area_square_m":14291378.025231,
+    "geom:area_square_m":14291378.025229,
     "geom:bbox":"5.50726942249,48.7531766421,5.56878996499,48.8011293881",
     "geom:latitude":48.778097,
     "geom:longitude":5.535641,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683297,
         102191581,
@@ -58,7 +72,10 @@
         102065109
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_55288",
+        "eurostat:nuts_2021_id":"55288"
+    },
     "wof:coterminous":[
         101763987
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5f2f5e5f915986459bb564742fb9d1c2",
+    "wof:geomhash":"536ed3f5541b91d3da29fca03748c810",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404404987,
-    "wof:lastmodified":1582325318,
+    "wof:lastmodified":1684353306,
     "wof:name":"Lerouville",
     "wof:parent_id":102065109,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1433,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

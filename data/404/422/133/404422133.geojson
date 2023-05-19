@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_15069",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ferri\u00e8res-Saint-Mary",
+    "eurostat:nuts_2021_id":"15069",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK12",
+    "eurostat:nuts_2021_level_lau":"15069",
+    "eurostat:population":245,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066637",
     "frgov:id":"BDCSURCO0000000009607932",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683517,
         102191581,
@@ -58,7 +72,10 @@
         102065745
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_15069",
+        "eurostat:nuts_2021_id":"15069"
+    },
     "wof:coterminous":[
         1126025657
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"24a2e0ced74a3b8d376808e08a21d786",
+    "wof:geomhash":"df7871d20ae3d4a1870bb39167bb2c82",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404422133,
-    "wof:lastmodified":1582324281,
+    "wof:lastmodified":1684353511,
     "wof:name":"Ferrieres-Saint-Mary",
     "wof:parent_id":102065745,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":245,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

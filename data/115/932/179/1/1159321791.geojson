@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_49328",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saumur",
+    "eurostat:nuts_2021_id":"49328",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG02",
+    "eurostat:nuts_2021_level_lau":"49328",
+    "eurostat:population":26734,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071876",
     "frgov:id":"BDCSURCO0000000009599586",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Sous-pr\u00e9fecture",
     "geom:area":0.007919,
-    "geom:area_square_m":66443751.739817,
+    "geom:area_square_m":66443751.739818,
     "geom:bbox":"-0.159938,47.212155,-0.007864,47.316669",
     "geom:latitude":47.267436,
     "geom:longitude":-0.083013,
@@ -177,23 +189,29 @@
     "reversegeo:longitude":-0.084182,
     "src:geom":"frgov",
     "src:geom_alt":[],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85683327,
         102191581,
         85633147,
-        102072523,
         404228103,
         404227423,
-        85683327
+        102072523
     ],
     "wof:breaches":[],
     "wof:concordance":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_49328",
+        "eurostat:nuts_2021_id":"49328"
+    },
     "wof:coterminous":[
         101765869,
         102072523
     ],
     "wof:country":"FR",
     "wof:created":1526508799,
-    "wof:geomhash":"029e5484f4c59e7f9750b986008e0415",
+    "wof:geomhash":"e0c35b69807e771a5d61c8be703f2182",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -206,11 +224,13 @@
         }
     ],
     "wof:id":1159321791,
-    "wof:lastmodified":1608039594,
+    "wof:lastmodified":1684353592,
     "wof:name":"Saumur",
     "wof:parent_id":102072523,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Sous-pr\u00e9fecture",
+    "wof:population":26734,
+    "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded":[],
     "wof:superseded_by":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_80308",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Feuqui\u00e8res-en-Vimeu",
+    "eurostat:nuts_2021_id":"80308",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE23",
+    "eurostat:nuts_2021_level_lau":"80308",
+    "eurostat:population":2570,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070944",
     "frgov:id":"BDCSURCO0000000009582031",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000999,
-    "geom:area_square_m":7929221.578,
+    "geom:area_square_m":7929221.578001,
     "geom:bbox":"1.57792242249,50.045172109,1.62741010925,50.0740419651",
     "geom:latitude":50.058654,
     "geom:longitude":1.603052,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683363,
         102191581,
@@ -58,7 +72,10 @@
         102069647
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_80308",
+        "eurostat:nuts_2021_id":"80308"
+    },
     "wof:coterminous":[
         101840365
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a898d19c8b46379088752c95f8eba13d",
+    "wof:geomhash":"427659f83253affa71d9859662df5405",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404396089,
-    "wof:lastmodified":1582324075,
+    "wof:lastmodified":1684353203,
     "wof:name":"Feuquieres-En-Vimeu",
     "wof:parent_id":102069647,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2570,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

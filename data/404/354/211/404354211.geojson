@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_22044",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Co\u00ebtmieux",
+    "eurostat:nuts_2021_id":"22044",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH01",
+    "eurostat:nuts_2021_level_lau":"22044",
+    "eurostat:population":1772,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069391",
     "frgov:id":"BDCSURCO0000000009591734",
     "frgov:insee_arr":"4",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683515,
         102191581,
@@ -57,7 +71,10 @@
         102067737
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_22044",
+        "eurostat:nuts_2021_id":"22044"
+    },
     "wof:coterminous":[
         101761531
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ae261c798be71893c4b8f1c9989321fc",
+    "wof:geomhash":"0c5a8d0884f872a31f5e5f3215173ba6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404354211,
-    "wof:lastmodified":1582324085,
+    "wof:lastmodified":1684352674,
     "wof:name":"Coetmieux",
     "wof:parent_id":102067737,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1772,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

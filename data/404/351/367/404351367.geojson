@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_53049",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ch\u00e2lons-du-Maine",
+    "eurostat:nuts_2021_id":"53049",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG03",
+    "eurostat:nuts_2021_level_lau":"53049",
+    "eurostat:population":708,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"245300330",
     "frgov:id":"BDCSURCO0000000009594574",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001192,
-    "geom:area_square_m":9830058.48286,
+    "geom:area_square_m":9830058.482861,
     "geom:bbox":"-0.684107066509,48.1340282764,-0.61252267213,48.1740857319",
     "geom:latitude":48.159561,
     "geom:longitude":-0.644783,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683401,
         102191581,
@@ -57,7 +71,10 @@
         102064557
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_53049",
+        "eurostat:nuts_2021_id":"53049"
+    },
     "wof:coterminous":[
         101883325
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"704ef9363b49cd3c66a61db1f3d70e77",
+    "wof:geomhash":"f0839551fdfbb10bff7f254770ee7946",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404351367,
-    "wof:lastmodified":1582324956,
+    "wof:lastmodified":1684352636,
     "wof:name":"Chalons-Du-Maine",
     "wof:parent_id":102064557,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":708,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

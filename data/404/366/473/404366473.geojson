@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_48140",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Ch\u00e9ly-d'Apcher",
+    "eurostat:nuts_2021_id":"48140",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ14",
+    "eurostat:nuts_2021_level_lau":"48140",
+    "eurostat:population":4164,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069185",
     "frgov:id":"BDCSURCO0000000009609206",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003204,
-    "geom:area_square_m":28104172.221555,
+    "geom:area_square_m":28104172.221553,
     "geom:bbox":"3.22700361642,44.7821716452,3.3299851555,44.8466808698",
     "geom:latitude":44.812664,
     "geom:longitude":3.275378,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683453,
         102191581,
@@ -58,7 +72,10 @@
         102068027
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_48140",
+        "eurostat:nuts_2021_id":"48140"
+    },
     "wof:coterminous":[
         101771545
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"921ad61aaa3489315e23a9e53c8b403a",
+    "wof:geomhash":"13b24e9cf3768e2da63fdf71ea2235bf",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404366473,
-    "wof:lastmodified":1582324837,
+    "wof:lastmodified":1684352844,
     "wof:name":"Saint-Chely-D'Apcher",
     "wof:parent_id":102068027,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":4164,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

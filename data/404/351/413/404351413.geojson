@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_50076",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Br\u00e9hal",
+    "eurostat:nuts_2021_id":"50076",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD12",
+    "eurostat:nuts_2021_level_lau":"50076",
+    "eurostat:population":3410,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200042604",
     "frgov:id":"BDCSURCO0000000009588909",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001613,
-    "geom:area_square_m":13115790.42743,
+    "geom:area_square_m":13115790.427429,
     "geom:bbox":"-1.57113088969,48.8831233117,-1.48519316225,48.9124636955",
     "geom:latitude":48.897196,
     "geom:longitude":-1.531194,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683489,
         102191581,
@@ -58,7 +72,10 @@
         102065369
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_50076",
+        "eurostat:nuts_2021_id":"50076"
+    },
     "wof:coterminous":[
         101760403
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e0fc1704e7cd454c6216f410fdda0140",
+    "wof:geomhash":"91bd8daf670d4a2e4a410edabec147de",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404351413,
-    "wof:lastmodified":1582324947,
+    "wof:lastmodified":1684352637,
     "wof:name":"Brehal",
     "wof:parent_id":102065369,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3410,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

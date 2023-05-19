@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_07229",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Didier-sous-Aubenas",
+    "eurostat:nuts_2021_id":"07229",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK22",
+    "eurostat:nuts_2021_level_lau":"07229",
+    "eurostat:population":961,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200073245",
     "frgov:id":"BDCSURCO0000000009609652",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683421,
         102191581,
@@ -58,7 +72,10 @@
         102064627
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_07229",
+        "eurostat:nuts_2021_id":"07229"
+    },
     "wof:coterminous":[
         1126002945
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"768b513c16963148c065e9a3fcd8dd11",
+    "wof:geomhash":"b1f21d0a647c77cafda4b2590661dc0f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404369255,
-    "wof:lastmodified":1582324920,
+    "wof:lastmodified":1684352882,
     "wof:name":"Saint-Didier-Sous-Aubenas",
     "wof:parent_id":102064627,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":961,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

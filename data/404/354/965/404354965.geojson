@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_54282",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Jopp\u00e9court",
+    "eurostat:nuts_2021_id":"54282",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF31",
+    "eurostat:nuts_2021_level_lau":"54282",
+    "eurostat:population":160,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070290",
     "frgov:id":"BDCSURCO0000000009584811",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683343,
         102191581,
@@ -58,7 +72,10 @@
         102064499
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_54282",
+        "eurostat:nuts_2021_id":"54282"
+    },
     "wof:coterminous":[
         1126007661
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"cdaac0a863f521b8d1219656b3f8bf28",
+    "wof:geomhash":"568b5b12f4685c2e574a6e815d5b2e38",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404354965,
-    "wof:lastmodified":1582324083,
+    "wof:lastmodified":1684352685,
     "wof:name":"Joppecourt",
     "wof:parent_id":102064499,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":160,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

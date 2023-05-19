@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_09237",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Puch",
+    "eurostat:nuts_2021_id":"09237",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ21",
+    "eurostat:nuts_2021_level_lau":"09237",
+    "eurostat:population":29,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066363",
     "frgov:id":"BDCSURCO0000000009616440",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000312,
-    "geom:area_square_m":2835893.614703,
+    "geom:area_square_m":2835893.614704,
     "geom:bbox":"2.08757497878,42.7115990241,2.11380591461,42.7317145875",
     "geom:latitude":42.721088,
     "geom:longitude":2.099512,
@@ -123,6 +135,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683335,
         102191581,
@@ -133,7 +147,10 @@
         102066595
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_09237",
+        "eurostat:nuts_2021_id":"09237"
+    },
     "wof:coterminous":[
         1125774503
     ],
@@ -141,7 +158,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d902e29227a3c30918e2393b9a8e39dd",
+    "wof:geomhash":"c4db201fda08565b34374d1f6f974a44",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -155,11 +172,13 @@
         }
     ],
     "wof:id":404426823,
-    "wof:lastmodified":1582325088,
+    "wof:lastmodified":1684353566,
     "wof:name":"Le Puch",
     "wof:parent_id":102066595,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":29,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

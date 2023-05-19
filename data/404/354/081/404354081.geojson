@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_70283",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Haut-du-Them-Ch\u00e2teau-Lambert",
+    "eurostat:nuts_2021_id":"70283",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC23",
+    "eurostat:nuts_2021_level_lau":"70283",
+    "eurostat:population":434,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247000854",
     "frgov:id":"BDCSURCO0000000009595966",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003041,
-    "geom:area_square_m":25239881.720734,
+    "geom:area_square_m":25239881.720733,
     "geom:bbox":"6.69608592086,47.8144787524,6.79254991679,47.8655397947",
     "geom:latitude":47.837393,
     "geom:longitude":6.746273,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683559,
         102191581,
@@ -56,7 +70,10 @@
         102067217
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_70283",
+        "eurostat:nuts_2021_id":"70283"
+    },
     "wof:coterminous":[
         1360673139
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d3d7e768a3f4cbc3044f4b5b7badfae1",
+    "wof:geomhash":"06d2b9961d035da2de12e3016326eebb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404354081,
-    "wof:lastmodified":1582324096,
+    "wof:lastmodified":1684352673,
     "wof:name":"Haut-Du-Them-Chateau-Lambert",
     "wof:parent_id":102067217,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":434,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

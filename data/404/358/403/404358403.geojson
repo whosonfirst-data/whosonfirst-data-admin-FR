@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_88095",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ch\u00e2tenois",
+    "eurostat:nuts_2021_id":"88095",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF34",
+    "eurostat:nuts_2021_level_lau":"88095",
+    "eurostat:population":1706,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068559",
     "frgov:id":"BDCSURCO0000000009593197",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.00214,
-    "geom:area_square_m":17602103.900458,
+    "geom:area_square_m":17602103.900459,
     "geom:bbox":"5.78094122177,48.2884454167,5.86926908881,48.3354031511",
     "geom:latitude":48.309206,
     "geom:longitude":5.826465,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683223,
         102191581,
@@ -58,7 +72,10 @@
         102065561
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_88095",
+        "eurostat:nuts_2021_id":"88095"
+    },
     "wof:coterminous":[
         101764807
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"16aee3efdfc184f277e1be4fe953e665",
+    "wof:geomhash":"e66c9f51b9446c3e18fb75b4ff746245",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404358403,
-    "wof:lastmodified":1582324983,
+    "wof:lastmodified":1684352731,
     "wof:name":"Chatenois",
     "wof:parent_id":102065561,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1706,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

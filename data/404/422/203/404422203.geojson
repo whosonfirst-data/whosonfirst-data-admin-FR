@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_38386",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Geoire-en-Valdaine",
+    "eurostat:nuts_2021_id":"38386",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK24",
+    "eurostat:nuts_2021_level_lau":"38386",
+    "eurostat:population":2399,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243800984",
     "frgov:id":"BDCSURCO0000000009606498",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001926,
-    "geom:area_square_m":16699897.599739,
+    "geom:area_square_m":16699897.59974,
     "geom:bbox":"5.59832700022,45.4360165551,5.66870345734,45.4895368985",
     "geom:latitude":45.460859,
     "geom:longitude":5.635843,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683427,
         102191581,
@@ -58,7 +72,10 @@
         102069345
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_38386",
+        "eurostat:nuts_2021_id":"38386"
+    },
     "wof:coterminous":[
         101769207
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3d1f3582e650e2f20296057b204a701c",
+    "wof:geomhash":"28c90be7e2ab440835a95e339bb85238",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404422203,
-    "wof:lastmodified":1582324285,
+    "wof:lastmodified":1684353512,
     "wof:name":"Saint-Geoire-En-Valdaine",
     "wof:parent_id":102069345,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2399,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

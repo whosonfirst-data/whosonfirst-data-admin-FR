@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_80269",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"\u00c9paumesnil",
+    "eurostat:nuts_2021_id":"80269",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE23",
+    "eurostat:nuts_2021_level_lau":"80269",
+    "eurostat:population":133,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071181",
     "frgov:id":"BDCSURCO0000000009582527",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000596,
-    "geom:area_square_m":4746677.503151,
+    "geom:area_square_m":4746677.503152,
     "geom:bbox":"1.83032462466,49.9001929325,1.87835550092,49.9243394236",
     "geom:latitude":49.913957,
     "geom:longitude":1.855877,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683363,
         102191581,
@@ -58,7 +72,10 @@
         102070113
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_80269",
+        "eurostat:nuts_2021_id":"80269"
+    },
     "wof:coterminous":[
         1125900979
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"422a59667540db901cc43085f3a5ab81",
+    "wof:geomhash":"e9d5173970cb9df0b0c40777c0229318",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404409581,
-    "wof:lastmodified":1582324477,
+    "wof:lastmodified":1684353362,
     "wof:name":"Epaumesnil",
     "wof:parent_id":102070113,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":133,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

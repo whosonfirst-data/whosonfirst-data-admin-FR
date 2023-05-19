@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_17312",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Bonnet-sur-Gironde",
+    "eurostat:nuts_2021_id":"17312",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI32",
+    "eurostat:nuts_2021_level_lau":"17312",
+    "eurostat:population":825,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041523",
     "frgov:id":"BDCSURCO0000000009607171",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003576,
-    "geom:area_square_m":31081813.726788,
+    "geom:area_square_m":31081813.726786,
     "geom:bbox":"-0.708224528889,45.3146845873,-0.593899386814,45.3709161709",
     "geom:latitude":45.34039,
     "geom:longitude":-0.645349,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683275,
         102191581,
@@ -58,7 +72,10 @@
         102067181
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_17312",
+        "eurostat:nuts_2021_id":"17312"
+    },
     "wof:coterminous":[
         1125800693
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"89320384056a4972f526be192ee850be",
+    "wof:geomhash":"c74eb1b7872a4adcde3fdbe22004f6ad",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404417519,
-    "wof:lastmodified":1582325133,
+    "wof:lastmodified":1684353455,
     "wof:name":"Saint-Bonnet-Sur-Gironde",
     "wof:parent_id":102067181,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":825,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

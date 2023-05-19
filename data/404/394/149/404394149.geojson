@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_88401",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rouvres-la-Ch\u00e9tive",
+    "eurostat:nuts_2021_id":"88401",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF34",
+    "eurostat:nuts_2021_level_lau":"88401",
+    "eurostat:population":450,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068559",
     "frgov:id":"BDCSURCO0000000009593590",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.001378,
-    "geom:area_square_m":11337777.823462,
+    "geom:area_square_m":11337777.823464,
     "geom:bbox":"5.74924935983,48.2781776946,5.80733067123,48.3312689454",
     "geom:latitude":48.304408,
     "geom:longitude":5.776831,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683223,
         102191581,
@@ -58,7 +72,10 @@
         102065561
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_88401",
+        "eurostat:nuts_2021_id":"88401"
+    },
     "wof:coterminous":[
         101884145
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3719fa793519c0b5f012d4e83a71eb1e",
+    "wof:geomhash":"801de27f3405fa6f8339b4850449d096",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404394149,
-    "wof:lastmodified":1582325039,
+    "wof:lastmodified":1684353181,
     "wof:name":"Rouvres-La-Chetive",
     "wof:parent_id":102065561,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":450,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

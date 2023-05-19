@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_01026",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"B\u00e2g\u00e9-le-Ch\u00e2tel",
+    "eurostat:nuts_2021_id":"01026",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK21",
+    "eurostat:nuts_2021_level_lau":"01026",
+    "eurostat:population":923,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071371",
     "frgov:id":"BDCSURCO0000000009602810",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683153,
         102191581,
@@ -58,7 +72,10 @@
         102064537
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_01026",
+        "eurostat:nuts_2021_id":"01026"
+    },
     "wof:coterminous":[
         1125891785
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b932607bd4017c5dee1fdbb088e9ec40",
+    "wof:geomhash":"7d7ff2d5a3257bfa5176fcb419cd75b7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404386377,
-    "wof:lastmodified":1582325449,
+    "wof:lastmodified":1684353086,
     "wof:name":"Bage-Le-Chatel",
     "wof:parent_id":102064537,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":923,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

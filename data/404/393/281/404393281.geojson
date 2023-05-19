@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_34231",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Romigui\u00e8res",
+    "eurostat:nuts_2021_id":"34231",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ13",
+    "eurostat:nuts_2021_level_lau":"34231",
+    "eurostat:population":23,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200017341",
     "frgov:id":"BDCSURCO0000000009612467",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683419,
         102191581,
@@ -58,7 +72,10 @@
         102067259
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_34231",
+        "eurostat:nuts_2021_id":"34231"
+    },
     "wof:coterminous":[
         1126002875
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7415ba3d6da2eff37a8ec79c21c3c9ca",
+    "wof:geomhash":"f3aba814b85211e154bc55dd88a60263",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404393281,
-    "wof:lastmodified":1582325010,
+    "wof:lastmodified":1684353171,
     "wof:name":"Romiguieres",
     "wof:parent_id":102067259,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":23,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

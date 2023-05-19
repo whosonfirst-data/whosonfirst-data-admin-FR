@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_33090",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Can\u00e9jan",
+    "eurostat:nuts_2021_id":"33090",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI12",
+    "eurostat:nuts_2021_level_lau":"33090",
+    "eurostat:population":5539,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243301165",
     "frgov:id":"BDCSURCO0000000009609346",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001379,
-    "geom:area_square_m":12110476.51964,
+    "geom:area_square_m":12110476.519639,
     "geom:bbox":"-0.687342440772,44.7358791994,-0.630418416727,44.7785308215",
     "geom:latitude":44.759943,
     "geom:longitude":-0.657428,
@@ -120,6 +132,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683243,
         102191581,
@@ -130,7 +144,10 @@
         102071749
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_33090",
+        "eurostat:nuts_2021_id":"33090"
+    },
     "wof:coterminous":[
         101749341
     ],
@@ -138,7 +155,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6ada0fa6095c8b0fe4081ec0ecf1c5f9",
+    "wof:geomhash":"85965c998559b5a08fc6f442633ad39a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -152,11 +169,13 @@
         }
     ],
     "wof:id":404398969,
-    "wof:lastmodified":1582324114,
+    "wof:lastmodified":1684353238,
     "wof:name":"Canejan",
     "wof:parent_id":102071749,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":5539,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

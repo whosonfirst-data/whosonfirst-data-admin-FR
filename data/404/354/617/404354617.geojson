@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_35263",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Coulomb",
+    "eurostat:nuts_2021_id":"35263",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH03",
+    "eurostat:nuts_2021_level_lau":"35263",
+    "eurostat:population":2707,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243500782",
     "frgov:id":"BDCSURCO0000000009590828",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BRETAGNE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002204,
-    "geom:area_square_m":17991575.362954,
+    "geom:area_square_m":17991575.362953,
     "geom:bbox":"-1.96421169996,48.6586238227,-1.88294160763,48.7026091668",
     "geom:latitude":48.677356,
     "geom:longitude":-1.921183,
@@ -132,6 +144,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683461,
         102191581,
@@ -141,7 +155,10 @@
         102065191
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_35263",
+        "eurostat:nuts_2021_id":"35263"
+    },
     "wof:coterminous":[
         101759781
     ],
@@ -149,7 +166,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"1ad482d5483823c696c800b708cdc92f",
+    "wof:geomhash":"1ddb6ff306c187bbee70e8b9a9c36fb5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -162,11 +179,13 @@
         }
     ],
     "wof:id":404354617,
-    "wof:lastmodified":1582324085,
+    "wof:lastmodified":1684352680,
     "wof:name":"Saint-Coulomb",
     "wof:parent_id":102065191,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2707,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_01344",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Denis-l\u00e8s-Bourg",
+    "eurostat:nuts_2021_id":"01344",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK21",
+    "eurostat:nuts_2021_level_lau":"01344",
+    "eurostat:population":5747,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071751",
     "frgov:id":"BDCSURCO0000000009603228",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001473,
-    "geom:area_square_m":12606527.622668,
+    "geom:area_square_m":12606527.622669,
     "geom:bbox":"5.15288319172,46.1874509301,5.21215170084,46.23160199",
     "geom:latitude":46.211101,
     "geom:longitude":5.184565,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683153,
         102191581,
@@ -58,7 +72,10 @@
         102071251
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_01344",
+        "eurostat:nuts_2021_id":"01344"
+    },
     "wof:coterminous":[
         101829107
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d4d8586ab672b21fb96da0f49d1835c1",
+    "wof:geomhash":"0f8081277aa9633df3ac91ea13a5d1e2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404353263,
-    "wof:lastmodified":1582324140,
+    "wof:lastmodified":1684352661,
     "wof:name":"Saint-Denis-Les-Bourg",
     "wof:parent_id":102071251,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":5747,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

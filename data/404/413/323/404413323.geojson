@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_43195",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Ilpize",
+    "eurostat:nuts_2021_id":"43195",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK13",
+    "eurostat:nuts_2021_level_lau":"43195",
+    "eurostat:population":189,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200073393",
     "frgov:id":"BDCSURCO0000000009607712",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001348,
-    "geom:area_square_m":11743250.487319,
+    "geom:area_square_m":11743250.487317,
     "geom:bbox":"3.38537642862,45.1757510377,3.42990526749,45.230053448",
     "geom:latitude":45.199739,
     "geom:longitude":3.406301,
@@ -135,6 +147,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683413,
         102191581,
@@ -145,7 +159,10 @@
         102066243
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_43195",
+        "eurostat:nuts_2021_id":"43195"
+    },
     "wof:coterminous":[
         1125892239
     ],
@@ -153,7 +170,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"67e23323eef29f2dbb26166c71c1227e",
+    "wof:geomhash":"207f6c78ce068c4ba95b3a163081311e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -167,11 +184,13 @@
         }
     ],
     "wof:id":404413323,
-    "wof:lastmodified":1582324322,
+    "wof:lastmodified":1684353406,
     "wof:name":"Saint-Ilpize",
     "wof:parent_id":102066243,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":189,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

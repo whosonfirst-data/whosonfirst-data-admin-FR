@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_34265",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Jean-de-Cornies",
+    "eurostat:nuts_2021_id":"34265",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ13",
+    "eurostat:nuts_2021_level_lau":"34265",
+    "eurostat:population":721,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200022986",
     "frgov:id":"BDCSURCO0000000009612671",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683419,
         102191581,
@@ -58,7 +72,10 @@
         102065573
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_34265",
+        "eurostat:nuts_2021_id":"34265"
+    },
     "wof:coterminous":[
         101896717
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3df19e20bde5b4b23a1eebaad2b29de6",
+    "wof:geomhash":"e7b3fd8171c96c0d52462ef04744d013",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404356069,
-    "wof:lastmodified":1582324939,
+    "wof:lastmodified":1684352699,
     "wof:name":"Saint-Jean-De-Cornies",
     "wof:parent_id":102065573,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":721,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

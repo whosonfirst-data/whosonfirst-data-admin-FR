@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_35140",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lalleu",
+    "eurostat:nuts_2021_id":"35140",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH03",
+    "eurostat:nuts_2021_level_lau":"35140",
+    "eurostat:population":567,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070662",
     "frgov:id":"BDCSURCO0000000009596222",
     "frgov:insee_arr":"2",
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683461,
         102191581,
@@ -138,7 +152,10 @@
         102071049
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_35140",
+        "eurostat:nuts_2021_id":"35140"
+    },
     "wof:coterminous":[
         101884999
     ],
@@ -146,7 +163,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c55ddff55681706032d7bf6c7e99abf1",
+    "wof:geomhash":"f56d870a9cad585674f7cde30e13534e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -159,11 +176,13 @@
         }
     ],
     "wof:id":404366219,
-    "wof:lastmodified":1582324826,
+    "wof:lastmodified":1684352841,
     "wof:name":"Lalleu",
     "wof:parent_id":102071049,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":567,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

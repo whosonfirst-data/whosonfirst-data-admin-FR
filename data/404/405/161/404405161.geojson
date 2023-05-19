@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_47160",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Masqui\u00e8res",
+    "eurostat:nuts_2021_id":"47160",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI14",
+    "eurostat:nuts_2021_level_lau":"47160",
+    "eurostat:population":181,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068930",
     "frgov:id":"BDCSURCO0000000009610582",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001284,
-    "geom:area_square_m":11346041.674281,
+    "geom:area_square_m":11346041.67428,
     "geom:bbox":"1.01754823144,44.3840531243,1.061868216,44.431902213",
     "geom:latitude":44.406992,
     "geom:longitude":1.042388,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683341,
         102191581,
@@ -58,7 +72,10 @@
         102070319
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_47160",
+        "eurostat:nuts_2021_id":"47160"
+    },
     "wof:coterminous":[
         1125783111
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"794d42d179e60ee1b65a254a24ced75b",
+    "wof:geomhash":"97017e09dcc7d35feb9198067a0d5a5d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404405161,
-    "wof:lastmodified":1582325250,
+    "wof:lastmodified":1684353308,
     "wof:name":"Masquieres",
     "wof:parent_id":102070319,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":181,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

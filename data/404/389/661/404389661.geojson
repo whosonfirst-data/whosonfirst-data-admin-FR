@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_50429",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Regn\u00e9ville-sur-Mer",
+    "eurostat:nuts_2021_id":"50429",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD12",
+    "eurostat:nuts_2021_level_lau":"50429",
+    "eurostat:population":736,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067023",
     "frgov:id":"BDCSURCO0000000009587932",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001019,
-    "geom:area_square_m":8260039.871415,
+    "geom:area_square_m":8260039.871416,
     "geom:bbox":"-1.558205814,48.9962078905,-1.51391403078,49.0343130457",
     "geom:latitude":49.016132,
     "geom:longitude":-1.538303,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683489,
         102191581,
@@ -58,7 +72,10 @@
         102068647
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_50429",
+        "eurostat:nuts_2021_id":"50429"
+    },
     "wof:coterminous":[
         101878193
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"466997ea005a3282f4a07a918d07ef4f",
+    "wof:geomhash":"363d16d6387bc84a428b59149cf5724c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404389661,
-    "wof:lastmodified":1582325326,
+    "wof:lastmodified":1684353125,
     "wof:name":"Regneville-Sur-Mer",
     "wof:parent_id":102068647,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":736,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

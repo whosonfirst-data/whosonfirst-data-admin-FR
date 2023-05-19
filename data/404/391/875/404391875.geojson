@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_77069",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Chailly-en-Bi\u00e8re",
+    "eurostat:nuts_2021_id":"77069",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR102",
+    "eurostat:nuts_2021_level_lau":"77069",
+    "eurostat:population":2037,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072346",
     "frgov:id":"BDCSURCO0000000009592453",
     "frgov:insee_arr":"4",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683385,
         102191581,
@@ -57,7 +71,10 @@
         102070159
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_77069",
+        "eurostat:nuts_2021_id":"77069"
+    },
     "wof:coterminous":[
         101763899
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a256d5c6cafacc69b60c6da5f8bb226e",
+    "wof:geomhash":"fac249d5ff1b5eb31c06cf1219113a7f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404391875,
-    "wof:lastmodified":1582324010,
+    "wof:lastmodified":1684353155,
     "wof:name":"Chailly-En-Biere",
     "wof:parent_id":102070159,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2037,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

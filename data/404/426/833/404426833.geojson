@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_58247",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Jean-aux-Amognes",
+    "eurostat:nuts_2021_id":"58247",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC12",
+    "eurostat:nuts_2021_level_lau":"58247",
+    "eurostat:population":492,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067908",
     "frgov:id":"BDCSURCO0000000009600520",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002164,
-    "geom:area_square_m":18245204.266834,
+    "geom:area_square_m":18245204.266835,
     "geom:bbox":"3.30100746348,46.9855022354,3.37741695375,47.0304190992",
     "geom:latitude":47.008967,
     "geom:longitude":3.341441,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683359,
         102191581,
@@ -58,7 +72,10 @@
         102068281
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_58247",
+        "eurostat:nuts_2021_id":"58247"
+    },
     "wof:coterminous":[
         1125930207
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"90b287ee36f7e70cd1728bcfd330e165",
+    "wof:geomhash":"62e88c05c7f50e2512fcdc24c6b1ce68",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404426833,
-    "wof:lastmodified":1582325083,
+    "wof:lastmodified":1684353566,
     "wof:name":"Saint-Jean-Aux-Amognes",
     "wof:parent_id":102068281,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":492,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

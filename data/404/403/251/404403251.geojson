@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_01407",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Seyssel",
+    "eurostat:nuts_2021_id":"01407",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK21",
+    "eurostat:nuts_2021_level_lau":"01407",
+    "eurostat:population":999,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070852",
     "frgov:id":"BDCSURCO0000000009604163",
     "frgov:insee_arr":"1",
@@ -102,6 +114,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683153,
         102191581,
@@ -112,7 +126,10 @@
         102069921
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_01407",
+        "eurostat:nuts_2021_id":"01407"
+    },
     "wof:coterminous":[
         101767979
     ],
@@ -120,7 +137,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"bc2d0af409e2713e14d943a917d56236",
+    "wof:geomhash":"aa9ca211f3f5fb8119d19501fe0010c8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -134,11 +151,13 @@
         }
     ],
     "wof:id":404403251,
-    "wof:lastmodified":1582325292,
+    "wof:lastmodified":1684353287,
     "wof:name":"Seyssel",
     "wof:parent_id":102069921,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":999,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

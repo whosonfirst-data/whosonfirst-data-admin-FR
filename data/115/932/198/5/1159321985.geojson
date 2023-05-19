@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_04070",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Digne-les-Bains",
+    "eurostat:nuts_2021_id":"04070",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL01",
+    "eurostat:nuts_2021_level_lau":"04070",
+    "eurostat:population":16460,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067437",
     "frgov:id":"BDCSURCO0000000009611332",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Pr\u00e9fecture",
     "geom:area":0.012318,
-    "geom:area_square_m":109394118.904108,
+    "geom:area_square_m":109394118.90411,
     "geom:bbox":"6.15781,44.032338,6.340864,44.175234",
     "geom:latitude":44.090724,
     "geom:longitude":6.235832,
@@ -183,23 +195,29 @@
     "reversegeo:longitude":6.214435,
     "src:geom":"frgov",
     "src:geom_alt":[],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85683509,
         102191581,
         85633147,
-        102072183,
         404228013,
         404227445,
-        85683509
+        102072183
     ],
     "wof:breaches":[],
     "wof:concordance":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_04070",
+        "eurostat:nuts_2021_id":"04070"
+    },
     "wof:coterminous":[
         101772779,
         102072183
     ],
     "wof:country":"FR",
     "wof:created":1526509508,
-    "wof:geomhash":"8de86959dc2e23cf0bc067cdfed2eb8c",
+    "wof:geomhash":"c964fe3ab99d43795e6826f9738a5988",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -212,11 +230,13 @@
         }
     ],
     "wof:id":1159321985,
-    "wof:lastmodified":1608039578,
+    "wof:lastmodified":1684353595,
     "wof:name":"Digne-les-Bains",
     "wof:parent_id":102072183,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Pr\u00e9fecture",
+    "wof:population":16460,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded":[],
     "wof:superseded_by":[],

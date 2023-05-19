@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_36189",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Denis-de-Jouhet",
+    "eurostat:nuts_2021_id":"36189",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB03",
+    "eurostat:nuts_2021_level_lau":"36189",
+    "eurostat:population":971,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200007052",
     "frgov:id":"BDCSURCO0000000009602430",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.005178,
-    "geom:area_square_m":44047748.273942,
+    "geom:area_square_m":44047748.273941,
     "geom:bbox":"1.78495021806,46.4901989997,1.91002650328,46.5572107776",
     "geom:latitude":46.526229,
     "geom:longitude":1.845229,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683311,
         102191581,
@@ -57,7 +71,10 @@
         102064387
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_36189",
+        "eurostat:nuts_2021_id":"36189"
+    },
     "wof:coterminous":[
         101891699
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3f0ac636d5ca4c3398635db43fd2bd42",
+    "wof:geomhash":"de8ad3a5f420c1088ae96f09adfa0792",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404405277,
-    "wof:lastmodified":1582325262,
+    "wof:lastmodified":1684353309,
     "wof:name":"Saint-Denis-De-Jouhet",
     "wof:parent_id":102064387,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":971,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

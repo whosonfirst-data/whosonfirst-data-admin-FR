@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_63311",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Agoulin",
+    "eurostat:nuts_2021_id":"63311",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK14",
+    "eurostat:nuts_2021_level_lau":"63311",
+    "eurostat:population":334,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071199",
     "frgov:id":"BDCSURCO0000000009604260",
     "frgov:insee_arr":"4",
@@ -120,6 +132,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683471,
         102191581,
@@ -130,7 +144,10 @@
         102064417
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_63311",
+        "eurostat:nuts_2021_id":"63311"
+    },
     "wof:coterminous":[
         101892005
     ],
@@ -138,7 +155,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"114a2dc6e3b232f80425793928d96044",
+    "wof:geomhash":"679acc060e46a1ca5472afd6baa70055",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -152,11 +169,13 @@
         }
     ],
     "wof:id":404372269,
-    "wof:lastmodified":1582325464,
+    "wof:lastmodified":1684352916,
     "wof:name":"Saint-Agoulin",
     "wof:parent_id":102064417,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":334,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

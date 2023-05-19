@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_59458",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"P\u00e9ronne-en-M\u00e9lantois",
+    "eurostat:nuts_2021_id":"59458",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE1",
+    "eurostat:nuts_2021_level_3":"FRE11",
+    "eurostat:nuts_2021_level_lau":"59458",
+    "eurostat:population":908,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"245900410",
     "frgov:id":"BDCSURCO0000000009580744",
     "frgov:insee_arr":"5",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000145,
-    "geom:area_square_m":1142007.094848,
+    "geom:area_square_m":1142007.094847,
     "geom:bbox":"3.16116446374,50.5575732039,3.18031979715,50.5712489464",
     "geom:latitude":50.564321,
     "geom:longitude":3.170713,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683445,
         102191581,
@@ -58,7 +72,10 @@
         102068135
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_59458",
+        "eurostat:nuts_2021_id":"59458"
+    },
     "wof:coterminous":[
         1125943385
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"fa7f8367c4c3def6ca8ea42e7a0395d1",
+    "wof:geomhash":"d9e0808cf5330e05b20ec74fbc73dc73",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404414525,
-    "wof:lastmodified":1582324349,
+    "wof:lastmodified":1684353420,
     "wof:name":"Peronne-En-Melantois",
     "wof:parent_id":102068135,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":908,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

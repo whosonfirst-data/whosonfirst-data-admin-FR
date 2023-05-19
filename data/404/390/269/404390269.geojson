@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_49271",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Cl\u00e9ment-de-la-Place",
+    "eurostat:nuts_2021_id":"49271",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG02",
+    "eurostat:nuts_2021_level_lau":"49271",
+    "eurostat:population":2131,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244900015",
     "frgov:id":"BDCSURCO0000000009598150",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003998,
-    "geom:area_square_m":33384487.845568,
+    "geom:area_square_m":33384487.845567,
     "geom:bbox":"-0.787063784644,47.4903149368,-0.678608991363,47.562635615",
     "geom:latitude":47.526507,
     "geom:longitude":-0.734273,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683327,
         102191581,
@@ -57,7 +71,10 @@
         102067581
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_49271",
+        "eurostat:nuts_2021_id":"49271"
+    },
     "wof:coterminous":[
         101764507
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"bbb50d49dd02f98aa2ab4697a9a35931",
+    "wof:geomhash":"9598512f81f1619f5c991539e89b1b2d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404390269,
-    "wof:lastmodified":1582324265,
+    "wof:lastmodified":1684353133,
     "wof:name":"Saint-Clement-De-La-Place",
     "wof:parent_id":102067581,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2131,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

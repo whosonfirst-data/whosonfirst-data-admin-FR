@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_45144",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"F\u00e9rolles",
+    "eurostat:nuts_2021_id":"45144",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB06",
+    "eurostat:nuts_2021_level_lau":"45144",
+    "eurostat:population":1153,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244500427",
     "frgov:id":"BDCSURCO0000000009596456",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002051,
-    "geom:area_square_m":17027152.224808,
+    "geom:area_square_m":17027152.224807,
     "geom:bbox":"2.07601730315,47.8085959631,2.17297725611,47.8412179675",
     "geom:latitude":47.825326,
     "geom:longitude":2.117797,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683479,
         102191581,
@@ -57,7 +71,10 @@
         102067053
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_45144",
+        "eurostat:nuts_2021_id":"45144"
+    },
     "wof:coterminous":[
         101764893
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"89094bd5766a89f086ba33b9a7906ae8",
+    "wof:geomhash":"d0113911421c4ae086c2fcaa4a0c4ae9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404380893,
-    "wof:lastmodified":1582325376,
+    "wof:lastmodified":1684353021,
     "wof:name":"Ferolles",
     "wof:parent_id":102067053,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1153,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

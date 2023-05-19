@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_08246",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Landres-et-Saint-Georges",
+    "eurostat:nuts_2021_id":"08246",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF21",
+    "eurostat:nuts_2021_level_lau":"08246",
+    "eurostat:population":79,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240800920",
     "frgov:id":"BDCSURCO0000000009585213",
     "frgov:insee_arr":"4",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683309,
         102191581,
@@ -58,7 +72,10 @@
         102064807
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_08246",
+        "eurostat:nuts_2021_id":"08246"
+    },
     "wof:coterminous":[
         1126034535
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"82e3d0c1f2a31415faa92a833927eb61",
+    "wof:geomhash":"7b25ecb8181e7155e8bdd9e4b32f6cb5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404351535,
-    "wof:lastmodified":1582324946,
+    "wof:lastmodified":1684352639,
     "wof:name":"Landres-Et-Saint-Georges",
     "wof:parent_id":102064807,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":79,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_87151",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Jean-Ligoure",
+    "eurostat:nuts_2021_id":"87151",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI23",
+    "eurostat:nuts_2021_level_lau":"87151",
+    "eurostat:population":515,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070506",
     "frgov:id":"BDCSURCO0000000009605865",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003528,
-    "geom:area_square_m":30470609.824996,
+    "geom:area_square_m":30470609.824994,
     "geom:bbox":"1.25823675759,45.6635065999,1.35926690038,45.7371892143",
     "geom:latitude":45.690259,
     "geom:longitude":1.308451,
@@ -123,6 +135,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683531,
         102191581,
@@ -133,7 +147,10 @@
         102068243
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_87151",
+        "eurostat:nuts_2021_id":"87151"
+    },
     "wof:coterminous":[
         1126024661
     ],
@@ -141,7 +158,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f9fa807ac71a60e2edf8826d457b39ea",
+    "wof:geomhash":"0b044ed12bec521894ad54106c237b16",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -155,11 +172,13 @@
         }
     ],
     "wof:id":404424753,
-    "wof:lastmodified":1582324387,
+    "wof:lastmodified":1684353543,
     "wof:name":"Saint-Jean-Ligoure",
     "wof:parent_id":102068243,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":515,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

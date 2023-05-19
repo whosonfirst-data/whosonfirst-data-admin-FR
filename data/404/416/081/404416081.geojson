@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_62097",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Beaumetz-l\u00e8s-Loges",
+    "eurostat:nuts_2021_id":"62097",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE1",
+    "eurostat:nuts_2021_level_3":"FRE12",
+    "eurostat:nuts_2021_level_lau":"62097",
+    "eurostat:population":999,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200033579",
     "frgov:id":"BDCSURCO0000000009581512",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000629,
-    "geom:area_square_m":4976574.664562,
+    "geom:area_square_m":4976574.664561,
     "geom:bbox":"2.63449281002,50.2348381814,2.68746177196,50.2578373361",
     "geom:latitude":50.24563,
     "geom:longitude":2.659181,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683255,
         102191581,
@@ -58,7 +72,10 @@
         102066049
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_62097",
+        "eurostat:nuts_2021_id":"62097"
+    },
     "wof:coterminous":[
         101899417
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"812591091a0262746d7b97b36e20e87a",
+    "wof:geomhash":"b6876a6ae2e244ec4d2848d95986b304",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404416081,
-    "wof:lastmodified":1582325189,
+    "wof:lastmodified":1684353438,
     "wof:name":"Beaumetz-Les-Loges",
     "wof:parent_id":102066049,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":999,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

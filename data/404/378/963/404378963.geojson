@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_69207",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Germain-au-Mont-d'Or",
+    "eurostat:nuts_2021_id":"69207",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK26",
+    "eurostat:nuts_2021_level_lau":"69207",
+    "eurostat:population":3085,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200046977",
     "frgov:id":"BDCSURCO0000000009604733",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.000626,
-    "geom:area_square_m":5389043.857475,
+    "geom:area_square_m":5389043.857474,
     "geom:bbox":"4.78751191313,45.8690487554,4.81985030401,45.8993267919",
     "geom:latitude":45.882718,
     "geom:longitude":4.801021,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683569,
         102191581,
@@ -58,7 +72,10 @@
         102068923
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_69207",
+        "eurostat:nuts_2021_id":"69207"
+    },
     "wof:coterminous":[
         101753223
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"1466e38e5e96dee8789b2d7ec91f716e",
+    "wof:geomhash":"21d83eeb3564a35e5241c2fdcfbd04e9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404378963,
-    "wof:lastmodified":1582324733,
+    "wof:lastmodified":1684352998,
     "wof:name":"Saint-Germain-Au-Mont-D'Or",
     "wof:parent_id":102068923,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3085,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

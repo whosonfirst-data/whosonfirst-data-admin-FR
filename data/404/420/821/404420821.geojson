@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_34333",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Vic-la-Gardiole",
+    "eurostat:nuts_2021_id":"34333",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ13",
+    "eurostat:nuts_2021_level_lau":"34333",
+    "eurostat:population":3261,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066355",
     "frgov:id":"BDCSURCO0000000009613849",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003409,
-    "geom:area_square_m":30586895.640164,
+    "geom:area_square_m":30586895.640162,
     "geom:bbox":"3.74884014588,43.4577799121,3.86041677454,43.5097998992",
     "geom:latitude":43.48629,
     "geom:longitude":3.803936,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683419,
         102191581,
@@ -58,7 +72,10 @@
         102066545
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_34333",
+        "eurostat:nuts_2021_id":"34333"
+    },
     "wof:coterminous":[
         101773759
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"caf7c5d73639211131b5b58a0e84160e",
+    "wof:geomhash":"b2eb43171ffa823db1fea6ca773dd43a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404420821,
-    "wof:lastmodified":1582325199,
+    "wof:lastmodified":1684353494,
     "wof:name":"Vic-La-Gardiole",
     "wof:parent_id":102066545,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3261,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

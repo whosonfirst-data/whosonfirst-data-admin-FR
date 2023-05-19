@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_90091",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Germain-le-Ch\u00e2telet",
+    "eurostat:nuts_2021_id":"90091",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC24",
+    "eurostat:nuts_2021_level_lau":"90091",
+    "eurostat:population":644,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069060",
     "frgov:id":"BDCSURCO0000000009596639",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683353,
         102191581,
@@ -58,7 +72,10 @@
         102065071
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_90091",
+        "eurostat:nuts_2021_id":"90091"
+    },
     "wof:coterminous":[
         101887525
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5967296dd3a5e63f046c151d0f7bb2c5",
+    "wof:geomhash":"20c1c712b3d5dc43b5c803ef586eb096",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404381543,
-    "wof:lastmodified":1582325433,
+    "wof:lastmodified":1684353028,
     "wof:name":"Saint-Germain-Le-Chatelet",
     "wof:parent_id":102065071,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":644,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

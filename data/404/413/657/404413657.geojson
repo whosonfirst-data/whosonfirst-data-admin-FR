@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_80060",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"B\u00e9alcourt",
+    "eurostat:nuts_2021_id":"80060",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE23",
+    "eurostat:nuts_2021_level_lau":"80060",
+    "eurostat:population":104,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070951",
     "frgov:id":"BDCSURCO0000000009581702",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683363,
         102191581,
@@ -58,7 +72,10 @@
         102066533
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_80060",
+        "eurostat:nuts_2021_id":"80060"
+    },
     "wof:coterminous":[
         1125876161
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"695a90fc94a07a13e2b5ddc31e5f8218",
+    "wof:geomhash":"a8bdc178e714b9f6b81fcd8f18b86295",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404413657,
-    "wof:lastmodified":1582324321,
+    "wof:lastmodified":1684353410,
     "wof:name":"Bealcourt",
     "wof:parent_id":102066533,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":104,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

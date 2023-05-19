@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_10334",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Aubin",
+    "eurostat:nuts_2021_id":"10334",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF22",
+    "eurostat:nuts_2021_level_lau":"10334",
+    "eurostat:population":588,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200006716",
     "frgov:id":"BDCSURCO0000000009592413",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.002173,
-    "geom:area_square_m":17808661.816841,
+    "geom:area_square_m":17808661.81684,
     "geom:bbox":"3.52060947248,48.4569849651,3.58458392789,48.5071952334",
     "geom:latitude":48.483052,
     "geom:longitude":3.553433,
@@ -105,6 +117,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683193,
         102191581,
@@ -115,7 +129,10 @@
         102067235
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_10334",
+        "eurostat:nuts_2021_id":"10334"
+    },
     "wof:coterminous":[
         101883007
     ],
@@ -123,7 +140,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e52fba249f877ea4920d167c7c6a1827",
+    "wof:geomhash":"a035a8d5094b3daa454e7d43539ba7d9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -137,11 +154,13 @@
         }
     ],
     "wof:id":404371353,
-    "wof:lastmodified":1582324645,
+    "wof:lastmodified":1684352905,
     "wof:name":"Saint-Aubin",
     "wof:parent_id":102067235,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":588,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

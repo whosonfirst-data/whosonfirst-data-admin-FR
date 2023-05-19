@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_39532",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Thoissia",
+    "eurostat:nuts_2021_id":"39532",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC22",
+    "eurostat:nuts_2021_level_lau":"39532",
+    "eurostat:population":36,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072056",
     "frgov:id":"BDCSURCO0000000009602342",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000457,
-    "geom:area_square_m":3891074.749879,
+    "geom:area_square_m":3891074.74988,
     "geom:bbox":"5.37759726543,46.4151294025,5.40840169698,46.4400602525",
     "geom:latitude":46.426421,
     "geom:longitude":5.395784,
@@ -114,6 +126,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683173,
         102191581,
@@ -124,7 +138,10 @@
         102068971
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_39532",
+        "eurostat:nuts_2021_id":"39532"
+    },
     "wof:coterminous":[
         1125940463
     ],
@@ -132,7 +149,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2e95a3dcb55e007c0b0c48d73a18a487",
+    "wof:geomhash":"c60db2fd08ec21b81a504c336a42f5fb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -146,11 +163,13 @@
         }
     ],
     "wof:id":404380419,
-    "wof:lastmodified":1582325381,
+    "wof:lastmodified":1684353015,
     "wof:name":"Thoissia",
     "wof:parent_id":102068971,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":36,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_29249",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Goazec",
+    "eurostat:nuts_2021_id":"29249",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH02",
+    "eurostat:nuts_2021_level_lau":"29249",
+    "eurostat:population":706,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242900561",
     "frgov:id":"BDCSURCO0000000009593904",
     "frgov:insee_arr":"2",
@@ -147,6 +159,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683553,
         102191581,
@@ -156,7 +170,10 @@
         102065907
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_29249",
+        "eurostat:nuts_2021_id":"29249"
+    },
     "wof:coterminous":[
         101881493
     ],
@@ -164,7 +181,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b57c84723f621ed50f88be38b00fd98b",
+    "wof:geomhash":"a6b2f21b10f4608b77bec1c31cbce8ba",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -177,11 +194,13 @@
         }
     ],
     "wof:id":404348781,
-    "wof:lastmodified":1582324592,
+    "wof:lastmodified":1684352599,
     "wof:name":"Saint-Goazec",
     "wof:parent_id":102065907,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":706,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

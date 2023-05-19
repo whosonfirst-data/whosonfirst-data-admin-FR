@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_88280",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Madegney",
+    "eurostat:nuts_2021_id":"88280",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF34",
+    "eurostat:nuts_2021_level_lau":"88280",
+    "eurostat:population":128,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068369",
     "frgov:id":"BDCSURCO0000000009593161",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.00037,
-    "geom:area_square_m":3044675.673797,
+    "geom:area_square_m":3044675.673796,
     "geom:bbox":"6.27505070735,48.2700748231,6.29979392019,48.2984441972",
     "geom:latitude":48.286654,
     "geom:longitude":6.287653,
@@ -120,6 +132,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683223,
         102191581,
@@ -130,7 +144,10 @@
         102066279
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_88280",
+        "eurostat:nuts_2021_id":"88280"
+    },
     "wof:coterminous":[
         1125781087
     ],
@@ -138,7 +155,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"509761d8e327c0c43576cf5363786b62",
+    "wof:geomhash":"a33b1c4c24d5d67c35e10487c2d14e3f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -152,11 +169,13 @@
         }
     ],
     "wof:id":404352231,
-    "wof:lastmodified":1582324174,
+    "wof:lastmodified":1684352648,
     "wof:name":"Madegney",
     "wof:parent_id":102066279,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":128,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

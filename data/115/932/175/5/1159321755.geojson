@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_71014",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Autun",
+    "eurostat:nuts_2021_id":"71014",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC13",
+    "eurostat:nuts_2021_level_lau":"71014",
+    "eurostat:population":13290,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070530",
     "frgov:id":"BDCSURCO0000000009600946",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Sous-pr\u00e9fecture",
     "geom:area":0.007297,
-    "geom:area_square_m":61593933.46072,
+    "geom:area_square_m":61593933.460723,
     "geom:bbox":"4.235691,46.882469,4.371763,46.994928",
     "geom:latitude":46.946033,
     "geom:longitude":4.31067,
@@ -177,24 +189,30 @@
     "reversegeo:longitude":4.311698,
     "src:geom":"frgov",
     "src:geom_alt":[],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85683543,
         102191581,
         85633147,
-        102072003,
-        136253037,
         404227741,
         1108826395,
-        85683543
+        136253037,
+        102072003
     ],
     "wof:breaches":[],
     "wof:concordance":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_71014",
+        "eurostat:nuts_2021_id":"71014"
+    },
     "wof:coterminous":[
         101768403,
         102072003
     ],
     "wof:country":"FR",
     "wof:created":1526508690,
-    "wof:geomhash":"a18348d548168efbdc5cbb2a255b56ed",
+    "wof:geomhash":"697ee129f514faa270926a91c2ba5aaf",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -208,11 +226,13 @@
         }
     ],
     "wof:id":1159321755,
-    "wof:lastmodified":1608039577,
+    "wof:lastmodified":1684353592,
     "wof:name":"Autun",
     "wof:parent_id":102072003,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Sous-pr\u00e9fecture",
+    "wof:population":13290,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded":[],
     "wof:superseded_by":[],

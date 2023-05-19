@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_14579",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Seulline",
+    "eurostat:nuts_2021_id":"14579",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD11",
+    "eurostat:nuts_2021_level_lau":"14579",
+    "eurostat:population":1343,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069524",
     "frgov:id":"BDCSURCO0000000009588385",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003958,
-    "geom:area_square_m":32086329.964501,
+    "geom:area_square_m":32086329.964502,
     "geom:bbox":"-0.740906068317,48.9982351102,-0.654119589342,49.0654254085",
     "geom:latitude":49.028901,
     "geom:longitude":-0.697082,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683579,
         102191581,
@@ -56,7 +70,10 @@
         102064413
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_14579",
+        "eurostat:nuts_2021_id":"14579"
+    },
     "wof:coterminous":[
         1360677095
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d4cd9bd16ddc886fd3ad92c0e5eb7339",
+    "wof:geomhash":"758d3c533ae151c5ee6071e0b19e177a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404393325,
-    "wof:lastmodified":1582325014,
+    "wof:lastmodified":1684353172,
     "wof:name":"Saint-Georges-D'Aunay",
     "wof:parent_id":102064413,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1343,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

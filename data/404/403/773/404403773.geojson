@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_15258",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Vic-sur-C\u00e8re",
+    "eurostat:nuts_2021_id":"15258",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK12",
+    "eurostat:nuts_2021_level_lau":"15258",
+    "eurostat:population":1828,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"241501089",
     "frgov:id":"BDCSURCO0000000009608555",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.003348,
-    "geom:area_square_m":29287840.774786,
+    "geom:area_square_m":29287840.774787,
     "geom:bbox":"2.58421963871,44.928864945,2.67409339309,45.0085436718",
     "geom:latitude":44.971369,
     "geom:longitude":2.619964,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683517,
         102191581,
@@ -58,7 +72,10 @@
         102068519
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_15258",
+        "eurostat:nuts_2021_id":"15258"
+    },
     "wof:coterminous":[
         101770493
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b86811dec229b8b2d2889479a0f71b44",
+    "wof:geomhash":"1131fa9b3462732f0c86c74d384105d1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404403773,
-    "wof:lastmodified":1582325302,
+    "wof:lastmodified":1684353292,
     "wof:name":"Vic-Sur-Cere",
     "wof:parent_id":102068519,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1828,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

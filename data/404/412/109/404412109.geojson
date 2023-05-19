@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_17301",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Romazi\u00e8res",
+    "eurostat:nuts_2021_id":"17301",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI32",
+    "eurostat:nuts_2021_level_lau":"17301",
+    "eurostat:population":71,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041689",
     "frgov:id":"BDCSURCO0000000009604349",
     "frgov:insee_arr":"5",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001012,
-    "geom:area_square_m":8690810.846443,
+    "geom:area_square_m":8690810.846444,
     "geom:bbox":"-0.198903285576,45.9684993943,-0.156122694741,46.0190685962",
     "geom:latitude":45.990601,
     "geom:longitude":-0.175847,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683275,
         102191581,
@@ -58,7 +72,10 @@
         102065005
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_17301",
+        "eurostat:nuts_2021_id":"17301"
+    },
     "wof:coterminous":[
         1125802135
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4fd7a35ddfabe27d79715dd3fb0753c4",
+    "wof:geomhash":"e0793c9c7fbc3ff1538fd060982c9e95",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404412109,
-    "wof:lastmodified":1582324378,
+    "wof:lastmodified":1684353390,
     "wof:name":"Romazieres",
     "wof:parent_id":102065005,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":71,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

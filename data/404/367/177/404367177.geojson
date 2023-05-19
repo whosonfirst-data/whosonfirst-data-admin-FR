@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_29207",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Plourin-l\u00e8s-Morlaix",
+    "eurostat:nuts_2021_id":"29207",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH02",
+    "eurostat:nuts_2021_level_lau":"29207",
+    "eurostat:population":4457,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242900835",
     "frgov:id":"BDCSURCO0000000009591308",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BRETAGNE",
     "frgov:statut":"Commune simple",
     "geom:area":0.005166,
-    "geom:area_square_m":42309435.964446,
+    "geom:area_square_m":42309435.964443,
     "geom:bbox":"-3.83938502165,48.4789406383,-3.75614100492,48.5735162926",
     "geom:latitude":48.521765,
     "geom:longitude":-3.800476,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683553,
         102191581,
@@ -57,7 +71,10 @@
         102068441
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_29207",
+        "eurostat:nuts_2021_id":"29207"
+    },
     "wof:coterminous":[
         101759957
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0c5e8f29c43bf9b7c4d4180bc8c6a440",
+    "wof:geomhash":"ead842c2f7b6b40ac9ee0ab795e503c2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404367177,
-    "wof:lastmodified":1582325004,
+    "wof:lastmodified":1684352854,
     "wof:name":"Plourin-Les-Morlaix",
     "wof:parent_id":102068441,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":4457,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

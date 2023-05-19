@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_07240",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Georges-les-Bains",
+    "eurostat:nuts_2021_id":"07240",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK22",
+    "eurostat:nuts_2021_level_lau":"07240",
+    "eurostat:population":2282,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041366",
     "frgov:id":"BDCSURCO0000000009608706",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.0016,
-    "geom:area_square_m":14025203.102797,
+    "geom:area_square_m":14025203.102799,
     "geom:bbox":"4.77958063503,44.8301917092,4.83783971636,44.8837921561",
     "geom:latitude":44.859049,
     "geom:longitude":4.809841,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683421,
         102191581,
@@ -58,7 +72,10 @@
         102069975
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_07240",
+        "eurostat:nuts_2021_id":"07240"
+    },
     "wof:coterminous":[
         101771777
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"10aa4331ac5b6c6cc849755d3182de03",
+    "wof:geomhash":"73a9e29a06597e95da27df818e34c0b7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404357555,
-    "wof:lastmodified":1582324896,
+    "wof:lastmodified":1684352719,
     "wof:name":"Saint-Georges-Les-Bains",
     "wof:parent_id":102069975,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2282,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

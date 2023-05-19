@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_53175",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Parn\u00e9-sur-Roc",
+    "eurostat:nuts_2021_id":"53175",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG03",
+    "eurostat:nuts_2021_level_lau":"53175",
+    "eurostat:population":1348,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"245300330",
     "frgov:id":"BDCSURCO0000000009595520",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002901,
-    "geom:area_square_m":23996782.673341,
+    "geom:area_square_m":23996782.67334,
     "geom:bbox":"-0.698800170318,47.9724663226,-0.622626554986,48.0443860788",
     "geom:latitude":48.009503,
     "geom:longitude":-0.665454,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683401,
         102191581,
@@ -57,7 +71,10 @@
         102064557
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_53175",
+        "eurostat:nuts_2021_id":"53175"
+    },
     "wof:coterminous":[
         101884793
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"85dd78e32fdc68667f682ae596bd8081",
+    "wof:geomhash":"f7b78f45b1b3de2f978a3f890de0aad2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404362893,
-    "wof:lastmodified":1582324052,
+    "wof:lastmodified":1684352794,
     "wof:name":"Parne-Sur-Roc",
     "wof:parent_id":102064557,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1348,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

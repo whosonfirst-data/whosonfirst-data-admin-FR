@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_17432",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Soum\u00e9ras",
+    "eurostat:nuts_2021_id":"17432",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI32",
+    "eurostat:nuts_2021_level_lau":"17432",
+    "eurostat:population":363,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200041523",
     "frgov:id":"BDCSURCO0000000009607399",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000724,
-    "geom:area_square_m":6294819.074497,
+    "geom:area_square_m":6294819.074496,
     "geom:bbox":"-0.461842694436,45.2805597413,-0.414255716581,45.3111108874",
     "geom:latitude":45.294504,
     "geom:longitude":-0.437654,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683275,
         102191581,
@@ -58,7 +72,10 @@
         102067373
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_17432",
+        "eurostat:nuts_2021_id":"17432"
+    },
     "wof:coterminous":[
         1125806987
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"05ec2a12ebd00c6c5079695e25eb1b3f",
+    "wof:geomhash":"273be51938ff98ec66665e7dccd03772",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404390679,
-    "wof:lastmodified":1582324273,
+    "wof:lastmodified":1684353139,
     "wof:name":"Soumeras",
     "wof:parent_id":102067373,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":363,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

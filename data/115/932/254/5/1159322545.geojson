@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_41018",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Blois",
+    "eurostat:nuts_2021_id":"41018",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB05",
+    "eurostat:nuts_2021_level_lau":"41018",
+    "eurostat:population":46086,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200030385",
     "frgov:id":"BDCSURCO0000000009598100",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Pr\u00e9fecture",
     "geom:area":0.004494,
-    "geom:area_square_m":37481242.925686,
+    "geom:area_square_m":37481242.925685,
     "geom:bbox":"1.254121,47.5416,1.355893,47.62062",
     "geom:latitude":47.581434,
     "geom:longitude":1.306125,
@@ -231,23 +243,29 @@
     "reversegeo:longitude":1.318854,
     "src:geom":"frgov",
     "src:geom_alt":[],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85683349,
         102191581,
         85633147,
-        102072407,
         404227675,
         404227461,
-        85683349
+        102072407
     ],
     "wof:breaches":[],
     "wof:concordance":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_41018",
+        "eurostat:nuts_2021_id":"41018"
+    },
     "wof:coterminous":[
         101827645,
         102072407
     ],
     "wof:country":"FR",
     "wof:created":1526511218,
-    "wof:geomhash":"58023bf0e045fd6fbd4aaa132980d6f7",
+    "wof:geomhash":"d1ac9b3078000efeab1cc0c67ca4948f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -260,11 +278,13 @@
         }
     ],
     "wof:id":1159322545,
-    "wof:lastmodified":1608039589,
+    "wof:lastmodified":1684353603,
     "wof:name":"Blois",
     "wof:parent_id":102072407,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Pr\u00e9fecture",
+    "wof:population":46086,
+    "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded":[],
     "wof:superseded_by":[],

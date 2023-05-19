@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_14060",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"B\u00e9nouville",
+    "eurostat:nuts_2021_id":"14060",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD11",
+    "eurostat:nuts_2021_level_lau":"14060",
+    "eurostat:population":2049,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200065597",
     "frgov:id":"BDCSURCO0000000009586371",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000667,
-    "geom:area_square_m":5380838.915128,
+    "geom:area_square_m":5380838.915129,
     "geom:bbox":"-0.309242617052,49.2265345324,-0.269569664981,49.2574200163",
     "geom:latitude":49.243891,
     "geom:longitude":-0.28792,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683579,
         102191581,
@@ -58,7 +72,10 @@
         102071479
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_14060",
+        "eurostat:nuts_2021_id":"14060"
+    },
     "wof:coterminous":[
         101750147
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a293622d33102394e21ff2bad8259cd3",
+    "wof:geomhash":"4fbe34dc7f56a2087f0d318fe3ca01de",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404362241,
-    "wof:lastmodified":1582324057,
+    "wof:lastmodified":1684352785,
     "wof:name":"Benouville",
     "wof:parent_id":102071479,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2049,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

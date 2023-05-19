@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_80230",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Curchy",
+    "eurostat:nuts_2021_id":"80230",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE23",
+    "eurostat:nuts_2021_level_lau":"80230",
+    "eurostat:population":298,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070985",
     "frgov:id":"BDCSURCO0000000009582939",
     "frgov:insee_arr":"4",
@@ -132,6 +144,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683363,
         102191581,
@@ -142,7 +156,10 @@
         102070903
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_80230",
+        "eurostat:nuts_2021_id":"80230"
+    },
     "wof:coterminous":[
         101902157
     ],
@@ -150,7 +167,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"cbe5fef030fb40a122726867f9ce3998",
+    "wof:geomhash":"7f01c3b6aa12e7a42e1fd0ffa19a3781",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -164,11 +181,13 @@
         }
     ],
     "wof:id":404394985,
-    "wof:lastmodified":1582325031,
+    "wof:lastmodified":1684353191,
     "wof:name":"Curchy",
     "wof:parent_id":102070903,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":298,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_18233",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Satur",
+    "eurostat:nuts_2021_id":"18233",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB01",
+    "eurostat:nuts_2021_level_lau":"18233",
+    "eurostat:population":1426,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069227",
     "frgov:id":"BDCSURCO0000000009598947",
     "frgov:insee_arr":"1",
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683549,
         102191581,
@@ -138,7 +152,10 @@
         102068897
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_18233",
+        "eurostat:nuts_2021_id":"18233"
+    },
     "wof:coterminous":[
         101765579
     ],
@@ -146,7 +163,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ca3fc39d1c5dedbce773f4695b1b1e82",
+    "wof:geomhash":"e4d5d7bafacb0b667f5f7b6e8fecc01b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -159,11 +176,13 @@
         }
     ],
     "wof:id":404394427,
-    "wof:lastmodified":1582325035,
+    "wof:lastmodified":1684353184,
     "wof:name":"Saint-Satur",
     "wof:parent_id":102068897,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1426,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

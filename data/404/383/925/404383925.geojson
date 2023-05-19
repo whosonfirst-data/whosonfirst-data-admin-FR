@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_47282",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Vincent-de-Lamontjoie",
+    "eurostat:nuts_2021_id":"47282",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI14",
+    "eurostat:nuts_2021_level_lau":"47282",
+    "eurostat:population":245,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068948",
     "frgov:id":"BDCSURCO0000000009611463",
     "frgov:insee_arr":"4",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683341,
         102191581,
@@ -58,7 +72,10 @@
         102066569
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_47282",
+        "eurostat:nuts_2021_id":"47282"
+    },
     "wof:coterminous":[
         1125777797
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5205588f8623beefce00b8367f6ae05c",
+    "wof:geomhash":"8794b81b9ebe05d2c9e9101b9a66c54e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404383925,
-    "wof:lastmodified":1582324546,
+    "wof:lastmodified":1684353058,
     "wof:name":"Saint-Vincent-De-Lamontjoie",
     "wof:parent_id":102066569,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":245,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

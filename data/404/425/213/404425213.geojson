@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_02797",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Viel-Arcy",
+    "eurostat:nuts_2021_id":"02797",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE21",
+    "eurostat:nuts_2021_level_lau":"02797",
+    "eurostat:population":179,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240200501",
     "frgov:id":"BDCSURCO0000000009585270",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000823,
-    "geom:area_square_m":6628438.826546,
+    "geom:area_square_m":6628438.826547,
     "geom:bbox":"3.59504303576,49.3676056673,3.65348275847,49.3910114518",
     "geom:latitude":49.379222,
     "geom:longitude":3.625493,
@@ -141,6 +153,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683247,
         102191581,
@@ -151,7 +165,10 @@
         102064997
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_02797",
+        "eurostat:nuts_2021_id":"02797"
+    },
     "wof:coterminous":[
         101903059
     ],
@@ -159,7 +176,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"64ad63db769464ee508e05248b1b2ea6",
+    "wof:geomhash":"32c362d4dd499ef0066b9a6f14ae9ebe",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -173,11 +190,13 @@
         }
     ],
     "wof:id":404425213,
-    "wof:lastmodified":1582324309,
+    "wof:lastmodified":1684353548,
     "wof:name":"Viel-Arcy",
     "wof:parent_id":102064997,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":179,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

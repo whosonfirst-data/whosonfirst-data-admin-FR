@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_54509",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sommerviller",
+    "eurostat:nuts_2021_id":"54509",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF31",
+    "eurostat:nuts_2021_level_lau":"54509",
+    "eurostat:population":990,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"245400189",
     "frgov:id":"BDCSURCO0000000009590515",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.000471,
-    "geom:area_square_m":3848408.376222,
+    "geom:area_square_m":3848408.376221,
     "geom:bbox":"6.3590710201,48.6215161963,6.39033701129,48.6500260403",
     "geom:latitude":48.636325,
     "geom:longitude":6.375979,
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683343,
         102191581,
@@ -136,7 +150,10 @@
         102067453
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_54509",
+        "eurostat:nuts_2021_id":"54509"
+    },
     "wof:coterminous":[
         1125806515
     ],
@@ -144,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b1fa03fd69baa879c30d2bebb0fe216b",
+    "wof:geomhash":"4c5d94b8602bcb6d773c0fe1d2eb3f59",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +175,13 @@
         }
     ],
     "wof:id":404410121,
-    "wof:lastmodified":1582325151,
+    "wof:lastmodified":1684353368,
     "wof:name":"Sommerviller",
     "wof:parent_id":102067453,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":990,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

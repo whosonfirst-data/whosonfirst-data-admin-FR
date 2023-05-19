@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_69235",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Romain-en-Gal",
+    "eurostat:nuts_2021_id":"69235",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK26",
+    "eurostat:nuts_2021_level_lau":"69235",
+    "eurostat:population":1889,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243800455",
     "frgov:id":"BDCSURCO0000000009606298",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001562,
-    "geom:area_square_m":13533361.554406,
+    "geom:area_square_m":13533361.554407,
     "geom:bbox":"4.78912013684,45.5214193781,4.87280905227,45.5585330828",
     "geom:latitude":45.535831,
     "geom:longitude":4.826337,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683569,
         102191581,
@@ -58,7 +72,10 @@
         102065459
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_69235",
+        "eurostat:nuts_2021_id":"69235"
+    },
     "wof:coterminous":[
         101830755
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"48762565089c1379357d2283c13f9363",
+    "wof:geomhash":"b9908667632bccfb1c035617590d1810",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404391539,
-    "wof:lastmodified":1582324015,
+    "wof:lastmodified":1684353151,
     "wof:name":"Saint-Romain-En-Gal",
     "wof:parent_id":102065459,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1889,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_71396",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Bonnet-en-Bresse",
+    "eurostat:nuts_2021_id":"71396",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC13",
+    "eurostat:nuts_2021_level_lau":"71396",
+    "eurostat:population":483,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247100647",
     "frgov:id":"BDCSURCO0000000009600919",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002088,
-    "geom:area_square_m":17651125.908226,
+    "geom:area_square_m":17651125.908225,
     "geom:bbox":"5.14130204791,46.8378791998,5.21962046672,46.8777170614",
     "geom:latitude":46.85855,
     "geom:longitude":5.178955,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683543,
         102191581,
@@ -58,7 +72,10 @@
         102071009
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_71396",
+        "eurostat:nuts_2021_id":"71396"
+    },
     "wof:coterminous":[
         101889755
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"178d06c81739244f115b4223e39ea79c",
+    "wof:geomhash":"e1a5263cb28ffc648d2ea7a7ff2890dd",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404383339,
-    "wof:lastmodified":1582324539,
+    "wof:lastmodified":1684353050,
     "wof:name":"Saint-Bonnet-En-Bresse",
     "wof:parent_id":102071009,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":483,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

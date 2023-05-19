@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_85288",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Talmont-Saint-Hilaire",
+    "eurostat:nuts_2021_id":"85288",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG05",
+    "eurostat:nuts_2021_level_lau":"85288",
+    "eurostat:population":7657,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071900",
     "frgov:id":"BDCSURCO0000000009602514",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.010619,
-    "geom:area_square_m":90422358.606505,
+    "geom:area_square_m":90422358.606506,
     "geom:bbox":"-1.71428354329,46.4281552237,-1.54587376945,46.5264306916",
     "geom:latitude":46.475761,
     "geom:longitude":-1.62741,
@@ -120,6 +132,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683409,
         102191581,
@@ -129,7 +143,10 @@
         102069889
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_85288",
+        "eurostat:nuts_2021_id":"85288"
+    },
     "wof:coterminous":[
         101767107
     ],
@@ -137,7 +154,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"442a9b9fe6b0b2ad7fac61cb35d99b5d",
+    "wof:geomhash":"0e041fed7a99090bad7e0a8276bd3db6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -150,11 +167,13 @@
         }
     ],
     "wof:id":404357057,
-    "wof:lastmodified":1582324901,
+    "wof:lastmodified":1684352712,
     "wof:name":"Talmont-Saint-Hilaire",
     "wof:parent_id":102069889,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":7657,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

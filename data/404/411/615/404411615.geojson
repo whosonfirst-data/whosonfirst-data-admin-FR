@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_62640",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Orville",
+    "eurostat:nuts_2021_id":"62640",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE1",
+    "eurostat:nuts_2021_level_3":"FRE12",
+    "eurostat:nuts_2021_level_lau":"62640",
+    "eurostat:population":402,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069482",
     "frgov:id":"BDCSURCO0000000009581833",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001399,
-    "geom:area_square_m":11088871.781926,
+    "geom:area_square_m":11088871.781925,
     "geom:bbox":"2.39453850158,50.1006424069,2.44647074929,50.1549769541",
     "geom:latitude":50.128162,
     "geom:longitude":2.418391,
@@ -93,6 +105,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683255,
         102191581,
@@ -103,7 +117,10 @@
         102071031
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_62640",
+        "eurostat:nuts_2021_id":"62640"
+    },
     "wof:coterminous":[
         101899511
     ],
@@ -111,7 +128,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b9e758363c810b9cb96aac2e6f21f4ef",
+    "wof:geomhash":"b4b76aff89251fdb915715f201772e84",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -125,11 +142,13 @@
         }
     ],
     "wof:id":404411615,
-    "wof:lastmodified":1582325171,
+    "wof:lastmodified":1684353385,
     "wof:name":"Orville",
     "wof:parent_id":102071031,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":402,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

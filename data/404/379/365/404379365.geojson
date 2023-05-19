@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_78208",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"\u00c9lancourt",
+    "eurostat:nuts_2021_id":"78208",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR103",
+    "eurostat:nuts_2021_level_lau":"78208",
+    "eurostat:population":25400,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200058782",
     "frgov:id":"BDCSURCO0000000009590221",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"ILE-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001136,
-    "geom:area_square_m":9253448.889364,
+    "geom:area_square_m":9253448.889365,
     "geom:bbox":"1.93650578084,48.7534176407,1.98593530115,48.8005836889",
     "geom:latitude":48.778316,
     "geom:longitude":1.961056,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683367,
         102191581,
@@ -57,7 +71,10 @@
         102070421
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_78208",
+        "eurostat:nuts_2021_id":"78208"
+    },
     "wof:coterminous":[
         101751293
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9455f7b59c82d00ab238f94bc98e11b3",
+    "wof:geomhash":"a28c9e44b98a52a73d3263290836dad3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404379365,
-    "wof:lastmodified":1582324520,
+    "wof:lastmodified":1684353003,
     "wof:name":"Elancourt",
     "wof:parent_id":102070421,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":25400,
+    "wof:population_rank":7,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

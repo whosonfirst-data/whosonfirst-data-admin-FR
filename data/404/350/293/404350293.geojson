@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_21563",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Mesmin",
+    "eurostat:nuts_2021_id":"21563",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC11",
+    "eurostat:nuts_2021_level_lau":"21563",
+    "eurostat:population":128,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071017",
     "frgov:id":"BDCSURCO0000000009598893",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002098,
-    "geom:area_square_m":17579356.891807,
+    "geom:area_square_m":17579356.891808,
     "geom:bbox":"4.6000178672,47.3257354464,4.69106394992,47.377930487",
     "geom:latitude":47.346,
     "geom:longitude":4.655323,
@@ -85,6 +97,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683563,
         102191581,
@@ -95,7 +109,10 @@
         102070769
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_21563",
+        "eurostat:nuts_2021_id":"21563"
+    },
     "wof:coterminous":[
         1360672809
     ],
@@ -103,7 +120,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d71cfb6959d153497832373a714b3710",
+    "wof:geomhash":"1396f2a6ac94bff99e955daca4805a3b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -117,11 +134,13 @@
         }
     ],
     "wof:id":404350293,
-    "wof:lastmodified":1582324850,
+    "wof:lastmodified":1684352621,
     "wof:name":"Saint-Mesmin",
     "wof:parent_id":102070769,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":128,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

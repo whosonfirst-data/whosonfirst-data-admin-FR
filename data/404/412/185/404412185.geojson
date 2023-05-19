@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_10339",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Flavy",
+    "eurostat:nuts_2021_id":"10339",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF22",
+    "eurostat:nuts_2021_level_lau":"10339",
+    "eurostat:population":283,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"241000488",
     "frgov:id":"BDCSURCO0000000009593263",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.002081,
-    "geom:area_square_m":17084457.963446,
+    "geom:area_square_m":17084457.963445,
     "geom:bbox":"3.7429383145,48.378314341,3.81593441548,48.4321195203",
     "geom:latitude":48.406234,
     "geom:longitude":3.776264,
@@ -123,6 +135,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683193,
         102191581,
@@ -133,7 +147,10 @@
         102066655
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_10339",
+        "eurostat:nuts_2021_id":"10339"
+    },
     "wof:coterminous":[
         1125933879
     ],
@@ -141,7 +158,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"cd269c8158d553aa96297bcecc226ad2",
+    "wof:geomhash":"0b114abf6a1d7060bb84cc4133905513",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -155,11 +172,13 @@
         }
     ],
     "wof:id":404412185,
-    "wof:lastmodified":1582324385,
+    "wof:lastmodified":1684353391,
     "wof:name":"Saint-Flavy",
     "wof:parent_id":102066655,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":283,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

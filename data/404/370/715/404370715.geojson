@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_67526",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Westhouse",
+    "eurostat:nuts_2021_id":"67526",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF1",
+    "eurostat:nuts_2021_level_3":"FRF11",
+    "eurostat:nuts_2021_level_lau":"67526",
+    "eurostat:population":1515,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067924",
     "frgov:id":"BDCSURCO0000000009592217",
     "frgov:insee_arr":"5",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.001458,
-    "geom:area_square_m":11965444.573395,
+    "geom:area_square_m":11965444.573394,
     "geom:bbox":"7.54693301613,48.3877478491,7.60596925074,48.4286488921",
     "geom:latitude":48.407403,
     "geom:longitude":7.573976,
@@ -144,6 +156,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683221,
         102191581,
@@ -154,7 +168,10 @@
         102065609
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_67526",
+        "eurostat:nuts_2021_id":"67526"
+    },
     "wof:coterminous":[
         101763745
     ],
@@ -162,7 +179,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5cb6ddee684a2a62cf6eaf37fae7e58d",
+    "wof:geomhash":"a9abe2cc09f0632ad778ccb7e480dccd",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -176,11 +193,13 @@
         }
     ],
     "wof:id":404370715,
-    "wof:lastmodified":1582324602,
+    "wof:lastmodified":1684352898,
     "wof:name":"Westhouse",
     "wof:parent_id":102065609,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1515,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

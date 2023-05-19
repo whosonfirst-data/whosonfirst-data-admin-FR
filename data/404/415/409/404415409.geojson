@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_30289",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Nazaire-des-Gardies",
+    "eurostat:nuts_2021_id":"30289",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ12",
+    "eurostat:nuts_2021_level_lau":"30289",
+    "eurostat:population":83,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200034411",
     "frgov:id":"BDCSURCO0000000009611781",
     "frgov:insee_arr":"3",
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683431,
         102191581,
@@ -56,7 +70,10 @@
         102070027
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_30289",
+        "eurostat:nuts_2021_id":"30289"
+    },
     "wof:coterminous":[
         1360679219
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"df9abe5cb0c5e19c77f82fcbd3dfdce6",
+    "wof:geomhash":"2110b1fc5ba410f3fe528950c0e34ec8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404415409,
-    "wof:lastmodified":1582324356,
+    "wof:lastmodified":1684353430,
     "wof:name":"Saint-Nazaire-Des-Gardies",
     "wof:parent_id":102070027,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":83,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

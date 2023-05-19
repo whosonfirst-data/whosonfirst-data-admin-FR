@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_65099",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bord\u00e8res-Louron",
+    "eurostat:nuts_2021_id":"65099",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ26",
+    "eurostat:nuts_2021_level_lau":"65099",
+    "eurostat:population":155,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"246500573",
     "frgov:id":"BDCSURCO0000000009616135",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001894,
-    "geom:area_square_m":17161696.268698,
+    "geom:area_square_m":17161696.268697,
     "geom:bbox":"0.370704908891,42.8517486505,0.472682017923,42.8855529522",
     "geom:latitude":42.868042,
     "geom:longitude":0.416166,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683203,
         102191581,
@@ -58,7 +72,10 @@
         102065325
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_65099",
+        "eurostat:nuts_2021_id":"65099"
+    },
     "wof:coterminous":[
         1125987119
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"54d2672054a4a2b727aa5ff399c4944d",
+    "wof:geomhash":"119b21476865c0bac0df625621b6e568",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404413077,
-    "wof:lastmodified":1582324317,
+    "wof:lastmodified":1684353402,
     "wof:name":"Borderes-Louron",
     "wof:parent_id":102065325,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":155,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

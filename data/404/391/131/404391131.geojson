@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_22016",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"\u00cele-de-Br\u00e9hat",
+    "eurostat:nuts_2021_id":"22016",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH01",
+    "eurostat:nuts_2021_level_lau":"22016",
+    "eurostat:population":361,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"ZZZZZZZZZ",
     "frgov:id":"BDCSURCO0000000009588910",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BRETAGNE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000426,
-    "geom:area_square_m":3466387.717287,
+    "geom:area_square_m":3466387.717288,
     "geom:bbox":"-3.02185013679,48.8344816273,-2.97785094753,48.8649206609",
     "geom:latitude":48.849955,
     "geom:longitude":-3.001765,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683515,
         102191581,
@@ -57,7 +71,10 @@
         102069581
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_22016",
+        "eurostat:nuts_2021_id":"22016"
+    },
     "wof:coterminous":[
         101877511
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e9c458e9a4cf698d686039d0ecf065a2",
+    "wof:geomhash":"5567b1f33f8166f978d8302d6708e92a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404391131,
-    "wof:lastmodified":1582324016,
+    "wof:lastmodified":1684353145,
     "wof:name":"Ile-De-Brehat",
     "wof:parent_id":102069581,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":361,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

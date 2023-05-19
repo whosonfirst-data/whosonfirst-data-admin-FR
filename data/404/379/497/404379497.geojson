@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_25105",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Byans-sur-Doubs",
+    "eurostat:nuts_2021_id":"25105",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC21",
+    "eurostat:nuts_2021_level_lau":"25105",
+    "eurostat:population":560,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242500361",
     "frgov:id":"BDCSURCO0000000009599947",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00118,
-    "geom:area_square_m":9927829.294128,
+    "geom:area_square_m":9927829.294126,
     "geom:bbox":"5.8241135339,47.0882848726,5.87278756031,47.1320655519",
     "geom:latitude":47.112766,
     "geom:longitude":5.847408,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683239,
         102191581,
@@ -58,7 +72,10 @@
         102065421
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_25105",
+        "eurostat:nuts_2021_id":"25105"
+    },
     "wof:coterminous":[
         101890151
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b6b14b678de810d83e7cbede59de4575",
+    "wof:geomhash":"629f0895a65560e2dc7fa4d563a45efe",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404379497,
-    "wof:lastmodified":1582324525,
+    "wof:lastmodified":1684353005,
     "wof:name":"Byans-Sur-Doubs",
     "wof:parent_id":102065421,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":560,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

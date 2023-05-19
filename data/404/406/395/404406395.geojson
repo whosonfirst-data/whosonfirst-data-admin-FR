@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_51512",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Quentin-sur-Coole",
+    "eurostat:nuts_2021_id":"51512",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF23",
+    "eurostat:nuts_2021_level_lau":"51512",
+    "eurostat:population":104,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200043438",
     "frgov:id":"BDCSURCO0000000009589622",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.001086,
-    "geom:area_square_m":8835413.646967,
+    "geom:area_square_m":8835413.646968,
     "geom:bbox":"4.29930377102,48.8246860464,4.36051536309,48.8722728583",
     "geom:latitude":48.84941,
     "geom:longitude":4.325813,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683405,
         102191581,
@@ -58,7 +72,10 @@
         102066041
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_51512",
+        "eurostat:nuts_2021_id":"51512"
+    },
     "wof:coterminous":[
         1125818175
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9365f2d11863ae24a9d507d4125311fa",
+    "wof:geomhash":"7afeb5b4531949d3507c891042466bfb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404406395,
-    "wof:lastmodified":1582324445,
+    "wof:lastmodified":1684353325,
     "wof:name":"Saint-Quentin-Sur-Coole",
     "wof:parent_id":102066041,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":104,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

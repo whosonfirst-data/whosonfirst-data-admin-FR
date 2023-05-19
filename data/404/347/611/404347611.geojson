@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_39049",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bersaillin",
+    "eurostat:nuts_2021_id":"39049",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC22",
+    "eurostat:nuts_2021_level_lau":"39049",
+    "eurostat:population":405,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071595",
     "frgov:id":"BDCSURCO0000000009600895",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001657,
-    "geom:area_square_m":14006804.565025,
+    "geom:area_square_m":14006804.565024,
     "geom:bbox":"5.56364004179,46.8381395731,5.62664551563,46.8827940849",
     "geom:latitude":46.857151,
     "geom:longitude":5.595375,
@@ -120,6 +132,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683173,
         102191581,
@@ -130,7 +144,10 @@
         102068591
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_39049",
+        "eurostat:nuts_2021_id":"39049"
+    },
     "wof:coterminous":[
         1126036655
     ],
@@ -138,7 +155,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"96ed09eb3855a9541c1bdc7f0631769b",
+    "wof:geomhash":"a9817876d7a5afc87740e73343d2b73b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -152,11 +169,13 @@
         }
     ],
     "wof:id":404347611,
-    "wof:lastmodified":1582324722,
+    "wof:lastmodified":1684352583,
     "wof:name":"Bersaillin",
     "wof:parent_id":102068591,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":405,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

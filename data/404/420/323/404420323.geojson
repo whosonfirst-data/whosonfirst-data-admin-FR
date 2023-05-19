@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_62764",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Nicolas",
+    "eurostat:nuts_2021_id":"62764",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE1",
+    "eurostat:nuts_2021_level_3":"FRE12",
+    "eurostat:nuts_2021_level_lau":"62764",
+    "eurostat:population":4738,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200033579",
     "frgov:id":"BDCSURCO0000000009581329",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000398,
-    "geom:area_square_m":3144883.482551,
+    "geom:area_square_m":3144883.48255,
     "geom:bbox":"2.7685493066,50.2980418634,2.80270063366,50.3213482642",
     "geom:latitude":50.308289,
     "geom:longitude":2.785044,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683255,
         102191581,
@@ -58,7 +72,10 @@
         102064675
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_62764",
+        "eurostat:nuts_2021_id":"62764"
+    },
     "wof:coterminous":[
         101840385
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e428fb6a7d1d6478552cf3e2948c2583",
+    "wof:geomhash":"423ef2c3b93697cc5974003db44bff84",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404420323,
-    "wof:lastmodified":1582325203,
+    "wof:lastmodified":1684353486,
     "wof:name":"Saint-Nicolas",
     "wof:parent_id":102064675,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":4738,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

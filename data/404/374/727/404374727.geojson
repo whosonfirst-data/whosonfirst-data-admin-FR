@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_44192",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Viaud",
+    "eurostat:nuts_2021_id":"44192",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG01",
+    "eurostat:nuts_2021_level_lau":"44192",
+    "eurostat:population":2510,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244400586",
     "frgov:id":"BDCSURCO0000000009599344",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003866,
-    "geom:area_square_m":32449437.291878,
+    "geom:area_square_m":32449437.291879,
     "geom:bbox":"-2.02477025926,47.1957651724,-1.94919052744,47.2876430464",
     "geom:latitude":47.247765,
     "geom:longitude":-1.993052,
@@ -132,6 +144,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683233,
         102191581,
@@ -141,7 +155,10 @@
         102071139
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_44192",
+        "eurostat:nuts_2021_id":"44192"
+    },
     "wof:coterminous":[
         101764691
     ],
@@ -149,7 +166,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"40ac412f0f9fe9cb407b1c02badb6755",
+    "wof:geomhash":"2898568707b7143cd9d1a0ebeced8aa2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -162,11 +179,13 @@
         }
     ],
     "wof:id":404374727,
-    "wof:lastmodified":1582325404,
+    "wof:lastmodified":1684352945,
     "wof:name":"Saint-Viaud",
     "wof:parent_id":102071139,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2510,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

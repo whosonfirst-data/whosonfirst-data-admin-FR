@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_18141",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mehun-sur-Y\u00e8vre",
+    "eurostat:nuts_2021_id":"18141",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB01",
+    "eurostat:nuts_2021_level_lau":"18141",
+    "eurostat:population":6562,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070571",
     "frgov:id":"BDCSURCO0000000009600062",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00291,
-    "geom:area_square_m":24474247.128136,
+    "geom:area_square_m":24474247.128135,
     "geom:bbox":"2.17591222647,47.1017433652,2.2738455968,47.1610746475",
     "geom:latitude":47.135865,
     "geom:longitude":2.220706,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683549,
         102191581,
@@ -57,7 +71,10 @@
         102068063
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_18141",
+        "eurostat:nuts_2021_id":"18141"
+    },
     "wof:coterminous":[
         101767211
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"27c1c0ecc7b1f78cbe5511b9198281ce",
+    "wof:geomhash":"7de83ef10b95be3d3e145d14b1b9e818",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404398257,
-    "wof:lastmodified":1582324107,
+    "wof:lastmodified":1684353228,
     "wof:name":"Mehun-Sur-Yevre",
     "wof:parent_id":102068063,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":6562,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

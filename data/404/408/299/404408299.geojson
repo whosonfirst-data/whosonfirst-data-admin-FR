@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_22313",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Martin-des-Pr\u00e9s",
+    "eurostat:nuts_2021_id":"22313",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH01",
+    "eurostat:nuts_2021_level_lau":"22313",
+    "eurostat:population":315,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067460",
     "frgov:id":"BDCSURCO0000000009593072",
     "frgov:insee_arr":"4",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683515,
         102191581,
@@ -57,7 +71,10 @@
         102066191
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_22313",
+        "eurostat:nuts_2021_id":"22313"
+    },
     "wof:coterminous":[
         1125901435
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"679caa42c2640447544a4c8ed5eba7c6",
+    "wof:geomhash":"40852d94211712cf82b70df0f257c5dc",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404408299,
-    "wof:lastmodified":1582324467,
+    "wof:lastmodified":1684353347,
     "wof:name":"Saint-Martin-Des-Pres",
     "wof:parent_id":102066191,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":315,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

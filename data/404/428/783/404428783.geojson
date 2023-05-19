@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_38224",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mayres-Savel",
+    "eurostat:nuts_2021_id":"38224",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK24",
+    "eurostat:nuts_2021_level_lau":"38224",
+    "eurostat:population":97,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040657",
     "frgov:id":"BDCSURCO0000000009608486",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001583,
-    "geom:area_square_m":13870337.001127,
+    "geom:area_square_m":13870337.001126,
     "geom:bbox":"5.67700903316,44.8649211153,5.73450073455,44.9144851274",
     "geom:latitude":44.886602,
     "geom:longitude":5.710877,
@@ -123,6 +135,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683427,
         102191581,
@@ -133,7 +147,10 @@
         102067967
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_38224",
+        "eurostat:nuts_2021_id":"38224"
+    },
     "wof:coterminous":[
         1125912763
     ],
@@ -141,7 +158,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"50cbfdb6d1969a7d4449919976f0cb8f",
+    "wof:geomhash":"f209dc9efb764faed0c1e64817647313",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -155,11 +172,13 @@
         }
     ],
     "wof:id":404428783,
-    "wof:lastmodified":1582325118,
+    "wof:lastmodified":1684353589,
     "wof:name":"Mayres-Savel",
     "wof:parent_id":102067967,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":97,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

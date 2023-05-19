@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_32450",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Tourdun",
+    "eurostat:nuts_2021_id":"32450",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ24",
+    "eurostat:nuts_2021_level_lau":"32450",
+    "eurostat:population":117,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243200508",
     "frgov:id":"BDCSURCO0000000009613738",
     "frgov:insee_arr":"3",
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683467,
         102191581,
@@ -136,7 +150,10 @@
         102066923
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_32450",
+        "eurostat:nuts_2021_id":"32450"
+    },
     "wof:coterminous":[
         1125940895
     ],
@@ -144,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b42e834f2cf5e391b37f5262dd59ac6b",
+    "wof:geomhash":"a50f1d9f44377a5590907f7fa8251d1d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +175,13 @@
         }
     ],
     "wof:id":404384023,
-    "wof:lastmodified":1582324613,
+    "wof:lastmodified":1684353060,
     "wof:name":"Tourdun",
     "wof:parent_id":102066923,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":117,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_91556",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Hilaire",
+    "eurostat:nuts_2021_id":"91556",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR104",
+    "eurostat:nuts_2021_level_lau":"91556",
+    "eurostat:population":408,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200017846",
     "frgov:id":"BDCSURCO0000000009592923",
     "frgov:insee_arr":"1",
@@ -100,6 +112,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683371,
         102191581,
@@ -109,7 +123,10 @@
         102065665
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_91556",
+        "eurostat:nuts_2021_id":"91556"
+    },
     "wof:coterminous":[
         1360676347
     ],
@@ -117,7 +134,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f324cf3fcfb18f307e63c5afe6ed93a7",
+    "wof:geomhash":"a6b993d136e3c2a62bf629a00660575e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -130,11 +147,13 @@
         }
     ],
     "wof:id":404385841,
-    "wof:lastmodified":1582324638,
+    "wof:lastmodified":1684353080,
     "wof:name":"Saint-Hilaire",
     "wof:parent_id":102065665,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":408,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

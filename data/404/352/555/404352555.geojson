@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_22328",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Servais",
+    "eurostat:nuts_2021_id":"22328",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH01",
+    "eurostat:nuts_2021_level_lau":"22328",
+    "eurostat:population":405,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067981",
     "frgov:id":"BDCSURCO0000000009592664",
     "frgov:insee_arr":"2",
@@ -87,6 +99,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683515,
         102191581,
@@ -96,7 +110,10 @@
         102065081
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_22328",
+        "eurostat:nuts_2021_id":"22328"
+    },
     "wof:coterminous":[
         1125938795
     ],
@@ -104,7 +121,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f9f10d0db9b312c489a48c5b77b444b8",
+    "wof:geomhash":"03b5468230b06372d91c5c205b417201",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -117,11 +134,13 @@
         }
     ],
     "wof:id":404352555,
-    "wof:lastmodified":1582324170,
+    "wof:lastmodified":1684352652,
     "wof:name":"Saint-Servais",
     "wof:parent_id":102065081,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":405,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

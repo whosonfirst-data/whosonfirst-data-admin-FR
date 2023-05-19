@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_02777",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Vendi\u00e8res",
+    "eurostat:nuts_2021_id":"02777",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE21",
+    "eurostat:nuts_2021_level_lau":"02777",
+    "eurostat:population":160,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240200584",
     "frgov:id":"BDCSURCO0000000009589650",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001563,
-    "geom:area_square_m":12714623.581337,
+    "geom:area_square_m":12714623.581336,
     "geom:bbox":"3.39889801035,48.8541292903,3.48999217142,48.8958855296",
     "geom:latitude":48.873217,
     "geom:longitude":3.442738,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683247,
         102191581,
@@ -58,7 +72,10 @@
         102065405
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_02777",
+        "eurostat:nuts_2021_id":"02777"
+    },
     "wof:coterminous":[
         1125942113
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"cd9c53d3d8bb431d1a196fce684c9230",
+    "wof:geomhash":"108337deb0367cb5b34a496429575214",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404348753,
-    "wof:lastmodified":1582324576,
+    "wof:lastmodified":1684352599,
     "wof:name":"Vendieres",
     "wof:parent_id":102065405,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":160,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

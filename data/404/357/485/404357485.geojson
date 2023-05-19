@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_79076",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Chapelle-Saint-Laurent",
+    "eurostat:nuts_2021_id":"79076",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI33",
+    "eurostat:nuts_2021_level_lau":"79076",
+    "eurostat:population":2002,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040244",
     "frgov:id":"BDCSURCO0000000009601681",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003395,
-    "geom:area_square_m":28774546.689494,
+    "geom:area_square_m":28774546.689495,
     "geom:bbox":"-0.510479422337,46.704387522,-0.424478712426,46.7623808523",
     "geom:latitude":46.732208,
     "geom:longitude":-0.465982,
@@ -132,6 +144,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683163,
         102191581,
@@ -142,7 +156,10 @@
         102067727
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_79076",
+        "eurostat:nuts_2021_id":"79076"
+    },
     "wof:coterminous":[
         101766749
     ],
@@ -150,7 +167,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"dd932a8511d7eaed6fcba778be4b35fe",
+    "wof:geomhash":"6ad5090b2d819ca440c81617991fffcf",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -164,11 +181,13 @@
         }
     ],
     "wof:id":404357485,
-    "wof:lastmodified":1582324888,
+    "wof:lastmodified":1684352718,
     "wof:name":"La Chapelle-Saint-Laurent",
     "wof:parent_id":102067727,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2002,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

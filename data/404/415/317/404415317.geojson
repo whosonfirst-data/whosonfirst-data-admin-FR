@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_41218",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Julien-sur-Cher",
+    "eurostat:nuts_2021_id":"41218",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB05",
+    "eurostat:nuts_2021_level_lau":"41218",
+    "eurostat:population":768,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200018406",
     "frgov:id":"BDCSURCO0000000009599541",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683349,
         102191581,
@@ -57,7 +71,10 @@
         102065971
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_41218",
+        "eurostat:nuts_2021_id":"41218"
+    },
     "wof:coterminous":[
         101888423
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"00d39e54a0cb7d7a99915a5fc43bf556",
+    "wof:geomhash":"a2bcb7ff966e5f26672f17698b45d52f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404415317,
-    "wof:lastmodified":1582324366,
+    "wof:lastmodified":1684353429,
     "wof:name":"Saint-Julien-Sur-Cher",
     "wof:parent_id":102065971,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":768,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

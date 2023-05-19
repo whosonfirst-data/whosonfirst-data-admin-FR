@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_45021",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Barville-en-G\u00e2tinais",
+    "eurostat:nuts_2021_id":"45021",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB06",
+    "eurostat:nuts_2021_level_lau":"45021",
+    "eurostat:population":324,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071850",
     "frgov:id":"BDCSURCO0000000009595120",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683479,
         102191581,
@@ -57,7 +71,10 @@
         102064781
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_45021",
+        "eurostat:nuts_2021_id":"45021"
+    },
     "wof:coterminous":[
         101884327
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"dbbd7e144d6e65d61bae6635794c0d61",
+    "wof:geomhash":"bdcb0d1acee871e4c3b30a79aa736f9b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404370601,
-    "wof:lastmodified":1582324608,
+    "wof:lastmodified":1684352897,
     "wof:name":"Barville-En-Gatinais",
     "wof:parent_id":102064781,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":324,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

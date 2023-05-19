@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_47265",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Pastour",
+    "eurostat:nuts_2021_id":"47265",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI14",
+    "eurostat:nuts_2021_level_lau":"47265",
+    "eurostat:population":389,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244701405",
     "frgov:id":"BDCSURCO0000000009610408",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001655,
-    "geom:area_square_m":14603931.846415,
+    "geom:area_square_m":14603931.846414,
     "geom:bbox":"0.560933428402,44.4643209766,0.635614225435,44.5066919318",
     "geom:latitude":44.485905,
     "geom:longitude":0.60317,
@@ -123,6 +135,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683341,
         102191581,
@@ -133,7 +147,10 @@
         102068645
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_47265",
+        "eurostat:nuts_2021_id":"47265"
+    },
     "wof:coterminous":[
         1125776491
     ],
@@ -141,7 +158,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b58affb1be344d4d6ff910bf9342a15e",
+    "wof:geomhash":"a8cb3e352d4485f9cc3b6a132c9d49ae",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -155,11 +172,13 @@
         }
     ],
     "wof:id":404391001,
-    "wof:lastmodified":1582324013,
+    "wof:lastmodified":1684353143,
     "wof:name":"Saint-Pastour",
     "wof:parent_id":102068645,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":389,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_40263",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Jean-de-Lier",
+    "eurostat:nuts_2021_id":"40263",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI13",
+    "eurostat:nuts_2021_level_lau":"40263",
+    "eurostat:population":414,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069631",
     "frgov:id":"BDCSURCO0000000009612591",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000913,
-    "geom:area_square_m":8151841.668918,
+    "geom:area_square_m":8151841.668919,
     "geom:bbox":"-0.898646965681,43.7642743261,-0.860550255324,43.8065814806",
     "geom:latitude":43.785535,
     "geom:longitude":-0.880084,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683183,
         102191581,
@@ -58,7 +72,10 @@
         102066437
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_40263",
+        "eurostat:nuts_2021_id":"40263"
+    },
     "wof:coterminous":[
         1125812873
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c8698a5cc524418b425403e46b5b227a",
+    "wof:geomhash":"2e4a66b1db5d718ccde4d7bfa43f76be",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404380569,
-    "wof:lastmodified":1582325371,
+    "wof:lastmodified":1684353017,
     "wof:name":"Saint-Jean-De-Lier",
     "wof:parent_id":102066437,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":414,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

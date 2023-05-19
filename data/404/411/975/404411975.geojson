@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_82089",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lamagist\u00e8re",
+    "eurostat:nuts_2021_id":"82089",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ28",
+    "eurostat:nuts_2021_level_lau":"82089",
+    "eurostat:population":1154,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248200016",
     "frgov:id":"BDCSURCO0000000009611452",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683217,
         102191581,
@@ -58,7 +72,10 @@
         102068365
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_82089",
+        "eurostat:nuts_2021_id":"82089"
+    },
     "wof:coterminous":[
         101772823
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"70d2f8e3fad2c99ce96907b9941c34cf",
+    "wof:geomhash":"7cc8b03bab732761f0e8a9f50fd3f736",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404411975,
-    "wof:lastmodified":1582325176,
+    "wof:lastmodified":1684353389,
     "wof:name":"Lamagistere",
     "wof:parent_id":102068365,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1154,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

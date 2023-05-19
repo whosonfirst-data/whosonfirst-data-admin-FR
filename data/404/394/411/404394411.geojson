@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_80511",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Marestmontiers",
+    "eurostat:nuts_2021_id":"80511",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE23",
+    "eurostat:nuts_2021_level_lau":"80511",
+    "eurostat:population":113,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070977",
     "frgov:id":"BDCSURCO0000000009583584",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000309,
-    "geom:area_square_m":2470105.949103,
+    "geom:area_square_m":2470105.949104,
     "geom:bbox":"2.5094735443,49.6730714269,2.53499120667,49.6916387732",
     "geom:latitude":49.683027,
     "geom:longitude":2.521526,
@@ -124,6 +136,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683363,
         102191581,
@@ -134,7 +148,10 @@
         102069403
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_80511",
+        "eurostat:nuts_2021_id":"80511"
+    },
     "wof:coterminous":[
         1360677197
     ],
@@ -142,7 +159,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5d2378d5baa69c98f8e1ec66573baabf",
+    "wof:geomhash":"468b99c0603d2290fc947e664d764dc8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -156,11 +173,13 @@
         }
     ],
     "wof:id":404394411,
-    "wof:lastmodified":1582325035,
+    "wof:lastmodified":1684353184,
     "wof:name":"Marestmontiers",
     "wof:parent_id":102069403,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":113,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

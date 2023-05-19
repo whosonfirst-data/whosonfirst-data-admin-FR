@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_44176",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Malo-de-Guersac",
+    "eurostat:nuts_2021_id":"44176",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG01",
+    "eurostat:nuts_2021_level_lau":"44176",
+    "eurostat:population":3166,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244400644",
     "frgov:id":"BDCSURCO0000000009598750",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001832,
-    "geom:area_square_m":15345454.569083,
+    "geom:area_square_m":15345454.569084,
     "geom:bbox":"-2.20901517183,47.3335538198,-2.13745296244,47.3879086308",
     "geom:latitude":47.355924,
     "geom:longitude":-2.172399,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683233,
         102191581,
@@ -57,7 +71,10 @@
         102071461
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_44176",
+        "eurostat:nuts_2021_id":"44176"
+    },
     "wof:coterminous":[
         101829615
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5d21524234d1d3a11db79f7b551bbe5e",
+    "wof:geomhash":"e68ccfd6bb23f751c36955e416c29f4d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404410607,
-    "wof:lastmodified":1582325157,
+    "wof:lastmodified":1684353373,
     "wof:name":"Saint-Malo-De-Guersac",
     "wof:parent_id":102071461,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3166,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

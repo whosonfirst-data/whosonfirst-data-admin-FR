@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_21311",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Grosbois-l\u00e8s-Tichey",
+    "eurostat:nuts_2021_id":"21311",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC11",
+    "eurostat:nuts_2021_level_lau":"21311",
+    "eurostat:population":77,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242101509",
     "frgov:id":"BDCSURCO0000000009600459",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683563,
         102191581,
@@ -58,7 +72,10 @@
         102070367
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_21311",
+        "eurostat:nuts_2021_id":"21311"
+    },
     "wof:coterminous":[
         1126055675
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6a8c6d16a9b7c7dc0e3ea9abe6a06b02",
+    "wof:geomhash":"d95ba8ce0a555ed1a108a8cf29248b32",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404413721,
-    "wof:lastmodified":1582324331,
+    "wof:lastmodified":1684353411,
     "wof:name":"Grosbois-Les-Tichey",
     "wof:parent_id":102070367,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":77,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

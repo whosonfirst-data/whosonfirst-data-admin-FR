@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_42107",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gumi\u00e8res",
+    "eurostat:nuts_2021_id":"42107",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK25",
+    "eurostat:nuts_2021_level_lau":"42107",
+    "eurostat:population":322,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200065886",
     "frgov:id":"BDCSURCO0000000009606333",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001851,
-    "geom:area_square_m":16033301.96316,
+    "geom:area_square_m":16033301.963159,
     "geom:bbox":"3.94571674305,45.503218682,4.02052025325,45.5558265339",
     "geom:latitude":45.527543,
     "geom:longitude":3.977369,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683377,
         102191581,
@@ -58,7 +72,10 @@
         102069629
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_42107",
+        "eurostat:nuts_2021_id":"42107"
+    },
     "wof:coterminous":[
         1125928985
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ad93738228b557088a43bf1b2e835ba3",
+    "wof:geomhash":"480a5d437fc2a301ba79c6b369dbfe19",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404422109,
-    "wof:lastmodified":1582324289,
+    "wof:lastmodified":1684353510,
     "wof:name":"Gumieres",
     "wof:parent_id":102069629,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":322,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

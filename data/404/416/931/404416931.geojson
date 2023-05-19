@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_27152",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ch\u00e2teau-sur-Epte",
+    "eurostat:nuts_2021_id":"27152",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD21",
+    "eurostat:nuts_2021_level_lau":"27152",
+    "eurostat:population":569,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072312",
     "frgov:id":"BDCSURCO0000000009586727",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000566,
-    "geom:area_square_m":4569165.573999,
+    "geom:area_square_m":4569165.573998,
     "geom:bbox":"1.63411545258,49.1874186753,1.67694961986,49.2152514264",
     "geom:latitude":49.200263,
     "geom:longitude":1.659614,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683283,
         102191581,
@@ -58,7 +72,10 @@
         102066791
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_27152",
+        "eurostat:nuts_2021_id":"27152"
+    },
     "wof:coterminous":[
         1126005387
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c553f1141ad52a9e2489d6d5c0db7ad2",
+    "wof:geomhash":"eea1e7a3ac6aad870b7e9364e15de016",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404416931,
-    "wof:lastmodified":1582325178,
+    "wof:lastmodified":1684353448,
     "wof:name":"Chateau-Sur-Epte",
     "wof:parent_id":102066791,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":569,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

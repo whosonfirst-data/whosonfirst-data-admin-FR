@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_09234",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Pradi\u00e8res",
+    "eurostat:nuts_2021_id":"09234",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ21",
+    "eurostat:nuts_2021_level_lau":"09234",
+    "eurostat:population":115,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067791",
     "frgov:id":"BDCSURCO0000000009615975",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683335,
         102191581,
@@ -58,7 +72,10 @@
         102068143
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_09234",
+        "eurostat:nuts_2021_id":"09234"
+    },
     "wof:coterminous":[
         1125798563
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"05c49c26ce88e85d0c6ca29eb429bbd3",
+    "wof:geomhash":"0e6ba460b7c8f38a1731dc4c5e6cac01",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404414941,
-    "wof:lastmodified":1582324340,
+    "wof:lastmodified":1684353425,
     "wof:name":"Pradieres",
     "wof:parent_id":102068143,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":115,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

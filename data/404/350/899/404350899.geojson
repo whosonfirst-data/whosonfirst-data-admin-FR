@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_77423",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Martin-des-Champs",
+    "eurostat:nuts_2021_id":"77423",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR102",
+    "eurostat:nuts_2021_level_lau":"77423",
+    "eurostat:population":650,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072544",
     "frgov:id":"BDCSURCO0000000009590149",
     "frgov:insee_arr":"3",
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683385,
         102191581,
@@ -55,7 +69,10 @@
         102066373
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_77423",
+        "eurostat:nuts_2021_id":"77423"
+    },
     "wof:coterminous":[
         1360672861
     ],
@@ -63,7 +80,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"910274d58048f07e768d22f876844136",
+    "wof:geomhash":"1c8fd155a4e3fa38515064810da66a2e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -76,11 +93,13 @@
         }
     ],
     "wof:id":404350899,
-    "wof:lastmodified":1582324861,
+    "wof:lastmodified":1684352630,
     "wof:name":"Saint-Martin-Des-Champs",
     "wof:parent_id":102066373,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":650,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

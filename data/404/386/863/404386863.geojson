@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_38317",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Pont-de-Claix",
+    "eurostat:nuts_2021_id":"38317",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK24",
+    "eurostat:nuts_2021_level_lau":"38317",
+    "eurostat:population":10435,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040715",
     "frgov:id":"BDCSURCO0000000009607634",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.000651,
-    "geom:area_square_m":5678927.195916,
+    "geom:area_square_m":5678927.195917,
     "geom:bbox":"5.68812103229,45.1030354605,5.71517772383,45.1429776156",
     "geom:latitude":45.125878,
     "geom:longitude":5.701754,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683427,
         102191581,
@@ -58,7 +72,10 @@
         102071019
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_38317",
+        "eurostat:nuts_2021_id":"38317"
+    },
     "wof:coterminous":[
         101749313
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b7263dff84fcbc9fa3e6f7c46c7affc4",
+    "wof:geomhash":"6495f3ea78e6953108aae6e093b8cf02",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404386863,
-    "wof:lastmodified":1582325456,
+    "wof:lastmodified":1684353091,
     "wof:name":"Le Pont-De-Claix",
     "wof:parent_id":102071019,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":10435,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

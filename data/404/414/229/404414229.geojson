@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_50106",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Cavigny",
+    "eurostat:nuts_2021_id":"50106",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD12",
+    "eurostat:nuts_2021_level_lau":"50106",
+    "eurostat:population":263,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066389",
     "frgov:id":"BDCSURCO0000000009586430",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000845,
-    "geom:area_square_m":6827506.514275,
+    "geom:area_square_m":6827506.514274,
     "geom:bbox":"-1.14837187583,49.1786225933,-1.09566313292,49.2033965142",
     "geom:latitude":49.190863,
     "geom:longitude":-1.122666,
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683489,
         102191581,
@@ -139,7 +153,10 @@
         102070471
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_50106",
+        "eurostat:nuts_2021_id":"50106"
+    },
     "wof:coterminous":[
         1126040137
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4f8160383007ddd4168cacdcaac2e371",
+    "wof:geomhash":"d20601d889c2c2e2a6c24058fdbb2aea",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404414229,
-    "wof:lastmodified":1582324335,
+    "wof:lastmodified":1684353417,
     "wof:name":"Cavigny",
     "wof:parent_id":102070471,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":263,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

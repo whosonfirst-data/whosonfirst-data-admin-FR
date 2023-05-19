@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_57461",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"M\u00e9tairies-Saint-Quirin",
+    "eurostat:nuts_2021_id":"57461",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF33",
+    "eurostat:nuts_2021_level_lau":"57461",
+    "eurostat:population":266,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068146",
     "frgov:id":"BDCSURCO0000000009590476",
     "frgov:insee_arr":"5",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683271,
         102191581,
@@ -58,7 +72,10 @@
         102067359
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_57461",
+        "eurostat:nuts_2021_id":"57461"
+    },
     "wof:coterminous":[
         101885071
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3f3df5f470e6162aef568a13d1a16c08",
+    "wof:geomhash":"ff7079cf5d0c06735d447b3636c76008",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404359699,
-    "wof:lastmodified":1582324801,
+    "wof:lastmodified":1684352749,
     "wof:name":"Metairies-Saint-Quirin",
     "wof:parent_id":102067359,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":266,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

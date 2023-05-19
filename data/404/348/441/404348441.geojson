@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_36207",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Plantaire",
+    "eurostat:nuts_2021_id":"36207",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB03",
+    "eurostat:nuts_2021_level_lau":"36207",
+    "eurostat:population":616,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200007052",
     "frgov:id":"BDCSURCO0000000009602677",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.004029,
-    "geom:area_square_m":34333428.956003,
+    "geom:area_square_m":34333428.956002,
     "geom:bbox":"1.60833391466,46.384902481,1.68599942581,46.4824764574",
     "geom:latitude":46.43228,
     "geom:longitude":1.648136,
@@ -127,6 +139,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683311,
         102191581,
@@ -136,7 +150,10 @@
         102064387
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_36207",
+        "eurostat:nuts_2021_id":"36207"
+    },
     "wof:coterminous":[
         1360672637
     ],
@@ -144,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f71e76e5616edf29105c4e287249513d",
+    "wof:geomhash":"13ca70bf6b01e2305cbb1ea7cc84bbbe",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -157,11 +174,13 @@
         }
     ],
     "wof:id":404348441,
-    "wof:lastmodified":1582324578,
+    "wof:lastmodified":1684352595,
     "wof:name":"Saint-Plantaire",
     "wof:parent_id":102064387,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":616,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

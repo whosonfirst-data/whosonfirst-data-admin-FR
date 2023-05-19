@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_11231",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"M\u00e9zerville",
+    "eurostat:nuts_2021_id":"11231",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ11",
+    "eurostat:nuts_2021_level_lau":"11231",
+    "eurostat:population":95,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200035855",
     "frgov:id":"BDCSURCO0000000009614941",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683485,
         102191581,
@@ -58,7 +72,10 @@
         102069605
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_11231",
+        "eurostat:nuts_2021_id":"11231"
+    },
     "wof:coterminous":[
         1125993711
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4ab7940efd600b800d754d158215d357",
+    "wof:geomhash":"d05b496c8597c6d1c9cb338fdb833220",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404403289,
-    "wof:lastmodified":1582325290,
+    "wof:lastmodified":1684353287,
     "wof:name":"Mezerville",
     "wof:parent_id":102069605,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":95,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

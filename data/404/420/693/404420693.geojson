@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_06057",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Escar\u00e8ne",
+    "eurostat:nuts_2021_id":"06057",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL03",
+    "eurostat:nuts_2021_level_lau":"06057",
+    "eurostat:population":2520,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240600593",
     "frgov:id":"BDCSURCO0000000009611916",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.001179,
-    "geom:area_square_m":10517626.769111,
+    "geom:area_square_m":10517626.769112,
     "geom:bbox":"7.33657699232,43.8077292608,7.39632022197,43.8529899098",
     "geom:latitude":43.834038,
     "geom:longitude":7.366063,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683323,
         102191581,
@@ -57,7 +71,10 @@
         102065885
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_06057",
+        "eurostat:nuts_2021_id":"06057"
+    },
     "wof:coterminous":[
         101767613
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9b643eba0b208618bc18b7978945fd95",
+    "wof:geomhash":"fd710f67bdf7eb2fc7a21bcc0c523eb3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404420693,
-    "wof:lastmodified":1582325201,
+    "wof:lastmodified":1684353492,
     "wof:name":"L'Escarene",
     "wof:parent_id":102065885,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2520,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_10021",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Avant-l\u00e8s-Ramerupt",
+    "eurostat:nuts_2021_id":"10021",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF22",
+    "eurostat:nuts_2021_level_lau":"10021",
+    "eurostat:population":157,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"241000223",
     "frgov:id":"BDCSURCO0000000009592849",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.002533,
-    "geom:area_square_m":20776806.762471,
+    "geom:area_square_m":20776806.762467,
     "geom:bbox":"4.202536844,48.4254390663,4.31720593619,48.4766531005",
     "geom:latitude":48.44838,
     "geom:longitude":4.259344,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683193,
         102191581,
@@ -58,7 +72,10 @@
         102067683
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_10021",
+        "eurostat:nuts_2021_id":"10021"
+    },
     "wof:coterminous":[
         101883079
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"833891e67f21081e66604ef46f9ba9d3",
+    "wof:geomhash":"f710c441c250c2f4ac14712de62188c1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404406193,
-    "wof:lastmodified":1582324437,
+    "wof:lastmodified":1684353323,
     "wof:name":"Avant-Les-Ramerupt",
     "wof:parent_id":102067683,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":157,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_57453",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Maxstadt",
+    "eurostat:nuts_2021_id":"57453",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF33",
+    "eurostat:nuts_2021_level_lau":"57453",
+    "eurostat:population":316,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067502",
     "frgov:id":"BDCSURCO0000000009586977",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.000965,
-    "geom:area_square_m":7819160.423006,
+    "geom:area_square_m":7819160.423004,
     "geom:bbox":"6.77817473585,49.0302238956,6.83113591248,49.0602315135",
     "geom:latitude":49.046428,
     "geom:longitude":6.8035,
@@ -132,6 +144,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683271,
         102191581,
@@ -142,7 +156,10 @@
         102066941
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_57453",
+        "eurostat:nuts_2021_id":"57453"
+    },
     "wof:coterminous":[
         101880191
     ],
@@ -150,7 +167,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ebff2d65aa6f1703a6d9bae953265f47",
+    "wof:geomhash":"80fe34d6b7d6ecea52a95ec6f4b61392",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -164,11 +181,13 @@
         }
     ],
     "wof:id":404418685,
-    "wof:lastmodified":1582325226,
+    "wof:lastmodified":1684353468,
     "wof:name":"Maxstadt",
     "wof:parent_id":102066941,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":316,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

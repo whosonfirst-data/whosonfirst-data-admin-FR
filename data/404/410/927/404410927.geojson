@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_10166",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Grandes-Chapelles",
+    "eurostat:nuts_2021_id":"10166",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF22",
+    "eurostat:nuts_2021_level_lau":"10166",
+    "eurostat:population":393,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070126",
     "frgov:id":"BDCSURCO0000000009592398",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.002687,
-    "geom:area_square_m":22027560.546501,
+    "geom:area_square_m":22027560.546503,
     "geom:bbox":"3.98579881714,48.4435023382,4.07787932496,48.4931612514",
     "geom:latitude":48.468498,
     "geom:longitude":4.027667,
@@ -120,6 +132,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683193,
         102191581,
@@ -130,7 +144,10 @@
         102066845
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_10166",
+        "eurostat:nuts_2021_id":"10166"
+    },
     "wof:coterminous":[
         101883093
     ],
@@ -138,7 +155,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"16012e02635ca53f9ea3d1270676bf06",
+    "wof:geomhash":"0824f84755c92ee7d2fafbee189f4d31",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -152,11 +169,13 @@
         }
     ],
     "wof:id":404410927,
-    "wof:lastmodified":1582325158,
+    "wof:lastmodified":1684353377,
     "wof:name":"Les Grandes-Chapelles",
     "wof:parent_id":102066845,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":393,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_79320",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Surin",
+    "eurostat:nuts_2021_id":"79320",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI33",
+    "eurostat:nuts_2021_level_lau":"79320",
+    "eurostat:population":657,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069748",
     "frgov:id":"BDCSURCO0000000009602482",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001588,
-    "geom:area_square_m":13526423.030974,
+    "geom:area_square_m":13526409.848382,
     "geom:bbox":"-0.485071,46.424178,-0.43864,46.506557",
     "geom:latitude":46.469021,
     "geom:longitude":-0.460845,
@@ -108,6 +120,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683163,
         102191581,
@@ -118,7 +132,10 @@
         102065723
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_79320",
+        "eurostat:nuts_2021_id":"79320"
+    },
     "wof:coterminous":[
         101889979
     ],
@@ -126,7 +143,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a3eaf7a465fe4e07c1abe22e57515002",
+    "wof:geomhash":"8e103570a82ba3106fec1e20ccf038d1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -140,11 +157,13 @@
         }
     ],
     "wof:id":404351715,
-    "wof:lastmodified":1636496634,
+    "wof:lastmodified":1684352641,
     "wof:name":"Surin",
     "wof:parent_id":102065723,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":657,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

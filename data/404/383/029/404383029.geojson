@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_42205",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Bonnet-le-Courreau",
+    "eurostat:nuts_2021_id":"42205",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK25",
+    "eurostat:nuts_2021_level_lau":"42205",
+    "eurostat:population":687,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200065886",
     "frgov:id":"BDCSURCO0000000009605795",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.005824,
-    "geom:area_square_m":50335828.793083,
+    "geom:area_square_m":50335828.793082,
     "geom:bbox":"3.82070321458,45.6132378684,4.0054575295,45.6949995522",
     "geom:latitude":45.655239,
     "geom:longitude":3.926007,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683377,
         102191581,
@@ -58,7 +72,10 @@
         102068911
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_42205",
+        "eurostat:nuts_2021_id":"42205"
+    },
     "wof:coterminous":[
         1125965607
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"fa92b7a81ed1d40c8731eece5f03ff62",
+    "wof:geomhash":"96242c2157a569664ad1d719c15a0a49",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404383029,
-    "wof:lastmodified":1582324550,
+    "wof:lastmodified":1684353046,
     "wof:name":"Saint-Bonnet-Le-Courreau",
     "wof:parent_id":102068911,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":687,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

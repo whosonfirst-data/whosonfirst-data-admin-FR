@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_48059",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Fage-Saint-Julien",
+    "eurostat:nuts_2021_id":"48059",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ14",
+    "eurostat:nuts_2021_level_lau":"48059",
+    "eurostat:population":303,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069185",
     "frgov:id":"BDCSURCO0000000009609207",
     "frgov:insee_arr":"2",
@@ -117,6 +129,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683453,
         102191581,
@@ -127,7 +141,10 @@
         102068027
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_48059",
+        "eurostat:nuts_2021_id":"48059"
+    },
     "wof:coterminous":[
         1125908553
     ],
@@ -135,7 +152,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"da031a4c02e638f035d49b59c0179136",
+    "wof:geomhash":"62001c6ae2b8c8efc33c342987e80735",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -149,11 +166,13 @@
         }
     ],
     "wof:id":404356953,
-    "wof:lastmodified":1582324924,
+    "wof:lastmodified":1684352711,
     "wof:name":"La Fage-Saint-Julien",
     "wof:parent_id":102068027,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":303,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

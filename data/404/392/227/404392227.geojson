@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_18229",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Palais",
+    "eurostat:nuts_2021_id":"18229",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB01",
+    "eurostat:nuts_2021_level_lau":"18229",
+    "eurostat:population":619,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066330",
     "frgov:id":"BDCSURCO0000000009599532",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003144,
-    "geom:area_square_m":26388290.454721,
+    "geom:area_square_m":26388290.454718,
     "geom:bbox":"2.36921859694,47.2146864,2.443334525,47.280441394",
     "geom:latitude":47.249096,
     "geom:longitude":2.410863,
@@ -94,6 +106,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683549,
         102191581,
@@ -103,7 +117,10 @@
         102068521
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_18229",
+        "eurostat:nuts_2021_id":"18229"
+    },
     "wof:coterminous":[
         1360677003
     ],
@@ -111,7 +128,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"33b77a2261ea62342c7f40374f3b0014",
+    "wof:geomhash":"58e23c6a491bf7ef1c6117ecf847ad66",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -124,11 +141,13 @@
         }
     ],
     "wof:id":404392227,
-    "wof:lastmodified":1582324808,
+    "wof:lastmodified":1684353159,
     "wof:name":"Saint-Palais",
     "wof:parent_id":102068521,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":619,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

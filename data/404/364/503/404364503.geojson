@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_43222",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Privat-du-Dragon",
+    "eurostat:nuts_2021_id":"43222",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK13",
+    "eurostat:nuts_2021_level_lau":"43222",
+    "eurostat:population":157,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200073393",
     "frgov:id":"BDCSURCO0000000009607711",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.002477,
-    "geom:area_square_m":21580033.323191,
+    "geom:area_square_m":21580033.323192,
     "geom:bbox":"3.41164192399,45.1646078238,3.47769563451,45.2284922872",
     "geom:latitude":45.194514,
     "geom:longitude":3.443103,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683413,
         102191581,
@@ -58,7 +72,10 @@
         102066243
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_43222",
+        "eurostat:nuts_2021_id":"43222"
+    },
     "wof:coterminous":[
         1125777769
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7c1935ffa42f059b3564c5d40b41a5d4",
+    "wof:geomhash":"d00d0efee09a27d4fc217ccfbbcb9c34",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404364503,
-    "wof:lastmodified":1582324240,
+    "wof:lastmodified":1684352817,
     "wof:name":"Saint-Privat-Du-Dragon",
     "wof:parent_id":102066243,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":157,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

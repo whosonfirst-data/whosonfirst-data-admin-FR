@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_83119",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Tropez",
+    "eurostat:nuts_2021_id":"83119",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL05",
+    "eurostat:nuts_2021_level_lau":"83119",
+    "eurostat:population":4352,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200036077",
     "frgov:id":"BDCSURCO0000000009614358",
     "frgov:insee_arr":"1",
@@ -201,6 +213,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683315,
         102191581,
@@ -210,7 +224,10 @@
         102068367
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_83119",
+        "eurostat:nuts_2021_id":"83119"
+    },
     "wof:coterminous":[
         101831601
     ],
@@ -218,7 +235,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b0bf617fc40228301d7b8dd76084abef",
+    "wof:geomhash":"9a0c44a0f712becec4df7cae8b540179",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -231,11 +248,13 @@
         }
     ],
     "wof:id":404361193,
-    "wof:lastmodified":1582324750,
+    "wof:lastmodified":1684352770,
     "wof:name":"Saint-Tropez",
     "wof:parent_id":102068367,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":4352,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

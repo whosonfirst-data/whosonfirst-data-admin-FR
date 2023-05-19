@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_02002",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Achery",
+    "eurostat:nuts_2021_id":"02002",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE21",
+    "eurostat:nuts_2021_level_lau":"02002",
+    "eurostat:population":598,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071785",
     "frgov:id":"BDCSURCO0000000009583523",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000862,
-    "geom:area_square_m":6897857.05728,
+    "geom:area_square_m":6897857.057281,
     "geom:bbox":"3.37124561181,49.6783164817,3.42333845698,49.7085328386",
     "geom:latitude":49.693995,
     "geom:longitude":3.397559,
@@ -51,6 +63,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683247,
         102191581,
@@ -61,7 +75,10 @@
         102066839
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_02002",
+        "eurostat:nuts_2021_id":"02002"
+    },
     "wof:coterminous":[
         101901507
     ],
@@ -69,7 +86,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"569405f13c82b72d90c94c60d75195f2",
+    "wof:geomhash":"10a2ab72b2eb733567a331db1b1dec72",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -83,11 +100,13 @@
         }
     ],
     "wof:id":404384475,
-    "wof:lastmodified":1582324622,
+    "wof:lastmodified":1684353065,
     "wof:name":"Achery",
     "wof:parent_id":102066839,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":598,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

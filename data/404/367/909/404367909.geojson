@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_69220",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Laurent-de-Chamousset",
+    "eurostat:nuts_2021_id":"69220",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK26",
+    "eurostat:nuts_2021_level_lau":"69220",
+    "eurostat:population":1827,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066587",
     "frgov:id":"BDCSURCO0000000009605516",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.002001,
-    "geom:area_square_m":17266554.480465,
+    "geom:area_square_m":17266554.480464,
     "geom:bbox":"4.43254737136,45.716224363,4.50543219242,45.7640947732",
     "geom:latitude":45.737824,
     "geom:longitude":4.464637,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683569,
         102191581,
@@ -58,7 +72,10 @@
         102069293
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_69220",
+        "eurostat:nuts_2021_id":"69220"
+    },
     "wof:coterminous":[
         101842909
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"972b9c9c0ab357a92c5afaa75c0b3767",
+    "wof:geomhash":"388a6496769cb38e54b9d500a5d512ea",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404367909,
-    "wof:lastmodified":1582324986,
+    "wof:lastmodified":1684352864,
     "wof:name":"Saint-Laurent-De-Chamousset",
     "wof:parent_id":102069293,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1827,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

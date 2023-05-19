@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_08252",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"L\u00e9tanne",
+    "eurostat:nuts_2021_id":"08252",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF21",
+    "eurostat:nuts_2021_level_lau":"08252",
+    "eurostat:population":129,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240800847",
     "frgov:id":"BDCSURCO0000000009584128",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.000936,
-    "geom:area_square_m":7509097.025388,
+    "geom:area_square_m":7509097.025387,
     "geom:bbox":"5.05409242685,49.5203346277,5.10094447092,49.563118763",
     "geom:latitude":49.544362,
     "geom:longitude":5.079727,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683309,
         102191581,
@@ -58,7 +72,10 @@
         102067681
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_08252",
+        "eurostat:nuts_2021_id":"08252"
+    },
     "wof:coterminous":[
         1125778447
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"99ab9628cac6d4c69bb1336c7a5b6053",
+    "wof:geomhash":"301d708c08d7aed2b5778be63b476f7a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404358109,
-    "wof:lastmodified":1582324977,
+    "wof:lastmodified":1684352727,
     "wof:name":"Letanne",
     "wof:parent_id":102067681,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":129,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

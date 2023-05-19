@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_72211",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mont-Saint-Jean",
+    "eurostat:nuts_2021_id":"72211",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG04",
+    "eurostat:nuts_2021_level_lau":"72211",
+    "eurostat:population":640,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072718",
     "frgov:id":"BDCSURCO0000000009594201",
     "frgov:insee_arr":"2",
@@ -102,6 +114,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683279,
         102191581,
@@ -111,7 +125,10 @@
         102069851
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_72211",
+        "eurostat:nuts_2021_id":"72211"
+    },
     "wof:coterminous":[
         101883169
     ],
@@ -119,7 +136,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8fa331e0e938ebe9e1a16675f4253709",
+    "wof:geomhash":"0dfb04521c2e678f4d4b32c87c8a5d34",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -132,11 +149,13 @@
         }
     ],
     "wof:id":404354229,
-    "wof:lastmodified":1582324084,
+    "wof:lastmodified":1684352675,
     "wof:name":"Mont-Saint-Jean",
     "wof:parent_id":102069851,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":640,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

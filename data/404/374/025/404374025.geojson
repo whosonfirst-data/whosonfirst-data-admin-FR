@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_80526",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Meillard",
+    "eurostat:nuts_2021_id":"80526",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE23",
+    "eurostat:nuts_2021_level_lau":"80526",
+    "eurostat:population":154,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070951",
     "frgov:id":"BDCSURCO0000000009581844",
     "frgov:insee_arr":"2",
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683363,
         102191581,
@@ -139,7 +153,10 @@
         102066533
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_80526",
+        "eurostat:nuts_2021_id":"80526"
+    },
     "wof:coterminous":[
         101898867
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"327d4efca79185da196b1c3b2274cca0",
+    "wof:geomhash":"eb521548bf736920f77e39fdde008d1d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404374025,
-    "wof:lastmodified":1582325391,
+    "wof:lastmodified":1684352936,
     "wof:name":"Le Meillard",
     "wof:parent_id":102066533,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":154,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_86120",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Lathus-Saint-R\u00e9my",
+    "eurostat:nuts_2021_id":"86120",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI34",
+    "eurostat:nuts_2021_level_lau":"86120",
+    "eurostat:population":1217,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070043",
     "frgov:id":"BDCSURCO0000000009603132",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.011527,
-    "geom:area_square_m":98436218.09372,
+    "geom:area_square_m":98436218.093718,
     "geom:bbox":"0.843603994382,46.2618172997,1.03100825727,46.3826403346",
     "geom:latitude":46.320825,
     "geom:longitude":0.943946,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683185,
         102191581,
@@ -58,7 +72,10 @@
         102067481
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_86120",
+        "eurostat:nuts_2021_id":"86120"
+    },
     "wof:coterminous":[
         101767009
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"40e775c8d5f8536f1bbe8561538416fe",
+    "wof:geomhash":"c99af470fd3f23178f1798cd6c99ea3b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404351387,
-    "wof:lastmodified":1582324963,
+    "wof:lastmodified":1684352637,
     "wof:name":"Lathus-Saint-Remy",
     "wof:parent_id":102067481,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1217,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

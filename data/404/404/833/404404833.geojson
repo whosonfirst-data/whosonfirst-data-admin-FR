@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_69055",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ch\u00e8res",
+    "eurostat:nuts_2021_id":"69055",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK26",
+    "eurostat:nuts_2021_level_lau":"69055",
+    "eurostat:population":1453,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040574",
     "frgov:id":"BDCSURCO0000000009604738",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.000642,
-    "geom:area_square_m":5527009.217256,
+    "geom:area_square_m":5527009.217257,
     "geom:bbox":"4.72672929669,45.8780338109,4.76360755909,45.9112369742",
     "geom:latitude":45.893172,
     "geom:longitude":4.743431,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683569,
         102191581,
@@ -58,7 +72,10 @@
         102066055
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_69055",
+        "eurostat:nuts_2021_id":"69055"
+    },
     "wof:coterminous":[
         101767733
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e974390b5b05cf8522e7b04887245b61",
+    "wof:geomhash":"8bcd8e6c24b6168b62bc6929fd5777c6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404404833,
-    "wof:lastmodified":1582325309,
+    "wof:lastmodified":1684353304,
     "wof:name":"Les Cheres",
     "wof:parent_id":102066055,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1453,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

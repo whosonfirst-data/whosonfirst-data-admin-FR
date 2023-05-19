@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_31165",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Eaunes",
+    "eurostat:nuts_2021_id":"31165",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ23",
+    "eurostat:nuts_2021_level_lau":"31165",
+    "eurostat:population":6162,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068641",
     "frgov:id":"BDCSURCO0000000009614194",
     "frgov:insee_arr":"1",
@@ -114,6 +126,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683397,
         102191581,
@@ -124,7 +138,10 @@
         102071625
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_31165",
+        "eurostat:nuts_2021_id":"31165"
+    },
     "wof:coterminous":[
         1125782383
     ],
@@ -132,7 +149,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9a65e196fc86bd5ef9e8c0d29ef52fbb",
+    "wof:geomhash":"027f09669832106bde9a13d9c081ad0c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -146,11 +163,13 @@
         }
     ],
     "wof:id":404378093,
-    "wof:lastmodified":1582324746,
+    "wof:lastmodified":1684352988,
     "wof:name":"Eaunes",
     "wof:parent_id":102071625,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":6162,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

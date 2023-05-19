@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_79265",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-L\u00e9ger-de-Montbrun",
+    "eurostat:nuts_2021_id":"79265",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI33",
+    "eurostat:nuts_2021_level_lau":"79265",
+    "eurostat:population":1264,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247900798",
     "frgov:id":"BDCSURCO0000000009600602",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003624,
-    "geom:area_square_m":30568541.100509,
+    "geom:area_square_m":30568541.100508,
     "geom:bbox":"-0.174370889207,46.9547244058,-0.0849169518512,47.0285561171",
     "geom:latitude":46.9896,
     "geom:longitude":-0.131054,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683163,
         102191581,
@@ -58,7 +72,10 @@
         102069965
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_79265",
+        "eurostat:nuts_2021_id":"79265"
+    },
     "wof:coterminous":[
         1126020981
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"282a038909fdf880bf7ed50e096c343a",
+    "wof:geomhash":"5a2c55d7f99b2537d19bd5420a6d1ffb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404350097,
-    "wof:lastmodified":1582324850,
+    "wof:lastmodified":1684352618,
     "wof:name":"Saint-Leger-De-Montbrun",
     "wof:parent_id":102069965,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1264,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

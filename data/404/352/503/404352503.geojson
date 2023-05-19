@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_23224",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Oradoux-de-Chirouze",
+    "eurostat:nuts_2021_id":"23224",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI22",
+    "eurostat:nuts_2021_level_lau":"23224",
+    "eurostat:population":68,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066744",
     "frgov:id":"BDCSURCO0000000009605585",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003308,
-    "geom:area_square_m":28554462.660496,
+    "geom:area_square_m":28554462.660495,
     "geom:bbox":"2.27345389569,45.702192593,2.37757427669,45.7547778402",
     "geom:latitude":45.728712,
     "geom:longitude":2.325259,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683179,
         102191581,
@@ -58,7 +72,10 @@
         102066419
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_23224",
+        "eurostat:nuts_2021_id":"23224"
+    },
     "wof:coterminous":[
         1125816247
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"de87bd5013ca14c1428f320e54969676",
+    "wof:geomhash":"32ebbe036f6af758e1b22bcef778ccc0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404352503,
-    "wof:lastmodified":1582324162,
+    "wof:lastmodified":1684352652,
     "wof:name":"Saint-Oradoux-De-Chirouze",
     "wof:parent_id":102066419,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":68,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_68081",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Bernard",
+    "eurostat:nuts_2021_id":"68081",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF1",
+    "eurostat:nuts_2021_level_3":"FRF12",
+    "eurostat:nuts_2021_level_lau":"68081",
+    "eurostat:population":571,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066041",
     "frgov:id":"BDCSURCO0000000009596607",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.000722,
-    "geom:area_square_m":6016052.90729,
+    "geom:area_square_m":6016052.907289,
     "geom:bbox":"7.18910707204,47.648767246,7.223368648,47.6831334015",
     "geom:latitude":47.665717,
     "geom:longitude":7.204043,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683381,
         102191581,
@@ -58,7 +72,10 @@
         102064281
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_68081",
+        "eurostat:nuts_2021_id":"68081"
+    },
     "wof:coterminous":[
         101888193
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a09268b5fd0015d89b11a3915dbf9b44",
+    "wof:geomhash":"ee6d326cd1a447d132d1d6d3eede0308",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404362231,
-    "wof:lastmodified":1582324060,
+    "wof:lastmodified":1684352785,
     "wof:name":"Saint-Bernard",
     "wof:parent_id":102064281,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":571,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

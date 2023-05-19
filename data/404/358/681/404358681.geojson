@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_16019",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Asni\u00e8res-sur-Nou\u00e8re",
+    "eurostat:nuts_2021_id":"16019",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI31",
+    "eurostat:nuts_2021_level_lau":"16019",
+    "eurostat:population":1224,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071827",
     "frgov:id":"BDCSURCO0000000009605631",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002474,
-    "geom:area_square_m":21362656.066299,
+    "geom:area_square_m":21362656.066298,
     "geom:bbox":"0.010693285838,45.6754218946,0.0849090421966,45.738264907",
     "geom:latitude":45.708398,
     "geom:longitude":0.048358,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683437,
         102191581,
@@ -58,7 +72,10 @@
         102067179
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_16019",
+        "eurostat:nuts_2021_id":"16019"
+    },
     "wof:coterminous":[
         101892311
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"6b31c1965d9538e351cd8357f14452bc",
+    "wof:geomhash":"55cb76acb5c465163cc435ce493845d8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404358681,
-    "wof:lastmodified":1582324968,
+    "wof:lastmodified":1684352735,
     "wof:name":"Asnieres-Sur-Nouere",
     "wof:parent_id":102067179,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1224,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

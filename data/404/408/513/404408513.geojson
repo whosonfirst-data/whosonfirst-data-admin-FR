@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_80629",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"P\u009cuilly",
+    "eurostat:nuts_2021_id":"80629",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE23",
+    "eurostat:nuts_2021_level_lau":"80629",
+    "eurostat:population":121,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200037059",
     "frgov:id":"BDCSURCO0000000009582453",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000769,
-    "geom:area_square_m":6126654.222628,
+    "geom:area_square_m":6126654.222629,
     "geom:bbox":"3.07861072232,49.8655937919,3.12086737172,49.9037432287",
     "geom:latitude":49.884698,
     "geom:longitude":3.096683,
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683363,
         102191581,
@@ -136,7 +150,10 @@
         102070707
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_80629",
+        "eurostat:nuts_2021_id":"80629"
+    },
     "wof:coterminous":[
         1125797289
     ],
@@ -144,7 +161,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f2d8b7ec92e43a142b90cc92b62b7068",
+    "wof:geomhash":"797f10d38b29e822bf597a3fc36e85f3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -158,11 +175,13 @@
         }
     ],
     "wof:id":404408513,
-    "wof:lastmodified":1582324468,
+    "wof:lastmodified":1684353349,
     "wof:name":"Poeuilly",
     "wof:parent_id":102070707,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":121,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

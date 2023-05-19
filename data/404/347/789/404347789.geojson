@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_32382",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Jean-Poutge",
+    "eurostat:nuts_2021_id":"32382",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ24",
+    "eurostat:nuts_2021_level_lau":"32382",
+    "eurostat:population":322,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066926",
     "frgov:id":"BDCSURCO0000000009613012",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001204,
-    "geom:area_square_m":10754267.429168,
+    "geom:area_square_m":10754267.429169,
     "geom:bbox":"0.356488822396,43.7112262653,0.408792536013,43.7619503735",
     "geom:latitude":43.734282,
     "geom:longitude":0.381971,
@@ -120,6 +132,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683467,
         102191581,
@@ -130,7 +144,10 @@
         102069619
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_32382",
+        "eurostat:nuts_2021_id":"32382"
+    },
     "wof:coterminous":[
         101895333
     ],
@@ -138,7 +155,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f411baab72384423eaf60122a7cac9c9",
+    "wof:geomhash":"02c52b8ada77ae4a116221a9510ea7e1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -152,11 +169,13 @@
         }
     ],
     "wof:id":404347789,
-    "wof:lastmodified":1582324731,
+    "wof:lastmodified":1684352585,
     "wof:name":"Saint-Jean-Poutge",
     "wof:parent_id":102069619,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":322,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

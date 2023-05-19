@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_74252",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Sigismond",
+    "eurostat:nuts_2021_id":"74252",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK28",
+    "eurostat:nuts_2021_level_lau":"74252",
+    "eurostat:population":589,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200033116",
     "frgov:id":"BDCSURCO0000000009603650",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.000913,
-    "geom:area_square_m":7830750.815555,
+    "geom:area_square_m":7830750.815554,
     "geom:bbox":"6.59266243628,46.0587839891,6.64415251697,46.0896760612",
     "geom:latitude":46.075002,
     "geom:longitude":6.616393,
@@ -87,6 +99,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683227,
         102191581,
@@ -97,7 +111,10 @@
         102066117
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_74252",
+        "eurostat:nuts_2021_id":"74252"
+    },
     "wof:coterminous":[
         101893753
     ],
@@ -105,7 +122,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d99c1a88d43e4b017d935ff20b832bb7",
+    "wof:geomhash":"33580396740e668a6040f9fcf2d39d90",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -119,11 +136,13 @@
         }
     ],
     "wof:id":404362871,
-    "wof:lastmodified":1582324059,
+    "wof:lastmodified":1684352794,
     "wof:name":"Saint-Sigismond",
     "wof:parent_id":102066117,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":589,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

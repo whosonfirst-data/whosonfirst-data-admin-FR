@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_25607",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Vernois-l\u00e8s-Belvoir",
+    "eurostat:nuts_2021_id":"25607",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC21",
+    "eurostat:nuts_2021_level_lau":"25607",
+    "eurostat:population":60,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242504371",
     "frgov:id":"BDCSURCO0000000009598782",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000561,
-    "geom:area_square_m":4700755.353606,
+    "geom:area_square_m":4700755.353604,
     "geom:bbox":"6.62851555443,47.2986327557,6.65771070568,47.3391773185",
     "geom:latitude":47.321314,
     "geom:longitude":6.64016,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683239,
         102191581,
@@ -58,7 +72,10 @@
         102068203
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_25607",
+        "eurostat:nuts_2021_id":"25607"
+    },
     "wof:coterminous":[
         1126029333
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0578cde9b97afe9e6769bf0f0364306f",
+    "wof:geomhash":"7cf6375c68f1490467d1673a23e34f7c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404408837,
-    "wof:lastmodified":1582324466,
+    "wof:lastmodified":1684353353,
     "wof:name":"Vernois-Les-Belvoir",
     "wof:parent_id":102068203,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":60,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

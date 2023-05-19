@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_44168",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Joachim",
+    "eurostat:nuts_2021_id":"44168",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG01",
+    "eurostat:nuts_2021_level_lau":"44168",
+    "eurostat:population":4033,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244400644",
     "frgov:id":"BDCSURCO0000000009598751",
     "frgov:insee_arr":"3",
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683233,
         102191581,
@@ -135,7 +149,10 @@
         102070031
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_44168",
+        "eurostat:nuts_2021_id":"44168"
+    },
     "wof:coterminous":[
         101829613
     ],
@@ -143,7 +160,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"821348596220ee9aaa9d66193ebc678a",
+    "wof:geomhash":"fc006318c2530504d8871ac7429fd49b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -156,11 +173,13 @@
         }
     ],
     "wof:id":404409693,
-    "wof:lastmodified":1582324475,
+    "wof:lastmodified":1684353363,
     "wof:name":"Saint-Joachim",
     "wof:parent_id":102070031,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":4033,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

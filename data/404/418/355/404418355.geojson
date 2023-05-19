@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_51447",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Prosnes",
+    "eurostat:nuts_2021_id":"51447",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF23",
+    "eurostat:nuts_2021_level_lau":"51447",
+    "eurostat:population":490,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067213",
     "frgov:id":"BDCSURCO0000000009586594",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.004042,
-    "geom:area_square_m":32659660.76079,
+    "geom:area_square_m":32659660.760791,
     "geom:bbox":"4.25673286085,49.1674631969,4.34776446374,49.2327192449",
     "geom:latitude":49.20039,
     "geom:longitude":4.304817,
@@ -111,6 +123,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683405,
         102191581,
@@ -121,7 +135,10 @@
         102064983
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_51447",
+        "eurostat:nuts_2021_id":"51447"
+    },
     "wof:coterminous":[
         101878661
     ],
@@ -129,7 +146,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"852f3adea118e7b6fe82969dc04fa2ec",
+    "wof:geomhash":"0569215ae8e8ad1cf756c7a810b35896",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -143,11 +160,13 @@
         }
     ],
     "wof:id":404418355,
-    "wof:lastmodified":1582325217,
+    "wof:lastmodified":1684353464,
     "wof:name":"Prosnes",
     "wof:parent_id":102064983,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":490,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_28348",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Lubin-des-Joncherets",
+    "eurostat:nuts_2021_id":"28348",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB02",
+    "eurostat:nuts_2021_level_lau":"28348",
+    "eurostat:population":3995,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040277",
     "frgov:id":"BDCSURCO0000000009590718",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001768,
-    "geom:area_square_m":14416831.908163,
+    "geom:area_square_m":14416831.908162,
     "geom:bbox":"1.16089565764,48.7198524778,1.22314229025,48.7730123323",
     "geom:latitude":48.751058,
     "geom:longitude":1.187557,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683189,
         102191581,
@@ -57,7 +71,10 @@
         102065163
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_28348",
+        "eurostat:nuts_2021_id":"28348"
+    },
     "wof:coterminous":[
         101827875
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3203b1fb92142e29a385795f84d43895",
+    "wof:geomhash":"9831a496266e814bff6ffca732fca390",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404426047,
-    "wof:lastmodified":1582325081,
+    "wof:lastmodified":1684353557,
     "wof:name":"Saint-Lubin-Des-Joncherets",
     "wof:parent_id":102065163,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3995,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

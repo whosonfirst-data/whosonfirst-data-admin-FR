@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_24397",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Cyr-les-Champagnes",
+    "eurostat:nuts_2021_id":"24397",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI11",
+    "eurostat:nuts_2021_level_lau":"24397",
+    "eurostat:population":244,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242401024",
     "frgov:id":"BDCSURCO0000000009607100",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001857,
-    "geom:area_square_m":16135193.182422,
+    "geom:area_square_m":16135193.18242,
     "geom:bbox":"1.26010898584,45.3421316968,1.32507717857,45.3975926995",
     "geom:latitude":45.372173,
     "geom:longitude":1.291413,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683331,
         102191581,
@@ -58,7 +72,10 @@
         102067613
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_24397",
+        "eurostat:nuts_2021_id":"24397"
+    },
     "wof:coterminous":[
         1126027353
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"65da7581db30a68d1854d7bc738db926",
+    "wof:geomhash":"dd42dcfb42b68f5cc061ae570f97666a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404368121,
-    "wof:lastmodified":1582324874,
+    "wof:lastmodified":1684352867,
     "wof:name":"Saint-Cyr-Les-Champagnes",
     "wof:parent_id":102067613,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":244,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

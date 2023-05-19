@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_55192",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Fontaines-Saint-Clair",
+    "eurostat:nuts_2021_id":"55192",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF32",
+    "eurostat:nuts_2021_level_lau":"55192",
+    "eurostat:population":55,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066132",
     "frgov:id":"BDCSURCO0000000009585202",
     "frgov:insee_arr":"3",
@@ -121,6 +133,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683297,
         102191581,
@@ -131,7 +145,10 @@
         102065583
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_55192",
+        "eurostat:nuts_2021_id":"55192"
+    },
     "wof:coterminous":[
         1360675873
     ],
@@ -139,7 +156,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ed50e804785770284256779fad6df17d",
+    "wof:geomhash":"56319f44564ab78abdb0a8e7a5d2f142",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -153,11 +170,13 @@
         }
     ],
     "wof:id":404380695,
-    "wof:lastmodified":1582325376,
+    "wof:lastmodified":1684353019,
     "wof:name":"Fontaines-Saint-Clair",
     "wof:parent_id":102065583,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":55,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

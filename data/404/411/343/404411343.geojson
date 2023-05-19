@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_59114",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bruille-Saint-Amand",
+    "eurostat:nuts_2021_id":"59114",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE1",
+    "eurostat:nuts_2021_level_3":"FRE11",
+    "eurostat:nuts_2021_level_lau":"59114",
+    "eurostat:population":1671,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200042190",
     "frgov:id":"BDCSURCO0000000009580981",
     "frgov:insee_arr":"6",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001001,
-    "geom:area_square_m":7878720.950847,
+    "geom:area_square_m":7878720.950845,
     "geom:bbox":"3.47837826319,50.4409516184,3.53553486337,50.4870527999",
     "geom:latitude":50.465034,
     "geom:longitude":3.506471,
@@ -121,6 +133,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683445,
         102191581,
@@ -131,7 +145,10 @@
         102071701
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_59114",
+        "eurostat:nuts_2021_id":"59114"
+    },
     "wof:coterminous":[
         1360678837
     ],
@@ -139,7 +156,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f32d54e56cce09c2c5cbc7075089030b",
+    "wof:geomhash":"64709a6f34923685cb63da1f5758d90e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -153,11 +170,13 @@
         }
     ],
     "wof:id":404411343,
-    "wof:lastmodified":1582325176,
+    "wof:lastmodified":1684353381,
     "wof:name":"Bruille-Saint-Amand",
     "wof:parent_id":102071701,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1671,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

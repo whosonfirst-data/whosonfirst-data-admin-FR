@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_19246",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Viance",
+    "eurostat:nuts_2021_id":"19246",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI21",
+    "eurostat:nuts_2021_level_lau":"19246",
+    "eurostat:population":1853,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200043172",
     "frgov:id":"BDCSURCO0000000009607764",
     "frgov:insee_arr":"1",
@@ -132,6 +144,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683209,
         102191581,
@@ -142,7 +156,10 @@
         102065817
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_19246",
+        "eurostat:nuts_2021_id":"19246"
+    },
     "wof:coterminous":[
         101769277
     ],
@@ -150,7 +167,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e8af1598f4afe722c1d6ade12f834c8a",
+    "wof:geomhash":"cc31a88c81f690e43ac974c8d476db97",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -164,11 +181,13 @@
         }
     ],
     "wof:id":404413121,
-    "wof:lastmodified":1582324323,
+    "wof:lastmodified":1684353403,
     "wof:name":"Saint-Viance",
     "wof:parent_id":102065817,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1853,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

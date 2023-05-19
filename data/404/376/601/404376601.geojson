@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_16193",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Louzac-Saint-Andr\u00e9",
+    "eurostat:nuts_2021_id":"16193",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI31",
+    "eurostat:nuts_2021_level_lau":"16193",
+    "eurostat:population":995,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070514",
     "frgov:id":"BDCSURCO0000000009605407",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001175,
-    "geom:area_square_m":10140279.770261,
+    "geom:area_square_m":10140279.77026,
     "geom:bbox":"-0.42081213483,45.7064244745,-0.369795139536,45.7434781889",
     "geom:latitude":45.724209,
     "geom:longitude":-0.396993,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683437,
         102191581,
@@ -56,7 +70,10 @@
         102070265
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_16193",
+        "eurostat:nuts_2021_id":"16193"
+    },
     "wof:coterminous":[
         1360675439
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f3be77ce933eaf33d823879b6c7ba93b",
+    "wof:geomhash":"988dc9173f13fef8a2341a51fe2e5961",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404376601,
-    "wof:lastmodified":1582324675,
+    "wof:lastmodified":1684352971,
     "wof:name":"Louzac-Saint-Andre",
     "wof:parent_id":102070265,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":995,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

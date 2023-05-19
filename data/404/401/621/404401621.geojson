@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_71456",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Martin-en-Bresse",
+    "eurostat:nuts_2021_id":"71456",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC13",
+    "eurostat:nuts_2021_level_lau":"71456",
+    "eurostat:population":1921,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040038",
     "frgov:id":"BDCSURCO0000000009601358",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.004124,
-    "geom:area_square_m":34906811.454994,
+    "geom:area_square_m":34906811.454992,
     "geom:bbox":"5.01109313134,46.7570032449,5.10338215415,46.8435545298",
     "geom:latitude":46.804726,
     "geom:longitude":5.060199,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683543,
         102191581,
@@ -58,7 +72,10 @@
         102071371
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_71456",
+        "eurostat:nuts_2021_id":"71456"
+    },
     "wof:coterminous":[
         101766605
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"16c7c1878ebeb53e39bcd70407dd62f5",
+    "wof:geomhash":"72d5223a3adf352d296e9de3edb2cfeb",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404401621,
-    "wof:lastmodified":1582324422,
+    "wof:lastmodified":1684353268,
     "wof:name":"Saint-Martin-En-Bresse",
     "wof:parent_id":102071371,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1921,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

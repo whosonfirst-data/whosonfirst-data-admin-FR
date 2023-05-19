@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_73263",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Offenge",
+    "eurostat:nuts_2021_id":"73263",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK27",
+    "eurostat:nuts_2021_level_lau":"73263",
+    "eurostat:population":1104,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068674",
     "frgov:id":"BDCSURCO0000000343154448",
     "frgov:insee_arr":"2",
@@ -120,6 +132,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683265,
         102191581,
@@ -130,7 +144,10 @@
         102070155
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_73263",
+        "eurostat:nuts_2021_id":"73263"
+    },
     "wof:coterminous":[
         1125937327
     ],
@@ -138,7 +155,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"03464f395e8f5c75bc0b86e5c745aa2c",
+    "wof:geomhash":"6f698f4f95ad6b2ae3a6a9e1aa32f4fa",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -152,11 +169,13 @@
         }
     ],
     "wof:id":404372411,
-    "wof:lastmodified":1582325470,
+    "wof:lastmodified":1684352917,
     "wof:name":"Saint-Offenge-Dessus",
     "wof:parent_id":102070155,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1104,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

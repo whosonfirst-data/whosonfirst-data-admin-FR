@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_54577",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Villers-l\u00e8s-Moivrons",
+    "eurostat:nuts_2021_id":"54577",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF31",
+    "eurostat:nuts_2021_level_lau":"54577",
+    "eurostat:population":148,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070589",
     "frgov:id":"BDCSURCO0000000009589034",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683343,
         102191581,
@@ -58,7 +72,10 @@
         102068651
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_54577",
+        "eurostat:nuts_2021_id":"54577"
+    },
     "wof:coterminous":[
         1125833691
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2575c209dba9e8e7bbc9873ee533fb77",
+    "wof:geomhash":"1c1ef49367ba0d75617c0a75675519b8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404381377,
-    "wof:lastmodified":1582325432,
+    "wof:lastmodified":1684353026,
     "wof:name":"Villers-Les-Moivrons",
     "wof:parent_id":102068651,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":148,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

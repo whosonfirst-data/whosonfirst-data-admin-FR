@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_21605",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sennecey-l\u00e8s-Dijon",
+    "eurostat:nuts_2021_id":"21605",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC11",
+    "eurostat:nuts_2021_level_lau":"21605",
+    "eurostat:population":2041,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242100410",
     "frgov:id":"BDCSURCO0000000009599163",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000417,
-    "geom:area_square_m":3498767.48433,
+    "geom:area_square_m":3498767.484331,
     "geom:bbox":"5.089250867,47.2822501962,5.12292907706,47.3017094851",
     "geom:latitude":47.292134,
     "geom:longitude":5.104554,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683563,
         102191581,
@@ -58,7 +72,10 @@
         102066083
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_21605",
+        "eurostat:nuts_2021_id":"21605"
+    },
     "wof:coterminous":[
         101753315
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"857c3d4c473fb286cd41ff606a131bea",
+    "wof:geomhash":"910bfb34b5fc6bd89e2ba34394c84d7f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404421349,
-    "wof:lastmodified":1582325102,
+    "wof:lastmodified":1684353501,
     "wof:name":"Sennecey-Les-Dijon",
     "wof:parent_id":102066083,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2041,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_76586",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Gilles-de-la-Neuville",
+    "eurostat:nuts_2021_id":"76586",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD22",
+    "eurostat:nuts_2021_level_lau":"76586",
+    "eurostat:population":645,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247600539",
     "frgov:id":"BDCSURCO0000000009584032",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683251,
         102191581,
@@ -58,7 +72,10 @@
         102071483
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_76586",
+        "eurostat:nuts_2021_id":"76586"
+    },
     "wof:coterminous":[
         101901937
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"df2a94acf845c9a83a651c9a610a80aa",
+    "wof:geomhash":"f328be7367923bcbf8d5fe344a236f77",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404374567,
-    "wof:lastmodified":1582325388,
+    "wof:lastmodified":1684352942,
     "wof:name":"Saint-Gilles-De-La-Neuville",
     "wof:parent_id":102071483,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":645,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

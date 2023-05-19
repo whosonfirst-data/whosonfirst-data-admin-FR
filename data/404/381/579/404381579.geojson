@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_88259",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Landaville",
+    "eurostat:nuts_2021_id":"88259",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF3",
+    "eurostat:nuts_2021_level_3":"FRF34",
+    "eurostat:nuts_2021_level_lau":"88259",
+    "eurostat:population":298,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068559",
     "frgov:id":"BDCSURCO0000000009593597",
     "frgov:insee_arr":"2",
@@ -123,6 +135,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683223,
         102191581,
@@ -133,7 +147,10 @@
         102067663
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_88259",
+        "eurostat:nuts_2021_id":"88259"
+    },
     "wof:coterminous":[
         101884117
     ],
@@ -141,7 +158,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"582454ae4b0336cb602aa3a9a2eb8715",
+    "wof:geomhash":"f7c1a4f9d2f4248f34a6bcca43aa0620",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -155,11 +172,13 @@
         }
     ],
     "wof:id":404381579,
-    "wof:lastmodified":1582325441,
+    "wof:lastmodified":1684353028,
     "wof:name":"Landaville",
     "wof:parent_id":102067663,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":298,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

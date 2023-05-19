@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_90089",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Rougemont-le-Ch\u00e2teau",
+    "eurostat:nuts_2021_id":"90089",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC24",
+    "eurostat:nuts_2021_level_lau":"90089",
+    "eurostat:population":1479,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069060",
     "frgov:id":"BDCSURCO0000000009596288",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683353,
         102191581,
@@ -58,7 +72,10 @@
         102065071
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_90089",
+        "eurostat:nuts_2021_id":"90089"
+    },
     "wof:coterminous":[
         101765553
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"59ff251b1a2570b0e4b49c92322c5b9f",
+    "wof:geomhash":"dea75e7de86b9fa604723b95b0932b63",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404428481,
-    "wof:lastmodified":1582325121,
+    "wof:lastmodified":1684353585,
     "wof:name":"Rougemont-Le-Chateau",
     "wof:parent_id":102065071,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1479,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

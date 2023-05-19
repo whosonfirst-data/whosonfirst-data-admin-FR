@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_37119",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"\u00cele-Bouchard",
+    "eurostat:nuts_2021_id":"37119",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB04",
+    "eurostat:nuts_2021_level_lau":"37119",
+    "eurostat:population":1553,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072668",
     "frgov:id":"BDCSURCO0000000009600093",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000429,
-    "geom:area_square_m":3606700.398718,
+    "geom:area_square_m":3606700.398719,
     "geom:bbox":"0.402120755029,47.1100877488,0.440398334319,47.137802001",
     "geom:latitude":47.123194,
     "geom:longitude":0.423747,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683575,
         102191581,
@@ -57,7 +71,10 @@
         102066031
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_37119",
+        "eurostat:nuts_2021_id":"37119"
+    },
     "wof:coterminous":[
         101765605
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9ad6a542beb2182bfd0501adabdd3204",
+    "wof:geomhash":"a0c8ec832a356f5aa2409e1625286157",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404404165,
-    "wof:lastmodified":1582325312,
+    "wof:lastmodified":1684353297,
     "wof:name":"L'Ile-Bouchard",
     "wof:parent_id":102066031,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1553,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

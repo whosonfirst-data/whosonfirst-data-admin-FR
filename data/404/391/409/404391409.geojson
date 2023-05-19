@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_58233",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Benin-des-Bois",
+    "eurostat:nuts_2021_id":"58233",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC12",
+    "eurostat:nuts_2021_level_lau":"58233",
+    "eurostat:population":168,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067908",
     "frgov:id":"BDCSURCO0000000009600036",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002324,
-    "geom:area_square_m":19552062.888336,
+    "geom:area_square_m":19552062.888335,
     "geom:bbox":"3.3750039426,47.0893446295,3.43749311197,47.1512936851",
     "geom:latitude":47.118859,
     "geom:longitude":3.404992,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683359,
         102191581,
@@ -58,7 +72,10 @@
         102068655
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_58233",
+        "eurostat:nuts_2021_id":"58233"
+    },
     "wof:coterminous":[
         1125808557
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d0ec80dd5dc5a784ccf9e2918a6d7f23",
+    "wof:geomhash":"d37cb064e6def71ffab7d542e311718f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404391409,
-    "wof:lastmodified":1582324012,
+    "wof:lastmodified":1684353149,
     "wof:name":"Saint-Benin-Des-Bois",
     "wof:parent_id":102068655,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":168,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

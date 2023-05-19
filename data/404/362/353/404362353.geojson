@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_30231",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Andr\u00e9-de-Valborgne",
+    "eurostat:nuts_2021_id":"30231",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ12",
+    "eurostat:nuts_2021_level_lau":"30231",
+    "eurostat:population":382,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200034601",
     "frgov:id":"BDCSURCO0000000009611398",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.005504,
-    "geom:area_square_m":48831342.729868,
+    "geom:area_square_m":48831342.729869,
     "geom:bbox":"3.62610746088,44.1134912747,3.77358387324,44.1863773094",
     "geom:latitude":44.147608,
     "geom:longitude":3.685505,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683431,
         102191581,
@@ -58,7 +72,10 @@
         102069013
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_30231",
+        "eurostat:nuts_2021_id":"30231"
+    },
     "wof:coterminous":[
         1125956757
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a88bb5c1c144846f81b9d2fda0ed910b",
+    "wof:geomhash":"29d5f99abad6faaaece46dd983f9fbec",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404362353,
-    "wof:lastmodified":1582324046,
+    "wof:lastmodified":1684352786,
     "wof:name":"Saint-Andre-De-Valborgne",
     "wof:parent_id":102069013,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":382,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

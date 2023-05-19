@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_35264",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Didier",
+    "eurostat:nuts_2021_id":"35264",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH03",
+    "eurostat:nuts_2021_level_lau":"35264",
+    "eurostat:population":2052,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200039022",
     "frgov:id":"BDCSURCO0000000009594930",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BRETAGNE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001718,
-    "geom:area_square_m":14189466.812485,
+    "geom:area_square_m":14189466.812484,
     "geom:bbox":"-1.3965996199,48.0683499779,-1.32460451506,48.1142675523",
     "geom:latitude":48.093228,
     "geom:longitude":-1.35795,
@@ -93,6 +105,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683461,
         102191581,
@@ -102,7 +116,10 @@
         102065231
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_35264",
+        "eurostat:nuts_2021_id":"35264"
+    },
     "wof:coterminous":[
         101762427
     ],
@@ -110,7 +127,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7e13ead6bba4172ad05e12d1f46fabbe",
+    "wof:geomhash":"1090ed35fa46faf8573c1c57ab5cce90",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -123,11 +140,13 @@
         }
     ],
     "wof:id":404368305,
-    "wof:lastmodified":1582324877,
+    "wof:lastmodified":1684352869,
     "wof:name":"Saint-Didier",
     "wof:parent_id":102065231,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2052,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

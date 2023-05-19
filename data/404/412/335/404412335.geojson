@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_79088",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Chich\u00e9",
+    "eurostat:nuts_2021_id":"79088",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI33",
+    "eurostat:nuts_2021_level_lau":"79088",
+    "eurostat:population":1690,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040244",
     "frgov:id":"BDCSURCO0000000009601471",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.005604,
-    "geom:area_square_m":47441637.573189,
+    "geom:area_square_m":47441637.57319,
     "geom:bbox":"-0.419855833933,46.7547171416,-0.282973140913,46.8290754603",
     "geom:latitude":46.795503,
     "geom:longitude":-0.351998,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683163,
         102191581,
@@ -58,7 +72,10 @@
         102064873
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_79088",
+        "eurostat:nuts_2021_id":"79088"
+    },
     "wof:coterminous":[
         101766757
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"85eb8004aa0bf90ca26fb34687d66767",
+    "wof:geomhash":"05945d0826068e86b3a58711ddd2bc3b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404412335,
-    "wof:lastmodified":1582324378,
+    "wof:lastmodified":1684353393,
     "wof:name":"Chiche",
     "wof:parent_id":102064873,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1690,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

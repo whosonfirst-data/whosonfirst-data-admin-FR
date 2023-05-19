@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_22295",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Gilles-Vieux-March\u00e9",
+    "eurostat:nuts_2021_id":"22295",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH01",
+    "eurostat:nuts_2021_level_lau":"22295",
+    "eurostat:population":354,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067460",
     "frgov:id":"BDCSURCO0000000009593884",
     "frgov:insee_arr":"4",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683515,
         102191581,
@@ -57,7 +71,10 @@
         102069331
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_22295",
+        "eurostat:nuts_2021_id":"22295"
+    },
     "wof:coterminous":[
         101881623
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8daaba1e4f3ccd4478a987afa00c7277",
+    "wof:geomhash":"7339ceb061ae0ce6b7dd3b20555b0b27",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404410235,
-    "wof:lastmodified":1582325148,
+    "wof:lastmodified":1684353369,
     "wof:name":"Saint-Gilles-Vieux-Marche",
     "wof:parent_id":102069331,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":354,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

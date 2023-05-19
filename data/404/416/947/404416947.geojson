@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_05022",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Br\u00e9ziers",
+    "eurostat:nuts_2021_id":"05022",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL02",
+    "eurostat:nuts_2021_level_lau":"05022",
+    "eurostat:population":230,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067320",
     "frgov:id":"BDCSURCO0000000009610251",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.003466,
-    "geom:area_square_m":30605816.974815,
+    "geom:area_square_m":30605816.974817,
     "geom:bbox":"6.17394490412,44.381700392,6.26249451055,44.4508699233",
     "geom:latitude":44.42097,
     "geom:longitude":6.22339,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683597,
         102191581,
@@ -57,7 +71,10 @@
         102065503
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_05022",
+        "eurostat:nuts_2021_id":"05022"
+    },
     "wof:coterminous":[
         1126039945
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"260bab8b6b931225db5eb224c2627d27",
+    "wof:geomhash":"6546cbf48a9f6cee150510b556158234",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404416947,
-    "wof:lastmodified":1582325185,
+    "wof:lastmodified":1684353448,
     "wof:name":"Breziers",
     "wof:parent_id":102065503,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":230,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

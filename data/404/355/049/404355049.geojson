@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_50353",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mont-Saint-Michel",
+    "eurostat:nuts_2021_id":"50353",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD12",
+    "eurostat:nuts_2021_level_lau":"50353",
+    "eurostat:population":30,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069425",
     "frgov:id":"BDCSURCO0000000009591252",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683489,
         102191581,
@@ -58,7 +72,10 @@
         102069633
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_50353",
+        "eurostat:nuts_2021_id":"50353"
+    },
     "wof:coterminous":[
         1125886575
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7d0930216cfa16eb31c1a6aef729dedd",
+    "wof:geomhash":"8e89bd0c913d5689035b70d25cc67140",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404355049,
-    "wof:lastmodified":1582324184,
+    "wof:lastmodified":1684352686,
     "wof:name":"Le Mont-Saint-Michel",
     "wof:parent_id":102069633,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":30,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

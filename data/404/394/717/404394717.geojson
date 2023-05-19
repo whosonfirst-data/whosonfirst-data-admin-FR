@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_01282",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Outriaz",
+    "eurostat:nuts_2021_id":"01282",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK21",
+    "eurostat:nuts_2021_level_lau":"01282",
+    "eurostat:population":260,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200042935",
     "frgov:id":"BDCSURCO0000000009603693",
     "frgov:insee_arr":"4",
@@ -159,6 +171,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683153,
         102191581,
@@ -169,7 +183,10 @@
         102065385
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_01282",
+        "eurostat:nuts_2021_id":"01282"
+    },
     "wof:coterminous":[
         101892489
     ],
@@ -177,7 +194,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"bee7668d98252c73bf82d4d11e99112d",
+    "wof:geomhash":"73cec2a2c13624cae0bbf0c4935cf916",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -191,11 +208,13 @@
         }
     ],
     "wof:id":404394717,
-    "wof:lastmodified":1582325038,
+    "wof:lastmodified":1684353187,
     "wof:name":"Outriaz",
     "wof:parent_id":102065385,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":260,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

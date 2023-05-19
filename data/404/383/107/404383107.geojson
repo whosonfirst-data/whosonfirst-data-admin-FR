@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_05155",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Pierre-Avez",
+    "eurostat:nuts_2021_id":"05155",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL02",
+    "eurostat:nuts_2021_level_lau":"05155",
+    "eurostat:population":29,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068765",
     "frgov:id":"BDCSURCO0000000009610814",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.001333,
-    "geom:area_square_m":11804458.961514,
+    "geom:area_square_m":11804458.961513,
     "geom:bbox":"5.74232414363,44.2291493723,5.79185893236,44.2681085265",
     "geom:latitude":44.248818,
     "geom:longitude":5.76796,
@@ -126,6 +138,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683597,
         102191581,
@@ -135,7 +149,10 @@
         102067233
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_05155",
+        "eurostat:nuts_2021_id":"05155"
+    },
     "wof:coterminous":[
         1125871793
     ],
@@ -143,7 +160,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"21d028a1c4c41712b029b2378cb423c0",
+    "wof:geomhash":"0a97a10f5da6aa717db9c5abfaa14581",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -156,11 +173,13 @@
         }
     ],
     "wof:id":404383107,
-    "wof:lastmodified":1582324548,
+    "wof:lastmodified":1684353047,
     "wof:name":"Saint-Pierre-Avez",
     "wof:parent_id":102067233,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":29,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

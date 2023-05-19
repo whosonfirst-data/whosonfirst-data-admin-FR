@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_30269",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Jean-du-Gard",
+    "eurostat:nuts_2021_id":"30269",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ12",
+    "eurostat:nuts_2021_level_lau":"30269",
+    "eurostat:population":2433,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066918",
     "frgov:id":"BDCSURCO0000000009611573",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.004668,
-    "geom:area_square_m":41443647.618649,
+    "geom:area_square_m":41443647.61865,
     "geom:bbox":"3.82024884064,44.0724086059,3.93896980344,44.1471609722",
     "geom:latitude":44.106913,
     "geom:longitude":3.877978,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683431,
         102191581,
@@ -58,7 +72,10 @@
         102069617
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_30269",
+        "eurostat:nuts_2021_id":"30269"
+    },
     "wof:coterminous":[
         101772725
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c0a9c3597e57879932fbf646cdd9db1b",
+    "wof:geomhash":"f1b545329efe8555386dc95831e077ac",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404357871,
-    "wof:lastmodified":1582324899,
+    "wof:lastmodified":1684352723,
     "wof:name":"Saint-Jean-Du-Gard",
     "wof:parent_id":102069617,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2433,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

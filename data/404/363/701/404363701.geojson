@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_42310",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Th\u00e9lis-la-Combe",
+    "eurostat:nuts_2021_id":"42310",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK25",
+    "eurostat:nuts_2021_level_lau":"42310",
+    "eurostat:population":158,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244200622",
     "frgov:id":"BDCSURCO0000000009607027",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001664,
-    "geom:area_square_m":14460760.133886,
+    "geom:area_square_m":14460760.133888,
     "geom:bbox":"4.51763932928,45.3058151954,4.58114546435,45.3676874833",
     "geom:latitude":45.336034,
     "geom:longitude":4.547747,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683377,
         102191581,
@@ -58,7 +72,10 @@
         102064775
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_42310",
+        "eurostat:nuts_2021_id":"42310"
+    },
     "wof:coterminous":[
         1125823857
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f3b715258b0b72c25f5bd2c993263d7a",
+    "wof:geomhash":"150a902cdc74cfa101414d2a5b568edd",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404363701,
-    "wof:lastmodified":1582324218,
+    "wof:lastmodified":1684352805,
     "wof:name":"Thelis-La-Combe",
     "wof:parent_id":102064775,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":158,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

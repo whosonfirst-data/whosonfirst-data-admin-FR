@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_79070",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Chapelle-B\u00e2ton",
+    "eurostat:nuts_2021_id":"79070",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI3",
+    "eurostat:nuts_2021_level_3":"FRI33",
+    "eurostat:nuts_2021_level_lau":"79070",
+    "eurostat:population":398,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069748",
     "frgov:id":"BDCSURCO0000000009602476",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001986,
-    "geom:area_square_m":16913550.645902,
+    "geom:area_square_m":16913550.645901,
     "geom:bbox":"-0.352994861881,46.4339422821,-0.295833814755,46.498503725",
     "geom:latitude":46.468644,
     "geom:longitude":-0.324414,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683163,
         102191581,
@@ -56,7 +70,10 @@
         102065723
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_79070",
+        "eurostat:nuts_2021_id":"79070"
+    },
     "wof:coterminous":[
         1360672917
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3d1a84633516168bb07766768975f92f",
+    "wof:geomhash":"3e9a0720cd40915a7bff5c3e113b5b1f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404351573,
-    "wof:lastmodified":1582324954,
+    "wof:lastmodified":1684352639,
     "wof:name":"La Chapelle-Baton",
     "wof:parent_id":102065723,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":398,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

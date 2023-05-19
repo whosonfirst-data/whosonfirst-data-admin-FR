@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_18089",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"\u00c9pineuil-le-Fleuriel",
+    "eurostat:nuts_2021_id":"18089",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB01",
+    "eurostat:nuts_2021_level_lau":"18089",
+    "eurostat:population":443,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200049484",
     "frgov:id":"BDCSURCO0000000009602208",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683549,
         102191581,
@@ -57,7 +71,10 @@
         102069329
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_18089",
+        "eurostat:nuts_2021_id":"18089"
+    },
     "wof:coterminous":[
         101893033
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"dfe27f42ea7757bde2383d1bb81f018d",
+    "wof:geomhash":"cbc03e5b11034fb8b8ef7540bba1d8ae",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404349859,
-    "wof:lastmodified":1582324704,
+    "wof:lastmodified":1684352614,
     "wof:name":"Epineuil-Le-Fleuriel",
     "wof:parent_id":102069329,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":443,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

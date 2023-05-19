@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_26234",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Pi\u00e9gros-la-Clastre",
+    "eurostat:nuts_2021_id":"26234",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK23",
+    "eurostat:nuts_2021_level_lau":"26234",
+    "eurostat:population":843,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040509",
     "frgov:id":"BDCSURCO0000000009609389",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.002817,
-    "geom:area_square_m":24762037.451189,
+    "geom:area_square_m":24762037.451193,
     "geom:bbox":"5.05271234759,44.6607770254,5.13594687994,44.715040943",
     "geom:latitude":44.684763,
     "geom:longitude":5.097166,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683523,
         102191581,
@@ -58,7 +72,10 @@
         102065623
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_26234",
+        "eurostat:nuts_2021_id":"26234"
+    },
     "wof:coterminous":[
         1125984361
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7f7866626aa7547f7cd98c58112e3d9a",
+    "wof:geomhash":"f06f0051c8d01589c0c548f986d77b46",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404413305,
-    "wof:lastmodified":1582324326,
+    "wof:lastmodified":1684353405,
     "wof:name":"Piegros-La-Clastre",
     "wof:parent_id":102065623,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":843,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

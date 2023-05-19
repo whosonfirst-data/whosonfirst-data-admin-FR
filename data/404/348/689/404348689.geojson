@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_66034",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Camp\u00f4me",
+    "eurostat:nuts_2021_id":"66034",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ15",
+    "eurostat:nuts_2021_level_lau":"66034",
+    "eurostat:population":111,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200049211",
     "frgov:id":"BDCSURCO0000000009616519",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000586,
-    "geom:area_square_m":5329857.613212,
+    "geom:area_square_m":5329857.613211,
     "geom:bbox":"2.36487855092,42.6283506664,2.41229353656,42.6779988463",
     "geom:latitude":42.642759,
     "geom:longitude":2.384411,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683169,
         102191581,
@@ -58,7 +72,10 @@
         102066171
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_66034",
+        "eurostat:nuts_2021_id":"66034"
+    },
     "wof:coterminous":[
         1126007251
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a46a959608618a8cbb8bd8a7ae7617f3",
+    "wof:geomhash":"a07988af09191ff5792710dad25ebe34",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404348689,
-    "wof:lastmodified":1582324578,
+    "wof:lastmodified":1684352598,
     "wof:name":"Campome",
     "wof:parent_id":102066171,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":111,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

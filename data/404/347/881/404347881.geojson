@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_85151",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mortagne-sur-S\u00e8vre",
+    "eurostat:nuts_2021_id":"85151",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG05",
+    "eurostat:nuts_2021_level_lau":"85151",
+    "eurostat:population":5930,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"248500662",
     "frgov:id":"BDCSURCO0000000009600619",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002614,
-    "geom:area_square_m":22044207.899201,
+    "geom:area_square_m":22044207.899202,
     "geom:bbox":"-1.0161100511,46.964276285,-0.891959950302,47.0212895047",
     "geom:latitude":46.990966,
     "geom:longitude":-0.945612,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683409,
         102191581,
@@ -57,7 +71,10 @@
         102067085
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_85151",
+        "eurostat:nuts_2021_id":"85151"
+    },
     "wof:coterminous":[
         101765521
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4e6c83a910eeaef764e286a8498451f2",
+    "wof:geomhash":"2068db51a146f4beb677f9c68f26c25c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404347881,
-    "wof:lastmodified":1582324722,
+    "wof:lastmodified":1684352587,
     "wof:name":"Mortagne-Sur-Sevre",
     "wof:parent_id":102067085,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":5930,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

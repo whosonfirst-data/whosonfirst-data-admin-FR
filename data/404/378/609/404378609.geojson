@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_77308",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Montg\u00e9-en-Go\u00eble",
+    "eurostat:nuts_2021_id":"77308",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR102",
+    "eurostat:nuts_2021_level_lau":"77308",
+    "eurostat:population":772,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200033090",
     "frgov:id":"BDCSURCO0000000009588183",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"ILE-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001412,
-    "geom:area_square_m":11448568.26381,
+    "geom:area_square_m":11448568.263809,
     "geom:bbox":"2.71278405645,49.0060050252,2.77733385311,49.0494719464",
     "geom:latitude":49.029613,
     "geom:longitude":2.7436,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683385,
         102191581,
@@ -57,7 +71,10 @@
         102065855
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_77308",
+        "eurostat:nuts_2021_id":"77308"
+    },
     "wof:coterminous":[
         101879585
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"ed62fba7a14130024041c41793a7bb72",
+    "wof:geomhash":"587a0948b32e359cd31be16697635bcf",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404378609,
-    "wof:lastmodified":1582324746,
+    "wof:lastmodified":1684352994,
     "wof:name":"Montge-En-Goele",
     "wof:parent_id":102065855,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":772,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

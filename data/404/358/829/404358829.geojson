@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_43037",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Bouchet-Saint-Nicolas",
+    "eurostat:nuts_2021_id":"43037",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK13",
+    "eurostat:nuts_2021_level_lau":"43037",
+    "eurostat:population":280,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244301123",
     "frgov:id":"BDCSURCO0000000009608738",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.002204,
-    "geom:area_square_m":19313007.666842,
+    "geom:area_square_m":19313007.666841,
     "geom:bbox":"3.75045706312,44.8589403472,3.82491957648,44.911574426",
     "geom:latitude":44.886363,
     "geom:longitude":3.78734,
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683413,
         102191581,
@@ -139,7 +153,10 @@
         102065303
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_43037",
+        "eurostat:nuts_2021_id":"43037"
+    },
     "wof:coterminous":[
         101894407
     ],
@@ -147,7 +164,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b7f09a637c53cfd73d8421b26aec9aaf",
+    "wof:geomhash":"783ee1ac7e1368e3e0e02d60545146d6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -161,11 +178,13 @@
         }
     ],
     "wof:id":404358829,
-    "wof:lastmodified":1582324968,
+    "wof:lastmodified":1684352737,
     "wof:name":"Le Bouchet-Saint-Nicolas",
     "wof:parent_id":102065303,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":280,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_12120",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Laissac-S\u00e9v\u00e9rac l'\u00c9glise",
+    "eurostat:nuts_2021_id":"12120",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ22",
+    "eurostat:nuts_2021_level_lau":"12120",
+    "eurostat:population":2120,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068484",
     "frgov:id":"BDCSURCO0000000009610713",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003829,
-    "geom:area_square_m":33846427.980729,
+    "geom:area_square_m":33846427.980732,
     "geom:bbox":"2.79031521921,44.332767727,2.8801817562,44.4055829526",
     "geom:latitude":44.362407,
     "geom:longitude":2.831713,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683301,
         102191581,
@@ -58,7 +72,10 @@
         102067027
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_12120",
+        "eurostat:nuts_2021_id":"12120"
+    },
     "wof:coterminous":[
         101895987
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0e221c26e40d23d8b63a93afe13a4dfd",
+    "wof:geomhash":"6f9b52bd4a32547b94181e32189f9282",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404372785,
-    "wof:lastmodified":1582325466,
+    "wof:lastmodified":1684352921,
     "wof:name":"Severac-L'Eglise",
     "wof:parent_id":102067027,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2120,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

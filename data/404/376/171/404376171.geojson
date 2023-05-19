@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_19235",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Paul",
+    "eurostat:nuts_2021_id":"19235",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI21",
+    "eurostat:nuts_2021_level_lau":"19235",
+    "eurostat:population":221,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"241927201",
     "frgov:id":"BDCSURCO0000000009607747",
     "frgov:insee_arr":"2",
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683209,
         102191581,
@@ -56,7 +70,10 @@
         102068005
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_19235",
+        "eurostat:nuts_2021_id":"19235"
+    },
     "wof:coterminous":[
         1360675391
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5412655a69e37c9b1fa78a756a4364b4",
+    "wof:geomhash":"1fcd215acc07aad84661464d52827662",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404376171,
-    "wof:lastmodified":1582324678,
+    "wof:lastmodified":1684352965,
     "wof:name":"Saint-Paul",
     "wof:parent_id":102068005,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":221,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

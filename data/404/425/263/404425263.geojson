@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_14006",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Amay\u00e9-sur-Orne",
+    "eurostat:nuts_2021_id":"14006",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD1",
+    "eurostat:nuts_2021_level_3":"FRD11",
+    "eurostat:nuts_2021_level_lau":"14006",
+    "eurostat:population":1001,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066728",
     "frgov:id":"BDCSURCO0000000009587353",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000642,
-    "geom:area_square_m":5199188.180637,
+    "geom:area_square_m":5199188.180638,
     "geom:bbox":"-0.460200155122,49.0787230307,-0.411500202416,49.1040311809",
     "geom:latitude":49.091136,
     "geom:longitude":-0.434477,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683579,
         102191581,
@@ -58,7 +72,10 @@
         102067239
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_14006",
+        "eurostat:nuts_2021_id":"14006"
+    },
     "wof:coterminous":[
         101877897
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"62a52e061efa23bd5494066247d20017",
+    "wof:geomhash":"f865a4ab5ef0731fba692ee59ef2aff2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404425263,
-    "wof:lastmodified":1582324311,
+    "wof:lastmodified":1684353548,
     "wof:name":"Amaye-Sur-Orne",
     "wof:parent_id":102067239,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1001,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

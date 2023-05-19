@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_58249",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-L\u00e9ger-de-Fougeret",
+    "eurostat:nuts_2021_id":"58249",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC12",
+    "eurostat:nuts_2021_level_lau":"58249",
+    "eurostat:population":373,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067890",
     "frgov:id":"BDCSURCO0000000009600508",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683359,
         102191581,
@@ -58,7 +72,10 @@
         102064669
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_58249",
+        "eurostat:nuts_2021_id":"58249"
+    },
     "wof:coterminous":[
         1125984965
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"71dcec87cc41061a9bafca651e277c70",
+    "wof:geomhash":"a154fc62bc612734ad80ef4e5d02f79a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404349933,
-    "wof:lastmodified":1582324711,
+    "wof:lastmodified":1684352615,
     "wof:name":"Saint-Leger-De-Fougeret",
     "wof:parent_id":102064669,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":373,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

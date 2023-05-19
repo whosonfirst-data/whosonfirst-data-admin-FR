@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_74091",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"C\u00f4te-d'Arbroz",
+    "eurostat:nuts_2021_id":"74091",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK28",
+    "eurostat:nuts_2021_level_lau":"74091",
+    "eurostat:population":339,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247400682",
     "frgov:id":"BDCSURCO0000000009603180",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001424,
-    "geom:area_square_m":12187793.691667,
+    "geom:area_square_m":12187793.691668,
     "geom:bbox":"6.59472217485,46.1606667814,6.67964817437,46.1955293348",
     "geom:latitude":46.181205,
     "geom:longitude":6.631515,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683227,
         102191581,
@@ -58,7 +72,10 @@
         102068987
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_74091",
+        "eurostat:nuts_2021_id":"74091"
+    },
     "wof:coterminous":[
         101892079
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"166abadcb384c7fa0acc0af2b615a4c7",
+    "wof:geomhash":"47ea868675881e21f577f7babe35c5f7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404347433,
-    "wof:lastmodified":1582324729,
+    "wof:lastmodified":1684352580,
     "wof:name":"La Cote-D'Arbroz",
     "wof:parent_id":102068987,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":339,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

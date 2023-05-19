@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_21464",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Nuits-Saint-Georges",
+    "eurostat:nuts_2021_id":"21464",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC11",
+    "eurostat:nuts_2021_level_lau":"21464",
+    "eurostat:population":5481,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070894",
     "frgov:id":"BDCSURCO0000000009599990",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002418,
-    "geom:area_square_m":20339275.53625,
+    "geom:area_square_m":20339275.536249,
     "geom:bbox":"4.90359662368,47.115171161,4.97937250496,47.188171656",
     "geom:latitude":47.146535,
     "geom:longitude":4.93852,
@@ -156,6 +168,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683563,
         102191581,
@@ -166,7 +180,10 @@
         102068705
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_21464",
+        "eurostat:nuts_2021_id":"21464"
+    },
     "wof:coterminous":[
         101767345
     ],
@@ -174,7 +191,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"5bab34462bcba19bb200a475eed9b3eb",
+    "wof:geomhash":"686885ce81c80494949dfdc2b78c8bb3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -188,11 +205,13 @@
         }
     ],
     "wof:id":404375531,
-    "wof:lastmodified":1582325417,
+    "wof:lastmodified":1684352956,
     "wof:name":"Nuits-Saint-Georges",
     "wof:parent_id":102068705,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":5481,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

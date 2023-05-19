@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_23215",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Martial-le-Vieux",
+    "eurostat:nuts_2021_id":"23215",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI22",
+    "eurostat:nuts_2021_level_lau":"23215",
+    "eurostat:population":136,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066744",
     "frgov:id":"BDCSURCO0000000009605845",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002575,
-    "geom:area_square_m":22240877.91302,
+    "geom:area_square_m":22240877.913021,
     "geom:bbox":"2.26840226738,45.6633504322,2.34982558019,45.7151450994",
     "geom:latitude":45.689617,
     "geom:longitude":2.308235,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683179,
         102191581,
@@ -58,7 +72,10 @@
         102066419
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_23215",
+        "eurostat:nuts_2021_id":"23215"
+    },
     "wof:coterminous":[
         1125814789
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8b5936fd6e32f68b1384561ddd394412",
+    "wof:geomhash":"e0cf43438c420b4a06da5ce2deb38f8d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404356601,
-    "wof:lastmodified":1582324939,
+    "wof:lastmodified":1684352706,
     "wof:name":"Saint-Martial-Le-Vieux",
     "wof:parent_id":102066419,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":136,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

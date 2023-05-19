@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_94046",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Maisons-Alfort",
+    "eurostat:nuts_2021_id":"94046",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR107",
+    "eurostat:nuts_2021_level_lau":"94046",
+    "eurostat:population":55655,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200054781",
     "frgov:id":"BDCSURCO0000000009590186",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"ILE-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.000657,
-    "geom:area_square_m":5353027.126,
+    "geom:area_square_m":5353027.126001,
     "geom:bbox":"2.415905,48.78673,2.464016,48.816928",
     "geom:latitude":48.806253,
     "geom:longitude":2.438097,
@@ -156,23 +168,29 @@
     "reversegeo:longitude":2.43773,
     "src:geom":"frgov",
     "src:geom_alt":[],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
+        85683459,
         102191581,
         85633147,
-        102072057,
         404227793,
         404227465,
-        85683459
+        102072057
     ],
     "wof:breaches":[],
     "wof:concordance":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_94046",
+        "eurostat:nuts_2021_id":"94046"
+    },
     "wof:coterminous":[
         101749737,
         102072057
     ],
     "wof:country":"FR",
     "wof:created":1526510362,
-    "wof:geomhash":"92060d3c23f0ee84e6b25a03e2c9f2dc",
+    "wof:geomhash":"f9d74f9a4ae5db8d7512a5c3374e5918",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -185,11 +203,13 @@
         }
     ],
     "wof:id":1159322281,
-    "wof:lastmodified":1608039568,
+    "wof:lastmodified":1684353599,
     "wof:name":"Maisons-Alfort",
     "wof:parent_id":102072057,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":55655,
+    "wof:population_rank":8,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded":[],
     "wof:superseded_by":[],

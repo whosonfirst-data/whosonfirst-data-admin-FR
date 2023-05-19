@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_05016",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"B\u00e2tie-Montsal\u00e9on",
+    "eurostat:nuts_2021_id":"05016",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL02",
+    "eurostat:nuts_2021_level_lau":"05016",
+    "eurostat:population":254,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200068765",
     "frgov:id":"BDCSURCO0000000009610265",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.001703,
-    "geom:area_square_m":15029721.895117,
+    "geom:area_square_m":15029721.895118,
     "geom:bbox":"5.71669298118,44.4299316283,5.7799762724,44.4830776438",
     "geom:latitude":44.455887,
     "geom:longitude":5.749364,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683597,
         102191581,
@@ -57,7 +71,10 @@
         102068375
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_05016",
+        "eurostat:nuts_2021_id":"05016"
+    },
     "wof:coterminous":[
         101895895
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"62275be70439be3c2fd34d948de1c007",
+    "wof:geomhash":"ce4c2b722ddea8b90cf059a49e2369ef",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404428337,
-    "wof:lastmodified":1582325113,
+    "wof:lastmodified":1684353584,
     "wof:name":"La Batie-Montsaleon",
     "wof:parent_id":102068375,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":254,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

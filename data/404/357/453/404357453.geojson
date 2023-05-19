@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_89250",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"M\u00e9r\u00e9",
+    "eurostat:nuts_2021_id":"89250",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC14",
+    "eurostat:nuts_2021_level_lau":"89250",
+    "eurostat:population":197,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067080",
     "frgov:id":"BDCSURCO0000000009596090",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001421,
-    "geom:area_square_m":11782014.168175,
+    "geom:area_square_m":11782014.168176,
     "geom:bbox":"3.79453537516,47.8692167822,3.84179070235,47.9308891206",
     "geom:latitude":47.8991,
     "geom:longitude":3.820178,
@@ -76,6 +88,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683503,
         102191581,
@@ -86,7 +100,10 @@
         102067985
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_89250",
+        "eurostat:nuts_2021_id":"89250"
+    },
     "wof:coterminous":[
         1360673495
     ],
@@ -94,7 +111,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3c36a0073120f55c99ed76ca9e605b68",
+    "wof:geomhash":"38246b0de3386e4400660139a3c09537",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -108,11 +125,13 @@
         }
     ],
     "wof:id":404357453,
-    "wof:lastmodified":1582324892,
+    "wof:lastmodified":1684352718,
     "wof:name":"Mere",
     "wof:parent_id":102067985,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":197,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

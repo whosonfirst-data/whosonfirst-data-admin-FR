@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_33242",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"L\u00e8ves-et-Thoumeyragues",
+    "eurostat:nuts_2021_id":"33242",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI12",
+    "eurostat:nuts_2021_level_lau":"33242",
+    "eurostat:population":557,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243301371",
     "frgov:id":"BDCSURCO0000000009609304",
     "frgov:insee_arr":"5",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00198,
-    "geom:area_square_m":17378743.562837,
+    "geom:area_square_m":17378743.562836,
     "geom:bbox":"0.158896471676,44.7454978166,0.218131811981,44.8085448766",
     "geom:latitude":44.782877,
     "geom:longitude":0.185008,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683243,
         102191581,
@@ -56,7 +70,10 @@
         102071165
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_33242",
+        "eurostat:nuts_2021_id":"33242"
+    },
     "wof:coterminous":[
         1360673747
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"0865d7955984da4a8ace7a4e08805650",
+    "wof:geomhash":"bfb7d59a2db5c915d4223fd617a1b511",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404360015,
-    "wof:lastmodified":1582325043,
+    "wof:lastmodified":1684352754,
     "wof:name":"Les Leves-Et-Thoumeyragues",
     "wof:parent_id":102071165,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":557,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

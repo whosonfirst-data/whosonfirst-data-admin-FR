@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_45270",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Beno\u00eet-sur-Loire",
+    "eurostat:nuts_2021_id":"45270",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB06",
+    "eurostat:nuts_2021_level_lau":"45270",
+    "eurostat:population":2030,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070100",
     "frgov:id":"BDCSURCO0000000009596796",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683479,
         102191581,
@@ -57,7 +71,10 @@
         102069353
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_45270",
+        "eurostat:nuts_2021_id":"45270"
+    },
     "wof:coterminous":[
         101766189
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4999d5bdeb988e4a9556744de94ae571",
+    "wof:geomhash":"1f1d0d4897e2e89eeec289968119a35a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404377873,
-    "wof:lastmodified":1582324560,
+    "wof:lastmodified":1684352985,
     "wof:name":"Saint-Benoit-Sur-Loire",
     "wof:parent_id":102069353,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2030,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

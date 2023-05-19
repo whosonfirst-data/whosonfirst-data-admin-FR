@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_73229",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Christophe",
+    "eurostat:nuts_2021_id":"73229",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK27",
+    "eurostat:nuts_2021_level_lau":"73229",
+    "eurostat:population":531,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040111",
     "frgov:id":"BDCSURCO0000000009606494",
     "frgov:insee_arr":"2",
@@ -121,6 +133,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683265,
         102191581,
@@ -131,7 +145,10 @@
         102066889
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_73229",
+        "eurostat:nuts_2021_id":"73229"
+    },
     "wof:coterminous":[
         1360678731
     ],
@@ -139,7 +156,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b815fd3dad577cae98b7e59cb16bdc2c",
+    "wof:geomhash":"e5d7b51751447ba9a4017f4c4a3c1bd0",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -153,11 +170,13 @@
         }
     ],
     "wof:id":404410611,
-    "wof:lastmodified":1582325147,
+    "wof:lastmodified":1684353373,
     "wof:name":"Saint-Christophe",
     "wof:parent_id":102066889,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":531,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

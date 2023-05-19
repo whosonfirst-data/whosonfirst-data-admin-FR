@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_19202",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Sainte-F\u00e9r\u00e9ole",
+    "eurostat:nuts_2021_id":"19202",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI2",
+    "eurostat:nuts_2021_level_3":"FRI21",
+    "eurostat:nuts_2021_level_lau":"19202",
+    "eurostat:population":1941,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200043172",
     "frgov:id":"BDCSURCO0000000009607759",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.004073,
-    "geom:area_square_m":35468410.986459,
+    "geom:area_square_m":35468410.98646,
     "geom:bbox":"1.54914692136,45.1895020882,1.63787049779,45.2679610186",
     "geom:latitude":45.226932,
     "geom:longitude":1.588685,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683209,
         102191581,
@@ -58,7 +72,10 @@
         102065817
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_19202",
+        "eurostat:nuts_2021_id":"19202"
+    },
     "wof:coterminous":[
         101769301
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c7bfde13447bfe4b2a62b0833ba43a79",
+    "wof:geomhash":"a349936dd00da687bb4b1ca32367dd82",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404349247,
-    "wof:lastmodified":1582324713,
+    "wof:lastmodified":1684352606,
     "wof:name":"Sainte-Fereole",
     "wof:parent_id":102065817,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1941,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

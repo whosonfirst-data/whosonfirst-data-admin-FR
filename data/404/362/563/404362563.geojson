@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_10140",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Ervy-le-Ch\u00e2tel",
+    "eurostat:nuts_2021_id":"10140",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF22",
+    "eurostat:nuts_2021_level_lau":"10140",
+    "eurostat:population":1193,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200071041",
     "frgov:id":"BDCSURCO0000000009595387",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683193,
         102191581,
@@ -58,7 +72,10 @@
         102065959
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_10140",
+        "eurostat:nuts_2021_id":"10140"
+    },
     "wof:coterminous":[
         101766235
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4776b3cbd7a925fe0feb8f9fdfe46485",
+    "wof:geomhash":"39bb6e5d04a64d38fba8b5cecf081e82",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404362563,
-    "wof:lastmodified":1582324056,
+    "wof:lastmodified":1684352789,
     "wof:name":"Ervy-Le-Chatel",
     "wof:parent_id":102065959,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1193,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

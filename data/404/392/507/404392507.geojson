@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_18150",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"M\u00e9ry-sur-Cher",
+    "eurostat:nuts_2021_id":"18150",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB01",
+    "eurostat:nuts_2021_level_lau":"18150",
+    "eurostat:population":678,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200033207",
     "frgov:id":"BDCSURCO0000000009599536",
     "frgov:insee_arr":"3",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683549,
         102191581,
@@ -57,7 +71,10 @@
         102069861
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_18150",
+        "eurostat:nuts_2021_id":"18150"
+    },
     "wof:coterminous":[
         101885267
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"8d18a5f55d56ce2b2527ac1f687f3fb3",
+    "wof:geomhash":"3e2d5bdad3ef43a6908bd14f5f1ec0a4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404392507,
-    "wof:lastmodified":1582324815,
+    "wof:lastmodified":1684353162,
     "wof:name":"Mery-Sur-Cher",
     "wof:parent_id":102069861,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":678,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

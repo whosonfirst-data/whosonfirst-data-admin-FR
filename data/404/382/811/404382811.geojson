@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_28109",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Corv\u00e9es-les-Yys",
+    "eurostat:nuts_2021_id":"28109",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB02",
+    "eurostat:nuts_2021_level_lau":"28109",
+    "eurostat:population":316,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070167",
     "frgov:id":"BDCSURCO0000000009593355",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001669,
-    "geom:area_square_m":13709351.222243,
+    "geom:area_square_m":13709351.222242,
     "geom:bbox":"1.09166112727,48.3450125636,1.20375714877,48.3880476987",
     "geom:latitude":48.365456,
     "geom:longitude":1.146528,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683189,
         102191581,
@@ -57,7 +71,10 @@
         102067543
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_28109",
+        "eurostat:nuts_2021_id":"28109"
+    },
     "wof:coterminous":[
         1125776305
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b0af32cb7e20f8caf1d02c75f1dd4f3c",
+    "wof:geomhash":"273d9742259ceb7e3ed3108de8d539f7",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404382811,
-    "wof:lastmodified":1582324682,
+    "wof:lastmodified":1684353043,
     "wof:name":"Les Corvees-Les-Yys",
     "wof:parent_id":102067543,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":316,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

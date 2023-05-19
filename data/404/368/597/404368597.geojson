@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_07208",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-And\u00e9ol-de-Berg",
+    "eurostat:nuts_2021_id":"07208",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK22",
+    "eurostat:nuts_2021_level_lau":"07208",
+    "eurostat:population":123,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240700815",
     "frgov:id":"BDCSURCO0000000009610090",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683421,
         102191581,
@@ -58,7 +72,10 @@
         102069599
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_07208",
+        "eurostat:nuts_2021_id":"07208"
+    },
     "wof:coterminous":[
         1125849989
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a9880befdea4873ac593f747875d0b9f",
+    "wof:geomhash":"f9a7e47002a08e0580697e4f6fd9f556",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404368597,
-    "wof:lastmodified":1582324876,
+    "wof:lastmodified":1684352873,
     "wof:name":"Saint-Andeol-De-Berg",
     "wof:parent_id":102069599,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":123,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

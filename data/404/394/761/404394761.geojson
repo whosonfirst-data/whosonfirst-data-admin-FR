@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_28355",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Ouen-Marchefroy",
+    "eurostat:nuts_2021_id":"28355",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB02",
+    "eurostat:nuts_2021_level_lau":"28355",
+    "eurostat:population":295,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200040277",
     "frgov:id":"BDCSURCO0000000009589782",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001154,
-    "geom:area_square_m":9388461.026364,
+    "geom:area_square_m":9388461.026365,
     "geom:bbox":"1.51048543591,48.8292270812,1.55883892859,48.8783475159",
     "geom:latitude":48.856984,
     "geom:longitude":1.529929,
@@ -129,6 +141,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683189,
         102191581,
@@ -138,7 +152,10 @@
         102064381
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_28355",
+        "eurostat:nuts_2021_id":"28355"
+    },
     "wof:coterminous":[
         101880847
     ],
@@ -146,7 +163,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"93e3b542abfb76c280289c7021aaee7f",
+    "wof:geomhash":"17b5d7d049839c2554e622bf2ba6286a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -159,11 +176,13 @@
         }
     ],
     "wof:id":404394761,
-    "wof:lastmodified":1582325033,
+    "wof:lastmodified":1684353188,
     "wof:name":"Saint-Ouen-Marchefroy",
     "wof:parent_id":102064381,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":295,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

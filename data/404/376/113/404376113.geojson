@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_34250",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-\u00c9tienne-d'Albagnan",
+    "eurostat:nuts_2021_id":"34250",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ1",
+    "eurostat:nuts_2021_level_3":"FRJ13",
+    "eurostat:nuts_2021_level_lau":"34250",
+    "eurostat:population":306,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066348",
     "frgov:id":"BDCSURCO0000000009613633",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002504,
-    "geom:area_square_m":22446281.337283,
+    "geom:area_square_m":22446281.337281,
     "geom:bbox":"2.81658262436,43.4980511654,2.9101616363,43.5705979565",
     "geom:latitude":43.528791,
     "geom:longitude":2.865554,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683419,
         102191581,
@@ -56,7 +70,10 @@
         102069079
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_34250",
+        "eurostat:nuts_2021_id":"34250"
+    },
     "wof:coterminous":[
         1360675387
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"9b87f45889e7da35631e44ba4a479a53",
+    "wof:geomhash":"09a5833467ca8f6f9b618097977af7d1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404376113,
-    "wof:lastmodified":1582324677,
+    "wof:lastmodified":1684352965,
     "wof:name":"Saint-Etienne-D'Albagnan",
     "wof:parent_id":102069079,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":306,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

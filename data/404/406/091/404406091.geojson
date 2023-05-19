@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_58229",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Andr\u00e9-en-Morvan",
+    "eurostat:nuts_2021_id":"58229",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC12",
+    "eurostat:nuts_2021_level_lau":"58229",
+    "eurostat:population":310,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067890",
     "frgov:id":"BDCSURCO0000000009598917",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002733,
-    "geom:area_square_m":22871489.918839,
+    "geom:area_square_m":22871489.91884,
     "geom:bbox":"3.8198196105,47.3602910238,3.89398107071,47.4355875898",
     "geom:latitude":47.39856,
     "geom:longitude":3.855823,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683359,
         102191581,
@@ -58,7 +72,10 @@
         102066513
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_58229",
+        "eurostat:nuts_2021_id":"58229"
+    },
     "wof:coterminous":[
         1125851667
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"af3d8ab2c711688d67d818786e7321b0",
+    "wof:geomhash":"36fcb4c44036ba05a540b34b82ad6608",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404406091,
-    "wof:lastmodified":1582324440,
+    "wof:lastmodified":1684353321,
     "wof:name":"Saint-Andre-En-Morvan",
     "wof:parent_id":102066513,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":310,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

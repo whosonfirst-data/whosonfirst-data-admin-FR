@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_31586",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Villeneuve-L\u00e9cussan",
+    "eurostat:nuts_2021_id":"31586",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRJ",
+    "eurostat:nuts_2021_level_2":"FRJ2",
+    "eurostat:nuts_2021_level_3":"FRJ23",
+    "eurostat:nuts_2021_level_lau":"31586",
+    "eurostat:population":556,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200072643",
     "frgov:id":"BDCSURCO0000000009615452",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"OCCITANIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001807,
-    "geom:area_square_m":16308516.233169,
+    "geom:area_square_m":16308516.233171,
     "geom:bbox":"0.442333994072,43.1112458784,0.526260715669,43.1575049362",
     "geom:latitude":43.134133,
     "geom:longitude":0.485215,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683397,
         102191581,
@@ -58,7 +72,10 @@
         102068393
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_31586",
+        "eurostat:nuts_2021_id":"31586"
+    },
     "wof:coterminous":[
         101897085
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b11e60386349ee896edf8da5dede398f",
+    "wof:geomhash":"846e8963c3f48e132d1d7fa748dd5076",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404375663,
-    "wof:lastmodified":1582325421,
+    "wof:lastmodified":1684352958,
     "wof:name":"Villeneuve-Lecussan",
     "wof:parent_id":102068393,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":556,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

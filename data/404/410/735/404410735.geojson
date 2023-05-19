@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_38400",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Jean-de-Moirans",
+    "eurostat:nuts_2021_id":"38400",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK24",
+    "eurostat:nuts_2021_level_lau":"38400",
+    "eurostat:population":3536,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243800984",
     "frgov:id":"BDCSURCO0000000009606969",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.000743,
-    "geom:area_square_m":6462268.651705,
+    "geom:area_square_m":6462268.651706,
     "geom:bbox":"5.5628964024,45.3157318609,5.60684113496,45.3519566693",
     "geom:latitude":45.337065,
     "geom:longitude":5.587412,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683427,
         102191581,
@@ -58,7 +72,10 @@
         102068535
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_38400",
+        "eurostat:nuts_2021_id":"38400"
+    },
     "wof:coterminous":[
         101874583
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"92bf2d71d8f22bc80028e0bcd4629f6d",
+    "wof:geomhash":"d35d39bc0a196e73d576639b90d5e916",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404410735,
-    "wof:lastmodified":1582325152,
+    "wof:lastmodified":1684353375,
     "wof:name":"Saint-Jean-De-Moirans",
     "wof:parent_id":102068535,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3536,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

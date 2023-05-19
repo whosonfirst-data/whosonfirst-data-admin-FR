@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_02819",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Vincy-Reuil-et-Magny",
+    "eurostat:nuts_2021_id":"02819",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRE",
+    "eurostat:nuts_2021_level_2":"FRE2",
+    "eurostat:nuts_2021_level_3":"FRE21",
+    "eurostat:nuts_2021_level_lau":"02819",
+    "eurostat:population":117,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240200634",
     "frgov:id":"BDCSURCO0000000009583183",
     "frgov:insee_arr":"5",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"HAUTS-DE-FRANCE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001502,
-    "geom:area_square_m":12009715.168733,
+    "geom:area_square_m":12009715.168732,
     "geom:bbox":"4.01585068377,49.6945236871,4.07725397466,49.7361060216",
     "geom:latitude":49.71361,
     "geom:longitude":4.045114,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683247,
         102191581,
@@ -58,7 +72,10 @@
         102069111
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_02819",
+        "eurostat:nuts_2021_id":"02819"
+    },
     "wof:coterminous":[
         101898739
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c974eb4d2c2563096940022fa77f7da2",
+    "wof:geomhash":"290ad10ab03a9f1046cb50dfc6edc03a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404402579,
-    "wof:lastmodified":1582325285,
+    "wof:lastmodified":1684353279,
     "wof:name":"Vincy-Reuil-Et-Magny",
     "wof:parent_id":102069111,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":117,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

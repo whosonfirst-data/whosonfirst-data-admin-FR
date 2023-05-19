@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_53051",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Champ\u00e9on",
+    "eurostat:nuts_2021_id":"53051",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG03",
+    "eurostat:nuts_2021_level_lau":"53051",
+    "eurostat:population":585,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200055887",
     "frgov:id":"BDCSURCO0000000009593410",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002549,
-    "geom:area_square_m":20945247.189881,
+    "geom:area_square_m":20945247.189882,
     "geom:bbox":"-0.55216240849,48.3327010822,-0.480297904333,48.3847660733",
     "geom:latitude":48.356003,
     "geom:longitude":-0.513081,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683401,
         102191581,
@@ -57,7 +71,10 @@
         102066933
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_53051",
+        "eurostat:nuts_2021_id":"53051"
+    },
     "wof:coterminous":[
         1125896641
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2fb023b8964db6964dfe7704dd1a8607",
+    "wof:geomhash":"cc250d1668ec592cbda0c4099f1a2f29",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404369543,
-    "wof:lastmodified":1582324913,
+    "wof:lastmodified":1684352885,
     "wof:name":"Champeon",
     "wof:parent_id":102066933,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":585,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_47112",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Grateloup-Saint-Gayrand",
+    "eurostat:nuts_2021_id":"47112",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI14",
+    "eurostat:nuts_2021_level_lau":"47112",
+    "eurostat:population":428,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200030674",
     "frgov:id":"BDCSURCO0000000009610601",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002352,
-    "geom:area_square_m":20772245.759167,
+    "geom:area_square_m":20772245.759168,
     "geom:bbox":"0.358311178211,44.3914173315,0.430747229462,44.4434250419",
     "geom:latitude":44.418162,
     "geom:longitude":0.394715,
@@ -120,6 +132,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683341,
         102191581,
@@ -130,7 +144,10 @@
         102065707
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_47112",
+        "eurostat:nuts_2021_id":"47112"
+    },
     "wof:coterminous":[
         1126027561
     ],
@@ -138,7 +155,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2bc3dad3a695f9b292acf20c691050ab",
+    "wof:geomhash":"15c4d6409daae2bba4d55074806f9fd6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -152,11 +169,13 @@
         }
     ],
     "wof:id":404397887,
-    "wof:lastmodified":1582324202,
+    "wof:lastmodified":1684353223,
     "wof:name":"Grateloup-Saint-Gayrand",
     "wof:parent_id":102065707,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":428,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

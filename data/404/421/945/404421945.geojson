@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_95574",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Prix",
+    "eurostat:nuts_2021_id":"95574",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FR1",
+    "eurostat:nuts_2021_level_2":"FR10",
+    "eurostat:nuts_2021_level_3":"FR108",
+    "eurostat:nuts_2021_level_lau":"95574",
+    "eurostat:population":7158,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200056380",
     "frgov:id":"BDCSURCO0000000009588213",
     "frgov:insee_arr":"2",
@@ -90,6 +102,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683451,
         102191581,
@@ -99,7 +113,10 @@
         102068113
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_95574",
+        "eurostat:nuts_2021_id":"95574"
+    },
     "wof:coterminous":[
         1175611499
     ],
@@ -107,7 +124,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"57c5be6431070201c48e0475d082e2bb",
+    "wof:geomhash":"3440a67d2370348f9cfcc89fdd3c6190",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -120,11 +137,13 @@
         }
     ],
     "wof:id":404421945,
-    "wof:lastmodified":1582325110,
+    "wof:lastmodified":1684353508,
     "wof:name":"Saint-Prix",
     "wof:parent_id":102068113,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":7158,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

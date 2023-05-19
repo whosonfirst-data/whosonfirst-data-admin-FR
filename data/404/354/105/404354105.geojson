@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_63312",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Alyre-d'Arlanc",
+    "eurostat:nuts_2021_id":"63312",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK1",
+    "eurostat:nuts_2021_level_3":"FRK14",
+    "eurostat:nuts_2021_level_lau":"63312",
+    "eurostat:population":170,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070761",
     "frgov:id":"BDCSURCO0000000009607051",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.002768,
-    "geom:area_square_m":24046424.322951,
+    "geom:area_square_m":24046424.322952,
     "geom:bbox":"3.58475254315,45.337710437,3.66735386549,45.4010785175",
     "geom:latitude":45.367521,
     "geom:longitude":3.627159,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683471,
         102191581,
@@ -58,7 +72,10 @@
         102064867
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_63312",
+        "eurostat:nuts_2021_id":"63312"
+    },
     "wof:coterminous":[
         101895265
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"70e37b7b32d9424846d2d287430bdd39",
+    "wof:geomhash":"5a67a527370e6064d17d8694e3b4aab2",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404354105,
-    "wof:lastmodified":1582324083,
+    "wof:lastmodified":1684352673,
     "wof:name":"Saint-Alyre-D'Arlanc",
     "wof:parent_id":102064867,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":170,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

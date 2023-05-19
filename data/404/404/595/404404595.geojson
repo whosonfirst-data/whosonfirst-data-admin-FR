@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_51363",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Merlaut",
+    "eurostat:nuts_2021_id":"51363",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF23",
+    "eurostat:nuts_2021_level_lau":"51363",
+    "eurostat:population":237,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200067379",
     "frgov:id":"BDCSURCO0000000009590110",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"GRAND EST",
     "frgov:statut":"Commune simple",
     "geom:area":0.000633,
-    "geom:area_square_m":5161064.314643,
+    "geom:area_square_m":5161064.314644,
     "geom:bbox":"4.64011320052,48.7475811809,4.67755845849,48.7753922156",
     "geom:latitude":48.761485,
     "geom:longitude":4.657895,
@@ -111,6 +123,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683405,
         102191581,
@@ -121,7 +135,10 @@
         102070343
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_51363",
+        "eurostat:nuts_2021_id":"51363"
+    },
     "wof:coterminous":[
         1125784573
     ],
@@ -129,7 +146,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"c7fa4aa2c706ff943efd9ff92e8f2eac",
+    "wof:geomhash":"53a02e3121e34fe32ab02d78bf582502",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -143,11 +160,13 @@
         }
     ],
     "wof:id":404404595,
-    "wof:lastmodified":1582325304,
+    "wof:lastmodified":1684353302,
     "wof:name":"Merlaut",
     "wof:parent_id":102070343,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":237,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_33376",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Aubin-de-M\u00e9doc",
+    "eurostat:nuts_2021_id":"33376",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI12",
+    "eurostat:nuts_2021_level_lau":"33376",
+    "eurostat:population":7362,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243300316",
     "frgov:id":"BDCSURCO0000000009608664",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003965,
-    "geom:area_square_m":34712637.44118,
+    "geom:area_square_m":34712637.441179,
     "geom:bbox":"-0.798450611277,44.9020117853,-0.697138225406,44.9666631012",
     "geom:latitude":44.933291,
     "geom:longitude":-0.748197,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683243,
         102191581,
@@ -58,7 +72,10 @@
         102071793
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_33376",
+        "eurostat:nuts_2021_id":"33376"
+    },
     "wof:coterminous":[
         101753213
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"138449ad910061c9495ba5ee2138d958",
+    "wof:geomhash":"05dd30fea9ffd916247830de98a1911c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404426137,
-    "wof:lastmodified":1582325088,
+    "wof:lastmodified":1684353558,
     "wof:name":"Saint-Aubin-De-Medoc",
     "wof:parent_id":102071793,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":7362,
+    "wof:population_rank":5,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

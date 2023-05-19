@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_24376",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint Aulaye-Puymangou",
+    "eurostat:nuts_2021_id":"24376",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI11",
+    "eurostat:nuts_2021_level_lau":"24376",
+    "eurostat:population":1434,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"242400935",
     "frgov:id":"BDCSURCO0000000009607806",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.005269,
-    "geom:area_square_m":45925576.708712,
+    "geom:area_square_m":45925576.708711,
     "geom:bbox":"0.0520345747071,45.145953138,0.176826910156,45.217151079",
     "geom:latitude":45.182823,
     "geom:longitude":0.122246,
@@ -138,6 +150,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683331,
         102191581,
@@ -148,7 +162,10 @@
         102070021
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_24376",
+        "eurostat:nuts_2021_id":"24376"
+    },
     "wof:coterminous":[
         101769337
     ],
@@ -156,7 +173,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"2aca69d47895a83869c1c9e8c4443c8a",
+    "wof:geomhash":"4100cafb27d4009d843fca1b53a082c6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -170,11 +187,13 @@
         }
     ],
     "wof:id":404350753,
-    "wof:lastmodified":1582324845,
+    "wof:lastmodified":1684352628,
     "wof:name":"Saint-Aulaye",
     "wof:parent_id":102070021,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1434,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_69289",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Pierre-de-Chandieu",
+    "eurostat:nuts_2021_id":"69289",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK26",
+    "eurostat:nuts_2021_level_lau":"69289",
+    "eurostat:population":4520,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"246900575",
     "frgov:id":"BDCSURCO0000000009605746",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.003372,
-    "geom:area_square_m":29153507.268534,
+    "geom:area_square_m":29153507.268536,
     "geom:bbox":"4.95858399276,45.6128982839,5.05806543863,45.6810723592",
     "geom:latitude":45.644969,
     "geom:longitude":5.008877,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683569,
         102191581,
@@ -58,7 +72,10 @@
         102070837
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_69289",
+        "eurostat:nuts_2021_id":"69289"
+    },
     "wof:coterminous":[
         101769509
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a1316065949905af25ef37d1046d9b56",
+    "wof:geomhash":"cd9b44e437d6f1b50bb5ba21413e6060",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404397879,
-    "wof:lastmodified":1582324210,
+    "wof:lastmodified":1684353223,
     "wof:name":"Saint-Pierre-De-Chandieu",
     "wof:parent_id":102070837,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":4520,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

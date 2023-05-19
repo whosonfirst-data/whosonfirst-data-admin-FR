@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_49307",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Loire-Authion",
+    "eurostat:nuts_2021_id":"49307",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRG",
+    "eurostat:nuts_2021_level_2":"FRG0",
+    "eurostat:nuts_2021_level_3":"FRG02",
+    "eurostat:nuts_2021_level_lau":"49307",
+    "eurostat:population":15702,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"ZZZZZZZZZ",
     "frgov:id":"BDCSURCO0000000009598709",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PAYS DE LA LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.013706,
-    "geom:area_square_m":114581728.550344,
+    "geom:area_square_m":114581728.550345,
     "geom:bbox":"-0.477678242912,47.4004985365,-0.268736448873,47.538776576",
     "geom:latitude":47.459667,
     "geom:longitude":-0.371881,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683327,
         102191581,
@@ -57,7 +71,10 @@
         102069943
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_49307",
+        "eurostat:nuts_2021_id":"49307"
+    },
     "wof:coterminous":[
         101843063
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"f0c6ee54971c338af9ff775e9acc4a35",
+    "wof:geomhash":"d0aad26e1a8035c120cf51230715bfa4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404417235,
-    "wof:lastmodified":1582325130,
+    "wof:lastmodified":1684353451,
     "wof:name":"Baune",
     "wof:parent_id":102069943,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":15702,
+    "wof:population_rank":6,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

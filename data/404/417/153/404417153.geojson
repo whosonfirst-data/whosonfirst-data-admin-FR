@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_52395",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Poinson-l\u00e8s-Grancey",
+    "eurostat:nuts_2021_id":"52395",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRF",
+    "eurostat:nuts_2021_level_2":"FRF2",
+    "eurostat:nuts_2021_level_3":"FRF24",
+    "eurostat:nuts_2021_level_lau":"52395",
+    "eurostat:population":45,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200027308",
     "frgov:id":"BDCSURCO0000000009597080",
     "frgov:insee_arr":"2",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683261,
         102191581,
@@ -58,7 +72,10 @@
         102064745
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_52395",
+        "eurostat:nuts_2021_id":"52395"
+    },
     "wof:coterminous":[
         1125797443
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"a7e800481ed69d56eb05ad2100e14477",
+    "wof:geomhash":"5d9700d9f2d9e597db43020e3e246f32",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404417153,
-    "wof:lastmodified":1582325134,
+    "wof:lastmodified":1684353450,
     "wof:name":"Poinson-Les-Grancey",
     "wof:parent_id":102064745,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":45,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

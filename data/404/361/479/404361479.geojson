@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_01056",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Boyeux-Saint-J\u00e9r\u00f4me",
+    "eurostat:nuts_2021_id":"01056",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRK",
+    "eurostat:nuts_2021_level_2":"FRK2",
+    "eurostat:nuts_2021_level_3":"FRK21",
+    "eurostat:nuts_2021_level_lau":"01056",
+    "eurostat:population":346,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200029999",
     "frgov:id":"BDCSURCO0000000009603938",
     "frgov:insee_arr":"4",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"AUVERGNE-RHONE-ALPES",
     "frgov:statut":"Commune simple",
     "geom:area":0.001943,
-    "geom:area_square_m":16675881.008342,
+    "geom:area_square_m":16675881.00834,
     "geom:bbox":"5.43497859656,46.0083686401,5.48864197392,46.0628626892",
     "geom:latitude":46.036006,
     "geom:longitude":5.463076,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683153,
         102191581,
@@ -58,7 +72,10 @@
         102068853
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_01056",
+        "eurostat:nuts_2021_id":"01056"
+    },
     "wof:coterminous":[
         1125924553
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"af54bd954b04b510ec05e0ddde6bf9d6",
+    "wof:geomhash":"377509809f27613d9c52bc40d4170e98",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404361479,
-    "wof:lastmodified":1582324752,
+    "wof:lastmodified":1684352774,
     "wof:name":"Boyeux-Saint-Jerome",
     "wof:parent_id":102068853,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":346,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

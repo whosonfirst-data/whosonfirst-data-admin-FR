@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_41150",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Mont-pr\u00e8s-Chambord",
+    "eurostat:nuts_2021_id":"41150",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB05",
+    "eurostat:nuts_2021_level_lau":"41150",
+    "eurostat:population":3297,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244100798",
     "frgov:id":"BDCSURCO0000000009598097",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.003397,
-    "geom:area_square_m":28348862.242428,
+    "geom:area_square_m":28348862.242427,
     "geom:bbox":"1.39087812252,47.5323388781,1.50322235263,47.5807160794",
     "geom:latitude":47.55749,
     "geom:longitude":1.448331,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683349,
         102191581,
@@ -57,7 +71,10 @@
         102064659
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_41150",
+        "eurostat:nuts_2021_id":"41150"
+    },
     "wof:coterminous":[
         101764793
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d977f76713c0909a871c20b54058753b",
+    "wof:geomhash":"c7330309ce056e09d5f0770d56449d36",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404417409,
-    "wof:lastmodified":1582325131,
+    "wof:lastmodified":1684353453,
     "wof:name":"Mont-Pres-Chambord",
     "wof:parent_id":102064659,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":3297,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

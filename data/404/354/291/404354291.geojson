@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_05085",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Montgen\u00e8vre",
+    "eurostat:nuts_2021_id":"05085",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRL",
+    "eurostat:nuts_2021_level_2":"FRL0",
+    "eurostat:nuts_2021_level_3":"FRL02",
+    "eurostat:nuts_2021_level_lau":"05085",
+    "eurostat:population":456,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"240500439",
     "frgov:id":"BDCSURCO0000000009608260",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"PROVENCE-ALPES-COTE D'AZUR",
     "frgov:statut":"Commune simple",
     "geom:area":0.004518,
-    "geom:area_square_m":39541693.782618,
+    "geom:area_square_m":39541693.782615,
     "geom:bbox":"6.67788736802,44.8916744071,6.76524646179,44.989228269",
     "geom:latitude":44.939205,
     "geom:longitude":6.727919,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683597,
         102191581,
@@ -57,7 +71,10 @@
         102065209
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_05085",
+        "eurostat:nuts_2021_id":"05085"
+    },
     "wof:coterminous":[
         101894167
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"500f22743c546c98e660aebfe62a48a9",
+    "wof:geomhash":"1c85ee8a9a507f45172a6e4164c6a7fe",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404354291,
-    "wof:lastmodified":1582324098,
+    "wof:lastmodified":1684352675,
     "wof:name":"Montgenevre",
     "wof:parent_id":102065209,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":456,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

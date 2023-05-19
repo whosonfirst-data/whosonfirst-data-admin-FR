@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_27591",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Pierre-de-Cormeilles",
+    "eurostat:nuts_2021_id":"27591",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRD",
+    "eurostat:nuts_2021_level_2":"FRD2",
+    "eurostat:nuts_2021_level_3":"FRD21",
+    "eurostat:nuts_2021_level_lau":"27591",
+    "eurostat:population":609,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200066017",
     "frgov:id":"BDCSURCO0000000009586328",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NORMANDIE",
     "frgov:statut":"Commune simple",
     "geom:area":0.002169,
-    "geom:area_square_m":17508434.554411,
+    "geom:area_square_m":17508434.554412,
     "geom:bbox":"0.319721004992,49.2158821267,0.410658036969,49.2647608247",
     "geom:latitude":49.238479,
     "geom:longitude":0.364769,
@@ -46,6 +58,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683283,
         102191581,
@@ -56,7 +70,10 @@
         102066491
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_27591",
+        "eurostat:nuts_2021_id":"27591"
+    },
     "wof:coterminous":[
         1360675237
     ],
@@ -64,7 +81,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"b13eb777665911de3c6971a1e715352e",
+    "wof:geomhash":"4ebace71eb9db2ade77129a8170091f5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404374673,
-    "wof:lastmodified":1582325391,
+    "wof:lastmodified":1684352944,
     "wof:name":"Saint-Pierre-De-Cormeilles",
     "wof:parent_id":102066491,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":609,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

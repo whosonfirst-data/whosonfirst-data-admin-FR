@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_70071",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Beulotte-Saint-Laurent",
+    "eurostat:nuts_2021_id":"70071",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC2",
+    "eurostat:nuts_2021_level_3":"FRC23",
+    "eurostat:nuts_2021_level_lau":"70071",
+    "eurostat:population":58,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"247000854",
     "frgov:id":"BDCSURCO0000000009595634",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001722,
-    "geom:area_square_m":14284068.221926,
+    "geom:area_square_m":14284068.221925,
     "geom:bbox":"6.62745953233,47.849784416,6.71012201786,47.8860662607",
     "geom:latitude":47.868777,
     "geom:longitude":6.67251,
@@ -123,6 +135,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683559,
         102191581,
@@ -133,7 +147,10 @@
         102065461
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_70071",
+        "eurostat:nuts_2021_id":"70071"
+    },
     "wof:coterminous":[
         1125916667
     ],
@@ -141,7 +158,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"7cce7dd570cdd4ae094ce77ab7132bdc",
+    "wof:geomhash":"02027dd5dfa3bdc202d26c7b6e47ddaf",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -155,11 +172,13 @@
         }
     ],
     "wof:id":404407393,
-    "wof:lastmodified":1582324496,
+    "wof:lastmodified":1684353337,
     "wof:name":"Beulotte-Saint-Laurent",
     "wof:parent_id":102065461,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":58,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_18125",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"L\u00e9r\u00e9",
+    "eurostat:nuts_2021_id":"18125",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB01",
+    "eurostat:nuts_2021_level_lau":"18125",
+    "eurostat:population":1098,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200069227",
     "frgov:id":"BDCSURCO0000000009598658",
     "frgov:insee_arr":"1",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.00193,
-    "geom:area_square_m":16129792.020454,
+    "geom:area_square_m":16129792.020452,
     "geom:bbox":"2.82417485129,47.4440153064,2.9191914002,47.4852496962",
     "geom:latitude":47.465844,
     "geom:longitude":2.873704,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683549,
         102191581,
@@ -57,7 +71,10 @@
         102067183
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_18125",
+        "eurostat:nuts_2021_id":"18125"
+    },
     "wof:coterminous":[
         101829449
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"4100658767ffff4760bfe6d31b7f1a4c",
+    "wof:geomhash":"41902e429191fef085a5ae860fe94f29",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404364611,
-    "wof:lastmodified":1582324242,
+    "wof:lastmodified":1684352818,
     "wof:name":"Lere",
     "wof:parent_id":102067183,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":1098,
+    "wof:population_rank":3,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

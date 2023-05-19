@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_47115",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Gu\u00e9rin",
+    "eurostat:nuts_2021_id":"47115",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRI",
+    "eurostat:nuts_2021_level_2":"FRI1",
+    "eurostat:nuts_2021_level_3":"FRI14",
+    "eurostat:nuts_2021_level_lau":"47115",
+    "eurostat:population":249,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"244701355",
     "frgov:id":"BDCSURCO0000000009610612",
     "frgov:insee_arr":"2",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"NOUVELLE-AQUITAINE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001188,
-    "geom:area_square_m":10490816.705338,
+    "geom:area_square_m":10490816.705337,
     "geom:bbox":"0.0284701817843,44.3907322486,0.0841142783783,44.4335433529",
     "geom:latitude":44.4119,
     "geom:longitude":0.058808,
@@ -102,6 +114,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683341,
         102191581,
@@ -112,7 +126,10 @@
         102065099
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_47115",
+        "eurostat:nuts_2021_id":"47115"
+    },
     "wof:coterminous":[
         1126024067
     ],
@@ -120,7 +137,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"daa029ba395d3fa90008d5679db1d8b5",
+    "wof:geomhash":"5f7cbd0d41da3efd78418de6559742a9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -134,11 +151,13 @@
         }
     ],
     "wof:id":404419503,
-    "wof:lastmodified":1582325062,
+    "wof:lastmodified":1684353477,
     "wof:name":"Guerin",
     "wof:parent_id":102065099,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":249,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

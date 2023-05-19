@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_37229",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Nicolas-des-Motets",
+    "eurostat:nuts_2021_id":"37229",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRB",
+    "eurostat:nuts_2021_level_2":"FRB0",
+    "eurostat:nuts_2021_level_3":"FRB04",
+    "eurostat:nuts_2021_level_lau":"37229",
+    "eurostat:population":261,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"243700499",
     "frgov:id":"BDCSURCO0000000009597821",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"CENTRE-VAL DE LOIRE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001522,
-    "geom:area_square_m":12694525.399542,
+    "geom:area_square_m":12694525.399541,
     "geom:bbox":"1.00314910182,47.557970856,1.06359272511,47.6088343638",
     "geom:latitude":47.584368,
     "geom:longitude":1.034404,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683575,
         102191581,
@@ -57,7 +71,10 @@
         102065295
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_37229",
+        "eurostat:nuts_2021_id":"37229"
+    },
     "wof:coterminous":[
         101886505
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"3fb9f17e17e1c0e807841a13800e5f79",
+    "wof:geomhash":"7c211dbfcc733a38c2a8cf32cf0d364b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404383849,
-    "wof:lastmodified":1582324551,
+    "wof:lastmodified":1684353057,
     "wof:name":"Saint-Nicolas-Des-Motets",
     "wof:parent_id":102065295,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":261,
+    "wof:population_rank":2,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

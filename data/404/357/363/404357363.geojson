@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_35273",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Saint-Germain-en-Cogl\u00e8s",
+    "eurostat:nuts_2021_id":"35273",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRH",
+    "eurostat:nuts_2021_level_2":"FRH0",
+    "eurostat:nuts_2021_level_3":"FRH03",
+    "eurostat:nuts_2021_level_lau":"35273",
+    "eurostat:population":2051,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070688",
     "frgov:id":"BDCSURCO0000000009593029",
     "frgov:insee_arr":"1",
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683461,
         102191581,
@@ -57,7 +71,10 @@
         102070619
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_35273",
+        "eurostat:nuts_2021_id":"35273"
+    },
     "wof:coterminous":[
         101761123
     ],
@@ -65,7 +82,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"d347836912f10def3021e2616f8d7ef5",
+    "wof:geomhash":"40483bad7b20b9fd28ed5056ce3a46b6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -78,11 +95,13 @@
         }
     ],
     "wof:id":404357363,
-    "wof:lastmodified":1582324888,
+    "wof:lastmodified":1684352717,
     "wof:name":"Saint-Germain-En-Cogles",
     "wof:parent_id":102070619,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":2051,
+    "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],

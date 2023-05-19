@@ -4,6 +4,18 @@
   "properties": {
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
+    "eurostat:country_code":"FR",
+    "eurostat:gisco_id":"FR_71348",
+    "eurostat:level_code":"lau",
+    "eurostat:name_local":"Perrigny-sur-Loire",
+    "eurostat:nuts_2021_id":"71348",
+    "eurostat:nuts_2021_level_0":"FR",
+    "eurostat:nuts_2021_level_1":"FRC",
+    "eurostat:nuts_2021_level_2":"FRC1",
+    "eurostat:nuts_2021_level_3":"FRC13",
+    "eurostat:nuts_2021_level_lau":"71348",
+    "eurostat:population":135,
+    "eurostat:population_year":2020,
     "frgov:code_epci":"200070316",
     "frgov:id":"BDCSURCO0000000009602188",
     "frgov:insee_arr":"3",
@@ -16,7 +28,7 @@
     "frgov:nom_reg":"BOURGOGNE-FRANCHE-COMTE",
     "frgov:statut":"Commune simple",
     "geom:area":0.001799,
-    "geom:area_square_m":15303783.904447,
+    "geom:area_square_m":15303783.904446,
     "geom:bbox":"3.80978103952,46.5129365381,3.89128241947,46.5733728689",
     "geom:latitude":46.543313,
     "geom:longitude":3.851084,
@@ -48,6 +60,8 @@
     "src:geom_alt":[
         "quattroshapes"
     ],
+    "src:population":"eurostat",
+    "src:population_date":"2020",
     "wof:belongsto":[
         85683543,
         102191581,
@@ -58,7 +72,10 @@
         102064791
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "eg:gisco_id":"FR_71348",
+        "eurostat:nuts_2021_id":"71348"
+    },
     "wof:coterminous":[
         1125923725
     ],
@@ -66,7 +83,7 @@
     "wof:geom_alt":[
         "quattroshapes"
     ],
-    "wof:geomhash":"e13f530102c0a7272daf283de485d524",
+    "wof:geomhash":"a52ad111ffaf64d81a6ee9249295019b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -80,11 +97,13 @@
         }
     ],
     "wof:id":404368615,
-    "wof:lastmodified":1582324879,
+    "wof:lastmodified":1684352873,
     "wof:name":"Perrigny-Sur-Loire",
     "wof:parent_id":102064791,
     "wof:placetype":"localadmin",
     "wof:placetype_local":"Commune simple",
+    "wof:population":135,
+    "wof:population_rank":1,
     "wof:repo":"whosonfirst-data-admin-fr",
     "wof:superseded_by":[],
     "wof:supersedes":[],
