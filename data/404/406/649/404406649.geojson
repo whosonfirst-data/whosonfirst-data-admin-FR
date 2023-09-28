@@ -33,6 +33,12 @@
     "geom:latitude":48.016473,
     "geom:longitude":0.334751,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":48.020009,
     "lbl:longitude":0.330746,
     "mz:hierarchy_label":0,
@@ -268,8 +274,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_72054",
-        "eurostat:nuts_2021_id":"72054"
+        "eurostat:nuts_2021_id":"72054",
+        "fra-insee:code":"72054",
+        "frgov:epci_code":"247200132"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101763443
     ],
@@ -290,7 +302,7 @@
         }
     ],
     "wof:id":404406649,
-    "wof:lastmodified":1684353328,
+    "wof:lastmodified":1695877557,
     "wof:name":"Champagne",
     "wof:parent_id":102068783,
     "wof:placetype":"localadmin",

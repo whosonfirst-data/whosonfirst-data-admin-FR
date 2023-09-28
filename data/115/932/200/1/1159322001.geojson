@@ -33,6 +33,12 @@
     "geom:latitude":49.900438,
     "geom:longitude":2.289789,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":49.903358,
     "lbl:longitude":2.285679,
     "mps:latitude":49.903358,
@@ -324,8 +330,14 @@
     "wof:concordance":{},
     "wof:concordances":{
         "eg:gisco_id":"FR_80021",
-        "eurostat:nuts_2021_id":"80021"
+        "eurostat:nuts_2021_id":"80021",
+        "fra-insee:code":"80021",
+        "frgov:epci_code":"248000531"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101901021,
         102072477
@@ -346,7 +358,7 @@
         }
     ],
     "wof:id":1159322001,
-    "wof:lastmodified":1684353595,
+    "wof:lastmodified":1695878194,
     "wof:name":"Amiens",
     "wof:parent_id":102072477,
     "wof:placetype":"localadmin",

@@ -33,6 +33,12 @@
     "geom:latitude":45.952305,
     "geom:longitude":0.312312,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":45.953441,
     "lbl:longitude":0.315139,
     "mz:hierarchy_label":0,
@@ -149,8 +155,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_16325",
-        "eurostat:nuts_2021_id":"16325"
+        "eurostat:nuts_2021_id":"16325",
+        "fra-insee:code":"16325",
+        "frgov:epci_code":"200043016"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         1125893173
     ],
@@ -172,7 +184,7 @@
         }
     ],
     "wof:id":404427191,
-    "wof:lastmodified":1684353570,
+    "wof:lastmodified":1695878134,
     "wof:name":"Saint-Gourson",
     "wof:parent_id":102068803,
     "wof:placetype":"localadmin",

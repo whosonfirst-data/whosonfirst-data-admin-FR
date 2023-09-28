@@ -33,6 +33,12 @@
     "geom:latitude":48.629553,
     "geom:longitude":2.439818,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.628197,
     "lbl:longitude":2.439374,
     "mps:latitude":48.628197,
@@ -134,8 +140,14 @@
     "wof:concordance":{},
     "wof:concordances":{
         "eg:gisco_id":"FR_91228",
-        "eurostat:nuts_2021_id":"91228"
+        "eurostat:nuts_2021_id":"91228",
+        "fra-insee:code":"91228",
+        "frgov:epci_code":"200059228"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101751065,
         102072173
@@ -155,7 +167,7 @@
         }
     ],
     "wof:id":1159322513,
-    "wof:lastmodified":1684353602,
+    "wof:lastmodified":1695878210,
     "wof:name":"\u00c9vry",
     "wof:parent_id":102072173,
     "wof:placetype":"localadmin",

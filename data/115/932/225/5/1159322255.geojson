@@ -33,6 +33,12 @@
     "geom:latitude":48.955046,
     "geom:longitude":2.313934,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.956354,
     "lbl:longitude":2.31198,
     "mps:latitude":48.956354,
@@ -185,8 +191,14 @@
     "wof:concordance":{},
     "wof:concordances":{
         "eg:gisco_id":"FR_93031",
-        "eurostat:nuts_2021_id":"93031"
+        "eurostat:nuts_2021_id":"93031",
+        "fra-insee:code":"93031",
+        "frgov:epci_code":"200054781"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101751175,
         102066557
@@ -206,7 +218,7 @@
         }
     ],
     "wof:id":1159322255,
-    "wof:lastmodified":1684353599,
+    "wof:lastmodified":1695878202,
     "wof:name":"\u00c9pinay-sur-Seine",
     "wof:parent_id":102066557,
     "wof:placetype":"localadmin",

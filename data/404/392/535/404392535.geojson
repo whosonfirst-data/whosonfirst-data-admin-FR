@@ -33,6 +33,12 @@
     "geom:latitude":43.526099,
     "geom:longitude":0.261465,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":43.52822,
     "lbl:longitude":0.263144,
     "mz:hierarchy_label":0,
@@ -113,8 +119,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_32367",
-        "eurostat:nuts_2021_id":"32367"
+        "eurostat:nuts_2021_id":"32367",
+        "fra-insee:code":"32367",
+        "frgov:epci_code":"243200425"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         1125960461
     ],
@@ -136,7 +148,7 @@
         }
     ],
     "wof:id":404392535,
-    "wof:lastmodified":1684353162,
+    "wof:lastmodified":1695877169,
     "wof:name":"Saint-Christaud",
     "wof:parent_id":102068067,
     "wof:placetype":"localadmin",

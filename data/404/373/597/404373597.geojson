@@ -33,6 +33,12 @@
     "geom:latitude":45.545062,
     "geom:longitude":3.198631,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":45.544717,
     "lbl:longitude":3.201007,
     "mz:hierarchy_label":0,
@@ -117,8 +123,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_63275",
-        "eurostat:nuts_2021_id":"63275"
+        "eurostat:nuts_2021_id":"63275",
+        "fra-insee:code":"63275",
+        "frgov:epci_code":"200070407"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         1360675121
     ],
@@ -140,7 +152,7 @@
         }
     ],
     "wof:id":404373597,
-    "wof:lastmodified":1684352931,
+    "wof:lastmodified":1695876703,
     "wof:name":"Perrier",
     "wof:parent_id":102067919,
     "wof:placetype":"localadmin",

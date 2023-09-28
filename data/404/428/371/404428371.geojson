@@ -33,6 +33,12 @@
     "geom:latitude":48.555651,
     "geom:longitude":4.113155,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":48.553057,
     "lbl:longitude":4.113072,
     "mz:hierarchy_label":0,
@@ -122,8 +128,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_10272",
-        "eurostat:nuts_2021_id":"10272"
+        "eurostat:nuts_2021_id":"10272",
+        "fra-insee:code":"10272",
+        "frgov:epci_code":"200071777"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101883127
     ],
@@ -145,7 +157,7 @@
         }
     ],
     "wof:id":404428371,
-    "wof:lastmodified":1684353584,
+    "wof:lastmodified":1695878171,
     "wof:name":"Ormes",
     "wof:parent_id":102064585,
     "wof:placetype":"localadmin",

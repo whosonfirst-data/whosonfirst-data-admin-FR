@@ -33,6 +33,12 @@
     "geom:latitude":48.906882,
     "geom:longitude":2.245236,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.907223,
     "lbl:longitude":2.247876,
     "mps:latitude":48.907223,
@@ -191,8 +197,14 @@
     "wof:concordance":{},
     "wof:concordances":{
         "eg:gisco_id":"FR_92035",
-        "eurostat:nuts_2021_id":"92035"
+        "eurostat:nuts_2021_id":"92035",
+        "fra-insee:code":"92035",
+        "frgov:epci_code":"200054781"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101749791
     ],
@@ -211,7 +223,7 @@
         }
     ],
     "wof:id":1159322433,
-    "wof:lastmodified":1684353601,
+    "wof:lastmodified":1695878208,
     "wof:name":"La Garenne-Colombes",
     "wof:parent_id":102067863,
     "wof:placetype":"localadmin",

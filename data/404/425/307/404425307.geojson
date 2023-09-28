@@ -33,6 +33,12 @@
     "geom:latitude":49.854609,
     "geom:longitude":2.924603,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":49.854324,
     "lbl:longitude":2.929915,
     "mz:hierarchy_label":0,
@@ -155,8 +161,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_80701",
-        "eurostat:nuts_2021_id":"80701"
+        "eurostat:nuts_2021_id":"80701",
+        "fra-insee:code":"80701",
+        "frgov:epci_code":"200070985"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101901009
     ],
@@ -178,7 +190,7 @@
         }
     ],
     "wof:id":404425307,
-    "wof:lastmodified":1684353549,
+    "wof:lastmodified":1695878080,
     "wof:name":"Saint-Christ-Briost",
     "wof:parent_id":102069915,
     "wof:placetype":"localadmin",

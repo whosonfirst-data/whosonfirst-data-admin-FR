@@ -33,6 +33,12 @@
     "geom:latitude":48.183171,
     "geom:longitude":4.740748,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":48.1893,
     "lbl:longitude":4.736675,
     "mz:hierarchy_label":0,
@@ -149,8 +155,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_10032",
-        "eurostat:nuts_2021_id":"10032"
+        "eurostat:nuts_2021_id":"10032",
+        "fra-insee:code":"10032",
+        "frgov:epci_code":"241000405"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101884567
     ],
@@ -172,7 +184,7 @@
         }
     ],
     "wof:id":404391121,
-    "wof:lastmodified":1684353145,
+    "wof:lastmodified":1695877132,
     "wof:name":"Baroville",
     "wof:parent_id":102064631,
     "wof:placetype":"localadmin",

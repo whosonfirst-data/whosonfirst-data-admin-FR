@@ -33,6 +33,12 @@
     "geom:latitude":44.800521,
     "geom:longitude":4.288018,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":44.800611,
     "lbl:longitude":4.287364,
     "mz:hierarchy_label":0,
@@ -74,8 +80,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_07120",
-        "eurostat:nuts_2021_id":"07120"
+        "eurostat:nuts_2021_id":"07120",
+        "fra-insee:code":"07120",
+        "frgov:epci_code":"200072007"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         1125805901
     ],
@@ -97,7 +109,7 @@
         }
     ],
     "wof:id":404363787,
-    "wof:lastmodified":1684352806,
+    "wof:lastmodified":1695878427,
     "wof:name":"Lachamp-Raphael",
     "wof:parent_id":102064435,
     "wof:placetype":"localadmin",

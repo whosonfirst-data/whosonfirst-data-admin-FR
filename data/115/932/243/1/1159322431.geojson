@@ -33,6 +33,12 @@
     "geom:latitude":49.051521,
     "geom:longitude":2.094494,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":49.052405,
     "lbl:longitude":2.091812,
     "mps:latitude":49.052405,
@@ -197,8 +203,14 @@
     "wof:concordance":{},
     "wof:concordances":{
         "eg:gisco_id":"FR_95500",
-        "eurostat:nuts_2021_id":"95500"
+        "eurostat:nuts_2021_id":"95500",
+        "fra-insee:code":"95500",
+        "frgov:epci_code":"249500109"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101751305,
         102067933
@@ -218,7 +230,7 @@
         }
     ],
     "wof:id":1159322431,
-    "wof:lastmodified":1684353601,
+    "wof:lastmodified":1695878208,
     "wof:name":"Pontoise",
     "wof:parent_id":102067933,
     "wof:placetype":"localadmin",

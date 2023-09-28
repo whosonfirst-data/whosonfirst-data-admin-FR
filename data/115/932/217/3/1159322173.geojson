@@ -33,6 +33,12 @@
     "geom:latitude":45.192899,
     "geom:longitude":5.6779,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.192958,
     "lbl:longitude":5.678388,
     "mps:latitude":45.192958,
@@ -132,8 +138,14 @@
     "wof:concordance":{},
     "wof:concordances":{
         "eg:gisco_id":"FR_38169",
-        "eurostat:nuts_2021_id":"38169"
+        "eurostat:nuts_2021_id":"38169",
+        "fra-insee:code":"38169",
+        "frgov:epci_code":"200040715"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101749301,
         102072039
@@ -154,7 +166,7 @@
         }
     ],
     "wof:id":1159322173,
-    "wof:lastmodified":1684353598,
+    "wof:lastmodified":1695878200,
     "wof:name":"Fontaine",
     "wof:parent_id":102072039,
     "wof:placetype":"localadmin",

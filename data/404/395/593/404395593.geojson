@@ -33,6 +33,12 @@
     "geom:latitude":45.773907,
     "geom:longitude":5.550619,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":45.773551,
     "lbl:longitude":5.547646,
     "mz:hierarchy_label":0,
@@ -176,8 +182,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_01233",
-        "eurostat:nuts_2021_id":"01233"
+        "eurostat:nuts_2021_id":"01233",
+        "fra-insee:code":"01233",
+        "frgov:epci_code":"240100883"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         1125782227
     ],
@@ -199,7 +211,7 @@
         }
     ],
     "wof:id":404395593,
-    "wof:lastmodified":1684353198,
+    "wof:lastmodified":1695877247,
     "wof:name":"Marchamp",
     "wof:parent_id":102067555,
     "wof:placetype":"localadmin",

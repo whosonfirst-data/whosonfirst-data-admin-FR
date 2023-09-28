@@ -33,6 +33,12 @@
     "geom:latitude":47.793763,
     "geom:longitude":3.581722,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.791006,
     "lbl:longitude":3.580876,
     "mps:latitude":47.791006,
@@ -255,8 +261,14 @@
     "wof:concordance":{},
     "wof:concordances":{
         "eg:gisco_id":"FR_89024",
-        "eurostat:nuts_2021_id":"89024"
+        "eurostat:nuts_2021_id":"89024",
+        "fra-insee:code":"89024",
+        "frgov:epci_code":"200067114"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101829667,
         102072279
@@ -277,7 +289,7 @@
         }
     ],
     "wof:id":1159322371,
-    "wof:lastmodified":1684353600,
+    "wof:lastmodified":1695878206,
     "wof:name":"Auxerre",
     "wof:parent_id":102072279,
     "wof:placetype":"localadmin",

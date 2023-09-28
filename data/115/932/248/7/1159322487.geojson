@@ -33,6 +33,12 @@
     "geom:latitude":48.845509,
     "geom:longitude":2.187477,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.845717,
     "lbl:longitude":2.187768,
     "mps:latitude":48.845717,
@@ -167,8 +173,14 @@
     "wof:concordance":{},
     "wof:concordances":{
         "eg:gisco_id":"FR_92033",
-        "eurostat:nuts_2021_id":"92033"
+        "eurostat:nuts_2021_id":"92033",
+        "fra-insee:code":"92033",
+        "frgov:epci_code":"200054781"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101749785,
         102067669
@@ -188,7 +200,7 @@
         }
     ],
     "wof:id":1159322487,
-    "wof:lastmodified":1684353602,
+    "wof:lastmodified":1695878210,
     "wof:name":"Garches",
     "wof:parent_id":102067669,
     "wof:placetype":"localadmin",

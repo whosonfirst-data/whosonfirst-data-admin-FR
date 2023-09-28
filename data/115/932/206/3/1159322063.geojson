@@ -33,6 +33,12 @@
     "geom:latitude":49.496623,
     "geom:longitude":0.140233,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":49.493442,
     "lbl:longitude":0.141435,
     "mps:latitude":49.493442,
@@ -321,8 +327,14 @@
     "wof:concordance":{},
     "wof:concordances":{
         "eg:gisco_id":"FR_76351",
-        "eurostat:nuts_2021_id":"76351"
+        "eurostat:nuts_2021_id":"76351",
+        "fra-insee:code":"76351",
+        "frgov:epci_code":"247600596"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101750183,
         102072319
@@ -343,7 +355,7 @@
         }
     ],
     "wof:id":1159322063,
-    "wof:lastmodified":1684353596,
+    "wof:lastmodified":1695878197,
     "wof:name":"Le Havre",
     "wof:parent_id":102072319,
     "wof:placetype":"localadmin",

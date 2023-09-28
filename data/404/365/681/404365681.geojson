@@ -33,6 +33,12 @@
     "geom:latitude":43.919382,
     "geom:longitude":7.015423,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":43.920114,
     "lbl:longitude":7.014852,
     "mz:hierarchy_label":0,
@@ -169,8 +175,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_06005",
-        "eurostat:nuts_2021_id":"06005"
+        "eurostat:nuts_2021_id":"06005",
+        "fra-insee:code":"06005",
+        "frgov:epci_code":"200039931"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         1125824829
     ],
@@ -191,7 +203,7 @@
         }
     ],
     "wof:id":404365681,
-    "wof:lastmodified":1684352833,
+    "wof:lastmodified":1695878475,
     "wof:name":"Ascros",
     "wof:parent_id":102067603,
     "wof:placetype":"localadmin",

@@ -33,6 +33,12 @@
     "geom:latitude":45.182823,
     "geom:longitude":0.122246,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "chef-lieu canton"
+    ],
     "lbl:latitude":45.182974,
     "lbl:longitude":0.137105,
     "mz:hierarchy_label":0,
@@ -164,8 +170,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_24376",
-        "eurostat:nuts_2021_id":"24376"
+        "eurostat:nuts_2021_id":"24376",
+        "fra-insee:code":"24376",
+        "frgov:epci_code":"242400935"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101769337
     ],
@@ -187,7 +199,7 @@
         }
     ],
     "wof:id":404350753,
-    "wof:lastmodified":1684352628,
+    "wof:lastmodified":1695878024,
     "wof:name":"Saint-Aulaye",
     "wof:parent_id":102070021,
     "wof:placetype":"localadmin",

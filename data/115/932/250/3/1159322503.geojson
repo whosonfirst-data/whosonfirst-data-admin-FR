@@ -33,6 +33,12 @@
     "geom:latitude":50.950081,
     "geom:longitude":1.87592,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":50.953934,
     "lbl:longitude":1.880214,
     "mps:latitude":50.953934,
@@ -303,8 +309,14 @@
     "wof:concordance":{},
     "wof:concordances":{
         "eg:gisco_id":"FR_62193",
-        "eurostat:nuts_2021_id":"62193"
+        "eurostat:nuts_2021_id":"62193",
+        "fra-insee:code":"62193",
+        "frgov:epci_code":"246201149"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101750223,
         102072387
@@ -325,7 +337,7 @@
         }
     ],
     "wof:id":1159322503,
-    "wof:lastmodified":1684353602,
+    "wof:lastmodified":1695878210,
     "wof:name":"Calais",
     "wof:parent_id":102072387,
     "wof:placetype":"localadmin",

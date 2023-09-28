@@ -33,6 +33,12 @@
     "geom:latitude":47.398317,
     "geom:longitude":0.696179,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.418685,
     "lbl:longitude":0.703842,
     "mps:latitude":47.418685,
@@ -287,8 +293,14 @@
     "wof:concordance":{},
     "wof:concordances":{
         "eg:gisco_id":"FR_37261",
-        "eurostat:nuts_2021_id":"37261"
+        "eurostat:nuts_2021_id":"37261",
+        "fra-insee:code":"37261",
+        "frgov:epci_code":"243700754"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101750899,
         102072455
@@ -308,7 +320,7 @@
         }
     ],
     "wof:id":1159322109,
-    "wof:lastmodified":1684353597,
+    "wof:lastmodified":1695878198,
     "wof:name":"Tours",
     "wof:parent_id":102072455,
     "wof:placetype":"localadmin",

@@ -33,6 +33,12 @@
     "geom:latitude":46.987451,
     "geom:longitude":4.457314,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":46.991322,
     "lbl:longitude":4.466369,
     "mz:hierarchy_label":0,
@@ -131,8 +137,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_71530",
-        "eurostat:nuts_2021_id":"71530"
+        "eurostat:nuts_2021_id":"71530",
+        "fra-insee:code":"71530",
+        "frgov:epci_code":"200070530"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101889701
     ],
@@ -154,7 +166,7 @@
         }
     ],
     "wof:id":404422937,
-    "wof:lastmodified":1684353521,
+    "wof:lastmodified":1695878012,
     "wof:name":"Sully",
     "wof:parent_id":102067585,
     "wof:placetype":"localadmin",

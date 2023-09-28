@@ -33,6 +33,12 @@
     "geom:latitude":43.511327,
     "geom:longitude":6.23482,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":43.511705,
     "lbl:longitude":6.234807,
     "mz:hierarchy_label":0,
@@ -142,8 +148,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_83051",
-        "eurostat:nuts_2021_id":"83051"
+        "eurostat:nuts_2021_id":"83051",
+        "fra-insee:code":"83051",
+        "frgov:epci_code":"200068104"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101896539
     ],
@@ -164,7 +176,7 @@
         }
     ],
     "wof:id":404391067,
-    "wof:lastmodified":1684353144,
+    "wof:lastmodified":1695877130,
     "wof:name":"Entrecasteaux",
     "wof:parent_id":102065989,
     "wof:placetype":"localadmin",

@@ -33,6 +33,12 @@
     "geom:latitude":43.12425,
     "geom:longitude":0.991573,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":43.127806,
     "lbl:longitude":0.993608,
     "mz:hierarchy_label":0,
@@ -149,8 +155,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_31110",
-        "eurostat:nuts_2021_id":"31110"
+        "eurostat:nuts_2021_id":"31110",
+        "fra-insee:code":"31110",
+        "frgov:epci_code":"200073146"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         1125895481
     ],
@@ -172,7 +184,7 @@
         }
     ],
     "wof:id":404385789,
-    "wof:lastmodified":1684353079,
+    "wof:lastmodified":1695876990,
     "wof:name":"Cassagne",
     "wof:parent_id":102070133,
     "wof:placetype":"localadmin",

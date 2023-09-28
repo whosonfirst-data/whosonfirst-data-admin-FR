@@ -33,6 +33,12 @@
     "geom:latitude":48.695449,
     "geom:longitude":2.461935,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.695637,
     "lbl:longitude":2.461504,
     "mps:latitude":48.695637,
@@ -182,8 +188,14 @@
     "wof:concordance":{},
     "wof:concordances":{
         "eg:gisco_id":"FR_91421",
-        "eurostat:nuts_2021_id":"91421"
+        "eurostat:nuts_2021_id":"91421",
+        "fra-insee:code":"91421",
+        "frgov:epci_code":"200058477"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101749683,
         102067861
@@ -203,7 +215,7 @@
         }
     ],
     "wof:id":1159322525,
-    "wof:lastmodified":1684353602,
+    "wof:lastmodified":1695878211,
     "wof:name":"Montgeron",
     "wof:parent_id":102067861,
     "wof:placetype":"localadmin",

@@ -33,6 +33,12 @@
     "geom:latitude":43.998002,
     "geom:longitude":6.178887,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "chef-lieu canton"
+    ],
     "lbl:latitude":43.997705,
     "lbl:longitude":6.178801,
     "mz:hierarchy_label":0,
@@ -145,8 +151,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_04121",
-        "eurostat:nuts_2021_id":"04121"
+        "eurostat:nuts_2021_id":"04121",
+        "fra-insee:code":"04121",
+        "frgov:epci_code":"200067437"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101897387
     ],
@@ -167,7 +179,7 @@
         }
     ],
     "wof:id":404406973,
-    "wof:lastmodified":1684353332,
+    "wof:lastmodified":1695877566,
     "wof:name":"Mezel",
     "wof:parent_id":102067099,
     "wof:placetype":"localadmin",

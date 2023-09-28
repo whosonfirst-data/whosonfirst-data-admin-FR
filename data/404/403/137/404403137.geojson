@@ -33,6 +33,12 @@
     "geom:latitude":45.948495,
     "geom:longitude":4.989636,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":45.949135,
     "lbl:longitude":4.989668,
     "mz:hierarchy_label":0,
@@ -134,8 +140,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_01371",
-        "eurostat:nuts_2021_id":"01371"
+        "eurostat:nuts_2021_id":"01371",
+        "fra-insee:code":"01371",
+        "frgov:epci_code":"200069193"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101768147
     ],
@@ -157,7 +169,7 @@
         }
     ],
     "wof:id":404403137,
-    "wof:lastmodified":1684353285,
+    "wof:lastmodified":1695877461,
     "wof:name":"Saint-Marcel",
     "wof:parent_id":102070525,
     "wof:placetype":"localadmin",

@@ -33,6 +33,12 @@
     "geom:latitude":45.975217,
     "geom:longitude":0.269068,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":45.976043,
     "lbl:longitude":0.269283,
     "mz:hierarchy_label":0,
@@ -135,8 +141,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_16321",
-        "eurostat:nuts_2021_id":"16321"
+        "eurostat:nuts_2021_id":"16321",
+        "fra-insee:code":"16321",
+        "frgov:epci_code":"200043016"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         1360679511
     ],
@@ -158,7 +170,7 @@
         }
     ],
     "wof:id":404418985,
-    "wof:lastmodified":1684353471,
+    "wof:lastmodified":1695877884,
     "wof:name":"Saint-Georges",
     "wof:parent_id":102068803,
     "wof:placetype":"localadmin",

@@ -33,6 +33,12 @@
     "geom:latitude":48.224495,
     "geom:longitude":4.040262,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":48.221127,
     "lbl:longitude":4.040388,
     "mz:hierarchy_label":0,
@@ -152,8 +158,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_10360",
-        "eurostat:nuts_2021_id":"10360"
+        "eurostat:nuts_2021_id":"10360",
+        "fra-insee:code":"10360",
+        "frgov:epci_code":"200069250"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101884555
     ],
@@ -175,7 +187,7 @@
         }
     ],
     "wof:id":404384821,
-    "wof:lastmodified":1684353069,
+    "wof:lastmodified":1695876967,
     "wof:name":"Saint-Pouange",
     "wof:parent_id":102065151,
     "wof:placetype":"localadmin",

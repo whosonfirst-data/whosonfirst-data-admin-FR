@@ -33,6 +33,12 @@
     "geom:latitude":48.786797,
     "geom:longitude":2.613871,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.786795,
     "lbl:longitude":2.611209,
     "mps:latitude":48.786795,
@@ -167,8 +173,14 @@
     "wof:concordance":{},
     "wof:concordances":{
         "eg:gisco_id":"FR_77373",
-        "eurostat:nuts_2021_id":"77373"
+        "eurostat:nuts_2021_id":"77373",
+        "fra-insee:code":"77373",
+        "frgov:epci_code":"200057958"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101751193,
         102071105
@@ -188,7 +200,7 @@
         }
     ],
     "wof:id":1159322237,
-    "wof:lastmodified":1684353599,
+    "wof:lastmodified":1695878202,
     "wof:name":"Pontault-Combault",
     "wof:parent_id":102071105,
     "wof:placetype":"localadmin",

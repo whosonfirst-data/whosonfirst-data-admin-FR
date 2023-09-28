@@ -33,6 +33,12 @@
     "geom:latitude":48.504243,
     "geom:longitude":3.789224,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":48.504641,
     "lbl:longitude":3.789408,
     "mz:hierarchy_label":0,
@@ -74,8 +80,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_10220",
-        "eurostat:nuts_2021_id":"10220"
+        "eurostat:nuts_2021_id":"10220",
+        "fra-insee:code":"10220",
+        "frgov:epci_code":"200000545"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101762031
     ],
@@ -97,7 +109,7 @@
         }
     ],
     "wof:id":404422967,
-    "wof:lastmodified":1684353521,
+    "wof:lastmodified":1695878013,
     "wof:name":"Maizieres-La-Grande-Paroisse",
     "wof:parent_id":102067999,
     "wof:placetype":"localadmin",

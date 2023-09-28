@@ -33,6 +33,12 @@
     "geom:latitude":45.430721,
     "geom:longitude":4.016748,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":45.428297,
     "lbl:longitude":4.017286,
     "mz:hierarchy_label":0,
@@ -122,8 +128,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_42091",
-        "eurostat:nuts_2021_id":"42091"
+        "eurostat:nuts_2021_id":"42091",
+        "fra-insee:code":"42091",
+        "frgov:epci_code":"200065886"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101895227
     ],
@@ -145,7 +157,7 @@
         }
     ],
     "wof:id":404367401,
-    "wof:lastmodified":1684352857,
+    "wof:lastmodified":1695878509,
     "wof:name":"Estivareilles",
     "wof:parent_id":102067393,
     "wof:placetype":"localadmin",

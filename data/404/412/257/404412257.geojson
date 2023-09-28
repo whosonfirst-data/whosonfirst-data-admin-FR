@@ -33,6 +33,12 @@
     "geom:latitude":48.265781,
     "geom:longitude":0.114356,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":48.264875,
     "lbl:longitude":0.108274,
     "mz:hierarchy_label":0,
@@ -73,8 +79,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_72235",
-        "eurostat:nuts_2021_id":"72235"
+        "eurostat:nuts_2021_id":"72235",
+        "fra-insee:code":"72235",
+        "frgov:epci_code":"200072700"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         1125796651
     ],
@@ -95,7 +107,7 @@
         }
     ],
     "wof:id":404412257,
-    "wof:lastmodified":1684353392,
+    "wof:lastmodified":1695877712,
     "wof:name":"Piace",
     "wof:parent_id":102064571,
     "wof:placetype":"localadmin",

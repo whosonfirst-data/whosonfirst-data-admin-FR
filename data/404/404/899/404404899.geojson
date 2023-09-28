@@ -33,6 +33,12 @@
     "geom:latitude":43.485408,
     "geom:longitude":0.346261,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":43.485602,
     "lbl:longitude":0.346683,
     "mz:hierarchy_label":0,
@@ -119,8 +125,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_32393",
-        "eurostat:nuts_2021_id":"32393"
+        "eurostat:nuts_2021_id":"32393",
+        "fra-insee:code":"32393",
+        "frgov:epci_code":"243200425"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         1125878241
     ],
@@ -142,7 +154,7 @@
         }
     ],
     "wof:id":404404899,
-    "wof:lastmodified":1684353305,
+    "wof:lastmodified":1695877505,
     "wof:name":"Saint-Maur",
     "wof:parent_id":102067899,
     "wof:placetype":"localadmin",

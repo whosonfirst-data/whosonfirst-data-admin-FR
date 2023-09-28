@@ -33,6 +33,12 @@
     "geom:latitude":50.711079,
     "geom:longitude":1.575549,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":50.711102,
     "lbl:longitude":1.577076,
     "mps:latitude":50.711102,
@@ -156,8 +162,14 @@
     "wof:concordance":{},
     "wof:concordances":{
         "eg:gisco_id":"FR_62667",
-        "eurostat:nuts_2021_id":"62667"
+        "eurostat:nuts_2021_id":"62667",
+        "fra-insee:code":"62667",
+        "frgov:epci_code":"246200729"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101839567,
         102071867
@@ -178,7 +190,7 @@
         }
     ],
     "wof:id":1159321899,
-    "wof:lastmodified":1684353594,
+    "wof:lastmodified":1695878191,
     "wof:name":"Le Portel",
     "wof:parent_id":102071867,
     "wof:placetype":"localadmin",

@@ -33,6 +33,12 @@
     "geom:latitude":48.603921,
     "geom:longitude":2.469588,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.606393,
     "lbl:longitude":2.471864,
     "mps:latitude":48.606393,
@@ -191,8 +197,14 @@
     "wof:concordance":{},
     "wof:concordances":{
         "eg:gisco_id":"FR_91174",
-        "eurostat:nuts_2021_id":"91174"
+        "eurostat:nuts_2021_id":"91174",
+        "fra-insee:code":"91174",
+        "frgov:epci_code":"200059228"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101749633,
         102072075
@@ -212,7 +224,7 @@
         }
     ],
     "wof:id":1159322533,
-    "wof:lastmodified":1684353602,
+    "wof:lastmodified":1695878211,
     "wof:name":"Corbeil-Essonnes",
     "wof:parent_id":102072075,
     "wof:placetype":"localadmin",

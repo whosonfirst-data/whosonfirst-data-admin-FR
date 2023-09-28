@@ -33,6 +33,12 @@
     "geom:latitude":43.605217,
     "geom:longitude":-0.271149,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":43.606156,
     "lbl:longitude":-0.271533,
     "mz:hierarchy_label":0,
@@ -155,8 +161,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_40247",
-        "eurostat:nuts_2021_id":"40247"
+        "eurostat:nuts_2021_id":"40247",
+        "fra-insee:code":"40247",
+        "frgov:epci_code":"200030435"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         1125938761
     ],
@@ -178,7 +190,7 @@
         }
     ],
     "wof:id":404377151,
-    "wof:lastmodified":1684352977,
+    "wof:lastmodified":1695876770,
     "wof:name":"Saint-Agnet",
     "wof:parent_id":102064333,
     "wof:placetype":"localadmin",

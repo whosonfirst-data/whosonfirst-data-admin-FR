@@ -33,6 +33,12 @@
     "geom:latitude":48.902285,
     "geom:longitude":2.48397,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.899536,
     "lbl:longitude":2.48398,
     "mps:latitude":48.899536,
@@ -185,8 +191,14 @@
     "wof:concordance":{},
     "wof:concordances":{
         "eg:gisco_id":"FR_93010",
-        "eurostat:nuts_2021_id":"93010"
+        "eurostat:nuts_2021_id":"93010",
+        "fra-insee:code":"93010",
+        "frgov:epci_code":"200054781"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101749081,
         102071983
@@ -206,7 +218,7 @@
         }
     ],
     "wof:id":1159322219,
-    "wof:lastmodified":1684353599,
+    "wof:lastmodified":1695878201,
     "wof:name":"Bondy",
     "wof:parent_id":102071983,
     "wof:placetype":"localadmin",

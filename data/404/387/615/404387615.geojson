@@ -33,6 +33,12 @@
     "geom:latitude":50.254577,
     "geom:longitude":2.565122,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":50.254067,
     "lbl:longitude":2.56531,
     "mz:hierarchy_label":0,
@@ -161,8 +167,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_62347",
-        "eurostat:nuts_2021_id":"62347"
+        "eurostat:nuts_2021_id":"62347",
+        "fra-insee:code":"62347",
+        "frgov:epci_code":"200069482"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101899325
     ],
@@ -184,7 +196,7 @@
         }
     ],
     "wof:id":404387615,
-    "wof:lastmodified":1684353099,
+    "wof:lastmodified":1695877038,
     "wof:name":"Fosseux",
     "wof:parent_id":102066049,
     "wof:placetype":"localadmin",

@@ -33,6 +33,12 @@
     "geom:latitude":48.788116,
     "geom:longitude":2.394531,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.787036,
     "lbl:longitude":2.395057,
     "mps:latitude":48.787036,
@@ -185,8 +191,14 @@
     "wof:concordance":{},
     "wof:concordances":{
         "eg:gisco_id":"FR_94081",
-        "eurostat:nuts_2021_id":"94081"
+        "eurostat:nuts_2021_id":"94081",
+        "fra-insee:code":"94081",
+        "frgov:epci_code":"200054781"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101751103,
         102072427
@@ -206,7 +218,7 @@
         }
     ],
     "wof:id":1159322273,
-    "wof:lastmodified":1684353599,
+    "wof:lastmodified":1695878203,
     "wof:name":"Vitry-sur-Seine",
     "wof:parent_id":102072427,
     "wof:placetype":"localadmin",

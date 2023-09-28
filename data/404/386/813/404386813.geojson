@@ -33,6 +33,12 @@
     "geom:latitude":49.342287,
     "geom:longitude":1.287853,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":49.350364,
     "lbl:longitude":1.289017,
     "mz:hierarchy_label":0,
@@ -149,8 +155,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_27470",
-        "eurostat:nuts_2021_id":"27470"
+        "eurostat:nuts_2021_id":"27470",
+        "fra-insee:code":"27470",
+        "frgov:epci_code":"200070142"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         1126006215
     ],
@@ -172,7 +184,7 @@
         }
     ],
     "wof:id":404386813,
-    "wof:lastmodified":1684353091,
+    "wof:lastmodified":1695877015,
     "wof:name":"Pont-Saint-Pierre",
     "wof:parent_id":102067571,
     "wof:placetype":"localadmin",

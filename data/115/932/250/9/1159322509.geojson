@@ -33,6 +33,12 @@
     "geom:latitude":47.631846,
     "geom:longitude":6.155003,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.631176,
     "lbl:longitude":6.155007,
     "mps:latitude":47.631176,
@@ -216,8 +222,14 @@
     "wof:concordance":{},
     "wof:concordances":{
         "eg:gisco_id":"FR_70550",
-        "eurostat:nuts_2021_id":"70550"
+        "eurostat:nuts_2021_id":"70550",
+        "fra-insee:code":"70550",
+        "frgov:epci_code":"247000011"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101829471,
         102072073
@@ -238,7 +250,7 @@
         }
     ],
     "wof:id":1159322509,
-    "wof:lastmodified":1684353602,
+    "wof:lastmodified":1695878210,
     "wof:name":"Vesoul",
     "wof:parent_id":102072073,
     "wof:placetype":"localadmin",

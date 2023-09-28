@@ -33,6 +33,12 @@
     "geom:latitude":48.571406,
     "geom:longitude":7.767647,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.570496,
     "lbl:longitude":7.768786,
     "mps:latitude":48.570496,
@@ -462,8 +468,14 @@
     "wof:concordance":{},
     "wof:concordances":{
         "eg:gisco_id":"FR_67482",
-        "eurostat:nuts_2021_id":"67482"
+        "eurostat:nuts_2021_id":"67482",
+        "fra-insee:code":"67482",
+        "frgov:epci_code":"246700488"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101751113,
         102072577,
@@ -485,7 +497,7 @@
         }
     ],
     "wof:id":1159321945,
-    "wof:lastmodified":1684353595,
+    "wof:lastmodified":1695878192,
     "wof:name":"Strasbourg",
     "wof:parent_id":102072577,
     "wof:placetype":"localadmin",

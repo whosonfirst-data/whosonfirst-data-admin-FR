@@ -33,6 +33,12 @@
     "geom:latitude":45.574887,
     "geom:longitude":3.225877,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":45.576514,
     "lbl:longitude":3.228719,
     "mz:hierarchy_label":0,
@@ -149,8 +155,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_63404",
-        "eurostat:nuts_2021_id":"63404"
+        "eurostat:nuts_2021_id":"63404",
+        "fra-insee:code":"63404",
+        "frgov:epci_code":"200070407"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101893631
     ],
@@ -172,7 +184,7 @@
         }
     ],
     "wof:id":404379481,
-    "wof:lastmodified":1684353005,
+    "wof:lastmodified":1695876828,
     "wof:name":"Saint-Yvoine",
     "wof:parent_id":102067919,
     "wof:placetype":"localadmin",

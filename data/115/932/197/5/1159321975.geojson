@@ -33,6 +33,12 @@
     "geom:latitude":47.75039,
     "geom:longitude":-3.378947,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.749296,
     "lbl:longitude":-3.37603,
     "mps:latitude":47.749296,
@@ -257,8 +263,14 @@
     "wof:concordance":{},
     "wof:concordances":{
         "eg:gisco_id":"FR_56121",
-        "eurostat:nuts_2021_id":"56121"
+        "eurostat:nuts_2021_id":"56121",
+        "fra-insee:code":"56121",
+        "frgov:epci_code":"200042174"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101749615,
         102072263
@@ -278,7 +290,7 @@
         }
     ],
     "wof:id":1159321975,
-    "wof:lastmodified":1684353595,
+    "wof:lastmodified":1695878193,
     "wof:name":"Lorient",
     "wof:parent_id":102072263,
     "wof:placetype":"localadmin",

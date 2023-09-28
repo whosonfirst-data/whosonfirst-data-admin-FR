@@ -33,6 +33,12 @@
     "geom:latitude":48.971885,
     "geom:longitude":2.252848,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.971092,
     "lbl:longitude":2.254553,
     "mps:latitude":48.971092,
@@ -176,8 +182,14 @@
     "wof:concordance":{},
     "wof:concordances":{
         "eg:gisco_id":"FR_95582",
-        "eurostat:nuts_2021_id":"95582"
+        "eurostat:nuts_2021_id":"95582",
+        "fra-insee:code":"95582",
+        "frgov:epci_code":"200058485"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101751337,
         102068371
@@ -197,7 +209,7 @@
         }
     ],
     "wof:id":1159322439,
-    "wof:lastmodified":1684353601,
+    "wof:lastmodified":1695878208,
     "wof:name":"Sannois",
     "wof:parent_id":102068371,
     "wof:placetype":"localadmin",

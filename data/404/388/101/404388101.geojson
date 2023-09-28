@@ -33,6 +33,12 @@
     "geom:latitude":42.441369,
     "geom:longitude":9.397135,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":42.441195,
     "lbl:longitude":9.395633,
     "mz:hierarchy_label":0,
@@ -421,8 +427,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_2B214",
-        "eurostat:nuts_2021_id":"2B214"
+        "eurostat:nuts_2021_id":"2B214",
+        "fra-insee:code":"2B214",
+        "frgov:epci_code":"200073252"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         1125796661
     ],
@@ -443,7 +455,7 @@
         }
     ],
     "wof:id":404388101,
-    "wof:lastmodified":1684353105,
+    "wof:lastmodified":1695877052,
     "wof:name":"Piano",
     "wof:parent_id":102070977,
     "wof:placetype":"localadmin",

@@ -33,6 +33,12 @@
     "geom:latitude":42.860624,
     "geom:longitude":0.747239,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":42.869341,
     "lbl:longitude":0.736603,
     "mz:hierarchy_label":0,
@@ -122,8 +128,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_31190",
-        "eurostat:nuts_2021_id":"31190"
+        "eurostat:nuts_2021_id":"31190",
+        "fra-insee:code":"31190",
+        "frgov:epci_code":"200072635"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101898061
     ],
@@ -145,7 +157,7 @@
         }
     ],
     "wof:id":404402061,
-    "wof:lastmodified":1684353273,
+    "wof:lastmodified":1695877431,
     "wof:name":"Fos",
     "wof:parent_id":102069485,
     "wof:placetype":"localadmin",

@@ -33,6 +33,12 @@
     "geom:latitude":44.083346,
     "geom:longitude":0.852463,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":44.085022,
     "lbl:longitude":0.851784,
     "mz:hierarchy_label":0,
@@ -129,8 +135,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_82165",
-        "eurostat:nuts_2021_id":"82165"
+        "eurostat:nuts_2021_id":"82165",
+        "fra-insee:code":"82165",
+        "frgov:epci_code":"248200016"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         1360679327
     ],
@@ -152,7 +164,7 @@
         }
     ],
     "wof:id":404416705,
-    "wof:lastmodified":1684353445,
+    "wof:lastmodified":1695877826,
     "wof:name":"Saint-Loup",
     "wof:parent_id":102064295,
     "wof:placetype":"localadmin",

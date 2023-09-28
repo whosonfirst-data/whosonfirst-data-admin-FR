@@ -33,6 +33,12 @@
     "geom:latitude":48.727484,
     "geom:longitude":2.27531,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.727479,
     "lbl:longitude":2.270106,
     "mps:latitude":48.727479,
@@ -122,8 +128,14 @@
     "wof:concordance":{},
     "wof:concordances":{
         "eg:gisco_id":"FR_91377",
-        "eurostat:nuts_2021_id":"91377"
+        "eurostat:nuts_2021_id":"91377",
+        "fra-insee:code":"91377",
+        "frgov:epci_code":"200056232"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101749681,
         102072367
@@ -143,7 +155,7 @@
         }
     ],
     "wof:id":1159322387,
-    "wof:lastmodified":1684353601,
+    "wof:lastmodified":1695878207,
     "wof:name":"Massy",
     "wof:parent_id":102072367,
     "wof:placetype":"localadmin",

@@ -33,6 +33,12 @@
     "geom:latitude":45.346573,
     "geom:longitude":1.236721,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":45.341022,
     "lbl:longitude":1.246931,
     "mz:hierarchy_label":0,
@@ -113,8 +119,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_24464",
-        "eurostat:nuts_2021_id":"24464"
+        "eurostat:nuts_2021_id":"24464",
+        "fra-insee:code":"24464",
+        "frgov:epci_code":"242401024"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         1125937009
     ],
@@ -136,7 +148,7 @@
         }
     ],
     "wof:id":404368117,
-    "wof:lastmodified":1684352867,
+    "wof:lastmodified":1695878528,
     "wof:name":"Saint-Mesmin",
     "wof:parent_id":102066347,
     "wof:placetype":"localadmin",

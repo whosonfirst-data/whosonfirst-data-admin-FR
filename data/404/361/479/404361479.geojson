@@ -33,6 +33,12 @@
     "geom:latitude":46.036006,
     "geom:longitude":5.463076,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":46.036533,
     "lbl:longitude":5.463772,
     "mz:hierarchy_label":0,
@@ -74,8 +80,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_01056",
-        "eurostat:nuts_2021_id":"01056"
+        "eurostat:nuts_2021_id":"01056",
+        "fra-insee:code":"01056",
+        "frgov:epci_code":"200029999"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         1125924553
     ],
@@ -97,7 +109,7 @@
         }
     ],
     "wof:id":404361479,
-    "wof:lastmodified":1684352774,
+    "wof:lastmodified":1695878367,
     "wof:name":"Boyeux-Saint-Jerome",
     "wof:parent_id":102068853,
     "wof:placetype":"localadmin",

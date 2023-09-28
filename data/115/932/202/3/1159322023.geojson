@@ -33,6 +33,12 @@
     "geom:latitude":43.136454,
     "geom:longitude":5.932615,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.141025,
     "lbl:longitude":5.937929,
     "mps:latitude":43.141025,
@@ -293,8 +299,14 @@
     "wof:concordance":{},
     "wof:concordances":{
         "eg:gisco_id":"FR_83137",
-        "eurostat:nuts_2021_id":"83137"
+        "eurostat:nuts_2021_id":"83137",
+        "fra-insee:code":"83137",
+        "frgov:epci_code":"248300543"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101750657,
         102072485
@@ -314,7 +326,7 @@
         }
     ],
     "wof:id":1159322023,
-    "wof:lastmodified":1684353596,
+    "wof:lastmodified":1695878195,
     "wof:name":"Toulon",
     "wof:parent_id":102072485,
     "wof:placetype":"localadmin",

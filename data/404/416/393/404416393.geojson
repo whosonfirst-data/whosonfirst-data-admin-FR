@@ -33,6 +33,12 @@
     "geom:latitude":43.719231,
     "geom:longitude":1.099627,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":43.717341,
     "lbl:longitude":1.103371,
     "mz:hierarchy_label":0,
@@ -74,8 +80,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_31234",
-        "eurostat:nuts_2021_id":"31234"
+        "eurostat:nuts_2021_id":"31234",
+        "fra-insee:code":"31234",
+        "frgov:epci_code":"200071314"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         1125911045
     ],
@@ -97,7 +109,7 @@
         }
     ],
     "wof:id":404416393,
-    "wof:lastmodified":1684353442,
+    "wof:lastmodified":1695877820,
     "wof:name":"Le Gres",
     "wof:parent_id":102065569,
     "wof:placetype":"localadmin",

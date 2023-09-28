@@ -33,6 +33,12 @@
     "geom:latitude":50.00777,
     "geom:longitude":2.37994,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":50.007458,
     "lbl:longitude":2.380262,
     "mz:hierarchy_label":0,
@@ -155,8 +161,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_80624",
-        "eurostat:nuts_2021_id":"80624"
+        "eurostat:nuts_2021_id":"80624",
+        "fra-insee:code":"80624",
+        "frgov:epci_code":"200070951"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         1125924163
     ],
@@ -178,7 +190,7 @@
         }
     ],
     "wof:id":404428543,
-    "wof:lastmodified":1684353586,
+    "wof:lastmodified":1695878176,
     "wof:name":"Pierregot",
     "wof:parent_id":102071131,
     "wof:placetype":"localadmin",

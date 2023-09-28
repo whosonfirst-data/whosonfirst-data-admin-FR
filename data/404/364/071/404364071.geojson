@@ -33,6 +33,12 @@
     "geom:latitude":46.421563,
     "geom:longitude":3.889259,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":46.422019,
     "lbl:longitude":3.889588,
     "mz:hierarchy_label":0,
@@ -119,8 +125,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_03208",
-        "eurostat:nuts_2021_id":"03208"
+        "eurostat:nuts_2021_id":"03208",
+        "fra-insee:code":"03208",
+        "frgov:epci_code":"200071470"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101891091
     ],
@@ -142,7 +154,7 @@
         }
     ],
     "wof:id":404364071,
-    "wof:lastmodified":1684352810,
+    "wof:lastmodified":1695878437,
     "wof:name":"Le Pin",
     "wof:parent_id":102065739,
     "wof:placetype":"localadmin",

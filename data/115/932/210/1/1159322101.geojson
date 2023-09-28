@@ -33,6 +33,12 @@
     "geom:latitude":43.391885,
     "geom:longitude":3.64698,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.401667,
     "lbl:longitude":3.648232,
     "mps:latitude":43.401667,
@@ -216,8 +222,14 @@
     "wof:concordance":{},
     "wof:concordances":{
         "eg:gisco_id":"FR_34301",
-        "eurostat:nuts_2021_id":"34301"
+        "eurostat:nuts_2021_id":"34301",
+        "fra-insee:code":"34301",
+        "frgov:epci_code":"200066355"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101831695,
         102072199
@@ -238,7 +250,7 @@
         }
     ],
     "wof:id":1159322101,
-    "wof:lastmodified":1684353597,
+    "wof:lastmodified":1695878198,
     "wof:name":"S\u00e8te",
     "wof:parent_id":102072199,
     "wof:placetype":"localadmin",

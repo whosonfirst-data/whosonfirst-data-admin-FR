@@ -33,6 +33,12 @@
     "geom:latitude":46.017401,
     "geom:longitude":4.09092,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":46.017355,
     "lbl:longitude":4.091868,
     "mz:hierarchy_label":0,
@@ -158,8 +164,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_42071",
-        "eurostat:nuts_2021_id":"42071"
+        "eurostat:nuts_2021_id":"42071",
+        "fra-insee:code":"42071",
+        "frgov:epci_code":"200035731"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101828957
     ],
@@ -181,7 +193,7 @@
         }
     ],
     "wof:id":404426389,
-    "wof:lastmodified":1684353561,
+    "wof:lastmodified":1695878111,
     "wof:name":"Le Coteau",
     "wof:parent_id":102066879,
     "wof:placetype":"localadmin",

@@ -33,6 +33,12 @@
     "geom:latitude":48.320499,
     "geom:longitude":6.653048,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":48.323987,
     "lbl:longitude":6.651102,
     "mz:hierarchy_label":0,
@@ -110,8 +116,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_88417",
-        "eurostat:nuts_2021_id":"88417"
+        "eurostat:nuts_2021_id":"88417",
+        "fra-insee:code":"88417",
+        "frgov:epci_code":"200005957"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         1125811963
     ],
@@ -133,7 +145,7 @@
         }
     ],
     "wof:id":404394935,
-    "wof:lastmodified":1684353190,
+    "wof:lastmodified":1695877229,
     "wof:name":"Saint-Gorgon",
     "wof:parent_id":102068185,
     "wof:placetype":"localadmin",

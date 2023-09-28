@@ -33,6 +33,12 @@
     "geom:latitude":45.902286,
     "geom:longitude":0.888733,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.906425,
     "lbl:longitude":0.909217,
     "mps:latitude":45.906425,
@@ -150,8 +156,14 @@
     "wof:concordance":{},
     "wof:concordances":{
         "eg:gisco_id":"FR_87154",
-        "eurostat:nuts_2021_id":"87154"
+        "eurostat:nuts_2021_id":"87154",
+        "fra-insee:code":"87154",
+        "frgov:epci_code":"200059400"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101768243,
         102072363
@@ -172,7 +184,7 @@
         }
     ],
     "wof:id":1159322095,
-    "wof:lastmodified":1684353597,
+    "wof:lastmodified":1695878198,
     "wof:name":"Saint-Junien",
     "wof:parent_id":102072363,
     "wof:placetype":"localadmin",

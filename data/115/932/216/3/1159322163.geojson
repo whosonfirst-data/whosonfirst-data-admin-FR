@@ -33,6 +33,12 @@
     "geom:latitude":47.280276,
     "geom:longitude":-2.251014,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.284612,
     "lbl:longitude":-2.25698,
     "mps:latitude":47.284612,
@@ -227,8 +233,14 @@
     "wof:concordance":{},
     "wof:concordances":{
         "eg:gisco_id":"FR_44184",
-        "eurostat:nuts_2021_id":"44184"
+        "eurostat:nuts_2021_id":"44184",
+        "fra-insee:code":"44184",
+        "frgov:epci_code":"244400644"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101750927,
         102072347
@@ -248,7 +260,7 @@
         }
     ],
     "wof:id":1159322163,
-    "wof:lastmodified":1684353598,
+    "wof:lastmodified":1695878200,
     "wof:name":"Saint-Nazaire",
     "wof:parent_id":102072347,
     "wof:placetype":"localadmin",

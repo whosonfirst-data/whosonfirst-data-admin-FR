@@ -33,6 +33,12 @@
     "geom:latitude":45.184,
     "geom:longitude":1.248521,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":45.182228,
     "lbl:longitude":1.255029,
     "mz:hierarchy_label":0,
@@ -155,8 +161,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_24580",
-        "eurostat:nuts_2021_id":"24580"
+        "eurostat:nuts_2021_id":"24580",
+        "fra-insee:code":"24580",
+        "frgov:epci_code":"200041150"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         1125944769
     ],
@@ -178,7 +190,7 @@
         }
     ],
     "wof:id":404351341,
-    "wof:lastmodified":1684352636,
+    "wof:lastmodified":1695878045,
     "wof:name":"Villac",
     "wof:parent_id":102070999,
     "wof:placetype":"localadmin",

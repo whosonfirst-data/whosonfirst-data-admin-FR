@@ -33,6 +33,12 @@
     "geom:latitude":43.844589,
     "geom:longitude":4.347636,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.846081,
     "lbl:longitude":4.354897,
     "mps:latitude":43.846081,
@@ -300,8 +306,14 @@
     "wof:concordance":{},
     "wof:concordances":{
         "eg:gisco_id":"FR_30189",
-        "eurostat:nuts_2021_id":"30189"
+        "eurostat:nuts_2021_id":"30189",
+        "fra-insee:code":"30189",
+        "frgov:epci_code":"243000643"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101749287,
         102072451
@@ -322,7 +334,7 @@
         }
     ],
     "wof:id":1159321917,
-    "wof:lastmodified":1684353594,
+    "wof:lastmodified":1695878191,
     "wof:name":"N\u00eemes",
     "wof:parent_id":102072451,
     "wof:placetype":"localadmin",

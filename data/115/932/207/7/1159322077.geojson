@@ -33,6 +33,12 @@
     "geom:latitude":44.857648,
     "geom:longitude":-0.573422,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.844219,
     "lbl:longitude":-0.569844,
     "mps:latitude":44.844219,
@@ -459,8 +465,14 @@
     "wof:concordance":{},
     "wof:concordances":{
         "eg:gisco_id":"FR_33063",
-        "eurostat:nuts_2021_id":"33063"
+        "eurostat:nuts_2021_id":"33063",
+        "fra-insee:code":"33063",
+        "frgov:epci_code":"243300316"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101748979,
         102072453
@@ -481,7 +493,7 @@
         }
     ],
     "wof:id":1159322077,
-    "wof:lastmodified":1684353597,
+    "wof:lastmodified":1695878197,
     "wof:name":"Bordeaux",
     "wof:parent_id":102072453,
     "wof:placetype":"localadmin",

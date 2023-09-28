@@ -33,6 +33,12 @@
     "geom:latitude":45.701695,
     "geom:longitude":4.949027,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "chef-lieu canton"
+    ],
     "lbl:latitude":45.703059,
     "lbl:longitude":4.948821,
     "mz:hierarchy_label":0,
@@ -134,8 +140,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_69290",
-        "eurostat:nuts_2021_id":"69290"
+        "eurostat:nuts_2021_id":"69290",
+        "fra-insee:code":"69290",
+        "frgov:epci_code":"200046977"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101750801,
         102071359
@@ -158,7 +170,7 @@
         }
     ],
     "wof:id":404384273,
-    "wof:lastmodified":1684353062,
+    "wof:lastmodified":1695876952,
     "wof:name":"Saint-Priest",
     "wof:parent_id":102071359,
     "wof:placetype":"localadmin",

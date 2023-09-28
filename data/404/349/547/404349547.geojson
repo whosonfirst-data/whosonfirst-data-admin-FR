@@ -33,6 +33,12 @@
     "geom:latitude":43.849304,
     "geom:longitude":-1.280548,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":43.846857,
     "lbl:longitude":-1.281951,
     "mz:hierarchy_label":0,
@@ -191,8 +197,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_40150",
-        "eurostat:nuts_2021_id":"40150"
+        "eurostat:nuts_2021_id":"40150",
+        "fra-insee:code":"40150",
+        "frgov:epci_code":"244000857"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101772899
     ],
@@ -214,7 +226,7 @@
         }
     ],
     "wof:id":404349547,
-    "wof:lastmodified":1684352610,
+    "wof:lastmodified":1695877978,
     "wof:name":"Leon",
     "wof:parent_id":102064657,
     "wof:placetype":"localadmin",

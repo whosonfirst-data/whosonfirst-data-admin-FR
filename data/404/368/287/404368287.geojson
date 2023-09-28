@@ -33,6 +33,12 @@
     "geom:latitude":43.912252,
     "geom:longitude":0.437922,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":43.912187,
     "lbl:longitude":0.438469,
     "mz:hierarchy_label":0,
@@ -146,8 +152,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_32400",
-        "eurostat:nuts_2021_id":"32400"
+        "eurostat:nuts_2021_id":"32400",
+        "fra-insee:code":"32400",
+        "frgov:epci_code":"243200417"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         1125798167
     ],
@@ -169,7 +181,7 @@
         }
     ],
     "wof:id":404368287,
-    "wof:lastmodified":1684352869,
+    "wof:lastmodified":1695878531,
     "wof:name":"Saint-Orens-Pouy-Petit",
     "wof:parent_id":102069487,
     "wof:placetype":"localadmin",

@@ -33,6 +33,12 @@
     "geom:latitude":43.131195,
     "geom:longitude":1.694124,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":43.127049,
     "lbl:longitude":1.689366,
     "mz:hierarchy_label":0,
@@ -144,8 +150,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_09081",
-        "eurostat:nuts_2021_id":"09081"
+        "eurostat:nuts_2021_id":"09081",
+        "fra-insee:code":"09081",
+        "frgov:epci_code":"200066231"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         1360680115
     ],
@@ -167,7 +179,7 @@
         }
     ],
     "wof:id":404425411,
-    "wof:lastmodified":1684353550,
+    "wof:lastmodified":1695878083,
     "wof:name":"Le Carlaret",
     "wof:parent_id":102068381,
     "wof:placetype":"localadmin",

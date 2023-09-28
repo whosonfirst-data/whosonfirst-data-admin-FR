@@ -33,6 +33,12 @@
     "geom:latitude":50.529003,
     "geom:longitude":2.642987,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":50.529261,
     "lbl:longitude":2.64256,
     "mps:latitude":50.529261,
@@ -189,8 +195,14 @@
     "wof:concordance":{},
     "wof:concordances":{
         "eg:gisco_id":"FR_62119",
-        "eurostat:nuts_2021_id":"62119"
+        "eurostat:nuts_2021_id":"62119",
+        "fra-insee:code":"62119",
+        "frgov:epci_code":"200072460"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101840477,
         102071941
@@ -211,7 +223,7 @@
         }
     ],
     "wof:id":1159321753,
-    "wof:lastmodified":1684353592,
+    "wof:lastmodified":1695878185,
     "wof:name":"B\u00e9thune",
     "wof:parent_id":102071941,
     "wof:placetype":"localadmin",

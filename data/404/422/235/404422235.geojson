@@ -33,6 +33,12 @@
     "geom:latitude":49.947804,
     "geom:longitude":2.211234,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":49.946792,
     "lbl:longitude":2.211177,
     "mz:hierarchy_label":0,
@@ -122,8 +128,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_80718",
-        "eurostat:nuts_2021_id":"80718"
+        "eurostat:nuts_2021_id":"80718",
+        "fra-insee:code":"80718",
+        "frgov:epci_code":"200071223"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101812531
     ],
@@ -145,7 +157,7 @@
         }
     ],
     "wof:id":404422235,
-    "wof:lastmodified":1684353512,
+    "wof:lastmodified":1695877989,
     "wof:name":"Saint-Sauveur",
     "wof:parent_id":102065725,
     "wof:placetype":"localadmin",

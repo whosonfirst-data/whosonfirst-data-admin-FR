@@ -33,6 +33,12 @@
     "geom:latitude":49.775032,
     "geom:longitude":4.717057,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":49.773335,
     "lbl:longitude":4.716239,
     "mps:latitude":49.773335,
@@ -255,8 +261,14 @@
     "wof:concordance":{},
     "wof:concordances":{
         "eg:gisco_id":"FR_08105",
-        "eurostat:nuts_2021_id":"08105"
+        "eurostat:nuts_2021_id":"08105",
+        "fra-insee:code":"08105",
+        "frgov:epci_code":"200041630"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101750173,
         102072229
@@ -277,7 +289,7 @@
         }
     ],
     "wof:id":1159322419,
-    "wof:lastmodified":1684353601,
+    "wof:lastmodified":1695878208,
     "wof:name":"Charleville-M\u00e9zi\u00e8res",
     "wof:parent_id":102072229,
     "wof:placetype":"localadmin",

@@ -33,6 +33,12 @@
     "geom:latitude":44.445639,
     "geom:longitude":2.090525,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":44.442226,
     "lbl:longitude":2.094316,
     "mz:hierarchy_label":0,
@@ -152,8 +158,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_12227",
-        "eurostat:nuts_2021_id":"12227"
+        "eurostat:nuts_2021_id":"12227",
+        "fra-insee:code":"12227",
+        "frgov:epci_code":"200069383"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         1125812595
     ],
@@ -175,7 +187,7 @@
         }
     ],
     "wof:id":404402867,
-    "wof:lastmodified":1684353282,
+    "wof:lastmodified":1695877453,
     "wof:name":"Saint-Igest",
     "wof:parent_id":102071271,
     "wof:placetype":"localadmin",

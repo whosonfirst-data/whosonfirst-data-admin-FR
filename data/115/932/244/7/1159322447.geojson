@@ -33,6 +33,12 @@
     "geom:latitude":48.939741,
     "geom:longitude":2.174421,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.940966,
     "lbl:longitude":2.171282,
     "mps:latitude":48.940966,
@@ -188,8 +194,14 @@
     "wof:concordance":{},
     "wof:concordances":{
         "eg:gisco_id":"FR_78586",
-        "eurostat:nuts_2021_id":"78586"
+        "eurostat:nuts_2021_id":"78586",
+        "fra-insee:code":"78586",
+        "frgov:epci_code":"200058519"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101751245,
         102068671
@@ -209,7 +221,7 @@
         }
     ],
     "wof:id":1159322447,
-    "wof:lastmodified":1684353601,
+    "wof:lastmodified":1695878208,
     "wof:name":"Sartrouville",
     "wof:parent_id":102068671,
     "wof:placetype":"localadmin",

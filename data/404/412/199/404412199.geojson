@@ -33,6 +33,12 @@
     "geom:latitude":46.965468,
     "geom:longitude":6.379006,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":46.960003,
     "lbl:longitude":6.375445,
     "mz:hierarchy_label":0,
@@ -161,8 +167,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_25024",
-        "eurostat:nuts_2021_id":"25024"
+        "eurostat:nuts_2021_id":"25024",
+        "fra-insee:code":"25024",
+        "frgov:epci_code":"242500320"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101890255
     ],
@@ -184,7 +196,7 @@
         }
     ],
     "wof:id":404412199,
-    "wof:lastmodified":1684353391,
+    "wof:lastmodified":1695877710,
     "wof:name":"Arcon",
     "wof:parent_id":102067115,
     "wof:placetype":"localadmin",

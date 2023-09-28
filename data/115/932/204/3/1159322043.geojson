@@ -33,6 +33,12 @@
     "geom:latitude":42.686324,
     "geom:longitude":9.425062,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":42.686322,
     "lbl:longitude":9.425052,
     "mps:latitude":42.686322,
@@ -263,8 +269,14 @@
     "wof:concordance":{},
     "wof:concordances":{
         "eg:gisco_id":"FR_2B033",
-        "eurostat:nuts_2021_id":"2B033"
+        "eurostat:nuts_2021_id":"2B033",
+        "fra-insee:code":"2B033",
+        "frgov:epci_code":"242000354"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101831563,
         102072449
@@ -284,7 +296,7 @@
         }
     ],
     "wof:id":1159322043,
-    "wof:lastmodified":1684353596,
+    "wof:lastmodified":1695878196,
     "wof:name":"Bastia",
     "wof:parent_id":102072449,
     "wof:placetype":"localadmin",

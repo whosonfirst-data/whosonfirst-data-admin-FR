@@ -33,6 +33,12 @@
     "geom:latitude":49.470687,
     "geom:longitude":4.16372,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":49.471472,
     "lbl:longitude":4.163951,
     "mz:hierarchy_label":0,
@@ -116,8 +122,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_08004",
-        "eurostat:nuts_2021_id":"08004"
+        "eurostat:nuts_2021_id":"08004",
+        "fra-insee:code":"08004",
+        "frgov:epci_code":"200043156"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         1125889581
     ],
@@ -139,7 +151,7 @@
         }
     ],
     "wof:id":404419409,
-    "wof:lastmodified":1684353476,
+    "wof:lastmodified":1695877896,
     "wof:name":"Aire",
     "wof:parent_id":102064307,
     "wof:placetype":"localadmin",

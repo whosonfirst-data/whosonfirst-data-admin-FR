@@ -33,6 +33,12 @@
     "geom:latitude":47.086777,
     "geom:longitude":5.103981,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":47.087315,
     "lbl:longitude":5.104857,
     "mz:hierarchy_label":0,
@@ -164,8 +170,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_21112",
-        "eurostat:nuts_2021_id":"21112"
+        "eurostat:nuts_2021_id":"21112",
+        "fra-insee:code":"21112",
+        "frgov:epci_code":"242101509"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101890721
     ],
@@ -187,7 +199,7 @@
         }
     ],
     "wof:id":404396749,
-    "wof:lastmodified":1684353211,
+    "wof:lastmodified":1695877277,
     "wof:name":"Broin",
     "wof:parent_id":102070367,
     "wof:placetype":"localadmin",

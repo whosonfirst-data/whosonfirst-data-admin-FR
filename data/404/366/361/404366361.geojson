@@ -33,6 +33,12 @@
     "geom:latitude":43.456327,
     "geom:longitude":-1.324863,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":43.457331,
     "lbl:longitude":-1.320613,
     "mz:hierarchy_label":0,
@@ -170,8 +176,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_64147",
-        "eurostat:nuts_2021_id":"64147"
+        "eurostat:nuts_2021_id":"64147",
+        "fra-insee:code":"64147",
+        "frgov:epci_code":"200067106"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101772337
     ],
@@ -193,7 +205,7 @@
         }
     ],
     "wof:id":404366361,
-    "wof:lastmodified":1684352842,
+    "wof:lastmodified":1695878489,
     "wof:name":"Briscous",
     "wof:parent_id":102066817,
     "wof:placetype":"localadmin",

@@ -33,6 +33,12 @@
     "geom:latitude":50.632401,
     "geom:longitude":3.153197,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":50.630688,
     "lbl:longitude":3.150074,
     "mps:latitude":50.630688,
@@ -291,8 +297,14 @@
     "wof:concordance":{},
     "wof:concordances":{
         "eg:gisco_id":"FR_59009",
-        "eurostat:nuts_2021_id":"59009"
+        "eurostat:nuts_2021_id":"59009",
+        "fra-insee:code":"59009",
+        "frgov:epci_code":"245900410"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101751547,
         102071877
@@ -313,7 +325,7 @@
         }
     ],
     "wof:id":1159322405,
-    "wof:lastmodified":1684353601,
+    "wof:lastmodified":1695878207,
     "wof:name":"Villeneuve-d'Ascq",
     "wof:parent_id":102071877,
     "wof:placetype":"localadmin",

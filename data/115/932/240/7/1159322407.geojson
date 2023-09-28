@@ -33,6 +33,12 @@
     "geom:latitude":50.705352,
     "geom:longitude":3.216983,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":50.701395,
     "lbl:longitude":3.213252,
     "mps:latitude":50.701395,
@@ -189,8 +195,14 @@
     "wof:concordance":{},
     "wof:concordances":{
         "eg:gisco_id":"FR_59650",
-        "eurostat:nuts_2021_id":"59650"
+        "eurostat:nuts_2021_id":"59650",
+        "fra-insee:code":"59650",
+        "frgov:epci_code":"245900410"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101751565
     ],
@@ -210,7 +222,7 @@
         }
     ],
     "wof:id":1159322407,
-    "wof:lastmodified":1684353601,
+    "wof:lastmodified":1695878207,
     "wof:name":"Wattrelos",
     "wof:parent_id":102072569,
     "wof:placetype":"localadmin",

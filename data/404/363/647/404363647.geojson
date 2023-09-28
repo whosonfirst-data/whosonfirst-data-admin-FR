@@ -33,6 +33,12 @@
     "geom:latitude":49.64211,
     "geom:longitude":1.300437,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":49.641811,
     "lbl:longitude":1.300089,
     "mz:hierarchy_label":0,
@@ -146,8 +152,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_76621",
-        "eurostat:nuts_2021_id":"76621"
+        "eurostat:nuts_2021_id":"76621",
+        "fra-insee:code":"76621",
+        "frgov:epci_code":"200070068"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101901919
     ],
@@ -169,7 +181,7 @@
         }
     ],
     "wof:id":404363647,
-    "wof:lastmodified":1684352804,
+    "wof:lastmodified":1695878423,
     "wof:name":"Saint-Martin-Osmonville",
     "wof:parent_id":102071517,
     "wof:placetype":"localadmin",

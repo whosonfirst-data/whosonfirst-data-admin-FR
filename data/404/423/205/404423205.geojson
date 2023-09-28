@@ -33,6 +33,12 @@
     "geom:latitude":45.859294,
     "geom:longitude":5.140341,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":45.859953,
     "lbl:longitude":5.134264,
     "mz:hierarchy_label":0,
@@ -74,8 +80,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_01032",
-        "eurostat:nuts_2021_id":"01032"
+        "eurostat:nuts_2021_id":"01032",
+        "fra-insee:code":"01032",
+        "frgov:epci_code":"240100610"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101768135
     ],
@@ -97,7 +109,7 @@
         }
     ],
     "wof:id":404423205,
-    "wof:lastmodified":1684353524,
+    "wof:lastmodified":1695878020,
     "wof:name":"Beligneux",
     "wof:parent_id":102067991,
     "wof:placetype":"localadmin",
