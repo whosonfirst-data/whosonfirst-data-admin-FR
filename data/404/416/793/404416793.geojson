@@ -33,6 +33,12 @@
     "geom:latitude":49.566711,
     "geom:longitude":1.254082,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":49.565405,
     "lbl:longitude":1.254465,
     "mz:hierarchy_label":0,
@@ -113,8 +119,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_76547",
-        "eurostat:nuts_2021_id":"76547"
+        "eurostat:nuts_2021_id":"76547",
+        "fra-insee:code":"76547",
+        "frgov:epci_code":"200070449"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101902017
     ],
@@ -136,7 +148,7 @@
         }
     ],
     "wof:id":404416793,
-    "wof:lastmodified":1684353446,
+    "wof:lastmodified":1695877828,
     "wof:name":"La Rue-Saint-Pierre",
     "wof:parent_id":102066371,
     "wof:placetype":"localadmin",

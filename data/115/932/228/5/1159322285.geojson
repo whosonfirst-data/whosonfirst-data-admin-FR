@@ -33,6 +33,12 @@
     "geom:latitude":48.798304,
     "geom:longitude":2.310106,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.799029,
     "lbl:longitude":2.311536,
     "mps:latitude":48.799029,
@@ -128,8 +134,14 @@
     "wof:concordance":{},
     "wof:concordances":{
         "eg:gisco_id":"FR_92007",
-        "eurostat:nuts_2021_id":"92007"
+        "eurostat:nuts_2021_id":"92007",
+        "fra-insee:code":"92007",
+        "frgov:epci_code":"200054781"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101749063,
         102064881
@@ -149,7 +161,7 @@
         }
     ],
     "wof:id":1159322285,
-    "wof:lastmodified":1684353599,
+    "wof:lastmodified":1695878203,
     "wof:name":"Bagneux",
     "wof:parent_id":102064881,
     "wof:placetype":"localadmin",

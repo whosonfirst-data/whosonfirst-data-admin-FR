@@ -33,6 +33,12 @@
     "geom:latitude":44.576253,
     "geom:longitude":4.382401,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":44.57509,
     "lbl:longitude":4.385985,
     "mz:hierarchy_label":0,
@@ -116,8 +122,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_07296",
-        "eurostat:nuts_2021_id":"07296"
+        "eurostat:nuts_2021_id":"07296",
+        "fra-insee:code":"07296",
+        "frgov:epci_code":"200073245"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101842823
     ],
@@ -139,7 +151,7 @@
         }
     ],
     "wof:id":404396963,
-    "wof:lastmodified":1684353213,
+    "wof:lastmodified":1695877283,
     "wof:name":"Saint-Sernin",
     "wof:parent_id":102064627,
     "wof:placetype":"localadmin",

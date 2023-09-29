@@ -33,6 +33,12 @@
     "geom:latitude":48.964305,
     "geom:longitude":4.37852,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.965386,
     "lbl:longitude":4.365123,
     "mps:latitude":48.965386,
@@ -216,8 +222,14 @@
     "wof:concordance":{},
     "wof:concordances":{
         "eg:gisco_id":"FR_51108",
-        "eurostat:nuts_2021_id":"51108"
+        "eurostat:nuts_2021_id":"51108",
+        "fra-insee:code":"51108",
+        "frgov:epci_code":"200066876"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101828123,
         102072043
@@ -238,7 +250,7 @@
         }
     ],
     "wof:id":1159321765,
-    "wof:lastmodified":1684353592,
+    "wof:lastmodified":1695878186,
     "wof:name":"Ch\u00e2lons-en-Champagne",
     "wof:parent_id":102072043,
     "wof:placetype":"localadmin",

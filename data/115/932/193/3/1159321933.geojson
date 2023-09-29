@@ -33,6 +33,12 @@
     "geom:latitude":43.551831,
     "geom:longitude":7.004959,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.557444,
     "lbl:longitude":7.000214,
     "mps:latitude":43.557444,
@@ -314,8 +320,14 @@
     "wof:concordance":{},
     "wof:concordances":{
         "eg:gisco_id":"FR_06029",
-        "eurostat:nuts_2021_id":"06029"
+        "eurostat:nuts_2021_id":"06029",
+        "fra-insee:code":"06029",
+        "frgov:epci_code":"200039915"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101749251,
         102072227
@@ -335,7 +347,7 @@
         }
     ],
     "wof:id":1159321933,
-    "wof:lastmodified":1684353594,
+    "wof:lastmodified":1695878192,
     "wof:name":"Cannes",
     "wof:parent_id":102072227,
     "wof:placetype":"localadmin",

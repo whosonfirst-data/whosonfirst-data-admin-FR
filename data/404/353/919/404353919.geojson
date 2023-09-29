@@ -33,6 +33,12 @@
     "geom:latitude":44.272759,
     "geom:longitude":6.253239,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":44.269044,
     "lbl:longitude":6.252369,
     "mz:hierarchy_label":0,
@@ -163,8 +169,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_04020",
-        "eurostat:nuts_2021_id":"04020"
+        "eurostat:nuts_2021_id":"04020",
+        "fra-insee:code":"04020",
+        "frgov:epci_code":"200067437"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         1126002205
     ],
@@ -185,7 +197,7 @@
         }
     ],
     "wof:id":404353919,
-    "wof:lastmodified":1684352671,
+    "wof:lastmodified":1695878128,
     "wof:name":"Barles",
     "wof:parent_id":102069167,
     "wof:placetype":"localadmin",

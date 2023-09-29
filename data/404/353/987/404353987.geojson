@@ -33,6 +33,12 @@
     "geom:latitude":47.882238,
     "geom:longitude":1.916602,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "pr\u00e9fecture de r\u00e9gion"
+    ],
     "lbl:latitude":47.904624,
     "lbl:longitude":1.900868,
     "mz:hierarchy_label":0,
@@ -73,8 +79,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_45234",
-        "eurostat:nuts_2021_id":"45234"
+        "eurostat:nuts_2021_id":"45234",
+        "fra-insee:code":"45234",
+        "frgov:epci_code":"244500468"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101750945,
         102072461
@@ -96,7 +108,7 @@
         }
     ],
     "wof:id":404353987,
-    "wof:lastmodified":1684352672,
+    "wof:lastmodified":1695878130,
     "wof:name":"Orleans",
     "wof:parent_id":102072461,
     "wof:placetype":"localadmin",

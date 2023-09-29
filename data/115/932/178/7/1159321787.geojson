@@ -33,6 +33,12 @@
     "geom:latitude":45.583536,
     "geom:longitude":5.90892,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":45.591485,
     "lbl:longitude":5.909439,
     "mps:latitude":45.591485,
@@ -240,8 +246,14 @@
     "wof:concordance":{},
     "wof:concordances":{
         "eg:gisco_id":"FR_73065",
-        "eurostat:nuts_2021_id":"73065"
+        "eurostat:nuts_2021_id":"73065",
+        "fra-insee:code":"73065",
+        "frgov:epci_code":"200069110"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101749323,
         102072471
@@ -262,7 +274,7 @@
         }
     ],
     "wof:id":1159321787,
-    "wof:lastmodified":1684353592,
+    "wof:lastmodified":1695878186,
     "wof:name":"Chamb\u00e9ry",
     "wof:parent_id":102072471,
     "wof:placetype":"localadmin",

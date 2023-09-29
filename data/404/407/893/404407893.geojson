@@ -33,6 +33,12 @@
     "geom:latitude":45.983514,
     "geom:longitude":-0.151982,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":45.982138,
     "lbl:longitude":-0.150015,
     "mz:hierarchy_label":0,
@@ -152,8 +158,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_17477",
-        "eurostat:nuts_2021_id":"17477"
+        "eurostat:nuts_2021_id":"17477",
+        "fra-insee:code":"17477",
+        "frgov:epci_code":"200041689"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         1125834143
     ],
@@ -175,7 +187,7 @@
         }
     ],
     "wof:id":404407893,
-    "wof:lastmodified":1684353342,
+    "wof:lastmodified":1695877589,
     "wof:name":"Villiers-Couture",
     "wof:parent_id":102065005,
     "wof:placetype":"localadmin",

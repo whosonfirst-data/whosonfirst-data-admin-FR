@@ -33,6 +33,12 @@
     "geom:latitude":48.856599,
     "geom:longitude":2.342841,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.858744,
     "lbl:longitude":2.342809,
     "mps:latitude":48.858744,
@@ -771,8 +777,14 @@
     "wof:concordance":{},
     "wof:concordances":{
         "eg:gisco_id":"FR_75056",
-        "eurostat:nuts_2021_id":"75056"
+        "eurostat:nuts_2021_id":"75056",
+        "fra-insee:code":"75056",
+        "frgov:epci_code":"200054781"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101751119,
         85683497
@@ -790,7 +802,7 @@
         }
     ],
     "wof:id":1159322569,
-    "wof:lastmodified":1684353603,
+    "wof:lastmodified":1695878212,
     "wof:name":"Paris",
     "wof:parent_id":85683497,
     "wof:placetype":"localadmin",

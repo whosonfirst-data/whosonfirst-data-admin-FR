@@ -33,6 +33,12 @@
     "geom:latitude":49.474197,
     "geom:longitude":4.45223,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":49.474181,
     "lbl:longitude":4.452173,
     "mz:hierarchy_label":0,
@@ -152,8 +158,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_08416",
-        "eurostat:nuts_2021_id":"08416"
+        "eurostat:nuts_2021_id":"08416",
+        "fra-insee:code":"08416",
+        "frgov:epci_code":"200043156"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101903195
     ],
@@ -175,7 +187,7 @@
         }
     ],
     "wof:id":404382225,
-    "wof:lastmodified":1684353035,
+    "wof:lastmodified":1695876893,
     "wof:name":"Seuil",
     "wof:parent_id":102068579,
     "wof:placetype":"localadmin",

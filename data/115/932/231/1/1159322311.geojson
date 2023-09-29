@@ -33,6 +33,12 @@
     "geom:latitude":43.550441,
     "geom:longitude":4.950774,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.554045,
     "lbl:longitude":4.949481,
     "mps:latitude":43.554045,
@@ -200,8 +206,14 @@
     "wof:concordance":{},
     "wof:concordances":{
         "eg:gisco_id":"FR_13047",
-        "eurostat:nuts_2021_id":"13047"
+        "eurostat:nuts_2021_id":"13047",
+        "fra-insee:code":"13047",
+        "frgov:epci_code":"200054807"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101773631,
         102072023
@@ -221,7 +233,7 @@
         }
     ],
     "wof:id":1159322311,
-    "wof:lastmodified":1684353600,
+    "wof:lastmodified":1695878204,
     "wof:name":"Istres",
     "wof:parent_id":102072023,
     "wof:placetype":"localadmin",

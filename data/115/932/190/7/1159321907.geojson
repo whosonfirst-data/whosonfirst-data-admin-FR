@@ -33,6 +33,12 @@
     "geom:latitude":51.016749,
     "geom:longitude":2.290666,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":51.007762,
     "lbl:longitude":2.294462,
     "mps:latitude":51.007762,
@@ -186,8 +192,14 @@
     "wof:concordance":{},
     "wof:concordances":{
         "eg:gisco_id":"FR_59271",
-        "eurostat:nuts_2021_id":"59271"
+        "eurostat:nuts_2021_id":"59271",
+        "fra-insee:code":"59271",
+        "frgov:epci_code":"245900428"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101750241,
         102071859
@@ -208,7 +220,7 @@
         }
     ],
     "wof:id":1159321907,
-    "wof:lastmodified":1684353594,
+    "wof:lastmodified":1695878191,
     "wof:name":"Grande-Synthe",
     "wof:parent_id":102071859,
     "wof:placetype":"localadmin",

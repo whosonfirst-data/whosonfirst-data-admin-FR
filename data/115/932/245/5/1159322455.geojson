@@ -33,6 +33,12 @@
     "geom:latitude":48.999981,
     "geom:longitude":2.098988,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.99963,
     "lbl:longitude":2.098997,
     "mps:latitude":48.99963,
@@ -191,8 +197,14 @@
     "wof:concordance":{},
     "wof:concordances":{
         "eg:gisco_id":"FR_78172",
-        "eurostat:nuts_2021_id":"78172"
+        "eurostat:nuts_2021_id":"78172",
+        "fra-insee:code":"78172",
+        "frgov:epci_code":"200059889"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101749953,
         102065383
@@ -212,7 +224,7 @@
         }
     ],
     "wof:id":1159322455,
-    "wof:lastmodified":1684353601,
+    "wof:lastmodified":1695878209,
     "wof:name":"Conflans-Sainte-Honorine",
     "wof:parent_id":102065383,
     "wof:placetype":"localadmin",

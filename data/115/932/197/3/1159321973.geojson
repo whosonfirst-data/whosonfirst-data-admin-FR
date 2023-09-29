@@ -33,6 +33,12 @@
     "geom:latitude":47.769141,
     "geom:longitude":-3.326972,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":47.768012,
     "lbl:longitude":-3.340398,
     "mps:latitude":47.768012,
@@ -191,8 +197,14 @@
     "wof:concordance":{},
     "wof:concordances":{
         "eg:gisco_id":"FR_56098",
-        "eurostat:nuts_2021_id":"56098"
+        "eurostat:nuts_2021_id":"56098",
+        "fra-insee:code":"56098",
+        "frgov:epci_code":"200042174"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101754939,
         102071027
@@ -212,7 +224,7 @@
         }
     ],
     "wof:id":1159321973,
-    "wof:lastmodified":1684353595,
+    "wof:lastmodified":1695878193,
     "wof:name":"Lanester",
     "wof:parent_id":102071027,
     "wof:placetype":"localadmin",

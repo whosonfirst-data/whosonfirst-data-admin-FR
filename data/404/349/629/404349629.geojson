@@ -33,6 +33,12 @@
     "geom:latitude":47.704889,
     "geom:longitude":0.526436,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":47.705621,
     "lbl:longitude":0.527458,
     "mz:hierarchy_label":0,
@@ -181,8 +187,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_72183",
-        "eurostat:nuts_2021_id":"72183"
+        "eurostat:nuts_2021_id":"72183",
+        "fra-insee:code":"72183",
+        "frgov:epci_code":"200070373"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101886133
     ],
@@ -203,7 +215,7 @@
         }
     ],
     "wof:id":404349629,
-    "wof:lastmodified":1684352611,
+    "wof:lastmodified":1695877982,
     "wof:name":"Marcon",
     "wof:parent_id":102065245,
     "wof:placetype":"localadmin",

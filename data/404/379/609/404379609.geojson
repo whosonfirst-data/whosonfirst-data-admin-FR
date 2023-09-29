@@ -33,6 +33,12 @@
     "geom:latitude":50.363273,
     "geom:longitude":2.113141,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":50.361881,
     "lbl:longitude":2.114888,
     "mz:hierarchy_label":0,
@@ -156,8 +162,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_62850",
-        "eurostat:nuts_2021_id":"62850"
+        "eurostat:nuts_2021_id":"62850",
+        "fra-insee:code":"62850",
+        "frgov:epci_code":"200044030"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         1360675751
     ],
@@ -179,7 +191,7 @@
         }
     ],
     "wof:id":404379609,
-    "wof:lastmodified":1684353006,
+    "wof:lastmodified":1695876832,
     "wof:name":"Vieil-Hesdin",
     "wof:parent_id":102071005,
     "wof:placetype":"localadmin",

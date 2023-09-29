@@ -33,6 +33,12 @@
     "geom:latitude":49.895765,
     "geom:longitude":2.208439,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":49.896265,
     "lbl:longitude":2.209325,
     "mz:hierarchy_label":0,
@@ -152,8 +158,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_80730",
-        "eurostat:nuts_2021_id":"80730"
+        "eurostat:nuts_2021_id":"80730",
+        "fra-insee:code":"80730",
+        "frgov:epci_code":"248000531"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         1125804703
     ],
@@ -175,7 +187,7 @@
         }
     ],
     "wof:id":404357665,
-    "wof:lastmodified":1684352721,
+    "wof:lastmodified":1695878255,
     "wof:name":"Saveuse",
     "wof:parent_id":102065555,
     "wof:placetype":"localadmin",

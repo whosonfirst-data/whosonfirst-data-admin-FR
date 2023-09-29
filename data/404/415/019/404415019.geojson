@@ -33,6 +33,12 @@
     "geom:latitude":48.333123,
     "geom:longitude":7.33511,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":48.332288,
     "lbl:longitude":7.334812,
     "mz:hierarchy_label":0,
@@ -137,8 +143,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_67427",
-        "eurostat:nuts_2021_id":"67427"
+        "eurostat:nuts_2021_id":"67427",
+        "fra-insee:code":"67427",
+        "frgov:epci_code":"246700777"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101886217
     ],
@@ -160,7 +172,7 @@
         }
     ],
     "wof:id":404415019,
-    "wof:lastmodified":1684353426,
+    "wof:lastmodified":1695877787,
     "wof:name":"Saint-Maurice",
     "wof:parent_id":102070217,
     "wof:placetype":"localadmin",

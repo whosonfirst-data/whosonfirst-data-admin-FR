@@ -33,6 +33,12 @@
     "geom:latitude":46.562654,
     "geom:longitude":3.326668,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.566719,
     "lbl:longitude":3.328164,
     "mps:latitude":46.566719,
@@ -132,8 +138,14 @@
     "wof:concordance":{},
     "wof:concordances":{
         "eg:gisco_id":"FR_03190",
-        "eurostat:nuts_2021_id":"03190"
+        "eurostat:nuts_2021_id":"03190",
+        "fra-insee:code":"03190",
+        "frgov:epci_code":"200071140"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101829207,
         102072435
@@ -154,7 +166,7 @@
         }
     ],
     "wof:id":1159322325,
-    "wof:lastmodified":1684353600,
+    "wof:lastmodified":1695878205,
     "wof:name":"Moulins",
     "wof:parent_id":102072435,
     "wof:placetype":"localadmin",

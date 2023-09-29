@@ -33,6 +33,12 @@
     "geom:latitude":49.724873,
     "geom:longitude":1.729204,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":49.722888,
     "lbl:longitude":1.727708,
     "mz:hierarchy_label":0,
@@ -147,8 +153,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_60602",
-        "eurostat:nuts_2021_id":"60602"
+        "eurostat:nuts_2021_id":"60602",
+        "fra-insee:code":"60602",
+        "frgov:epci_code":"246000848"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         1360676481
     ],
@@ -170,7 +182,7 @@
         }
     ],
     "wof:id":404387491,
-    "wof:lastmodified":1684353098,
+    "wof:lastmodified":1695877035,
     "wof:name":"Saint-Valery",
     "wof:parent_id":102067009,
     "wof:placetype":"localadmin",

@@ -33,6 +33,12 @@
     "geom:latitude":44.955273,
     "geom:longitude":4.418938,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":44.958001,
     "lbl:longitude":4.419449,
     "mz:hierarchy_label":0,
@@ -155,8 +161,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_07248",
-        "eurostat:nuts_2021_id":"07248"
+        "eurostat:nuts_2021_id":"07248",
+        "fra-insee:code":"07248",
+        "frgov:epci_code":"200041465"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         1125813317
     ],
@@ -178,7 +190,7 @@
         }
     ],
     "wof:id":404391209,
-    "wof:lastmodified":1684353147,
+    "wof:lastmodified":1695877135,
     "wof:name":"Saint-Jean-Roure",
     "wof:parent_id":102067679,
     "wof:placetype":"localadmin",

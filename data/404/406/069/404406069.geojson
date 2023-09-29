@@ -33,6 +33,12 @@
     "geom:latitude":43.657872,
     "geom:longitude":4.407457,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "chef-lieu canton"
+    ],
     "lbl:latitude":43.66112,
     "lbl:longitude":4.402761,
     "mz:hierarchy_label":0,
@@ -131,8 +137,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_30258",
-        "eurostat:nuts_2021_id":"30258"
+        "eurostat:nuts_2021_id":"30258",
+        "fra-insee:code":"30258",
+        "frgov:epci_code":"243000643"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101774105,
         102069341
@@ -155,7 +167,7 @@
         }
     ],
     "wof:id":404406069,
-    "wof:lastmodified":1684353321,
+    "wof:lastmodified":1695877539,
     "wof:name":"Saint-Gilles",
     "wof:parent_id":102069341,
     "wof:placetype":"localadmin",

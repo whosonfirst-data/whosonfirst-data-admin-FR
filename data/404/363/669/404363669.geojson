@@ -33,6 +33,12 @@
     "geom:latitude":49.212615,
     "geom:longitude":2.813392,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":49.213752,
     "lbl:longitude":2.812719,
     "mz:hierarchy_label":0,
@@ -152,8 +158,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_60027",
-        "eurostat:nuts_2021_id":"60027"
+        "eurostat:nuts_2021_id":"60027",
+        "fra-insee:code":"60027",
+        "frgov:epci_code":"246000871"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101879285
     ],
@@ -175,7 +187,7 @@
         }
     ],
     "wof:id":404363669,
-    "wof:lastmodified":1684352805,
+    "wof:lastmodified":1695878423,
     "wof:name":"Auger-Saint-Vincent",
     "wof:parent_id":102066575,
     "wof:placetype":"localadmin",

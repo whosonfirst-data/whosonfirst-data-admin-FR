@@ -33,6 +33,12 @@
     "geom:latitude":43.313646,
     "geom:longitude":-0.473112,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":43.315978,
     "lbl:longitude":-0.473432,
     "mz:hierarchy_label":0,
@@ -161,8 +167,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_64060",
-        "eurostat:nuts_2021_id":"64060"
+        "eurostat:nuts_2021_id":"64060",
+        "fra-insee:code":"64060",
+        "frgov:epci_code":"200067254"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101844385
     ],
@@ -184,7 +196,7 @@
         }
     ],
     "wof:id":404399711,
-    "wof:lastmodified":1684353246,
+    "wof:lastmodified":1695877368,
     "wof:name":"Artiguelouve",
     "wof:parent_id":102067921,
     "wof:placetype":"localadmin",

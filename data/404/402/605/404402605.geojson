@@ -33,6 +33,12 @@
     "geom:latitude":50.624694,
     "geom:longitude":2.579249,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":50.623805,
     "lbl:longitude":2.579506,
     "mz:hierarchy_label":0,
@@ -164,8 +170,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_62747",
-        "eurostat:nuts_2021_id":"62747"
+        "eurostat:nuts_2021_id":"62747",
+        "fra-insee:code":"62747",
+        "frgov:epci_code":"200072460"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         1125810751
     ],
@@ -187,7 +199,7 @@
         }
     ],
     "wof:id":404402605,
-    "wof:lastmodified":1684353279,
+    "wof:lastmodified":1695877446,
     "wof:name":"Saint-Floris",
     "wof:parent_id":102070285,
     "wof:placetype":"localadmin",

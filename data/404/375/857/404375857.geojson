@@ -33,6 +33,12 @@
     "geom:latitude":48.107883,
     "geom:longitude":-0.799931,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":48.104733,
     "lbl:longitude":-0.799755,
     "mz:hierarchy_label":0,
@@ -139,8 +145,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_53054",
-        "eurostat:nuts_2021_id":"53054"
+        "eurostat:nuts_2021_id":"53054",
+        "fra-insee:code":"53054",
+        "frgov:epci_code":"245300330"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101753403
     ],
@@ -161,7 +173,7 @@
         }
     ],
     "wof:id":404375857,
-    "wof:lastmodified":1684352961,
+    "wof:lastmodified":1695876744,
     "wof:name":"Change",
     "wof:parent_id":102067451,
     "wof:placetype":"localadmin",

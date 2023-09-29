@@ -33,6 +33,12 @@
     "geom:latitude":44.091374,
     "geom:longitude":2.344871,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":44.089081,
     "lbl:longitude":2.342848,
     "mz:hierarchy_label":0,
@@ -167,8 +173,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_81302",
-        "eurostat:nuts_2021_id":"81302"
+        "eurostat:nuts_2021_id":"81302",
+        "fra-insee:code":"81302",
+        "frgov:epci_code":"200040905"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         1125826075
     ],
@@ -190,7 +202,7 @@
         }
     ],
     "wof:id":404423763,
-    "wof:lastmodified":1684353530,
+    "wof:lastmodified":1695878036,
     "wof:name":"Treban",
     "wof:parent_id":102068563,
     "wof:placetype":"localadmin",

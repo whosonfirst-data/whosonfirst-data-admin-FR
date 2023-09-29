@@ -33,6 +33,12 @@
     "geom:latitude":48.742833,
     "geom:longitude":2.39512,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.744371,
     "lbl:longitude":2.395124,
     "mps:latitude":48.744371,
@@ -179,8 +185,14 @@
     "wof:concordance":{},
     "wof:concordances":{
         "eg:gisco_id":"FR_94054",
-        "eurostat:nuts_2021_id":"94054"
+        "eurostat:nuts_2021_id":"94054",
+        "fra-insee:code":"94054",
+        "frgov:epci_code":"200054781"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101751069,
         102067989
@@ -200,7 +212,7 @@
         }
     ],
     "wof:id":1159321957,
-    "wof:lastmodified":1684353595,
+    "wof:lastmodified":1695878193,
     "wof:name":"Orly",
     "wof:parent_id":102067989,
     "wof:placetype":"localadmin",

@@ -33,6 +33,12 @@
     "geom:latitude":45.6474,
     "geom:longitude":0.145145,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "pr\u00e9fecture"
+    ],
     "lbl:latitude":45.644263,
     "lbl:longitude":0.145827,
     "mz:hierarchy_label":0,
@@ -74,8 +80,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_16015",
-        "eurostat:nuts_2021_id":"16015"
+        "eurostat:nuts_2021_id":"16015",
+        "fra-insee:code":"16015",
+        "frgov:epci_code":"200071827"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101829071,
         102072237
@@ -98,7 +110,7 @@
         }
     ],
     "wof:id":404348375,
-    "wof:lastmodified":1684352594,
+    "wof:lastmodified":1695877937,
     "wof:name":"Angouleme",
     "wof:parent_id":102072237,
     "wof:placetype":"localadmin",

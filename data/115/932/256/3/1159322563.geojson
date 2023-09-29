@@ -33,6 +33,12 @@
     "geom:latitude":49.347756,
     "geom:longitude":1.073874,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":49.347273,
     "lbl:longitude":1.062625,
     "mps:latitude":49.347273,
@@ -139,8 +145,14 @@
     "wof:concordance":{},
     "wof:concordances":{
         "eg:gisco_id":"FR_76484",
-        "eurostat:nuts_2021_id":"76484"
+        "eurostat:nuts_2021_id":"76484",
+        "fra-insee:code":"76484",
+        "frgov:epci_code":"200023414"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         1360680481
     ],
@@ -160,7 +172,7 @@
         }
     ],
     "wof:id":1159322563,
-    "wof:lastmodified":1684353603,
+    "wof:lastmodified":1695878212,
     "wof:name":"Oissel",
     "wof:parent_id":102071831,
     "wof:placetype":"localadmin",

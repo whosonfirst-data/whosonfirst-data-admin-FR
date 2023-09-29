@@ -33,6 +33,12 @@
     "geom:latitude":49.424348,
     "geom:longitude":1.060059,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":49.424457,
     "lbl:longitude":1.059785,
     "mps:latitude":49.424457,
@@ -168,8 +174,14 @@
     "wof:concordance":{},
     "wof:concordances":{
         "eg:gisco_id":"FR_76498",
-        "eurostat:nuts_2021_id":"76498"
+        "eurostat:nuts_2021_id":"76498",
+        "fra-insee:code":"76498",
+        "frgov:epci_code":"200023414"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101750205,
         102071819
@@ -190,7 +202,7 @@
         }
     ],
     "wof:id":1159322557,
-    "wof:lastmodified":1684353603,
+    "wof:lastmodified":1695878212,
     "wof:name":"Le Petit-Quevilly",
     "wof:parent_id":102071819,
     "wof:placetype":"localadmin",

@@ -33,6 +33,12 @@
     "geom:latitude":48.956605,
     "geom:longitude":2.384891,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.956233,
     "lbl:longitude":2.384571,
     "mps:latitude":48.956233,
@@ -65,8 +71,14 @@
     "wof:concordance":{},
     "wof:concordances":{
         "eg:gisco_id":"FR_93072",
-        "eurostat:nuts_2021_id":"93072"
+        "eurostat:nuts_2021_id":"93072",
+        "fra-insee:code":"93072",
+        "frgov:epci_code":"200054781"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101751161,
         102070193
@@ -86,7 +98,7 @@
         }
     ],
     "wof:id":1159322251,
-    "wof:lastmodified":1684353599,
+    "wof:lastmodified":1695878202,
     "wof:name":"Stains",
     "wof:parent_id":102070193,
     "wof:placetype":"localadmin",

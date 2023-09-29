@@ -33,6 +33,12 @@
     "geom:latitude":46.675741,
     "geom:longitude":4.353884,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":46.674538,
     "lbl:longitude":4.351102,
     "mps:latitude":46.674538,
@@ -153,8 +159,14 @@
     "wof:concordance":{},
     "wof:concordances":{
         "eg:gisco_id":"FR_71306",
-        "eurostat:nuts_2021_id":"71306"
+        "eurostat:nuts_2021_id":"71306",
+        "fra-insee:code":"71306",
+        "frgov:epci_code":"247100290"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101829217,
         102072165
@@ -175,7 +187,7 @@
         }
     ],
     "wof:id":1159322333,
-    "wof:lastmodified":1684353600,
+    "wof:lastmodified":1695878205,
     "wof:name":"Montceau-les-Mines",
     "wof:parent_id":102072165,
     "wof:placetype":"localadmin",

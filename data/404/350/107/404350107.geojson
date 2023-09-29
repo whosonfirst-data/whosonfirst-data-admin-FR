@@ -33,6 +33,12 @@
     "geom:latitude":44.723908,
     "geom:longitude":3.833826,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "chef-lieu canton"
+    ],
     "lbl:latitude":44.729546,
     "lbl:longitude":3.815581,
     "mz:hierarchy_label":0,
@@ -152,8 +158,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_48080",
-        "eurostat:nuts_2021_id":"48080"
+        "eurostat:nuts_2021_id":"48080",
+        "fra-insee:code":"48080",
+        "frgov:epci_code":"200006930"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101771549
     ],
@@ -175,7 +187,7 @@
         }
     ],
     "wof:id":404350107,
-    "wof:lastmodified":1684352618,
+    "wof:lastmodified":1695878001,
     "wof:name":"Langogne",
     "wof:parent_id":102066107,
     "wof:placetype":"localadmin",

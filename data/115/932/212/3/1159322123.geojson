@@ -33,6 +33,12 @@
     "geom:latitude":48.061031,
     "geom:longitude":-0.765814,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.065387,
     "lbl:longitude":-0.770971,
     "mps:latitude":48.065387,
@@ -197,8 +203,14 @@
     "wof:concordance":{},
     "wof:concordances":{
         "eg:gisco_id":"FR_53130",
-        "eurostat:nuts_2021_id":"53130"
+        "eurostat:nuts_2021_id":"53130",
+        "fra-insee:code":"53130",
+        "frgov:epci_code":"245300330"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101749693,
         102072309
@@ -218,7 +230,7 @@
         }
     ],
     "wof:id":1159322123,
-    "wof:lastmodified":1684353597,
+    "wof:lastmodified":1695878198,
     "wof:name":"Laval",
     "wof:parent_id":102072309,
     "wof:placetype":"localadmin",

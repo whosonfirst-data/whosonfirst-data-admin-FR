@@ -33,6 +33,12 @@
     "geom:latitude":43.712354,
     "geom:longitude":7.237804,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.71539,
     "lbl:longitude":7.230889,
     "mps:latitude":43.71539,
@@ -428,8 +434,14 @@
     "wof:concordance":{},
     "wof:concordances":{
         "eg:gisco_id":"FR_06088",
-        "eurostat:nuts_2021_id":"06088"
+        "eurostat:nuts_2021_id":"06088",
+        "fra-insee:code":"06088",
+        "frgov:epci_code":"200030195"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101749273,
         102072439
@@ -449,7 +461,7 @@
         }
     ],
     "wof:id":1159322131,
-    "wof:lastmodified":1684353597,
+    "wof:lastmodified":1695878199,
     "wof:name":"Nice",
     "wof:parent_id":102072439,
     "wof:placetype":"localadmin",

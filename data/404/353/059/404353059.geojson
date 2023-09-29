@@ -33,6 +33,12 @@
     "geom:latitude":45.439031,
     "geom:longitude":5.828404,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":45.438222,
     "lbl:longitude":5.828073,
     "mz:hierarchy_label":0,
@@ -182,8 +188,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_73092",
-        "eurostat:nuts_2021_id":"73092"
+        "eurostat:nuts_2021_id":"73092",
+        "fra-insee:code":"73092",
+        "frgov:epci_code":"200040111"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         1126016553
     ],
@@ -205,7 +217,7 @@
         }
     ],
     "wof:id":404353059,
-    "wof:lastmodified":1684352659,
+    "wof:lastmodified":1695878100,
     "wof:name":"Corbel",
     "wof:parent_id":102066889,
     "wof:placetype":"localadmin",

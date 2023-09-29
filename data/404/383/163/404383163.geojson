@@ -33,6 +33,12 @@
     "geom:latitude":44.502116,
     "geom:longitude":4.619187,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":44.502684,
     "lbl:longitude":4.622827,
     "mz:hierarchy_label":0,
@@ -74,8 +80,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_07300",
-        "eurostat:nuts_2021_id":"07300"
+        "eurostat:nuts_2021_id":"07300",
+        "fra-insee:code":"07300",
+        "frgov:epci_code":"200071405"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101896291
     ],
@@ -97,7 +109,7 @@
         }
     ],
     "wof:id":404383163,
-    "wof:lastmodified":1684353048,
+    "wof:lastmodified":1695876919,
     "wof:name":"Saint-Thome",
     "wof:parent_id":102069811,
     "wof:placetype":"localadmin",

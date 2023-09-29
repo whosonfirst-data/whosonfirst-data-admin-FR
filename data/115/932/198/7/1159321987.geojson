@@ -33,6 +33,12 @@
     "geom:latitude":43.596027,
     "geom:longitude":1.432083,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.595961,
     "lbl:longitude":1.43871,
     "mps:latitude":43.595961,
@@ -441,8 +447,14 @@
     "wof:concordance":{},
     "wof:concordances":{
         "eg:gisco_id":"FR_31555",
-        "eurostat:nuts_2021_id":"31555"
+        "eurostat:nuts_2021_id":"31555",
+        "fra-insee:code":"31555",
+        "frgov:epci_code":"243100518"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101750691,
         102072513
@@ -463,7 +475,7 @@
         }
     ],
     "wof:id":1159321987,
-    "wof:lastmodified":1684353595,
+    "wof:lastmodified":1695878194,
     "wof:name":"Toulouse",
     "wof:parent_id":102072513,
     "wof:placetype":"localadmin",

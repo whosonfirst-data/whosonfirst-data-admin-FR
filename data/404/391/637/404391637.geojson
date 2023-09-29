@@ -33,6 +33,12 @@
     "geom:latitude":50.603114,
     "geom:longitude":1.761967,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":50.603145,
     "lbl:longitude":1.766534,
     "mz:hierarchy_label":0,
@@ -161,8 +167,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_62483",
-        "eurostat:nuts_2021_id":"62483"
+        "eurostat:nuts_2021_id":"62483",
+        "fra-insee:code":"62483",
+        "frgov:epci_code":"200018083"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         1125909551
     ],
@@ -184,7 +196,7 @@
         }
     ],
     "wof:id":404391637,
-    "wof:lastmodified":1684353152,
+    "wof:lastmodified":1695877145,
     "wof:name":"Lacres",
     "wof:parent_id":102071337,
     "wof:placetype":"localadmin",

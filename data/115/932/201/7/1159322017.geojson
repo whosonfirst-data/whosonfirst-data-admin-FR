@@ -33,6 +33,12 @@
     "geom:latitude":43.320057,
     "geom:longitude":-0.350079,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":43.317847,
     "lbl:longitude":-0.354208,
     "mps:latitude":43.317847,
@@ -138,8 +144,14 @@
     "wof:concordance":{},
     "wof:concordances":{
         "eg:gisco_id":"FR_64445",
-        "eurostat:nuts_2021_id":"64445"
+        "eurostat:nuts_2021_id":"64445",
+        "fra-insee:code":"64445",
+        "frgov:epci_code":"200067254"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101750669,
         102072533
@@ -160,7 +172,7 @@
         }
     ],
     "wof:id":1159322017,
-    "wof:lastmodified":1684353596,
+    "wof:lastmodified":1695878195,
     "wof:name":"Pau",
     "wof:parent_id":102072533,
     "wof:placetype":"localadmin",

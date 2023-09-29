@@ -33,6 +33,12 @@
     "geom:latitude":49.902466,
     "geom:longitude":1.826416,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":49.903953,
     "lbl:longitude":1.830473,
     "mz:hierarchy_label":0,
@@ -161,8 +167,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_80709",
-        "eurostat:nuts_2021_id":"80709"
+        "eurostat:nuts_2021_id":"80709",
+        "fra-insee:code":"80709",
+        "frgov:epci_code":"200071181"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101900779
     ],
@@ -184,7 +196,7 @@
         }
     ],
     "wof:id":404403403,
-    "wof:lastmodified":1684353288,
+    "wof:lastmodified":1695877468,
     "wof:name":"Saint-Maulvis",
     "wof:parent_id":102070113,
     "wof:placetype":"localadmin",

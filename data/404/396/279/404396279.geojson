@@ -33,6 +33,12 @@
     "geom:latitude":48.046668,
     "geom:longitude":3.959844,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":48.04645,
     "lbl:longitude":3.96317,
     "mz:hierarchy_label":0,
@@ -149,8 +155,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_10122",
-        "eurostat:nuts_2021_id":"10122"
+        "eurostat:nuts_2021_id":"10122",
+        "fra-insee:code":"10122",
+        "frgov:epci_code":"200071041"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101886081
     ],
@@ -172,7 +184,7 @@
         }
     ],
     "wof:id":404396279,
-    "wof:lastmodified":1684353205,
+    "wof:lastmodified":1695877265,
     "wof:name":"Davrey",
     "wof:parent_id":102065959,
     "wof:placetype":"localadmin",

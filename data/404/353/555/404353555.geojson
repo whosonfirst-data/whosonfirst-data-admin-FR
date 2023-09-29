@@ -33,6 +33,12 @@
     "geom:latitude":45.750911,
     "geom:longitude":4.008403,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "chef-lieu canton"
+    ],
     "lbl:latitude":45.750381,
     "lbl:longitude":4.008905,
     "mz:hierarchy_label":0,
@@ -74,8 +80,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_42019",
-        "eurostat:nuts_2021_id":"42019"
+        "eurostat:nuts_2021_id":"42019",
+        "fra-insee:code":"42019",
+        "frgov:epci_code":"200065886"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101767777
     ],
@@ -97,7 +109,7 @@
         }
     ],
     "wof:id":404353555,
-    "wof:lastmodified":1684352665,
+    "wof:lastmodified":1695878116,
     "wof:name":"Boen",
     "wof:parent_id":102064481,
     "wof:placetype":"localadmin",

@@ -33,6 +33,12 @@
     "geom:latitude":42.771462,
     "geom:longitude":0.630381,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":42.768848,
     "lbl:longitude":0.633225,
     "mz:hierarchy_label":0,
@@ -150,8 +156,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_31500",
-        "eurostat:nuts_2021_id":"31500"
+        "eurostat:nuts_2021_id":"31500",
+        "fra-insee:code":"31500",
+        "frgov:epci_code":"200072635"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         1360677877
     ],
@@ -173,7 +185,7 @@
         }
     ],
     "wof:id":404402399,
-    "wof:lastmodified":1684353277,
+    "wof:lastmodified":1695877441,
     "wof:name":"Saint-Mamet",
     "wof:parent_id":102064903,
     "wof:placetype":"localadmin",

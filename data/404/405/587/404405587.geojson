@@ -33,6 +33,12 @@
     "geom:latitude":45.00542,
     "geom:longitude":4.413128,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "chef-lieu canton"
+    ],
     "lbl:latitude":45.010477,
     "lbl:longitude":4.413075,
     "mz:hierarchy_label":0,
@@ -74,8 +80,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_07204",
-        "eurostat:nuts_2021_id":"07204"
+        "eurostat:nuts_2021_id":"07204",
+        "fra-insee:code":"07204",
+        "frgov:epci_code":"200041465"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101770403
     ],
@@ -97,7 +109,7 @@
         }
     ],
     "wof:id":404405587,
-    "wof:lastmodified":1684353314,
+    "wof:lastmodified":1695877525,
     "wof:name":"Saint-Agreve",
     "wof:parent_id":102067103,
     "wof:placetype":"localadmin",

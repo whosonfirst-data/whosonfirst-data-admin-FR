@@ -33,6 +33,12 @@
     "geom:latitude":48.208097,
     "geom:longitude":4.194232,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":48.205702,
     "lbl:longitude":4.186873,
     "mz:hierarchy_label":0,
@@ -74,8 +80,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_10100",
-        "eurostat:nuts_2021_id":"10100"
+        "eurostat:nuts_2021_id":"10100",
+        "fra-insee:code":"10100",
+        "frgov:epci_code":"200069250"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101884525
     ],
@@ -97,7 +109,7 @@
         }
     ],
     "wof:id":404376081,
-    "wof:lastmodified":1684352964,
+    "wof:lastmodified":1695876749,
     "wof:name":"Clerey",
     "wof:parent_id":102066539,
     "wof:placetype":"localadmin",

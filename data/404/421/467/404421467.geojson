@@ -33,6 +33,12 @@
     "geom:latitude":45.443478,
     "geom:longitude":1.481668,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":45.443697,
     "lbl:longitude":1.48267,
     "mz:hierarchy_label":0,
@@ -155,8 +161,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_19223",
-        "eurostat:nuts_2021_id":"19223"
+        "eurostat:nuts_2021_id":"19223",
+        "fra-insee:code":"19223",
+        "frgov:epci_code":"200066603"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         1125815407
     ],
@@ -178,7 +190,7 @@
         }
     ],
     "wof:id":404421467,
-    "wof:lastmodified":1684353503,
+    "wof:lastmodified":1695877966,
     "wof:name":"Saint-Martin-Sepert",
     "wof:parent_id":102066983,
     "wof:placetype":"localadmin",

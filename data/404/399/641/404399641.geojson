@@ -33,6 +33,12 @@
     "geom:latitude":45.243895,
     "geom:longitude":0.043648,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":45.24379,
     "lbl:longitude":0.044285,
     "mz:hierarchy_label":0,
@@ -114,8 +120,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_16302",
-        "eurostat:nuts_2021_id":"16302"
+        "eurostat:nuts_2021_id":"16302",
+        "fra-insee:code":"16302",
+        "frgov:epci_code":"200070282"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         1360677655
     ],
@@ -137,7 +149,7 @@
         }
     ],
     "wof:id":404399641,
-    "wof:lastmodified":1684353245,
+    "wof:lastmodified":1695877367,
     "wof:name":"Saint-Avit",
     "wof:parent_id":102066025,
     "wof:placetype":"localadmin",

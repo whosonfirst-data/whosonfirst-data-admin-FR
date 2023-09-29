@@ -33,6 +33,12 @@
     "geom:latitude":48.296789,
     "geom:longitude":6.937963,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.295129,
     "lbl:longitude":6.939009,
     "mps:latitude":48.295129,
@@ -342,8 +348,14 @@
     "wof:concordance":{},
     "wof:concordances":{
         "eg:gisco_id":"FR_88413",
-        "eurostat:nuts_2021_id":"88413"
+        "eurostat:nuts_2021_id":"88413",
+        "fra-insee:code":"88413",
+        "frgov:epci_code":"200071066"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101827657,
         102072365
@@ -364,7 +376,7 @@
         }
     ],
     "wof:id":1159322537,
-    "wof:lastmodified":1684353602,
+    "wof:lastmodified":1695878211,
     "wof:name":"Saint-Di\u00e9-des-Vosges",
     "wof:parent_id":102072365,
     "wof:placetype":"localadmin",

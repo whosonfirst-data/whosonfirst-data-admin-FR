@@ -33,6 +33,12 @@
     "geom:latitude":44.202812,
     "geom:longitude":0.625802,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":44.202682,
     "lbl:longitude":0.623048,
     "mps:latitude":44.202682,
@@ -252,8 +258,14 @@
     "wof:concordance":{},
     "wof:concordances":{
         "eg:gisco_id":"FR_47001",
-        "eurostat:nuts_2021_id":"47001"
+        "eurostat:nuts_2021_id":"47001",
+        "fra-insee:code":"47001",
+        "frgov:epci_code":"200035459"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101831905,
         102072409
@@ -274,7 +286,7 @@
         }
     ],
     "wof:id":1159322053,
-    "wof:lastmodified":1684353596,
+    "wof:lastmodified":1695878196,
     "wof:name":"Agen",
     "wof:parent_id":102072409,
     "wof:placetype":"localadmin",

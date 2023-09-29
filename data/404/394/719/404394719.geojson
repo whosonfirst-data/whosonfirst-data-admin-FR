@@ -33,6 +33,12 @@
     "geom:latitude":45.712653,
     "geom:longitude":5.641724,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":45.697237,
     "lbl:longitude":5.62673,
     "mz:hierarchy_label":0,
@@ -177,8 +183,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_01015",
-        "eurostat:nuts_2021_id":"01015"
+        "eurostat:nuts_2021_id":"01015",
+        "fra-insee:code":"01015",
+        "frgov:epci_code":"200040350"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         1360677235
     ],
@@ -200,7 +212,7 @@
         }
     ],
     "wof:id":404394719,
-    "wof:lastmodified":1684353187,
+    "wof:lastmodified":1695877224,
     "wof:name":"Saint-Bois",
     "wof:parent_id":102064817,
     "wof:placetype":"localadmin",

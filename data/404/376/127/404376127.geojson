@@ -33,6 +33,12 @@
     "geom:latitude":48.929973,
     "geom:longitude":5.794728,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":48.935599,
     "lbl:longitude":5.80261,
     "mz:hierarchy_label":0,
@@ -113,8 +119,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_54416",
-        "eurostat:nuts_2021_id":"54416"
+        "eurostat:nuts_2021_id":"54416",
+        "fra-insee:code":"54416",
+        "frgov:epci_code":"200070738"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101881525
     ],
@@ -136,7 +148,7 @@
         }
     ],
     "wof:id":404376127,
-    "wof:lastmodified":1684352965,
+    "wof:lastmodified":1695876750,
     "wof:name":"Pannes",
     "wof:parent_id":102069227,
     "wof:placetype":"localadmin",

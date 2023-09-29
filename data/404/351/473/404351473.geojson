@@ -33,6 +33,12 @@
     "geom:latitude":44.044983,
     "geom:longitude":0.937911,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":44.044078,
     "lbl:longitude":0.93752,
     "mz:hierarchy_label":0,
@@ -141,8 +147,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_82166",
-        "eurostat:nuts_2021_id":"82166"
+        "eurostat:nuts_2021_id":"82166",
+        "fra-insee:code":"82166",
+        "frgov:epci_code":"248200016"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         1360672909
     ],
@@ -164,7 +176,7 @@
         }
     ],
     "wof:id":404351473,
-    "wof:lastmodified":1684352638,
+    "wof:lastmodified":1695878049,
     "wof:name":"Saint-Michel",
     "wof:parent_id":102064295,
     "wof:placetype":"localadmin",

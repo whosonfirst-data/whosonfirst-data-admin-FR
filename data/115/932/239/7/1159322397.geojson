@@ -33,6 +33,12 @@
     "geom:latitude":50.63178,
     "geom:longitude":3.047049,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":50.625156,
     "lbl:longitude":3.048241,
     "mps:latitude":50.625156,
@@ -405,8 +411,14 @@
     "wof:concordance":{},
     "wof:concordances":{
         "eg:gisco_id":"FR_59350",
-        "eurostat:nuts_2021_id":"59350"
+        "eurostat:nuts_2021_id":"59350",
+        "fra-insee:code":"59350",
+        "frgov:epci_code":"245900410"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101750277,
         102071951
@@ -427,7 +439,7 @@
         }
     ],
     "wof:id":1159322397,
-    "wof:lastmodified":1684353601,
+    "wof:lastmodified":1695878207,
     "wof:name":"Lille",
     "wof:parent_id":102071951,
     "wof:placetype":"localadmin",

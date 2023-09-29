@@ -33,6 +33,12 @@
     "geom:latitude":48.677721,
     "geom:longitude":2.421629,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.675575,
     "lbl:longitude":2.42429,
     "mps:latitude":48.675575,
@@ -176,8 +182,14 @@
     "wof:concordance":{},
     "wof:concordances":{
         "eg:gisco_id":"FR_91201",
-        "eurostat:nuts_2021_id":"91201"
+        "eurostat:nuts_2021_id":"91201",
+        "fra-insee:code":"91201",
+        "frgov:epci_code":"200058477"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101749641,
         102069683
@@ -197,7 +209,7 @@
         }
     ],
     "wof:id":1159322527,
-    "wof:lastmodified":1684353602,
+    "wof:lastmodified":1695878211,
     "wof:name":"Draveil",
     "wof:parent_id":102069683,
     "wof:placetype":"localadmin",

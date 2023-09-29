@@ -33,6 +33,12 @@
     "geom:latitude":43.686786,
     "geom:longitude":0.918147,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune simple"
+    ],
     "lbl:latitude":43.684532,
     "lbl:longitude":0.918755,
     "mz:hierarchy_label":0,
@@ -155,8 +161,14 @@
     "wof:breaches":[],
     "wof:concordances":{
         "eg:gisco_id":"FR_32448",
-        "eurostat:nuts_2021_id":"32448"
+        "eurostat:nuts_2021_id":"32448",
+        "fra-insee:code":"32448",
+        "frgov:epci_code":"200034726"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         1125825227
     ],
@@ -178,7 +190,7 @@
         }
     ],
     "wof:id":404405799,
-    "wof:lastmodified":1684353317,
+    "wof:lastmodified":1695877531,
     "wof:name":"Touget",
     "wof:parent_id":102065029,
     "wof:placetype":"localadmin",

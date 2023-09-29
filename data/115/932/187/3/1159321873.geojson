@@ -33,6 +33,12 @@
     "geom:latitude":48.097933,
     "geom:longitude":5.139904,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.106014,
     "lbl:longitude":5.126358,
     "mps:latitude":48.106014,
@@ -129,8 +135,14 @@
     "wof:concordance":{},
     "wof:concordances":{
         "eg:gisco_id":"FR_52121",
-        "eurostat:nuts_2021_id":"52121"
+        "eurostat:nuts_2021_id":"52121",
+        "fra-insee:code":"52121",
+        "frgov:epci_code":"200068658"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101766225,
         102071879
@@ -151,7 +163,7 @@
         }
     ],
     "wof:id":1159321873,
-    "wof:lastmodified":1684353594,
+    "wof:lastmodified":1695878190,
     "wof:name":"Chaumont",
     "wof:parent_id":102071879,
     "wof:placetype":"localadmin",

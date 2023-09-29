@@ -33,6 +33,12 @@
     "geom:latitude":48.780249,
     "geom:longitude":2.259809,
     "iso:country":"FR",
+    "label:eng_x_preferred_placetype":[
+        "commune"
+    ],
+    "label:fra_x_preferred_placetype":[
+        "commune"
+    ],
     "lbl:latitude":48.779909,
     "lbl:longitude":2.25982,
     "mps:latitude":48.779909,
@@ -188,8 +194,14 @@
     "wof:concordance":{},
     "wof:concordances":{
         "eg:gisco_id":"FR_92060",
-        "eurostat:nuts_2021_id":"92060"
+        "eurostat:nuts_2021_id":"92060",
+        "fra-insee:code":"92060",
+        "frgov:epci_code":"200054781"
     },
+    "wof:concordances_official":"fra-insee:code",
+    "wof:concordances_official_alt":[
+        "frgov:epci_code"
+    ],
     "wof:coterminous":[
         101749793,
         102070119
@@ -209,7 +221,7 @@
         }
     ],
     "wof:id":1159322461,
-    "wof:lastmodified":1684353602,
+    "wof:lastmodified":1695878209,
     "wof:name":"Le Plessis-Robinson",
     "wof:parent_id":102070119,
     "wof:placetype":"localadmin",
