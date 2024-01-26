@@ -3,7 +3,9 @@
   "type": "Feature",
   "properties": {
     "edtf:cessation":"uuuu",
+    "edtf:deprecated":"2024-01-19",
     "edtf:inception":"uuuu",
+    "edtf:superseded":"2024-01-19",
     "geom:area":0.0,
     "geom:area_square_m":0.0,
     "geom:bbox":"3.13947,43.31424,3.13947,43.31424",
@@ -27,15 +29,15 @@
     "gn:timezone":"Europe/Paris",
     "iso:country":"FR",
     "mz:hierarchy_label":1,
-    "mz:is_current":-1,
+    "mz:is_current":0,
     "src:geom":"geonames",
     "src:population":"geonames",
     "wof:belongsto":[
         85683419,
         102191581,
-        85633147,
-        404412933,
         404227659,
+        404412933,
+        85633147,
         1108826387,
         136253037,
         102070829
@@ -45,7 +47,7 @@
         "gn:id":3024239
     },
     "wof:country":"FR",
-    "wof:geomhash":"9305f0cfb442e2422b6e11e60a77c80e",
+    "wof:geomhash":"762af9a67a90f6970a058007fb7e6940",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -60,22 +62,24 @@
         }
     ],
     "wof:id":1343291181,
-    "wof:lastmodified":1536989860,
+    "wof:lastmodified":1706239542,
     "wof:name":"Colombiers",
     "wof:parent_id":404412933,
     "wof:placetype":"locality",
     "wof:population":2348,
     "wof:population_rank":4,
     "wof:repo":"whosonfirst-data-admin-fr",
-    "wof:superseded_by":[],
+    "wof:superseded_by":[
+        101773693
+    ],
     "wof:supersedes":[],
     "wof:tags":[]
 },
   "bbox": [
     3.13947,
-    43.31424000000001,
+    43.31424,
     3.13947,
-    43.31424000000001
+    43.31424
 ],
-  "geometry": {"coordinates":[3.13947,43.31424000000001],"type":"Point"}
+  "geometry": {"coordinates":[3.13947,43.31424],"type":"Point"}
 }
